@@ -65,7 +65,7 @@
   <aside id="side">
     <div class="scroll">
       <h1>Карта реестра: связи и точки</h1>
-      <p class="muted">Рабочий реестр <a href="../companies.csv">companies.csv</a> — карта сил: программы и инициативы, организации, компании США/Европы/Украины и субъекты вне США/Европы. Иранские компании — объекты анализа угроз и цепочек поставок; российских компаний в реестре нет. Точки стоят по официальному адресу штаб-квартиры (или минимум по городу, району / области, штату) — источник и точность в карточке и в <a href="locations.csv">locations.csv</a>. Узлы без опубликованной локации на карту не ставятся (список ниже и в <a href="UNLOCATED.md">UNLOCATED.md</a>). Если у нескольких узлов одна локация — это одна точка со списком. Нажмите на точку — откроется карточка.</p>
+      <p class="muted">Точки — только по официальному адресу штаб-квартиры (или минимум город, район / область, штат) из <a href="../companies.csv">реестра</a> и <a href="locations.csv">locations.csv</a>. Узлы без опубликованной локации — в списке ниже и в <a href="UNLOCATED.md">UNLOCATED.md</a>, на карту не ставятся; несколько узлов с одной локацией — одна точка.</p>
       <input type="search" id="q" placeholder="Поиск по названию…">
       <h2>Легенда и фильтр</h2>
       <div id="filters"></div>
@@ -73,7 +73,7 @@
       <label class="row"><input type="checkbox" id="labels"> подписи всех точек</label>
       <h2>Аналитические цепочки</h2>
       <ul id="chains"></ul>
-      <p class="muted">Связь рисуется только при наличии основания в реестре и URL источника (см. <a href="links.json">links.json</a>) и только если оба конца имеют точку. Внешние узлы (пунктирный контур) — организации, названные в источнике, но не внесённые в реестр.</p>
+      <p class="muted">Связи — только с URL источника (<a href="links.json">links.json</a>) и только если оба конца имеют точку; пунктир — внешний узел, которого нет в реестре.</p>
       <h2 id="unloc-h">Без точки на карте</h2>
       <ul id="unloc"></ul>
     </div>
@@ -82,7 +82,7 @@
   <div id="map"></div>
 </div>
 <script src="vendor/leaflet.js?v=t27"></script>
-<script src="data.js?v=t35"></script>
+<script src="data.js?v=t36"></script>
 <script>
 (function(){
 const D = window.MAP_DATA;
@@ -201,7 +201,7 @@ layout(); refresh();
 if(!Object.keys(points).length){
   L.popup({closeButton:false, maxWidth:360, autoClose:false, closeOnClick:false})
     .setLatLng(map.getCenter())
-    .setContent("<div class=\"pp\"><h3>Точек на карте нет</h3><p>В загруженных данных нет координат. Обновите страницу без кэша (Ctrl+F5) или откройте <a href=\"data.js?v=t35\">data.js</a>.</p></div>")
+    .setContent("<div class=\"pp\"><h3>Точек на карте нет</h3><p>В загруженных данных нет координат. Обновите страницу без кэша (Ctrl+F5) или откройте <a href=\"data.js?v=t36\">data.js</a>.</p></div>")
     .openOn(map);
 }
 
