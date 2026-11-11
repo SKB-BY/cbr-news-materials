@@ -25,9 +25,9 @@
   .row input { margin:0; }
   .sw { width:16px; height:16px; flex:none; display:inline-flex; align-items:center; justify-content:center; }
   .ln { width:26px; height:0; border-top:2.5px solid; flex:none; }
-  #chains { list-style:none; padding:0; margin:0; }
-  #chains li { padding:6px 8px; margin:3px 0; border-radius:6px; background:#fff; border:1px solid var(--line); cursor:pointer; font-size:12.5px; }
-  #chains li:hover { border-color:var(--accent); }
+  #chains, #unloc { list-style:none; padding:0; margin:0; }
+  #chains li, #unloc li { padding:6px 8px; margin:3px 0; border-radius:6px; background:#fff; border:1px solid var(--line); cursor:pointer; font-size:12.5px; }
+  #chains li:hover, #unloc li:hover { border-color:var(--accent); }
   .tag { display:inline-block; font-size:10.5px; padding:1px 6px; border-radius:10px; margin-right:4px; color:#fff; }
   /* markers */
   .mk { width:14px; height:14px; border:2px solid #fff; box-shadow:0 1px 3px #0005; }
@@ -42,6 +42,10 @@
   .tiles-dark { filter:invert(1) hue-rotate(180deg) grayscale(.6) brightness(.9) contrast(.9); }
   .leaflet-container { background:#eef1f4; }
   .leaflet-div-icon.mkw { background:none; border:none; }
+  .mk .n { position:absolute; left:9px; top:-9px; font:700 9.5px/13px system-ui,sans-serif; color:#1c2733; background:#fff; border:1px solid #c7d0da; border-radius:7px; padding:0 3px; transform:none; }
+  .mk.program .n { transform:rotate(-45deg); }
+  .mk { position:relative; }
+  .pp + .pp { border-top:1px solid var(--line); margin-top:10px; padding-top:10px; }
   .leaflet-tooltip.lbl { padding:2px 6px; font-size:11.5px; border-radius:6px; box-shadow:0 1px 3px #0003; }
   /* popups */
   .leaflet-popup-content-wrapper { border-radius:10px; }
@@ -61,7 +65,7 @@
   <aside id="side">
     <div class="scroll">
       <h1>Карта реестра: связи и точки</h1>
-      <p class="muted">Рабочий реестр <a href="../companies.csv">companies.csv</a> — карта сил: программы и инициативы, организации, компании США/Европы/Украины и субъекты вне США/Европы. Российские и иранские компании — объекты анализа угроз и цепочек поставок. Точки стоят по стране (не по адресу); внутри страны раскладываются спиралью. Нажмите на точку — откроется карточка.</p>
+      <p class="muted">Рабочий реестр <a href="../companies.csv">companies.csv</a> — карта сил: программы и инициативы, организации, компании США/Европы/Украины и субъекты вне США/Европы. Иранские компании — объекты анализа угроз и цепочек поставок; российских компаний в реестре нет. Точки стоят по официальному адресу штаб-квартиры (или минимум по городу, району / области, штату) — источник и точность в карточке и в <a href="locations.csv">locations.csv</a>. Узлы без опубликованной локации на карту не ставятся (список ниже и в <a href="UNLOCATED.md">UNLOCATED.md</a>). Если у нескольких узлов одна локация — это одна точка со списком. Нажмите на точку — откроется карточка.</p>
       <input type="search" id="q" placeholder="Поиск по названию…">
       <h2>Легенда и фильтр</h2>
       <div id="filters"></div>
@@ -69,9 +73,11 @@
       <label class="row"><input type="checkbox" id="labels"> подписи всех точек</label>
       <h2>Аналитические цепочки</h2>
       <ul id="chains"></ul>
-      <p class="muted">Связь рисуется только при наличии основания в реестре и URL источника (см. <a href="links.json">links.json</a>). Внешние узлы (пунктирный контур) — организации, названные в источнике, но не внесённые в реестр.</p>
+      <p class="muted">Связь рисуется только при наличии основания в реестре и URL источника (см. <a href="links.json">links.json</a>) и только если оба конца имеют точку. Внешние узлы (пунктирный контур) — организации, названные в источнике, но не внесённые в реестр.</p>
+      <h2 id="unloc-h">Без точки на карте</h2>
+      <ul id="unloc"></ul>
     </div>
-    <footer id="credit">Подложка: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">участники OpenStreetMap</a> (ODbL). Карта: <a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a> 1.9.4.</footer>
+    <footer id="credit">Подложка: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">участники OpenStreetMap</a> (ODbL). Геокодирование: <a href="https://nominatim.org" target="_blank" rel="noopener">Nominatim</a> / OpenStreetMap. Карта: <a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a> 1.9.4.</footer>
   </aside>
   <div id="map"></div>
 </div>
@@ -80,21 +86,15 @@
 <script>
 (function(){
 const D = window.MAP_DATA;
-const CENTER = { // [lat, lon]
-  "США":[39,-98],"Великобритания":[53.5,-2],"Франция":[46.6,2.3],"Германия":[51.1,10.4],"Италия":[42.6,12.6],
-  "Испания":[40.2,-3.7],"Швеция":[62,15.5],"Норвегия":[61,9],"Финляндия":[63,26],"Нидерланды":[52.2,5.3],
-  "Эстония":[58.7,25.5],"Португалия":[39.6,-8.2],"Польша":[52,19.4],"Латвия":[56.9,24.6],"Чехия":[49.8,15.4],
-  "Украина":[49,31.2],"Австрия":[47.5,14.5],"Турция":[39,35],"Израиль":[31.4,34.9],"Китай":[35,104],
-  "Россия":[56,44],"Иран":[32.4,53.7],"НАТО":[50.85,4.4],"ЕС":[50.85,4.35],"Монако":[43.7,7.4],"Япония":[36,138]
-};
 const KIND = {
   program:{label:"Программа / инициатива", color:"#2f6fdb"},
   agency:{label:"Организация (агентство)", color:"#0f9d8a"},
   company:{label:"Компания США / Европы / Украины", color:"#5b6b7c"},
   outside:{label:"Компания вне США/Европы", color:"#8a63d2"},
-  threat:{label:"Объект анализа угроз (Россия, Иран)", color:"#e5484d"},
+  threat:{label:"Объект анализа угроз (Иран)", color:"#e5484d"},
   external:{label:"Внешний узел (нет в реестре)", color:"#d08a1e"}
 };
+const PREC = {street:"адрес (улица)", city:"город", region:"район / область", state:"штат"};
 const LINK = {
   structure:{label:"Структура (подчинённость агентств и программ)", color:"#2f6fdb", dash:null, short:"структура"},
   customer:{label:"Заказчик (с источником)", color:"#16a34a", dash:"6 5", short:"заказчик"},
@@ -102,20 +102,21 @@ const LINK = {
 };
 function cat(n){ if(n.external) return "external"; if(n.threat) return "threat"; if(n.kind==="program") return "program";
   if(n.kind==="agency") return "agency"; return n.region==="outside" ? "outside" : "company"; }
-function country(c){ c=(c||"").split("/")[0].trim(); return CENTER[c] ? c : "НАТО"; }
 function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 function urls(s){ return (s||"").split(/\s+/).filter(Boolean).map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\//,"").slice(0,60))}</a>`).join("<br>"); }
 function short(n){ return n.name.split(" — ")[0]; }
 
 const nodes = D.nodes.map(n=>Object.assign({},n)).concat(D.external.map(x=>Object.assign({external:true,kind:"external"},x)));
 const byId = {}; nodes.forEach(n=>byId[n.id]=n);
-const groups = {};
-nodes.forEach(n=>{ const c = n.country==="ЕС" ? "ЕС" : country(n.country); n._c=c; (groups[c]=groups[c]||[]).push(n); });
-Object.values(groups).forEach(g=>{ g.sort((a,b)=>cat(a).localeCompare(cat(b))||a.name.localeCompare(b.name)); g.forEach((n,i)=>n._i=i); });
-(groups["ЕС"]||[]).forEach(n=>n._i += (groups["НАТО"]||[]).length); // NATO and EU share Brussels
+const placed = nodes.filter(n=>n.lat!=null && n.lon!=null), unplaced = nodes.filter(n=>n.lat==null || n.lon==null);
+// one point per published location: nodes with identical coordinates share one marker (no jitter)
+const points = {};
+placed.forEach(n=>{ const k=n.lat.toFixed(6)+","+n.lon.toFixed(6); n._k=k; (points[k]=points[k]||{k, lat:n.lat, lon:n.lon, nodes:[]}).nodes.push(n); });
+const ORDER = ["threat","program","agency","external","outside","company"];
+Object.values(points).forEach(p=>p.nodes.sort((a,b)=>ORDER.indexOf(cat(a))-ORDER.indexOf(cat(b))||a.name.localeCompare(b.name)));
 
 // Map: attribution control disabled (no bottom-right widget); credit is plain text in the side panel footer.
-const map = L.map("map", { attributionControl:false, zoomControl:false, worldCopyJump:true, minZoom:2, maxZoom:12 });
+const map = L.map("map", { attributionControl:false, zoomControl:false, worldCopyJump:true, minZoom:2, maxZoom:18 });
 L.control.zoom({ position:"topleft" }).addTo(map);
 L.control.scale({ position:"bottomleft", imperial:false }).addTo(map);
 const osm = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
@@ -129,25 +130,26 @@ base["Светлая (OpenStreetMap, приглушённая)"].addTo(map);
 L.control.layers(base, null, { position:"topright", collapsed:true }).addTo(map);
 map.fitBounds([[-5,-130],[72,150]]);
 
-// pixel spiral inside each country so points never pile up at any zoom
-function pos(n){ const c=CENTER[n._c]; const i=n._i; if(!i) return L.latLng(c[0],c[1]);
-  const p=map.latLngToLayerPoint(c), r=10*Math.sqrt(i), a=i*2.39996;
-  return map.layerPointToLatLng(L.point(p.x+r*Math.cos(a), p.y+r*Math.sin(a))); }
 function curve(a,b){ const pa=map.latLngToLayerPoint(a), pb=map.latLngToLayerPoint(b);
   const mx=(pa.x+pb.x)/2, my=(pa.y+pb.y)/2 - pa.distanceTo(pb)*0.18, out=[];
   for(let t=0;t<=1.0001;t+=0.05){ const x=(1-t)*(1-t)*pa.x+2*(1-t)*t*mx+t*t*pb.x, y=(1-t)*(1-t)*pa.y+2*(1-t)*t*my+t*t*pb.y;
     out.push(map.layerPointToLatLng(L.point(x,y))); } return out; }
 
-function popup(n){
+function card(n){
   const c=cat(n);
   const rel = D.links.filter(l=>l.from===n.id||l.to===n.id).map(l=>
     `<li><b>${esc(LINK[l.type].short)}</b>: ${esc(short(byId[l.from]))} → ${esc(short(byId[l.to]))}. ${esc(l.basis)}<br>${urls(l.source)}</li>`).join("");
   let h=`<div class="pp"><h3>${esc(n.name)}</h3><span class="tag" style="background:${KIND[c].color}">${esc(KIND[c].label)}</span>`;
   if(c==="threat") h+=`<div class="warn">Объект анализа угроз и цепочек поставок. Запись в реестре — для картирования, не признак сотрудничества.</div>`;
-  if(n.external) h+=`<p>${esc(n.country)}. ${esc(n.note)}</p>`;
+  const row=(k,v)=> v?`<dt>${k}</dt><dd>${v}</dd>`:"";
+  const where = n.lat!=null
+    ? row("Адрес / локация",esc(n.address))+row("Точность",esc(PREC[n.precision]||n.precision))
+      +row("Источник адреса",urls(n.location_source)+(n.location_as_of?` <span class="muted">(${esc(n.location_as_of)})</span>`:""))
+      +row("Примечание",esc(n.location_note))
+    : row("Локация",`не размещён на карте: ${esc(n.unlocated_reason)}`);
+  if(n.external) h+=`<p>${esc(n.country)}. ${esc(n.note)}</p><dl>${where}</dl>`;
   else {
-    const row=(k,v)=> v?`<dt>${k}</dt><dd>${v}</dd>`:"";
-    h+="<dl>"+row("Страна",esc(n.country))+row("Регион",esc(n.region))+row(n.kind==="company"?"Профиль":"Роль",esc(n.role_focus))
+    h+="<dl>"+where+row("Страна",esc(n.country))+row("Регион",esc(n.region))+row(n.kind==="company"?"Профиль":"Роль",esc(n.role_focus))
       +row("Подчинённость",n.kind!=="company"?esc(n.sponsor):"")+row("Сайт",urls(n.url))+row("Источник",urls(n.source_url))
       +row("Заказчики",esc(n.customers))+row("Источник заказчиков",urls(n.customers_source))
       +row("Владелец / UBO",esc(n.ubo_name))+row("Источник UBO",urls(n.ubo_source))
@@ -161,35 +163,43 @@ function popup(n){
 const vis = {program:true, agency:true, company:true, outside:true, threat:true, external:true};
 const markers = {}, lines = [];
 const mLayer = L.layerGroup().addTo(map), lLayer = L.layerGroup().addTo(map);
-nodes.forEach(n=>{ const c=cat(n);
-  const icon=L.divIcon({className:"mkw", html:`<div class="mk ${c}${n.red_flags?" risk":""}"></div>`, iconSize:[14,14], iconAnchor:[7,7], popupAnchor:[0,-8]});
-  const m=L.marker(pos(n),{icon, title:n.name, riseOnHover:true});
-  m.bindPopup(()=>popup(n),{maxWidth:420, autoPanPadding:[30,30]});
-  m.bindTooltip(short(n),{direction:"right", offset:[8,0], className:"lbl"});
-  markers[n.id]=m; });
-D.links.forEach(l=>{ const s=LINK[l.type];
+function visibleAt(p){ return p.nodes.filter(n=>vis[cat(n)]); }
+function makeMarker(p){
+  const vn=visibleAt(p); if(!vn.length) return null; const n=vn[0], c=cat(n), risk=vn.some(x=>x.red_flags);
+  const icon=L.divIcon({className:"mkw", html:`<div class="mk ${c}${risk?" risk":""}">${vn.length>1?`<span class="n">${vn.length}</span>`:""}</div>`, iconSize:[14,14], iconAnchor:[7,7], popupAnchor:[0,-8]});
+  const m=L.marker([p.lat,p.lon],{icon, title:vn.map(x=>x.name).join(" · "), riseOnHover:true});
+  m.bindPopup(()=>visibleAt(p).map(card).join(""),{maxWidth:420, autoPanPadding:[30,30]});
+  return m; }
+function label(p){ return visibleAt(p).map(short).join(" · "); }
+D.links.forEach(l=>{ const s=LINK[l.type], a=byId[l.from], b=byId[l.to];
+  if(a.lat==null || b.lat==null || a._k===b._k) return; // unplaced end or same point: listed, not drawn
   const pl=L.polyline([], {color:s.color, weight:2.5, opacity:.85, dashArray:s.dash});
-  pl.bindTooltip(`${esc(short(byId[l.from]))} → ${esc(short(byId[l.to]))}: ${esc(l.basis)}`,{sticky:true});
-  pl.on("click",()=>markers[l.to].openPopup()); lines.push([l,pl]); });
+  pl.bindTooltip(`${esc(short(a))} → ${esc(short(b))}: ${esc(l.basis)}`,{sticky:true});
+  pl.on("click",()=>openNode(b)); lines.push([l,pl]); });
 
-function layout(){ nodes.forEach(n=>markers[n.id].setLatLng(pos(n)));
-  lines.forEach(([l,pl])=>pl.setLatLngs(curve(markers[l.from].getLatLng(), markers[l.to].getLatLng()))); }
+function layout(){ lines.forEach(([l,pl])=>{ const a=byId[l.from], b=byId[l.to]; pl.setLatLngs(curve(L.latLng(a.lat,a.lon), L.latLng(b.lat,b.lon))); }); }
 function refresh(){
   const q=document.getElementById("q").value.trim().toLowerCase(), all=document.getElementById("labels").checked;
   mLayer.clearLayers(); lLayer.clearLayers();
-  nodes.forEach(n=>{ if(!vis[cat(n)]) return; const m=markers[n.id]; mLayer.addLayer(m);
-    const perm = all || (q.length>1 && n.name.toLowerCase().includes(q));
-    const t=m.getTooltip(); if(t.options.permanent!==perm){ m.unbindTooltip(); m.bindTooltip(short(n),{direction:"right",offset:[8,0],className:"lbl",permanent:perm}); } });
+  Object.values(points).forEach(p=>{ const m=makeMarker(p); markers[p.k]=m; if(!m) return; mLayer.addLayer(m);
+    const perm = all || (q.length>1 && visibleAt(p).some(n=>n.name.toLowerCase().includes(q)));
+    m.bindTooltip(label(p),{direction:"right",offset:[8,0],className:"lbl",permanent:perm}); });
   lines.forEach(([l,pl])=>{ if(vis[cat(byId[l.from])] && vis[cat(byId[l.to])]) lLayer.addLayer(pl); });
 }
 map.on("zoomend viewreset", layout);
 layout(); refresh();
 
-// legend + filters
+function openNode(n){
+  if(n.lat==null){ L.popup({maxWidth:420}).setLatLng(map.getCenter()).setContent(card(n)).openOn(map); return; }
+  if(!vis[cat(n)]) return;
+  map.setView([n.lat,n.lon], Math.max(map.getZoom(), n.precision==="street"?12:n.precision==="city"?9:6));
+  setTimeout(()=>{ const m=markers[n._k]; if(m) m.openPopup(); },250); }
+
+// legend + filters (placed / total per category)
 const fl=document.getElementById("filters");
-Object.entries(KIND).forEach(([k,K])=>{ const cnt=nodes.filter(n=>cat(n)===k).length;
+Object.entries(KIND).forEach(([k,K])=>{ const tot=nodes.filter(n=>cat(n)===k).length, on=placed.filter(n=>cat(n)===k).length;
   const lab=document.createElement("label"); lab.className="row";
-  lab.innerHTML=`<input type="checkbox" checked data-k="${k}"><span class="sw"><span class="mk ${k}" style="width:12px;height:12px"></span></span>${esc(K.label)} (${cnt})`;
+  lab.innerHTML=`<input type="checkbox" checked data-k="${k}"><span class="sw"><span class="mk ${k}" style="width:12px;height:12px"></span></span>${esc(K.label)} (${on===tot?tot:on+" из "+tot})`;
   fl.appendChild(lab); });
 { const lab=document.createElement("div"); lab.className="row";
   lab.innerHTML=`<span class="sw"><span class="mk company risk" style="width:12px;height:12px"></span></span>Маркер риска с источником (red_flags)`; fl.appendChild(lab); }
@@ -199,15 +209,20 @@ Object.values(LINK).forEach(s=>{ const d=document.createElement("div"); d.classN
 fl.addEventListener("change",e=>{ const k=e.target.dataset.k; if(k){ vis[k]=e.target.checked; refresh(); } });
 document.getElementById("labels").addEventListener("change",refresh);
 document.getElementById("q").addEventListener("input",()=>{ refresh(); const q=document.getElementById("q").value.trim().toLowerCase();
-  const n=q.length>2 && nodes.find(x=>vis[cat(x)] && x.name.toLowerCase().includes(q)); if(n) focus(n); });
+  const n=q.length>2 && nodes.find(x=>vis[cat(x)] && x.name.toLowerCase().includes(q)); if(n) openNode(n); });
 
-function focus(n){ const c=CENTER[n._c]; map.setView(c, Math.max(map.getZoom(),5)); setTimeout(()=>markers[n.id].openPopup(),250); }
 const ch=document.getElementById("chains");
-D.links.forEach(l=>{ const li=document.createElement("li"); const s=LINK[l.type];
-  li.innerHTML=`<span class="tag" style="background:${s.color}">${esc(s.short)}</span>${esc(short(byId[l.from]))} → ${esc(short(byId[l.to]))}`; li.title=l.basis;
-  li.onclick=()=>{ const a=markers[l.from].getLatLng(), b=markers[l.to].getLatLng();
-    map.fitBounds(L.latLngBounds([a,b]).pad(0.6),{maxZoom:6}); setTimeout(()=>markers[l.to].openPopup(),300); };
+D.links.forEach(l=>{ const li=document.createElement("li"); const s=LINK[l.type], a=byId[l.from], b=byId[l.to];
+  const off = a.lat==null || b.lat==null;
+  li.innerHTML=`<span class="tag" style="background:${s.color}">${esc(s.short)}</span>${esc(short(a))} → ${esc(short(b))}${off?' <span class="muted">(не рисуется: нет точки)</span>':''}`; li.title=l.basis;
+  li.onclick=()=>{ if(off || a._k===b._k){ openNode(a.lat==null?a:b); return; }
+    map.fitBounds(L.latLngBounds([[a.lat,a.lon],[b.lat,b.lon]]).pad(0.6),{maxZoom:8}); setTimeout(()=>{ const m=markers[b._k]; if(m) m.openPopup(); },300); };
   ch.appendChild(li); });
+const ul=document.getElementById("unloc");
+document.getElementById("unloc-h").textContent=`Без точки на карте (${unplaced.length})`;
+unplaced.forEach(n=>{ const li=document.createElement("li");
+  li.innerHTML=`<span class="tag" style="background:${KIND[cat(n)].color}">${esc(KIND[cat(n)].label.split(" ")[0])}</span>${esc(short(n))}`; li.title=n.unlocated_reason||"";
+  li.onclick=()=>openNode(n); ul.appendChild(li); });
 })();
 </script>
 </body>

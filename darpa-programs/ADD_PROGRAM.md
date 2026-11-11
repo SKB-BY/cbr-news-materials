@@ -28,3 +28,10 @@
 ## 4. Непроверенное
 
 Утверждение без источника записывается в `LEAD_CHECK` с вердиктом «не подтверждено» и перечнем проверенных страниц. В таблицы фактов оно не вносится.
+
+## 5. Поля «слепых зон» (с 11.11.2026)
+
+1. Поглощённая организация (`listing_status=acquired`): заполнить в `ACQUISITION` (`darpa_data.py`) `successor_entity` + `successor_source` и, только если открытый источник прямо называет дату закрытия сделки, `acquisition_date` + `acquisition_source`. Иначе дата пустая, причина — в `acquisition_note`. Для мониторинга правопреемника добавить шаблон в `SUCCESSOR_RX`.
+2. `entity_type` организации — в `ENTITY_TYPE` по словарю из README (`prime`, `company`, `corporate_division`, `FFRDC`, `UARC`, `university`, `university_spinout`, `nonprofit_research`, `other`) и с URL источника. `FFRDC` — только по Master Government List NSF; `university_spinout` — только при прямой формулировке источника. Без источника — пусто.
+3. `adversarial_mirror` программы — в `MIRROR` только при источнике, прямо описывающем программу-аналог. Предложение без источника — строка в `LEAD_CHECK` с вердиктом «не подтверждено».
+4. После внесения: `python3 darpa.py all --out <клон darpa-programs>`, затем рабочие списки: `python3 scripts/sam_subawards.py`, `SEC_EDGAR_USER_AGENT=… python3 scripts/revolving_door.py`, `SEC_EDGAR_USER_AGENT=… python3 scripts/proxy_detector.py --db news.sqlite`. Их результаты (`data/*.md`) в таблицы фактов автоматически не переносятся.

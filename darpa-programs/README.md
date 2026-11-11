@@ -55,3 +55,30 @@
 - не установлено: 1
 
 Таблицы: `data/darpa_item_tags.json` (разметка новостей), `data/darpa_orgs.csv` (листинг, тикер, биржа, источник), `data/darpa_program_orgs.csv`, `data/darpa_personnel.csv`, `data/darpa_programs.csv`, `data/darpa_lead_check.csv`.
+
+## Слепые зоны реестра: поля и скрипты (11.11.2026)
+
+Это **рабочий** реестр. Пустая ячейка значит «открытого источника на дату проверки нет», а не «нет связи». Непроверенные утверждения и вводные списки остаются в `LEAD_CHECK.md` с вердиктом «не подтверждено» и в основные таблицы не вносятся. Рабочие списки скриптов (`data/*.md`) — кандидаты для ручной проверки, не перепись и не факты реестра; в `darpa_orgs.csv` из них ничего не вносится автоматически.
+
+### Новые колонки
+
+| Таблица | Колонка | Правило |
+|---|---|---|
+| `darpa_orgs.csv` | `successor_entity`, `successor_source` | правопреемник / материнская группа — только со страницей источника |
+| `darpa_orgs.csv` | `acquisition_date`, `acquisition_source`, `acquisition_note` | дата закрытия сделки — только если открытый источник её прямо называет; иначе пусто и причина в `acquisition_note` |
+| `darpa_orgs.csv`, `darpa_program_orgs.csv` | `entity_type` (+ `entity_type_source` в orgs) | словарь: `prime`, `company`, `corporate_division`, `FFRDC`, `UARC`, `university`, `university_spinout`, `nonprofit_research`, `other`; пусто — не классифицировано |
+| `darpa_programs.csv` | `adversarial_mirror`, `mirror_country`, `mirror_source` | заполняется только при источнике, прямо описывающем программу-аналог; предложения без источника — в `LEAD_CHECK.md` |
+| `darpa_personnel.csv` | `red_flag`, `red_flag_source` | только с источником; кандидаты из `revolving_door.py` сюда не переносятся автоматически |
+
+`entity_type`: `FFRDC` — только по Master Government List of FFRDCs (NSF NCSES, https://www.nsf.gov/statistics/ffrdclist/); `university_spinout` — только при прямой формулировке источника; `prime` — только организации, которые `companies.csv` относит к Tier 1.
+
+### Мониторинг правопреемника
+
+Агрегатор продолжает искать старое название организации (`ORG_RX` в `darpa.py`). Если у организации заполнен `successor_entity`, `darpa.py tag` дополнительно размечает материал старым `org_id`, когда в тексте одновременно названы правопреемник (`SUCCESSOR_RX` в `darpa_data.py`) и сильный шаблон программы, с которой старая организация связана в `darpa_program_orgs.csv` (в `matched` — `successor:<org_id>`). Для организаций без связи с программой связка не работает (нет проверенных терминов технологии).
+
+### Скрипты (`scripts/`, только стандартная библиотека Python)
+
+- `sam_subawards.py` — головные контракты и субподряды по исполнителям реестра из открытого API USAspending.gov (агентство DARPA) → `data/sam_subawards.csv`, `data/sam_subawards.md` (рабочий список субподрядчиков, которых нет в `darpa_orgs.csv`).
+- `revolving_door.py` — перекрёстная проверка `darpa_personnel.csv` с официальными данными SEC EDGAR (инсайдерские отчёты Forms 3/4/5 и списки должностных лиц компаний с листингом) → `data/revolving_door.md`. LinkedIn не используется.
+- `proxy_detector.py` — для компаний с листингом берёт Exhibit 21 («Subsidiaries of the Registrant») из последнего 10-K в SEC EDGAR и сравнивает дочерние структуры с названиями в `data/darpa_item_tags.json` → `data/potential_shells.md` / `.csv`.
+- Для запросов к SEC нужна переменная `SEC_EDGAR_USER_AGENT` (описательный User-Agent с контактом); без неё скрипты работают только в режиме `--dry-run`.
