@@ -18,6 +18,18 @@
    "name": "Naval Group",
    "country": "Франция",
    "note": "вне реестра; прайм-подрядчик и интегратор по заказу S-100 для FREMM (по сайту Schiebel)"
+  },
+  {
+   "id": "x-skyfall",
+   "name": "SkyFall",
+   "country": "Украина",
+   "note": "вне реестра: официальный сайт skyfall.ua 11.11.2026 не открылся (TLS-ошибка / HTTP 500), поэтому строка реестра не создана. По релизу Airbus (12.06.2026, раздел About SkyFall): производит бомбардировщик «Vampire» («the enemy nicknamed “Baba Yaga”»), FPV Shrike, перехватчики P1-SUN против «Shahed», средства связи и компоненты"
+  },
+  {
+   "id": "x-japan-mod",
+   "name": "Министерство обороны Японии",
+   "country": "Япония",
+   "note": "вне реестра; заказчик перехватчиков SkyFall по стенограмме пресс-конференции министра обороны 09.10.2026"
   }
  ],
  "links": [
@@ -146,6 +158,62 @@
    "type": "partner",
    "basis": "соглашение о создании СП в США по производству спецхимии (одноосновный порох для артбоеприпасов, в т.ч. 155 мм), подписано 11.07.2025 в Риме",
    "source": "https://www.dmholding.com/industry-articles/us-ukraine-ammunition-jv/"
+  },
+  {
+   "from": "airbus-ds",
+   "to": "x-skyfall",
+   "type": "partner",
+   "basis": "Airbus Defence and Space и SkyFall подписали меморандум (MoU) о стратегическом партнёрстве на ILA Berlin, 12.06.2026 (релиз Airbus); партнёрство, не подчинённость",
+   "source": "https://www.airbus.com/en/newsroom/press-releases/2026-06-airbus-and-skyfall-form-strategic-alliance-to-advance-european-and-ukrainian-defence-innovation"
+  },
+  {
+   "from": "x-japan-mod",
+   "to": "x-skyfall",
+   "type": "customer",
+   "basis": "министр обороны Японии С. Коидзуми, 09.10.2026: «既に防衛省では、ウクライナのスカイフォール社の迎撃用ドローンの取得契約を締結しており» — контракт на приобретение дронов-перехватчиков уже подписан; модель, количество и сумма не названы",
+   "source": "https://www.mod.go.jp/j/press/kisha/2026/1009a.html"
+  },
+  {
+   "from": "redcat",
+   "to": "sine-engineering",
+   "type": "partner",
+   "basis": "Red Cat и Sine Advanced Engineering, Inc. (американское подразделение Sine) подписали неэксклюзивный MoU о стратегическом партнёрстве: интеграция связи и навигации Sine в БЭК Blue Ops и БЛА Red Cat (релиз Red Cat, 02.11.2026)",
+   "source": "https://ir.redcatholdings.com/news-events/press-releases/detail/248/red-cat-announces-strategic-partnership-with-sine-engineering-to-strengthen-resilient-communications-and-navigation-across-air-and-maritime-systems"
+  },
+  {
+   "from": "phantom-defense",
+   "to": "drone-dominance",
+   "type": "partner",
+   "basis": "Phantom Defense участвовала в Gauntlet II программы Drone Dominance (Форт-Карсон): одна из трёх компаний, создававших РЭБ-среду противодействия для испытаний БЛА; после этапа получила приглашения на дальнейшие мероприятия (по сайту компании). Испытания, не подчинённость",
+   "source": "https://www.phantomdefense.tech/en/blog/phantom-defense-drone-dominance-gauntlet-ii"
+  },
+  {
+   "from": "diu",
+   "to": "drone-dominance",
+   "type": "structure",
+   "basis": "DDP «jointly administered by the Test Resource Management Center (TRMC) and the Defense Innovation Unit (DIU)»; DIU курирует работу с промышленностью",
+   "source": "https://dronedominance.mil/"
+  },
+  {
+   "from": "trmc",
+   "to": "drone-dominance",
+   "type": "structure",
+   "basis": "TRMC — «primary execution authority and test range coordinator» программы Drone Dominance",
+   "source": "https://dronedominance.mil/"
+  },
+  {
+   "from": "techex",
+   "to": "brave1",
+   "type": "partner",
+   "basis": "по сайту TechEx: «TechEx works with the Ukrainian state through the BRAVE1 defense innovation cluster and the Dot Chain procurement system» (заявление компании)",
+   "source": "https://techex.com.ua/en/about-us/"
+  },
+  {
+   "from": "militech",
+   "to": "brave1",
+   "type": "partner",
+   "basis": "по сайту MILITECH: решения «available on the government portals DOT and Brave1» (заявление компании)",
+   "source": "https://www.militech.com.ua/en"
   }
  ]
 }
