@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Карта реестра CBR: программы, организации, компании, объекты анализа угроз</title>
+<style>
+  :root { --bg:#0f1720; --land:#1e2a36; --border:#3a4a5a; --text:#e6edf3; --muted:#9fb0c0; }
+  html,body { margin:0; height:100%; background:var(--bg); color:var(--text); font:14px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  #wrap { display:flex; height:100vh; }
+  #side { width:340px; min-width:280px; overflow:auto; padding:12px 14px; border-right:1px solid #24313e; box-sizing:border-box; }
+  #mapbox { position:relative; flex:1; overflow:hidden; }
+  svg { width:100%; height:100%; display:block; cursor:grab; }
+  svg.drag { cursor:grabbing; }
+  .land { fill:var(--land); stroke:var(--border); stroke-width:0.6; vector-effect:non-scaling-stroke; }
+  .grat { fill:none; stroke:#1a2530; stroke-width:0.5; vector-effect:non-scaling-stroke; }
+  .link { fill:none; stroke-width:1.6; opacity:.85; }
+  .link.structure { stroke:#6aa9ff; }
+  .link.customer { stroke:#5fd39a; stroke-dasharray:5 3; }
+  .link.ubo { stroke:#f2b04c; stroke-dasharray:2 3; }
+  .node { cursor:pointer; stroke:#0f1720; stroke-width:1; }
+  .node.sel { stroke:#fff; stroke-width:2.5; }
+  .flagged { fill:none; stroke:#ff4d4d; stroke-width:1.6; pointer-events:none; }
+  .lbl { font-size:11px; fill:#cfd8e3; pointer-events:none; paint-order:stroke; stroke:#0f1720; stroke-width:3px; }
+  h1 { font-size:16px; margin:0 0 6px; }
+  h2 { font-size:13px; margin:14px 0 6px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
+  .legend div { display:flex; align-items:center; gap:8px; margin:3px 0; }
+  .legend svg { width:22px; height:16px; cursor:default; }
+  label.f { display:flex; gap:6px; align-items:center; margin:2px 0; }
+  input[type=search] { width:100%; box-sizing:border-box; padding:6px; background:#16212c; color:var(--text); border:1px solid #2c3b4a; border-radius:4px; }
+  #info { position:absolute; right:12px; top:12px; width:min(420px,46vw); max-height:calc(100% - 60px); overflow:auto; background:#16212cf2; border:1px solid #2c3b4a; border-radius:6px; padding:12px 14px; display:none; }
+  #info h3 { margin:0 0 6px; font-size:15px; }
+  #info .close { float:right; cursor:pointer; color:var(--muted); }
+  #info dl { margin:0; display:grid; grid-template-columns:110px 1fr; gap:4px 8px; }
+  #info dt { color:var(--muted); }
+  #info dd { margin:0; word-break:break-word; }
+  .warn { background:#3a1d1d; border:1px solid #6b2b2b; padding:6px 8px; border-radius:4px; margin:6px 0; }
+  a { color:#7fb8ff; }
+  #chains li { margin:4px 0; cursor:pointer; }
+  #credit { position:absolute; left:8px; bottom:6px; font-size:11px; color:var(--muted); }
+  #zoom { position:absolute; left:12px; top:12px; display:flex; flex-direction:column; gap:4px; }
+  #zoom button { width:30px; height:30px; background:#16212c; color:var(--text); border:1px solid #2c3b4a; border-radius:4px; font-size:16px; cursor:pointer; }
+  .muted { color:var(--muted); font-size:12px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <aside id="side">
+    <h1>Карта реестра: связи и точки</h1>
+    <p class="muted">Рабочий реестр <a href="../companies.csv">companies.csv</a>: программы и инициативы, организации (часть — аналоги DARPA), компании США/Европы/Украины и субъекты вне США/Европы. Это <b>не</b> перечень подчинённых DARPA. Российские и иранские компании — объекты анализа угроз и цепочек поставок. Точки стоят по стране (не по адресу); внутри страны раскладываются спиралью.</p>
+    <input type="search" id="q" placeholder="Поиск по названию…">
+    <h2>Легенда</h2>
+    <div class="legend" id="legend"></div>
+    <h2>Фильтр</h2>
+    <div id="filters"></div>
+    <label class="f"><input type="checkbox" id="labels"> подписи всех точек</label>
+    <h2>Аналитические цепочки</h2>
+    <ul id="chains" style="padding-left:18px;margin:0"></ul>
+    <p class="muted">Связь рисуется только при наличии основания в реестре и URL источника (см. <a href="links.json">links.json</a>). Внешние узлы (пунктирный контур) — организации, названные в источнике, но не внесённые в реестр.</p>
+  </aside>
+  <div id="mapbox">
+    <svg id="svg" xmlns="http://www.w3.org/2000/svg">
+      <g id="geo"></g><g id="links"></g><g id="nodes"></g><g id="labels-g"></g>
+    </svg>
+    <div id="zoom"><button id="zin" title="Приблизить">+</button><button id="zout" title="Отдалить">−</button><button id="zreset" title="Сбросить">⟲</button></div>
+    <div id="info"></div>
+    <div id="credit">Подложка: Natural Earth 1:110m (public domain). Карта — собственный SVG, без сторонних картографических библиотек.</div>
+  </div>
+</div>
+<script src="world.js"></script>
+<script src="data.js"></script>
+<script>
+(function(){
+const D = window.MAP_DATA, W = window.WORLD;
+const NS = "http://www.w3.org/2000/svg";
+const CENTER = { // [lon, lat]
+  "США":[-98,39],"Великобритания":[-2,53.5],"Франция":[2.3,46.6],"Германия":[10.4,51.1],"Италия":[12.6,42.6],
+  "Испания":[-3.7,40.2],"Швеция":[15.5,62],"Норвегия":[9,61],"Финляндия":[26,63],"Нидерланды":[5.3,52.2],
+  "Эстония":[25.5,58.7],"Португалия":[-8.2,39.6],"Польша":[19.4,52],"Латвия":[24.6,56.9],"Чехия":[15.4,49.8],
+  "Украина":[31.2,49],"Австрия":[14.5,47.5],"Турция":[35,39],"Израиль":[34.9,31.4],"Китай":[104,35],
+  "Россия":[44,56],"Иран":[53.7,32.4],"НАТО":[4.4,50.85],"ЕС":[4.35,50.85],"Монако":[7.4,43.7],"Япония":[138,36]
+};
+const KIND = {
+  program:{label:"Программа / инициатива", color:"#6aa9ff", shape:"diamond"},
+  agency:{label:"Организация (агентство, в т.ч. аналоги DARPA)", color:"#4fd1c5", shape:"square"},
+  company:{label:"Компания США / Европы / Украины", color:"#c9d3dd", shape:"circle"},
+  outside:{label:"Компания вне США/Европы", color:"#b79cff", shape:"circle"},
+  threat:{label:"Объект анализа угроз (Россия, Иран)", color:"#ff6b6b", shape:"triangle"},
+  external:{label:"Внешний узел (нет в реестре)", color:"none", shape:"ring"}
+};
+function cat(n){ if(n.external) return "external"; if(n.threat) return "threat"; if(n.kind==="program") return "program";
+  if(n.kind==="agency") return "agency"; return n.region==="outside" ? "outside" : "company"; }
+function firstCountry(c){ c=(c||"").split("/")[0].trim(); return CENTER[c] ? c : (CENTER[c]||"НАТО"); }
+
+const nodes = D.nodes.map(n=>Object.assign({},n)).concat(D.external.map(x=>Object.assign({external:true,kind:"external"},x)));
+const byId = {}; nodes.forEach(n=>byId[n.id]=n);
+// group by country for spiral layout
+const groups = {};
+nodes.forEach(n=>{ const c = (n.country==="ЕС") ? "ЕС" : firstCountry(n.country); n._c=c; (groups[c]=groups[c]||[]).push(n); });
+Object.values(groups).forEach(g=>{ g.sort((a,b)=>cat(a).localeCompare(cat(b))||a.name.localeCompare(b.name)); g.forEach((n,i)=>n._i=i); });
+// NATO and EU share Brussels: offset EU group index
+(groups["ЕС"]||[]).forEach(n=>n._i += (groups["НАТО"]||[]).length);
+
+const svg=document.getElementById("svg"), gGeo=document.getElementById("geo"), gLinks=document.getElementById("links"),
+      gNodes=document.getElementById("nodes"), gLab=document.getElementById("labels-g");
+let k=1, tx=0, ty=0, W0=1, H0=1, selected=null;
+const vis = {program:true, agency:true, company:true, outside:true, threat:true, external:true};
+// equirectangular projection to a 360x180 plane, cropped to lat -58..84
+function P(lon,lat){ return [lon+180, 90-lat]; }
+function scr(lon,lat){ const p=P(lon,lat); return [p[0]*k+tx, p[1]*k+ty]; }
+
+// basemap
+function ringPath(r){ return "M"+r.map(c=>{const p=P(c[0],c[1]);return p[0].toFixed(2)+","+p[1].toFixed(2);}).join("L")+"Z"; }
+W.features.forEach(f=>{ const g=f.geometry; const polys = g.type==="Polygon"?[g.coordinates]:g.coordinates;
+  const d = polys.map(poly=>poly.map(ringPath).join("")).join("");
+  const p=document.createElementNS(NS,"path"); p.setAttribute("d",d); p.setAttribute("class","land");
+  const t=document.createElementNS(NS,"title"); t.textContent=f.properties.name; p.appendChild(t); gGeo.appendChild(p); });
+for(let lon=-150;lon<=180;lon+=30){ const l=document.createElementNS(NS,"path"); const a=P(lon,84),b=P(lon,-58);
+  l.setAttribute("d",`M${a[0]},${a[1]}L${b[0]},${b[1]}`); l.setAttribute("class","grat"); gGeo.insertBefore(l,gGeo.firstChild); }
+for(let lat=-30;lat<=60;lat+=30){ const l=document.createElementNS(NS,"path"); const a=P(-180,lat),b=P(180,lat);
+  l.setAttribute("d",`M${a[0]},${a[1]}L${b[0]},${b[1]}`); l.setAttribute("class","grat"); gGeo.insertBefore(l,gGeo.firstChild); }
+
+function pos(n){ const c=CENTER[n._c]||CENTER["НАТО"]; const s=scr(c[0],c[1]);
+  const i=n._i; if(i===0) return s; const r=7.5*Math.sqrt(i), a=i*2.39996; return [s[0]+r*Math.cos(a), s[1]+r*Math.sin(a)]; }
+
+function shape(n){ return shapeK(cat(n)); }
+function shapeK(c){ const K=KIND[c]; let el; const s=c==="external"?6:5;
+  if(K.shape==="circle"||K.shape==="ring"){ el=document.createElementNS(NS,"circle"); el.setAttribute("r",s); }
+  else if(K.shape==="square"){ el=document.createElementNS(NS,"rect"); el.setAttribute("width",2*s); el.setAttribute("height",2*s); el.setAttribute("x",-s); el.setAttribute("y",-s); }
+  else if(K.shape==="diamond"){ el=document.createElementNS(NS,"path"); el.setAttribute("d",`M0,${-s-1.5}L${s+1.5},0L0,${s+1.5}L${-s-1.5},0Z`); }
+  else { el=document.createElementNS(NS,"path"); el.setAttribute("d",`M0,${-s-2}L${s+2},${s+1}L${-s-2},${s+1}Z`); }
+  el.setAttribute("fill", K.color==="none"?"#0f1720":K.color);
+  if(c==="external"){ el.style.stroke="#f2b04c"; el.style.strokeDasharray="2 2"; el.style.strokeWidth="1.8"; }
+  el.setAttribute("class","node"); return el; }
+
+function render(){
+  gGeo.setAttribute("transform",`translate(${tx},${ty}) scale(${k})`);
+  gLinks.innerHTML=""; gNodes.innerHTML=""; gLab.innerHTML="";
+  const q=document.getElementById("q").value.trim().toLowerCase(), all=document.getElementById("labels").checked;
+  const linked = new Set(); D.links.forEach(l=>{linked.add(l.from);linked.add(l.to);});
+  D.links.forEach(l=>{ const a=byId[l.from], b=byId[l.to]; if(!vis[cat(a)]||!vis[cat(b)]) return;
+    const p=pos(a), r=pos(b); const mx=(p[0]+r[0])/2, my=(p[1]+r[1])/2 - Math.hypot(r[0]-p[0],r[1]-p[1])*0.18;
+    const e=document.createElementNS(NS,"path"); e.setAttribute("d",`M${p[0]},${p[1]}Q${mx},${my} ${r[0]},${r[1]}`);
+    e.setAttribute("class","link "+l.type); const t=document.createElementNS(NS,"title"); t.textContent=`${a.name} → ${b.name}: ${l.basis}`; e.appendChild(t);
+    gLinks.appendChild(e); });
+  nodes.forEach(n=>{ if(!vis[cat(n)]) return; const p=pos(n); const el=shape(n);
+    el.setAttribute("transform",`translate(${p[0]},${p[1]})`); if(selected===n.id) el.classList.add("sel");
+    const t=document.createElementNS(NS,"title"); t.textContent=n.name; el.appendChild(t);
+    el.addEventListener("click",ev=>{ev.stopPropagation(); show(n);}); gNodes.appendChild(el);
+    if(n.red_flags){ const c=document.createElementNS(NS,"circle"); c.setAttribute("r",10); c.setAttribute("class","flagged");
+      c.setAttribute("cx",p[0]); c.setAttribute("cy",p[1]); gNodes.appendChild(c); }
+    const hit = q && n.name.toLowerCase().includes(q);
+    if(all || hit || selected===n.id || (k>=4 && linked.has(n.id))){ const tl=document.createElementNS(NS,"text");
+      tl.setAttribute("x",p[0]+9); tl.setAttribute("y",p[1]+4); tl.setAttribute("class","lbl"); tl.textContent=n.name.split(" — ")[0]; gLab.appendChild(tl); }
+  });
+}
+
+function esc(s){ return String(s||"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function urls(s){ return (s||"").split(/\s+/).filter(Boolean).map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\//,"").slice(0,60))}</a>`).join("<br>"); }
+function show(n){
+  selected=n.id; const box=document.getElementById("info"); const c=cat(n);
+  const rel = D.links.filter(l=>l.from===n.id||l.to===n.id).map(l=>{ const o=byId[l.from===n.id?l.to:l.from];
+    const tp={structure:"структура",customer:"заказчик",ubo:"владелец / материнская"}[l.type];
+    return `<li><b>${esc(tp)}</b>: ${esc(byId[l.from].name)} → ${esc(byId[l.to].name)}. ${esc(l.basis)} (${urls(l.source)})</li>`; }).join("");
+  let h=`<span class="close" id="xclose">✕</span><h3>${esc(n.name)}</h3><div class="muted">${esc(KIND[c].label)}</div>`;
+  if(c==="threat") h+=`<div class="warn">Объект анализа угроз и цепочек поставок. Не подчинён DARPA и не входит в контур программ DARPA; поле sponsor у компаний не заполняется.</div>`;
+  if(n.external) h+=`<p>${esc(n.note)}</p>`;
+  else {
+    const row=(k,v)=> v?`<dt>${k}</dt><dd>${v}</dd>`:"";
+    h+="<dl>"+row("Страна",esc(n.country))+row("Регион",esc(n.region))+row(n.kind==="company"?"Профиль":"Роль",esc(n.role_focus))
+      +row("Подчинённость",(n.kind!=="company")?esc(n.sponsor):"")+row("Сайт",urls(n.url))+row("Источник",urls(n.source_url))
+      +row("Заказчики",esc(n.customers))+row("Источник заказчиков",urls(n.customers_source))
+      +row("Владелец / UBO",esc(n.ubo_name))+row("Источник UBO",urls(n.ubo_source))
+      +row("Маркеры риска",esc(n.red_flags))+row("Источник маркеров",urls(n.red_flags_source))
+      +row("Tier",esc(n.tier_level))+row("Упоминаний в базе",esc(n.mentions))+"</dl>";
+  }
+  if(rel) h+=`<h2>Связи</h2><ul style="padding-left:18px">${rel}</ul>`;
+  box.innerHTML=h; box.style.display="block"; document.getElementById("xclose").onclick=()=>{box.style.display="none"; selected=null; render();};
+  render();
+}
+
+// legend + filters
+const lg=document.getElementById("legend"), fl=document.getElementById("filters");
+Object.entries(KIND).forEach(([key,K])=>{ const d=document.createElement("div"); const s=document.createElementNS(NS,"svg");
+  s.setAttribute("viewBox","-11 -9 22 18"); s.appendChild(shapeK(key));
+  d.appendChild(s); d.appendChild(document.createTextNode(K.label)); lg.appendChild(d);
+  const cnt=nodes.filter(n=>cat(n)===key).length;
+  const lab=document.createElement("label"); lab.className="f"; lab.innerHTML=`<input type="checkbox" checked data-k="${key}"> ${esc(K.label)} (${cnt})`; fl.appendChild(lab); });
+[["structure","#6aa9ff","","Структура (подчинённость агентств и программ)"],["customer","#5fd39a","5 3","Заказчик (с источником)"],["ubo","#f2b04c","2 3","Владелец / материнская компания (с источником)"]].forEach(([t,c,da,txt])=>{
+  const d=document.createElement("div"); d.innerHTML=`<svg viewBox="0 0 22 16"><path d="M1,8L21,8" stroke="${c}" stroke-width="2" stroke-dasharray="${da}"/></svg>${esc(txt)}`; lg.appendChild(d); });
+{ const d=document.createElement("div"); d.innerHTML=`<svg viewBox="-11 -9 22 18"><circle r="7" fill="none" stroke="#ff4d4d" stroke-width="1.6"/></svg>Маркер риска с источником (red_flags)`; lg.appendChild(d); }
+fl.addEventListener("change",e=>{ const k2=e.target.dataset.k; if(k2){ vis[k2]=e.target.checked; render(); } });
+document.getElementById("labels").addEventListener("change",render);
+document.getElementById("q").addEventListener("input",()=>{ const q=document.getElementById("q").value.trim().toLowerCase();
+  const m=q && nodes.find(n=>n.name.toLowerCase().includes(q)); render(); if(m && q.length>2) focusNode(m, false); });
+
+// chains list
+const ch=document.getElementById("chains");
+D.links.forEach(l=>{ const li=document.createElement("li"); const tp={structure:"структура",customer:"заказчик",ubo:"владелец"}[l.type];
+  li.innerHTML=`<b>${esc(tp)}</b>: ${esc(byId[l.from].name.split(" — ")[0])} → ${esc(byId[l.to].name.split(" — ")[0])}`; li.title=l.basis;
+  li.onclick=()=>focusNode(byId[l.to], true); ch.appendChild(li); });
+
+function focusNode(n, open){ const c=CENTER[n._c]; k=Math.max(k,9); const p=P(c[0],c[1]);
+  tx=W0*0.35-p[0]*k; ty=H0/2-p[1]*k; if(open) show(n); else render(); }
+
+// pan/zoom
+function fit(){ const r=svg.getBoundingClientRect(); W0=r.width; H0=r.height;
+  const lonMin=-130, lonMax=150, latMax=72, latMin=-5; const a=P(lonMin,latMax), b=P(lonMax,latMin);
+  k=Math.min(W0/(b[0]-a[0]), H0/(b[1]-a[1])); tx=(W0-(b[0]-a[0])*k)/2-a[0]*k; ty=(H0-(b[1]-a[1])*k)/2-a[1]*k; render(); }
+function zoomAt(f,cx,cy){ const nk=Math.min(60,Math.max(1,k*f)); tx=cx-(cx-tx)*nk/k; ty=cy-(cy-ty)*nk/k; k=nk; render(); }
+svg.addEventListener("wheel",e=>{ e.preventDefault(); const r=svg.getBoundingClientRect(); zoomAt(e.deltaY<0?1.2:1/1.2,e.clientX-r.left,e.clientY-r.top); },{passive:false});
+let drag=null; svg.addEventListener("pointerdown",e=>{ drag=[e.clientX,e.clientY,tx,ty]; svg.classList.add("drag"); });
+window.addEventListener("pointermove",e=>{ if(!drag) return; const dx=e.clientX-drag[0], dy=e.clientY-drag[1];
+  if(!drag[4] && Math.hypot(dx,dy)<4) return; drag[4]=true; tx=drag[2]+dx; ty=drag[3]+dy; render(); });
+window.addEventListener("pointerup",()=>{ drag=null; svg.classList.remove("drag"); });
+document.getElementById("zin").onclick=()=>zoomAt(1.5,W0/2,H0/2);
+document.getElementById("zout").onclick=()=>zoomAt(1/1.5,W0/2,H0/2);
+document.getElementById("zreset").onclick=fit;
+window.addEventListener("resize",fit); fit();
+})();
+</script>
+</body>
+</html>
