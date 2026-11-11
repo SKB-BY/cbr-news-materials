@@ -5,7 +5,7 @@
 <link rel="icon" href="data:,">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Карта реестра CBR: программы, организации, компании, объекты анализа угроз</title>
-<link rel="stylesheet" href="vendor/leaflet.css">
+<link rel="stylesheet" href="vendor/leaflet.css?v=t27">
 <style>
   :root { --bg:#ffffff; --panel:#f7f9fb; --line:#e3e8ee; --text:#1c2733; --muted:#5d6b7a; --accent:#2f6fdb; }
   * { box-sizing:border-box; }
@@ -29,20 +29,20 @@
   #chains li, #unloc li { padding:6px 8px; margin:3px 0; border-radius:6px; background:#fff; border:1px solid var(--line); cursor:pointer; font-size:12.5px; }
   #chains li:hover, #unloc li:hover { border-color:var(--accent); }
   .tag { display:inline-block; font-size:10.5px; padding:1px 6px; border-radius:10px; margin-right:4px; color:#fff; }
-  /* markers */
-  .mk { width:14px; height:14px; border:2px solid #fff; box-shadow:0 1px 3px #0005; }
-  .mk.program { background:#2f6fdb; transform:rotate(45deg); border-radius:2px; }
-  .mk.agency { background:#0f9d8a; border-radius:3px; }
-  .mk.company { background:#5b6b7c; border-radius:50%; }
-  .mk.outside { background:#8a63d2; border-radius:50%; }
-  .mk.threat { background:#e5484d; border-radius:50%; outline:2px solid #e5484d55; outline-offset:2px; }
-  .mk.external { background:#fff; border:2px dashed #d08a1e; border-radius:50%; }
-  .mk.risk { box-shadow:0 0 0 3px #e5484d88, 0 1px 3px #0005; }
-  .tiles-muted { filter:grayscale(.9) contrast(.92) brightness(1.06); }
+  /* markers: large, high-contrast (gray-on-gray 14px dots were effectively invisible) */
+  .mk { width:22px; height:22px; border:3px solid #fff; box-shadow:0 1px 4px #0007, 0 0 0 1px #1c273355; }
+  .mk.program { background:#2f6fdb; transform:rotate(45deg); border-radius:3px; }
+  .mk.agency { background:#0b8f7c; border-radius:4px; }
+  .mk.company { background:#1a56c4; border-radius:50%; }
+  .mk.outside { background:#7a3fd4; border-radius:50%; }
+  .mk.threat { background:#e5484d; border-radius:50%; outline:3px solid #e5484d66; outline-offset:2px; }
+  .mk.external { background:#fff; border:3px dashed #c47a0a; border-radius:50%; }
+  .mk.risk { box-shadow:0 0 0 4px #e5484d99, 0 1px 4px #0007; }
+  .tiles-muted { filter:grayscale(.35) contrast(.96) brightness(1.02); }
   .tiles-dark { filter:invert(1) hue-rotate(180deg) grayscale(.6) brightness(.9) contrast(.9); }
   .leaflet-container { background:#eef1f4; }
   .leaflet-div-icon.mkw { background:none; border:none; }
-  .mk .n { position:absolute; left:9px; top:-9px; font:700 9.5px/13px system-ui,sans-serif; color:#1c2733; background:#fff; border:1px solid #c7d0da; border-radius:7px; padding:0 3px; transform:none; }
+  .mk .n { position:absolute; left:14px; top:-10px; font:700 10px/14px system-ui,sans-serif; color:#1c2733; background:#fff; border:1px solid #c7d0da; border-radius:7px; padding:0 3px; transform:none; }
   .mk.program .n { transform:rotate(-45deg); }
   .mk { position:relative; }
   .pp + .pp { border-top:1px solid var(--line); margin-top:10px; padding-top:10px; }
@@ -81,15 +81,15 @@
   </aside>
   <div id="map"></div>
 </div>
-<script src="vendor/leaflet.js"></script>
-<script src="data.js"></script>
+<script src="vendor/leaflet.js?v=t27"></script>
+<script src="data.js?v=t27"></script>
 <script>
 (function(){
 const D = window.MAP_DATA;
 const KIND = {
   program:{label:"Программа / инициатива", color:"#2f6fdb"},
   agency:{label:"Организация (агентство)", color:"#0f9d8a"},
-  company:{label:"Компания США / Европы / Украины", color:"#5b6b7c"},
+  company:{label:"Компания США / Европы / Украины", color:"#1a56c4"},
   outside:{label:"Компания вне США/Европы", color:"#8a63d2"},
   threat:{label:"Объект анализа угроз (Иран)", color:"#e5484d"},
   external:{label:"Внешний узел (нет в реестре)", color:"#d08a1e"}
@@ -122,13 +122,22 @@ L.control.scale({ position:"bottomleft", imperial:false }).addTo(map);
 const osm = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
 const tileOpt = { maxZoom:19, crossOrigin:true };
 const base = {
-  "Светлая (OpenStreetMap, приглушённая)": L.tileLayer(osm, Object.assign({className:"tiles-muted"}, tileOpt)),
   "Стандартная (OpenStreetMap)": L.tileLayer(osm, tileOpt),
+  "Светлая (OpenStreetMap, приглушённая)": L.tileLayer(osm, Object.assign({className:"tiles-muted"}, tileOpt)),
   "Тёмная (OpenStreetMap, инверсия)": L.tileLayer(osm, Object.assign({className:"tiles-dark"}, tileOpt))
 };
-base["Светлая (OpenStreetMap, приглушённая)"].addTo(map);
+base["Стандартная (OpenStreetMap)"].addTo(map);
 L.control.layers(base, null, { position:"topright", collapsed:true }).addTo(map);
-map.fitBounds([[-5,-130],[72,150]]);
+(function(){
+  const pts = Object.values(points);
+  if(pts.length){
+    const b = L.latLngBounds(pts.map(p=>[p.lat,p.lon]));
+    map.fitBounds(b.pad(0.18), {maxZoom:5, animate:false});
+  } else {
+    map.fitBounds([[-5,-130],[72,150]]);
+  }
+  setTimeout(()=>map.invalidateSize(), 0);
+})();
 
 function curve(a,b){ const pa=map.latLngToLayerPoint(a), pb=map.latLngToLayerPoint(b);
   const mx=(pa.x+pb.x)/2, my=(pa.y+pb.y)/2 - pa.distanceTo(pb)*0.18, out=[];
@@ -166,13 +175,13 @@ const mLayer = L.layerGroup().addTo(map), lLayer = L.layerGroup().addTo(map);
 function visibleAt(p){ return p.nodes.filter(n=>vis[cat(n)]); }
 function makeMarker(p){
   const vn=visibleAt(p); if(!vn.length) return null; const n=vn[0], c=cat(n), risk=vn.some(x=>x.red_flags);
-  const icon=L.divIcon({className:"mkw", html:`<div class="mk ${c}${risk?" risk":""}">${vn.length>1?`<span class="n">${vn.length}</span>`:""}</div>`, iconSize:[14,14], iconAnchor:[7,7], popupAnchor:[0,-8]});
+  const icon=L.divIcon({className:"mkw", html:`<div class="mk ${c}${risk?" risk":""}">${vn.length>1?`<span class="n">${vn.length}</span>`:""}</div>`, iconSize:[22,22], iconAnchor:[11,11], popupAnchor:[0,-12]});
   const m=L.marker([p.lat,p.lon],{icon, title:vn.map(x=>x.name).join(" · "), riseOnHover:true});
   m.bindPopup(()=>visibleAt(p).map(card).join(""),{maxWidth:420, autoPanPadding:[30,30]});
   return m; }
 function label(p){ return visibleAt(p).map(short).join(" · "); }
 D.links.forEach(l=>{ const s=LINK[l.type], a=byId[l.from], b=byId[l.to];
-  if(a.lat==null || b.lat==null || a._k===b._k) return; // unplaced end or same point: listed, not drawn
+  if(!s || !a || !b || a.lat==null || b.lat==null || a._k===b._k) return; // unplaced end or same point: listed, not drawn
   const pl=L.polyline([], {color:s.color, weight:2.5, opacity:.85, dashArray:s.dash});
   pl.bindTooltip(`${esc(short(a))} → ${esc(short(b))}: ${esc(l.basis)}`,{sticky:true});
   pl.on("click",()=>openNode(b)); lines.push([l,pl]); });
@@ -188,6 +197,12 @@ function refresh(){
 }
 map.on("zoomend viewreset", layout);
 layout(); refresh();
+if(!Object.keys(points).length){
+  L.popup({closeButton:false, maxWidth:360, autoClose:false, closeOnClick:false})
+    .setLatLng(map.getCenter())
+    .setContent("<div class=\"pp\"><h3>Точек на карте нет</h3><p>В загруженных данных нет координат. Обновите страницу без кэша (Ctrl+F5) или откройте <a href=\"data.js?v=t27\">data.js</a>.</p></div>")
+    .openOn(map);
+}
 
 function openNode(n){
   if(n.lat==null){ L.popup({maxWidth:420}).setLatLng(map.getCenter()).setContent(card(n)).openOn(map); return; }
@@ -199,10 +214,10 @@ function openNode(n){
 const fl=document.getElementById("filters");
 Object.entries(KIND).forEach(([k,K])=>{ const tot=nodes.filter(n=>cat(n)===k).length, on=placed.filter(n=>cat(n)===k).length;
   const lab=document.createElement("label"); lab.className="row";
-  lab.innerHTML=`<input type="checkbox" checked data-k="${k}"><span class="sw"><span class="mk ${k}" style="width:12px;height:12px"></span></span>${esc(K.label)} (${on===tot?tot:on+" из "+tot})`;
+  lab.innerHTML=`<input type="checkbox" checked data-k="${k}"><span class="sw"><span class="mk ${k}" style="width:14px;height:14px"></span></span>${esc(K.label)} (${on===tot?tot:on+" из "+tot})`;
   fl.appendChild(lab); });
 { const lab=document.createElement("div"); lab.className="row";
-  lab.innerHTML=`<span class="sw"><span class="mk company risk" style="width:12px;height:12px"></span></span>Маркер риска с источником (red_flags)`; fl.appendChild(lab); }
+  lab.innerHTML=`<span class="sw"><span class="mk company risk" style="width:14px;height:14px"></span></span>Маркер риска с источником (red_flags)`; fl.appendChild(lab); }
 const ll=document.getElementById("linklegend");
 Object.values(LINK).forEach(s=>{ const d=document.createElement("div"); d.className="row";
   d.innerHTML=`<span class="ln" style="border-color:${s.color};border-top-style:${s.dash?(s.dash.startsWith("2")?"dotted":"dashed"):"solid"}"></span>${esc(s.label)}`; ll.appendChild(d); });
