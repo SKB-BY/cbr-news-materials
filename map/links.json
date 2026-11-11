@@ -30,6 +30,12 @@
    "name": "Министерство обороны Японии",
    "country": "Япония",
    "note": "вне реестра; заказчик перехватчиков SkyFall по стенограмме пресс-конференции министра обороны 09.10.2026"
+  },
+  {
+   "id": "x-terma",
+   "name": "Terma Group",
+   "country": "Дания",
+   "note": "вне реестра; партнёр Odd Systems по ИИ-перехватчику (релиз Odd Systems, 21.07.2025)"
   }
  ],
  "links": [
@@ -214,6 +220,62 @@
    "type": "partner",
    "basis": "по сайту MILITECH: решения «available on the government portals DOT and Brave1» (заявление компании)",
    "source": "https://www.militech.com.ua/en"
+  },
+  {
+   "from": "nswc-crane",
+   "to": "drone-dominance",
+   "type": "structure",
+   "basis": "NSWC Crane «holds contracting authority and issues prototype delivery orders based on Gauntlet test results» в программе Drone Dominance",
+   "source": "https://dronedominance.mil/"
+  },
+  {
+   "from": "rheinmetall",
+   "to": "rheinmetall-uop",
+   "type": "ubo",
+   "basis": "СП совместно принадлежит Rheinmetall Landsysteme GmbH (51%) и АО «УОП» (49%)",
+   "source": "https://www.rheinmetall.com/en/company/subsidiaries/rheinmetall-ukrainian-defense-industry"
+  },
+  {
+   "from": "udi",
+   "to": "rheinmetall-uop",
+   "type": "ubo",
+   "basis": "49% у АО «УОП» (Rheinmetall); по ЕГР — через 100%-ную дочку ТОВ «Западноукраинский машиностроительный завод»",
+   "source": "https://opendatabot.ua/c/44789782"
+  },
+  {
+   "from": "rheinmetall",
+   "to": "udi",
+   "type": "partner",
+   "basis": "стратегическое сотрудничество с 05.2023; СП в Киеве (работает с 18.10.2023): ремонт, затем совместное производство продукции Rheinmetall в Украине",
+   "source": "https://www.rheinmetall.com/en/media/news-watch/news/2023/10/2023-10-24-rheinmetall-ag-and-ukrainian-defense-industry-jsc-establish-joint-venture-in-kyiv"
+  },
+  {
+   "from": "general-cherry",
+   "to": "orqa",
+   "type": "partner",
+   "basis": "меморандум о сотрудничестве с хорватской ORQA — развитие производственных возможностей в Украине и Европе (сайт General Cherry). Подземный завод из вводной на официальных страницах не подтверждён",
+   "source": "https://gencherry.com/en/about-us"
+  },
+  {
+   "from": "general-cherry",
+   "to": "drone-dominance",
+   "type": "partner",
+   "basis": "по сайту General Cherry: компания прошла первый и второй этапы DDP; Wilcox Cherry Defense (совместное производство с американской Wilcox) — среди 19 компаний, прошедших квалификационный этап",
+   "source": "https://gencherry.com/en/about-us"
+  },
+  {
+   "from": "odd-systems",
+   "to": "x-terma",
+   "type": "partner",
+   "basis": "стратегическое партнёрство Odd Systems и Terma Group (Дания): недорогой ИИ-перехватчик дронов (релиз 21.07.2025)",
+   "source": "https://oddsystems.io/en/terma-oddsystems-strategic-partnership"
+  },
+  {
+   "from": "bluebird-tech",
+   "to": "brave1",
+   "type": "partner",
+   "basis": "по сайту BlueBird Tech: официальный канал продаж партнёров — market.brave1.gov.ua (Brave1 Market)",
+   "source": "https://www.blue-bird.tech/en/products/chuyka-3-0/"
   }
  ]
 }
