@@ -334,3 +334,98 @@ LEAD_CHECK = [
  ("Менеджеры программ DARPA основали эти компании", "не подтверждено", "ни один проверенный источник не называет PM DARPA основателем компаний из списка. Подтверждены: основатели Siri, Aurora, Nuro; PM программ (см. «Персоналии»)", ""),
  ("Lockheed Martin и Boeing: X-planes, гиперзвук, лазеры, истребители нового поколения", "исправлено", "Lockheed Martin подтверждён в OFFSET, Manta Ray (Phase 1), AlphaDogfight; Boeing — не проверен", ""),
 ]
+
+# --- t25u (11.11.2026): blind spots, sourced only ----------------------------
+# Successor / acquisition for listing_status=acquired. Every value from a page opened on AS_OF
+# (HTTP 200 + title). Empty acquisition_date = no opened source states the closing date.
+# org_id: (successor_entity, successor_source, acquisition_date, acquisition_source, acquisition_note)
+RAY_BBN = "https://raytheon.mediaroom.com/index.php?item=1424&s=43"
+ACQUISITION = {
+ "bbn": ("Raytheon Company (ныне RTX); работает как Raytheon BBN Technologies", RAY_BBN,
+         "2009-10-26", RAY_BBN, "«Raytheon Completes Acquisition of BBN Technologies», Oct. 26, 2009"),
+ "irobot": ("Shenzhen PICEA Robotics Co., Ltd. / Santrum Hong Kong Co., Limited — сторона RSA плана Chapter 11",
+            "https://www.sec.gov/Archives/edgar/data/1159167/000115916726000006/irbt-20260122.htm",
+            "2026-01-23", "https://www.sec.gov/Archives/edgar/data/1159167/000115916726000006/irbt-20260122.htm",
+            "8-K: Effective Date плана 23.01.2026, прежние акции аннулированы, Item 5.01 Changes in Control; нового акционера 8-K по имени не называет"),
+ "boston-dynamics": ("Hyundai Motor Group (80 %); SoftBank через аффилированное лицо — 20 %",
+                     "https://www.hyundai.com/worldwide/en/newsroom/detail/hyundai-motor-group-completes-acquisition-of-boston-dynamics-from-softbank-0000000516",
+                     "2021-06-21", "https://www.hyundai.com/worldwide/en/newsroom/detail/hyundai-motor-group-completes-acquisition-of-boston-dynamics-from-softbank-0000000516",
+                     "«completion of the Group’s acquisition of a controlling interest», June 21, 2021"),
+ "siri": ("Apple Inc.", f"{D}/about/innovation-timeline/personal-assistant-that-learns", "", "",
+          "darpa.mil: «later acquired by Apple Inc.» без даты; официальный источник с датой сделки не открыт — дата не указана"),
+ "google-quantum": ("Alphabet Inc. (через Google LLC)", "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/googexhibit2101q42025.htm",
+                    "", "", "не поглощение: Google Quantum AI — подразделение Google; Google LLC — дочерняя Alphabet по Exhibit 21 к 10-K Alphabet (05.02.2026); дата сделки не применима"),
+ "soartech": ("Accelint («SoarTech is now a wholly owned subsidiary of Accelint»)", "https://soartech.com/soartech-is-now-an-accelint-company/",
+              "", "", "на странице объявления дата публикации не указана — дата сделки не заполнена"),
+ "dynetics": ("Leidos Holdings, Inc. (wholly-owned subsidiary)",
+              "https://www.leidos.com/insights/leidos-completes-acquisition-dynetics-expanding-companys-portfolio-new-offerings",
+              "2020-01-31", "https://www.leidos.com/insights/leidos-completes-acquisition-dynetics-expanding-companys-portfolio-new-offerings",
+              "«Leidos completes acquisition of Dynetics», Reston, Va., January 31, 2020"),
+ "calspan": ("TransDigm Group Incorporated", "https://www.sec.gov/Archives/edgar/data/1260221/000126022123000032/tdg-20230508.htm",
+             "2023-05-08", "https://www.sec.gov/Archives/edgar/data/1260221/000126022123000032/tdg-20230508.htm",
+             "8-K TransDigm: «On May 8, 2023 … completion of the acquisition of Calspan Corporation»"),
+ "waymo": ("Alphabet Inc.", "https://waymo.com/about/", "", "",
+           "не поглощение: по хронологии waymo.com — «Waymo was established under Alphabet» (2016); дата сделки не применима"),
+ "qinetiq-na": ("QinetiQ (QinetiQ Group plc); Foster-Miller ведёт деятельность как QinetiQ North America",
+                "https://www.electronicsweekly.com/news/research-news/device-rd/qinetiq-gets-us-acquisitions-go-ahead-2004-11/",
+                "", "", "Electronics Weekly 11.11.2004: одобрение регулятора США на покупку Foster-Miller ($163 млн), дата закрытия не указана; "
+                        "Boston Business Journal (09.11.2004) с этой машины — HTTP 403. Дата не заполнена"),
+}
+
+# Successor monitoring hook (darpa.py tag): an item is tagged with the OLD org id when it names the
+# successor AND a strong pattern of a program the old org is linked to in PROGRAM_ORGS.
+# Old names keep matching through ORG_RX in darpa.py. Orgs without program links: hook inactive.
+SUCCESSOR_RX = {
+ "bbn": r"\bRTX\b|Raytheon|Рейтеон|Рэйтеон", "irobot": r"PICEA|Picea", "boston-dynamics": r"Hyundai|Хёндэ|Хендай",
+ "siri": r"\bApple\b|Эппл", "google-quantum": r"\bGoogle\b|Alphabet|Гугл", "soartech": r"Accelint",
+ "dynetics": r"Leidos|Лейдос", "calspan": r"TransDigm", "waymo": r"Alphabet", "qinetiq-na": r"QinetiQ",
+}
+
+# entity_type vocabulary (darpa_orgs; copied to darpa_program_orgs by org_id):
+#   prime               — оборонный прайм: только организации, которые companies.csv относит к Tier 1
+#   company             — коммерческая компания (листинг SEC или документ о поглощении)
+#   corporate_division  — подразделение компании, не отдельное юрлицо
+#   FFRDC               — только при наличии в Master Government List of FFRDCs (NSF NCSES)
+#   UARC                — University Affiliated Research Center, только по официальному списку
+#   university          — университет (по официальному сайту)
+#   university_spinout  — только при прямой формулировке источника «spun out of <university>»
+#   nonprofit_research  — некоммерческий исследовательский институт / лаборатория (по официальному сайту)
+#   other               — иное
+# Empty = not classified (no opened source), NOT «company by default».
+NSF_FFRDC = "https://www.nsf.gov/statistics/ffrdclist/"
+_PRIME = ("lockheed", "rtx", "northrop", "boeing", "l3harris", "bae")
+ENTITY_TYPE = {
+ **{i: ("prime", SEC_TICKERS + " ; companies.csv tier_level=Tier 1") for i in _PRIME},
+ **{i: ("company", SEC_TICKERS) for i in ("moderna", "ionq", "rigetti", "ibm", "microsoft", "redwire", "amentum",
+                                           "booz-allen", "palantir", "leidos", "aerovironment", "aurora", "palladyne", "textron")},
+ "spacex": ("company", "https://data.sec.gov/submissions/CIK0001181412.json"),
+ "quantinuum": ("company", "https://data.sec.gov/submissions/CIK0002110105.json"),
+ "xanadu": ("company", "https://data.sec.gov/submissions/CIK0002097163.json"),
+ "firefly": ("company", "https://data.sec.gov/submissions/CIK0001860160.json"),
+ **{i: ("company", ACQUISITION[i][1]) for i in ("bbn", "irobot", "boston-dynamics", "dynetics", "calspan", "soartech")},
+ "siri": ("company", f"{D}/about/innovation-timeline/personal-assistant-that-learns"),
+ "waymo": ("company", "https://waymo.com/about/"),
+ "qinetiq-na": ("company", "https://www.defensedaily.com/contract-awards/contract-award-foster-miller-doing-business-as-qinetiq-north-america-waltham-massachusetts-11310230/"),
+ "google-quantum": ("corporate_division", "https://quantumai.google/"),
+ "sri": ("nonprofit_research", "https://www.sri.com/about/ ; не FFRDC по " + NSF_FFRDC),
+ "draper": ("nonprofit_research", "https://www.draper.com/about ; не FFRDC по " + NSF_FFRDC),
+}
+
+# adversarial_mirror — EMPTY unless an opened source explicitly describes a counterpart program.
+# program_id: (adversarial_mirror, mirror_country, mirror_source)
+MIRROR = {}
+
+# personnel red flags — only with a source (revolving_door.py writes candidates to data/revolving_door.md, not here)
+PERSONNEL_RED_FLAG = {}
+
+LEAD_CHECK += [
+ ("Зеркальная программа: Manta Ray ↔ КНР (подводные дроны Харбинского инженерного университета / 701-го института CSIC)", "не подтверждено",
+  "вводный список GREEN 11.11.2026 (t25u); источник, прямо описывающий эти работы как аналог Manta Ray, не открыт. В darpa_programs.adversarial_mirror не внесено", ""),
+ ("Зеркальная программа: Gremlins / OFFSET ↔ КНР (программы «роевого интеллекта» CETC)", "не подтверждено",
+  "вводный список GREEN 11.11.2026 (t25u); источник, прямо описывающий программу CETC как аналог Gremlins/OFFSET, не открыт. В таблицу не внесено", ""),
+ ("Зеркальная программа: Lift Challenge ↔ РФ (тяжёлые грузовые БАС, «Верблюд», разработки Кронштадта)", "не подтверждено",
+  "вводный список GREEN 11.11.2026 (t25u); источник не открыт. Российские компании в реестр companies.csv не вносятся (решение GREEN 11.11.2026); Kronstadt не восстанавливается", ""),
+ ("Area-I (ALTIUS) поглощена AeroVironment", "исправлено",
+  "Area-I куплена Anduril Industries 01.04.2021 и работает как 100 % дочерняя компания под брендом Area-I; в darpa_orgs не входит (связь с программой DARPA не подтверждена), отслеживается в companies.csv (id area-i)",
+  "https://www.anduril.com/news/anduril-industries-acquires-area-i-adds-altius-capabilities-to-hardware-portfolio"),
+]

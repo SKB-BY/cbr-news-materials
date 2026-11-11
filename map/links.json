@@ -1,24 +1,109 @@
 {
-  "_note": "Аналитические связи для карты. Каждая связь — только с основанием из реестра (поля sponsor/role_focus/customers/ubo_name) и URL источника. Внешние узлы (external) — организации, которых нет в реестре, но которые названы в источнике.",
-  "external": [
-    {"id": "x-cto", "name": "Министерство войны (обороны) США — USW(R&E)/CTO", "country": "США", "note": "вне реестра; по релизу war.gov от 12.01.2026 — организации инновационной экосистемы под CTO"},
-    {"id": "x-kalashnikov", "name": "АО «Концерн «Калашников» (ГК «Ростех»)", "country": "Россия", "note": "вне реестра; объект анализа угроз"},
-    {"id": "x-irgc-asf", "name": "Аэрокосмические силы КСИР (IRGC ASF)", "country": "Иран", "note": "вне реестра; объект анализа угроз"},
-    {"id": "x-naval-group", "name": "Naval Group", "country": "Франция", "note": "вне реестра; прайм-подрядчик и интегратор по заказу S-100 для FREMM (по сайту Schiebel)"}
-  ],
-  "links": [
-    {"from": "x-cto", "to": "darpa", "type": "structure", "basis": "DARPA — одна из шести организаций инновационной экосистемы под CTO", "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"},
-    {"from": "x-cto", "to": "sco", "type": "structure", "basis": "SCO — оперативно под CTO", "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"},
-    {"from": "x-cto", "to": "osc", "type": "structure", "basis": "OSC — под CTO", "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"},
-    {"from": "x-cto", "to": "cdao", "type": "structure", "basis": "CDAO — под CTO", "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"},
-    {"from": "x-cto", "to": "trmc", "type": "structure", "basis": "TRMC — под CTO", "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"},
-    {"from": "diu", "to": "replicator", "type": "structure", "basis": "DIU — Office of Primary Responsibility процесса Replicator", "source": "https://www.diu.mil/latest/memorandum-replicator-2-direction-and-execution"},
-    {"from": "dga", "to": "aid", "type": "structure", "basis": "AID входит в контур DGA (Министерство вооружённых сил Франции)", "source": "https://www.defense.gouv.fr/en/aid/mieux-nous-connaitre/presentation-agency"},
-    {"from": "dstl", "to": "dasa", "type": "structure", "basis": "DASA работает через Dstl (MOD)", "source": "https://www.gov.uk/government/organisations/defence-and-security-accelerator"},
-    {"from": "dga", "to": "schiebel", "type": "customer", "basis": "ВМС Франции заказали S-100 через DGA и Naval Group", "source": "https://schiebel.net/french-navy-further-expands-camcopter-s-100-fleet/"},
-    {"from": "x-naval-group", "to": "schiebel", "type": "customer", "basis": "Naval Group — прайм-подрядчик и интегратор S-100 на FREMM", "source": "https://schiebel.net/french-navy-further-expands-camcopter-s-100-fleet/"},
-    {"from": "anduril", "to": "area-i", "type": "ubo", "basis": "Area-I — 100% дочерняя компания Anduril с 2021 г., бренд сохранён", "source": "https://www.anduril.com/news/anduril-industries-acquires-area-i-adds-altius-capabilities-to-hardware-portfolio"},
-    {"from": "x-kalashnikov", "to": "zala", "type": "ubo", "basis": "по ГУР МО Украины: ООО «СТЦ» (CST) группы ZALA — в структуре Концерна «Калашников» (Ростех); по Госдепу США владелец ZALA и CST — А. В. Захаров", "source": "https://war-sanctions.gur.gov.ua/en/components/companies/672"},
-    {"from": "x-irgc-asf", "to": "shahed", "type": "ubo", "basis": "по Минфину США: Shahed Aviation Industries Research Center подчинён IRGC ASF", "source": "https://home.treasury.gov/news/press-releases/jy1104"}
-  ]
+ "_note": "Аналитические связи для карты. Каждая связь — только с основанием из реестра (поля sponsor/role_focus/customers/ubo_name) и URL источника. Внешние узлы (external) — организации, которых нет в реестре, но которые названы в источнике.",
+ "external": [
+  {
+   "id": "x-cto",
+   "name": "Министерство войны (обороны) США — USW(R&E)/CTO",
+   "country": "США",
+   "note": "вне реестра; по релизу war.gov от 12.01.2026 — организации инновационной экосистемы под CTO"
+  },
+  {
+   "id": "x-irgc-asf",
+   "name": "Аэрокосмические силы КСИР (IRGC ASF)",
+   "country": "Иран",
+   "note": "вне реестра; объект анализа угроз"
+  },
+  {
+   "id": "x-naval-group",
+   "name": "Naval Group",
+   "country": "Франция",
+   "note": "вне реестра; прайм-подрядчик и интегратор по заказу S-100 для FREMM (по сайту Schiebel)"
+  }
+ ],
+ "links": [
+  {
+   "from": "x-cto",
+   "to": "darpa",
+   "type": "structure",
+   "basis": "DARPA — одна из шести организаций инновационной экосистемы под CTO",
+   "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
+  },
+  {
+   "from": "x-cto",
+   "to": "sco",
+   "type": "structure",
+   "basis": "SCO — оперативно под CTO",
+   "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
+  },
+  {
+   "from": "x-cto",
+   "to": "osc",
+   "type": "structure",
+   "basis": "OSC — под CTO",
+   "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
+  },
+  {
+   "from": "x-cto",
+   "to": "cdao",
+   "type": "structure",
+   "basis": "CDAO — под CTO",
+   "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
+  },
+  {
+   "from": "x-cto",
+   "to": "trmc",
+   "type": "structure",
+   "basis": "TRMC — под CTO",
+   "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
+  },
+  {
+   "from": "diu",
+   "to": "replicator",
+   "type": "structure",
+   "basis": "DIU — Office of Primary Responsibility процесса Replicator",
+   "source": "https://www.diu.mil/latest/memorandum-replicator-2-direction-and-execution"
+  },
+  {
+   "from": "dga",
+   "to": "aid",
+   "type": "structure",
+   "basis": "AID входит в контур DGA (Министерство вооружённых сил Франции)",
+   "source": "https://www.defense.gouv.fr/en/aid/mieux-nous-connaitre/presentation-agency"
+  },
+  {
+   "from": "dstl",
+   "to": "dasa",
+   "type": "structure",
+   "basis": "DASA работает через Dstl (MOD)",
+   "source": "https://www.gov.uk/government/organisations/defence-and-security-accelerator"
+  },
+  {
+   "from": "dga",
+   "to": "schiebel",
+   "type": "customer",
+   "basis": "ВМС Франции заказали S-100 через DGA и Naval Group",
+   "source": "https://schiebel.net/french-navy-further-expands-camcopter-s-100-fleet/"
+  },
+  {
+   "from": "x-naval-group",
+   "to": "schiebel",
+   "type": "customer",
+   "basis": "Naval Group — прайм-подрядчик и интегратор S-100 на FREMM",
+   "source": "https://schiebel.net/french-navy-further-expands-camcopter-s-100-fleet/"
+  },
+  {
+   "from": "anduril",
+   "to": "area-i",
+   "type": "ubo",
+   "basis": "Area-I — 100% дочерняя компания Anduril с 2021 г., бренд сохранён",
+   "source": "https://www.anduril.com/news/anduril-industries-acquires-area-i-adds-altius-capabilities-to-hardware-portfolio"
+  },
+  {
+   "from": "x-irgc-asf",
+   "to": "shahed",
+   "type": "ubo",
+   "basis": "по Минфину США: Shahed Aviation Industries Research Center подчинён IRGC ASF",
+   "source": "https://home.treasury.gov/news/press-releases/jy1104"
+  }
+ ]
 }

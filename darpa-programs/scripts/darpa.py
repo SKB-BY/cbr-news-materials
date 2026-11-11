@@ -46,6 +46,25 @@ CREATE TABLE IF NOT EXISTS darpa_item_tags (
 CREATE INDEX IF NOT EXISTS idx_darpa_tags_pub ON darpa_item_tags(published_at);
 """
 
+# t25u columns (added by migrate(); empty = no opened source)
+NEW_COLS = {
+    "darpa_orgs": ["successor_entity", "successor_source", "acquisition_date", "acquisition_source", "acquisition_note",
+                   "entity_type", "entity_type_source"],
+    "darpa_program_orgs": ["entity_type"],
+    "darpa_programs": ["adversarial_mirror", "mirror_country", "mirror_source"],
+    "darpa_personnel": ["red_flag", "red_flag_source"],
+}
+
+
+def migrate(conn):
+    conn.executescript(DDL)
+    for t, cols in NEW_COLS.items():
+        have = {r[1] for r in conn.execute(f"pragma table_info({t})")}
+        for c in cols:
+            if c not in have:
+                conn.execute(f"alter table {t} add column {c} TEXT")
+    conn.commit()
+
 # company mention patterns (latin + russian). Mention of a company does NOT imply a program.
 ORG_RX = {
  "lockheed": r"Lockheed|Локхид", "boeing": r"\bBoeing\b|Боинг", "northrop": r"Northrop|Нортроп",
@@ -72,7 +91,7 @@ def now():
 
 
 def seed(conn):
-    conn.executescript(DDL)
+    migrate(conn)
     progs = DD.PROGRAMS + [DD.SETA]
     with conn:
         for p in progs:
@@ -87,10 +106,20 @@ def seed(conn):
               VALUES (?,?,?,?,?,?,?,?,?) ON CONFLICT(id) DO UPDATE SET name=excluded.name, listing_status=excluded.listing_status,
               ticker=excluded.ticker, exchange=excluded.exchange, parent=excluded.parent, invest_source=excluded.invest_source,
               note=excluded.note, as_of=excluded.as_of""", (*o, DD.AS_OF))
+        for o in DD.ORGS:
+            acq = DD.ACQUISITION.get(o[0], ("", "", "", "", ""))
+            et = DD.ENTITY_TYPE.get(o[0], ("", ""))
+            conn.execute("""update darpa_orgs set successor_entity=?, successor_source=?, acquisition_date=?, acquisition_source=?,
+              acquisition_note=?, entity_type=?, entity_type_source=? where id=?""", (*acq, *et, o[0]))
+        for p in progs:
+            conn.execute("update darpa_programs set adversarial_mirror=?, mirror_country=?, mirror_source=? where id=?",
+                         (*DD.MIRROR.get(p[0], ("", "", "")), p[0]))
         conn.execute("DELETE FROM darpa_program_orgs")
-        conn.executemany("INSERT OR REPLACE INTO darpa_program_orgs VALUES (?,?,?,?,?,?)", DD.PROGRAM_ORGS)
+        conn.executemany("INSERT OR REPLACE INTO darpa_program_orgs (program_id,org_id,role,evidence_url,evidence_date,note,entity_type) VALUES (?,?,?,?,?,?,?)",
+                         [(*x, DD.ENTITY_TYPE.get(x[1], ("", ""))[0]) for x in DD.PROGRAM_ORGS])
         conn.execute("DELETE FROM darpa_personnel")
-        conn.executemany("INSERT OR REPLACE INTO darpa_personnel VALUES (?,?,?,?,?,?)", DD.PERSONNEL)
+        conn.executemany("INSERT OR REPLACE INTO darpa_personnel (name,role,org_id,program_id,evidence_url,note,red_flag,red_flag_source) VALUES (?,?,?,?,?,?,?,?)",
+                         [(*x, *DD.PERSONNEL_RED_FLAG.get((x[0], x[3]), ("", ""))) for x in DD.PERSONNEL])
         conn.execute("DELETE FROM darpa_lead_check")
         conn.executemany("INSERT OR REPLACE INTO darpa_lead_check VALUES (?,?,?,?,?)", [(*c, DD.AS_OF) for c in DD.LEAD_CHECK])
 
@@ -107,7 +136,19 @@ def compile_programs():
 NOISE = re.compile(r"DARPA ?& ?CIA|darpaandcia", re.I)  # подпись/ссылка канала «DARPA&CIA» — не упоминание агентства
 
 
-def match_text(text, progs, orgs):
+def successor_watch(progs):
+    """[(old_org_id, successor_rx, [program strong rx])] for acquired orgs with a filled successor and program links."""
+    strong = {pid: st for pid, st, _w in progs}
+    out = []
+    for oid, (succ, *_rest) in DD.ACQUISITION.items():
+        rx = DD.SUCCESSOR_RX.get(oid)
+        pids = sorted({x[0] for x in DD.PROGRAM_ORGS if x[1] == oid and x[0] in strong})
+        if succ and rx and pids:
+            out.append((oid, re.compile(rx), [r for pid in pids for r in strong[pid]]))
+    return out
+
+
+def match_text(text, progs, orgs, watch=()):
     pids, matched = [], []
     text = NOISE.sub(" ", text)
     ctx = bool(DARPA_CTX.search(text))
@@ -118,16 +159,20 @@ def match_text(text, progs, orgs):
         if hit:
             pids.append(pid); matched.append(f"{pid}:{hit}")
     oids = [oid for oid, rx in orgs if rx.search(text)]
+    # successor hook: old org is still tagged when the successor AND an old-program term are named together
+    for oid, srx, terms in watch:
+        if oid not in oids and srx.search(text) and any(t.search(text) for t in terms):
+            oids.append(oid); matched.append(f"successor:{oid}")
     return pids, oids, ctx, matched
 
 
-def tag_db(live, path, label, progs, orgs):
+def tag_db(live, path, label, progs, orgs, watch=()):
     src = sqlite3.connect(f"file:{path}?mode=ro", uri=True) if label == "archive" else live
     rows = src.execute("select id, dedupe_hash, url, title, body, published_at from items").fetchall()
     out = []
     for r in rows:
         text = f"{r[3] or ''}\n{(r[4] or '')[:6000]}"
-        pids, oids, ctx, matched = match_text(text, progs, orgs)
+        pids, oids, ctx, matched = match_text(text, progs, orgs, watch)
         # keep item if a program matched, or DARPA is named, or a DARPA-linked org is named together with DARPA
         if pids or ctx:
             out.append((r[1], r[0], label, r[2], (r[3] or "")[:300], r[5], json.dumps(pids), json.dumps(oids),
@@ -144,12 +189,13 @@ def tag_db(live, path, label, progs, orgs):
 
 
 def tag(conn):
-    conn.executescript(DDL)
+    migrate(conn)
     progs = compile_programs()
     orgs = [(k, re.compile(v)) for k, v in ORG_RX.items()]
-    stats = {"live": tag_db(conn, None, "live", progs, orgs)}
+    watch = successor_watch(progs)
+    stats = {"live": tag_db(conn, None, "live", progs, orgs, watch)}
     if ARCHIVE.is_file():
-        stats["archive"] = tag_db(conn, ARCHIVE, "archive", progs, orgs)
+        stats["archive"] = tag_db(conn, ARCHIVE, "archive", progs, orgs, watch)
     # counts per program / org
     tags = conn.execute("select program_ids, org_ids, url, title, published_at from darpa_item_tags").fetchall()
     with conn:
@@ -182,17 +228,18 @@ def digest_block(conn, since, until, esc=lambda s: s, limit=8):
     for r in rows:
         for pid in json.loads(r[4]) or ["—"]:
             by.setdefault(pid, []).append(r)
-    lines = [f"<b>Программы DARPA</b> — {len(rows)}",
+    lines = ["<b>Программы DARPA</b>",
              "Материалы окна, где названы DARPA или программа из рабочего реестра darpa-programs. Связь — по совпадению названия в тексте."]
-    for pid, items in sorted(by.items(), key=lambda kv: -len(kv[1])):
+    for pid, items in sorted(by.items(), key=lambda kv: kv[0] or ""):
         label = names.get(pid, "DARPA без названной программы") if pid != "—" else "DARPA без названной программы"
-        lines.append(f"• {esc(label)}: {len(items)}")
+        lines.append(f"• {esc(label)}")
         for r in items[:limit]:
             lines.append(f"  – <a href=\"{esc(r[1])}\">{esc((r[2] or '')[:120])}</a>")
     return "\n".join(lines)
 
 
 def export_csv(conn, d):
+    migrate(conn)
     d = Path(d); d.mkdir(parents=True, exist_ok=True)
     for t in ["darpa_programs", "darpa_orgs", "darpa_program_orgs", "darpa_personnel", "darpa_lead_check"]:
         cur = conn.execute(f"select * from {t}")
@@ -208,6 +255,33 @@ def md_link(u):
     return f"[{u}]({u})" if u else "—"
 
 
+README_T25U = [
+ "## Слепые зоны реестра: поля и скрипты (11.11.2026)", "",
+ "Это **рабочий** реестр. Пустая ячейка значит «открытого источника на дату проверки нет», а не «нет связи». "
+ "Непроверенные утверждения и вводные списки остаются в `LEAD_CHECK.md` с вердиктом «не подтверждено» и в основные таблицы не вносятся. "
+ "Рабочие списки скриптов (`data/*.md`) — кандидаты для ручной проверки, не перепись и не факты реестра; в `darpa_orgs.csv` из них ничего не вносится автоматически.", "",
+ "### Новые колонки", "",
+ "| Таблица | Колонка | Правило |", "|---|---|---|",
+ "| `darpa_orgs.csv` | `successor_entity`, `successor_source` | правопреемник / материнская группа — только со страницей источника |",
+ "| `darpa_orgs.csv` | `acquisition_date`, `acquisition_source`, `acquisition_note` | дата закрытия сделки — только если открытый источник её прямо называет; иначе пусто и причина в `acquisition_note` |",
+ "| `darpa_orgs.csv`, `darpa_program_orgs.csv` | `entity_type` (+ `entity_type_source` в orgs) | словарь: `prime`, `company`, `corporate_division`, `FFRDC`, `UARC`, `university`, `university_spinout`, `nonprofit_research`, `other`; пусто — не классифицировано |",
+ "| `darpa_programs.csv` | `adversarial_mirror`, `mirror_country`, `mirror_source` | заполняется только при источнике, прямо описывающем программу-аналог; предложения без источника — в `LEAD_CHECK.md` |",
+ "| `darpa_personnel.csv` | `red_flag`, `red_flag_source` | только с источником; кандидаты из `revolving_door.py` сюда не переносятся автоматически |", "",
+ "`entity_type`: `FFRDC` — только по Master Government List of FFRDCs (NSF NCSES, https://www.nsf.gov/statistics/ffrdclist/); "
+ "`university_spinout` — только при прямой формулировке источника; `prime` — только организации, которые `companies.csv` относит к Tier 1.", "",
+ "### Мониторинг правопреемника", "",
+ "Агрегатор продолжает искать старое название организации (`ORG_RX` в `darpa.py`). Если у организации заполнен `successor_entity`, "
+ "`darpa.py tag` дополнительно размечает материал старым `org_id`, когда в тексте одновременно названы правопреемник (`SUCCESSOR_RX` в `darpa_data.py`) "
+ "и сильный шаблон программы, с которой старая организация связана в `darpa_program_orgs.csv` (в `matched` — `successor:<org_id>`). "
+ "Для организаций без связи с программой связка не работает (нет проверенных терминов технологии).", "",
+ "### Скрипты (`scripts/`, только стандартная библиотека Python)", "",
+ "- `sam_subawards.py` — головные контракты и субподряды по исполнителям реестра из открытого API USAspending.gov (агентство DARPA) → `data/sam_subawards.csv`, `data/sam_subawards.md` (рабочий список субподрядчиков, которых нет в `darpa_orgs.csv`).",
+ "- `revolving_door.py` — перекрёстная проверка `darpa_personnel.csv` с официальными данными SEC EDGAR (инсайдерские отчёты Forms 3/4/5 и списки должностных лиц компаний с листингом) → `data/revolving_door.md`. LinkedIn не используется.",
+ "- `proxy_detector.py` — для компаний с листингом берёт Exhibit 21 («Subsidiaries of the Registrant») из последнего 10-K в SEC EDGAR и сравнивает дочерние структуры с названиями в `data/darpa_item_tags.json` → `data/potential_shells.md` / `.csv`.",
+ "- Для запросов к SEC нужна переменная `SEC_EDGAR_USER_AGENT` (описательный User-Agent с контактом); без неё скрипты работают только в режиме `--dry-run`.", "",
+]
+
+
 def repo(conn, out):
     out = Path(out); (out / "programs").mkdir(parents=True, exist_ok=True)
     progs = conn.execute("select * from darpa_programs where kind != 'support' order by id").fetchall()
@@ -215,7 +289,7 @@ def repo(conn, out):
     orgs = {r[0]: r for r in conn.execute("select * from darpa_orgs")}
     po = conn.execute("select * from darpa_program_orgs").fetchall()
     pers = conn.execute("select * from darpa_personnel").fetchall()
-    tags = conn.execute("select url, title, published_at, program_ids, db from darpa_item_tags order by published_at desc").fetchall()
+    tags = conn.execute("select url, title, published_at, program_ids, db, org_ids from darpa_item_tags order by published_at desc").fetchall()
     idx = []
     for row in progs:
         p = dict(zip(cols, row)); pid = p["id"]
@@ -263,7 +337,8 @@ def repo(conn, out):
          "Каждая программа — каталог `programs/<slug>/`: `README.md` (карточка, организации, листинг, персоналии, все совпадения из хранилища новостей). Добавление новой программы — `ADD_PROGRAM.md`.", "",
          f"## Программы ({len(progs)})", "", "| Программа | Полное название | Офис | Статус | Организаций | Новостей |", "|---|---|---|---|---|---|", *idx, "",
          "## Листинг организаций", "", *[f"- {LIST_RU.get(k, k)}: {v}" for k, v in sorted(n_list.items())], "",
-         "Таблицы: `data/darpa_item_tags.json` (разметка новостей), `data/darpa_orgs.csv` (листинг, тикер, биржа, источник), `data/darpa_program_orgs.csv`, `data/darpa_personnel.csv`, `data/darpa_programs.csv`, `data/darpa_lead_check.csv`.", ""]
+         "Таблицы: `data/darpa_item_tags.json` (разметка новостей), `data/darpa_orgs.csv` (листинг, тикер, биржа, источник), `data/darpa_program_orgs.csv`, `data/darpa_personnel.csv`, `data/darpa_programs.csv`, `data/darpa_lead_check.csv`.", "",
+         *README_T25U]
     (out / "README.md").write_text("\n".join(R), encoding="utf-8")
     un = [t for t in tags if not json.loads(t[3])]
     U = ["# Материалы с DARPA без названной программы", "",
@@ -277,7 +352,7 @@ def repo(conn, out):
     (out / "LEAD_CHECK.md").write_text("\n".join(LC) + "\n", encoding="utf-8")
     export_csv(conn, out / "data")
     (out / "data" / "darpa_item_tags.json").write_text(json.dumps(
-        [{"url": t[0], "title": t[1], "published_at": t[2], "program_ids": json.loads(t[3]), "db": t[4]} for t in tags],
+        [{"url": t[0], "title": t[1], "published_at": t[2], "program_ids": json.loads(t[3]), "org_ids": json.loads(t[5] or "[]"), "db": t[4]} for t in tags],
         ensure_ascii=False, indent=1), encoding="utf-8")
 
 
