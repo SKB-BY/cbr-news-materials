@@ -8,7 +8,7 @@
 ## Содержимое
 
 - [Актуальный отчёт](АКТУАЛЬНЫЙ_ОТЧЁТ.md) — проанализированная, выверенная и структурированная информация по живой базе (классификация и правило слухов). В отчёт включены подтверждённые новости; заявления — отдельно, если без них картина темы неполна. Слухи в отчёт не входят. Статистика (количество новостей по категориям, разделам, темам и крупнейшие источники живой базы) в отчёт и в этот файл не включается.
-- [Реестр сил и компаний](companies.csv) — рабочий реестр (карта сил), 108 записей. Подробнее — раздел «Реестр companies.csv» ниже.
+- [Реестр сил и компаний](companies.csv) — рабочий реестр (карта сил), 116 записей. Подробнее — раздел «Реестр companies.csv» ниже.
 - [Онлайн-карта реестра](https://skb-by.github.io/cbr-news-materials/map/) — точки и аналитические цепочки из таблицы с информационными окнами (исходники — [map/](map/)).
 - [Разрыв упоминаний](data/mention_gap.md) — рабочий список «Упомянуто в новостях, но отсутствует в реестре» ([CSV](data/mention_gap.csv)), скрипт [scripts/mention_gap.py](scripts/mention_gap.py).
 - [Источники сбора](SOURCES.md) — перечень источников живой базы без объёмов.
@@ -78,6 +78,7 @@ python3 scripts/mention_gap.py --csv companies.csv --db news.sqlite --min-items 
 - Таблицы: [darpa-programs/data/](darpa-programs/data/)
 - Как добавить программу: [ADD_PROGRAM.md](darpa-programs/ADD_PROGRAM.md)
 - Проверка вводного списка: [LEAD_CHECK.md](darpa-programs/LEAD_CHECK.md)
+- Украина (t30u–t32u, 11.11.2026): проверка вводных списков по официальным и первичным страницам — [UKRAINE_LEAD_CHECK.md](UKRAINE_LEAD_CHECK.md). На карте — связи типа «партнёрство / испытания / инвестиции» (только с источником; не подчинённость). Украинские официальные и расследовательские источники новостей — в [SOURCES.md](SOURCES.md)
 - Материалы без отнесения к программе: [UNASSIGNED.md](darpa-programs/UNASSIGNED.md)
 - «Слепые зоны» (с 11.11.2026, только по источникам): преемники поглощённых организаций и мониторинг преемника вместе с терминами старой программы; тип организации (`entity_type`); субподрядчики из USAspending — [sam_subawards.md](darpa-programs/data/sam_subawards.md) (скрипт [sam_subawards.py](darpa-programs/scripts/sam_subawards.py)); бывшие сотрудники DARPA в документах SEC — [revolving_door.md](darpa-programs/data/revolving_door.md) ([revolving_door.py](darpa-programs/scripts/revolving_door.py)); дочерние общества из SEC Exhibit 21 и кандидаты-«прокладки» — [sec_subsidiaries.csv](darpa-programs/data/sec_subsidiaries.csv), [potential_shells.md](darpa-programs/data/potential_shells.md) ([proxy_detector.py](darpa-programs/scripts/proxy_detector.py)). Поле `adversarial_mirror` пустое: заполняется только по документированному источнику; предложенные пары — в [LEAD_CHECK.md](darpa-programs/LEAD_CHECK.md) как «не подтверждено».
 

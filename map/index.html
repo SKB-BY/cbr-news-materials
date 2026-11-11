@@ -82,7 +82,7 @@
   <div id="map"></div>
 </div>
 <script src="vendor/leaflet.js?v=t27"></script>
-<script src="data.js?v=t27"></script>
+<script src="data.js?v=t30"></script>
 <script>
 (function(){
 const D = window.MAP_DATA;
@@ -98,7 +98,8 @@ const PREC = {street:"адрес (улица)", city:"город", region:"ра�
 const LINK = {
   structure:{label:"Структура (подчинённость агентств и программ)", color:"#2f6fdb", dash:null, short:"структура"},
   customer:{label:"Заказчик (с источником)", color:"#16a34a", dash:"6 5", short:"заказчик"},
-  ubo:{label:"Владелец / материнская компания (с источником)", color:"#d08a1e", dash:"2 5", short:"владелец"}
+  ubo:{label:"Владелец / материнская компания (с источником)", color:"#d08a1e", dash:"2 5", short:"владелец"},
+  partner:{label:"Партнёрство / испытания / инвестиции (с источником; не подчинённость)", color:"#9333ea", dash:"10 4 2 4", short:"партнёрство"}
 };
 function cat(n){ if(n.external) return "external"; if(n.threat) return "threat"; if(n.kind==="program") return "program";
   if(n.kind==="agency") return "agency"; return n.region==="outside" ? "outside" : "company"; }
@@ -200,7 +201,7 @@ layout(); refresh();
 if(!Object.keys(points).length){
   L.popup({closeButton:false, maxWidth:360, autoClose:false, closeOnClick:false})
     .setLatLng(map.getCenter())
-    .setContent("<div class=\"pp\"><h3>Точек на карте нет</h3><p>В загруженных данных нет координат. Обновите страницу без кэша (Ctrl+F5) или откройте <a href=\"data.js?v=t27\">data.js</a>.</p></div>")
+    .setContent("<div class=\"pp\"><h3>Точек на карте нет</h3><p>В загруженных данных нет координат. Обновите страницу без кэша (Ctrl+F5) или откройте <a href=\"data.js?v=t30\">data.js</a>.</p></div>")
     .openOn(map);
 }
 
