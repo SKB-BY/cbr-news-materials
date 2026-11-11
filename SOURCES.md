@@ -1,0 +1,55 @@
+# Источники живой базы
+
+Перечень без объёмов.
+
+- tg:uav_tech
+- tg:news_uav
+- tg:voron_fpv
+- tg:FPV_vyZOV
+- tg:UAVDEV
+- tg:drone_expert_news
+- cos-news.ru
+- tg:bpla_drone
+- dronedj.com
+- euronews-drones
+- tg:skyindustry
+- tg:proUAV
+- tg:zadrony
+- tg:xronikabpla
+- breakingdefense.com
+- tg:operativnoZSU
+- dronelife.com
+- unmannedairspace.info
+- uasvision.com
+- dronexl.co
+- dronus.ru
+- tg:vrv_radar
+- tg:escadrone
+- tg:germesfpv
+- insidegnss.com
+- tg:texotdelBPLA
+- tg:zloy_dron
+- defence-industry.eu
+- tg:Military_engineer
+- suasnews.com
+- tg:dronesrussia
+- belta.by-bpla
+- tg:Drones_Belarus
+- c4isrnet.com-unmanned
+- defensenews.com-unmanned
+- twz.com
+- tg:INFRONT_Z
+- tg:war_monitor
+- eda.europa.eu
+- gov.uk-mod-drone
+- tg:citsecurity
+- tg:dji911mod
+- bellingcat.com
+- defense.gouv.fr-aid
+- firstquadcopter.com
+- gov.uk-dstl
+- tg:toro_ua
+- aljazeera
+- bbc-world
+- tg:csp_voron
+- tg:robotics_channel
