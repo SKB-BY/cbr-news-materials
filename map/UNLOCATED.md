@@ -2,7 +2,7 @@
 
 Правило (с 11.11.2026): узел ставится на карту только по официально опубликованному адресу штаб-квартиры; если адреса нет — минимум город, район (область) или штат. Источник и дата — в [locations.csv](locations.csv). Узлы ниже не размещены, потому что на открытых официальных страницах такой локации не найдено (точки не придумываются).
 
-Размещено: адрес (улица) — 94, город — 18, район / область — 1, штат — 0; без точки — 20.
+Размещено: адрес (улица) — 107, город — 23, район / область — 1, штат — 0; без точки — 23.
 
 | id | Название | Тип | Причина |
 |---|---|---|---|
@@ -13,19 +13,22 @@
 | replicator | Replicator (Replicator 1 и 2) | program | программа (инициатива), а не организация с адресом |
 | gcap | GCAP — Global Combat Air Programme | program | международная программа; адрес не указан на странице-источнике |
 | drone-wall | European Drone Defence Initiative (European Drone Wall) | program | инициатива ЕС, адреса нет |
-| ukrspecsystems | Ukrspecsystems | company | официальный адрес не найден: на ukrspecsystems.com (Contact, About) указаны только телефон и e-mail |
 | wild-hornets | Wild Hornets (Дикі Шершні) | company | официальный адрес не найден: на wildhornets.com указан только e-mail |
 | techex | TechEx | company | официальный адрес не найден: на techex.com.ua адрес не опубликован (упоминание обороны Киева в 2022 г. — история, не адрес) |
-| militech | MILITECH (Militech Group) | company | официальный адрес не найден: на militech.com.ua указаны только телефоны и e-mail |
-| phantom-defense | Phantom Defense | company | официальный адрес не найден: на phantomdefense.tech (Contacts) указаны только телефоны и e-mail |
-| devdroid | DevDroid | company | официальный адрес не найден: на devdroid.tech адрес штаб-квартиры не опубликован (сервисные команды во Львове, Харькове и Днепре — не адрес) |
-| sine-engineering | Sine Engineering (Sine.Engineering) | company | официальный адрес не найден: на sineeng.com адрес не опубликован |
-| inlab | InLab | company | официальный адрес не найден: на inlab.kyiv.ua указаны только e-mail и телефон (домен kyiv.ua — не адрес) |
-| defika | Defika | company | официальный адрес не найден: на defika.com.ua указан только e-mail |
+| phantom-defense | Phantom Defense | company | официальный адрес не найден: на phantomdefense.tech (Contacts) только телефоны и e-mail; на сайте — «nine production sites» без мест; адреса Creative States (Киев) и 1055 Thomas Jefferson St NW (Вашингтон) на usubc.org — офисы USUBC (страница Contacts USUBC), не Phantom Defense |
 | delta | DELTA — система ситуационной осведомлённости (Минобороны Украины) | program | система (программа) Минобороны Украины, а не организация с адресом |
 | drone-dominance | Drone Dominance Program (DDP) | program | программа МВ США; адрес не указан на странице-источнике |
+| 3avada | 3AVADA (Завада) | company | официальный адрес не найден: на zavada.co указано только «Україна» (город Ивано-Франковск — только LinkedIn, не источник) |
+| skilur | SKILUR | company | официальный адрес не найден: на skilur.tech только «registered in Ukraine» |
+| molfar | Molfar Defence Technologies | company | официальный адрес не найден: на molfardefence.com нет адреса и страны |
+| realgold | Realgold (ThrustNova) | company | официальный адрес не найден: на сайте адреса нет; совпадение юрлица в реестре только по названию и КВЭД, без ссылки на сайт |
+| odd-systems | Odd Systems | company | официальный адрес не найден: на oddsystems.io адреса нет |
+| ptashka-drones | Ptashka Drones | company | официальный адрес не найден: на ptashkadrones.com только контакты без адреса |
+| 3dtech | 3DTech | company | официальный адрес не найден: на 3dtech.com.ua только контакты без адреса |
+| vyriy | Vyriy Industries | company | официальный адрес не найден: на сайте адреса нет; совпадение юрлица в реестре только по названию и КВЭД, без ссылки на сайт |
 | x-irgc-asf | Аэрокосмические силы КСИР (IRGC ASF) | внешний узел | военная структура (Аэрокосмические силы КСИР); официального опубликованного адреса нет |
 | x-skyfall | SkyFall | внешний узел | официальный сайт skyfall.ua 11.11.2026 не открылся; адрес не установлен |
+| x-terma | Terma Group | внешний узел | внешний узел (партнёр Odd Systems); официальный адрес на открытой странице не найден |
 
 Связи, которые не рисуются на карте (один из концов без точки; перечислены в боковой панели):
 
@@ -37,9 +40,12 @@
 - anduril → kara-dag (partner): Kara Dag Technologies начала сотрудничество с Anduril: передаёт практики противодействия дронам, полученные в боевых условиях, для систем Anduril, уже используемых в Украине (сайт Kara Dag, 03.2026)
 - airbus-ds → x-skyfall (partner): Airbus Defence and Space и SkyFall подписали меморандум (MoU) о стратегическом партнёрстве на ILA Berlin, 12.06.2026 (релиз Airbus); партнёрство, не подчинённость
 - x-japan-mod → x-skyfall (customer): министр обороны Японии С. Коидзуми, 09.10.2026: «既に防衛省では、ウクライナのスカイフォール社の迎撃用ドローンの取得契約を締結しており» — контракт на приобретение дронов-перехватчиков уже подписан; модель, количество и сумма не названы
-- redcat → sine-engineering (partner): Red Cat и Sine Advanced Engineering, Inc. (американское подразделение Sine) подписали неэксклюзивный MoU о стратегическом партнёрстве: интеграция связи и навигации Sine в БЭК Blue Ops и БЛА Red Cat (релиз Red Cat, 02.11.2026)
 - phantom-defense → drone-dominance (partner): Phantom Defense участвовала в Gauntlet II программы Drone Dominance (Форт-Карсон): одна из трёх компаний, создававших РЭБ-среду противодействия для испытаний БЛА; после этапа получила приглашения на дальнейшие мероприятия (по сайту компании). Испытания, не подчинённость
 - diu → drone-dominance (structure): DDP «jointly administered by the Test Resource Management Center (TRMC) and the Defense Innovation Unit (DIU)»; DIU курирует работу с промышленностью
 - trmc → drone-dominance (structure): TRMC — «primary execution authority and test range coordinator» программы Drone Dominance
 - techex → brave1 (partner): по сайту TechEx: «TechEx works with the Ukrainian state through the BRAVE1 defense innovation cluster and the Dot Chain procurement system» (заявление компании)
 - militech → brave1 (partner): по сайту MILITECH: решения «available on the government portals DOT and Brave1» (заявление компании)
+- nswc-crane → drone-dominance (structure): NSWC Crane «holds contracting authority and issues prototype delivery orders based on Gauntlet test results» в программе Drone Dominance
+- general-cherry → drone-dominance (partner): по сайту General Cherry: компания прошла первый и второй этапы DDP; Wilcox Cherry Defense (совместное производство с американской Wilcox) — среди 19 компаний, прошедших квалификационный этап
+- odd-systems → x-terma (partner): стратегическое партнёрство Odd Systems и Terma Group (Дания): недорогой ИИ-перехватчик дронов (релиз 21.07.2025)
+- bluebird-tech → brave1 (partner): по сайту BlueBird Tech: официальный канал продаж партнёров — market.brave1.gov.ua (Brave1 Market)

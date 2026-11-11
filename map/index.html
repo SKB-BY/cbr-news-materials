@@ -82,7 +82,7 @@
   <div id="map"></div>
 </div>
 <script src="vendor/leaflet.js?v=t27"></script>
-<script src="data.js?v=t36"></script>
+<script src="data.js?v=t39"></script>
 <script>
 (function(){
 const D = window.MAP_DATA;
@@ -201,7 +201,7 @@ layout(); refresh();
 if(!Object.keys(points).length){
   L.popup({closeButton:false, maxWidth:360, autoClose:false, closeOnClick:false})
     .setLatLng(map.getCenter())
-    .setContent("<div class=\"pp\"><h3>Точек на карте нет</h3><p>В загруженных данных нет координат. Обновите страницу без кэша (Ctrl+F5) или откройте <a href=\"data.js?v=t36\">data.js</a>.</p></div>")
+    .setContent("<div class=\"pp\"><h3>Точек на карте нет</h3><p>В загруженных данных нет координат. Обновите страницу без кэша (Ctrl+F5) или откройте <a href=\"data.js?v=t39\">data.js</a>.</p></div>")
     .openOn(map);
 }
 
