@@ -1,4 +1,4 @@
-# Украина: проверка вводных списков GREEN (t30u, t31u, t32u, t35u — 11.11.2026)
+# Украина: проверка вводных списков GREEN (t30u, t31u, t32u, t35u, t37u, t38u, t39u, t40u — 11.11.2026)
 
 Вводные списки — перечень для проверки, не источник: пометки вида [[70]] не содержали URL. Дата проверки всех страниц — 11.11.2026 (Europe/Minsk). Вердикты: **подтверждено** — сказано на открытой странице; **частично / исправлено** — подтверждена только часть или формулировка иная; **не подтверждено** — на открытых страницах не найдено. В `companies.csv`, `map/locations.csv`, `map/links.json` внесено только подтверждённое. Украинские компании не изображаются подчинёнными DARPA или Пентагону; поле `sponsor` у компаний пустое.
 
@@ -169,3 +169,171 @@
 - Новые связи (`links.json`): airbus-ds → x-skyfall (partner, MoU); x-japan-mod → x-skyfall (customer, контракт); redcat → sine-engineering (partner, MoU); phantom-defense → drone-dominance (partner: испытания); diu → drone-dominance и trmc → drone-dominance (structure: администрирование программы); techex → brave1 и militech → brave1 (partner, по сайтам компаний). Подчинённость Airbus, Японии, НАТО или МО США не изображается.
 - Новые точки: Kvertus — Лондон (уровень города, «Headquartered in London»); МО Японии — Токио, Ичигая (адрес с mod.go.jp; Nominatim нашёл квартал). Остальные новые узлы без опубликованного адреса — в [map/UNLOCATED.md](map/UNLOCATED.md); все новые связи имеют конец без точки и показаны в боковой панели.
 - Доступ к страницам: skyfall.ua — 11.11.2026 нет DNS-записи A (и напрямую, и через выходной узел); unwave.com.ua — Cloudflare 403 («Sorry, you have been blocked») и напрямую, и через выходной узел в браузере; kvertus.ua — проверка JS, прочитан браузером; sec.gov и airbus.com — 403 для curl, прочитаны веб-чтением; army.mil — 403 для curl, прочитан веб-чтением; Bloomberg — таймаут, Benzinga — 403.
+
+## t37u — адреса компаний и программ (проверено 11.11.2026)
+
+Вводный список адресов — перечень для проверки. Ссылки на Google Knowledge Graph, LinkedIn, Facebook, Wikipedia, drone-directory, investing.com, Legistorm и отраслевые СМИ — подсказки, не источник адреса.
+
+### Подтверждено и внесено
+
+| Утверждение | Вердикт | Что установлено | Источник | Куда записано |
+|---|---|---|---|---|
+| DIU: штаб-квартира 230 R T Jones Rd, Mountain View, CA 94043 | подтверждено | страница мероприятия DIU (13.02.2024): «Location: DIU Headquarters, 230 R T Jones Road Mountain View, CA 94043» | [diu.mil/summit](https://www.diu.mil/summit) | `map/locations.csv` (`diu`: уровень улицы вместо города) |
+| NSWC Crane — контрактный орган Drone Dominance | подтверждено | «holds contracting authority and issues prototype delivery orders based on Gauntlet test results» | [dronedominance.mil](https://dronedominance.mil/) | `companies.csv` (новая строка `nswc-crane`, agency), `links.json` (nswc-crane → drone-dominance) |
+| NSWC Crane: 300 Highway 361, Crane, IN 47522 | частично | официальная страница: «located in Crane, Indiana»; улица не указана. curl — HTTP 403, прочитано через веб-чтение | [navsea.navy.mil — Who We Are](https://www.navsea.navy.mil/Home/Warfare-Centers/NSWC-Crane/Who-We-Are/) | `map/locations.csv` (`nswc-crane`, уровень города) |
+| JCO реорганизован в JIATF 401 | подтверждено | меморандум министра обороны от 27.08.2025: упразднить JCO и создать JIATF 401, подчинённую заместителю министра; упразднение вступает в силу с созданием JIATF 401; ресурсы Replicator 2 — в JIATF 401 | [media.defense.gov (PDF)](https://media.defense.gov/2025/Aug/28/2003790021/-1/-1/0/ESTABLISHMENT-OF-JOINT-INTERAGENCY-TASK-FORCE-401.PDF) | `companies.csv` (`jco`: role_focus, source_url) |
+| JCO / JIATF 401: Bldg 5250 Martin Rd, Redstone Arsenal; The Pentagon | не подтверждено | в меморандуме — только «office space… within the Pentagon reservation or closely located space»; адреса офиса нет | там же | точки нет |
+| Red Cat: Nevada, изначально Colorado | подтверждено | «We are a Nevada corporation, originally incorporated in 1984… in the state of Colorado» | [ir.redcatholdings.com FAQ](https://ir.redcatholdings.com/company-information/faq) | только этот файл |
+| Red Cat: Suite 2 или Suite 5 | расхождение | IR-сайт: «2800 S W Temple St., Suite 2»; SEC EDGAR (submissions и 8-K от 23.10.2026): «2800 S West Temple, Suite 5». Оставлен Suite 5 из SEC | [SEC 8-K](https://www.sec.gov/Archives/edgar/data/748268/000149315226048228/form8-k.htm) | без изменений |
+| Red Cat: 370 Harbour Drive, Palmas del Mar, Humacao, PR 00791 | подтверждено как прежний адрес | S-1 2021: адрес principal executive offices; там же «corporate headquarters… San Juan, Puerto Rico» | [SEC S-1 (2021)](https://www.sec.gov/Archives/edgar/data/748268/000155479521000054/rcat0222forms1.htm) | только этот файл (вторая точка Red Cat не ставится) |
+| Red Cat: 15 Ave. Munoz Rivera, Suite 5, San Juan PR 00901 | не подтверждено | в открытом S-1 2021 этой улицы нет | там же | — |
+| Sine Engineering: Львов | подтверждено | разметка schema.org Organization на sineeng.com: «addressLocality: Lviv, addressCountry: UA» | [sineeng.com](https://www.sineeng.com/) | `map/locations.csv` (`sine-engineering`, уровень города) |
+| Sine Engineering: Новый Калинов, пл. Авиации, 8, к. 24 (ЄДРПОУ 44806137) | подтверждено (юридический адрес) | «Legal address 81464, Lvivska obl., Sambirskyi r-n, m. Novyi Kalyniv, pl. Aviatsii, 8, k. 24»; руководитель совпадает с основателем на сайте | [ua-region 44806137](https://www.ua-region.com.ua/en/44806137) | примечание в `locations.csv` (юридический адрес регистрации, не производственная площадка) |
+| Sine Engineering: Львов, ул. Зелёная, 283; Бозман, Фредериксберг, Тампере | не подтверждено | на sineeng.com и /careers не найдено; hithorizons — Cloudflare 403 | — | — |
+| MILITECH: Киев, ул. Семьи Бродских, 31/33 | подтверждено | сайт (schema.org): «31/33 вулиця Смоленська», Київ; реестр: «03057, m. Kyiv, vul. Brodskykh Simi, 31/33»; Nominatim сопоставил оба адреса с одним зданием | [militech.com.ua](https://www.militech.com.ua/en), [ua-region 42611749](https://www.ua-region.com.ua/en/42611749) | `map/locations.csv` (`militech`, улица) |
+| Ukrspecsystems: Киев, ул. Жилянская, 30/32 | исправлено | реестр: «01033, m. Kyiv, vul. Zhylianska, 30, k. 32» (дом 30, корпус 32), на карточке — сайт ukrspecsystems.com | [ua-region 39562922](https://www.ua-region.com.ua/en/39562922) | `map/locations.csv` (`ukrspecsystems`, юридический адрес регистрации) |
+| UKRSPECSYSTEMS LTD: 5th Floor, 167-169 Great Portland Street, London W1W 5PF | подтверждено | Companies House: registered office, Active, Incorporated on 2 April 2025 | [Companies House 16360736](https://find-and-update.company-information.service.gov.uk/company/16360736) | примечание в `locations.csv` (вторая точка не ставится) |
+| Ukrspecsystems: завод в East Anglia | не подтверждено | на официальных страницах не найдено | — | — |
+| DevDroid: с. Добросин, ул. Львовская, 9 | подтверждено (юридический адрес) | DEVDROID TECH LLC, ЄДРПОУ 45354088: «Legal address 80337, … s. Dobrosyn, vul. Lvivska, 9»; на карточке — домен devdroid.tech | [ua-region 45354088](https://www.ua-region.com.ua/en/45354088) | `map/locations.csv` (`devdroid`; улица не найдена Nominatim — точка по селу) |
+
+### Уже в пакете (без изменений)
+
+- TRMC — 4800 Mark Center Drive, Suite 07J22, Alexandria (DoD CUI) совпадает с вводной. Сноски вводной у TRMC на drone-dominance.io и phantomdefense.tech/en/contacts отнесены не туда: на этих страницах адреса TRMC нет. Официальный сайт программы — dronedominance.mil.
+- Red Cat — точка по SEC (Suite 5) сохранена.
+- Replicator, Drone Dominance, GCAP, European Drone Defence Initiative, DELTA — программы без собственной точки. Адреса DIU, TRMC, Еврокомиссии (Rue de la Loi 200) и Минобороны Украины на них не переносятся.
+- Fort Carson — полигон Gauntlet II (уже в основании связи phantom-defense → drone-dominance); отдельный узел не нужен.
+
+### Не подтверждено / исправлено
+
+| Утверждение | Вердикт | Что установлено | Источник |
+|---|---|---|---|
+| Phantom Defense: Creative States, 8 Knyaziv Ostrozkykh Str., Unit 7, Киев; 1055 Thomas Jefferson St NW, Suite M200, Washington | исправлено | это офисы самого USUBC: те же адреса указаны на странице Contacts USUBC и в подвале каждой его страницы. Не офисы Phantom Defense | [usubc.org/contacts](https://usubc.org/contacts/), [usubc.org — Phantom Defense](https://usubc.org/companies/phantom-defense/) |
+| Phantom Defense: 9 производственных объектов | подтверждено (без мест) | сайт: «operates nine production sites»; мест нет, на карту не наносится | [phantomdefense.tech/en](https://www.phantomdefense.tech/en) |
+| Phantom Defense: адрес | не подтверждено | на /en/contacts только телефоны и e-mail; юрлицо с адресом в реестре не найдено | [phantomdefense.tech/en/contacts](https://www.phantomdefense.tech/en/contacts) |
+| Kara Dag: ТОВ «КАРАДАГ», ЄДРПОУ 45312205, Львов, ул. Валовая | исправлено | по этому коду — KARADAH LLC (Львов, ул. Валовая, 5) с КВЭД ресторанов и гостиниц: другое юрлицо, не Kara Dag Technologies | [ua-region 45312205](https://www.ua-region.com.ua/en/45312205) |
+| SkyFall: ТОВ «СКАЙФОЛ», ЄДРПОУ 38594199, Киев, ул. Ушинского, 40, лит. Б, пом. 204 | не подтверждено как SkyFall | юридический адрес в реестре совпадает, но КВЭД — розница и ремонт телеком-техники, связи с производителем Vampire/Shrike на карточке нет. Точка `x-skyfall` не ставится | [ua-region 38594199](https://www.ua-region.com.ua/en/38594199) |
+| Brave1: через Минцифры, ул. Деловая, 24 | не подтверждено | на brave1.gov.ua (главная, Contacts) адреса нет; LinkedIn — не официальный источник | [brave1.gov.ua/en/contacts](https://brave1.gov.ua/en/contacts/) |
+| Edgewing (GCAP): Рединг, Турин | не проверено | edgewing.com отдаёт заглушку Incapsula (напрямую, через выходной узел и через веб-чтение). Строка Edgewing не добавлена; адрес на `gcap` не ставится | [edgewing.com](https://www.edgewing.com/) |
+| TAF Industries, Wild Hornets, TechEx, InLab, Defika: «г. Киев» / «г. Львов» | см. t40u | — | — |
+| IRGC ASF: District 22 (Читгар) / Damavand Tehran Highway | не подтверждено как официальный адрес штаб-квартиры | агрегатор OpenSanctions приводит из санкционных списков «Damavand Tehran Highway, Tehran Province, Iran»; District 22 / Читгар не найдены. Это не официальная страница; узел остаётся в UNLOCATED | [opensanctions.org](https://www.opensanctions.org/entities/NK-jF6xZDZzsiGDtJtGcBqoLi/) |
+
+## t38u — Rheinmetall — Украинская оборонная промышленность (проверено 11.11.2026)
+
+| Утверждение | Вердикт | Что установлено | Источник | Куда записано |
+|---|---|---|---|---|
+| СП ТОВ «РАЙНМЕТАЛ - УОП» (Rheinmetall Ukrainian Defense Industry LLC), ЄДРПОУ 45365063, зарегистрировано 18.10.2023 в Киеве | подтверждено | Rheinmetall: «operating since 18 October 2023», Kyiv; Минстратегпром (24.10.2023): ТОВ «Rheinmetall UDI» зарегистрировано 18 октября; выписка ЕГР: дата основания 18.10.2023 | [rheinmetall.com — дочерняя компания](https://www.rheinmetall.com/en/company/subsidiaries/rheinmetall-ukrainian-defense-industry), [mspu.gov.ua](https://mspu.gov.ua/news/rheinmetall-ag-ta-at-ukroboronprom-stvoryly-spilne-pidpryiemstvo), [Opendatabot](https://opendatabot.ua/c/45365063) | `companies.csv` (новая строка `rheinmetall-uop`) |
+| Юридический адрес: 04119, Киев, ул. Дегтярёвская, 36 | подтверждено | выписка ЕГР: «04119, Україна, місто Київ, вулиця Дегтярівська, будинок 36»; тот же адрес — YouControl (частично скрыт) и ua-region | [Opendatabot](https://opendatabot.ua/c/45365063), [YouControl](https://youcontrol.com.ua/ru/catalog/company_details/45365063/) | `map/locations.csv` (`rheinmetall-uop`, юридический адрес регистрации, не производственная площадка) |
+| Адрес СП совпадает с головным офисом АО «УОП» (ЄДРПОУ 37854297) | частично | ua-region даёт АО «УОП» тот же юридический адрес. На официальной странице контактов УОП — только «Україна, Київ»; YouControl/Opendatabot по 37854297 не открылись (404). Точка `udi` оставлена на уровне города; у СП своя точка | [ukroboronprom.com.ua/contucts](https://ukroboronprom.com.ua/contucts), [ua-region 37854297](https://www.ua-region.com.ua/en/37854297) | без изменения точки `udi` |
+| КВЭД 30.40 | подтверждено | основной вид деятельности «30.40 Виробництво військових транспортних засобів» | [Opendatabot](https://opendatabot.ua/c/45365063) | `companies.csv` (role_focus) |
+| Руководители: Гервин Катерина, Билан Максим Сергеевич | подтверждено | YouControl: «ГЕРВІН КАТЕРИНА керівник; БІЛАН МАКСИМ СЕРГІЙОВИЧ член правління, підписант» | [YouControl](https://youcontrol.com.ua/ru/catalog/company_details/45365063/) | только этот файл |
+| Доли: Rheinmetall Landsysteme GmbH (Унтерлюс) 51%, УОП 49% | подтверждено (уточнено) | Rheinmetall: «jointly owned by Rheinmetall Landsysteme GmbH, with a 51% stake, and UDI… 49%»; контакт Rheinmetall Landsysteme — Heinrich-Ehrhardt-Straße 2, 29345 Unterluess. По ЕГР 49% записаны на ТОВ «Западноукраинский машиностроительный завод» (ЄДРПОУ 44789782), 100% которого принадлежит АО «УОП» | [rheinmetall.com](https://www.rheinmetall.com/en/company/subsidiaries/rheinmetall-ukrainian-defense-industry), [Opendatabot 44789782](https://opendatabot.ua/c/44789782) | `companies.csv` (ubo_name, ubo_source), `links.json` (rheinmetall → rheinmetall-uop, udi → rheinmetall-uop: ubo; rheinmetall → udi: partner) |
+| ТОВ «Западноукраинский машиностроительный завод» — производственная база | частично | реестр: юрлицо с КВЭД 30.40, юридический адрес тот же (Дегтярёвская, 36), владелец — АО «УОП». Что это производственная база, на открытых страницах не сказано. Завод на карту не наносится | [Opendatabot 44789782](https://opendatabot.ua/c/44789782) | только этот файл |
+| Координация: Минстратегпром, Минобороны | частично | Минстратегпром опубликовал сообщение о создании СП. Роль Минобороны как координатора СП на открытых страницах не найдена | [mspu.gov.ua](https://mspu.gov.ua/news/rheinmetall-ag-ta-at-ukroboronprom-stvoryly-spilne-pidpryiemstvo) | — |
+| Финансирование: средства ФРГ на Lynx | подтверждено | контракт 12.2025 на первые пять Lynx KF41, «financed by the Federal Republic of Germany»; следующий шаг — партии с производством в Украине | [rheinmetall.com (12.01.2026)](https://www.rheinmetall.com/en/media/news-watch/news/2026/01/2026-01-12-rheinmetall-supplies-lynx-to-ukraine) | `companies.csv` (role_focus) |
+| Финансирование EU SAFE | не подтверждено | на открытых официальных страницах не найдено | — | — |
+| Ремонтный центр открыт в июне 2024 | подтверждено | «Since June 2024, combat vehicles have been repaired and maintained in western Ukraine»; релиз 24.07.2024: «opened an armour plant in western Ukraine… operated by the joint venture» | [rheinmetall.com](https://www.rheinmetall.com/en/company/subsidiaries/rheinmetall-ukrainian-defense-industry), [релиз 24.07.2024](https://www.rheinmetall.com/en/media/news-watch/news/2024/07/2024-07-24-rheinmetall-supplies-equipment-for-ammunition-factory-in-ukraine) | `companies.csv` (role_focus). Область (Закарпатье / Львов) на официальных страницах не названа; точки нет |
+| Завод 155-мм боеприпасов (задержан) | частично | Rheinmetall (07.2024): заказ на оборудование завода, ввод «within 24 months», эксплуатация с украинским партнёром по СП. О задержке — только в СМИ со слов CEO | [релиз 24.07.2024](https://www.rheinmetall.com/en/media/news-watch/news/2024/07/2024-07-24-rheinmetall-supplies-equipment-for-ammunition-factory-in-ukraine) | `companies.csv` (role_focus, без даты пуска) |
+| Линия Fuchs/Lynx на 200–300 машин; завод ПВО и пороха | не подтверждено | на открытых официальных страницах не найдено (цифра 200–300 — пересказ интервью в СМИ) | — | — |
+| Rheinmetall imprint | замечание | https://www.rheinmetall.com/en/imprint 11.11.2026 — HTTP 404. Адрес «Rheinmetall Platz 1 40476 Dusseldorf» есть в контактах официальной страницы дочерней компании; источник точки `rheinmetall` заменён, точка не изменилась | [rheinmetall.com](https://www.rheinmetall.com/en/company/subsidiaries/rheinmetall-ukrainian-defense-industry) | `map/locations.csv` (`rheinmetall`: source_url) |
+
+## t40u — веб-поиск адресов для узлов без точки (11.11.2026)
+
+Для узлов без адреса на официальном сайте проведён веб-поиск. Найденное открыто на официальной странице или в реестре; сниппеты поисковика и каталоги выставок адресом не считаются.
+
+| Узел | Найдено поиском | Подтверждено на открытой странице | Куда записано |
+|---|---|---|---|
+| InLab | ТОВ «ІНТЕЛІДЖЕНТ ЛАБ», ЄДРПОУ 45434092, Киев, ул. Ушинского, 40, корпус Б | подтверждено на официальном сайте: реквизиты продавца в публичной оферте — «03151, місто Київ, вул. Ушинського 40, корпус Б», ЄДРПОУ 45434092 | `map/locations.csv` (`inlab`, улица; адрес реквизитов юрлица, не производственная площадка) |
+| Defika | ТОВ «ДЕФІКА», ЄДРПОУ 45849962, Львов, ул. Коновальца, 85б | подтверждено (юридический адрес): ua-region — юридический и почтовый адрес на ул. Коновальца, 85б; на карточке — сайт defika.com.ua. Точка по дому, без номера помещения | `map/locations.csv` (`defika`, юридический адрес регистрации, не производственная площадка) |
+| TAF Industries | Одесса, Итальянский бульвар, 1-Г (каталоги выставок MSPO, Future Forces) | не подтверждено: каталог выставки не официальная страница; на taf-ua.com (Contacts, Privacy policy) адреса нет; юрлицо в реестре не найдено | — |
+| Wild Hornets | ТОВ «Українські машини» (ЄДРПОУ 45595479); БФ «Спільнота Диких Шершнів» (45364185) | не подтверждено: связь ТОВ с Wild Hornets — только в Wikipedia и СМИ; на wildhornets.com юрлица нет; карточка 45595479 на ua-region не найдена; у фонда на ua-region сайт dykishershni.com, а не wildhornets.com | — |
+| TechEx | ТОВ «ТЕХЕКС», ЄДРПОУ 31149692, Харьков | исправлено: по реестру — оптовая торговля и строительство, сайт tekhex.com, учредитель из Чехии. Это не производитель Stalker | [ua-region 31149692](https://www.ua-region.com.ua/en/31149692) |
+| Phantom Defense | — | юрлицо и адрес не найдены (только LinkedIn и Crunchbase: «Kyiv») | — |
+| Kara Dag Technologies | «Kyiv, 01001» (PitchBook, CB Insights) | не подтверждено: агрегаторы, не официальные страницы | — |
+| SkyFall | ТОВ «СКАЙФОЛЛ ІНДАСТРІС», ЄДРПОУ 45141379, Киев, ул. Героев Днепра, 18 | не подтверждено: Opendatabot и ua-region по коду не открылись (404); адрес только в сниппетах агрегаторов. `x-skyfall` без точки | — |
+| Brave1 | 04107, Киев, ул. Отто Шмидта, 26 (Український фонд стартапів, ЄДРПОУ 42688455) | не подтверждено: на brave1.gov.ua не сказано, что это адрес или оператор Brave1. Адрес другой организации на Brave1 не переносится | — |
+
+## t39u — производители компонентов для дронов в Украине (проверено 11.11.2026)
+
+Вводный список: сноски [[n]] без URL. Каждое утверждение сверено с открытой официальной страницей или карточкой реестра; Wikipedia, LinkedIn, агрегаторы (RobotWar, Dealroom), каталоги и СМИ — только подсказки. Телефоны из вводной и со страниц компаний в пакет не переносились. Цифры объёмов («распродано на 2026 г.», «5 млн дронов / 20 млн моторов / 70 000 в день», «20 моделей от 11 производителей», «100% украинские компоненты», объёмы в месяц на сайтах компаний) в реестр и на карту не вносились.
+
+Новые строки реестра (company): `bluebird-tech`, `3avada`, `skilur`, `molfar`, `ft-systems`, `motor-g`, `realgold`, `fiberform`, `general-cherry`, `polifly`, `ukropchik`, `odd-systems`, `ptashka-drones`, `pawell`, `btry-energy`, `3dtech`, `vyriy`, `orqa`. Обновлены `hensoldt`, `wild-hornets`. Новый внешний узел `x-terma`.
+
+### РЛС и обнаружение
+
+| Утверждение | Вердикт | Что установлено | Источник | Куда записано |
+|---|---|---|---|---|
+| Hensoldt: TRML-4D и SPEXER для ПВО Украины, контракт более €340 млн | подтверждено | «a major order worth more than €340 million to supply TRML-4D radars… and SPEXER radars to strengthen Ukraine's air defence» (24.07.2025, Ульм); SPEXER 2000 3D MkIII | [hensoldt.net](https://www.hensoldt.net/news/hensoldt-strengthens-ukraines-air-defence) | `hensoldt` (role_focus, customers) |
+| «Украинские тактические радары», «распродано на весь 2026 г.» | не вносится | производитель не назван; статистика по СМИ | — | — |
+| Польско-украинский стартап: радар для малых низколетящих дронов, в т.ч. на оптоволокне | частично (название найдено) | по СМИ (Defense News, tech.eu) — Molfar. Сайт molfardefence.com: «tactical radar solutions for early detection, localization and tracking of small aerial threats»; «90° sector or 360° full coverage». Польско-украинское происхождение и оптоволоконные дроны на сайте **не указаны** | [molfardefence.com](https://molfardefence.com/) | `molfar` (без точки) |
+| BlueBird Tech (Киев): Chuyka 3.0 — украинская разработка для обнаружения дронов | подтверждено / исправлено (город) | «Electronic intelligence device “Chuyka 3.0”… passive detection and interception of analogue FPV drone video signals», 1,2/3,3/5,8 ГГц, до 4 км, «Has NATO codification». Компания **из Одессы**, не Киева: продавец ТОВ «BLUEBIRD TECH», ЄДРПОУ 45288431, юридический адрес — Одесса, ул. Велика Арнаутська, 76, оф. 3 (офис — «8 Akademika Harkovskoho (Zhytomyrska) St., Odesa») | [blue-bird.tech Chuyka 3.0](https://www.blue-bird.tech/en/products/chuyka-3-0/), [blue-bird.tech/en/contacts](https://www.blue-bird.tech/en/contacts/) (curl 403, прочитано веб-чтением) | `bluebird-tech`; точка — юридический адрес регистрации, не производственная площадка |
+| BlueBird Tech: дроны Zhakh с оптоволоконным кабелем, кабель разматывается в полёте | подтверждено | «Fiber-optic FPV Drone Zhakh 13″… up to 15 km»; «The cable unwinds during movement, ensuring control and real-time video transmission»; катушка 20/25 км | [blue-bird.tech Zhakh 13](https://www.blue-bird.tech/en/products/fpv-drone-on-fiber-optics-zhakh-13/) | `bluebird-tech` |
+| 3AVADA: обнаружение и противодействие дронам | частично | сайт: производитель **РЭБ** против FPV и DJI Mavic (автомобильные «Писець», носимые «Черепаха»), 140–6000 МГц, основана в 2022 г., испытания МО Украины и ОК «Захід». Отдельных средств обнаружения на открытых страницах не найдено. Адреса нет (только «Україна») | [zavada.co/en/about-us](https://zavada.co/en/about-us/), [zavada.co/en](https://zavada.co/en/) | `3avada` (без точки) |
+| SKILUR: обнаружение и контрмеры против дронов | исправлено | сайт: SENTRY — автономная **hard-kill** платформа (физическое поражение FPV и барражирующих боеприпасов, в т.ч. на оптоволокне); «R&D Stage», «TRL 3 → 6», seed-раунд; «registered in Ukraine». Адреса нет | [skilur.tech](https://skilur.tech/) (SPA; текст из JS-бандла сайта) | `skilur` (без точки) |
+
+### РЭБ
+
+| Утверждение | Вердикт | Что установлено | Источник | Куда записано |
+|---|---|---|---|---|
+| Kvertus: Atlas, AD Hunter, AD Berserk, LTEJ Mirage, Azimuth | см. t35u | проверено в t35u; Berserk на сайте — робот (эвакуация), не РЭБ | — | `kvertus` без изменений |
+| Phantom Defense: Specter и Streamhunter на Gauntlet II | см. t35u | не учения, а этап Gauntlet II программы Drone Dominance | — | без изменений |
+| Unwave (основана 2023): защита от FPV, Drone Dominance | не подтверждено официальным сайтом | 11.11.2026 повторно: unwave.com.ua/en/products/ — HTTP 403 (Cloudflare) с этой машины, через веб-чтение и через выходной узел (VPS); PDF-руководство на том же домене — 403. Строки реестра нет | — | только этот файл |
+| InLab: Stryi; Defika: VIK-2K | см. t35u | подтверждено ранее | — | без изменений |
+| Atlas-1300 — компания РЭБ | см. t35u (исправлено) | благотворительный проект на системы Kvertus, не компания | — | — |
+| Pokrova (февраль 2024): перехват российских ударных дронов | не вносится как компания | государственная система РЭБ (спуфинг ГНСС); производитель не назван; источник — СМИ со слов Воздушных сил Украины | — | — |
+
+### Электроника, моторы, видеопередатчики
+
+| Утверждение | Вердикт | Что установлено | Источник | Куда записано |
+|---|---|---|---|---|
+| FT Systems (Киев): полётные контроллеры и ESC собственной разработки | подтверждено | «FT Systems flight controllers and speed controllers are proprietary designs developed by our engineers…»; FAQ: «all key components… developed and manufactured in-house in Ukraine»; на главной — «electronics for civilian unmanned systems». Юрлицо (политика конфиденциальности): «FUTURE TECHNOLOGIES SYSTEMS» LLC, ЄДРПОУ 46037272. ЕГР: Киев, ул. Миколи Соловцова, 2, оф. 38/2; создано 01.10.2025; основной КВЭД 47.91; учредители — ВКІФ «ЛАРА» (51%) и ВКІФ «1М ІНВЕСТ» (49%); тендер в/ч А4951 на 252 000 грн | [ft.systems/en](https://ft.systems/en/), [ft.systems privacy](https://ft.systems/en/privacy-policy/), [Opendatabot 46037272](https://opendatabot.ua/c/46037272) (веб-чтение; curl — 403) | `ft-systems`; точка — юридический адрес регистрации |
+| Wild Hornets: собственный полётный контроллер, pick-and-place, пропеллеры | не подтверждено официальным сайтом | на wildhornets.com (FAQ) — «use parts of exceptional quality, including our own high-performing batteries»; «We don't copy drones from China. We create our own». Полётный контроллер, pick-and-place и пропеллеры — только в СМИ (Forbes, Rubryka) | [wildhornets.com FAQ](https://wildhornets.com/en/frequently-asked-questions) | `wild-hornets` (только собственные аккумуляторы); точки по-прежнему нет |
+| DEC-1: видеопередатчики | не вносится | официальный сайт не найден (только магазины-дилеры) | — | — |
+| AeroMotors: бесколлекторные моторы | не вносится | aeromotors.com.ua перенаправляет на Google-форму — сайта с содержанием нет; остальное — LinkedIn, Dealroom, СМИ | — | — |
+| Realgold LLC: моторы | подтверждено (компания); адрес не вносится | thrustnova.tech: «REALGOLD is a Ukrainian manufacturer of high-performance electric motors for UAVs», бренд ThrustNova. Карточка ua-region ТОВ «РЕАЛГОЛД» (ЄДРПОУ 43175736, Киев, ул. Машинобудівна, 44, КВЭД 27.11) сопоставлена только по названию и КВЭД, ссылки на сайт в карточке нет — юридический адрес на карту не переносится | [thrustnova.tech/en/pro-nas](https://thrustnova.tech/en/pro-nas/), [ua-region 43175736](https://www.ua-region.com.ua/en/43175736) | `realgold` (без точки) |
+| Motor-g.com: моторы, производство в Украине | подтверждено | «Battle-Tested Drone Motors – Made in Ukraine»; «Made in Ukraine. Proven in combat»; испытания и балансировка; поставки с января 2024 г. Политика конфиденциальности: «LLC Motor-G, 2 Feofila Yanovskoho Street, Kyiv, 03069» | [motor-g.com/en](https://motor-g.com/en), [motor-g privacy](https://motor-g.com/en/policies/privacy-policy) | `motor-g`; точка — контактный адрес юрлица, не производство |
+| «5 млн дронов, 20 млн моторов, 70 000 в день» | не вносится | статистика из вводной, первоисточник не открыт | — | — |
+
+### Рамы и корпуса
+
+| Утверждение | Вердикт | Что установлено | Источник | Куда записано |
+|---|---|---|---|---|
+| FiberForm (Львов): карбон для FPV и БЛА, рамы | подтверждено | собственное производство листов и труб, фрезеровка, рамы для FPV и БЛА; контакты — «м. Львів». Телефон из вводной не публикуется | [fiberform.com.ua](https://www.fiberform.com.ua/), [контакты](https://www.fiberform.com.ua/contact/) | `fiberform` (уровень города) |
+| CarbonVega: европейский производитель карбоновых деталей для FPV | подтверждено, строки нет | «CarbonVega is a European manufacturer of CNC-cut carbon fiber and aluminum parts»; «Ship worldwide from Estonia (EU)»; CarbonVega OÜ. Связь с Украиной на открытых страницах не найдена — вне украинской цепочки, строка не создана. «Одна из немногих в Европе…» — самооценка | [carbonvega.com](https://carbonvega.com/what-is-carbonvega/) | только этот файл |
+| General Cherry: производитель FPV; подземный завод компонентов с ORQA | частично / исправлено | сайт: FPV (в т.ч. на оптоволокне), перехватчики AIR и Bullet, самолётные Sweetheart и Khmarynka; «production facilities were distributed across several regions of Ukraine». С ORQA — «memorandum of cooperation… to support the development of manufacturing capabilities in Ukraine and Europe». **Подземный завод на официальных страницах не упомянут** (только СМИ). Юридический адрес: Вишневе, ул. Київська, 37. Также: соглашение с американской Wilcox о совместном производстве; Wilcox Cherry Defense — среди 19 компаний, прошедших квалификационный этап DDP | [gencherry.com/en/about-us](https://gencherry.com/en/about-us), [privacy](https://gencherry.com/en/privacy-policy) | `general-cherry` (юридический адрес); `orqa`; связи general-cherry → orqa, general-cherry → drone-dominance |
+| ORQA (Хорватия) | подтверждено | Orqa d.o.o., основана в 2018 г.; «J.J.Strossmayera 341, 31000 Osijek, Croatia»; «development and production is also based» в Осиеке | [orqafpv.com/about](https://orqafpv.com/about) | `orqa` (улица) |
+| POLIFLY: корпуса дронов из полиуретана | подтверждено | «український виробник БПЛА з поліуретановими корпусами»; ударный БЛА «Cooper» (1,2 м, до 5,5 кг, катапульта, ~90 км); контакты — «м. Київ» | [polifly.com.ua](https://polifly.com.ua/), [БПЛА](https://polifly.com.ua/?page_id=108) | `polifly` (уровень города) |
+| Current Composites: карбоновые пластины и трубки (roll-wrapped) для FPV и военных дронов | подтверждено, строки нет | «CURRENT, INC. is a USA carbon fiber manufacturer… roll-wrap carbon fiber tubes»; East Haven, CT. Связи с Украиной на открытых страницах нет — строка не создана | [currentcomposites.com](https://currentcomposites.com/carbon-fiber/) | только этот файл |
+| Ukropchik: боевые FPV-дроны | подтверждено | производитель — ТОВ «Кальхеон» (с 2023 г.); адрес на сайте: 04071, Київ, вул. Ярославська, 11, офіс 11; номенклатурный код НАТО | [ukropchik.com.ua](https://ukropchik.com.ua/) | `ukropchik` (адрес офиса) |
+
+### Камеры
+
+| Утверждение | Вердикт | Что установлено | Источник | Куда записано |
+|---|---|---|---|---|
+| Odd Systems: камеры, Kurbas 256, производство в Украине | подтверждено | «Odd Systems develops and manufactures battle-proven thermal cameras»; «Kurbas-256 – our thermal camera… Made in Ukraine»; также Kurbas-640α/β, Svitlych-662. Партнёрство с Terma Group (21.07.2025). Адреса на сайте нет | [oddsystems.io/en](https://oddsystems.io/en/), [Kurbas-256](https://help.oddsystems.io/en/thermal-cameras/kurbas-256), [Terma](https://oddsystems.io/en/terma-oddsystems-strategic-partnership) | `odd-systems` (без точки); связь odd-systems → x-terma |
+| Ptashka Drones: «система камер Ptashka 17-O-50 km» | исправлено | Ptashka-17-O 50 km — **FPV-дрон** с оптоволоконным модулем 50 км («not a guarantee of actual flight range»); камеры на выбор Caddx Ratel 2 / тепловизор 640×512 / Ptashka Full HD | [ptashkadrones.com](https://www.ptashkadrones.com/en/drones/ptashka-17-O) | `ptashka-drones` (без точки) |
+
+### Батареи
+
+| Утверждение | Вердикт | Что установлено | Источник | Куда записано |
+|---|---|---|---|---|
+| PAWELL: украинский производитель батарей; твердотельные и натрий-ионные технологии | частично | сайт: аккумуляторные сборки для БЛА, FPV, РЭБ; серийные Solid-State 40–120 Ач; «Address: Lviv, Ukraine», самовывоз «from the production facility (Lviv)». Натрий-ионные на открытых страницах не найдены (только СМИ) | [pawell.com.ua/en](https://www.pawell.com.ua/en), [terms](https://www.pawell.com.ua/en/terms), [privacy](https://www.pawell.com.ua/en/privacy-policy) | `pawell` (уровень города) |
+| DP Battery: полутвердотельные батареи | не вносится | официальный сайт не найден (dpbattery.com — посторонний магазин батарей для ноутбуков; по агрегатору компания присутствует в основном в соцсетях) | — | — |
+| BTRY.ENERGY: сборки на заказ, доставка по Украине | подтверждено | Li-ion сборки для FPV и перехватчиков, сборки на заказ, оптоволоконные катушки; schema.org — «Київ». Телефон из вводной не публикуется | [btry.energy](https://btry.energy/) | `btry-energy` (уровень города) |
+| Hanery: поставщик LiPo для украинских производителей | частично, строки нет | Hanery — поставщик LiPo и других элементов, Шэньчжэнь (Китай). **Поставки украинским производителям на сайте не упомянуты** — строка не создана | [hanery.com](https://www.hanery.com/) | только этот файл |
+| Grepow: батареи для дронов | подтверждено, строки нет | Shenzhen Grepow Battery Co., Ltd. (Китай): батареи для БЛА, кастомные решения. Связи с Украиной на сайте нет — строка не создана | [grepow.com UAV](https://www.grepow.com/uav-battery.html), [контакты](https://www.grepow.com/contact-us.html) | только этот файл |
+
+### Оптоволокно, пропеллеры, ESC
+
+| Утверждение | Вердикт | Что установлено | Источник | Куда записано |
+|---|---|---|---|---|
+| 3DTech: оптоволоконные FPV, катушки до 20 км, наматывают сами | частично | «Ukrainian manufacturer of next-generation high-precision FPV drones featuring fiber-optic control»; Khyzhak REBOFF 13 с катушкой 20 км; «A proprietary fiber-optic coil». Собственная намотка — формулировки нет | [3dtech.com.ua/en](https://www.3dtech.com.ua/en), [катушка 20 км](https://www.3dtech.com.ua/en/catalog/fiber-optic-coils-20km) | `3dtech` (без точки) |
+| Vyriy Industries: FPV из украинских компонентов, в т.ч. пропеллеры и регуляторы | частично | сайт: собственные плата инициации Popcorn, **ESC**, ELRS-антенна, полётный контроллер; партнёрства с украинскими производителями. Пропеллеры собственного производства не упомянуты; формулировка «100% Ukrainian components» — заявление компании, в реестр не вносится. Карточка ua-region ТОВ «ВИРІЙ ІНДАСТРІ» (45186404, Киев, ул. Промислова, 4, КВЭД 30.30) сопоставлена только по названию и КВЭД, ссылки на сайт в карточке нет — юридический адрес на карту не переносится | [vyriy.com/en/about](https://vyriy.com/en/about), [ua-region 45186404](https://www.ua-region.com.ua/en/45186404) | `vyriy` (без точки) |
+| «20+ моделей оптоволоконных дронов от 11 производителей», «Лиман покрыт оптоволокном» | не вносится | статистика / СМИ | — | — |
+| Swarmer (Киев) | см. t35u | главный офис — Остин; основание в Киеве первоисточником не подтверждено | — | без изменений |
+
+### Связи и карта (t39u)
+
+- Новые связи (`links.json`): general-cherry → orqa (partner, меморандум); general-cherry → drone-dominance (partner: этапы DDP, Wilcox Cherry Defense); odd-systems → x-terma (partner); bluebird-tech → brave1 (partner: продажи через Brave1 Market, по сайту BlueBird).
+- Новые точки: улица — `bluebird-tech` (Одесса), `ft-systems`, `motor-g`, `ukropchik` (Киев), `general-cherry` (Вишневе; Nominatim нашёл улицу без дома), `orqa` (Осиек); город — `fiberform`, `pawell` (Львов), `polifly`, `btry-energy` (Киев). Все украинские адреса — юридические или контактные адреса юрлиц, не производственные площадки. Без точки (в UNLOCATED): `3avada`, `skilur`, `molfar`, `odd-systems`, `ptashka-drones`, `3dtech`, `realgold`, `vyriy`, `x-terma`. У `realgold` и `vyriy` совпадение юрлица в реестре только по названию и КВЭД, без ссылки на сайт — адрес на карту не переносится.
+- Подземные и нераскрытые производства (General Cherry, Phantom Defense) на карту не наносятся.
+- Доступ: blue-bird.tech — curl 403, прочитано веб-чтением; opendatabot/youcontrol — Cloudflare 403 для curl, Opendatabot 46037272 прочитан веб-чтением, 45288431 — 404; ua-region 45288431 и 46037272 — 404; unwave.com.ua — 403 везде (в т.ч. через выходной узел); wildhornets.com — curl 429, FAQ прочитан веб-чтением; skilur.tech — SPA, веб-чтение по таймауту, текст взят из JS-бандла сайта; terma.com/contact-us — 200, адреса в загруженном HTML нет.
