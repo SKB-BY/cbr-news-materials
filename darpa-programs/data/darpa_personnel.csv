@@ -1,35 +1,35 @@
-name,role,org_id,program_id,evidence_url,note
-J.C.R. Licklider,DARPA program manager,,arpanet,https://www.darpa.mil/news/features/arpanet,работа над ARPANET начата под его руководством в 1960-х
-Dag Kittlaus,founder,siri,pal,https://www.sri.com/75-years-of-innovation/75-years-of-innovation-siri/,«one of the Siri co-founders» (SRI пишет «Dag Kitlaus»)
-Adam Cheyer,principal investigator,siri,pal,https://www.sri.com/75-years-of-innovation/75-years-of-innovation-siri/,"«Adam Cheyer of Siri, Inc.», работал в SRI; статус основателя источником не назван"
-Stéphane Bancel,later CEO,moderna,adept,https://investors.modernatx.com/news/news-details/2013/darpa-awards-moderna-therapeutics-a-grant-for-up-to-25-million-to-develop-messenger-rna-therapeutics,«president and founding CEO» в релизе 2013
-Chris Urmson,founder,aurora,urban-challenge,https://aurora.tech/company,сооснователь Aurora (aurora.tech); в списке команды Tartan Racing (https://www.cs.cmu.edu/~tartanrace/team.html)
-Drew Bagnell,founder,aurora,urban-challenge,https://aurora.tech/company,сооснователь Aurora (aurora.tech); в списке команды Tartan Racing (CMU)
-Sterling Anderson,founder,aurora,,https://aurora.tech/company,сооснователь Aurora
-Dave Ferguson,founder,nuro,,https://www.nuro.ai/company,"Co-Founder & Co-CEO Nuro, ранее principal engineer проекта Google self-driving (Waymo). Имя есть в списке Tartan Racing (CMU) — совпадение не подтверждено"
-Jiajun Zhu,founder,nuro,,https://www.nuro.ai/company,"сооснователь Nuro, ранее проект Google self-driving"
-Dan Patt,DARPA program manager,,mosaic-warfare,https://www.darpa.mil/news/features/mosaic-warfare,"бывший заместитель директора STO, соавтор термина Mosaic Warfare; на 2018 — CEO Vecna Robotics (не основатель по источнику)"
-Timothy Chung,DARPA program manager,,offset,https://www.darpa.mil/news/2021/offset-swarms-take-flight,
-Scott Wierzbanowski,DARPA program manager,,gremlins,https://www.darpa.mil/news/2018/gremlins-demonstration-flights,
-Dan Javorsek,DARPA program manager,,ace,https://www.darpa.mil/news/2021/air-combat-autonomy-program,
-Ryan Hefron,DARPA program manager,,ace,https://www.darpa.mil/news/2023/ace-program-transition,
-Paul Zablocky,DARPA program manager,,astarte,https://www.darpa.mil/news/2023/battlefield-airspace-deconfliction-software,
-Eric Davis,DARPA program manager,,scepter,https://www.darpa.mil/research/programs/scepter-strategic-chaos,указан на странице программы
-Lael Rudd,DARPA program manager,,rema,https://www.darpa.mil/news/2024/mission-autonomy,PM на 08.02.2024
-Phillip Smith,DARPA program manager,,rema,https://www.darpa.mil/research/programs/rema-rapid-experimental-missionized-autonomy,указан на странице REMA; также PM Lift Challenge
-Phillip Smith,DARPA program manager,,lift,https://www.darpa.mil/research/programs/lift,
-Kyle Woerner,DARPA program manager,,manta-ray,https://www.darpa.mil/news/2021/manta-ray-performers,
-Kevin Sloan,DARPA program manager,,manta-ray,https://www.darpa.mil/research/programs/manta-ray,указан на странице программы
-Mark Micire,DARPA program manager,,fla,https://www.darpa.mil/news/2016/fla-program-takes-flight,
-Steve Komadina,DARPA program manager,,ancillary,https://www.darpa.mil/news/2023/ancillary-vtol-x-plane,
-Michael Nayak,DARPA program manager,,luna-10,https://www.darpa.mil/news/2024/luna-10-economy-study,
-Joe Altepeter,DARPA program manager,,qbi,https://www.darpa.mil/news/2026/qbi-stage-a-qbit,"founding PM QBI, уходит из агентства (10.03.2026)"
-Micah Stoutimore,DARPA program manager,,qbi,https://www.darpa.mil/news/2026/qbi-stage-a-qbit,managing director QBI с 03.2026
-Stuart Young,DARPA program manager,,racer,https://www.darpa.mil/news/2026/racer-finish-line,
-John Main,DARPA program manager,,racer,https://www.darpa.mil/research/programs/robotic-autonomy-in-complex-environments-with-resiliency,указан на странице программы
-Clark McGehee,DARPA program manager,,shepard,https://www.darpa.mil/news/2026/darpa-xrq-73-demonstrates-hybrid-electric-flight,
-Jeremy Pamplin,DARPA program manager,,triage,https://www.darpa.mil/research/programs/darpa-triage-challenge,
-David Meyer,DARPA program manager,,amped,https://www.darpa.mil/research/programs/amped,
-Travis Autry,DARPA program manager,,perrseus,https://www.darpa.mil/research/programs/perrseus,
-Van Parunak,principal investigator,parallax,scepter,https://parallaxresearch.org/news/press-releases/parallax-advanced-research-awarded-darpas-scepter-program-contract,
-Michael Harradon,principal investigator,charles-river,scepter,https://cra.com/charles-river-analytics-awarded-9-9m-darpa-contract-to-develop-trusted-ai-approach-for-complex-operations-planning/,
+name,role,org_id,program_id,evidence_url,note,red_flag,red_flag_source
+J.C.R. Licklider,DARPA program manager,,arpanet,https://www.darpa.mil/news/features/arpanet,работа над ARPANET начата под его руководством в 1960-х,,
+Dag Kittlaus,founder,siri,pal,https://www.sri.com/75-years-of-innovation/75-years-of-innovation-siri/,«one of the Siri co-founders» (SRI пишет «Dag Kitlaus»),,
+Adam Cheyer,principal investigator,siri,pal,https://www.sri.com/75-years-of-innovation/75-years-of-innovation-siri/,"«Adam Cheyer of Siri, Inc.», работал в SRI; статус основателя источником не назван",,
+Stéphane Bancel,later CEO,moderna,adept,https://investors.modernatx.com/news/news-details/2013/darpa-awards-moderna-therapeutics-a-grant-for-up-to-25-million-to-develop-messenger-rna-therapeutics,«president and founding CEO» в релизе 2013,,
+Chris Urmson,founder,aurora,urban-challenge,https://aurora.tech/company,сооснователь Aurora (aurora.tech); в списке команды Tartan Racing (https://www.cs.cmu.edu/~tartanrace/team.html),,
+Drew Bagnell,founder,aurora,urban-challenge,https://aurora.tech/company,сооснователь Aurora (aurora.tech); в списке команды Tartan Racing (CMU),,
+Sterling Anderson,founder,aurora,,https://aurora.tech/company,сооснователь Aurora,,
+Dave Ferguson,founder,nuro,,https://www.nuro.ai/company,"Co-Founder & Co-CEO Nuro, ранее principal engineer проекта Google self-driving (Waymo). Имя есть в списке Tartan Racing (CMU) — совпадение не подтверждено",,
+Jiajun Zhu,founder,nuro,,https://www.nuro.ai/company,"сооснователь Nuro, ранее проект Google self-driving",,
+Dan Patt,DARPA program manager,,mosaic-warfare,https://www.darpa.mil/news/features/mosaic-warfare,"бывший заместитель директора STO, соавтор термина Mosaic Warfare; на 2018 — CEO Vecna Robotics (не основатель по источнику)",,
+Timothy Chung,DARPA program manager,,offset,https://www.darpa.mil/news/2021/offset-swarms-take-flight,,,
+Scott Wierzbanowski,DARPA program manager,,gremlins,https://www.darpa.mil/news/2018/gremlins-demonstration-flights,,,
+Dan Javorsek,DARPA program manager,,ace,https://www.darpa.mil/news/2021/air-combat-autonomy-program,,,
+Ryan Hefron,DARPA program manager,,ace,https://www.darpa.mil/news/2023/ace-program-transition,,,
+Paul Zablocky,DARPA program manager,,astarte,https://www.darpa.mil/news/2023/battlefield-airspace-deconfliction-software,,,
+Eric Davis,DARPA program manager,,scepter,https://www.darpa.mil/research/programs/scepter-strategic-chaos,указан на странице программы,,
+Lael Rudd,DARPA program manager,,rema,https://www.darpa.mil/news/2024/mission-autonomy,PM на 08.02.2024,,
+Phillip Smith,DARPA program manager,,rema,https://www.darpa.mil/research/programs/rema-rapid-experimental-missionized-autonomy,указан на странице REMA; также PM Lift Challenge,,
+Phillip Smith,DARPA program manager,,lift,https://www.darpa.mil/research/programs/lift,,,
+Kyle Woerner,DARPA program manager,,manta-ray,https://www.darpa.mil/news/2021/manta-ray-performers,,,
+Kevin Sloan,DARPA program manager,,manta-ray,https://www.darpa.mil/research/programs/manta-ray,указан на странице программы,,
+Mark Micire,DARPA program manager,,fla,https://www.darpa.mil/news/2016/fla-program-takes-flight,,,
+Steve Komadina,DARPA program manager,,ancillary,https://www.darpa.mil/news/2023/ancillary-vtol-x-plane,,,
+Michael Nayak,DARPA program manager,,luna-10,https://www.darpa.mil/news/2024/luna-10-economy-study,,,
+Joe Altepeter,DARPA program manager,,qbi,https://www.darpa.mil/news/2026/qbi-stage-a-qbit,"founding PM QBI, уходит из агентства (10.03.2026)",,
+Micah Stoutimore,DARPA program manager,,qbi,https://www.darpa.mil/news/2026/qbi-stage-a-qbit,managing director QBI с 03.2026,,
+Stuart Young,DARPA program manager,,racer,https://www.darpa.mil/news/2026/racer-finish-line,,,
+John Main,DARPA program manager,,racer,https://www.darpa.mil/research/programs/robotic-autonomy-in-complex-environments-with-resiliency,указан на странице программы,,
+Clark McGehee,DARPA program manager,,shepard,https://www.darpa.mil/news/2026/darpa-xrq-73-demonstrates-hybrid-electric-flight,,,
+Jeremy Pamplin,DARPA program manager,,triage,https://www.darpa.mil/research/programs/darpa-triage-challenge,,,
+David Meyer,DARPA program manager,,amped,https://www.darpa.mil/research/programs/amped,,,
+Travis Autry,DARPA program manager,,perrseus,https://www.darpa.mil/research/programs/perrseus,,,
+Van Parunak,principal investigator,parallax,scepter,https://parallaxresearch.org/news/press-releases/parallax-advanced-research-awarded-darpas-scepter-program-contract,,,
+Michael Harradon,principal investigator,charles-river,scepter,https://cra.com/charles-river-analytics-awarded-9-9m-darpa-contract-to-develop-trusted-ai-approach-for-complex-operations-planning/,,,

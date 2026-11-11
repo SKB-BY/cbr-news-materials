@@ -1,67 +1,67 @@
-program_id,org_id,role,evidence_url,evidence_date,note
-arpanet,bbn,prime,https://www.darpa.mil/about/innovation-timeline/arpanet,,«In 1968 ARPA contracted BBN Technologies to build the first routers»
-pal,sri,performer,https://www.sri.com/hoi/artificial-intelligence-calo/,,CALO — проект SRI в программе PAL
-pal,siri,grew-from,https://www.darpa.mil/about/innovation-timeline/personal-assistant-that-learns,,"«led to the 2007 launch of Siri Inc., later acquired by Apple Inc.»"
-adept,moderna,performer,https://investors.modernatx.com/news/news-details/2013/darpa-awards-moderna-therapeutics-a-grant-for-up-to-25-million-to-develop-messenger-rna-therapeutics,2013-10-02,"грант до $25 млн ($24,6 млн + seedling $0,7 млн), программа ADEPT: PROTECT"
-urban-challenge,aurora,grew-from,https://www.cs.cmu.edu/~tartanrace/team.html,,"основатели Urmson и Bagnell в списке команды Tartan Racing (CMU), победителя Urban Challenge 2007 (darpa.mil)"
-fla,aerovironment,performer,https://www.darpa.mil/news/2016/fla-program-takes-flight,2016-02-12,"в команде Scientific Systems Company, Inc. (SSCI)"
-fla,draper,performer,https://www.darpa.mil/news/2016/fla-program-takes-flight,2016-02-12,в паре с MIT
-offset,northrop,prime,https://www.darpa.mil/news/2021/offset-swarms-take-flight,2021-12-09,Swarm Systems Integrator (Northrop Grumman Mission Systems)
-offset,bbn,prime,https://www.darpa.mil/news/2021/offset-swarms-take-flight,2021-12-09,Swarm Systems Integrator (Raytheon BBN Technologies)
-offset,lockheed,performer,https://www.darpa.mil/news/2018/offset-second-swarm-sprint,2018-03-30,"второй sprint, Lockheed Martin Advanced Technology Laboratories"
-offset,soartech,performer,https://www.darpa.mil/news/2018/offset-second-swarm-sprint,2018-03-30,второй sprint
-offset,charles-river,performer,https://www.darpa.mil/news/2018/offset-second-swarm-sprint,2018-03-30,второй sprint
-gremlins,dynetics,prime,https://www.darpa.mil/news/2018/gremlins-demonstration-flights,2018-05-09,Phase 3; Dynetics разрабатывает аппараты Gremlin (darpa.mil 05.11.2021)
-ace,calspan,performer,https://www.darpa.mil/news/2021/air-combat-autonomy-program,2021-03-18,модификация L-39 для полётов ИИ (F-16 VISTA в источнике за Calspan не закреплён)
-ace,shield-ai,performer,https://www.darpa.mil/news/2023/ace-program-transition,2023-02-13,алгоритмы на X-62A (Heron Systems — участник AlphaDogfight 2019)
-ace,lockheed,performer,https://www.darpa.mil/news/2019/virtual-air-combat-competition,2019-10-21,AlphaDogfight Trials (формально не часть ACE)
-ace,soartech,performer,https://www.darpa.mil/news/2019/virtual-air-combat-competition,2019-10-21,AlphaDogfight Trials (формально не часть ACE)
-astarte,rtx,performer,https://www.darpa.mil/news/2023/battlefield-airspace-deconfliction-software,2023-02-23,«ASTARTE performer Raytheon Technologies» — планировщик маршрутов; BBN в источнике не названа
-ack,bae,performer,https://www.army-technology.com/news/bae-systems-wins-darpa-phase-ii-contract/,2021-09-01,"ПО MARS (Multi-domain Adaptive Request Service) создано в программе ACK; Phase 2 $6,5 млн"
-scepter,bae,performer,https://breakingdefense.com/2023/09/three-ways-darpa-aims-to-tame-strategic-chaos-with-ai/,2023-09,
-scepter,charles-river,performer,https://cra.com/charles-river-analytics-awarded-9-9m-darpa-contract-to-develop-trusted-ai-approach-for-complex-operations-planning/,2024-12-03,"Phase 2 $9,9 млн после Phase 1 $4 млн (данные компании)"
-scepter,parallax,performer,https://parallaxresearch.org/news/press-releases/parallax-advanced-research-awarded-darpas-scepter-program-contract,2023-05-11,"$4,4 млн (данные компании)"
-rema,anduril,performer,https://www.darpa.mil/news/2024/mission-autonomy,2024-02-08,TA1: drone-autonomy adapter interface (DA2)
-rema,rtx,performer,https://www.darpa.mil/news/2024/mission-autonomy,2024-02-08,TA1: drone-autonomy adapter interface (DA2)
-rema,leidos,performer,https://www.darpa.mil/news/2024/mission-autonomy,2024-02-08,TA2: mission-specific autonomy software
-rema,northrop,performer,https://www.darpa.mil/news/2024/mission-autonomy,2024-02-08,TA2: mission-specific autonomy software
-rema,soartech,performer,https://www.darpa.mil/news/2024/mission-autonomy,2024-02-08,TA2: mission-specific autonomy software
-angler,leidos,performer,https://www.darpa.mil/news/2019/angler-program-awards-contracts,2019-11-14,Track A
-angler,northrop,performer,https://www.darpa.mil/news/2019/angler-program-awards-contracts,2019-11-14,Track A
-angler,l3harris,performer,https://www.darpa.mil/news/2019/angler-program-awards-contracts,2019-11-14,Track A
-angler,soartech,performer,https://www.darpa.mil/news/2019/angler-program-awards-contracts,2019-11-14,Track B
-manta-ray,northrop,prime,https://www.darpa.mil/news/2021/manta-ray-performers,2021-12-20,Phase 2 prime
-manta-ray,lockheed,performer,https://www.darpa.mil/news/2020/manta-ray-awards,2020-03-10,Phase 1 (Lockheed Martin ATL)
-ancillary,aerovironment,performer,https://www.darpa.mil/news/2023/ancillary-vtol-x-plane,2023-06-22,Phase Ia
-ancillary,leidos,performer,https://www.darpa.mil/news/2023/ancillary-vtol-x-plane,2023-06-22,Phase Ia
-ancillary,northrop,performer,https://www.darpa.mil/news/2023/ancillary-vtol-x-plane,2023-06-22,Phase Ia
-luna-10,spacex,performer,https://www.darpa.mil/research/programs/ten-year-lunar-architecture-luna-10-capability-study,2024-04,презентация исполнителя (LSIC 04.2024)
-luna-10,blue-origin,performer,https://www.darpa.mil/research/programs/ten-year-lunar-architecture-luna-10-capability-study,2024-04,презентация исполнителя
-luna-10,northrop,performer,https://www.darpa.mil/research/programs/ten-year-lunar-architecture-luna-10-capability-study,2024-04,презентация исполнителя
-luna-10,firefly,performer,https://www.darpa.mil/research/programs/ten-year-lunar-architecture-luna-10-capability-study,2024-04,презентация исполнителя
-luna-10,redwire,performer,https://www.darpa.mil/research/programs/ten-year-lunar-architecture-luna-10-capability-study,2024-04,презентация исполнителя
-luna-10,sierra-space,performer,https://www.darpa.mil/research/programs/ten-year-lunar-architecture-luna-10-capability-study,2024-04,презентация исполнителя
-luna-10,gitai,performer,https://www.darpa.mil/research/programs/ten-year-lunar-architecture-luna-10-capability-study,2024-04,презентация исполнителя
-qbi,atom-computing,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage C
-qbi,diraq,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage C
-qbi,ibm,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage C
-qbi,ionq,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage C
-qbi,microsoft,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage C
-qbi,psiquantum,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage C
-qbi,quantinuum,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage B
-qbi,quera,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage B
-qbi,xanadu,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage B
-qbi,google-quantum,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage A
-us2qc,microsoft,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative/stage-b-selection,2025-11-06,финальная фаза US2QC
-us2qc,psiquantum,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative/stage-b-selection,2025-11-06,финальная фаза US2QC
-racer,field-ai,grew-from,https://www.darpa.mil/news/2026/racer-finish-line,2026-01-14,«spun out of DARPA-funded research at NASA’s JPL»
-racer,overland-ai,grew-from,https://www.darpa.mil/news/2026/racer-finish-line,2026-01-14,из University of Washington Robot Learning Laboratory; также Phase 2 performer
-racer,carnegie-robotics,performer,https://www.darpa.mil/news/2026/racer-finish-line,2026-01-14,RACER Heavy Platform на шасси Textron M-5
-shepard,northrop,prime,https://www.darpa.mil/news/2026/darpa-xrq-73-demonstrates-hybrid-electric-flight,2026-05-06,"XRQ-73, совместно с AFRL"
-lift,avidrone,performer,https://www.darpa.mil/news/2026/lift-challenge-awards,2026-08-11,"1-е место, 3,84:1, $1 250 000"
-lift,portal-aircraft,performer,https://www.darpa.mil/news/2026/lift-challenge-awards,2026-08-11,"Most Revolutionary Powertrain Design, $500 000"
-seta,strategic-analysis,SETA,https://www.defensedaily.com/contract-awards/contract-award-amentum-services-inc-chantilly-virginia-hr0011-24-d-0101-booz-allen-hamilton-mclean-virginia-hr0011-24-d-0102-ecs-federal-llc-fairfax-virginia-hr0011-24-d-0103-mantech-srs-te/,2023-10,"TASS-II IDIQ HR0011-24-D-0105, общий потолок $1,25 млрд на 6 исполнителей"
-seta,spa,SETA,https://www.defensedaily.com/contract-awards/contract-award-amentum-services-inc-chantilly-virginia-hr0011-24-d-0101-booz-allen-hamilton-mclean-virginia-hr0011-24-d-0102-ecs-federal-llc-fairfax-virginia-hr0011-24-d-0103-mantech-srs-te/,2023-10,TASS-II IDIQ HR0011-24-D-0106
-seta,amentum,SETA,https://www.defensedaily.com/contract-awards/contract-award-amentum-services-inc-chantilly-virginia-hr0011-24-d-0101-booz-allen-hamilton-mclean-virginia-hr0011-24-d-0102-ecs-federal-llc-fairfax-virginia-hr0011-24-d-0103-mantech-srs-te/,2023-10,TASS-II IDIQ HR0011-24-D-0101
-seta,booz-allen,SETA,https://www.defensedaily.com/contract-awards/contract-award-amentum-services-inc-chantilly-virginia-hr0011-24-d-0101-booz-allen-hamilton-mclean-virginia-hr0011-24-d-0102-ecs-federal-llc-fairfax-virginia-hr0011-24-d-0103-mantech-srs-te/,2023-10,TASS-II IDIQ HR0011-24-D-0102
-seta,guidehouse,SETA,https://www.usaspending.gov/award/CONT_IDV_HR001118D0001_9700,2018,IDV DARPA HR001118D0001 (более ранний TASS); в TASS-II 2023 не входит
+program_id,org_id,role,evidence_url,evidence_date,note,entity_type
+arpanet,bbn,prime,https://www.darpa.mil/about/innovation-timeline/arpanet,,«In 1968 ARPA contracted BBN Technologies to build the first routers»,company
+pal,sri,performer,https://www.sri.com/hoi/artificial-intelligence-calo/,,CALO — проект SRI в программе PAL,nonprofit_research
+pal,siri,grew-from,https://www.darpa.mil/about/innovation-timeline/personal-assistant-that-learns,,"«led to the 2007 launch of Siri Inc., later acquired by Apple Inc.»",company
+adept,moderna,performer,https://investors.modernatx.com/news/news-details/2013/darpa-awards-moderna-therapeutics-a-grant-for-up-to-25-million-to-develop-messenger-rna-therapeutics,2013-10-02,"грант до $25 млн ($24,6 млн + seedling $0,7 млн), программа ADEPT: PROTECT",company
+urban-challenge,aurora,grew-from,https://www.cs.cmu.edu/~tartanrace/team.html,,"основатели Urmson и Bagnell в списке команды Tartan Racing (CMU), победителя Urban Challenge 2007 (darpa.mil)",company
+fla,aerovironment,performer,https://www.darpa.mil/news/2016/fla-program-takes-flight,2016-02-12,"в команде Scientific Systems Company, Inc. (SSCI)",company
+fla,draper,performer,https://www.darpa.mil/news/2016/fla-program-takes-flight,2016-02-12,в паре с MIT,nonprofit_research
+offset,northrop,prime,https://www.darpa.mil/news/2021/offset-swarms-take-flight,2021-12-09,Swarm Systems Integrator (Northrop Grumman Mission Systems),prime
+offset,bbn,prime,https://www.darpa.mil/news/2021/offset-swarms-take-flight,2021-12-09,Swarm Systems Integrator (Raytheon BBN Technologies),company
+offset,lockheed,performer,https://www.darpa.mil/news/2018/offset-second-swarm-sprint,2018-03-30,"второй sprint, Lockheed Martin Advanced Technology Laboratories",prime
+offset,soartech,performer,https://www.darpa.mil/news/2018/offset-second-swarm-sprint,2018-03-30,второй sprint,company
+offset,charles-river,performer,https://www.darpa.mil/news/2018/offset-second-swarm-sprint,2018-03-30,второй sprint,
+gremlins,dynetics,prime,https://www.darpa.mil/news/2018/gremlins-demonstration-flights,2018-05-09,Phase 3; Dynetics разрабатывает аппараты Gremlin (darpa.mil 05.11.2021),company
+ace,calspan,performer,https://www.darpa.mil/news/2021/air-combat-autonomy-program,2021-03-18,модификация L-39 для полётов ИИ (F-16 VISTA в источнике за Calspan не закреплён),company
+ace,shield-ai,performer,https://www.darpa.mil/news/2023/ace-program-transition,2023-02-13,алгоритмы на X-62A (Heron Systems — участник AlphaDogfight 2019),
+ace,lockheed,performer,https://www.darpa.mil/news/2019/virtual-air-combat-competition,2019-10-21,AlphaDogfight Trials (формально не часть ACE),prime
+ace,soartech,performer,https://www.darpa.mil/news/2019/virtual-air-combat-competition,2019-10-21,AlphaDogfight Trials (формально не часть ACE),company
+astarte,rtx,performer,https://www.darpa.mil/news/2023/battlefield-airspace-deconfliction-software,2023-02-23,«ASTARTE performer Raytheon Technologies» — планировщик маршрутов; BBN в источнике не названа,prime
+ack,bae,performer,https://www.army-technology.com/news/bae-systems-wins-darpa-phase-ii-contract/,2021-09-01,"ПО MARS (Multi-domain Adaptive Request Service) создано в программе ACK; Phase 2 $6,5 млн",prime
+scepter,bae,performer,https://breakingdefense.com/2023/09/three-ways-darpa-aims-to-tame-strategic-chaos-with-ai/,2023-09,,prime
+scepter,charles-river,performer,https://cra.com/charles-river-analytics-awarded-9-9m-darpa-contract-to-develop-trusted-ai-approach-for-complex-operations-planning/,2024-12-03,"Phase 2 $9,9 млн после Phase 1 $4 млн (данные компании)",
+scepter,parallax,performer,https://parallaxresearch.org/news/press-releases/parallax-advanced-research-awarded-darpas-scepter-program-contract,2023-05-11,"$4,4 млн (данные компании)",
+rema,anduril,performer,https://www.darpa.mil/news/2024/mission-autonomy,2024-02-08,TA1: drone-autonomy adapter interface (DA2),
+rema,rtx,performer,https://www.darpa.mil/news/2024/mission-autonomy,2024-02-08,TA1: drone-autonomy adapter interface (DA2),prime
+rema,leidos,performer,https://www.darpa.mil/news/2024/mission-autonomy,2024-02-08,TA2: mission-specific autonomy software,company
+rema,northrop,performer,https://www.darpa.mil/news/2024/mission-autonomy,2024-02-08,TA2: mission-specific autonomy software,prime
+rema,soartech,performer,https://www.darpa.mil/news/2024/mission-autonomy,2024-02-08,TA2: mission-specific autonomy software,company
+angler,leidos,performer,https://www.darpa.mil/news/2019/angler-program-awards-contracts,2019-11-14,Track A,company
+angler,northrop,performer,https://www.darpa.mil/news/2019/angler-program-awards-contracts,2019-11-14,Track A,prime
+angler,l3harris,performer,https://www.darpa.mil/news/2019/angler-program-awards-contracts,2019-11-14,Track A,prime
+angler,soartech,performer,https://www.darpa.mil/news/2019/angler-program-awards-contracts,2019-11-14,Track B,company
+manta-ray,northrop,prime,https://www.darpa.mil/news/2021/manta-ray-performers,2021-12-20,Phase 2 prime,prime
+manta-ray,lockheed,performer,https://www.darpa.mil/news/2020/manta-ray-awards,2020-03-10,Phase 1 (Lockheed Martin ATL),prime
+ancillary,aerovironment,performer,https://www.darpa.mil/news/2023/ancillary-vtol-x-plane,2023-06-22,Phase Ia,company
+ancillary,leidos,performer,https://www.darpa.mil/news/2023/ancillary-vtol-x-plane,2023-06-22,Phase Ia,company
+ancillary,northrop,performer,https://www.darpa.mil/news/2023/ancillary-vtol-x-plane,2023-06-22,Phase Ia,prime
+luna-10,spacex,performer,https://www.darpa.mil/research/programs/ten-year-lunar-architecture-luna-10-capability-study,2024-04,презентация исполнителя (LSIC 04.2024),company
+luna-10,blue-origin,performer,https://www.darpa.mil/research/programs/ten-year-lunar-architecture-luna-10-capability-study,2024-04,презентация исполнителя,
+luna-10,northrop,performer,https://www.darpa.mil/research/programs/ten-year-lunar-architecture-luna-10-capability-study,2024-04,презентация исполнителя,prime
+luna-10,firefly,performer,https://www.darpa.mil/research/programs/ten-year-lunar-architecture-luna-10-capability-study,2024-04,презентация исполнителя,company
+luna-10,redwire,performer,https://www.darpa.mil/research/programs/ten-year-lunar-architecture-luna-10-capability-study,2024-04,презентация исполнителя,company
+luna-10,sierra-space,performer,https://www.darpa.mil/research/programs/ten-year-lunar-architecture-luna-10-capability-study,2024-04,презентация исполнителя,
+luna-10,gitai,performer,https://www.darpa.mil/research/programs/ten-year-lunar-architecture-luna-10-capability-study,2024-04,презентация исполнителя,
+qbi,atom-computing,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage C,
+qbi,diraq,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage C,
+qbi,ibm,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage C,company
+qbi,ionq,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage C,company
+qbi,microsoft,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage C,company
+qbi,psiquantum,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage C,
+qbi,quantinuum,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage B,company
+qbi,quera,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage B,
+qbi,xanadu,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage B,company
+qbi,google-quantum,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative,2026-10-08,Stage A,corporate_division
+us2qc,microsoft,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative/stage-b-selection,2025-11-06,финальная фаза US2QC,company
+us2qc,psiquantum,performer,https://www.darpa.mil/research/programs/quantum-benchmarking-initiative/stage-b-selection,2025-11-06,финальная фаза US2QC,
+racer,field-ai,grew-from,https://www.darpa.mil/news/2026/racer-finish-line,2026-01-14,«spun out of DARPA-funded research at NASA’s JPL»,
+racer,overland-ai,grew-from,https://www.darpa.mil/news/2026/racer-finish-line,2026-01-14,из University of Washington Robot Learning Laboratory; также Phase 2 performer,
+racer,carnegie-robotics,performer,https://www.darpa.mil/news/2026/racer-finish-line,2026-01-14,RACER Heavy Platform на шасси Textron M-5,
+shepard,northrop,prime,https://www.darpa.mil/news/2026/darpa-xrq-73-demonstrates-hybrid-electric-flight,2026-05-06,"XRQ-73, совместно с AFRL",prime
+lift,avidrone,performer,https://www.darpa.mil/news/2026/lift-challenge-awards,2026-08-11,"1-е место, 3,84:1, $1 250 000",
+lift,portal-aircraft,performer,https://www.darpa.mil/news/2026/lift-challenge-awards,2026-08-11,"Most Revolutionary Powertrain Design, $500 000",
+seta,strategic-analysis,SETA,https://www.defensedaily.com/contract-awards/contract-award-amentum-services-inc-chantilly-virginia-hr0011-24-d-0101-booz-allen-hamilton-mclean-virginia-hr0011-24-d-0102-ecs-federal-llc-fairfax-virginia-hr0011-24-d-0103-mantech-srs-te/,2023-10,"TASS-II IDIQ HR0011-24-D-0105, общий потолок $1,25 млрд на 6 исполнителей",
+seta,spa,SETA,https://www.defensedaily.com/contract-awards/contract-award-amentum-services-inc-chantilly-virginia-hr0011-24-d-0101-booz-allen-hamilton-mclean-virginia-hr0011-24-d-0102-ecs-federal-llc-fairfax-virginia-hr0011-24-d-0103-mantech-srs-te/,2023-10,TASS-II IDIQ HR0011-24-D-0106,
+seta,amentum,SETA,https://www.defensedaily.com/contract-awards/contract-award-amentum-services-inc-chantilly-virginia-hr0011-24-d-0101-booz-allen-hamilton-mclean-virginia-hr0011-24-d-0102-ecs-federal-llc-fairfax-virginia-hr0011-24-d-0103-mantech-srs-te/,2023-10,TASS-II IDIQ HR0011-24-D-0101,company
+seta,booz-allen,SETA,https://www.defensedaily.com/contract-awards/contract-award-amentum-services-inc-chantilly-virginia-hr0011-24-d-0101-booz-allen-hamilton-mclean-virginia-hr0011-24-d-0102-ecs-federal-llc-fairfax-virginia-hr0011-24-d-0103-mantech-srs-te/,2023-10,TASS-II IDIQ HR0011-24-D-0102,company
+seta,guidehouse,SETA,https://www.usaspending.gov/award/CONT_IDV_HR001118D0001_9700,2018,IDV DARPA HR001118D0001 (более ранний TASS); в TASS-II 2023 не входит,
