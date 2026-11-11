@@ -2,22 +2,13 @@
 
 Правило (с 11.11.2026): узел ставится на карту только по официально опубликованному адресу штаб-квартиры; если адреса нет — минимум город, район (область) или штат. Источник и дата — в [locations.csv](locations.csv). Узлы ниже не размещены, потому что на открытых официальных страницах такой локации не найдено (точки не придумываются).
 
-Размещено: адрес (улица) — 76, город — 16, район / область — 1, штат — 1; без точки — 17.
+Размещено: адрес (улица) — 93, город — 17, район / область — 1, штат — 0; без точки — 8.
 
 | id | Название | Тип | Причина |
 |---|---|---|---|
-| afwerx | AFWERX | agency | на afwerx.com (contact, about-us) адрес/город штаб-квартиры не указан; в новостях упоминается WRIGHT-PATTERSON AFB как дателайн — не как HQ |
-| cdao | CDAO — Chief Digital and Artificial Intelligence Office | agency | ai.mil/Contact (через WebFetch) не содержит адреса; ai.mil закрыт для curl (403) |
-| iqt | In-Q-Tel (IQT) | agency | iqt.org/about перечисляет офисы (Tysons VA, Menlo Park, …) без указания штаб-квартиры |
-| trmc | TRMC — Test Resource Management Center | agency | на trmc.osd.mil адрес не найден |
-| brave1 | Brave1 | agency | brave1.gov.ua/en/contacts — адреса нет |
-| ukdi | UK Defence Innovation (UKDI) | agency | страница gov.uk UKDI — адреса нет |
-| cubic | Cubic Defense | company | официальные страницы cubic.com не отдают текст (пустой ответ/ошибка PDF); адрес только на сторонних агрегаторах — не используется |
-| ghost-robotics | Ghost Robotics | company | ghostrobotics.io (about, contact, privacy) — город/адрес не указан |
-| bae | BAE Systems | company | baesystems.com закрыт (Incapsula/пусто); зарегистрированный офис только на сторонних сайтах — не используется |
-| deviro | Deviro | company | deviro.ua: контакты без адреса; «founded in Dnipro» — место основания, не штаб-квартира |
-| taf-industries | TAF Industries | company | taf-ua.com/en/contacts — только e-mail и телефон, адреса нет |
-| uav-navigation | UAV Navigation (Grupo Oesía) | company | uavnavigation.com возвращает 202/500 для автоматических запросов; адрес не подтверждён открытой страницей |
+| brave1 | Brave1 | agency | официальный адрес не найден: на brave1.gov.ua (контакты) указаны только e-mail и телефон; адрес из каталога выставки AUSA не официален |
+| kara-dag | Kara Dag Technologies | company | официальный адрес не найден: на karadagtech.com указаны только e-mail |
+| taf-industries | TAF Industries | company | официальный адрес не найден: на taf-ua.com указаны только e-mail и телефон (город в вакансиях — не адрес штаб-квартиры) |
 | jco | JCO — Joint Counter-small UAS Office | program | программа/офис без опубликованного адреса на странице-источнике |
 | replicator | Replicator (Replicator 1 и 2) | program | программа (инициатива), а не организация с адресом |
 | gcap | GCAP — Global Combat Air Programme | program | международная программа; адрес не указан на странице-источнике |
@@ -26,7 +17,9 @@
 
 Связи, которые не рисуются на карте (один из концов без точки; перечислены в боковой панели):
 
-- x-cto → cdao (structure): CDAO — под CTO
-- x-cto → trmc (structure): TRMC — под CTO
 - diu → replicator (structure): DIU — Office of Primary Responsibility процесса Replicator
 - x-irgc-asf → shahed (ubo): по Минфину США: Shahed Aviation Industries Research Center подчинён IRGC ASF
+- diehl → brave1 (partner): Diehl — первая иностранная компания, испытавшая свой НРК (UGV) в рамках платформы Test in Ukraine (Brave1), на полигоне 3-й штурмовой бригады (Минцифры, 28.07.2025)
+- shieldai → brave1 (partner): через Brave1 Shield AI установила партнёрство с украинской компанией (название не раскрыто): ПО Shield AI интегрировано с дронами этой компании (пост Brave1; Shield AI в X, по «Украинской правде», 13.03.2026)
+- palantir → brave1 (partner): Brave1 Dataroom — защищённая среда для обучения военных ИИ-моделей на ПО Palantir; запущена МО и Минцифры Украины, ВСУ, НИИ военной разведки и Palantir (МО Украины, 21.01.2026)
+- anduril → kara-dag (partner): Kara Dag Technologies начала сотрудничество с Anduril: передаёт практики противодействия дронам, полученные в боевых условиях, для систем Anduril, уже используемых в Украине (сайт Kara Dag, 03.2026)
