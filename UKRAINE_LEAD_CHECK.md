@@ -75,7 +75,7 @@
 
 ## t35u — «Ключевые украинские компании в сфере Defense Tech» (проверено 11.11.2026)
 
-Пометки [[n]] в списке без URL. Каждое утверждение проверено на открытой странице; сниппеты поиска фактом не считались. Новые строки реестра: `ukrspecsystems`, `wild-hornets`, `techex`, `militech`, `phantom-defense`, `devdroid`, `sine-engineering`, `kvertus`, `inlab`, `defika` (company), `delta`, `drone-dominance` (program); обновлена `swarmer`. SkyFall и Минобороны Японии — внешние узлы `x-skyfall`, `x-japan-mod` (у SkyFall официальный сайт skyfall.ua 11.11.2026 не открылся: TLS-ошибка в curl, HTTP 500 при веб-чтении, — поэтому строки реестра нет).
+Пометки [[n]] в списке без URL. Каждое утверждение проверено на открытой странице; сниппеты поиска фактом не считались. Новые строки реестра: `ukrspecsystems`, `wild-hornets`, `techex`, `militech`, `phantom-defense`, `devdroid`, `sine-engineering`, `kvertus`, `inlab`, `defika` (company), `delta`, `drone-dominance` (program); обновлена `swarmer`. SkyFall и Минобороны Японии — внешние узлы `x-skyfall`, `x-japan-mod` (у SkyFall официальный сайт skyfall.ua 11.11.2026 не открылся: нет DNS-записи A — проверено напрямую и через выходной узел; ранее с этой машины также TLS-ошибка / HTTP 500, — поэтому строки реестра нет).
 
 ### Производители БЛА
 
@@ -168,4 +168,4 @@
 
 - Новые связи (`links.json`): airbus-ds → x-skyfall (partner, MoU); x-japan-mod → x-skyfall (customer, контракт); redcat → sine-engineering (partner, MoU); phantom-defense → drone-dominance (partner: испытания); diu → drone-dominance и trmc → drone-dominance (structure: администрирование программы); techex → brave1 и militech → brave1 (partner, по сайтам компаний). Подчинённость Airbus, Японии, НАТО или МО США не изображается.
 - Новые точки: Kvertus — Лондон (уровень города, «Headquartered in London»); МО Японии — Токио, Ичигая (адрес с mod.go.jp; Nominatim нашёл квартал). Остальные новые узлы без опубликованного адреса — в [map/UNLOCATED.md](map/UNLOCATED.md); все новые связи имеют конец без точки и показаны в боковой панели.
-- Доступ к страницам: skyfall.ua — не открылся (TLS-ошибка / HTTP 500); unwave.com.ua — Cloudflare 403 (curl и браузер); kvertus.ua — проверка JS, прочитан браузером; sec.gov и airbus.com — 403 для curl, прочитаны веб-чтением; army.mil — 403 для curl, прочитан веб-чтением; Bloomberg — таймаут, Benzinga — 403.
+- Доступ к страницам: skyfall.ua — 11.11.2026 нет DNS-записи A (и напрямую, и через выходной узел); unwave.com.ua — Cloudflare 403 («Sorry, you have been blocked») и напрямую, и через выходной узел в браузере; kvertus.ua — проверка JS, прочитан браузером; sec.gov и airbus.com — 403 для curl, прочитаны веб-чтением; army.mil — 403 для curl, прочитан веб-чтением; Bloomberg — таймаут, Benzinga — 403.
