@@ -48,3 +48,7 @@
 | Зеркальная программа: Gremlins / OFFSET ↔ КНР (программы «роевого интеллекта» CETC) | не подтверждено | вводный список GREEN 11.11.2026 (t25u); источник, прямо описывающий программу CETC как аналог Gremlins/OFFSET, не открыт. В таблицу не внесено | — |
 | Зеркальная программа: Lift Challenge ↔ РФ (тяжёлые грузовые БАС, «Верблюд», разработки Кронштадта) | не подтверждено | вводный список GREEN 11.11.2026 (t25u); источник не открыт. Российские компании в реестр companies.csv не вносятся (решение GREEN 11.11.2026); Kronstadt не восстанавливается | — |
 | Area-I (ALTIUS) поглощена AeroVironment | исправлено | Area-I куплена Anduril Industries 01.04.2021 и работает как 100 % дочерняя компания под брендом Area-I; в darpa_orgs не входит (связь с программой DARPA не подтверждена), отслеживается в companies.csv (id area-i) | [https://www.anduril.com/news/anduril-industries-acquires-area-i-adds-altius-capabilities-to-hardware-portfolio](https://www.anduril.com/news/anduril-industries-acquires-area-i-adds-altius-capabilities-to-hardware-portfolio) |
+
+## Украина (t30u–t32u, 11.11.2026)
+
+Проверка вводных списков по Украине — в отдельном файле [UKRAINE_LEAD_CHECK.md](../UKRAINE_LEAD_CHECK.md). Неподтверждённые утверждения записаны там с вердиктом «не подтверждено» и в реестр / карту не внесены.

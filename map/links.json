@@ -1,5 +1,5 @@
 {
- "_note": "Аналитические связи для карты. Каждая связь — только с основанием из реестра (поля sponsor/role_focus/customers/ubo_name) и URL источника. Внешние узлы (external) — организации, которых нет в реестре, но которые названы в источнике.",
+ "_note": "Аналитические связи для карты. Каждая связь — только с основанием из реестра (поля sponsor/role_focus/customers/ubo_name) и URL источника. Внешние узлы (external) — организации, которых нет в реестре, но которые названы в источнике. Тип partner — сотрудничество/партнёрство/инвестиция/испытания по опубликованному источнику; не означает подчинённость.",
  "external": [
   {
    "id": "x-cto",
@@ -104,6 +104,48 @@
    "type": "ubo",
    "basis": "по Минфину США: Shahed Aviation Industries Research Center подчинён IRGC ASF",
    "source": "https://home.treasury.gov/news/press-releases/jy1104"
+  },
+  {
+   "from": "diehl",
+   "to": "brave1",
+   "type": "partner",
+   "basis": "Diehl — первая иностранная компания, испытавшая свой НРК (UGV) в рамках платформы Test in Ukraine (Brave1), на полигоне 3-й штурмовой бригады (Минцифры, 28.07.2025)",
+   "source": "https://digitalstate.gov.ua/news/tech/ukrayina-vidkryla-platformu-test-in-ukraine-dlia-vyprobuvannia-miznarodnykh-oboronnykh-tekhnolohiy-pershyy-uchasnyk-diehl"
+  },
+  {
+   "from": "shieldai",
+   "to": "brave1",
+   "type": "partner",
+   "basis": "через Brave1 Shield AI установила партнёрство с украинской компанией (название не раскрыто): ПО Shield AI интегрировано с дронами этой компании (пост Brave1; Shield AI в X, по «Украинской правде», 13.03.2026)",
+   "source": "https://www.linkedin.com/posts/brave1ukraine_brave1-helped-the-american-defense-unicorn-activity-7438297999207936000-xyZT https://www.pravda.com.ua/eng/news/2026/03/13/8025307/"
+  },
+  {
+   "from": "palantir",
+   "to": "brave1",
+   "type": "partner",
+   "basis": "Brave1 Dataroom — защищённая среда для обучения военных ИИ-моделей на ПО Palantir; запущена МО и Минцифры Украины, ВСУ, НИИ военной разведки и Palantir (МО Украины, 21.01.2026)",
+   "source": "https://mod.gov.ua/en/news/ministry-of-defence-launches-brave1-dataroom-a-secure-environment-for-training-military-ai-solutions"
+  },
+  {
+   "from": "anduril",
+   "to": "kara-dag",
+   "type": "partner",
+   "basis": "Kara Dag Technologies начала сотрудничество с Anduril: передаёт практики противодействия дронам, полученные в боевых условиях, для систем Anduril, уже используемых в Украине (сайт Kara Dag, 03.2026)",
+   "source": "https://karadagtech.com/en/cooperation-kara-dag-with-anduril/"
+  },
+  {
+   "from": "network-vc-defense",
+   "to": "swarmer",
+   "type": "partner",
+   "basis": "Network VC — участник раунда Series A Swarmer на $15 млн (лид — Broadband Capital Investments), 09.2025",
+   "source": "https://investors.swarmer.com/news/swarmer-ukraines-leading-drone-autonomy-and-swarming-company-announces-15m-series-a-led-by-us-investors/"
+  },
+  {
+   "from": "dm-holding",
+   "to": "udi",
+   "type": "partner",
+   "basis": "соглашение о создании СП в США по производству спецхимии (одноосновный порох для артбоеприпасов, в т.ч. 155 мм), подписано 11.07.2025 в Риме",
+   "source": "https://www.dmholding.com/industry-articles/us-ukraine-ammunition-jv/"
   }
  ]
 }
