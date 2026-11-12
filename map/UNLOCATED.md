@@ -2,11 +2,11 @@
 
 Правило (с 11.11.2026): узел ставится на карту только по официально опубликованному адресу штаб-квартиры; если адреса нет — минимум город, район (область) или штат. Источник и дата — в [locations.csv](locations.csv). Узлы ниже не размещены, потому что на открытых официальных страницах такой локации не найдено (точки не придумываются).
 
-Размещено: адрес (улица) — 107, город — 23, район / область — 1, штат — 0; без точки — 23.
+Размещено: адрес (улица) — 112, город — 24, район / область — 1, штат — 0; без точки — 23.
 
 | id | Название | Тип | Причина |
 |---|---|---|---|
-| brave1 | Brave1 | agency | официальный адрес не найден: на brave1.gov.ua (контакты) указаны только e-mail и телефон; адрес из каталога выставки AUSA не официален |
+| brave1 | Brave1 | agency | официальный адрес не найден (12.11.2026): на brave1.gov.ua (контакты, About) указаны только e-mail и телефон; Creative States, ул. Князей Острожских 8 — Kyiv Office USUBC (usubc.org), не Brave1; Ярославская 58 (Astarta) — без официальной страницы Brave1; адрес из каталога выставки AUSA не официален |
 | kara-dag | Kara Dag Technologies | company | официальный адрес не найден: на karadagtech.com указаны только e-mail |
 | taf-industries | TAF Industries | company | официальный адрес не найден: на taf-ua.com указаны только e-mail и телефон (город в вакансиях — не адрес штаб-квартиры) |
 | jco | JCO — Joint Counter-small UAS Office | program | программа/офис без опубликованного адреса на странице-источнике |
@@ -14,21 +14,21 @@
 | gcap | GCAP — Global Combat Air Programme | program | международная программа; адрес не указан на странице-источнике |
 | drone-wall | European Drone Defence Initiative (European Drone Wall) | program | инициатива ЕС, адреса нет |
 | wild-hornets | Wild Hornets (Дикі Шершні) | company | официальный адрес не найден: на wildhornets.com указан только e-mail |
-| techex | TechEx | company | официальный адрес не найден: на techex.com.ua адрес не опубликован (упоминание обороны Киева в 2022 г. — история, не адрес) |
 | phantom-defense | Phantom Defense | company | официальный адрес не найден: на phantomdefense.tech (Contacts) только телефоны и e-mail; на сайте — «nine production sites» без мест; адреса Creative States (Киев) и 1055 Thomas Jefferson St NW (Вашингтон) на usubc.org — офисы USUBC (страница Contacts USUBC), не Phantom Defense |
 | delta | DELTA — система ситуационной осведомлённости (Минобороны Украины) | program | система (программа) Минобороны Украины, а не организация с адресом |
 | drone-dominance | Drone Dominance Program (DDP) | program | программа МВ США; адрес не указан на странице-источнике |
 | 3avada | 3AVADA (Завада) | company | официальный адрес не найден: на zavada.co указано только «Україна» (город Ивано-Франковск — только LinkedIn, не источник) |
 | skilur | SKILUR | company | официальный адрес не найден: на skilur.tech только «registered in Ukraine» |
-| molfar | Molfar Defence Technologies | company | официальный адрес не найден: на molfardefence.com нет адреса и страны |
 | realgold | Realgold (ThrustNova) | company | официальный адрес не найден: на сайте адреса нет; совпадение юрлица в реестре только по названию и КВЭД, без ссылки на сайт |
 | odd-systems | Odd Systems | company | официальный адрес не найден: на oddsystems.io адреса нет |
 | ptashka-drones | Ptashka Drones | company | официальный адрес не найден: на ptashkadrones.com только контакты без адреса |
 | 3dtech | 3DTech | company | официальный адрес не найден: на 3dtech.com.ua только контакты без адреса |
 | vyriy | Vyriy Industries | company | официальный адрес не найден: на сайте адреса нет; совпадение юрлица в реестре только по названию и КВЭД, без ссылки на сайт |
+| innovation-development-fund | Фонд развития инноваций (Innovation Development Fund) | agency | официальный адрес не найден: на страницах Минцифры (03.06.2025, 20.08.2026) и Brave1 адреса нет; адрес Brave1 по умолчанию не переносится |
+| unite-brave-nato | UNITE – Brave NATO | program | совместная программа НАТО и Украины; одной локации нет |
+| bravetech-eu | BraveTech EU | program | совместная инициатива ЕС и Украины; одной локации нет |
 | x-irgc-asf | Аэрокосмические силы КСИР (IRGC ASF) | внешний узел | военная структура (Аэрокосмические силы КСИР); официального опубликованного адреса нет |
 | x-skyfall | SkyFall | внешний узел | официальный сайт skyfall.ua 11.11.2026 не открылся; адрес не установлен |
-| x-terma | Terma Group | внешний узел | внешний узел (партнёр Odd Systems); официальный адрес на открытой странице не найден |
 
 Связи, которые не рисуются на карте (один из концов без точки; перечислены в боковой панели):
 
@@ -49,3 +49,12 @@
 - general-cherry → drone-dominance (partner): по сайту General Cherry: компания прошла первый и второй этапы DDP; Wilcox Cherry Defense (совместное производство с американской Wilcox) — среди 19 компаний, прошедших квалификационный этап
 - odd-systems → x-terma (partner): стратегическое партнёрство Odd Systems и Terma Group (Дания): недорогой ИИ-перехватчик дронов (релиз 21.07.2025)
 - bluebird-tech → brave1 (partner): по сайту BlueBird Tech: официальный канал продаж партнёров — market.brave1.gov.ua (Brave1 Market)
+- taf-industries → wingcopter (partner): меморандум (MoU) 13.02.2026 о намерении создать совместное предприятие для производства разведывательных БЛА TAF в Германии (сайты TAF и Wingcopter); СП в стадии намерения
+- taf-industries → pgz (partner): письмо о намерениях (LoI) 25.06.2026, Гданьск: локализация производства БЛА в Польше (сайт TAF)
+- innovation-development-fund → brave1 (structure): Brave1 — государственная инициатива, реализуемая Фондом развития инноваций (страница About Brave1, 12.11.2026); решения о грантах — большинством голосов наблюдательного совета Фонда (МО Украины, 06.11.2026)
+- unite-brave-nato → brave1 (structure): с украинской стороны программу координирует Brave1, первый конкурс со стороны НАТО ведёт NCIA (МО Украины)
+- bravetech-eu → brave1 (structure): BraveTech EU связывает платформу Brave1 Минцифры с European Defence Fund и EUDIS (Еврокомиссия, 11.07.2025)
+- eda → bravetech-eu (partner): DefTech Forges — конкурсы в рамках BraveTech EU: финансирует Еврокомиссия, поддерживают Brave1 и EDA; победители смогут продолжить испытания с EDA (Brave1, 12.08.2026)
+- airbus-ds → brave1 (partner): Airbus Defence and Space подписала меморандум о взаимопонимании (MoU) с Brave1 — первое промышленное стратегическое партнёрство Brave1 с западной компанией; технологии Airbus — в контур Test in Ukraine (Airbus, 01.07.2026)
+- saab → brave1 (partner): первый этап инициативы Brave Prime — подписание официальных соглашений с Airbus и Saab (МО Украины, 01.07.2026)
+- aid → brave1 (partner): Brave1 и AID подписали соглашение о запуске BRAVE FRANCE — совместной грантовой программы украинских и французских оборонных компаний, бюджет €20 млн (по €10 млн от сторон) (Brave1, 16.06.2026)
