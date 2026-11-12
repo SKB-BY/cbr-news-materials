@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ОИ 5×5 — буквенно-цифровой и цветовой код | cbr-news-materials</title>
+<style>
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;max-width:1100px;margin:0 auto;padding:1.2em;line-height:1.5;color:#1b1b1b}
+table{border-collapse:collapse;margin:1em 0} th,td{border:1px solid #ddd;padding:.35em .5em;vertical-align:top}
+table.oi-matrix th,table.oi-matrix td{border:0} table.oi-matrix{font-size:1.02em}
+code{background:#f3f3f3;padding:0 .25em;border-radius:3px} small{opacity:.85}
+a{color:#0b57d0} .back{font-size:.95em}
+</style></head><body>
+<p class="back"><a href="../">← Материалы CBR</a></p>
+<h1>ОИ 5×5 — буквенно-цифровой и цветовой код</h1>
+<p>Пояснение к кодам ОИ 5×5 в этом репозитории. Дата: 12.11.2026, Europe/Minsk. Цветная матрица на отдельной странице: <a href="https://skb-by.github.io/cbr-news-materials/oi-5x5/">https://skb-by.github.io/cbr-news-materials/oi-5x5/</a>.</p>
+<h2>Как читать код</h2>
+<ul>
+<li>Код ОИ 5×5 — <strong>буква и цифра</strong>: буква — надёжность источника (А–Д), цифра — достоверность сведений (1–5). Это две независимые шкалы.</li>
+<li>Официальный источник не делает сведения подтверждёнными: официальное заявление без независимого подтверждения — сведения «2», статус «утверждение».</li>
+<li>Подтверждённая информация — <strong>только сведения «1»</strong>.</li>
+<li><strong>Цвет</strong> — представление уже присвоенного кода, на расчёт кода не влияет. Основной цвет — по сведениям: 1 — зелёный, 2 — синий, 3 — жёлтый, 4 — серо-оранжевый, 5 — красный. Оттенок — по источнику: А темнее и насыщеннее, Д светлее и глуше. Д4 — серый, Д5 — тёмно-бордовый.</li>
+<li>У каждой новости два кода:<ul>
+<li><strong>Первоначальная ОИ</strong> — код на момент первой публикации (дата публикации элемента). Ставится только по тому, что было известно на эту дату: сам элемент, его источник и материалы базы с более ранней (или той же) датой публикации. Более поздние новости в эту оценку не входят.</li>
+<li><strong>ОИ со временем</strong> — дополняется, если позднее другие новости ссылаются на эту новость (в том числе не один раз) и подтверждают её содержание. Основание: ссылки на подтверждающие элементы (URL, источник, дата публикации, дата события если есть). Если более поздних ссылок/подтверждений нет, поле «ОИ со временем» остаётся пустым (не копировать Первоначальную ОИ — пусто значит «пересмотра ещё не было»).</li>
+<li>Источник и сведения по-прежнему независимы. Подтверждение со временем обычно поднимает сведения (например 2→1 или 5→1), надёжность издателя само по себе не повышает.</li>
+</ul>
+</li>
+<li>Статус по коду (расчёт <code>t46u-oi5x5-2</code>): сведения 1 — «новость»; сведения 2 при источнике А, Б, В — «утверждение»; Г2 и Д2 — «слух»; сведения 3, 4, 5 — «слух». Правило методики — таблица раздела 5 ниже.</li>
+</ul>
+<h2>Матрица 5×5</h2>
+<p>Цвета видны на GitHub Pages (<a href="https://skb-by.github.io/cbr-news-materials/oi-5x5/">https://skb-by.github.io/cbr-news-materials/oi-5x5/</a>); в просмотре файла на github.com цвет не отображается — коды и цвета перечислены в таблице «Палитра».</p>
+<table class="oi-matrix" style="border-collapse:separate;border-spacing:3px;table-layout:fixed;width:100%">
+<thead><tr><th></th><th style="padding:.4em;width:16%">сведения 1<br><small>точность не вызывает сомнений</small></th><th style="padding:.4em;width:16%">сведения 2<br><small>сведения от первоисточника, одной цепочки</small></th><th style="padding:.4em;width:16%">сведения 3<br><small>не от первоисточника, но согласуется с уже учтёнными материалами</small></th><th style="padding:.4em;width:16%">сведения 4<br><small>оценить нельзя</small></th><th style="padding:.4em;width:16%">сведения 5<br><small>сомнительно или противоречит уже подтверждённому</small></th></tr></thead>
+<tbody>
+<tr><th style="padding:.4em;text-align:left">источник А<br><small>официальный первоисточник</small></th><td style="background:#0B5D2A;color:#fff;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">А1</b><br><small>новость</small></td><td style="background:#0D47A1;color:#fff;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">А2</b><br><small>утверждение</small></td><td style="background:#F9A825;color:#000;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">А3</b><br><small>слух</small></td><td style="background:#EF6C00;color:#fff;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">А4</b><br><small>слух</small></td><td style="background:#B71C1C;color:#fff;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">А5</b><br><small>слух</small></td></tr>
+<tr><th style="padding:.4em;text-align:left">источник Б<br><small>обычно надёжен</small></th><td style="background:#1B7A3D;color:#fff;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">Б1</b><br><small>новость</small></td><td style="background:#1565C0;color:#fff;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">Б2</b><br><small>утверждение</small></td><td style="background:#FBC02D;color:#000;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">Б3</b><br><small>слух</small></td><td style="background:#FB8C00;color:#000;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">Б4</b><br><small>слух</small></td><td style="background:#C62828;color:#fff;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">Б5</b><br><small>слух</small></td></tr>
+<tr><th style="padding:.4em;text-align:left">источник В<br><small>иногда надёжен</small></th><td style="background:#2E9A4F;color:#fff;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">В1</b><br><small>новость</small></td><td style="background:#1E88E5;color:#fff;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">В2</b><br><small>утверждение</small></td><td style="background:#FDD835;color:#000;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">В3</b><br><small>слух</small></td><td style="background:#FFA726;color:#000;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">В4</b><br><small>слух</small></td><td style="background:#E53935;color:#fff;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">В5</b><br><small>слух</small></td></tr>
+<tr><th style="padding:.4em;text-align:left">источник Г<br><small>обычно ненадёжен</small></th><td style="background:#5BB86A;color:#000;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">Г1</b><br><small>новость</small></td><td style="background:#64B5F6;color:#000;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">Г2</b><br><small>слух</small></td><td style="background:#FFEE58;color:#000;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">Г3</b><br><small>слух</small></td><td style="background:#FFCC80;color:#000;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">Г4</b><br><small>слух</small></td><td style="background:#EF5350;color:#000;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">Г5</b><br><small>слух</small></td></tr>
+<tr><th style="padding:.4em;text-align:left">источник Д<br><small>оценить нельзя</small></th><td style="background:#A8D5B0;color:#000;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">Д1</b><br><small>новость</small></td><td style="background:#BBDEFB;color:#000;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">Д2</b><br><small>слух</small></td><td style="background:#FFF59D;color:#000;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">Д3</b><br><small>слух</small></td><td style="background:#BDBDBD;color:#000;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">Д4</b><br><small>слух</small></td><td style="background:#4A0000;color:#fff;text-align:center;padding:.6em .4em;min-width:4.5em"><b style="font-size:1.25em">Д5</b><br><small>слух</small></td></tr>
+</tbody></table>
+
+<h2>Палитра</h2>
+<table>
+<thead>
+<tr>
+<th>Код</th>
+<th>Фон</th>
+<th>Текст</th>
+<th>Источник</th>
+<th>Сведения</th>
+<th>Статус</th>
+<th>Назначение цвета</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span style="background:#0B5D2A;color:#fff;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: А1">А1</span></td>
+<td><code>#0B5D2A</code></td>
+<td><code>#fff</code></td>
+<td>А — официальный первоисточник</td>
+<td>1 — точность не вызывает сомнений</td>
+<td>новость</td>
+<td>сведения 1: зелёный — подтверждено; статус «новость»; оттенок источника А</td>
+</tr>
+<tr>
+<td><span style="background:#1B7A3D;color:#fff;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: Б1">Б1</span></td>
+<td><code>#1B7A3D</code></td>
+<td><code>#fff</code></td>
+<td>Б — обычно надёжен</td>
+<td>1 — точность не вызывает сомнений</td>
+<td>новость</td>
+<td>сведения 1: зелёный — подтверждено; статус «новость»; оттенок источника Б</td>
+</tr>
+<tr>
+<td><span style="background:#2E9A4F;color:#fff;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: В1">В1</span></td>
+<td><code>#2E9A4F</code></td>
+<td><code>#fff</code></td>
+<td>В — иногда надёжен</td>
+<td>1 — точность не вызывает сомнений</td>
+<td>новость</td>
+<td>сведения 1: зелёный — подтверждено; статус «новость»; оттенок источника В</td>
+</tr>
+<tr>
+<td><span style="background:#5BB86A;color:#000;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: Г1">Г1</span></td>
+<td><code>#5BB86A</code></td>
+<td><code>#000</code></td>
+<td>Г — обычно ненадёжен</td>
+<td>1 — точность не вызывает сомнений</td>
+<td>новость</td>
+<td>сведения 1: зелёный — подтверждено; статус «новость»; оттенок источника Г</td>
+</tr>
+<tr>
+<td><span style="background:#A8D5B0;color:#000;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: Д1">Д1</span></td>
+<td><code>#A8D5B0</code></td>
+<td><code>#000</code></td>
+<td>Д — оценить нельзя</td>
+<td>1 — точность не вызывает сомнений</td>
+<td>новость</td>
+<td>сведения 1: зелёный — подтверждено; статус «новость»; оттенок источника Д</td>
+</tr>
+<tr>
+<td><span style="background:#0D47A1;color:#fff;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: А2">А2</span></td>
+<td><code>#0D47A1</code></td>
+<td><code>#fff</code></td>
+<td>А — официальный первоисточник</td>
+<td>2 — сведения от первоисточника, одной цепочки</td>
+<td>утверждение</td>
+<td>сведения 2: синий — одна цепочка; статус «утверждение» при источнике А, Б, В; оттенок источника А</td>
+</tr>
+<tr>
+<td><span style="background:#1565C0;color:#fff;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: Б2">Б2</span></td>
+<td><code>#1565C0</code></td>
+<td><code>#fff</code></td>
+<td>Б — обычно надёжен</td>
+<td>2 — сведения от первоисточника, одной цепочки</td>
+<td>утверждение</td>
+<td>сведения 2: синий — одна цепочка; статус «утверждение» при источнике А, Б, В; оттенок источника Б</td>
+</tr>
+<tr>
+<td><span style="background:#1E88E5;color:#fff;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: В2">В2</span></td>
+<td><code>#1E88E5</code></td>
+<td><code>#fff</code></td>
+<td>В — иногда надёжен</td>
+<td>2 — сведения от первоисточника, одной цепочки</td>
+<td>утверждение</td>
+<td>сведения 2: синий — одна цепочка; статус «утверждение» при источнике А, Б, В; оттенок источника В</td>
+</tr>
+<tr>
+<td><span style="background:#64B5F6;color:#000;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: Г2">Г2</span></td>
+<td><code>#64B5F6</code></td>
+<td><code>#000</code></td>
+<td>Г — обычно ненадёжен</td>
+<td>2 — сведения от первоисточника, одной цепочки</td>
+<td>слух</td>
+<td>сведения 2: синий — одна цепочка; статус «утверждение» при источнике А, Б, В; оттенок источника Г</td>
+</tr>
+<tr>
+<td><span style="background:#BBDEFB;color:#000;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: Д2">Д2</span></td>
+<td><code>#BBDEFB</code></td>
+<td><code>#000</code></td>
+<td>Д — оценить нельзя</td>
+<td>2 — сведения от первоисточника, одной цепочки</td>
+<td>слух</td>
+<td>сведения 2: синий — одна цепочка; статус «утверждение» при источнике А, Б, В; оттенок источника Д</td>
+</tr>
+<tr>
+<td><span style="background:#F9A825;color:#000;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: А3">А3</span></td>
+<td><code>#F9A825</code></td>
+<td><code>#000</code></td>
+<td>А — официальный первоисточник</td>
+<td>3 — не от первоисточника, но согласуется с уже учтёнными материалами</td>
+<td>слух</td>
+<td>сведения 3: жёлтый — согласуется, ещё не подтверждено; статус «слух»; оттенок источника А</td>
+</tr>
+<tr>
+<td><span style="background:#FBC02D;color:#000;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: Б3">Б3</span></td>
+<td><code>#FBC02D</code></td>
+<td><code>#000</code></td>
+<td>Б — обычно надёжен</td>
+<td>3 — не от первоисточника, но согласуется с уже учтёнными материалами</td>
+<td>слух</td>
+<td>сведения 3: жёлтый — согласуется, ещё не подтверждено; статус «слух»; оттенок источника Б</td>
+</tr>
+<tr>
+<td><span style="background:#FDD835;color:#000;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: В3">В3</span></td>
+<td><code>#FDD835</code></td>
+<td><code>#000</code></td>
+<td>В — иногда надёжен</td>
+<td>3 — не от первоисточника, но согласуется с уже учтёнными материалами</td>
+<td>слух</td>
+<td>сведения 3: жёлтый — согласуется, ещё не подтверждено; статус «слух»; оттенок источника В</td>
+</tr>
+<tr>
+<td><span style="background:#FFEE58;color:#000;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: Г3">Г3</span></td>
+<td><code>#FFEE58</code></td>
+<td><code>#000</code></td>
+<td>Г — обычно ненадёжен</td>
+<td>3 — не от первоисточника, но согласуется с уже учтёнными материалами</td>
+<td>слух</td>
+<td>сведения 3: жёлтый — согласуется, ещё не подтверждено; статус «слух»; оттенок источника Г</td>
+</tr>
+<tr>
+<td><span style="background:#FFF59D;color:#000;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: Д3">Д3</span></td>
+<td><code>#FFF59D</code></td>
+<td><code>#000</code></td>
+<td>Д — оценить нельзя</td>
+<td>3 — не от первоисточника, но согласуется с уже учтёнными материалами</td>
+<td>слух</td>
+<td>сведения 3: жёлтый — согласуется, ещё не подтверждено; статус «слух»; оттенок источника Д</td>
+</tr>
+<tr>
+<td><span style="background:#EF6C00;color:#fff;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: А4">А4</span></td>
+<td><code>#EF6C00</code></td>
+<td><code>#fff</code></td>
+<td>А — официальный первоисточник</td>
+<td>4 — оценить нельзя</td>
+<td>слух</td>
+<td>сведения 4: серо-оранжевый — оценить нельзя; статус «слух»; оттенок источника А</td>
+</tr>
+<tr>
+<td><span style="background:#FB8C00;color:#000;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: Б4">Б4</span></td>
+<td><code>#FB8C00</code></td>
+<td><code>#000</code></td>
+<td>Б — обычно надёжен</td>
+<td>4 — оценить нельзя</td>
+<td>слух</td>
+<td>сведения 4: серо-оранжевый — оценить нельзя; статус «слух»; оттенок источника Б</td>
+</tr>
+<tr>
+<td><span style="background:#FFA726;color:#000;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: В4">В4</span></td>
+<td><code>#FFA726</code></td>
+<td><code>#000</code></td>
+<td>В — иногда надёжен</td>
+<td>4 — оценить нельзя</td>
+<td>слух</td>
+<td>сведения 4: серо-оранжевый — оценить нельзя; статус «слух»; оттенок источника В</td>
+</tr>
+<tr>
+<td><span style="background:#FFCC80;color:#000;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: Г4">Г4</span></td>
+<td><code>#FFCC80</code></td>
+<td><code>#000</code></td>
+<td>Г — обычно ненадёжен</td>
+<td>4 — оценить нельзя</td>
+<td>слух</td>
+<td>сведения 4: серо-оранжевый — оценить нельзя; статус «слух»; оттенок источника Г</td>
+</tr>
+<tr>
+<td><span style="background:#BDBDBD;color:#000;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: Д4">Д4</span></td>
+<td><code>#BDBDBD</code></td>
+<td><code>#000</code></td>
+<td>Д — оценить нельзя</td>
+<td>4 — оценить нельзя</td>
+<td>слух</td>
+<td>сведения 4: серо-оранжевый — оценить нельзя; статус «слух»; оттенок источника Д</td>
+</tr>
+<tr>
+<td><span style="background:#B71C1C;color:#fff;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: А5">А5</span></td>
+<td><code>#B71C1C</code></td>
+<td><code>#fff</code></td>
+<td>А — официальный первоисточник</td>
+<td>5 — сомнительно или противоречит уже подтверждённому</td>
+<td>слух</td>
+<td>сведения 5: красный — сомнительно / противоречит; статус «слух»; оттенок источника А</td>
+</tr>
+<tr>
+<td><span style="background:#C62828;color:#fff;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: Б5">Б5</span></td>
+<td><code>#C62828</code></td>
+<td><code>#fff</code></td>
+<td>Б — обычно надёжен</td>
+<td>5 — сомнительно или противоречит уже подтверждённому</td>
+<td>слух</td>
+<td>сведения 5: красный — сомнительно / противоречит; статус «слух»; оттенок источника Б</td>
+</tr>
+<tr>
+<td><span style="background:#E53935;color:#fff;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: В5">В5</span></td>
+<td><code>#E53935</code></td>
+<td><code>#fff</code></td>
+<td>В — иногда надёжен</td>
+<td>5 — сомнительно или противоречит уже подтверждённому</td>
+<td>слух</td>
+<td>сведения 5: красный — сомнительно / противоречит; статус «слух»; оттенок источника В</td>
+</tr>
+<tr>
+<td><span style="background:#EF5350;color:#000;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: Г5">Г5</span></td>
+<td><code>#EF5350</code></td>
+<td><code>#000</code></td>
+<td>Г — обычно ненадёжен</td>
+<td>5 — сомнительно или противоречит уже подтверждённому</td>
+<td>слух</td>
+<td>сведения 5: красный — сомнительно / противоречит; статус «слух»; оттенок источника Г</td>
+</tr>
+<tr>
+<td><span style="background:#4A0000;color:#fff;padding:0 .35em;border-radius:3px;font-weight:600;white-space:nowrap" title="ОИ 5×5: Д5">Д5</span></td>
+<td><code>#4A0000</code></td>
+<td><code>#fff</code></td>
+<td>Д — оценить нельзя</td>
+<td>5 — сомнительно или противоречит уже подтверждённому</td>
+<td>слух</td>
+<td>сведения 5: красный — сомнительно / противоречит; статус «слух»; оттенок источника Д</td>
+</tr>
+</tbody>
+</table>
+<h2>Где коды в репозитории</h2>
+<ul>
+<li><a href="../АКТУАЛЬНЫЙ_ОТЧЁТ.html">Актуальный отчёт</a> — у каждого материала Первоначальная ОИ и, если был пересмотр, ОИ со временем.</li>
+<li><a href="https://github.com/SKB-BY/cbr-news-materials/tree/main/data/oi5x5">data/oi5x5/</a> — таблицы кодов ОИ 5×5 по новостям (без текста новостей) и связи новость–новость.</li>
+<li>Новые материалы живой базы, поступившие после прохода ОИ, остаются без кода до следующего прохода ОИ. Код для них не выдумывается.</li>
+</ul>
+<h2>Шкалы и правила (из методики ОИ 5×5 без изменений)</h2>
+<h3>1. Назначение и принципы</h3>
+<p>ОИ 5×5 ставит каждой новости (элементу) один код из двух независимых шкал: надёжность источника (А–Д) и достоверность сведений (1–5). Шкалы не подменяют друг друга: официальный источник не делает сведения автоматически подтверждёнными; независимое подтверждение не повышает надёжность самого источника.</p>
+<p>Правила одни и те же для всех тем (Дроны, Противодействие, Навигация), всех разделов (НПА и законодательство, Развитие, Искусственный интеллект, Применение, Иные), всех категорий (военные, промышленные, коммерческие, FPV) и любого языка оригинала.</p>
+<p>Не усложнять: только две шкалы, без третьей шкалы «обращения» (не 5×5×5). Расширение 4×4 — на одну ступень в каждой шкале, чтобы закрыть пробелы работы с новостями.</p>
+<p>Оценка ставится по содержанию элемента, ссылке и уже имеющимся в базе материалам (со ссылкой, датой публикации и источником). Дата публикации и дата события — разные поля; дата публикации не затирается. Если дата события в содержании не указана, поле оставляется пустым и на код само по себе не влияет.</p>
+<p>У Europol коды A1, A2, B1, B2 считались «подтверждённой информацией». Для новостных ресурсов это не используется: одно официальное заявление — это одна цепочка, то есть утверждение, а не новость. Подтверждённая информация в ОИ 5×5 — только сведения «1».</p>
+<h3>3. Надёжность источника (А–Д)</h3>
+<p>Оценивается издатель элемента (сайт, агентство, официальная страница, канал t.me/s), а не тема текста.</p>
+<ul>
+<li><strong>А — официальный первоисточник.</strong> Государственный орган, официальный сайт организации, официальный реестр, документ с реквизитами. Нет сомнений в подлинности издателя. Примеры: страница министерства, официальный сайт компании, реестровая выписка, текст НПА на правовом портале.</li>
+<li><strong>Б — обычно надёжен.</strong> Редакционный ресурс с устойчивой практикой проверки: профильное издание, информационное агентство, установленный авторский состав; в большинстве случаев сведения этого источника подтверждались.</li>
+<li><strong>В — иногда надёжен.</strong> Специализированный или отраслевой ресурс, идентифицируемый канал; качество неравномерное, полной редакционной проверки нет или она не всегда соблюдается.</li>
+<li><strong>Г — обычно ненадёжен.</strong> Сведения этого источника в большинстве случаев не подтверждались; систематически нет первоисточника; перепечатка без проверки; «серый» агрегатор.</li>
+<li><strong>Д — оценить нельзя.</strong> Нет идентифицируемого издателя, нет истории, новый или анонимный ресурс, недостаточно данных для оценки надёжности.</li>
+</ul>
+<p>Правила для новостных ресурсов:</p>
+<ul>
+<li>Перепечатка той же издательской семьи (тот же домен, тот же канал, тот же владелец) не повышает ступень источника и не даёт независимого подтверждения сведений.</li>
+<li>Закрытый для сбора ресурс (например, отказ robots/terms) в оценку не ставится, пока элемент из него не получен законным публичным путём.</li>
+<li>Язык публикации ступень источника не повышает и не понижает.</li>
+</ul>
+<h3>4. Достоверность сведений (1–5)</h3>
+<p>Оценивается то, что сказано в элементе, отдельно от надёжности издателя.</p>
+<ul>
+<li><strong>1 — точность не вызывает сомнений.</strong> Официальный документ (НПА, контракт, реестровая запись) на странице первоисточника; либо факт подтверждён хотя бы одним независимым источником (другая издательская семья, не перепечатка). Это соответствие правилу «новость».</li>
+<li><strong>2 — сведения от первоисточника, одной цепочки.</strong> Официальное заявление, документ или редакционный репортаж с указанием организации, ещё без независимого подтверждения. Это соответствие правилу «утверждение».</li>
+<li><strong>3 — не от первоисточника, но согласуется с уже учтёнными материалами.</strong> Вторичное изложение, ссылка на другие публикации; совпадает с материалами базы (со ссылкой, датой публикации и источником), но независимого подтверждения того же факта ещё нет.</li>
+<li><strong>4 — оценить нельзя.</strong> Недостаточно проверяемых деталей; один канал без указания источника; нет фактов, которые можно сопоставить с базой.</li>
+<li><strong>5 — сомнительно или противоречит уже подтверждённому.</strong> Маркеры слуха («источники сообщают», анонимные источники) без подтверждения; прямое противоречие материалам со сведениями «1». Это соответствие правилу «слух», если нет независимого подтверждения.</li>
+</ul>
+<p>Правила для новостных ресурсов:</p>
+<ul>
+<li>Независимое подтверждение поднимает сведения до «1» и фиксируется в основании: прежний код, дата пересмотра, ссылка, дата публикации и источник подтверждения. Так учитываются новости, которые подтвердились со временем.</li>
+<li>Согласованность (ступень 3) не равна независимому подтверждению (ступень 1): похожий тезис — не тот же факт, подтверждённый другой семьёй источников.</li>
+<li>Отсутствие даты события само по себе не ставит ступень «4». Ступень «4» — когда сведения нельзя проверить.</li>
+<li>Язык публикации ступень сведений не повышает и не понижает.</li>
+</ul>
+<h3>5. Соответствие правилу «слух / утверждение / новость»</h3>
+<table>
+<thead>
+<tr>
+<th>Статус</th>
+<th>Код ОИ 5×5</th>
+<th>Правило</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>новость</td>
+<td>сведения 1 (А1, Б1, В1, Г1, Д1)</td>
+<td>Подтверждена хотя бы одним независимым источником либо закреплена официальным документом первоисточника, точность которого не вызывает сомнений</td>
+</tr>
+<tr>
+<td>утверждение</td>
+<td>А2, Б2, при необходимости В2</td>
+<td>Одна цепочка: названа организация или официальное заявление, независимого подтверждения нет</td>
+</tr>
+<tr>
+<td>слух</td>
+<td>сведения 4 или 5; также Г3, Д2, Д3</td>
+<td>Одна цепочка без организации / официального заявления, анонимные источники, либо достоверность оценить нельзя или сведения сомнительны</td>
+</tr>
+</tbody>
+</table>
+<p>Источник «Г» или «Д» при сведениях «1» допустим: сведения подтверждены независимо, надёжность самого издателя при этом не повышается.</p>
+<p>Слухи в отдельном перечне. В «новость» элемент переводится только после независимого подтверждения; одновременно сведения ставятся в «1», в основании указывается прежний код.</p>
+</body></html>
