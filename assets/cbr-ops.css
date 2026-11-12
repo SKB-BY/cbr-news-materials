@@ -1,0 +1,72 @@
+/* CBR — оформление страниц (тёмная оперативная тема). Шрифты IBM Plex (SIL OFL). */
+:root{
+  --bg:#0b0d10; --bg-2:#12151a; --panel:#161a20; --panel-2:#1c2129; --line:#2a313c; --line-2:#3a4350;
+  --text:#e7ecf1; --muted:#8b98a8; --accent:#3d8eff; --accent-2:#1f5fbf; --warn:#c4a35a; --neg:#e5484d; --pos:#3dcc8a;
+  --s-m2:#e5484d; --s-m1:#f08c3a; --s-0:#8b98a8; --s-p1:#9fdc8a; --s-p2:#2fd36b;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --bar:44px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 var(--sans)}
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+code,kbd,.mono{font-family:var(--mono);font-size:.92em}
+/* верхняя панель */
+.cbr-bar{position:sticky;top:0;z-index:1000;height:var(--bar);display:flex;align-items:center;gap:14px;padding:0 14px;
+  background:linear-gradient(#12151a,#0e1115);border-bottom:1px solid var(--line);font-size:12.5px;white-space:nowrap}
+.cbr-mark{display:flex;align-items:center;gap:9px;color:var(--text)!important;text-decoration:none!important}
+.cbr-mark b{font:600 12px/1 var(--mono);letter-spacing:.18em;padding:5px 7px;border:1px solid var(--accent);color:var(--accent);border-radius:2px}
+.cbr-mark span{font-weight:600;letter-spacing:.01em}
+.cbr-nav{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0}
+.cbr-nav::-webkit-scrollbar{display:none}
+.cbr-nav a{color:var(--muted);padding:6px 9px;border-radius:2px;text-transform:uppercase;font-size:10.8px;letter-spacing:.07em;font-weight:500}
+.cbr-nav a:hover,.cbr-nav a.on{color:var(--text);background:var(--panel-2);text-decoration:none}
+.cbr-nav a.on{box-shadow:inset 0 -2px 0 var(--accent)}
+.cbr-asof{font:11px var(--mono);color:var(--muted);display:flex;align-items:center;gap:6px}
+.cbr-asof i{width:7px;height:7px;border-radius:50%;background:var(--pos);box-shadow:0 0 6px var(--pos);display:inline-block}
+@media (max-width:900px){.cbr-asof{display:none}.cbr-mark span{display:none}}
+/* страницы документов */
+.cbr-doc{max-width:1100px;margin:0 auto;padding:26px 24px 60px}
+.cbr-doc h1{font-size:26px;font-weight:600;letter-spacing:-.01em;margin:.2em 0 .5em}
+.cbr-doc h2{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:600;border-bottom:1px solid var(--line);padding-bottom:6px;margin:34px 0 12px}
+.cbr-doc h3{font-size:15px;margin:22px 0 8px}
+.cbr-doc p,.cbr-doc li{color:#cfd7e0}
+.cbr-doc strong{color:var(--text)}
+.cbr-doc ul{padding-left:20px} .cbr-doc li{margin:4px 0}
+.cbr-doc table{border-collapse:collapse;width:100%;font-size:13px;margin:10px 0;display:block;overflow:auto}
+.cbr-doc th,.cbr-doc td{border:1px solid var(--line);padding:5px 8px;vertical-align:top;text-align:left}
+.cbr-doc th{background:var(--panel);color:var(--muted);font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+.cbr-doc tr:nth-child(even) td{background:#0f1216}
+.cbr-doc code{background:var(--panel);border:1px solid var(--line);padding:0 4px;border-radius:2px}
+.cbr-doc pre{background:var(--panel);border:1px solid var(--line);padding:10px 12px;overflow:auto;border-radius:2px}
+.cbr-doc pre code{border:0;padding:0}
+.cbr-doc blockquote{margin:10px 0;padding:6px 14px;border-left:3px solid var(--warn);background:var(--bg-2);color:#cfd7e0}
+.cbr-doc hr{border:0;border-top:1px solid var(--line)}
+.cbr-doc img{max-width:100%}
+.cbr-foot{border-top:1px solid var(--line);color:var(--muted);font-size:11.5px;padding:14px 24px;max-width:1100px;margin:0 auto}
+/* главная */
+.ops-hero{display:grid;grid-template-columns:1.35fr 1fr;gap:18px;margin:6px 0 18px}
+@media (max-width:900px){.ops-hero{grid-template-columns:1fr}}
+.ops-card{background:var(--panel);border:1px solid var(--line);border-radius:3px;padding:16px 18px}
+.ops-label{font:600 10.5px/1 var(--sans);text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin:0 0 10px;display:flex;gap:8px;align-items:center}
+.ops-label:before{content:"";width:6px;height:6px;background:var(--accent);display:inline-block}
+.ops-tiles{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0 0 18px}
+@media (max-width:760px){.ops-tiles{grid-template-columns:1fr}}
+.ops-tile{position:relative;display:block;min-height:150px;border:1px solid var(--line);border-radius:3px;padding:18px;overflow:hidden;color:var(--text)!important;
+  background:radial-gradient(circle at 75% 40%,#1f5fbf33,transparent 55%),repeating-linear-gradient(0deg,#ffffff06 0 1px,transparent 1px 28px),repeating-linear-gradient(90deg,#ffffff06 0 1px,transparent 1px 28px),var(--bg-2)}
+.ops-tile:hover{border-color:var(--accent);text-decoration:none!important}
+.ops-tile h3{margin:0 0 6px;font-size:19px;font-weight:600}
+.ops-tile p{margin:0;color:var(--muted);font-size:13px;max-width:44ch}
+.ops-tile .go{position:absolute;right:16px;bottom:14px;font:600 11px var(--mono);color:var(--accent);letter-spacing:.08em}
+.ops-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.ops-link{display:block;border:1px solid var(--line);background:var(--panel);padding:12px 14px;border-radius:3px;color:var(--text)!important}
+.ops-link:hover{border-color:var(--accent);text-decoration:none!important}
+.ops-link b{display:block;font-size:14px;margin-bottom:4px} .ops-link span{color:var(--muted);font-size:12.5px}
+.sph{display:flex;flex-wrap:wrap;gap:6px}
+.sph span{border:1px solid var(--line-2);background:var(--bg-2);padding:3px 8px;border-radius:2px;font-size:12.5px}
+.sph span em{font-style:normal;color:var(--muted)}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:13px}
+.kv dt{color:var(--muted);text-transform:uppercase;font-size:10.5px;letter-spacing:.08em;padding-top:2px} .kv dd{margin:0;font-family:var(--mono)}
+/* общие для карт */
+.oi{font-family:var(--mono)}
+.s-chip{display:inline-block;font:600 11px/17px var(--mono);padding:0 6px;border-radius:2px;color:#0b0d10}

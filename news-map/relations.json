@@ -1,0 +1,5727 @@
+[
+{
+"id": "rel_af9c3dd12649a73d",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_76aae9f116d88191",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/raf-mildenhall-security-threat-dispersal",
+"published_at": "2026-11-10T15:30:54Z",
+"quote": "The Combat Sent has been forward deployed to Mildenhall to take part in intelligence gathering sorties along NATO’s eastern flank, where Russian radar systems are in near constant use due to the war in Ukraine."
+},
+{
+"url": "https://dronexl.co/2026/11/09/nato-counter-drone-catalog-alta-ares-six-of-16-lots",
+"published_at": "2026-11-09T10:21:00Z",
+"quote": "int/newsroom/news/nato-accelerates-procurement-for-counterdrone-solutions\">NCIA’s announcement</a> says every selected system has already been deployed in Allied countries and in Ukraine."
+},
+{
+"url": "https://dronelife.com/2026/10/28/nato-drone-procurement-sky-watch-rq35-heidrun",
+"published_at": "2026-10-28T13:06:13Z",
+"quote": "Sky-Watch’s RQ-35 Heidrun, deployed in Ukraine and other conflict zones, is now available to participating NATO nations through a streamlined procurement framework."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_b89c6656a257979e",
+"from": "ent_15f8eb5484169610",
+"to": "ent_85a81afee9e48a7e",
+"type": "должность",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/08/mar-a-lago-army-laser-locust-el-paso-airspace-tfr",
+"published_at": "2026-11-08T17:04:00Z",
+"quote": "webp\" alt=\"Tan Joint Light Tactical Vehicle with a boxy laser beam director mounted on its roof, parked on dirt at night\" /></p> <p>An <strong>AeroVironment</strong> <strong>LOCUST</strong> counter-drone laser is now part of the air defense"
+},
+{
+"url": "https://uasvision.com/2026/11/05/c-uas-laser-weapon-hides-among-the-palm-trees-at-mar-a-lago",
+"published_at": "2026-11-05T06:45:17Z",
+"quote": "At least one AeroVironment LOCUST laser counter-drone system is part of the array of anti-air defences that have popped up around President Donald Trump’s Mar-a-Lago estate in Palm Beach, Florida, in recent weeks."
+},
+{
+"url": "https://twz.com/news-features/laser-weapon-now-guarding-trumps-mar-a-lago-estate",
+"published_at": "2026-11-02T22:54:04Z",
+"quote": "At least one AeroVironment LOCUST laser counter-drone system is part of the array of anti-air defenses that have popped up around President Donald Trump’s Mar-a-Lago estate in Palm Beach, Florida, in recent weeks."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_9756ee3823267bcd",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://tass.ru/proisshestviya/28312431",
+"published_at": "2026-11-12T14:48:50Z",
+"quote": "В Брянской области при ударах дронов ВСУ по автомобилям пострадали три человека"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28312231",
+"published_at": "2026-11-12T14:15:51Z",
+"quote": "Расчеты \"Рубикона\" тараном сбили дроны ВСУ \"Зозуля\", \"Анубис\" и \"Бегемот\""
+},
+{
+"url": "https://t.me/operativnoZSU/225244",
+"published_at": "2026-11-03T10:13:37Z",
+"quote": "Протягом жовтня 2026 року Cилами оборони знищено понад 8000 повітряних цілей, крім того, знешкоджено понад 43000 БпЛА тактичного рівня, — ПС ЗСУ"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_1111cdc4a691a8d1",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_d54ac6fc23eb6450",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/spanish-nh90-helicopters-alpha-scramble",
+"published_at": "2026-11-10T12:39:13Z",
+"quote": "Two NH90 helicopters were launched after unidentified drones were detected near Romania’s Black Sea coast, marking the first Alpha Scramble of a Spanish helicopter deployed on a NATO mission."
+},
+{
+"url": "https://c4isrnet.com/unmanned/2026/10/30/open-the-hives-why-france-is-turning-tank-gunners-into-fpv-pilots",
+"published_at": "2026-10-30T17:57:49Z",
+"quote": "France deployed a drone-combat unit to Romania for the first time in recent weeks as part of Mission Aigle, the French-led mission to strengthen NATO’s eastern flank, and will deploy a second unit to Poland for an exercise next month, de Mo"
+},
+{
+"url": "https://defensenews.com/global/europe/2026/10/30/open-the-hives-why-france-is-turning-tank-gunners-into-fpv-pilots",
+"published_at": "2026-10-30T17:57:48Z",
+"quote": "France deployed a drone-combat unit to Romania for the first time in recent weeks as part of Mission Aigle, the French-led mission to strengthen NATO’s eastern flank, and will deploy a second unit to Poland for an exercise next month, de Mo"
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_d2da7b7cc8061ce9",
+"from": "ent_7d6438c0636fce49",
+"to": "ent_0cf94809207eaa8c",
+"type": "должность",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://defence-industry.eu/echodyne-says-bae-systems-has-integrated-echoshield-radar-into-its-bats-counter-drone-system",
+"published_at": "2026-11-11T20:22:40Z",
+"quote": "“Every decision and every effect is only as good as the sensor data beneath it,” said Eben Frankenberg, Echodyne’s chief executive."
+},
+{
+"url": "https://dronexl.co/2026/11/09/shield-ai-echodyne-5-3-billion-counter-drone-radar",
+"published_at": "2026-11-10T00:27:00Z",
+"quote": "CEO Eben Frankenberg will report directly to Shield AI CEO Gary Steele and keep responsibility for Echodyne’s products and its customers."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_9da242d3209845e6",
+"from": "ent_78f1ace85264a541",
+"to": "ent_e55238bf82c70aa9",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://army-technology.com/news/saab-denmark-cv90-training-equipment",
+"published_at": "2026-11-11T12:51:29Z",
+"quote": "Saab wins Danish order for CV90 drone and laser training equipment"
+},
+{
+"url": "https://defence-industry.eu/swedens-saab-to-add-drone-scenarios-to-denmarks-cv90-training-under-sek-350-million-order",
+"published_at": "2026-11-11T09:59:16Z",
+"quote": "Sweden’s Saab to add drone scenarios to Denmark’s CV90 training under SEK 350 million order"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_78016c356543d94a",
+"from": "ent_3d66be6936f89f7f",
+"to": "ent_cd75b7acacf53304",
+"type": "должность",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/10/skydio-adam-bry-outsell-dji-us-relentless-interview",
+"published_at": "2026-11-11T03:05:00Z",
+"quote": "Skydio CEO Adam Bry Says Skydio Will Outsell DJI in the US This Year"
+},
+{
+"url": "https://dronexl.co/2026/11/08/skydio-controller-2-ships-395-grams-heavier",
+"published_at": "2026-11-08T23:55:00Z",
+"quote": "webp\" alt=\"Operator in an orange high-visibility shirt holding a Skydio Controller 2 with its sun hood open, showing a map and drone video on the screen\" /></p> <p>Skydio’s Controller 2, a new handheld controller for its X10, X10D and R10 d"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_f776755367d9183d",
+"from": "ent_82e7db2d9eb367cd",
+"to": "ent_382bc265ebab3a18",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://twz.com/sea/fishing-trawler-adapted-into-arctic-hunter-drone-ship-aims-to-scour-for-russian-submarines",
+"published_at": "2026-11-09T18:21:20Z",
+"quote": "Bruce Balchin of Kongsberg Maritime, which is headquartered in Norway, told TWZ that the Arctic Hunter concept emerged from the Royal Navy’s stated desire to address the submarine threat in the High North with capabilities that could be del"
+},
+{
+"url": "https://edrmagazine.eu/kongsberg-maritime-launches-arctic-hunter-usv-for-the-hybrid-navy",
+"published_at": "2026-11-09T10:25:22Z",
+"quote": "In response to the UK Royal Navy’s development of its hybrid fleet of crewed and uncrewed assets, the Arctic Hunter USV combines proven commercial ship design with Kongsberg Maritime’s remote and autonomous technologies to deliver resilient"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_c377bdcae7cdfeb5",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_a6df7175414b7cd4",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://c4isrnet.com/unmanned/2026/10/30/open-the-hives-why-france-is-turning-tank-gunners-into-fpv-pilots",
+"published_at": "2026-10-30T17:57:49Z",
+"quote": "France deployed a drone-combat unit to Romania for the first time in recent weeks as part of Mission Aigle, the French-led mission to strengthen NATO’s eastern flank, and will deploy a second unit to Poland for an exercise next month, de Mo"
+},
+{
+"url": "https://defensenews.com/global/europe/2026/10/30/open-the-hives-why-france-is-turning-tank-gunners-into-fpv-pilots",
+"published_at": "2026-10-30T17:57:48Z",
+"quote": "France deployed a drone-combat unit to Romania for the first time in recent weeks as part of Mission Aigle, the French-led mission to strengthen NATO’s eastern flank, and will deploy a second unit to Poland for an exercise next month, de Mo"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_1c93e1197d8901e4",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_43252652072753d2",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://c4isrnet.com/unmanned/2026/10/30/open-the-hives-why-france-is-turning-tank-gunners-into-fpv-pilots",
+"published_at": "2026-10-30T17:57:49Z",
+"quote": "France deployed a drone-combat unit to Romania for the first time in recent weeks as part of Mission Aigle, the French-led mission to strengthen NATO’s eastern flank, and will deploy a second unit to Poland for an exercise next month, de Mo"
+},
+{
+"url": "https://defensenews.com/global/europe/2026/10/30/open-the-hives-why-france-is-turning-tank-gunners-into-fpv-pilots",
+"published_at": "2026-10-30T17:57:48Z",
+"quote": "France deployed a drone-combat unit to Romania for the first time in recent weeks as part of Mission Aigle, the French-led mission to strengthen NATO’s eastern flank, and will deploy a second unit to Poland for an exercise next month, de Mo"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_ea643d9b24a3b444",
+"from": "ent_7bc34647511f8698",
+"to": "ent_09a697e044722720",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://t.me/zadrony/2019",
+"published_at": "2026-10-14T17:24:24Z",
+"quote": "«1001,» прошивка для DJI Neo, Neo 2 и Avata 2  Для эффективного применения в рамках задач СВО минидронов DJI Neo, DJI Neo 2, DJI Avata 2 была создана «1001,» прошивка для этих моделей."
+},
+{
+"url": "https://t.me/zadrony/2018",
+"published_at": "2026-10-14T17:22:47Z",
+"quote": "«1001,» прошивка для DJI Neo, Neo 2 и Avata 2 Для эффективного применения в рамках задач СВО минидронов DJI Neo, DJI Neo 2, DJI Avata 2 была создана «1001,» прошивка для этих моделей."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_5b7d7ed82f95c551",
+"from": "ent_7bc34647511f8698",
+"to": "ent_702cd694780d897f",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://t.me/zadrony/2019",
+"published_at": "2026-10-14T17:24:24Z",
+"quote": "«1001,» прошивка для DJI Neo, Neo 2 и Avata 2  Для эффективного применения в рамках задач СВО минидронов DJI Neo, DJI Neo 2, DJI Avata 2 была создана «1001,» прошивка для этих моделей."
+},
+{
+"url": "https://t.me/zadrony/2018",
+"published_at": "2026-10-14T17:22:47Z",
+"quote": "«1001,» прошивка для DJI Neo, Neo 2 и Avata 2 Для эффективного применения в рамках задач СВО минидронов DJI Neo, DJI Neo 2, DJI Avata 2 была создана «1001,» прошивка для этих моделей."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_b975c88ee3978ff8",
+"from": "ent_7c6e825e936897ed",
+"to": "ent_ff878af017a8077e",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5011646.html",
+"published_at": "2026-10-06T20:09:50Z",
+"quote": "В 2018 году Тайвань запросил у администрации Дональда Трампа уже 66 истребителей последней модификации F-16V Block 70 (и плюс шесть таких дополнительных машин для замены эксплуатационных потерь тайваньского парка истребителей F-16 в последн"
+},
+{
+"url": "https://defensenews.com/global/asia-pacific/2026/10/02/taiwans-first-two-f-16v-fighter-jets-arrive-to-bolster-defenses-against-china",
+"published_at": "2026-10-02T14:15:53Z",
+"quote": "TAITUNG, Taiwan — The first two of a batch of 66 new F-16V Block 70 fighter jets ordered in 2019 arrived in Taiwan on Friday after months of delays, helping to strengthen an air force that has to scramble almost daily to shadow China’s mili"
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_cd3730673a98320a",
+"from": "ent_28fea1c77915c37a",
+"to": "ent_0cd95a38dd7f8f40",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://armadainternational.com/2026/11/sukhois-over-africa-foc",
+"published_at": "2026-11-11T05:08:45Z",
+"quote": "In October, Russia delivered the first of 12 Su-35Ss, the latest generation of the Flanker, to the Ethiopian Air Force."
+},
+{
+"url": "https://airforce-technology.com/news/ethiopia-su-35-russia",
+"published_at": "2026-10-30T13:06:51Z",
+"quote": "Ethiopia has taken delivery of 12 Russian-made Su-35 fighter jets, according to an announcement by Prime Minister Abiy Ahmed."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_3d004f4077c9bc1d",
+"from": "ent_cc536968c15118bb",
+"to": "ent_7c4278bb1c2365e3",
+"type": "производство",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/pentagon-cannot-account-f-35-spare-parts",
+"published_at": "2026-11-10T19:40:01Z",
+"quote": "The publication of the report comes few months after the revelation that an intermediary company, transporting F-35 spare parts for the manufacturer Lockheed Martin, had sent components from Australia to Hong Kong instead of their intended "
+},
+{
+"url": "https://bmpd.livejournal.com/5008081.html",
+"published_at": "2026-09-20T09:24:28Z",
+"quote": "2026 (с) Lockheed Martin </i><br /><br /><br /><br /><br /><br />До конца 2026 года ВВС Германии должны получить суммарно восемь самолетов F-35A (серийные номера с MG-01 MG-08) их 35 заказанных."
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e8e6e2acf2c100a2",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_b677547c4bb180c5",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/pentagon-cannot-account-f-35-spare-parts",
+"published_at": "2026-11-10T19:40:01Z",
+"quote": "Pentagon cannot reconcile F-35 inventory records One of the most significant problems identified by GAO is the lack of effective reconciliation between the different inventories and property management systems used throughout the F-35 suppl"
+},
+{
+"url": "https://warontherocks.com/cogs-of-war/the-record-budgets-and-missing-suppliers-shaping-americas-munitions-ramp",
+"published_at": "2026-11-09T09:00:45Z",
+"quote": "The Pentagon is sending a record demand signal for munitions, but turning it into deliveries depends on suppliers several tiers below the primes, many of which disappeared over the last two decades."
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_1dbc206839b46242",
+"from": "ent_82d695889d3fa2fa",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5012123.html",
+"published_at": "2026-10-09T22:00:27Z",
+"quote": "ВКС России поставлена вторая в 2026 году партия фронтовых бомбардировщиков Су-34"
+},
+{
+"url": "https://bmpd.livejournal.com/5009658.html",
+"published_at": "2026-09-24T22:57:12Z",
+"quote": "ВКС России получили первую партию истребителей Су-57 по программе 2026 года"
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_a654020d9f895443",
+"from": "ent_cc536968c15118bb",
+"to": "ent_7c4278bb1c2365e3",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5008251.html",
+"published_at": "2026-09-21T19:31:39Z",
+"quote": "fi/en/-/finland-s-first-f-35-fighters-have-arrived-in-finland\" target=\"_blank\">прибыли</a> из США два первых истребителя пятого поколения Lockheed Martin F-35A Lightning II из 64 самолетов этого типа, заказанных Финляндией по соглашению 202"
+},
+{
+"url": "https://bmpd.livejournal.com/5008081.html",
+"published_at": "2026-09-20T09:24:28Z",
+"quote": "com/LMEuropeNews/status/2100994572830589290\" target=\"_blank\">церемония</a> презентации и передачи вооруженным силам Германии первого построенного для них истребителя пятого поколения Lockheed Martin F-35A Lightning II (немецкий бортовой ном"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_c72a6308d0681a93",
+"from": "ent_cc536968c15118bb",
+"to": "ent_7c4278bb1c2365e3",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/new-report-1-million-f-35-spare-parts-remain-missing",
+"published_at": "2026-11-09T21:37:01Z",
+"quote": "Lockheed Martin, the primary manufacturer of the jet, and Pratt & Whitney, which makes the F-35’s engines, have sprawling supply chains, and their property management systems don’t plug in directly to the government’s enterprise logistics m"
+},
+{
+"url": "https://bmpd.livejournal.com/5008081.html",
+"published_at": "2026-09-20T09:24:28Z",
+"quote": "jpg\" width=\"800\" fetchpriority=\"high\" /></a><br /><br /><i>Церемония презентации и передачи вооруженным силам Германии первого построенного для них истребителя пятого поколения Lockheed Martin F-35A Lightning II (немецкий бортовой номер \"35"
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e1c52a5b186cf847",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_76aae9f116d88191",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://vpk.name/news/1171198_stali_izvestny_rossiiskie_perehvatchiki_rzhavyh_kinzhalov_vsu.html",
+"published_at": "2026-11-11T21:00:01Z",
+"quote": "Эксперт Кнутов: Ракеты Rusty Dagger могут перехватывать российские системы ПВО Крылатые ракеты Rusty Dagger («Ржавый кинжал»), которые США поставили Вооруженным силам Украины (ВСУ), могут перехватывать российские системы противовоздушной об"
+},
+{
+"url": "https://vpk.name/news/1171190_nositelyami_rzhavyh_kinzhalov_vsu_stali_f-16_i_mig-29.html",
+"published_at": "2026-11-11T21:00:01Z",
+"quote": "Эксперт Степанов: Носителями украинских «Ржавых кинжалов» стали F-16 и МиГ-29 Носителями ракет Rusty Dagger («Ржавые кинжалы»), которые США поставили Вооруженным силам Украины (ВСУ), стали истребители F-16 и МиГ-29."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_68b3077c127d4616",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_b677547c4bb180c5",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://vpk.name/news/1171198_stali_izvestny_rossiiskie_perehvatchiki_rzhavyh_kinzhalov_vsu.html",
+"published_at": "2026-11-11T21:00:01Z",
+"quote": "Эксперт Кнутов: Ракеты Rusty Dagger могут перехватывать российские системы ПВО Крылатые ракеты Rusty Dagger («Ржавый кинжал»), которые США поставили Вооруженным силам Украины (ВСУ), могут перехватывать российские системы противовоздушной об"
+},
+{
+"url": "https://vpk.name/news/1171190_nositelyami_rzhavyh_kinzhalov_vsu_stali_f-16_i_mig-29.html",
+"published_at": "2026-11-11T21:00:01Z",
+"quote": "Эксперт Степанов: Носителями украинских «Ржавых кинжалов» стали F-16 и МиГ-29 Носителями ракет Rusty Dagger («Ржавые кинжалы»), которые США поставили Вооруженным силам Украины (ВСУ), стали истребители F-16 и МиГ-29."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_25d8bf6ebe7bee26",
+"from": "ent_173e263ab90e6a8d",
+"to": "ent_b13f51a44caf63cf",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/11/fedorov-yelizarov-mission-defense-partners-shahed-missile",
+"published_at": "2026-11-11T23:00:00Z",
+"quote": "co/2026/07/16/fedorov-ousted-ukraine-drone-war/\">removed as defense minister on July 15</a>, said in September that Palantir CEO Alex Karp would be the first major investor in a company he was launching."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_2c6cfd6630ff9d94",
+"from": "ent_c91088d26303c660",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/11/fedorov-yelizarov-mission-defense-partners-shahed-missile",
+"published_at": "2026-11-11T23:00:00Z",
+"quote": "Lasar’s Group crews used it to shoot down two Russian Geran-5 jet drones heading for the capital, a month after development began."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_180dc2990c9fbf27",
+"from": "ent_c91088d26303c660",
+"to": "ent_625d6ffaa03583cc",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/11/fedorov-yelizarov-mission-defense-partners-shahed-missile",
+"published_at": "2026-11-11T23:00:00Z",
+"quote": "Lasar’s Group crews used it to shoot down two Russian Geran-5 jet drones heading for the capital, a month after development began."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_90764f505d1b282e",
+"from": "ent_625d6ffaa03583cc",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/11/fedorov-yelizarov-mission-defense-partners-shahed-missile",
+"published_at": "2026-11-11T23:00:00Z",
+"quote": "Lasar’s Group crews used it to shoot down two Russian Geran-5 jet drones heading for the capital, a month after development began."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_38916b37b3a5d3be",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_382bc265ebab3a18",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/news-features/plans-to-fly-talon-blue-cca-drone-from-british-carrier-confirmed-by-northrop-grumman",
+"published_at": "2026-11-11T20:30:40Z",
+"quote": "Plans To Fly Talon Blue CCA Drone From British Carrier Confirmed By Northrop Grumman"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_96a6d691c9e648d9",
+"from": "ent_159fc1bf21c307ea",
+"to": "ent_e075b2ff37cd5b37",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/echodyne-says-bae-systems-has-integrated-echoshield-radar-into-its-bats-counter-drone-system",
+"published_at": "2026-11-11T20:22:40Z",
+"quote": "“EchoShield contributes a precise, data-rich airspace picture,” said Louise Heywood, head of strategy for BAE Systems Digital Intelligence & Land."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_fe22483c155cdffb",
+"from": "ent_78f1ace85264a541",
+"to": "ent_9c2426bff2d18a5f",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://unmannedairspace.info/counter-uas-systems-and-policies/royal-navy-awards-saab-gbp15-million-contract-for-autonomous-counter-drone-radar-capability",
+"published_at": "2026-11-11T19:34:15Z",
+"quote": "The Royal Navy has awarded Saab a GBP15 million contract for its Sea Giraffe 1X radar, which will be integrated into an autonomous uncrewed surface vessel (USV) to provide maritime surveillance and counter-drone capabilities."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_966956508d737fe0",
+"from": "ent_c29cc83181a40db6",
+"to": "ent_9c2426bff2d18a5f",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://unmannedairspace.info/counter-uas-systems-and-policies/royal-navy-awards-saab-gbp15-million-contract-for-autonomous-counter-drone-radar-capability",
+"published_at": "2026-11-11T19:34:15Z",
+"quote": "The contract covers the supply of several Sea Giraffe 1X radars for integration with Kraken Technology Group’s K3 Scout USV."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_a90c238db961d18f",
+"from": "ent_7bc34647511f8698",
+"to": "ent_7af60e51312772aa",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/11/german-military-bans-dji-drones-again-2023-ban",
+"published_at": "2026-11-11T12:44:00Z",
+"quote": "webp\" alt=\"Dark gray DJI Matrice 30 quadcopter flying against a blue sky above snow-covered mountains\" /></p> <p>Germany’s armed forces, the Bundeswehr, have banned Chinese small drones from their barracks and training grounds with immediat"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_2ff91a92dd175a73",
+"from": "ent_7bc34647511f8698",
+"to": "ent_2753dda16c66fdbc",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/11/german-military-bans-dji-drones-again-2023-ban",
+"published_at": "2026-11-11T12:44:00Z",
+"quote": "A year later, the military signed a contract for 500 DJI <strong>Matrice M30T</strong> drones."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_b72f89f3045420fa",
+"from": "ent_7bc34647511f8698",
+"to": "ent_ce730c7852b22852",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/11/german-military-bans-dji-drones-again-2023-ban",
+"published_at": "2026-11-11T12:44:00Z",
+"quote": "A year later, the military signed a contract for 500 DJI <strong>Matrice M30T</strong> drones."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_cdc24dc485d2a859",
+"from": "ent_7af60e51312772aa",
+"to": "ent_db376d4d7bc4d9da",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/11/german-military-bans-dji-drones-again-2023-ban",
+"published_at": "2026-11-11T12:44:00Z",
+"quote": "A spokesperson told Reuters that <strong>“Chinese-made models will no longer be used”</strong> in order to strengthen the Bundeswehr’s self-sufficiency and technological sovereignty."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_6f4bb79628e2d3c1",
+"from": "ent_7bc34647511f8698",
+"to": "ent_9356a3211e4bbc88",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/11/german-military-bans-dji-drones-again-2023-ban",
+"published_at": "2026-11-11T12:44:00Z",
+"quote": "</p> <p>In November 2024, the Bundeswehr signed a framework contract with Droneparts GmbH for 500 DJI Matrice M30T drones, according to the contract, which CORRECTIV obtained."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_328b0dc95bac9bc7",
+"from": "ent_7af60e51312772aa",
+"to": "ent_9356a3211e4bbc88",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/11/german-military-bans-dji-drones-again-2023-ban",
+"published_at": "2026-11-11T12:44:00Z",
+"quote": "</p> <p>In November 2024, the Bundeswehr signed a framework contract with Droneparts GmbH for 500 DJI Matrice M30T drones, according to the contract, which CORRECTIV obtained."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_f49727e8ec4e02c0",
+"from": "ent_7af60e51312772aa",
+"to": "ent_2753dda16c66fdbc",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/11/german-military-bans-dji-drones-again-2023-ban",
+"published_at": "2026-11-11T12:44:00Z",
+"quote": "</p> <p>In November 2024, the Bundeswehr signed a framework contract with Droneparts GmbH for 500 DJI Matrice M30T drones, according to the contract, which CORRECTIV obtained."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_b7649d3e476545fe",
+"from": "ent_7af60e51312772aa",
+"to": "ent_ce730c7852b22852",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/11/german-military-bans-dji-drones-again-2023-ban",
+"published_at": "2026-11-11T12:44:00Z",
+"quote": "</p> <p>In November 2024, the Bundeswehr signed a framework contract with Droneparts GmbH for 500 DJI Matrice M30T drones, according to the contract, which CORRECTIV obtained."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_5daee6c7d026ea26",
+"from": "ent_9356a3211e4bbc88",
+"to": "ent_2753dda16c66fdbc",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/11/german-military-bans-dji-drones-again-2023-ban",
+"published_at": "2026-11-11T12:44:00Z",
+"quote": "</p> <p>In November 2024, the Bundeswehr signed a framework contract with Droneparts GmbH for 500 DJI Matrice M30T drones, according to the contract, which CORRECTIV obtained."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_398d717807cae6b4",
+"from": "ent_9356a3211e4bbc88",
+"to": "ent_ce730c7852b22852",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/11/german-military-bans-dji-drones-again-2023-ban",
+"published_at": "2026-11-11T12:44:00Z",
+"quote": "</p> <p>In November 2024, the Bundeswehr signed a framework contract with Droneparts GmbH for 500 DJI Matrice M30T drones, according to the contract, which CORRECTIV obtained."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_1320c5a0ca9f27ee",
+"from": "ent_417bebbed4a23e75",
+"to": "ent_c29cc83181a40db6",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/saab-says-royal-navy-orders-15-million-of-drone-detection-radars-for-uncrewed-k3-scout-vessels",
+"published_at": "2026-11-11T12:37:01Z",
+"quote": "The K3 Scout can take different payloads in the same bay, said Mal Crease, chief executive and founder of Kraken Technology Group."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_803c00f2791b10ec",
+"from": "ent_7bc34647511f8698",
+"to": "ent_3af5e8e35249ef70",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://cos-news.ru/how-to-properly-organize-the-storage-of-propellers-motors-and-batteries-for-uavs",
+"published_at": "2026-11-11T12:19:05Z",
+"quote": "Производитель и модель Рекомендации по уровню заряда DJI Для многих аккумуляторов при хранении более 10 дней — 40–65% Autel Dragonfish При хранении более 10 дней — 20–30% Autel EVO Max V2 Около 60% — рекомендуемый уровень заряда при хранени"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_305c597d0bc0b452",
+"from": "ent_1b750b2630b2d5ba",
+"to": "ent_3af5e8e35249ef70",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://cos-news.ru/how-to-properly-organize-the-storage-of-propellers-motors-and-batteries-for-uavs",
+"published_at": "2026-11-11T12:19:05Z",
+"quote": "Производитель и модель Рекомендации по уровню заряда DJI Для многих аккумуляторов при хранении более 10 дней — 40–65% Autel Dragonfish При хранении более 10 дней — 20–30% Autel EVO Max V2 Около 60% — рекомендуемый уровень заряда при хранени"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_82232e2e3be63398",
+"from": "ent_830d0c3f8b5e2bdc",
+"to": "ent_78f1ace85264a541",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/swedens-saab-to-add-drone-scenarios-to-denmarks-cv90-training-under-sek-350-million-order",
+"published_at": "2026-11-11T09:59:16Z",
+"quote": "“Training must evolve as fast as the battlefield,” said Joakim Alhbin, head of Saab’s Training and Simulation business unit."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_5a20e101b1fa5c8c",
+"from": "ent_3d66be6936f89f7f",
+"to": "ent_7bc34647511f8698",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/10/skydio-adam-bry-outsell-dji-us-relentless-interview",
+"published_at": "2026-11-11T03:05:00Z",
+"quote": "Skydio CEO Adam Bry Says Skydio Will Outsell DJI in the US This Year"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6427a858241cb19f",
+"from": "ent_45d9dae4c70823d7",
+"to": "ent_ce942da00e202b13",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"published_at": "2026-11-10T23:43:49Z",
+"quote": "” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_43f43d9637e14390",
+"from": "ent_45d9dae4c70823d7",
+"to": "ent_f604e339566c57c9",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"published_at": "2026-11-10T23:43:49Z",
+"quote": "” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_881638632a16dda1",
+"from": "ent_45d9dae4c70823d7",
+"to": "ent_d33305be0f474b61",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"published_at": "2026-11-10T23:43:49Z",
+"quote": "” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_24b6d85412ddf2f6",
+"from": "ent_45d9dae4c70823d7",
+"to": "ent_b9f675a508d4b13c",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"published_at": "2026-11-10T23:43:49Z",
+"quote": "” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_35a56813b72002ab",
+"from": "ent_ce942da00e202b13",
+"to": "ent_f604e339566c57c9",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"published_at": "2026-11-10T23:43:49Z",
+"quote": "” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_ee75ef22a101a3e1",
+"from": "ent_ce942da00e202b13",
+"to": "ent_d33305be0f474b61",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"published_at": "2026-11-10T23:43:49Z",
+"quote": "” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_596af390a420f4aa",
+"from": "ent_ce942da00e202b13",
+"to": "ent_b9f675a508d4b13c",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"published_at": "2026-11-10T23:43:49Z",
+"quote": "” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_55099fe57344e3d5",
+"from": "ent_f604e339566c57c9",
+"to": "ent_d33305be0f474b61",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"published_at": "2026-11-10T23:43:49Z",
+"quote": "” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_01c90f0c7ad20a2a",
+"from": "ent_f604e339566c57c9",
+"to": "ent_b9f675a508d4b13c",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"published_at": "2026-11-10T23:43:49Z",
+"quote": "” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_62e8ff26082576d6",
+"from": "ent_d33305be0f474b61",
+"to": "ent_b9f675a508d4b13c",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"published_at": "2026-11-10T23:43:49Z",
+"quote": "” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_6d86617406752333",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://breakingdefense.com/2026/11/allen-control-systems-launches-new-division-to-develop-counter-drone-lasers",
+"published_at": "2026-11-10T20:56:37Z",
+"quote": "The announcement comes amid the Pentagon’s growing interest in laser weapons, which use concentrated beams of energy to heat and destroy targets."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_e754d5f2870a8a84",
+"from": "ent_90af3d5c75658635",
+"to": "ent_bd84f4b50b17b685",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://belta.by/society/view/hrenin-objjasnil-pochemu-teme-protivodejstvija-bpla-udeljaetsja-povyshennoe-vnimanie-810232-2026",
+"published_at": "2026-11-10T14:25:29Z",
+"quote": "Министр обороны Беларуси Виктор Хренин в Москве в кулуарах совместного заседания Совета министров иностранных дел, Совета министров обороны и Комитета секретарей советов безопасности ОДКБ рассказал журналистам, почему теме противодействия Б"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_ad7094486492c824",
+"from": "ent_ac7bda7536b13c9b",
+"to": "ent_d849423390b0c6c9",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://unmannedairspace.info/counter-uas-systems-and-policies/rheinmetalls-skyranger-to-protect-belgian-critical-infrastructure-from-drones",
+"published_at": "2026-11-10T10:26:06Z",
+"quote": "The Rheinmetall Group has secured a contract to supply 20 Skyranger 30 systems to Belgium."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_23fb4f17e20380a9",
+"from": "ent_fa7ef6291f8572c8",
+"to": "ent_82e7db2d9eb367cd",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/kongsberg-maritime-unveils-arctic-hunter-an-uncrewed-vessel-designed-to-hunt-submarines-for-the-royal-navy",
+"published_at": "2026-11-10T09:27:55Z",
+"quote": "“Atlantic security is an absolute priority, and we believe that the Arctic Hunter USV offers a robust and practical response to the growing need for additional submarine detection capability,” said Lisa Edvardsen Haugan, chief executive of "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_4f6539cf95d20956",
+"from": "ent_286ac1a705054b05",
+"to": "ent_82e7db2d9eb367cd",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/thales-says-belgiums-blue-dome-will-use-gm200-mm-c-radars-to-track-drones-and-missiles",
+"published_at": "2026-11-10T09:01:13Z",
+"quote": "Belgium’s selection follows Dutch work to integrate the radar with Kongsberg’s Fire Distribution Centre and Raytheon’s AMRAAM missiles as part of the NASAMS air defence system."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c24d9270036926ef",
+"from": "ent_df912e0929fe5a8d",
+"to": "ent_286ac1a705054b05",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/thales-says-belgiums-blue-dome-will-use-gm200-mm-c-radars-to-track-drones-and-missiles",
+"published_at": "2026-11-10T09:01:13Z",
+"quote": "Belgium’s selection follows Dutch work to integrate the radar with Kongsberg’s Fire Distribution Centre and Raytheon’s AMRAAM missiles as part of the NASAMS air defence system."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_75321566eb1d8eac",
+"from": "ent_df912e0929fe5a8d",
+"to": "ent_82e7db2d9eb367cd",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/thales-says-belgiums-blue-dome-will-use-gm200-mm-c-radars-to-track-drones-and-missiles",
+"published_at": "2026-11-10T09:01:13Z",
+"quote": "Belgium’s selection follows Dutch work to integrate the radar with Kongsberg’s Fire Distribution Centre and Raytheon’s AMRAAM missiles as part of the NASAMS air defence system."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_ad9d44c6e4d65cb9",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_766676b165f94672",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://uasvision.com/2026/11/10/nato-launches-c-uas-marketplace",
+"published_at": "2026-11-10T06:45:15Z",
+"quote": "It’s part of Drone Edge, an initiative launched at the NATO Summit Defence Industry Forum in Ankara in July."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_5d974a6fffef9eb5",
+"from": "ent_d20b5942afb9c7ab",
+"to": "ent_4709c55f7bf2a428",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/09/china-gj-11-stealth-drone-weapon-bay-first-live-fire",
+"published_at": "2026-11-10T01:03:00Z",
+"quote": "com/2026/07/in-first-air-force-fires-live-shot-off-cca-wingman-drone/\">Breaking Defense</a> the test was an end-to-end, beyond-line-of-sight strike, with its Lattice software feeding the target track to the drone."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_53744c866fc6eb76",
+"from": "ent_cbfab53cc3bd40dc",
+"to": "ent_37b6d67947e52241",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/air/mq-58-valkyrie-drones-now-cost-6m-8m-each",
+"published_at": "2026-11-10T00:39:57Z",
+"quote": "Kratos’ President and CEO Eric DeMarco shared the new cost figures, as well as other new details about the Valkyrie program, during a recent quarterly earnings call."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_b21a7363843b3375",
+"from": "ent_108f5c34b430d90e",
+"to": "ent_461f895cd3ecdc32",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/air/mq-58-valkyrie-drones-now-cost-6m-8m-each",
+"published_at": "2026-11-10T00:39:57Z",
+"quote": "The company is known to be pursuing a bid to supply a version of the Valkyrie called the U740 to the German Air Force, or Luftwaffe, through a partnership with Airbus."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6648bfb1480d9209",
+"from": "ent_2a08c22d94a41e7c",
+"to": "ent_469aac1a6973d563",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/air/mq-58-valkyrie-drones-now-cost-6m-8m-each",
+"published_at": "2026-11-10T00:39:57Z",
+"quote": "General Atomics and Anduril are both on contract now to build batches of their respective FQ-42A Vengeance and FQ-44A Fury drone designs under the first phase of the U."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_4bf28a25e29286bd",
+"from": "ent_7d6438c0636fce49",
+"to": "ent_ec85fb59920d1b72",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/09/shield-ai-echodyne-5-3-billion-counter-drone-radar",
+"published_at": "2026-11-10T00:27:00Z",
+"quote": "CEO Eben Frankenberg will report directly to Shield AI CEO Gary Steele and keep responsibility for Echodyne’s products and its customers."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_8cb58826bf9bbf36",
+"from": "ent_486063dca1a0f53c",
+"to": "ent_ec85fb59920d1b72",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/09/shield-ai-echodyne-5-3-billion-counter-drone-radar",
+"published_at": "2026-11-10T00:27:00Z",
+"quote": "CEO Eben Frankenberg will report directly to Shield AI CEO Gary Steele and keep responsibility for Echodyne’s products and its customers."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_7b2ecf2ae9cfcf4b",
+"from": "ent_486063dca1a0f53c",
+"to": "ent_0cf94809207eaa8c",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/09/shield-ai-echodyne-5-3-billion-counter-drone-radar",
+"published_at": "2026-11-10T00:27:00Z",
+"quote": "CEO Eben Frankenberg will report directly to Shield AI CEO Gary Steele and keep responsibility for Echodyne’s products and its customers."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_f542ee19ad0f3877",
+"from": "ent_28fea1c77915c37a",
+"to": "ent_3c32a4d4c79b3edf",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/news-features/netting-to-shield-f-35s-at-tyndall-afb-from-drone-attacks-eyed-by-usaf",
+"published_at": "2026-11-09T19:16:18Z",
+"quote": "The russian terrorist state no longer has the ability to produce Tu-95s or any kind of strategic bomber."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_7ab2cc437ef711c2",
+"from": "ent_fb4147f85ecb4fa4",
+"to": "ent_0e439444e0d24c40",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/german-company-stark-says-its-uncrewed-vanta-24-baltic-patrol-vessel-can-carry-anti-ship-missiles",
+"published_at": "2026-11-09T17:57:17Z",
+"quote": "“British and European sovereign territory is being tested every day, from shadow fleet tankers in the English Channel to suspicious activity around the cables we all rely on,” said Johannes Schaback, STARK’s chief technology officer."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_3ef85d019ba5272a",
+"from": "ent_cc536968c15118bb",
+"to": "ent_9a6dbc9b8231fbe3",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/news-features/lucas-drones-to-be-built-in-containerized-robotic-micro-factories-designed-to-be-forward-deployed",
+"published_at": "2026-11-09T17:29:46Z",
+"quote": "In July, Machina was issued a qualification contract by Lockheed Martin to produce fuel tanks for AGM-158 Joint Air-To-Surface Standoff Missiles (JASSM)."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_f552946b4ef3924e",
+"from": "ent_cc536968c15118bb",
+"to": "ent_8e6ad0f4b3cc85d7",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/news-features/lucas-drones-to-be-built-in-containerized-robotic-micro-factories-designed-to-be-forward-deployed",
+"published_at": "2026-11-09T17:29:46Z",
+"quote": "In July, Machina was issued a qualification contract by Lockheed Martin to produce fuel tanks for AGM-158 Joint Air-To-Surface Standoff Missiles (JASSM)."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_14fa62d5fed40492",
+"from": "ent_f7a9f659b73e4140",
+"to": "ent_f2dcf230404a0bff",
+"type": "санкции",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/09/russia-geran-5-k5k-52-us-parts-texas-instruments",
+"published_at": "2026-11-09T11:24:00Z",
+"quote": "ua/en/page-geran-5-k5k\">parts list on HUR’s War&Sanctions portal</a> names 52 components made by US companies."
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный"
+}
+},
+{
+"id": "rel_5e36c222946a5c9b",
+"from": "ent_e9549e1a12518b22",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/09/nato-counter-drone-catalog-alta-ares-six-of-16-lots",
+"published_at": "2026-11-09T10:21:00Z",
+"quote": "The notice also left man-portable and wearable systems to a separate NATO Support and Procurement Agency contract and required bidders to hold NATO Restricted security clearances."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_92960be3fd9513cb",
+"from": "ent_d2e22355d8368901",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/royal-navy-says-its-first-autonomous-squadron-will-deploy-uncrewed-boats-alongside-warships",
+"published_at": "2026-11-09T09:00:37Z",
+"quote": "” Defence Secretary Wes Streeting said the investment would put autonomous technology in sailors’ hands to help protect Britain and its NATO allies."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e85f6919cf39e64a",
+"from": "ent_2465ef3be282df11",
+"to": "ent_85dd72f7ab2ef044",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/royal-navy-says-its-first-autonomous-squadron-will-deploy-uncrewed-boats-alongside-warships",
+"published_at": "2026-11-09T09:00:37Z",
+"quote": "“The Capability Accelerator has been established to help the National Armaments Group get new technologies into the hands of our sailors faster, reducing the time between identifying an operational need and delivering a capability that make"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_69a81b851c6ffd17",
+"from": "ent_cd75b7acacf53304",
+"to": "ent_2077ce4351380756",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/08/skydio-controller-2-ships-395-grams-heavier",
+"published_at": "2026-11-08T23:55:00Z",
+"quote": "webp\" alt=\"Skydio production staff in blue lab coats posing on the Packout 2."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_70420ad4915f0bb0",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_42945ce6b8f796c3",
+"type": "опровержение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/08/iran-california-drone-warning-eight-months-barksdale-unsolved",
+"published_at": "2026-11-08T19:52:00Z",
+"quote": "co/2024/12/11/pentagon-dismisses-claims-of-iranian-drone-mothership/\">denied a congressman’s claim</a> that an Iranian mothership was launching the New Jersey drones."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_c55eb3837875c7a1",
+"from": "ent_7c4278bb1c2365e3",
+"to": "ent_9507678c3635d317",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/xronikabpla/10473",
+"published_at": "2026-11-08T19:25:22Z",
+"quote": "Так Лондон хочет к уже имеющимся на палубе F-35B, дополнить разведывательными и ударными дронами."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_fd6a12417873d798",
+"from": "ent_85a81afee9e48a7e",
+"to": "ent_b9042a9dce694495",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/08/mar-a-lago-army-laser-locust-el-paso-airspace-tfr",
+"published_at": "2026-11-08T17:04:00Z",
+"quote": "</p> <h2 id=\"the-jltv-points-to-the-20-kw-locust-not-the-new-x3\">The JLTV Points to the 20 kW LOCUST, Not the New X3</h2> <p>AeroVironment delivered two JLTV-mounted LOCUST lasers to the Army in December 2025 under AMP-HEL, a 20 kW-class sy"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_73679d0dfe29d7fd",
+"from": "ent_14d1757585b55c53",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37475",
+"published_at": "2026-11-07T05:51:56Z",
+"quote": "Кулуарные ограничения работы Starlink со стороны США привели к прямо противоположному результату: Трамп банально потерял рычаг контроля над дальнобойными ударами Киева."
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_91027fb105dbdaa7",
+"from": "ent_14d1757585b55c53",
+"to": "ent_c32678e4a0ae4599",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37475",
+"published_at": "2026-11-07T05:51:56Z",
+"quote": "Кулуарные ограничения работы Starlink со стороны США привели к прямо противоположному результату: Трамп банально потерял рычаг контроля над дальнобойными ударами Киева."
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_4e599c1a189813fc",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/zadrony/2058",
+"published_at": "2026-11-06T13:23:32Z",
+"quote": "По данным НАТО, отобранные системы уже применялись в странах альянса и на Украине."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_5e38b31d74ddc07b",
+"from": "ent_8ee1d29ffcfae48f",
+"to": "ent_ac8298d32e8a791e",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://unmannedairspace.info/counter-uas-systems-and-policies/safran-and-msi-to-collaborate-on-c-uas-for-naval-and-land-systems",
+"published_at": "2026-11-06T11:42:11Z",
+"quote": "Under this contract, Safran will provide sighting systems for SEAHAWK DS30M 30 mm gun mounts aboard mine countermeasure vessels, with deliveries in 2027."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_117782b32ab31ea3",
+"from": "ent_0cf94809207eaa8c",
+"to": "ent_b677547c4bb180c5",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://unmannedairspace.info/counter-uas-systems-and-policies/shield-ai-to-acquire-echodyne",
+"published_at": "2026-11-06T10:35:21Z",
+"quote": "In September, Echodyne received a contract with a USD 250 million ceiling from the United States’ Joint Interagency Task Force 401 to supply C-UAS radar to US and allied forces."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_a1c3a01ef722f44c",
+"from": "ent_0c7791d169d924d7",
+"to": "ent_ed88ced226e6c399",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37467",
+"published_at": "2026-11-06T07:24:21Z",
+"quote": "🟩основной поставщик такого горючего для ВСУ — «Укрнафта», которая с 2022 года находится под контролем Минобороны Украины."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_4e18757df2a44729",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_e66a2be7fe38d473",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37467",
+"published_at": "2026-11-06T07:24:21Z",
+"quote": "🟩цены могут расти из-за инфляции, а перебои с поставками — в том числе из-за действий ВС РФ, заявил RT консультирующий Минобороны эксперт: «Помимо общей инфляции цен на топливо, здесь могла сыграть роль активная работа нашей армии, которая "
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_f45019e4060c6d65",
+"from": "ent_19225c7a5c9d4cf5",
+"to": "ent_14d1757585b55c53",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://uasvision.com/2026/11/06/ukraine-unveils-lte-modem-to-control-drones-amid-starlink-outages",
+"published_at": "2026-11-06T06:40:33Z",
+"quote": "Ukrainian company Militech Group has developed the “Grim” LTE modem, which will help control drones in conditions of Starlink restrictions."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_0f231e441eff2e76",
+"from": "ent_e66a2be7fe38d473",
+"to": "ent_28fea1c77915c37a",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37466",
+"published_at": "2026-11-05T15:39:14Z",
+"quote": "Украинские каналы пишут, что ВС РФ стали размещать дроны-«ждуны» на высоковольтных проводах."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c70a571eee35d7dc",
+"from": "ent_5fd2d47d5bf87c3b",
+"to": "ent_c00d60278e21bf7e",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/finnish-navy-to-establish-unmanned-systems-company-within-its-coastal-brigade-in-2027",
+"published_at": "2026-11-05T15:33:13Z",
+"quote": "“The development of unmanned and autonomous capabilities is one of the key elements of technology cooperation within the strategic partnership,” said Mikko Leino, executive vice president of Defence and Weapon Systems at Patria."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_b65850658f8cd327",
+"from": "ent_7bc34647511f8698",
+"to": "ent_b47c24dc38b19e3d",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronelife.com/2026/11/05/dji-matrice-5t-launch-thermal-imaging-ai",
+"published_at": "2026-11-05T13:54:32Z",
+"quote": "DJI has launched the Matrice 5T, a compact enterprise drone designed for public safety, infrastructure inspection, and surveying."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_b7a2f60525852bfa",
+"from": "ent_6e39fd0dc44b7d64",
+"to": "ent_58e049e9d9bb5c43",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://uasvision.com/2026/11/04/two-us-mqm-170-outlaw-drones-downed-by-iranian-electronic-warfare-units",
+"published_at": "2026-11-04T06:30:29Z",
+"quote": "The Islamic Revolution Guards Corps announced on Monday night that its forces have brought down two American MQM-170 reconnaissance drones by electronic warfare south of Qeshm Island, while its air defence systems intercepted and destroyed "
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_17dff99c1cb338c0",
+"from": "ent_ec85fb59920d1b72",
+"to": "ent_73bb26bf8b011a88",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/news-features/x-bat-vtol-fighter-drone-prototype-unveiled",
+"published_at": "2026-11-03T18:33:50Z",
+"quote": "Shield AI capture “X-BAT 001 is a development aircraft, so the design will evolve as we test and refine it,” a Shield AI spokesperson also told TWZ today."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_2e80052867e7e7d5",
+"from": "ent_ec85fb59920d1b72",
+"to": "ent_7c4278bb1c2365e3",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/news-features/x-bat-vtol-fighter-drone-prototype-unveiled",
+"published_at": "2026-11-03T18:33:50Z",
+"quote": "In an interview with TWZ last month , Shield AI’s Armor Harris, Senior Vice President and General Manager of the company’s aircraft division, had also compared the expected differences between the full-scale prototypes and production versio"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_3b188607d1a6c9ac",
+"from": "ent_9e17bf96d4b332eb",
+"to": "ent_4c62d83129b31a0c",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/asia-pacific/2026/11/03/australia-preps-bluebottle-usv-for-submarine-hunting-role",
+"published_at": "2026-11-03T12:19:38Z",
+"quote": "Under Project Sea 1200, the Royal Australian Navy ordered 40 Bluebottle USVs for A$176 million (US$124 million) in March this year, while the country’s Border Command already operates 15 other Bluebottles to monitor waters north of Australi"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_96cf90f7abd2f7ff",
+"from": "ent_14d1757585b55c53",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37441",
+"published_at": "2026-11-02T18:33:37Z",
+"quote": "На фоне увеличения ударов вглубь России Украина в 2026-м потратила на Starlink вдвое больше, чем за четыре предыдущих года, выяснил RT."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_b32b662b140fae74",
+"from": "ent_14d1757585b55c53",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37441",
+"published_at": "2026-11-02T18:33:37Z",
+"quote": "На фоне увеличения ударов вглубь России Украина в 2026-м потратила на Starlink вдвое больше, чем за четыре предыдущих года, выяснил RT."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_3dc69122575c150b",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_14d1757585b55c53",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37441",
+"published_at": "2026-11-02T18:33:37Z",
+"quote": "Ранее Илон Маск подчёркивал: ВСУ нарушили условия использования Starlink, применив систему для ударов дронами с целью убийства людей."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_729115a82dd11660",
+"from": "ent_fd12f5222c7f80cb",
+"to": "ent_fa6898c603a2c76e",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://suasnews.com/2026/11/primoco-uav-nine-month-revenue-rises-69-ebitda-grows-246",
+"published_at": "2026-11-02T16:43:29Z",
+"quote": "Czech unmanned aircraft manufacturer Primoco UAV SE reported revenue of CZK 430."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_8c70b2130f458527",
+"from": "ent_82d695889d3fa2fa",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37415",
+"published_at": "2026-10-31T11:39:45Z",
+"quote": "Хохлы постоянно ноют, что ВКС РФ наносит удары по гражданским зданиям, хотя в большинстве случаев такие повреждения возникают в результате криворукой работы украинской ПВО над жилыми кварталами."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_6682cd7bdb5b9bf1",
+"from": "ent_7bc34647511f8698",
+"to": "ent_4c734dd83a3b05d0",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://cos-news.ru/how-to-choose-a-memory-card-for-a-drone-and-avoid-recording-issues",
+"published_at": "2026-10-30T08:39:06Z",
+"quote": "Для многих современных дронов DJI производитель указывает поддержку карт microSD с классом скорости UHS-I Speed Grade 3 (U3) или выше."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_b7f2148d65f69bbb",
+"from": "ent_fa323d4f8a738909",
+"to": "ent_b677547c4bb180c5",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37383",
+"published_at": "2026-10-27T14:19:57Z",
+"quote": "Армия США получила один прототип PERCH 2."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_3d8288ef98bc7b4a",
+"from": "ent_fa323d4f8a738909",
+"to": "ent_44f4c86178ce23ea",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37383",
+"published_at": "2026-10-27T14:19:57Z",
+"quote": "Армия США получила один прототип PERCH 2."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_9b34b1ffbe4e5008",
+"from": "ent_815af8af8e914956",
+"to": "ent_b89569b4c89018bb",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/europe/2026/10/26/helsing-unveils-interceptor-missiles-designed-to-chase-russias-fast-flying-geran-drones",
+"published_at": "2026-10-26T14:53:32Z",
+"quote": "The offering, which goes by the name of Contra, is in testing for now but is expected to reach market readiness in the second half of 2027, Helsing CEO Gundbert Scherf told reporters during a product presentation."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_26c68e0fca857bf2",
+"from": "ent_290718b415521113",
+"to": "ent_42945ce6b8f796c3",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/UAVDEV/13132",
+"published_at": "2026-10-25T20:54:58Z",
+"quote": "В начале конфликта 28 февраля в Иране, похожая ситуация наблюдалась и на Ближнем Востоке, когда сотни Шахед-136 наносили удары по…"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_30d3f29f605dcc78",
+"from": "ent_696b012d13e6ebad",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37355",
+"published_at": "2026-10-24T08:12:28Z",
+"quote": "Нанеся удар по нашему предприятию в Орле ракетами Storm Shadow, Британия в очередной раз продемонстрировала своё отношение к переговорам, которые сейчас ведутся между Россией и США."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_55fbfdde928df580",
+"from": "ent_696b012d13e6ebad",
+"to": "ent_382bc265ebab3a18",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37355",
+"published_at": "2026-10-24T08:12:28Z",
+"quote": "Нанеся удар по нашему предприятию в Орле ракетами Storm Shadow, Британия в очередной раз продемонстрировала своё отношение к переговорам, которые сейчас ведутся между Россией и США."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_3c0f779c7289834a",
+"from": "ent_42945ce6b8f796c3",
+"to": "ent_51f15c822fbb1dc6",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37349",
+"published_at": "2026-10-23T11:19:56Z",
+"quote": "🇮🇷 Иран анонсировал производство нового ударного беспилотника Arash-3."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_adb159a80004e512",
+"from": "ent_51f15c822fbb1dc6",
+"to": "ent_42945ce6b8f796c3",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37349",
+"published_at": "2026-10-23T11:19:56Z",
+"quote": "🇮🇷 Иран анонсировал производство нового ударного беспилотника Arash-3."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_c9d25419b5196766",
+"from": "ent_c1d3dc6e73c71ca2",
+"to": "ent_b0bba4c8f275ffd0",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37345",
+"published_at": "2026-10-23T05:51:35Z",
+"quote": "Как сообщил бригадный генерал Стивен Карпентер, командующий многопрофильным командованием «Европа», в случае начала боевых действий Пентагон намерен одновременно запустить на вражескую территорию сотни, а возможно, и тысячи таких аппаратов"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_604c828a25d47ed0",
+"from": "ent_f2dcf230404a0bff",
+"to": "ent_c215d6ed607a8bd6",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37341",
+"published_at": "2026-10-22T13:16:17Z",
+"quote": "Вероятно, первое зафиксированное применение реактивной версии дрона-камикадзе \"Гарпия\" (аналог \"Герани-4\" и копия иранского Shahed-238) производства ИЭМЗ \"Купол\"."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e41b64648cd81657",
+"from": "ent_469aac1a6973d563",
+"to": "ent_9e17bf96d4b332eb",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/UAVDEV/13084",
+"published_at": "2026-10-21T18:44:35Z",
+"quote": "Anduril и правительство Австралии подтвердили, что сверхкрупный автономный подводный аппарат Ghost Shark (XL-AUV) способен развёртывать рои беспилотников, устанавливать морские мины, применять сред..."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_7e2afa0289620ede",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_7e57c0d0ea482d2d",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/proUAV/2046",
+"published_at": "2026-10-20T09:43:29Z",
+"quote": "Vertical Aerospace, Объединенное Королевство, известная, в частности, как разработчик четырехместного eVTOL-аэротакси Valo (электрического аппарата вертикального взлета и посадки), внедряет энергопоглощающие кресла от южнокорейской ANH Stru"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_f870292d0d309d43",
+"from": "ent_a5f845c25bdf0ace",
+"to": "ent_7e57c0d0ea482d2d",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/proUAV/2046",
+"published_at": "2026-10-20T09:43:29Z",
+"quote": "Vertical Aerospace, Объединенное Королевство, известная, в частности, как разработчик четырехместного eVTOL-аэротакси Valo (электрического аппарата вертикального взлета и посадки), внедряет энергопоглощающие кресла от южнокорейской ANH Stru"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_98bdc9c65054903f",
+"from": "ent_f604e339566c57c9",
+"to": "ent_276f84cd7d3f6204",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37319",
+"published_at": "2026-10-20T07:08:42Z",
+"quote": "Начальник штаба ВВС Италии генерал Антонио Консерва подтвердил, что ВВС Италии начали процесс закупки трех разведывательно-ударных беспилотных авиационных комплексов Astore Levante у компании LBA Systems - совместного предприятия итальянско"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_013de73e41cdf9fc",
+"from": "ent_f604e339566c57c9",
+"to": "ent_d9bfb74312e4d072",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37319",
+"published_at": "2026-10-20T07:08:42Z",
+"quote": "Начальник штаба ВВС Италии генерал Антонио Консерва подтвердил, что ВВС Италии начали процесс закупки трех разведывательно-ударных беспилотных авиационных комплексов Astore Levante у компании LBA Systems - совместного предприятия итальянско"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_f09beb4631a1558b",
+"from": "ent_f604e339566c57c9",
+"to": "ent_88b9583e076cfd82",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37319",
+"published_at": "2026-10-20T07:08:42Z",
+"quote": "Начальник штаба ВВС Италии генерал Антонио Консерва подтвердил, что ВВС Италии начали процесс закупки трех разведывательно-ударных беспилотных авиационных комплексов Astore Levante у компании LBA Systems - совместного предприятия итальянско"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_0624c35d12cf2e64",
+"from": "ent_f604e339566c57c9",
+"to": "ent_a5d4d2d2ee3c5464",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37319",
+"published_at": "2026-10-20T07:08:42Z",
+"quote": "Начальник штаба ВВС Италии генерал Антонио Консерва подтвердил, что ВВС Италии начали процесс закупки трех разведывательно-ударных беспилотных авиационных комплексов Astore Levante у компании LBA Systems - совместного предприятия итальянско"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_f9edad17d780924c",
+"from": "ent_276f84cd7d3f6204",
+"to": "ent_d9bfb74312e4d072",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37319",
+"published_at": "2026-10-20T07:08:42Z",
+"quote": "Начальник штаба ВВС Италии генерал Антонио Консерва подтвердил, что ВВС Италии начали процесс закупки трех разведывательно-ударных беспилотных авиационных комплексов Astore Levante у компании LBA Systems - совместного предприятия итальянско"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_df1bc0d9ec57c95e",
+"from": "ent_276f84cd7d3f6204",
+"to": "ent_88b9583e076cfd82",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37319",
+"published_at": "2026-10-20T07:08:42Z",
+"quote": "Начальник штаба ВВС Италии генерал Антонио Консерва подтвердил, что ВВС Италии начали процесс закупки трех разведывательно-ударных беспилотных авиационных комплексов Astore Levante у компании LBA Systems - совместного предприятия итальянско"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_4b80df313666dff8",
+"from": "ent_276f84cd7d3f6204",
+"to": "ent_a5d4d2d2ee3c5464",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37319",
+"published_at": "2026-10-20T07:08:42Z",
+"quote": "Начальник штаба ВВС Италии генерал Антонио Консерва подтвердил, что ВВС Италии начали процесс закупки трех разведывательно-ударных беспилотных авиационных комплексов Astore Levante у компании LBA Systems - совместного предприятия итальянско"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_9955f855d0f18521",
+"from": "ent_d9bfb74312e4d072",
+"to": "ent_88b9583e076cfd82",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37319",
+"published_at": "2026-10-20T07:08:42Z",
+"quote": "Начальник штаба ВВС Италии генерал Антонио Консерва подтвердил, что ВВС Италии начали процесс закупки трех разведывательно-ударных беспилотных авиационных комплексов Astore Levante у компании LBA Systems - совместного предприятия итальянско"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_aaa92a9f09c77481",
+"from": "ent_d9bfb74312e4d072",
+"to": "ent_a5d4d2d2ee3c5464",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37319",
+"published_at": "2026-10-20T07:08:42Z",
+"quote": "Начальник штаба ВВС Италии генерал Антонио Консерва подтвердил, что ВВС Италии начали процесс закупки трех разведывательно-ударных беспилотных авиационных комплексов Astore Levante у компании LBA Systems - совместного предприятия итальянско"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_fb57c8201d59a945",
+"from": "ent_a5d4d2d2ee3c5464",
+"to": "ent_88b9583e076cfd82",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37319",
+"published_at": "2026-10-20T07:08:42Z",
+"quote": "Начальник штаба ВВС Италии генерал Антонио Консерва подтвердил, что ВВС Италии начали процесс закупки трех разведывательно-ударных беспилотных авиационных комплексов Astore Levante у компании LBA Systems - совместного предприятия итальянско"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_2a911527e3b92b6a",
+"from": "ent_2a08c22d94a41e7c",
+"to": "ent_60e29c422b97ba14",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/industry/techwatch/2026/10/16/arizona-guard-first-to-field-gray-eagle-25m-drone",
+"published_at": "2026-10-16T17:30:00Z",
+"quote": "According to Monday’s announcement by General Atomics Aeronautical Systems , which manufactures the aircraft, the Arizona Guard will receive eight Gray Eagle 25Ms by September 2027 and four more by the end of 2029."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_a393039b1702643a",
+"from": "ent_2a08c22d94a41e7c",
+"to": "ent_8553bcb059df3670",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/industry/techwatch/2026/10/16/arizona-guard-first-to-field-gray-eagle-25m-drone",
+"published_at": "2026-10-16T17:30:00Z",
+"quote": "According to Monday’s announcement by General Atomics Aeronautical Systems , which manufactures the aircraft, the Arizona Guard will receive eight Gray Eagle 25Ms by September 2027 and four more by the end of 2029."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_7910c364872222c2",
+"from": "ent_1a1881d433103ad3",
+"to": "ent_befcfc8e385bc4d7",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://breakingdefense.com/2026/10/turkish-aerospace-expands-anka-3-production-with-new-line-for-upgraded-drone",
+"published_at": "2026-10-16T11:02:00Z",
+"quote": "Turkish Aerospace expands Anka 3 production with new line for upgraded drone"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_ff27eba3f740d76e",
+"from": "ent_286ac1a705054b05",
+"to": "ent_fa323d4f8a738909",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronedj.com/2026/10/13/raytheon-counter-drone-lids-army",
+"published_at": "2026-10-14T06:22:41Z",
+"quote": "Raytheon, an RTX company, has secured $729 million in contracts to supply components of its counter-drone system to the US Army, Qatar, and Jordan, marking the first international sales of two key technologies used in the system."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_4b067c957afdcb88",
+"from": "ent_9bd2fc3d490b190c",
+"to": "ent_75017966e780ebec",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://breakingdefense.com/2026/10/teledyne-flir-defense-releases-new-compact-counter-uas-radar",
+"published_at": "2026-10-13T13:00:00Z",
+"quote": "“The Ranger R10-3DX gives operators an affordable, compact, and highly capable radar solution that delivers the early warning and tracking performance needed to counter evolving drone threats,” Rob Tarantino, senior vice president of Survei"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_5a84d3427c21d6a3",
+"from": "ent_ff878af017a8077e",
+"to": "ent_382bc265ebab3a18",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37290",
+"published_at": "2026-10-12T09:40:47Z",
+"quote": "Эксперт напоминает, что всего через два дня после прибытия первых F-16V, американские бомбардировщики B-1B Lancer, временно размещённые на британской базе Фэрфорд, были срочно возвращены в США."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_4f878cb5135a8f06",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_42945ce6b8f796c3",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37290",
+"published_at": "2026-10-12T09:40:47Z",
+"quote": "Во время ударов Ирана по авиабазам на Ближнем Востоке были уничтожены самолёты ВВС США, находившиеся на земле, включая ДРЛО E-3 и несколько самолетов-заправщиков KC-135, а часть техники получила повреждения даже внутри защищённых укрытий."
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_ed6b71bdc7070f3a",
+"from": "ent_811de8cf3998eec5",
+"to": "ent_76aae9f116d88191",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37281",
+"published_at": "2026-10-11T07:08:12Z",
+"quote": "Украина получила от Турции некоторое количество 25-мм зенитных артиллерийских комплексов Aselsan Korkut 25."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_9dc3ebedc9c176a0",
+"from": "ent_811de8cf3998eec5",
+"to": "ent_88b9583e076cfd82",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37281",
+"published_at": "2026-10-11T07:08:12Z",
+"quote": "Украина получила от Турции некоторое количество 25-мм зенитных артиллерийских комплексов Aselsan Korkut 25."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_0bf5162cc06ad274",
+"from": "ent_90ac71ee611cbc4c",
+"to": "ent_79108676ffda3434",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37281",
+"published_at": "2026-10-11T07:08:12Z",
+"quote": "Ранее сообщалось, что эти 25-мм ЗАК в исполнении Korkut 100/25 были заказаны Саудовской Аравией и Катаром."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_c8d4521a05acaa39",
+"from": "ent_7bc34647511f8698",
+"to": "ent_4964c99673ad5948",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/bpla_drone/1648",
+"published_at": "2026-10-10T15:43:40Z",
+"quote": "Среди протестированных моделей разработчики указывают DJI Mini 2, Air 2S и Mavic 2."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_36840cf95f1e781a",
+"from": "ent_108f5c34b430d90e",
+"to": "ent_ebf464bdd886fa6c",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://eda.europa.eu/news-and-events/news/2026/10/09/spain--germany--belgium-join-with-eda-to-test-refuelling-drones-in-mid-air",
+"published_at": "2026-10-09T00:00:00Z",
+"quote": "Phase One , which used an Airbus A330 MRTT tanker, a German Tornado jet and a Spanish F-18 for flight tests, proved the automation was technically feasible."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e8eb45de77f7f037",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37265",
+"published_at": "2026-10-07T05:56:24Z",
+"quote": "Для России это означает, что потенциальное военное противостояние с НАТО все больше будет определяться скоростью, так как, кто раньше обнаружил цель, обработал данные и передал команду на поражение, тот получает преимущество."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_94a004dd432484e5",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37265",
+"published_at": "2026-10-07T05:56:24Z",
+"quote": "Поэтому России придется учитывать уже не отдельные поставки дронов странам НАТО, а формирование целостной системы, где спутник, а формирование целостной системы, где спутник, радар, БПЛА, оператор, ИИ и ударное средство становятся элементам"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_fd9037ea0bd146ca",
+"from": "ent_10ea31424cc964a2",
+"to": "ent_e5f190ccc39e3fdd",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/germesfpv/2996",
+"published_at": "2026-10-06T16:08:09Z",
+"quote": "Трасса Р-280 \"Новороссия\" сегодня подверглась атаке десятков летевших с правого берега Днепра аэростатов, с которых были сброшены не только дроны убийцы \"Hornet-2\", но и ударные FPV-коптеры, оснаще..."
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_f074deec0992561b",
+"from": "ent_14d1757585b55c53",
+"to": "ent_e5f190ccc39e3fdd",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/germesfpv/2996",
+"published_at": "2026-10-06T16:08:09Z",
+"quote": "Трасса Р-280 \"Новороссия\" сегодня подверглась атаке десятков летевших с правого берега Днепра аэростатов, с которых были сброшены не только дроны убийцы \"Hornet-2\", но и ударные FPV-коптеры, оснащенные антеннами системы спутниковой связи \"S"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_3ceb1b5ed1c6b2ab",
+"from": "ent_14d1757585b55c53",
+"to": "ent_10ea31424cc964a2",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/germesfpv/2996",
+"published_at": "2026-10-06T16:08:09Z",
+"quote": "Трасса Р-280 \"Новороссия\" сегодня подверглась атаке десятков летевших с правого берега Днепра аэростатов, с которых были сброшены не только дроны убийцы \"Hornet-2\", но и ударные FPV-коптеры, оснащенные антеннами системы спутниковой связи \"S"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_0e1eca5a9f418991",
+"from": "ent_c9797c9635450715",
+"to": "ent_b677547c4bb180c5",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://insidegnss.com/advanced-navigation-builds-u-s-pnt-manufacturing-hub-in-huntsville",
+"published_at": "2026-10-06T15:29:00Z",
+"quote": "” The company says it has more than 100,000 systems deployed worldwide and works with the U."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_2622f79609e79d51",
+"from": "ent_9ab08c2213ed942f",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/news_UAV/5805",
+"published_at": "2026-10-06T09:48:24Z",
+"quote": "ПВО за сутки сбила 1750 беспилотников, 17 крылатых ракет «Фламинго», две управляемые авиабомбы и снаряд HIMARS — МО РФ"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_5745de62de7d2eab",
+"from": "ent_54a6fa8993794d9e",
+"to": "ent_9645ce799b9cf1d7",
+"type": "участие в программе",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program",
+"published_at": "2026-10-05T21:51:21Z",
+"quote": "AeroVironment, Epirus, Kord and Boeing were selected for JIATF-401’s pilot program."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_4514d91cd959b221",
+"from": "ent_85a81afee9e48a7e",
+"to": "ent_9645ce799b9cf1d7",
+"type": "участие в программе",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program",
+"published_at": "2026-10-05T21:51:21Z",
+"quote": "AeroVironment, Epirus, Kord and Boeing were selected for JIATF-401’s pilot program."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_28169753c26e3e61",
+"from": "ent_1591ba366fc1731f",
+"to": "ent_9645ce799b9cf1d7",
+"type": "участие в программе",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program",
+"published_at": "2026-10-05T21:51:21Z",
+"quote": "AeroVironment, Epirus, Kord and Boeing were selected for JIATF-401’s pilot program."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_07ff929e90950cff",
+"from": "ent_f604e339566c57c9",
+"to": "ent_50d980ebc1d7c174",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37256",
+"published_at": "2026-10-04T11:41:20Z",
+"quote": "Семейство HYSTRIX включает новые наземные варианты известных корабельных ЗАК производства Leonardo (Oto Melara) - 76-мм/62 Sovraponte, 40-мм Marlin 40 и 30-мм Lionfish 30 (с новой 30-мм автоматической пушкой X-Gun)."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_58fef7162b6e3a35",
+"from": "ent_a9338747cf31985c",
+"to": "ent_605d5251eb35436f",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/europe/2026/10/30/from-tanks-to-space-norway-and-germany-forge-ahead-with-hansa-defense-pact",
+"published_at": "2026-10-30T15:58:31Z",
+"quote": "German Defense Minister Boris Pistorius said the aircraft would operate from Norwegian and Icelandic air bases for this mission, Defense News previously reported ."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_08bf940277b5b290",
+"from": "ent_9ab08c2213ed942f",
+"to": "ent_db376d4d7bc4d9da",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/asia-pacific/2026/10/22/us-army-long-range-fires-make-a-splash-on-the-frontline-with-china",
+"published_at": "2026-10-22T14:55:35Z",
+"quote": "Army HIMARS operated in Japan for the first time in 2021 during an exercise in Hokkaido and were first deployed to Japan’s Southwest Islands, which separate the East China Sea from the wider Pacific, in 2022 for an exercise on an island nor"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_0fe9ef1ce80c95f2",
+"from": "ent_9ab08c2213ed942f",
+"to": "ent_82e26e90a014009e",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/asia-pacific/2026/10/22/us-army-long-range-fires-make-a-splash-on-the-frontline-with-china",
+"published_at": "2026-10-22T14:55:35Z",
+"quote": "Army HIMARS operated in Japan for the first time in 2021 during an exercise in Hokkaido and were first deployed to Japan’s Southwest Islands, which separate the East China Sea from the wider Pacific, in 2022 for an exercise on an island nor"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_fbc9192f8227b5b1",
+"from": "ent_9ab08c2213ed942f",
+"to": "ent_7c6e825e936897ed",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/asia-pacific/2026/10/22/us-army-long-range-fires-make-a-splash-on-the-frontline-with-china",
+"published_at": "2026-10-22T14:55:35Z",
+"quote": "Exercises in 2024 and 2025 saw HIMARS deployed to Palawan, facing the South China Sea, and to the northern coast of Luzon, facing Taiwan."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_dd7568b1f61ec32f",
+"from": "ent_f7a9f659b73e4140",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/europe/2026/11/02/russia-is-giving-its-drones-bigger-antennas-to-beat-ukrainian-jamming",
+"published_at": "2026-11-02T18:00:00Z",
+"quote": "Russian defense firms have ordered more than 100,000 Kometa modules in various configurations this year to guide cruise and ballistic missiles, strike drones and guided bombs, HUR said, a measure of demand for the technology."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_54e8e9795a58f9d8",
+"from": "ent_54a6fa8993794d9e",
+"to": "ent_422593a4ae9bc429",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/mideast-africa/2026/10/16/israel-secures-procurement-of-12-apache-gunships-in-last-minute-maneuver",
+"published_at": "2026-10-16T14:01:24Z",
+"quote": "After missing this original window, concerns arose in Israel that Boeing’s production slot would be routed to other international customers, leading to delivery delays and price increases."
+}
+],
+"sentiment": {
+"score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_c592fa5e2470cf1d",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_7c4278bb1c2365e3",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/europe/2026/10/15/france-to-go-it-alone-on-next-gen-combat-aircraft-after-fcas-collapse",
+"published_at": "2026-10-15T15:30:54Z",
+"quote": "That’s left both countries without a clear successor for their existing fleets of Rafale and Eurofighter jets, respectively, though Germany has started receiving the first F-35 jets ordered in 2022 to replace the Panavia Tornado."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_0ca8ea9c29d9ab20",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_b04e6f182fdcf58b",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/europe/2026/10/15/france-to-go-it-alone-on-next-gen-combat-aircraft-after-fcas-collapse",
+"published_at": "2026-10-15T15:30:54Z",
+"quote": "That’s left both countries without a clear successor for their existing fleets of Rafale and Eurofighter jets, respectively, though Germany has started receiving the first F-35 jets ordered in 2022 to replace the Panavia Tornado."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_0b321d0c78a7110d",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_f1c6d57cb1dda813",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/europe/2026/10/15/france-to-go-it-alone-on-next-gen-combat-aircraft-after-fcas-collapse",
+"published_at": "2026-10-15T15:30:54Z",
+"quote": "That’s left both countries without a clear successor for their existing fleets of Rafale and Eurofighter jets, respectively, though Germany has started receiving the first F-35 jets ordered in 2022 to replace the Panavia Tornado."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_8cfdde7a8b916b5f",
+"from": "ent_ba903dccb0560ddb",
+"to": "ent_ff94773595f94176",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/europe/2026/10/08/france-to-start-training-ukrainian-pilots-on-rafale-warplanes-in-november-minister-says",
+"published_at": "2026-10-08T13:21:08Z",
+"quote": "Ukraine has already operated an older version of the French-Italian SAMP/T air-defense system, which relies on the Aster family of interceptors manufactured by MBDA."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_58b50f553c3eb66b",
+"from": "ent_78f1ace85264a541",
+"to": "ent_f4de600127d3237b",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/europe/2026/10/08/france-to-start-training-ukrainian-pilots-on-rafale-warplanes-in-november-minister-says",
+"published_at": "2026-10-08T13:21:08Z",
+"quote": "Ukraine in November last year signed a letter of intent to buy up to 100 of Rafale jets manufactured by Dassault Aviation, after a similar letter of intent a month earlier between Ukraine and Sweden for the export of up to 150 Gripen jets ,"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e1ce15a61bb4badb",
+"from": "ent_78f1ace85264a541",
+"to": "ent_b04e6f182fdcf58b",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/europe/2026/10/08/france-to-start-training-ukrainian-pilots-on-rafale-warplanes-in-november-minister-says",
+"published_at": "2026-10-08T13:21:08Z",
+"quote": "Ukraine in November last year signed a letter of intent to buy up to 100 of Rafale jets manufactured by Dassault Aviation, after a similar letter of intent a month earlier between Ukraine and Sweden for the export of up to 150 Gripen jets ,"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6d09c2ad185d1bc2",
+"from": "ent_c2652f0e90f42780",
+"to": "ent_f4de600127d3237b",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/europe/2026/10/08/france-to-start-training-ukrainian-pilots-on-rafale-warplanes-in-november-minister-says",
+"published_at": "2026-10-08T13:21:08Z",
+"quote": "Ukraine in November last year signed a letter of intent to buy up to 100 of Rafale jets manufactured by Dassault Aviation, after a similar letter of intent a month earlier between Ukraine and Sweden for the export of up to 150 Gripen jets ,"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_d739c7c2bb98e947",
+"from": "ent_c2652f0e90f42780",
+"to": "ent_b04e6f182fdcf58b",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/europe/2026/10/08/france-to-start-training-ukrainian-pilots-on-rafale-warplanes-in-november-minister-says",
+"published_at": "2026-10-08T13:21:08Z",
+"quote": "Ukraine in November last year signed a letter of intent to buy up to 100 of Rafale jets manufactured by Dassault Aviation, after a similar letter of intent a month earlier between Ukraine and Sweden for the export of up to 150 Gripen jets ,"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_10a7ef01ddbc40bb",
+"from": "ent_b04e6f182fdcf58b",
+"to": "ent_9fd39938cc6ffa53",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/europe/2026/10/08/france-to-start-training-ukrainian-pilots-on-rafale-warplanes-in-november-minister-says",
+"published_at": "2026-10-08T13:21:08Z",
+"quote": "The aircraft also features a high-end electronic warfare suite and a radar from Thales, both of which were upgraded as part of the Rafale’s F4."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_41224ce25e081afd",
+"from": "ent_9ce65ce8449042d4",
+"to": "ent_f11f0b51e9b8bad0",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/asia-pacific/2026/10/07/embraer-lockheed-martin-vie-for-indias-105b-military-transport-aircraft-deal",
+"published_at": "2026-10-07T12:35:37Z",
+"quote": "“Identifying Nagpur as a potential location for an assembly facility is an important step in building a robust, long-term aerospace ecosystem in the country,” said Bosco da Costa Junior, president and CEO of Embraer Defense & Security, in a"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_ae949f90a9e26e7c",
+"from": "ent_9ce65ce8449042d4",
+"to": "ent_05c339482b89ad61",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/asia-pacific/2026/10/07/embraer-lockheed-martin-vie-for-indias-105b-military-transport-aircraft-deal",
+"published_at": "2026-10-07T12:35:37Z",
+"quote": "“Identifying Nagpur as a potential location for an assembly facility is an important step in building a robust, long-term aerospace ecosystem in the country,” said Bosco da Costa Junior, president and CEO of Embraer Defense & Security, in a"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_acc1e2cfa0bda4bc",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_b677547c4bb180c5",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/air/2026/10/05/us-removes-b-1-bombers-from-uk-base-amid-security-concerns",
+"published_at": "2026-10-05T07:40:09Z",
+"quote": "“While operational security precluded us from confirming the movement of our assets and forces in real-time, we can acknowledge now that all US bombers that were deployed to RAF Fairford have re-deployed to their home stations in the United"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_996b2b4ab8ff4ac5",
+"from": "ent_db376d4d7bc4d9da",
+"to": "ent_ff878af017a8077e",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/asia-pacific/2026/10/02/taiwans-first-two-f-16v-fighter-jets-arrive-to-bolster-defenses-against-china",
+"published_at": "2026-10-02T14:15:53Z",
+"quote": "TAITUNG, Taiwan — The first two of a batch of 66 new F-16V Block 70 fighter jets ordered in 2019 arrived in Taiwan on Friday after months of delays, helping to strengthen an air force that has to scramble almost daily to shadow China’s mili"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_5832e273e6c238ea",
+"from": "ent_4cd59525919863d6",
+"to": "ent_b0bba4c8f275ffd0",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://c4isrnet.com/battlefield-tech/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says",
+"published_at": "2026-10-14T22:06:56Z",
+"quote": "Defense Secretary Pete Hegseth addressed AUSA attendees at the Project Agincourt panel on Wednesday, sharing that the Pentagon is requesting roughly $50 billion in reconciliation funding to support the push to scale autonomous and robotic s"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_57875b03af0a9383",
+"from": "ent_b13f51a44caf63cf",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://c4isrnet.com/battlefield-tech/c2-comms-battlefield-tech/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software",
+"published_at": "2026-09-25T15:34:42Z",
+"quote": "NATO is increasingly turning to AI to harness growing amounts of data in command and control, and already operates a C2 system supplied by United States-based Palantir Technologies."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_2e45d6a99b45d063",
+"from": "ent_b13f51a44caf63cf",
+"to": "ent_b677547c4bb180c5",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://c4isrnet.com/battlefield-tech/c2-comms-battlefield-tech/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software",
+"published_at": "2026-09-25T15:34:42Z",
+"quote": "NATO is increasingly turning to AI to harness growing amounts of data in command and control, and already operates a C2 system supplied by United States-based Palantir Technologies."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_a9470c9a4c908969",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_b677547c4bb180c5",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://c4isrnet.com/battlefield-tech/c2-comms-battlefield-tech/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software",
+"published_at": "2026-09-25T15:34:42Z",
+"quote": "NATO is increasingly turning to AI to harness growing amounts of data in command and control, and already operates a C2 system supplied by United States-based Palantir Technologies."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_f0ee545a86cfce3c",
+"from": "ent_89f73c39ec19ab56",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://c4isrnet.com/battlefield-tech/c2-comms-battlefield-tech/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software",
+"published_at": "2026-09-25T15:34:42Z",
+"quote": "NATO is increasingly turning to AI to harness growing amounts of data in command and control, and already operates a C2 system supplied by United States-based Palantir Technologies."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_2e27214f3e01052e",
+"from": "ent_89f73c39ec19ab56",
+"to": "ent_b677547c4bb180c5",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://c4isrnet.com/battlefield-tech/c2-comms-battlefield-tech/2026/09/25/thales-in-quite-advanced-talks-with-nato-countries-on-ai-powered-command-software",
+"published_at": "2026-09-25T15:34:42Z",
+"quote": "NATO is increasingly turning to AI to harness growing amounts of data in command and control, and already operates a C2 system supplied by United States-based Palantir Technologies."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e5b8ca69304fda9a",
+"from": "ent_bee68a0dc32f2e86",
+"to": "ent_cc536968c15118bb",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://breakingdefense.com/2026/10/lockheed-unveils-pac-3-edge-its-next-gen-patriot-interceptor",
+"published_at": "2026-10-09T19:45:39Z",
+"quote": "The aerospace giant intends to invest hundreds of millions of dollars of its own cash in the missile alone, alongside additional investments in its seeker and solid rocket motor, said Tim Cahill, president of Lockheed’s missiles and fire co"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_f9d262e55cd0b860",
+"from": "ent_cc536968c15118bb",
+"to": "ent_801f9ef8848ff36b",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airforce-technology.com/news/south-korea-sikorsky-s-92a",
+"published_at": "2026-11-09T18:06:23Z",
+"quote": "Sikorsky, a subsidiary of Lockheed Martin, has been awarded a contract to supply its S-92A+ helicopter to the Republic of Korea Air Force (ROKAF) for the country’s next presidential helicopter."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_4b0f45150150e493",
+"from": "ent_78f1ace85264a541",
+"to": "ent_f4de600127d3237b",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airforce-technology.com/news/saab-ai-agent-gripen",
+"published_at": "2026-11-04T13:44:07Z",
+"quote": "Saab tests in-house AI agent in Gripen E beyond-visual-range trials"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_30f51d54e37b8b79",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_4d2702e77a4f7633",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/royal-navy-yfq-48a-aircraft-carrier-2027",
+"published_at": "2026-11-10T22:42:39Z",
+"quote": "The Royal Navy plans to demonstrate Northrop Grumman’s YFQ-48A Talon Blue CCA from a Queen Elizabeth-class aircraft carrier in 2027, as part of efforts to develop a future Hybrid Air Wing combining crewed and uncrewed aircraft."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c0c53349f4a5cc9f",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_738c8c3531b1cf2f",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/royal-navy-yfq-48a-aircraft-carrier-2027",
+"published_at": "2026-11-10T22:42:39Z",
+"quote": "The Royal Navy plans to demonstrate Northrop Grumman’s YFQ-48A Talon Blue CCA from a Queen Elizabeth-class aircraft carrier in 2027, as part of efforts to develop a future Hybrid Air Wing combining crewed and uncrewed aircraft."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_32589abe721cc35d",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_4d2702e77a4f7633",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/royal-navy-yfq-48a-aircraft-carrier-2027",
+"published_at": "2026-11-10T22:42:39Z",
+"quote": "Northrop Grumman initially defined the YFQ-48A as a new autonomous aircraft demonstrator built to validate faster and more affordable manufacturing methods for large uncrewed platforms."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6ec12abde86a9c0f",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_738c8c3531b1cf2f",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/royal-navy-yfq-48a-aircraft-carrier-2027",
+"published_at": "2026-11-10T22:42:39Z",
+"quote": "Northrop Grumman initially defined the YFQ-48A as a new autonomous aircraft demonstrator built to validate faster and more affordable manufacturing methods for large uncrewed platforms."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_3d12f6183620f8b4",
+"from": "ent_ebcab0b315957eba",
+"to": "ent_868a15ba4aeb446a",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/royal-navy-yfq-48a-aircraft-carrier-2027",
+"published_at": "2026-11-10T22:42:39Z",
+"quote": "| Source: Northrop Grumman Talon aimed to find the right balance between capability and cost, with Tom Jones, president of Northrop’s aeronautics systems division, saying the result was a design that is both cheaper and more capable."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_be705171de6f4ebe",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_7c4278bb1c2365e3",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/pentagon-cannot-account-f-35-spare-parts",
+"published_at": "2026-11-10T19:40:01Z",
+"quote": "Pentagon cannot reconcile F-35 inventory records One of the most significant problems identified by GAO is the lack of effective reconciliation between the different inventories and property management systems used throughout the F-35 suppl"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_4399960c00385062",
+"from": "ent_7c4278bb1c2365e3",
+"to": "ent_d380c846b4a97fed",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/raf-mildenhall-security-threat-dispersal",
+"published_at": "2026-11-10T15:30:54Z",
+"quote": "While aircraft were not dispersed from the latter base, its status as a fighter base means its F-15E Strike Eagles and F-35A Lightning IIs are able to be secured in hardened aircraft shelters (HAS) to protect them from external threats."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_8d8217d77dacceda",
+"from": "ent_7b38de8388191703",
+"to": "ent_fb9d115f2c2a9a7b",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/raf-mildenhall-security-threat-dispersal",
+"published_at": "2026-11-10T15:30:54Z",
+"quote": "UK Defence Minister Luke Pollard was questioned on Nov."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_2c82f00c5d505d5d",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_4018d1bb0230fed7",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/spanish-nh90-helicopters-alpha-scramble",
+"published_at": "2026-11-10T12:39:13Z",
+"quote": "Two NH90 helicopters were launched after unidentified drones were detected near Romania’s Black Sea coast, marking the first Alpha Scramble of a Spanish helicopter deployed on a NATO mission."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_8156ccf7770509b2",
+"from": "ent_56505b04b5dc45c0",
+"to": "ent_4018d1bb0230fed7",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/spanish-nh90-helicopters-alpha-scramble",
+"published_at": "2026-11-10T12:39:13Z",
+"quote": "Two NH90 helicopters were launched after unidentified drones were detected near Romania’s Black Sea coast, marking the first Alpha Scramble of a Spanish helicopter deployed on a NATO mission."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_3d59c23566b02fa7",
+"from": "ent_56505b04b5dc45c0",
+"to": "ent_d54ac6fc23eb6450",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/spanish-nh90-helicopters-alpha-scramble",
+"published_at": "2026-11-10T12:39:13Z",
+"quote": "Two NH90 helicopters were launched after unidentified drones were detected near Romania’s Black Sea coast, marking the first Alpha Scramble of a Spanish helicopter deployed on a NATO mission."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_68cf088339964aad",
+"from": "ent_aed9ee059cd9e411",
+"to": "ent_4018d1bb0230fed7",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/spanish-nh90-helicopters-alpha-scramble",
+"published_at": "2026-11-10T12:39:13Z",
+"quote": "Two Spanish NH90 helicopters deployed to Romania have conducted their first Alpha Scramble after unidentified drones were detected on the Black Sea coast."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_2d0f282336ce3083",
+"from": "ent_aed9ee059cd9e411",
+"to": "ent_d54ac6fc23eb6450",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/spanish-nh90-helicopters-alpha-scramble",
+"published_at": "2026-11-10T12:39:13Z",
+"quote": "Two Spanish NH90 helicopters deployed to Romania have conducted their first Alpha Scramble after unidentified drones were detected on the Black Sea coast."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c398481b6cf6fbcd",
+"from": "ent_23f093973266b0cb",
+"to": "ent_4018d1bb0230fed7",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/spanish-nh90-helicopters-alpha-scramble",
+"published_at": "2026-11-10T12:39:13Z",
+"quote": "Two Spanish NH90 helicopters deployed to Romania have conducted their first Alpha Scramble after unidentified drones were detected on the Black Sea coast."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_dc9d76b1363ca1ff",
+"from": "ent_23f093973266b0cb",
+"to": "ent_d54ac6fc23eb6450",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/spanish-nh90-helicopters-alpha-scramble",
+"published_at": "2026-11-10T12:39:13Z",
+"quote": "Two Spanish NH90 helicopters deployed to Romania have conducted their first Alpha Scramble after unidentified drones were detected on the Black Sea coast."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_46fb8b79a85ba5d9",
+"from": "ent_aed9ee059cd9e411",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/spanish-nh90-helicopters-alpha-scramble",
+"published_at": "2026-11-10T12:39:13Z",
+"quote": "Expanding the air-defense response against drones The Spanish NH90s are part of the DAT ‘Paznic’, deployed at Mihail Kogălniceanu Air Base as part of NATO’s IAMD (Integrated Air and Missile Defense) ‘Persistent Effort’ operation."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_7d038f02ecc39882",
+"from": "ent_3290561e0f7275d2",
+"to": "ent_d54ac6fc23eb6450",
+"type": "дислокация",
+"event_date": "2026-11-06",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/spanish-nh90-helicopters-alpha-scramble",
+"published_at": "2026-11-10T12:39:13Z",
+"quote": "#MOPS @EjercitoAire @NATO_AIRCOM — Estado Mayor Defensa (@EMADmde) November 6, 2026 The deployment reportedly includes three NH90 helicopters from Ala 48 and seven F-18M fighters from Ala 12, alongside approximately 200 personnel, according"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_77ca9a43fbc607ae",
+"from": "ent_deaac9fcee3048ac",
+"to": "ent_d54ac6fc23eb6450",
+"type": "дислокация",
+"event_date": "2026-11-06",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/10/spanish-nh90-helicopters-alpha-scramble",
+"published_at": "2026-11-10T12:39:13Z",
+"quote": "#MOPS @EjercitoAire @NATO_AIRCOM — Estado Mayor Defensa (@EMADmde) November 6, 2026 The deployment reportedly includes three NH90 helicopters from Ala 48 and seven F-18M fighters from Ala 12, alongside approximately 200 personnel, according"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_71dd8c8e195ee4c5",
+"from": "ent_108f5c34b430d90e",
+"to": "ent_f1c6d57cb1dda813",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/08/a320-atra-flying-eurofighters-aesa-radar",
+"published_at": "2026-11-08T18:31:49Z",
+"quote": "The Airbus A320 ATRA (Advanced Technology Research Aircraft), the specialized testbed aircraft of the German Aerospace Center (DLR), has now completed the commissioning flights following the modifications for the testing of the Eurofighter "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_111e8b65102cf1f8",
+"from": "ent_74b3517409331665",
+"to": "ent_f1c6d57cb1dda813",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/08/a320-atra-flying-eurofighters-aesa-radar",
+"published_at": "2026-11-08T18:31:49Z",
+"quote": "The Airbus A320 ATRA (Advanced Technology Research Aircraft), the specialized testbed aircraft of the German Aerospace Center (DLR), has now completed the commissioning flights following the modifications for the testing of the Eurofighter "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e4282411dfd3ab52",
+"from": "ent_108f5c34b430d90e",
+"to": "ent_f1c6d57cb1dda813",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/08/a320-atra-flying-eurofighters-aesa-radar",
+"published_at": "2026-11-08T18:31:49Z",
+"quote": "The modifications and the test campaign for the new radar are part of a collaborative project between Airbus – manufacturer for both the A320 and Eurofighter, as well as Germany’s Hensoldt and Spain’s Indra – the ECRS Mk1’s developers."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_7fdc1e7f92c58ea3",
+"from": "ent_277be6952eb68e35",
+"to": "ent_f1c6d57cb1dda813",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/08/a320-atra-flying-eurofighters-aesa-radar",
+"published_at": "2026-11-08T18:31:49Z",
+"quote": "The modifications and the test campaign for the new radar are part of a collaborative project between Airbus – manufacturer for both the A320 and Eurofighter, as well as Germany’s Hensoldt and Spain’s Indra – the ECRS Mk1’s developers."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_ea2b0d4b98209c1c",
+"from": "ent_925166431228d2a6",
+"to": "ent_f1c6d57cb1dda813",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/08/a320-atra-flying-eurofighters-aesa-radar",
+"published_at": "2026-11-08T18:31:49Z",
+"quote": "The modifications and the test campaign for the new radar are part of a collaborative project between Airbus – manufacturer for both the A320 and Eurofighter, as well as Germany’s Hensoldt and Spain’s Indra – the ECRS Mk1’s developers."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6d4353c02d49247d",
+"from": "ent_e075b2ff37cd5b37",
+"to": "ent_38cf7e2ce6a6cd67",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/08/a320-atra-flying-eurofighters-aesa-radar",
+"published_at": "2026-11-08T18:31:49Z",
+"quote": "The latter will be tested on an Avro RJ100 being modified by BAE Systems and QinetiQ as a testbed."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_533f41631255419a",
+"from": "ent_ab6c9ed1fd8e07a2",
+"to": "ent_38cf7e2ce6a6cd67",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/08/a320-atra-flying-eurofighters-aesa-radar",
+"published_at": "2026-11-08T18:31:49Z",
+"quote": "The latter will be tested on an Avro RJ100 being modified by BAE Systems and QinetiQ as a testbed."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_a0e64b66209f8681",
+"from": "ent_a14014758edbb408",
+"to": "ent_b6c4057bd37b0f4e",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/06/hms-qnlz-new-drone-trials",
+"published_at": "2026-11-06T00:13:55Z",
+"quote": "HMS Queen Elizabeth Hosts Tekever AR5 and Nyan Strike Drones During New Trials"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_d375a991e5cabd83",
+"from": "ent_1be203cf24951317",
+"to": "ent_e075b2ff37cd5b37",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/06/hms-qnlz-new-drone-trials",
+"published_at": "2026-11-06T00:13:55Z",
+"quote": "Callen-Lenz CEO Matt Foster said previously that over 1,000 units have been produced, and the drone has been fielded for land-based trials by British Army units in Estonia."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_fd1f36fca1c26f7e",
+"from": "ent_3c1fdde0dfd3b7d5",
+"to": "ent_a14014758edbb408",
+"type": "принадлежность",
+"event_date": "2026-05-29",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/06/hms-qnlz-new-drone-trials",
+"published_at": "2026-11-06T00:13:55Z",
+"quote": "co/fOL75xG4MI — BFBS Forces News (@ForcesNews) May 29, 2026 A much larger drone, with a wingspan of just over 7 metres and a payload of 80 kilograms, came in the form of Tekever’s AR5 platform, which landed aboard the Queen Elizabeth as par"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_fe561bd9b4a48107",
+"from": "ent_7c4278bb1c2365e3",
+"to": "ent_ba903dccb0560ddb",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/05/f-35b-releases-meteor-bvraam-for-the-first-time",
+"published_at": "2026-11-05T21:05:30Z",
+"quote": "An F-35B Short Take-Off Vertical Landing (STOVL) fighter jettisoned an MBDA Meteor Beyond Visual-Range Air-to-Air Missile (BVRAAM) for the first time from its internal weapons bay (IWB) as part of the ongoing campaign to integrate the weapo"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_43f0e18a33e56656",
+"from": "ent_051c4db3657cb264",
+"to": "ent_c5fb944e75dde336",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://armadainternational.com/2026/11/elt-group-showcases-naval-ew-and-counter-drone-systems-at-euronaval",
+"published_at": "2026-11-05T04:10:13Z",
+"quote": "At Euronaval there will be also EMSO C2, the command and control system developed by ELT Group for the planning, coordination and management of electromagnetic spectrum operations."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_0233405056e554d2",
+"from": "ent_ed78412afb1afa65",
+"to": "ent_2a8c6aa1b2cdb6ad",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://armadainternational.com/2026/11/wescom-defence-answers-surging-demand-with-a-tenfold-increase-in-production-for-its-portable-obstacle-minefield-breaching-system",
+"published_at": "2026-11-04T04:25:04Z",
+"quote": "As part of the Wescom Group, Wescom Defence draws on over a century of technical expertise and customer trust in the design, manufacture and delivery of innovative, field proven solutions that meet mission-critical requirements worldwide."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_fc86cfb204f8c1fa",
+"from": "ent_ed78412afb1afa65",
+"to": "ent_4d325a4683a443c7",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://armadainternational.com/2026/11/wescom-defence-answers-surging-demand-with-a-tenfold-increase-in-production-for-its-portable-obstacle-minefield-breaching-system",
+"published_at": "2026-11-04T04:25:04Z",
+"quote": "David Griffiths, VP Defence Sales from Wescom Defence said , “The team at Wescom Defence, which includes in-house design, industrial engineering and manufacturing capability, is proud to have expanded our POMBS manufacturing in such short o"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_f53faa6c92575d57",
+"from": "ent_9fd39938cc6ffa53",
+"to": "ent_da0d7dadc1576b31",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/thales-joins-forces-with-kongsberg-maritime-to-support-the-royal-navys-future-type-92-anti-submarine-uncrewed-surface-vessel",
+"published_at": "2026-11-10T16:08:25Z",
+"quote": "Thales is a key enabler of this transformation, bringing decades of expertise in underwater warfare, advanced sonar technology as used on the Royal Navy T23 and T26 frigates, acoustic modelling, tactical planning and secure military communi"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_ad19352f3d4ca3a3",
+"from": "ent_a7f8e444d27bbdbb",
+"to": "ent_9fd39938cc6ffa53",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/thales-joins-forces-with-kongsberg-maritime-to-support-the-royal-navys-future-type-92-anti-submarine-uncrewed-surface-vessel",
+"published_at": "2026-11-10T16:08:25Z",
+"quote": "” ​ Phil Siveter, CEO of Thales UK photo courtesy Thales The post Thales joins forces with Kongsberg Maritime to support the Royal Navy’s future Type 92 anti-submarine Uncrewed Surface Vessel appeared first on EDR Magazine ."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e34d267e30391d18",
+"from": "ent_a7f8e444d27bbdbb",
+"to": "ent_82e7db2d9eb367cd",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/thales-joins-forces-with-kongsberg-maritime-to-support-the-royal-navys-future-type-92-anti-submarine-uncrewed-surface-vessel",
+"published_at": "2026-11-10T16:08:25Z",
+"quote": "” ​ Phil Siveter, CEO of Thales UK photo courtesy Thales The post Thales joins forces with Kongsberg Maritime to support the Royal Navy’s future Type 92 anti-submarine Uncrewed Surface Vessel appeared first on EDR Magazine ."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c88c893a8322cd3b",
+"from": "ent_f604e339566c57c9",
+"to": "ent_99ad76ad21b22a69",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/leonardo-drs-awarded-navair-contract-to-produce-daircm-aircraft-survivability-system",
+"published_at": "2026-11-10T14:29:08Z",
+"quote": "10, 2026 — Naval Air Systems Command (NAVAIR) has awarded Leonardo DRS a three-year indefinite-delivery/indefinite-quantity (IDIQ) contract for low-rate initial production of the AN/AAQ-45 Distributed Aperture Infrared Countermeasure, or DA"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_ad5c1ef03fd56966",
+"from": "ent_fdb12afd6862685b",
+"to": "ent_f604e339566c57c9",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/leonardo-drs-awarded-navair-contract-to-produce-daircm-aircraft-survivability-system",
+"published_at": "2026-11-10T14:29:08Z",
+"quote": "“This award moves the DRS DAIRCM System into low-rate initial production and expands our ability to provide critical integrated aircraft survivability capabilities to our military customers,” said John Baylouny, president and chief executiv"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_4c5a9745e80a306a",
+"from": "ent_286ac1a705054b05",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/thales-will-deliver-gm200-mm-c-radars-to-strengthen-belgiums-blue-dome-with-a-mobile-networked-air-surveillance-and-target-tracking-capability",
+"published_at": "2026-11-10T13:21:51Z",
+"quote": "By leveraging our proven radar technology alongside Kongsberg’s command-and-control and Raytheon’s missile systems, we are delivering a fully networked, sensor-to-shooter solution that enhances interoperability across NATO and the Benelux r"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_5442a44aabbaa41a",
+"from": "ent_82e7db2d9eb367cd",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/thales-will-deliver-gm200-mm-c-radars-to-strengthen-belgiums-blue-dome-with-a-mobile-networked-air-surveillance-and-target-tracking-capability",
+"published_at": "2026-11-10T13:21:51Z",
+"quote": "By leveraging our proven radar technology alongside Kongsberg’s command-and-control and Raytheon’s missile systems, we are delivering a fully networked, sensor-to-shooter solution that enhances interoperability across NATO and the Benelux r"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_153cdabf22268070",
+"from": "ent_bd54f42da1be402d",
+"to": "ent_b95ee33d44688068",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/valkyrie-dynamics-raises-e1m-for-a-miniature-radar-seeker-that-lets-interceptor-drones-hunt-in-any-weather",
+"published_at": "2026-11-10T13:15:53Z",
+"quote": "Marcin Kovalevskij, founder and CEO of Valkyrie Dynamics, said: “Our mission is to make mass-scale air defence more affordable and expendable."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_2ef9f709fbde7513",
+"from": "ent_9c8e52cacc07b5f5",
+"to": "ent_82e7db2d9eb367cd",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/kongsberg-maritime-launches-arctic-hunter-usv-for-the-hybrid-navy",
+"published_at": "2026-11-09T10:25:22Z",
+"quote": "Speaking ahead of this week’s Atlantic Future Forum conference in Oslo, Lisa Edvardsen Haugan, CEO of Kongsberg Maritime, said: “Atlantic security is an absolute priority, and we believe that the Arctic Hunter USV offers a robust and practi"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c349e32367bbc55c",
+"from": "ent_93c906036b425323",
+"to": "ent_c8a266f33022e0cf",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://euro-sd.com/2026/11/news/exclusive-news/54649/uc-12w-aircraft",
+"published_at": "2026-11-12T06:00:34Z",
+"quote": "The Naval Air Systems Command has awarded Textron Aviation a firm-fixed-price contract for one Beechcraft King Air 360CER aircraft, designated …"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_0779def97fd0286d",
+"from": "ent_d8a707bdf6697026",
+"to": "ent_14a58a29fdf21fd9",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/12/nasa-unveils-x-70-fractal-test-aircraft",
+"published_at": "2026-11-12T15:00:38Z",
+"quote": "The post NASA Unveils X-70 Fractal Test Aircraft appeared first on Overt Defense ."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_b6bcf0163a3b692f",
+"from": "ent_e2a37e75ca682199",
+"to": "ent_c4d02534cbe847ba",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/12/ukraine-says-starshield-drone-speed-limits-have-returned",
+"published_at": "2026-11-12T14:00:03Z",
+"quote": "Ukrainian President Volodmyr Zelensky says that SpaceX’s Starlink satellite communications service has once again imposed speed limitations on Ukrainian drones controlled through the Starshield military grade version of the service, nearly "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_5a751f9632a2d8aa",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_c4d02534cbe847ba",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/12/ukraine-says-starshield-drone-speed-limits-have-returned",
+"published_at": "2026-11-12T14:00:03Z",
+"quote": "After the end of the October disruption, SpaceX CEO Elon Musk accused Ukraine of having “violated Starlink terms of service” by using civilian Starlink terminals in drones, but insisted that the Starshield disruption had been ordered by the"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_b40d461d40c5336b",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_14d1757585b55c53",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/12/ukraine-says-starshield-drone-speed-limits-have-returned",
+"published_at": "2026-11-12T14:00:03Z",
+"quote": "After the end of the October disruption, SpaceX CEO Elon Musk accused Ukraine of having “violated Starlink terms of service” by using civilian Starlink terminals in drones, but insisted that the Starshield disruption had been ordered by the"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_15247bb499615898",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_ea737724a72411d4",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/12/ukraine-says-starshield-drone-speed-limits-have-returned",
+"published_at": "2026-11-12T14:00:03Z",
+"quote": "After the end of the October disruption, SpaceX CEO Elon Musk accused Ukraine of having “violated Starlink terms of service” by using civilian Starlink terminals in drones, but insisted that the Starshield disruption had been ordered by the"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_6616e69bcf13a620",
+"from": "ent_c4d02534cbe847ba",
+"to": "ent_14d1757585b55c53",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/12/ukraine-says-starshield-drone-speed-limits-have-returned",
+"published_at": "2026-11-12T14:00:03Z",
+"quote": "After the end of the October disruption, SpaceX CEO Elon Musk accused Ukraine of having “violated Starlink terms of service” by using civilian Starlink terminals in drones, but insisted that the Starshield disruption had been ordered by the"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_ff714d058751cb54",
+"from": "ent_c4d02534cbe847ba",
+"to": "ent_ea737724a72411d4",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/12/ukraine-says-starshield-drone-speed-limits-have-returned",
+"published_at": "2026-11-12T14:00:03Z",
+"quote": "After the end of the October disruption, SpaceX CEO Elon Musk accused Ukraine of having “violated Starlink terms of service” by using civilian Starlink terminals in drones, but insisted that the Starshield disruption had been ordered by the"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_6c82ffd0f2ba9b8f",
+"from": "ent_9fd39938cc6ffa53",
+"to": "ent_9e51a7ee6340af7b",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/10/lithuania-receives-its-forst-thales-gm200-mm-c-multifunction-radar",
+"published_at": "2026-11-10T15:00:54Z",
+"quote": "Lithuania has reinforced its air surveillance and counter-battery capabilities with the first delivery of a Thales GM200 MM/C radar system."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_2b1ca37bf7c6be71",
+"from": "ent_bb61c71b116ec9e3",
+"to": "ent_f11f0b51e9b8bad0",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/10/greece-officially-signs-contract-for-three-kc-390-milleniums",
+"published_at": "2026-11-10T13:00:52Z",
+"quote": "The KC-390’s proven performance, reliability, and cost efficiency make it an ideal choice for nations seeking to enhance their operational capabilities,” said Bosco Da Costa Junior, President & CEO of Embraer Defense & Security."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6694ddc609e1f583",
+"from": "ent_bb61c71b116ec9e3",
+"to": "ent_05c339482b89ad61",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/10/greece-officially-signs-contract-for-three-kc-390-milleniums",
+"published_at": "2026-11-10T13:00:52Z",
+"quote": "The KC-390’s proven performance, reliability, and cost efficiency make it an ideal choice for nations seeking to enhance their operational capabilities,” said Bosco Da Costa Junior, President & CEO of Embraer Defense & Security."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_1d2285e59d8deb0d",
+"from": "ent_a02f859093a4e63a",
+"to": "ent_509e3673755fcfc9",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-ua.com/news/rozviduvalni_gor_razom_z_udarnimi_black_betty_ta_ram_2x_fond_sergija_prituli_peredav_sbu_droniv_na_989_mln_grn-24727.html",
+"published_at": "2026-11-12T12:58:52Z",
+"quote": "Розвідувальні GOR разом з ударними Black Betty та RAM-2X - фонд Сергія Притули передав СБУ дронів на 98,9 млн грн"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_0adaa5890cc9097b",
+"from": "ent_76aae9f116d88191",
+"to": "ent_86a408b5b14fa5a6",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5013032.html",
+"published_at": "2026-11-01T19:41:00Z",
+"quote": "Уведомление о планируемой поставке Украине 500 зенитных управляемых ракет PAC-3 MSE"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_b51a0ea56f23c443",
+"from": "ent_76aae9f116d88191",
+"to": "ent_86a408b5b14fa5a6",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5013032.html",
+"published_at": "2026-11-01T19:41:00Z",
+"quote": "gov/releases/bureau-of-political-military-affairs/2026/10/ukraine-patriot-advanced-capability-3-pac-3-missiles/\" target=\"_blank\">уведомление</a> о планируемой предстоящей продаже Украине по линии американской программы межправительственных "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_d1511f549e2fec5f",
+"from": "ent_76aae9f116d88191",
+"to": "ent_1b0aa19df5f246b7",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5013032.html",
+"published_at": "2026-11-01T19:41:00Z",
+"quote": "gov/releases/bureau-of-political-military-affairs/2026/10/ukraine-patriot-advanced-capability-3-pac-3-missiles/\" target=\"_blank\">уведомление</a> о планируемой предстоящей продаже Украине по линии американской программы межправительственных "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6ee4d44038239018",
+"from": "ent_35f01fe90c7f67fb",
+"to": "ent_8e45e902f6b5a4df",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5012800.html",
+"published_at": "2026-10-28T23:36:33Z",
+"quote": "С эфиопской стороны в церемонии участвовал премьер-министр Эфиопии Абый Ахмед с супругой, и главнокомандующий ВВС Эфиопии генерал-лейтенант Йильма Мэрдасса, а с российской – генеральный директор АО «Рособоронэкспорт» Александр Михеев."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_7b207220859c5518",
+"from": "ent_42945ce6b8f796c3",
+"to": "ent_0cd95a38dd7f8f40",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5012800.html",
+"published_at": "2026-10-28T23:36:33Z",
+"quote": "В дальнейшем сообщалось, что все (или большая часть) изготовленных для Египта Су-35 были проданы Ирану, однако до настоящего времени Иран так и не получил ни одной машины, что оставляет вопрос о судьбе «египетских» самолетов в неопределенно"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_ae4223be85bcc808",
+"from": "ent_e22696aa321965c2",
+"to": "ent_3fbad649a9f64883",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5012800.html",
+"published_at": "2026-10-28T23:36:33Z",
+"quote": "Напомним, что рамочный контракт стоимостью около 2,5 млрд долл на поставку Турции двух полковых комплектов (по два дивизиона в каждом) ЗРС С-400 производства АО «Концерн ВКО «Алмаз-Антей» был <a href=\"https://bmpd."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_6ec6a8a5e30a4937",
+"from": "ent_82d695889d3fa2fa",
+"to": "ent_59965f590d8fcc04",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5012123.html",
+"published_at": "2026-10-09T22:00:27Z",
+"quote": "ВКС России поставлена вторая в 2026 году партия фронтовых бомбардировщиков Су-34"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_71810bfb904f7bed",
+"from": "ent_72167ac7999f6b9e",
+"to": "ent_59965f590d8fcc04",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5012123.html",
+"published_at": "2026-10-09T22:00:27Z",
+"quote": "ru/ru/press-center/news/oak-peredala-minoborony-rossii-partiyu-istrebiteley-bombardirovshchikov-su-34\" target=\"_blank\">сообщило,</a> что в рамках гособоронзаказа изготовило и передало Министерству обороны Российской Федерации партию истреби"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_21a6e30fa81f7d43",
+"from": "ent_82d695889d3fa2fa",
+"to": "ent_59965f590d8fcc04",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5012123.html",
+"published_at": "2026-10-09T22:00:27Z",
+"quote": "<br /><br />По имеющимся данным, к началу 2026 года общее количество построенных для ВКС России бомбардировщиков Су-34 составило 212 единиц, включая семь опытных и предсерийных самолетов, в том числе в 2024 году было поставлено 16 серийных "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_5b28232512d3bf9b",
+"from": "ent_7c6e825e936897ed",
+"to": "ent_ff878af017a8077e",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5011646.html",
+"published_at": "2026-10-06T20:09:50Z",
+"quote": "Тайвань получил первые истребители F-16 Block 70 новой постройки"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_3ed88be8f234a122",
+"from": "ent_cc536968c15118bb",
+"to": "ent_ff878af017a8077e",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5011646.html",
+"published_at": "2026-10-06T20:09:50Z",
+"quote": "UserKey=1c6bd053-3451-40cb-9807-0a4e47512fd0\" target=\"_blank\">прибыли</a> из США первые два истребителя Lockheed Martin F-16C (F-16V) Block 70 Viper новой постройки, из 66 единиц, заказанных Тайванем по соглашению 2020 года."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_bc81935c678068dd",
+"from": "ent_cc536968c15118bb",
+"to": "ent_ff878af017a8077e",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5011646.html",
+"published_at": "2026-10-06T20:09:50Z",
+"quote": "jpg\" width=\"800\" fetchpriority=\"high\" /></a><br /><br /><i>Один из двух первых полученных ВВС Тайваня истребителей Lockheed Martin F-16C (F-16V) Block 70 Viper новой постройки (бортовой номер \"6728\", серийный номер VN-08, номер ВВС США 21-1"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_74e4afa3793d95c2",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_ff878af017a8077e",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5011646.html",
+"published_at": "2026-10-06T20:09:50Z",
+"quote": "jpg\" width=\"800\" fetchpriority=\"high\" /></a><br /><br /><i>Один из двух первых полученных ВВС Тайваня истребителей Lockheed Martin F-16C (F-16V) Block 70 Viper новой постройки (бортовой номер \"6728\", серийный номер VN-08, номер ВВС США 21-1"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_f389597ec91d12af",
+"from": "ent_cc536968c15118bb",
+"to": "ent_ff878af017a8077e",
+"type": "поставка",
+"event_date": "2025-03-28",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5011646.html",
+"published_at": "2026-10-06T20:09:50Z",
+"quote": "<br /><br />Первоначально планировалось начало поставок Тайваню истребителей F-16C/D (F-16V) Block 70 по этому соглашению в 2023 году, однако политические и финансовые проблемы с обеих сторон, а также затянувшийся процесс переноса производс"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_1fb67f874f935ac1",
+"from": "ent_cc536968c15118bb",
+"to": "ent_3a4f8a243d6bec16",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5011646.html",
+"published_at": "2026-10-06T20:09:50Z",
+"quote": "По контракту 2016 года стоимостью 3,8 млрд долл США с Lockheed Martin министерство национальной обороны Китайской Республики (Тайваня) осуществило программу модернизации 140 наличных истребителей F-16A/B Block 20 ВВС Тайваня до уровня F-16V"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_f758330f0c7f690d",
+"from": "ent_3a4f8a243d6bec16",
+"to": "ent_ff878af017a8077e",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5011646.html",
+"published_at": "2026-10-06T20:09:50Z",
+"quote": "По контракту 2016 года стоимостью 3,8 млрд долл США с Lockheed Martin министерство национальной обороны Китайской Республики (Тайваня) осуществило программу модернизации 140 наличных истребителей F-16A/B Block 20 ВВС Тайваня до уровня F-16V"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_49be0b3766844589",
+"from": "ent_54a6fa8993794d9e",
+"to": "ent_c9797c9635450715",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5010955.html",
+"published_at": "2026-10-04T21:54:25Z",
+"quote": "Boeing получил контракт на создание перспективного палубного истребителя F/A-XX для ВМС США"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_07388c3a84cef149",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5010955.html",
+"published_at": "2026-10-04T21:54:25Z",
+"quote": "ВМС США с самого начала указывали, что, в отличие от пилотируемого истребителя завоевания превосходства в воздухе, планируемого к созданию по программе NGAD ВВС США, палубный F/A-XX предназначен для использования в качестве ударного истреби"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_5e9b6cae48511d8b",
+"from": "ent_c9797c9635450715",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5010955.html",
+"published_at": "2026-10-04T21:54:25Z",
+"quote": "ВМС США с самого начала указывали, что, в отличие от пилотируемого истребителя завоевания превосходства в воздухе, планируемого к созданию по программе NGAD ВВС США, палубный F/A-XX предназначен для использования в качестве ударного истреби"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_9952377d07758483",
+"from": "ent_82d695889d3fa2fa",
+"to": "ent_6db9790c0b5ee6ca",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5009658.html",
+"published_at": "2026-09-24T22:57:12Z",
+"quote": "ВКС России получили первую партию истребителей Су-57 по программе 2026 года"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_7d97730cd10cdd4e",
+"from": "ent_6db9790c0b5ee6ca",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5009658.html",
+"published_at": "2026-09-24T22:57:12Z",
+"quote": "Перспективные возможности, заложенные в комплекс авиационного вооружения, позволяют применять новые образцы авиационных средств поражения», － отметил летчик Су-57 Воздушно-космических сил России."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_10ed2c7d24de0f6a",
+"from": "ent_1960deef4c98db97",
+"to": "ent_6db9790c0b5ee6ca",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5009658.html",
+"published_at": "2026-09-24T22:57:12Z",
+"quote": "Они были изготовлены в соответствии с реализацией контракта, заключенного в июне 2019 года Министерством обороны России с ПАО «Компания «Сухой» на поставку в Вооруженные Силы суммарно 76 серийных истребителей Су-57 (включая и два первых отд"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_30228bf1dc05be87",
+"from": "ent_82d695889d3fa2fa",
+"to": "ent_6db9790c0b5ee6ca",
+"type": "контракт",
+"event_date": "2019-12-24",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5009658.html",
+"published_at": "2026-09-24T22:57:12Z",
+"quote": "<br /><br />По известным сведениям, к началу 2026 года по контракту 2019 года было построено 49 серийных истребителей Су-57, из которых, после потери головного 24 декабря 2019 года на заключительном этапе заводских испытаний, ВКС России пол"
+}
+],
+"sentiment": {
+"score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_e6206337e1983f95",
+"from": "ent_8e45e902f6b5a4df",
+"to": "ent_6db9790c0b5ee6ca",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5009658.html",
+"published_at": "2026-09-24T22:57:12Z",
+"quote": "Считается, что Алжир подписал контракт на закупку 12 самолетов Су-57Э в рамках значительного пакета соглашений на приобретение российской военной авиационной техники, заключенного с АО «Рособоронэкспорт» в 2019 году."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_b3e5f792ec83ee3a",
+"from": "ent_3311c6538a475ab3",
+"to": "ent_b677547c4bb180c5",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5009003.html",
+"published_at": "2026-09-22T22:54:03Z",
+"quote": "В состав комплекса должны войти также некие планируемые к поставке из США зенитные управляемые ракеты специальной разработки GAM-67 (с) Defense Express</i><br /><br /><br /><br /><br />Согласно уведомлению, в поставку войдут \"клоны зенитных"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_074b48e8a6d4f2cb",
+"from": "ent_3311c6538a475ab3",
+"to": "ent_259ba3b67a5c43a9",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5009003.html",
+"published_at": "2026-09-22T22:54:03Z",
+"quote": "В состав комплекса должны войти также некие планируемые к поставке из США зенитные управляемые ракеты специальной разработки GAM-67 (с) Defense Express</i><br /><br /><br /><br /><br />Согласно уведомлению, в поставку войдут \"клоны зенитных"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_c71911f437386682",
+"from": "ent_3311c6538a475ab3",
+"to": "ent_68196679d1f1925a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5009003.html",
+"published_at": "2026-09-22T22:54:03Z",
+"quote": "В состав комплекса должны войти также некие планируемые к поставке из США зенитные управляемые ракеты специальной разработки GAM-67 (с) Defense Express</i><br /><br /><br /><br /><br />Согласно уведомлению, в поставку войдут \"клоны зенитных"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_c5f536140a1b8796",
+"from": "ent_3311c6538a475ab3",
+"to": "ent_0d4bdbfd57f6376d",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5009003.html",
+"published_at": "2026-09-22T22:54:03Z",
+"quote": "В состав комплекса должны войти также некие планируемые к поставке из США зенитные управляемые ракеты специальной разработки GAM-67 (с) Defense Express</i><br /><br /><br /><br /><br />Согласно уведомлению, в поставку войдут \"клоны зенитных"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_4e61d8af30f4ec93",
+"from": "ent_76aae9f116d88191",
+"to": "ent_b5f76dc0ce128813",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5008883.html",
+"published_at": "2026-09-22T21:55:39Z",
+"quote": "jpg\" width=\"800\" fetchpriority=\"high\" /></a><br /><br /><i>155-мм/52 самоходная гаубица 2С22 \"Богдана\" украинского производства на вооружении 7-й отдельной артиллерийской бригады \"Грегит\" 2-го корпуса Национальной гвардии Украины \"Хартия\" ("
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_2bea0f031921dd99",
+"from": "ent_cc536968c15118bb",
+"to": "ent_7902a5283b8ea891",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5008251.html",
+"published_at": "2026-09-21T19:31:39Z",
+"quote": "jpg\" width=\"720\" fetchpriority=\"high\" /></a><br /><br /><i>Один из двух первых прибывших в Финляндию истребителей пятого поколения Lockheed Martin F-35A Lightning II, из 64 самолетов этого типа, заказанных Финляндией по соглашению 2022 года"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_4b22d8e2c3571cd0",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_7c4278bb1c2365e3",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5008251.html",
+"published_at": "2026-09-21T19:31:39Z",
+"quote": "jpg\" width=\"720\" fetchpriority=\"high\" /></a><br /><br /><i>Один из двух первых прибывших в Финляндию истребителей пятого поколения Lockheed Martin F-35A Lightning II, из 64 самолетов этого типа, заказанных Финляндией по соглашению 2022 года"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_7e5934d7f8b518b6",
+"from": "ent_cc536968c15118bb",
+"to": "ent_b677547c4bb180c5",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5008251.html",
+"published_at": "2026-09-21T19:31:39Z",
+"quote": "<br /><br />К настоящему времени для ВВС Финляндии на предприятии Lockheed Martin в Форт-Уорте изготовлены уже 16 самолетов F-35А (серийные номера с MF-01 по MF-16), из них восемь первых (серийные номера с MF-01 по MF-08), переданных ВВС Фи"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_4d762695ce758882",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_7c4278bb1c2365e3",
+"type": "производство",
+"event_date": "2025-12-08",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5008251.html",
+"published_at": "2026-09-21T19:31:39Z",
+"quote": "Первый финский истребитель F-35A с финским бортовым номером JF-501 (серийный номер MF-01, номер ВВС США 23-5932) соершил первый полет в Форт-Уорте 8 декабря 2025 года, был официально представлен на церемонии там 16 декабря 2025 года и совер"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_733820e775233db3",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_7c4278bb1c2365e3",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5008081.html",
+"published_at": "2026-09-20T09:24:28Z",
+"quote": "Германия получила первый истребитель F-35A"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_2156eae43d711886",
+"from": "ent_cc536968c15118bb",
+"to": "ent_9a6dbc9b8231fbe3",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5008081.html",
+"published_at": "2026-09-20T09:24:28Z",
+"quote": "<br /><br />Согласно уведомлению DSCA, в поставку Германии должны войти 105 управляемых ракет Raytheon AIM-120C-8 AMRAAM класса \"воздух-воздух\" средней и большой дальности; 75 управляемых ракет Raytheon AIM-9Х Block II+ Sidewinder класса \"в"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_2b8f0f61d12721fa",
+"from": "ent_286ac1a705054b05",
+"to": "ent_9a6dbc9b8231fbe3",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5008081.html",
+"published_at": "2026-09-20T09:24:28Z",
+"quote": "<br /><br />Согласно уведомлению DSCA, в поставку Германии должны войти 105 управляемых ракет Raytheon AIM-120C-8 AMRAAM класса \"воздух-воздух\" средней и большой дальности; 75 управляемых ракет Raytheon AIM-9Х Block II+ Sidewinder класса \"в"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_56a4b570a8787688",
+"from": "ent_54a6fa8993794d9e",
+"to": "ent_9a6dbc9b8231fbe3",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bmpd.livejournal.com/5008081.html",
+"published_at": "2026-09-20T09:24:28Z",
+"quote": "<br /><br />Согласно уведомлению DSCA, в поставку Германии должны войти 105 управляемых ракет Raytheon AIM-120C-8 AMRAAM класса \"воздух-воздух\" средней и большой дальности; 75 управляемых ракет Raytheon AIM-9Х Block II+ Sidewinder класса \"в"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_83194e4495856518",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_ff878af017a8077e",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1171190_nositelyami_rzhavyh_kinzhalov_vsu_stali_f-16_i_mig-29.html",
+"published_at": "2026-11-11T21:00:01Z",
+"quote": "Эксперт Степанов: Носителями украинских «Ржавых кинжалов» стали F-16 и МиГ-29 Носителями ракет Rusty Dagger («Ржавые кинжалы»), которые США поставили Вооруженным силам Украины (ВСУ), стали истребители F-16 и МиГ-29."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_a2185512c308ef5b",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_340314be7304a427",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1171190_nositelyami_rzhavyh_kinzhalov_vsu_stali_f-16_i_mig-29.html",
+"published_at": "2026-11-11T21:00:01Z",
+"quote": "Эксперт Степанов: Носителями украинских «Ржавых кинжалов» стали F-16 и МиГ-29 Носителями ракет Rusty Dagger («Ржавые кинжалы»), которые США поставили Вооруженным силам Украины (ВСУ), стали истребители F-16 и МиГ-29."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_367661821a6ffa05",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1171198_stali_izvestny_rossiiskie_perehvatchiki_rzhavyh_kinzhalov_vsu.html",
+"published_at": "2026-11-11T21:00:01Z",
+"quote": "Эксперт Кнутов: Ракеты Rusty Dagger могут перехватывать российские системы ПВО Крылатые ракеты Rusty Dagger («Ржавый кинжал»), которые США поставили Вооруженным силам Украины (ВСУ), могут перехватывать российские системы противовоздушной об"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c8c9c8968daaa73a",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_259ba3b67a5c43a9",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1171198_stali_izvestny_rossiiskie_perehvatchiki_rzhavyh_kinzhalov_vsu.html",
+"published_at": "2026-11-11T21:00:01Z",
+"quote": "Эксперт Кнутов: Ракеты Rusty Dagger могут перехватывать российские системы ПВО Крылатые ракеты Rusty Dagger («Ржавый кинжал»), которые США поставили Вооруженным силам Украины (ВСУ), могут перехватывать российские системы противовоздушной об"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_3d5ca442d5fb22e2",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_3fbad649a9f64883",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1171198_stali_izvestny_rossiiskie_perehvatchiki_rzhavyh_kinzhalov_vsu.html",
+"published_at": "2026-11-11T21:00:01Z",
+"quote": "Эксперт Кнутов: Ракеты Rusty Dagger могут перехватывать российские системы ПВО Крылатые ракеты Rusty Dagger («Ржавый кинжал»), которые США поставили Вооруженным силам Украины (ВСУ), могут перехватывать российские системы противовоздушной об"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_72a279d906635190",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_1a87a6c7a8d2afee",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1171198_stali_izvestny_rossiiskie_perehvatchiki_rzhavyh_kinzhalov_vsu.html",
+"published_at": "2026-11-11T21:00:01Z",
+"quote": "Эксперт Кнутов: Ракеты Rusty Dagger могут перехватывать российские системы ПВО Крылатые ракеты Rusty Dagger («Ржавый кинжал»), которые США поставили Вооруженным силам Украины (ВСУ), могут перехватывать российские системы противовоздушной об"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_54cf60ba57e9e084",
+"from": "ent_9e51a7ee6340af7b",
+"to": "ent_71e216e2b6a06d78",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1170993_litva_poluchila_protivotankovye_granatomety_carl-gustaf.html",
+"published_at": "2026-11-11T21:00:01Z",
+"quote": "Литва получила противотанковые гранатометы Carl-Gustaf"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_c3dba3709fa132d2",
+"from": "ent_78f1ace85264a541",
+"to": "ent_71e216e2b6a06d78",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1170993_litva_poluchila_protivotankovye_granatomety_carl-gustaf.html",
+"published_at": "2026-11-11T21:00:01Z",
+"quote": "Противотанковые гранатометы Carl-Gustaf шведского производителя Saab Dynamics AB поступили на склады Вооруженных сил Литвы, сообщила пресс-служба Минобороны балтийской республики."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_a7c54e65ef7435a3",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_61cfa3db2af82321",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tass.ru/proisshestviya/28312431",
+"published_at": "2026-11-12T14:48:50Z",
+"quote": "В Брянской области при ударах дронов ВСУ по автомобилям пострадали три человека"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_754e08ebe670fc24",
+"from": "ent_853ab95a14bcf214",
+"to": "ent_4fd8d9ed55cdd629",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/uk-company-tests-its-unmanned-supply-vehicle-in-switzerland",
+"published_at": "2026-11-12T14:17:53Z",
+"quote": "Oliver North, founder and chief executive of North Defence Group, said on social media on Thursday that he […"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_a1d62a82b1b82c8a",
+"from": "ent_469aac1a6973d563",
+"to": "ent_31fc8fd80270acae",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/u-s-army-drones-to-hunt-mines-and-fpv-threats-before-abrams-tanks-arrive",
+"published_at": "2026-11-12T09:04:04Z",
+"quote": "5 million contract to run the Florida company’s explosive-detection software aboard Anduril’s Ghost-X drones to help protect Abrams tanks, according to a company release."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_d00f30e2bea61202",
+"from": "ent_e50e9b8e1c289c1d",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/elbit-wins-260-million-puls-rocket-artillery-deal-from-nato",
+"published_at": "2026-11-12T08:30:35Z",
+"quote": "Israeli defense company Elbit Systems has won a contract worth about $260 million to supply PULS rocket artillery launchers and munitions to an unnamed NATO country in Europe, the company said Thursday."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_0e8df6e9920115c0",
+"from": "ent_7b38de8388191703",
+"to": "ent_0e439444e0d24c40",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/u-k-minister-drives-missile-armed-stark-drone-boat-in-oslo",
+"published_at": "2026-11-11T14:35:02Z",
+"quote": "British Defence Minister Luke Pollard took the controls of STARK’s Vanta 12, a 12-meter (39-foot) uncrewed boat armed with Sea Venom anti-ship missiles, during a demonstration in Oslo this week, according to a company release sent to The De"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_ce16a9a887930338",
+"from": "ent_7b38de8388191703",
+"to": "ent_c752f04aec800c63",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/u-k-minister-drives-missile-armed-stark-drone-boat-in-oslo",
+"published_at": "2026-11-11T14:35:02Z",
+"quote": "British Defence Minister Luke Pollard took the controls of STARK’s Vanta 12, a 12-meter (39-foot) uncrewed boat armed with Sea Venom anti-ship missiles, during a demonstration in Oslo this week, according to a company release sent to The De"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+}
+]

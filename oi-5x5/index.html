@@ -1,15 +1,37 @@
 <!doctype html>
 <html lang="ru"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ОИ 5×5 — буквенно-цифровой и цветовой код | cbr-news-materials</title>
+<title>Контур информационного мониторинга OSINT ЦБР РБ — ОИ 5×5</title>
 <style>
 body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;max-width:1100px;margin:0 auto;padding:1.2em;line-height:1.5;color:#1b1b1b}
 table{border-collapse:collapse;margin:1em 0} th,td{border:1px solid #ddd;padding:.35em .5em;vertical-align:top}
 table.oi-matrix th,table.oi-matrix td{border:0} table.oi-matrix{font-size:1.02em}
 code{background:#f3f3f3;padding:0 .25em;border-radius:3px} small{opacity:.85}
 a{color:#0b57d0} .back{font-size:.95em}
-</style></head><body>
-<p class="back"><a href="../">← Материалы CBR</a></p>
+main.cbr-doc{max-width:1100px}
+body{max-width:none!important;margin:0!important;padding:0!important;color:var(--text)!important;background:var(--bg)!important;font-family:var(--sans)!important}
+th,td{border-color:var(--line)!important} code{background:var(--panel)!important;color:var(--text)}
+a{color:var(--accent)!important} .cbr-doc small{color:var(--muted)}
+</style><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../assets/cbr-ops.css?v=t62">
+</head><body>
+<header class="cbr-bar">
+  <a class="cbr-mark" href="../"><b>CBR</b><span>Контур информационного мониторинга OSINT ЦБР РБ</span></a>
+  <nav class="cbr-nav">
+    <a href="../%D0%90%D0%9A%D0%A2%D0%A3%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%99_%D0%9E%D0%A2%D0%A7%D0%81%D0%A2.html">Актуальный отчёт</a>
+    <a href="../news-map/">Новостная карта</a>
+    <a href="../map/">Карта реестра</a>
+    <a href="../companies.csv">Реестр сил и компаний</a>
+    <a class="on" href="../OI_5x5.html">ОИ 5×5</a>
+    <a href="../data/oi5x5/">Данные ОИ 5×5</a>
+    <a href="../data/mention_gap.html">Разрыв упоминаний</a>
+    <a href="../SOURCES.html">Источники сбора</a>
+    <a href="../darpa-programs/">Программы DARPA</a>
+  </nav>
+  <span class="cbr-asof" id="cbr-asof"><i></i></span>
+</header>
+<main class="cbr-doc">
 <h1>ОИ 5×5 — буквенно-цифровой и цветовой код</h1>
 <p>Пояснение к кодам ОИ 5×5 в этом репозитории. Дата: 12.11.2026, Europe/Minsk. Цветная матрица на отдельной странице: <a href="https://skb-by.github.io/cbr-news-materials/oi-5x5/">https://skb-by.github.io/cbr-news-materials/oi-5x5/</a>.</p>
 <h2>Как читать код</h2>
@@ -352,4 +374,7 @@ a{color:#0b57d0} .back{font-size:.95em}
 </table>
 <p>Источник «Г» или «Д» при сведениях «1» допустим: сведения подтверждены независимо, надёжность самого издателя при этом не повышается.</p>
 <p>Слухи в отдельном перечне. В «новость» элемент переводится только после независимого подтверждения; одновременно сведения ставятся в «1», в основании указывается прежний код.</p>
+</main>
+<script src="../assets/asof.js?v=t62"></script>
+<script>(function(){var a=window.CBR_ASOF,e=document.getElementById("cbr-asof");if(a&&e)e.innerHTML="<i></i>"+a.as_of+" Europe/Minsk";})();</script>
 </body></html>

@@ -4,13 +4,15 @@
 <meta charset="utf-8">
 <link rel="icon" href="data:,">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Новостная карта CBR: новости с 01.01.2026 по местам, с кодами ОИ 5×5</title>
-<link rel="stylesheet" href="vendor/leaflet.css?v=t59">
+<title>Контур информационного мониторинга OSINT ЦБР РБ — Новостная карта</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="vendor/leaflet.css?v=t62">
+<link rel="stylesheet" href="../assets/cbr-ops.css?v=t62">
 <style>
-  :root { --bg:#ffffff; --panel:#f7f9fb; --line:#e3e8ee; --text:#1c2733; --muted:#5d6b7a; --accent:#2f6fdb; }
   * { box-sizing:border-box; }
-  html,body { margin:0; height:100%; color:var(--text); font:14px/1.45 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
-  #wrap { display:flex; height:100vh; }
+  html,body { margin:0; height:100%; color:var(--text); font:14px/1.45 var(--sans); background:var(--bg); }
+  #wrap { display:flex; height:calc(100vh - var(--bar)); }
   #side { width:420px; min-width:320px; display:flex; flex-direction:column; background:var(--panel); border-right:1px solid var(--line); }
   #side .top { flex:none; max-height:55vh; overflow:auto; padding:14px 18px 8px; border-bottom:1px solid var(--line); }
   #side .news { flex:1; overflow:auto; padding:8px 18px 8px; background:#fff; }
@@ -55,16 +57,89 @@
   .leaflet-tooltip.lbl { padding:4px 8px; font-size:12px; border-radius:6px; box-shadow:0 1px 3px #0003; }
   #more { margin:6px 0 12px; }
   @media (max-width:760px){ #wrap{flex-direction:column;} #side{width:100%;min-width:0;max-height:60vh;border-right:none;border-bottom:1px solid var(--line);} }
+  /* t62u: тёмная тема CBR и фильтры контура */
+  #side { background:var(--panel); border-right:1px solid var(--line); }
+  #side .news { background:var(--bg-2); }
+  .hint { background:#2a2312; border:1px solid #6b5a2e; color:#e9d9a8; border-radius:2px; font-weight:500; }
+  .hint.pin { background:#0f2340; border-color:#2b5ea8; color:#cfe0ff; }
+  input[type=search], select, input[type=date], button { background:var(--bg-2) !important; color:var(--text); border:1px solid var(--line) !important; border-radius:2px !important; }
+  input[type=date] { color-scheme:dark; }
+  button.on { background:var(--accent) !important; color:#fff; border-color:var(--accent) !important; }
+  h1 { font-size:15px; font-weight:600; text-transform:uppercase; letter-spacing:.08em; }
+  h2 { color:var(--muted); font-size:10.5px; letter-spacing:.1em; border-top:1px solid var(--line); padding-top:10px; }
+  .st { background:var(--panel) !important; border:1px solid var(--line) !important; border-radius:2px !important; }
+  .st.sel { border-color:var(--accent) !important; }
+  .chip { background:var(--panel-2) !important; color:var(--text); border:1px solid var(--line); border-radius:2px !important; }
+  #places li { background:var(--bg-2) !important; border-color:var(--line) !important; border-radius:2px !important; }
+  #places li.sel { border-color:var(--accent) !important; background:#0f2340 !important; }
+  .oi { font-family:var(--mono); border-radius:2px; }
+  table.mx td.c { font-family:var(--mono); border-radius:2px; }
+  .leaflet-container { background:#0b0d10 !important; }
+  .tiles-dark { filter:invert(1) hue-rotate(180deg) grayscale(.75) brightness(.78) contrast(.92); }
+  .leaflet-control-attribution { display:block !important; background:#0b0d10cc !important; color:var(--muted) !important; font-size:10px; }
+  .leaflet-control-attribution a { color:var(--muted) !important; }
+  .leaflet-bar a, .leaflet-control-layers { background:var(--panel) !important; color:var(--text) !important; border-color:var(--line) !important; }
+  .leaflet-control-layers-expanded { color:var(--text); }
+  .leaflet-tooltip.lbl { background:var(--panel); color:var(--text); border:1px solid var(--line-2); }
+  .leaflet-tooltip-top.lbl:before { border-top-color:var(--line-2); }
+  .leaflet-control-scale-line { background:#0b0d10aa; color:var(--muted); border-color:var(--muted); }
+  #side footer { border-top:1px solid var(--line); }
+  .sent { display:flex; gap:4px; flex-wrap:wrap; margin:6px 0 4px; }
+  .sent .s { font:600 10.5px/18px var(--mono); padding:0 6px; border-radius:2px; color:#0b0d10; cursor:pointer; user-select:none; }
+  .sent .s.off { opacity:.22; }
+  .sent .s.nd { background:var(--panel-2); color:var(--muted); border:1px solid var(--line); }
+  .sph-l label { display:block; font-size:12.5px; margin:2px 0; } .sph-l .sub { margin-left:18px; font-size:12px; color:#cfd7e0; }
+  .sph-chip { display:inline-block; font-size:10.5px; padding:0 6px; border:1px solid #2b5ea8; color:#9cc2ff; border-radius:2px; margin:2px 3px 0 0; }
+  .risk-chip { display:inline-block; font:600 10px/16px var(--mono); padding:0 5px; border:1px solid var(--warn); color:var(--warn); border-radius:2px; margin:2px 3px 0 0; }
+  #ents { list-style:none; padding:0; margin:4px 0; max-height:180px; overflow:auto; }
+  #ents li { padding:3px 6px; font-size:12px; border-bottom:1px solid var(--line); cursor:pointer; }
+  #ents li:hover { background:var(--panel-2); } #ents li .ty { color:var(--muted); font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; }
+  .ecard { background:var(--panel); border:1px solid var(--accent); border-radius:2px; padding:8px 10px; margin:6px 0 8px; font-size:12.5px; }
+  .ecard h3 { margin:0 0 2px; font-size:14px; } .ecard .rel { border-top:1px solid var(--line); padding:4px 0; }
+  .ecard .q { color:var(--muted); font-size:11.5px; }
+  .legend-s { font-size:11px; color:var(--muted); margin:2px 0 6px; }
+  .ent-pt { width:12px; height:12px; background:var(--accent); border:2px solid #fff; transform:rotate(45deg); box-shadow:0 0 8px var(--accent); }
 </style>
 </head>
 <body>
+<header class="cbr-bar">
+  <a class="cbr-mark" href="../"><b>CBR</b><span>Контур информационного мониторинга OSINT ЦБР РБ</span></a>
+  <nav class="cbr-nav">
+    <a href="../%D0%90%D0%9A%D0%A2%D0%A3%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%99_%D0%9E%D0%A2%D0%A7%D0%81%D0%A2.html">Актуальный отчёт</a>
+    <a class="on" href="./">Новостная карта</a>
+    <a href="../map/">Карта реестра</a>
+    <a href="../companies.csv">Реестр сил и компаний</a>
+    <a href="../OI_5x5.html">ОИ 5×5</a>
+    <a href="../data/oi5x5/">Данные ОИ 5×5</a>
+    <a href="../data/mention_gap.html">Разрыв упоминаний</a>
+    <a href="../SOURCES.html">Источники сбора</a>
+    <a href="../darpa-programs/">Программы DARPA</a>
+  </nav>
+  <span class="cbr-asof" id="cbr-asof"><i></i></span>
+</header>
 <div id="wrap">
   <aside id="side">
     <div class="top">
       <h1>Новостная карта</h1>
       <div id="hint" class="hint">Наведите на область — если есть сведения, они появятся списком</div>
+      <div class="legend-s">Окрас: <span class="s-chip" style="background:var(--s-m2)">−2</span> резко негативный <span class="s-chip" style="background:var(--s-m1)">−1</span> умеренно негативный <span class="s-chip" style="background:var(--s-0)">0</span> нейтральный <span class="s-chip" style="background:var(--s-p1)">+1</span> умеренно позитивный <span class="s-chip" style="background:var(--s-p2)">+2</span> резко позитивный</div>
       <input type="search" id="q" placeholder="Поиск по заголовку или источнику…">
-      <details id="flt"><summary>Фильтры, период, легенда ОИ 5×5 и список мест</summary>
+      <details id="flt"><summary>Фильтры: сфера, сущность, связь, окрас, субъективность, маркеры рисков, ОИ 5×5, период, категория, раздел, места</summary>
+      <h2>Сфера и подфильтр</h2>
+      <div class="sph-l" id="sphf"></div>
+      <h2>Сущность</h2>
+      <div class="row"><select id="etype"></select></div>
+      <input type="search" id="eq" placeholder="Имя или алиас сущности…">
+      <ul id="ents"></ul>
+      <h2>Связь</h2>
+      <div class="row"><select id="rtype"></select><select id="rmin"><option value="1">доказательств: 1 и более</option><option value="2">доказательств: 2 и более</option><option value="3">доказательств: 3 и более</option></select></div>
+      <p class="muted">Слабая связь «совместное упоминание» на публичную карту не выгружается.</p>
+      <h2>Окрас (−2…+2)</h2>
+      <div class="sent" id="sentf"></div>
+      <h2>Субъективность</h2>
+      <div class="row"><select id="subj"><option value="">любая</option><option value="ge0.5">≥ 0.5 — оценочные</option><option value="ge0.3">≥ 0.3</option><option value="ge0.7">≥ 0.7</option><option value="lt0.5">&lt; 0.5 — фактологичные</option></select></div>
+      <h2>Маркеры рисков</h2>
+      <div class="row" id="riskf"></div>
       <h2>Период (дата события, если названа; иначе дата публикации)</h2>
       <div class="row"><input type="date" id="d1"> — <input type="date" id="d2"></div>
       <div class="row" id="presets"></div>
@@ -83,24 +158,38 @@
       <details id="about"><summary>О карте</summary>
       <p class="muted" id="cover"></p>
       <p class="muted">Вторая карта репозитория. Первая — <a href="../map/">карта реестра</a> (организации и компании). Здесь — новости по местам из их ключевых мест; каждая запись подсвечена кодом <a href="../oi-5x5/" target="_blank" rel="noopener">ОИ 5×5</a> (<a href="../OI_5x5.md">пояснение</a>).</p>
+      <p class="muted" id="cxabout"></p>
       <p class="muted">Место рисуется областью — страна, регион, город или акватория целиком: в новости названо место, а не адрес события. Новости без места — в <a href="news_unlocated.csv">news_unlocated.csv</a> (<a href="UNLOCATED.md">почему</a>); все записи карты — <a href="news_points.csv">news_points.csv</a>.</p>
       </details>
     </div>
     <div class="news" id="newsbox">
       <div id="stories-h" class="nh">Сведения</div>
       <div class="sorttxt">Сверху вниз: <b>дата</b> (новее выше; дата события, если названа, иначе дата публикации) → <b>достоверность</b> (сведения ОИ 5×5: 1, 2, 3, 4, 5) → <b>значимость</b> (источник ОИ 5×5: А, Б, В, Г, Д).</div>
+      <div id="ecard"></div>
       <ul id="stories"></ul>
       <div id="more"></div>
     </div>
-    <footer>Подложка: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">участники OpenStreetMap</a> (ODbL). Границы: <a href="https://www.naturalearthdata.com" target="_blank" rel="noopener">Natural Earth</a> (public domain) и OpenStreetMap (ODbL) — <a href="areas.geojson">areas.geojson</a>. Карта: <a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a> 1.9.4.</footer>
+    <footer>Подложка: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">участники OpenStreetMap</a> (ODbL); тёмная подложка — те же тайлы OpenStreetMap с инверсией цвета. Границы: <a href="https://www.naturalearthdata.com" target="_blank" rel="noopener">Natural Earth</a> (public domain) и OpenStreetMap (ODbL) — <a href="areas.geojson">areas.geojson</a>. Карта: <a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a> 1.9.4.</footer>
   </aside>
   <div id="map"></div>
 </div>
-<script src="vendor/leaflet.js?v=t59"></script>
-<script src="data.js?v=t59"></script>
+<script src="vendor/leaflet.js?v=t62"></script>
+<script src="data.js?v=t62"></script>
+<script src="contour.js?v=t62"></script>
+<script src="../assets/asof.js?v=t62"></script>
 <script>
 (function(){
 const D = window.NEWS_MAP_DATA, P = D.palette, F = D.fields;
+const C = window.NEWS_CONTOUR || {entities:[], relations:[], items:{}, unlocated:0};
+const SENT=[[-2,"резко негативный","var(--s-m2)"],[-1,"умеренно негативный","var(--s-m1)"],[0,"нейтральный","var(--s-0)"],[1,"умеренно позитивный","var(--s-p1)"],[2,"резко позитивный","var(--s-p2)"]];
+const SENTC={}; SENT.forEach(x=>SENTC[x[0]]=x);
+const RISKS=["Legal","Financial","Reputational","Regulatory"];
+const ETYPES=["персона","компания","организация","локация","изделие","программа"];
+const SPH=[["БПЛА",[]],["вооружение",["легкое","тяжелое","гранатометы","гранаты","мины"]],["бронетехника",["автомобильная бронетехника","БМП","танки","САУ и ПТ САУ"]],["армейские джипы",["вездеходы","багги","квадроциклы","мотоциклы"]],["артиллерийские системы",[]],["системы ПВО и РВСН",[]],["авиация",[]],["средства связи и коммуникаций",[]],["программное обеспечение специального назначения",[]],["тактика и стратегия",[]]];
+const ENT = C.entities.map((e,i)=>({i, id:e[0], type:e[1], name:e[2], al:e[3]||[], country:e[4], n:e[5], place:e[6], key:(e[2]+" "+(e[3]||[]).join(" ")).toLowerCase()}));
+const REL = C.relations.map((r,i)=>({i, a:r[0], b:r[1], type:r[2], n:r[3], pm2:r[4], pm1:r[5], ev:r[6]||[], ed:r[7]}));
+const urlRels={}; REL.forEach(r=>r.ev.forEach(e=>(urlRels[e[0]]=urlRels[e[0]]||[]).push(r.i)));
+(function(){ const a=window.CBR_ASOF, el=document.getElementById("cbr-asof"); if(el) el.innerHTML="<i></i>"+(a? a.as_of : (D.as_of||"").split(" ")[0].split("-").reverse().join(".")+" "+((D.as_of||"").split(" ")[1]||""))+" Europe/Minsk"; })();
 const SRC="АБВГД", INF="12345";
 const PREC={country:"страна", region:"регион", city:"город", sea:"акватория"};
 const ORDER={country:0, sea:1, region:2, city:3};
@@ -109,7 +198,7 @@ function status(code){ if(!code) return ""; if(code[1]==="1") return "новос
 function badge(code, pre){ const c=P[code]; if(!c) return ""; return `<span class="oi" style="background:${c[0]};color:${c[1]}" title="ОИ 5×5: ${code} — ${status(code)}">${pre?esc(pre)+" ":""}${code}</span>`; }
 function rank(code){ return (INF.indexOf(code[1]))*5 + SRC.indexOf(code[0]); }  // меньше — достовернее
 function dmy(s){ if(!s) return ""; const [d,t]=s.split(" "); const p=d.split("-"); return (p.length===2? p[1]+"."+p[0] : p[2]+"."+p[1]+"."+p[0])+(t?" "+t:""); }
-const items = D.items.map(a=>{ const o={}; F.forEach((k,i)=>o[k]=a[i]); o.code=o.oi1||o.oi0; o.st=status(o.code);
+const items = D.items.map(a=>{ const o={}; F.forEach((k,i)=>o[k]=a[i]); o.code=o.oi1||o.oi0; o.st=status(o.code); o.cx=C.items[o.id]||null;
   o.lo = o.ev ? (o.ev.length===7? o.ev+"-01" : o.ev) : o.pub.slice(0,10); o.hi = o.ev ? (o.ev.length===7? o.ev+"-31" : o.ev) : o.pub.slice(0,10); return o; });
 const areas = D.areas.features;
 const stories = D.clusters.map((c,i)=>({i, items:c[0].map(k=>items[k]), places:c[1], more:c[2]||0, current:!!c[3], later:(c[4]||[]).map(k=>items[k])}));
@@ -122,10 +211,11 @@ function cmp(a,b){ const x=a.head, y=b.head; const da=dkey(x), db=dkey(y);
   return x.pub<y.pub?1:x.pub>y.pub?-1:0; }
 stories.forEach(s=>{ s.head=s.items[0]; s.lift=s.items.some(x=>x.lift); s.txt=s.items.map(x=>(x.t+" "+x.src).toLowerCase()).join(" "); });
 
+document.getElementById("cxabout").innerHTML = `Сфера, сущности, связи, окрас, субъективность и маркеры рисков — из контура (<a href="entities.json">entities.json</a>, <a href="relations.json">relations.json</a>, <a href="items.json">items.json</a>; связь с материалом — по dedupe_hash). Извлечение — по правилам: часть связей может быть ложной, окрас упоминания берётся из предложения. Сущность ставится на карту только областью из словаря мест (локация) или точкой по адресу с официальной или реестровой страницы; центроид Киева не используется, юридический адрес — не завод. Сущности без подтверждённого места — <a href="entities_unlocated.csv">entities_unlocated.csv</a> (${C.unlocated}).`;
 document.getElementById("cover").innerHTML = `Новости базы с датой публикации с ${dmy(D.from)} по ${dmy(D.as_of)} Europe/Minsk (по времени сбора), коды ОИ 5×5 — проход ${dmy(D.oi_as_of)} Europe/Minsk. Ранние записи (в том числе до 2026 г.), которые дополнила более поздняя новость, подняты из базы и стоят вместе с ней.`;
 
 // фильтры
-const st = {pin:null, q:"", d1:"", d2:"", stat:{"новость":true,"утверждение":true,"слух":true}, topic:"", cat:"", sec:"", onlylift:false, onlycur:false, codes:{}, place:null, paint:"cur"};
+const st = {sph:new Set(), etype:"", ent:null, rtype:"", rmin:1, sent:{"-2":true,"-1":true,"0":true,"1":true,"2":true,nd:true}, subj:"", risk:new Set(), pin:null, q:"", d1:"", d2:"", stat:{"новость":true,"утверждение":true,"слух":true}, topic:"", cat:"", sec:"", onlylift:false, onlycur:false, codes:{}, place:null, paint:"cur"};
 SRC.split("").forEach(s=>INF.split("").forEach(n=>st.codes[s+n]=true));
 const allDates = items.map(x=>x.lo).sort(); const minD = stories.map(s=>s.head.lo).sort()[0], maxD = D.as_of.slice(0,10);
 const d1=document.getElementById("d1"), d2=document.getElementById("d2"); d1.value=minD; d2.value=maxD; d1.min=d2.min=minD; d1.max=d2.max=maxD; st.d1=minD; st.d2=maxD;
@@ -147,6 +237,59 @@ document.getElementById("onlycur").onchange=e=>{ st.onlycur=e.target.checked; up
 document.getElementById("paint").onchange=e=>{ st.paint=e.target.value; update(); };
 let qt; document.getElementById("q").addEventListener("input",e=>{ clearTimeout(qt); qt=setTimeout(()=>{ st.q=e.target.value.trim().toLowerCase(); update(); },200); });
 
+// t62u: фильтры контура — сфера, сущность, связь, окрас, субъективность, маркеры рисков
+const sphf=document.getElementById("sphf");
+sphf.innerHTML=SPH.map(([s,subs])=>`<label><input type="checkbox" data-k="${esc(s)}"> ${esc(s)}</label>`+subs.map(f=>`<label class="sub"><input type="checkbox" data-k="${esc(s+"|"+f)}"> ${esc(f)}</label>`).join("")).join("");
+sphf.addEventListener("change",e=>{ const k=e.target.dataset.k; if(!k) return; e.target.checked?st.sph.add(k):st.sph.delete(k); update(); });
+const et=document.getElementById("etype"); et.innerHTML='<option value="">тип сущности: все</option>'+ETYPES.map(t=>`<option>${t}</option>`).join("");
+et.onchange=()=>{ st.etype=et.value; entList(); };
+let eqv=""; document.getElementById("eq").addEventListener("input",e=>{ eqv=e.target.value.trim().toLowerCase(); entList(); });
+function entList(){ const ul=document.getElementById("ents");
+  let L2=ENT.filter(e=>(!st.etype||e.type===st.etype)&&(!eqv||e.key.includes(eqv))).sort((a,b)=>b.n-a.n).slice(0,40);
+  ul.innerHTML=L2.map(e=>`<li data-i="${e.i}"${st.ent===e.i?' style="background:#0f2340"':""}><span class="ty">${esc(e.type)}</span> ${esc(e.name)} <span class="muted">· материалов: ${e.n}</span></li>`).join("")||'<li class="muted">не найдено</li>'; }
+document.getElementById("ents").addEventListener("click",e=>{ const li=e.target.closest("li[data-i]"); if(!li) return; selEnt(+li.dataset.i); });
+let entLayer=null;
+function selEnt(i){ st.ent = st.ent===i ? null : i; entList(); if(entLayer){ map.removeLayer(entLayer); entLayer=null; }
+  if(st.ent!=null){ const e=ENT[st.ent];
+    if(e.place&&e.place.a){ const a=layers.find(x=>x.name===e.place.a); if(a) map.fitBounds(a.layer.getBounds().pad(.2),{maxZoom:a.prec==="city"?9:6}); }
+    if(e.place&&e.place.p){ entLayer=L.marker([e.place.p[0],e.place.p[1]],{icon:L.divIcon({className:"",html:'<div class="ent-pt"></div>',iconSize:[12,12]})}).bindTooltip(esc(e.name)+" — адрес с официальной страницы",{className:"lbl"}).addTo(map); map.setView([e.place.p[0],e.place.p[1]],7); } }
+  update(); }
+const rts=[...new Set(REL.map(r=>r.type))].sort((a,b)=>a.localeCompare(b,"ru"));
+const rt=document.getElementById("rtype"); rt.innerHTML='<option value="">тип связи: все</option>'+rts.map(t=>`<option>${esc(t)}</option>`).join("");
+rt.onchange=()=>{ st.rtype=rt.value; update(); };
+document.getElementById("rmin").onchange=e=>{ st.rmin=+e.target.value; update(); };
+const sentf=document.getElementById("sentf");
+sentf.innerHTML=SENT.map(([v,l,c])=>`<span class="s" data-v="${v}" style="background:${c}" title="${l}">${v>0?"+"+v:v===0?"0":"−"+(-v)} ${l}</span>`).join("")+'<span class="s nd" data-v="nd" title="окрас не размечен">нет данных</span>';
+sentf.addEventListener("click",e=>{ const x=e.target.closest(".s"); if(!x) return; const v=x.dataset.v; st.sent[v]=!st.sent[v]; x.classList.toggle("off",!st.sent[v]); update(); });
+document.getElementById("subj").onchange=e=>{ st.subj=e.target.value; update(); };
+const rf=document.getElementById("riskf");
+rf.innerHTML=RISKS.map(r=>`<label class="row" style="margin:0 8px 0 0"><input type="checkbox" data-r="${r}"> ${r}</label>`).join("");
+rf.addEventListener("change",e=>{ const r=e.target.dataset.r; e.target.checked?st.risk.add(r):st.risk.delete(r); update(); });
+function sentActive(){ return Object.values(st.sent).some(v=>!v); }
+function relOk(r){ return (!st.rtype||r.type===st.rtype) && r.n>=st.rmin && (st.ent==null||r.a===st.ent||r.b===st.ent); }
+function contourOk(s){ const x=s.head, cx=x.cx;
+  const active = st.sph.size||st.ent!=null||st.rtype||st.rmin>1||sentActive()||st.subj||st.risk.size;
+  if(!active) return true;
+  if(st.ent!=null && !s.items.some(it=>it.cx&&it.cx[5].includes(st.ent))) return false;
+  if(st.rtype||st.rmin>1){ if(!s.items.some(it=>(urlRels[it.url]||[]).some(k=>relOk(REL[k])))) return false; }
+  if(st.sph.size){ if(!cx || !cx[0].some(([a,b])=>st.sph.has(a)||st.sph.has(a+"|"+b))) return false; }
+  if(sentActive()){ const v=cx?cx[2]:null; if(v==null){ if(!st.sent.nd) return false; } else if(!st.sent[String(v)]) return false; }
+  if(st.subj){ const v=cx?cx[3]:null; if(v==null) return false; if(st.subj==="lt0.5"){ if(!(v<0.5)) return false; } else if(!(v>=+st.subj.slice(2))) return false; }
+  if(st.risk.size){ if(!cx || !cx[4].some(r=>st.risk.has(r))) return false; }
+  return true; }
+function sentChip(v,pm1){ const x=SENTC[v]; if(!x) return ""; return `<span class="s-chip" style="background:${x[2]}" title="окрас: ${x[1]}${pm1!=null?" ("+pm1+")":""}">${v>0?"+"+v:v===0?"0":"−"+(-v)} ${x[1]}</span>`; }
+function cxHtml(x){ const cx=x.cx; if(!cx) return "";
+  const sp=cx[0].map(([a,b])=>`<span class="sph-chip">${esc(a)}${b?" · "+esc(b):""}</span>`).join("");
+  return `<div class="m">${sp}${cx[2]!=null?" "+sentChip(cx[2],cx[1]):""}${cx[3]!=null?` <span class="muted">субъективность ${cx[3]}</span>`:""} ${cx[4].map(r=>`<span class="risk-chip">${r}</span>`).join("")}</div>`; }
+function ecardHtml(){ if(st.ent==null) return ""; const e=ENT[st.ent];
+  const pl = e.place&&e.place.a ? `область на карте: ${esc(e.place.a)}` : e.place&&e.place.p ? `точка по адресу с официальной страницы: ${esc(e.place.p[2])} (<a href="${esc(e.place.p[3])}" target="_blank" rel="noopener">источник</a>)` : "места нет — на карту точкой не ставится";
+  const rs=REL.filter(r=>(r.a===st.ent||r.b===st.ent)&&relOk(r)).sort((a,b)=>b.n-a.n).slice(0,30);
+  return `<div class="ecard"><div class="ops-label" style="margin:0 0 4px">Сущность · ${esc(e.type)}</div><h3>${esc(e.name)}</h3>
+    <div class="m">${e.country?esc(e.country)+" · ":""}${pl}</div><div class="m">материалов в контуре: ${e.n}; ниже — сведения с этой сущностью при текущем фильтре. <a href="#" id="eclr">сбросить</a></div>
+    ${rs.length?rs.map(r=>{ const o=ENT[r.a===st.ent?r.b:r.a]; return `<div class="rel"><b>${esc(r.type)}</b> → ${esc(o.name)} <span class="muted">(${esc(o.type)}; доказательств: ${r.n})</span> ${r.pm2!=null?sentChip(r.pm2,r.pm1):""}${r.ev.slice(0,2).map(v=>`<div class="q">«${esc(v[2])}» — <a href="${esc(v[0])}" target="_blank" rel="noopener">${esc(dmy(minskD(v[1])))}</a></div>`).join("")}</div>`; }).join(""):'<div class="m">Связей при текущем фильтре нет.</div>'}</div>`; }
+function minskD(iso){ if(!iso) return ""; const d=new Date(iso); if(isNaN(d)) return iso.slice(0,10); return new Date(d.getTime()+3*3600e3).toISOString().slice(0,10); }
+entList();
+
 // матрица ОИ 5×5
 const mx=document.getElementById("mx");
 let h='<table class="mx"><tr><th></th>'+INF.split("").map(n=>`<th>${n}</th>`).join("")+'</tr>';
@@ -161,14 +304,16 @@ function visible(s){ const x=s.head;
   if(st.onlylift && !s.lift) return false;
   if(st.onlycur && !s.current) return false;
   if(st.q.length>1 && !s.txt.includes(st.q)) return false;
-  return true; }
+  return contourOk(s); }
 
 // карта
-const map=L.map("map",{attributionControl:false, zoomControl:false, worldCopyJump:true, minZoom:2, maxZoom:12});
+const map=L.map("map",{attributionControl:true, zoomControl:false, worldCopyJump:true, minZoom:2, maxZoom:12});
 L.control.zoom({position:"topleft"}).addTo(map); L.control.scale({position:"bottomleft", imperial:false}).addTo(map);
 const osm="https://tile.openstreetmap.org/{z}/{x}/{y}.png", topt={maxZoom:19, crossOrigin:true};
-const base={"Светлая (OpenStreetMap, приглушённая)":L.tileLayer(osm,Object.assign({className:"tiles-muted"},topt)), "Стандартная (OpenStreetMap)":L.tileLayer(osm,topt)};
-base["Светлая (OpenStreetMap, приглушённая)"].addTo(map); L.control.layers(base,null,{position:"topright"}).addTo(map);
+const OSMA='© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>';
+const base={"Тёмная (OpenStreetMap, инверсия)":L.tileLayer(osm,Object.assign({className:"tiles-dark", attribution:OSMA},topt)), "Стандартная (OpenStreetMap)":L.tileLayer(osm,Object.assign({attribution:OSMA},topt))};
+map.attributionControl.setPrefix('<a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a>');
+base["Тёмная (OpenStreetMap, инверсия)"].addTo(map); L.control.layers(base,null,{position:"topright"}).addTo(map);
 map.fitBounds([[20,-20],[65,80]]);
 const layers = areas.map((f,i)=>({i, f, name:f.properties.name, prec:f.properties.precision})).sort((a,b)=>ORDER[a.prec]-ORDER[b.prec]);
 layers.forEach(a=>{ a.layer=L.geoJSON(f2(a.f),{style:{weight:1,color:"#5d6b7a",fillOpacity:0}}).addTo(map);
@@ -187,8 +332,8 @@ function pick(ss){ if(!ss.length) return null; if(st.paint==="cur") return ss[0]
 
 function restyle(){
   layers.forEach(a=>{ const s=pick(per[a.i]||[]); const sel=st.place===a.i;
-    a.layer.setStyle(s ? {fillColor:P[s.head.code][0], fillOpacity: a.prec==="country"?.42:.62, color: sel?"#111":"#3b4652", weight: sel?3:(a.prec==="country"?.8:1.2), dashArray:null}
-                       : {fillOpacity:0, color: sel?"#111":"#9aa6b2", weight: sel?2:.6, dashArray:"3 3"}); });
+    a.layer.setStyle(s ? {fillColor:P[s.head.code][0], fillOpacity: a.prec==="country"?.42:.62, color: sel?"#ffffff":"#8b98a8", weight: sel?3:(a.prec==="country"?.8:1.2), dashArray:null}
+                       : {fillOpacity:0, color: sel?"#ffffff":"#5d6b7a", weight: sel?2:.6, dashArray:"3 3"}); });
   document.querySelectorAll("#places li").forEach(li=>li.classList.toggle("sel", +li.dataset.i===st.place));
   const hint=document.getElementById("hint");
   if(st.pin!=null){ hint.className="hint pin"; hint.textContent=`Закреплено: ${areas[st.pin].properties.name}. Нажмите на область ещё раз или на пустое место карты, чтобы снова показывать сведения по наведению.`; }
@@ -210,7 +355,7 @@ function itemHtml(x, head){
   return `<div class="h">${badge(x.code)}<b>${esc(x.st)}</b>${x.lift?' <span class="lift" title="Запись до 01.01.2026, поднята из базы: её дополнила более поздняя новость">поднято из базы</span>':""}</div>
     <div class="t">${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.t||"без заголовка")}</a>`:esc(x.t)}${tr}</div>
     <div class="m">${esc(ev)} · опубл. ${esc(dmy(x.pub))} Europe/Minsk · ${esc(x.src)}${x.topic?" · "+esc(x.topic):""}${x.cat?" · "+esc(x.cat):""}${x.sec?" · "+esc(x.sec):""}</div>
-    <div class="m">${codes}${!head && x.rel.length?` · связь: ${esc(x.rel.join(", "))}`:""}</div>`; }
+    <div class="m">${codes}${!head && x.rel.length?` · связь: ${esc(x.rel.join(", "))}`:""}</div>${cxHtml(x)}`; }
 function storyHtml(s){
   let h=`<li class="st"${s.current?"":' style="opacity:.85;border-style:dashed"'}>${s.current?"":`<div class="m"><b>дополнена позже</b> — актуальная информация в более поздних записях${s.later.length?":":""}</div>`+s.later.map(x=>`<div class="m">→ ${badge(x.code)} ${esc(dmy(x.ev||x.pub.slice(0,10)))} — ${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.t)}</a>`:esc(x.t)}</div>`).join("")}${itemHtml(s.head,true)}<div>${s.places.map(p=>`<span class="chip">${esc(areas[p].properties.name)}</span>`).join("")}</div>`;
   if(s.items.length>1){ const nl=s.items.filter(x=>x.lift).length;
@@ -222,6 +367,7 @@ let shown=0, cur=[];
 function renderList(){ cur = st.place==null ? vis : (per[st.place]||[]); shown=0;
   const a = st.place==null ? null : areas[st.place].properties;
   document.getElementById("stories-h").textContent = a ? `${a.name} (${PREC[a.precision]}) — сведения` : "Все места — последние сведения";
+  document.getElementById("ecard").innerHTML=ecardHtml(); const ec=document.getElementById("eclr"); if(ec) ec.onclick=e=>{ e.preventDefault(); selEnt(st.ent); };
   const ul=document.getElementById("stories"); ul.innerHTML="";
   if(!cur.length) ul.innerHTML=`<li class="st"><b>${a?esc(a.name)+": с":"С"}ведений нет при текущем фильтре.</b> <span class="muted">Измените период или фильтр в разделе «Фильтры».</span></li>`;
   document.getElementById("newsbox").scrollTop=0; more(); }

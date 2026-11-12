@@ -4,13 +4,16 @@
 <meta charset="utf-8">
 <link rel="icon" href="data:,">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Карта реестра CBR: программы, организации, компании, объекты анализа угроз</title>
+<title>Контур информационного мониторинга OSINT ЦБР РБ — Карта реестра</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="vendor/leaflet.css?v=t27">
+<link rel="stylesheet" href="../assets/cbr-ops.css?v=t62">
+
 <style>
-  :root { --bg:#ffffff; --panel:#f7f9fb; --line:#e3e8ee; --text:#1c2733; --muted:#5d6b7a; --accent:#2f6fdb; }
   * { box-sizing:border-box; }
-  html,body { margin:0; height:100%; color:var(--text); font:14px/1.45 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
-  #wrap { display:flex; height:100vh; }
+  html,body { margin:0; height:100%; color:var(--text); font:14px/1.45 var(--sans); background:var(--bg); }
+  #wrap { display:flex; height:calc(100vh - var(--bar)); }
   #side { width:360px; min-width:300px; display:flex; flex-direction:column; background:var(--panel); border-right:1px solid var(--line); }
   #side .scroll { flex:1; overflow:auto; padding:16px 18px 8px; }
   #side footer { padding:8px 18px 10px; border-top:1px solid var(--line); font-size:11.5px; color:var(--muted); }
@@ -58,9 +61,36 @@
   /* no Leaflet attribution widget anywhere (attributionControl:false; this rule is a second safeguard) */
   .leaflet-control-attribution { display:none !important; }
   @media (max-width:760px){ #wrap{flex-direction:column;} #side{width:100%;min-width:0;max-height:42vh;border-right:none;border-bottom:1px solid var(--line);} }
+  /* t62u: тёмная тема CBR; значение маркеров не меняется */
+  #side { background:var(--panel); border-right:1px solid var(--line); }
+  h1 { font-size:15px; font-weight:600; text-transform:uppercase; letter-spacing:.08em; }
+  h2 { color:var(--muted); font-size:10.5px; letter-spacing:.1em; border-top:1px solid var(--line); padding-top:10px; }
+  input[type=search] { background:var(--bg-2) !important; color:var(--text); border-radius:2px !important; }
+  #chains li, #unloc li { background:var(--bg-2) !important; border-color:var(--line) !important; border-radius:2px !important; color:var(--text); }
+  .leaflet-container { background:#0b0d10 !important; }
+  .leaflet-bar a, .leaflet-control-layers { background:var(--panel) !important; color:var(--text) !important; border-color:var(--line) !important; }
+  .leaflet-popup-content-wrapper, .leaflet-popup-tip { background:var(--panel) !important; color:var(--text) !important; border:1px solid var(--line-2); border-radius:3px !important; }
+  .leaflet-tooltip.lbl { background:var(--panel); color:var(--text); border:1px solid var(--line-2); }
+  .warn { background:#3a1416 !important; border-color:#7a2a2e !important; color:#ffb3b5 !important; }
+  .mk .n { background:#0b0d10 !important; color:#e7ecf1 !important; border-color:#3a4350 !important; }
 </style>
 </head>
 <body>
+<header class="cbr-bar">
+  <a class="cbr-mark" href="../"><b>CBR</b><span>Контур информационного мониторинга OSINT ЦБР РБ</span></a>
+  <nav class="cbr-nav">
+    <a href="../%D0%90%D0%9A%D0%A2%D0%A3%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%99_%D0%9E%D0%A2%D0%A7%D0%81%D0%A2.html">Актуальный отчёт</a>
+    <a href="../news-map/">Новостная карта</a>
+    <a class="on" href="../map/">Карта реестра</a>
+    <a href="../companies.csv">Реестр сил и компаний</a>
+    <a href="../OI_5x5.html">ОИ 5×5</a>
+    <a href="../data/oi5x5/">Данные ОИ 5×5</a>
+    <a href="../data/mention_gap.html">Разрыв упоминаний</a>
+    <a href="../SOURCES.html">Источники сбора</a>
+    <a href="../darpa-programs/">Программы DARPA</a>
+  </nav>
+  <span class="cbr-asof" id="cbr-asof"><i></i></span>
+</header>
 <div id="wrap">
   <aside id="side">
     <div class="scroll">
@@ -127,7 +157,7 @@ const base = {
   "Светлая (OpenStreetMap, приглушённая)": L.tileLayer(osm, Object.assign({className:"tiles-muted"}, tileOpt)),
   "Тёмная (OpenStreetMap, инверсия)": L.tileLayer(osm, Object.assign({className:"tiles-dark"}, tileOpt))
 };
-base["Стандартная (OpenStreetMap)"].addTo(map);
+base["Тёмная (OpenStreetMap, инверсия)"].addTo(map);
 L.control.layers(base, null, { position:"topright", collapsed:true }).addTo(map);
 (function(){
   const pts = Object.values(points);
@@ -241,5 +271,7 @@ unplaced.forEach(n=>{ const li=document.createElement("li");
   li.onclick=()=>openNode(n); ul.appendChild(li); });
 })();
 </script>
+<script src="../assets/asof.js?v=t62"></script>
+<script>(function(){var a=window.CBR_ASOF,e=document.getElementById("cbr-asof");if(a&&e)e.innerHTML="<i></i>"+a.as_of+" Europe/Minsk";})();</script>
 </body>
 </html>

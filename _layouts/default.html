@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% assign u = page.url %}{% assign sec = "" %}{% if u contains "%D0%9E%D0%A2%D0%A7" or u contains "ОТЧЁТ" %}{% assign sec = "Актуальный отчёт" %}{% elsif u contains "OI_5x5" %}{% assign sec = "ОИ 5×5" %}{% elsif u contains "/data/oi5x5" %}{% assign sec = "Данные ОИ 5×5" %}{% elsif u contains "mention_gap" %}{% assign sec = "Разрыв упоминаний" %}{% elsif u contains "SOURCES" %}{% assign sec = "Источники сбора" %}{% elsif u contains "darpa-programs" %}{% assign sec = "Программы DARPA" %}{% elsif u != "/" and u != "/index.html" and page.title %}{% assign sec = page.title %}{% endif %}
+<title>{{ site.title }}{% if sec != "" and sec != site.title %} — {{ sec }}{% endif %}</title>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/cbr-ops.css?v={{ site.github.build_revision | slice: 0, 7 }}">
+</head>
+<body>
+{% assign u = page.url %}
+<header class="cbr-bar">
+  <a class="cbr-mark" href="{{ site.baseurl }}/"><b>CBR</b><span>{{ site.title }}</span></a>
+  <nav class="cbr-nav">
+    <a href="{{ site.baseurl }}/%D0%90%D0%9A%D0%A2%D0%A3%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%99_%D0%9E%D0%A2%D0%A7%D0%81%D0%A2.html"{% if u contains "ОТЧЁТ" or u contains "%D0%9E%D0%A2%D0%A7" %} class="on"{% endif %}>Актуальный отчёт</a>
+    <a href="{{ site.baseurl }}/news-map/">Новостная карта</a>
+    <a href="{{ site.baseurl }}/map/">Карта реестра</a>
+    <a href="{{ site.baseurl }}/companies.csv">Реестр сил и компаний</a>
+    <a href="{{ site.baseurl }}/OI_5x5.html"{% if u contains "OI_5x5" %} class="on"{% endif %}>ОИ 5×5</a>
+    <a href="{{ site.baseurl }}/data/oi5x5/"{% if u contains "/data/oi5x5" %} class="on"{% endif %}>Данные ОИ 5×5</a>
+    <a href="{{ site.baseurl }}/data/mention_gap.html"{% if u contains "mention_gap" %} class="on"{% endif %}>Разрыв упоминаний</a>
+    <a href="{{ site.baseurl }}/SOURCES.html"{% if u contains "SOURCES" %} class="on"{% endif %}>Источники сбора</a>
+    <a href="{{ site.baseurl }}/darpa-programs/"{% if u contains "darpa-programs" %} class="on"{% endif %}>Программы DARPA</a>
+  </nav>
+  <span class="cbr-asof" title="Сведения актуальны на (Europe/Minsk)"><i></i>{{ site.data.asof.as_of }} Europe/Minsk</span>
+</header>
+<main class="cbr-doc">
+{{ content }}
+</main>
+<footer class="cbr-foot">{{ site.title }} · сведения на {{ site.data.asof.as_of }} Europe/Minsk · коды ОИ 5×5 — проход {{ site.data.asof.oi_as_of }} Europe/Minsk · <a href="https://github.com/SKB-BY/cbr-news-materials">репозиторий</a></footer>
+</body>
+</html>
