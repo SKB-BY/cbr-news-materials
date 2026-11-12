@@ -161,6 +161,7 @@ def main():
     ap.add_argument("--out-md", default="")
     ap.add_argument("--min-items", type=int, default=2, help="keep candidates seen in at least N items")
     ap.add_argument("--limit", type=int, default=200)
+    ap.add_argument("--as-of", default="", help="дата построения для заголовка md, например «12.11.2026 10:30 Europe/Minsk»")
     a = ap.parse_args()
 
     rows = list(csv.DictReader(open(a.csv, encoding="utf-8")))
@@ -197,6 +198,8 @@ def main():
     if a.out_md:
         with open(a.out_md, "w", encoding="utf-8") as fh:
             fh.write("# Упомянуто в новостях, но отсутствует в реестре — рабочий список\n\n")
+            if a.as_of:
+                fh.write(f"Построен по {'живой базе' if a.db else 'реестру'} на {a.as_of}.\n\n")
             fh.write("Рабочий список кандидатов, **не проверенная перепись**. Названия извлечены регулярными выражениями "
                      "из заголовков и вводных абзацев новостей и сравнены с реестром `companies.csv` "
                      "(названия, псевдонимы, шаблоны упоминаний). Среди кандидатов есть ложные срабатывания "
