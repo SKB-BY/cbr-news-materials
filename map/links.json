@@ -1,281 +1,351 @@
 {
- "_note": "Аналитические связи для карты. Каждая связь — только с основанием из реестра (поля sponsor/role_focus/customers/ubo_name) и URL источника. Внешние узлы (external) — организации, которых нет в реестре, но которые названы в источнике. Тип partner — сотрудничество/партнёрство/инвестиция/испытания по опубликованному источнику; не означает подчинённость.",
- "external": [
-  {
-   "id": "x-cto",
-   "name": "Министерство войны (обороны) США — USW(R&E)/CTO",
-   "country": "США",
-   "note": "вне реестра; по релизу war.gov от 12.01.2026 — организации инновационной экосистемы под CTO"
-  },
-  {
-   "id": "x-irgc-asf",
-   "name": "Аэрокосмические силы КСИР (IRGC ASF)",
-   "country": "Иран",
-   "note": "вне реестра; объект анализа угроз"
-  },
-  {
-   "id": "x-naval-group",
-   "name": "Naval Group",
-   "country": "Франция",
-   "note": "вне реестра; прайм-подрядчик и интегратор по заказу S-100 для FREMM (по сайту Schiebel)"
-  },
-  {
-   "id": "x-skyfall",
-   "name": "SkyFall",
-   "country": "Украина",
-   "note": "вне реестра: официальный сайт skyfall.ua 11.11.2026 не открылся (TLS-ошибка / HTTP 500), поэтому строка реестра не создана. По релизу Airbus (12.06.2026, раздел About SkyFall): производит бомбардировщик «Vampire» («the enemy nicknamed “Baba Yaga”»), FPV Shrike, перехватчики P1-SUN против «Shahed», средства связи и компоненты"
-  },
-  {
-   "id": "x-japan-mod",
-   "name": "Министерство обороны Японии",
-   "country": "Япония",
-   "note": "вне реестра; заказчик перехватчиков SkyFall по стенограмме пресс-конференции министра обороны 09.10.2026"
-  },
-  {
-   "id": "x-terma",
-   "name": "Terma Group",
-   "country": "Дания",
-   "note": "вне реестра; партнёр Odd Systems по ИИ-перехватчику (релиз Odd Systems, 21.07.2025)"
-  }
- ],
- "links": [
-  {
-   "from": "x-cto",
-   "to": "darpa",
-   "type": "structure",
-   "basis": "DARPA — одна из шести организаций инновационной экосистемы под CTO",
-   "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
-  },
-  {
-   "from": "x-cto",
-   "to": "sco",
-   "type": "structure",
-   "basis": "SCO — оперативно под CTO",
-   "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
-  },
-  {
-   "from": "x-cto",
-   "to": "osc",
-   "type": "structure",
-   "basis": "OSC — под CTO",
-   "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
-  },
-  {
-   "from": "x-cto",
-   "to": "cdao",
-   "type": "structure",
-   "basis": "CDAO — под CTO",
-   "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
-  },
-  {
-   "from": "x-cto",
-   "to": "trmc",
-   "type": "structure",
-   "basis": "TRMC — под CTO",
-   "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
-  },
-  {
-   "from": "diu",
-   "to": "replicator",
-   "type": "structure",
-   "basis": "DIU — Office of Primary Responsibility процесса Replicator",
-   "source": "https://www.diu.mil/latest/memorandum-replicator-2-direction-and-execution"
-  },
-  {
-   "from": "dga",
-   "to": "aid",
-   "type": "structure",
-   "basis": "AID входит в контур DGA (Министерство вооружённых сил Франции)",
-   "source": "https://www.defense.gouv.fr/en/aid/mieux-nous-connaitre/presentation-agency"
-  },
-  {
-   "from": "dstl",
-   "to": "dasa",
-   "type": "structure",
-   "basis": "DASA работает через Dstl (MOD)",
-   "source": "https://www.gov.uk/government/organisations/defence-and-security-accelerator"
-  },
-  {
-   "from": "dga",
-   "to": "schiebel",
-   "type": "customer",
-   "basis": "ВМС Франции заказали S-100 через DGA и Naval Group",
-   "source": "https://schiebel.net/french-navy-further-expands-camcopter-s-100-fleet/"
-  },
-  {
-   "from": "x-naval-group",
-   "to": "schiebel",
-   "type": "customer",
-   "basis": "Naval Group — прайм-подрядчик и интегратор S-100 на FREMM",
-   "source": "https://schiebel.net/french-navy-further-expands-camcopter-s-100-fleet/"
-  },
-  {
-   "from": "anduril",
-   "to": "area-i",
-   "type": "ubo",
-   "basis": "Area-I — 100% дочерняя компания Anduril с 2021 г., бренд сохранён",
-   "source": "https://www.anduril.com/news/anduril-industries-acquires-area-i-adds-altius-capabilities-to-hardware-portfolio"
-  },
-  {
-   "from": "x-irgc-asf",
-   "to": "shahed",
-   "type": "ubo",
-   "basis": "по Минфину США: Shahed Aviation Industries Research Center подчинён IRGC ASF",
-   "source": "https://home.treasury.gov/news/press-releases/jy1104"
-  },
-  {
-   "from": "diehl",
-   "to": "brave1",
-   "type": "partner",
-   "basis": "Diehl — первая иностранная компания, испытавшая свой НРК (UGV) в рамках платформы Test in Ukraine (Brave1), на полигоне 3-й штурмовой бригады (Минцифры, 28.07.2025)",
-   "source": "https://digitalstate.gov.ua/news/tech/ukrayina-vidkryla-platformu-test-in-ukraine-dlia-vyprobuvannia-miznarodnykh-oboronnykh-tekhnolohiy-pershyy-uchasnyk-diehl"
-  },
-  {
-   "from": "shieldai",
-   "to": "brave1",
-   "type": "partner",
-   "basis": "через Brave1 Shield AI установила партнёрство с украинской компанией (название не раскрыто): ПО Shield AI интегрировано с дронами этой компании (пост Brave1; Shield AI в X, по «Украинской правде», 13.03.2026)",
-   "source": "https://www.linkedin.com/posts/brave1ukraine_brave1-helped-the-american-defense-unicorn-activity-7438297999207936000-xyZT https://www.pravda.com.ua/eng/news/2026/03/13/8025307/"
-  },
-  {
-   "from": "palantir",
-   "to": "brave1",
-   "type": "partner",
-   "basis": "Brave1 Dataroom — защищённая среда для обучения военных ИИ-моделей на ПО Palantir; запущена МО и Минцифры Украины, ВСУ, НИИ военной разведки и Palantir (МО Украины, 21.01.2026)",
-   "source": "https://mod.gov.ua/en/news/ministry-of-defence-launches-brave1-dataroom-a-secure-environment-for-training-military-ai-solutions"
-  },
-  {
-   "from": "anduril",
-   "to": "kara-dag",
-   "type": "partner",
-   "basis": "Kara Dag Technologies начала сотрудничество с Anduril: передаёт практики противодействия дронам, полученные в боевых условиях, для систем Anduril, уже используемых в Украине (сайт Kara Dag, 03.2026)",
-   "source": "https://karadagtech.com/en/cooperation-kara-dag-with-anduril/"
-  },
-  {
-   "from": "network-vc-defense",
-   "to": "swarmer",
-   "type": "partner",
-   "basis": "Network VC — участник раунда Series A Swarmer на $15 млн (лид — Broadband Capital Investments), 09.2025",
-   "source": "https://investors.swarmer.com/news/swarmer-ukraines-leading-drone-autonomy-and-swarming-company-announces-15m-series-a-led-by-us-investors/"
-  },
-  {
-   "from": "dm-holding",
-   "to": "udi",
-   "type": "partner",
-   "basis": "соглашение о создании СП в США по производству спецхимии (одноосновный порох для артбоеприпасов, в т.ч. 155 мм), подписано 11.07.2025 в Риме",
-   "source": "https://www.dmholding.com/industry-articles/us-ukraine-ammunition-jv/"
-  },
-  {
-   "from": "airbus-ds",
-   "to": "x-skyfall",
-   "type": "partner",
-   "basis": "Airbus Defence and Space и SkyFall подписали меморандум (MoU) о стратегическом партнёрстве на ILA Berlin, 12.06.2026 (релиз Airbus); партнёрство, не подчинённость",
-   "source": "https://www.airbus.com/en/newsroom/press-releases/2026-06-airbus-and-skyfall-form-strategic-alliance-to-advance-european-and-ukrainian-defence-innovation"
-  },
-  {
-   "from": "x-japan-mod",
-   "to": "x-skyfall",
-   "type": "customer",
-   "basis": "министр обороны Японии С. Коидзуми, 09.10.2026: «既に防衛省では、ウクライナのスカイフォール社の迎撃用ドローンの取得契約を締結しており» — контракт на приобретение дронов-перехватчиков уже подписан; модель, количество и сумма не названы",
-   "source": "https://www.mod.go.jp/j/press/kisha/2026/1009a.html"
-  },
-  {
-   "from": "redcat",
-   "to": "sine-engineering",
-   "type": "partner",
-   "basis": "Red Cat и Sine Advanced Engineering, Inc. (американское подразделение Sine) подписали неэксклюзивный MoU о стратегическом партнёрстве: интеграция связи и навигации Sine в БЭК Blue Ops и БЛА Red Cat (релиз Red Cat, 02.11.2026)",
-   "source": "https://ir.redcatholdings.com/news-events/press-releases/detail/248/red-cat-announces-strategic-partnership-with-sine-engineering-to-strengthen-resilient-communications-and-navigation-across-air-and-maritime-systems"
-  },
-  {
-   "from": "phantom-defense",
-   "to": "drone-dominance",
-   "type": "partner",
-   "basis": "Phantom Defense участвовала в Gauntlet II программы Drone Dominance (Форт-Карсон): одна из трёх компаний, создававших РЭБ-среду противодействия для испытаний БЛА; после этапа получила приглашения на дальнейшие мероприятия (по сайту компании). Испытания, не подчинённость",
-   "source": "https://www.phantomdefense.tech/en/blog/phantom-defense-drone-dominance-gauntlet-ii"
-  },
-  {
-   "from": "diu",
-   "to": "drone-dominance",
-   "type": "structure",
-   "basis": "DDP «jointly administered by the Test Resource Management Center (TRMC) and the Defense Innovation Unit (DIU)»; DIU курирует работу с промышленностью",
-   "source": "https://dronedominance.mil/"
-  },
-  {
-   "from": "trmc",
-   "to": "drone-dominance",
-   "type": "structure",
-   "basis": "TRMC — «primary execution authority and test range coordinator» программы Drone Dominance",
-   "source": "https://dronedominance.mil/"
-  },
-  {
-   "from": "techex",
-   "to": "brave1",
-   "type": "partner",
-   "basis": "по сайту TechEx: «TechEx works with the Ukrainian state through the BRAVE1 defense innovation cluster and the Dot Chain procurement system» (заявление компании)",
-   "source": "https://techex.com.ua/en/about-us/"
-  },
-  {
-   "from": "militech",
-   "to": "brave1",
-   "type": "partner",
-   "basis": "по сайту MILITECH: решения «available on the government portals DOT and Brave1» (заявление компании)",
-   "source": "https://www.militech.com.ua/en"
-  },
-  {
-   "from": "nswc-crane",
-   "to": "drone-dominance",
-   "type": "structure",
-   "basis": "NSWC Crane «holds contracting authority and issues prototype delivery orders based on Gauntlet test results» в программе Drone Dominance",
-   "source": "https://dronedominance.mil/"
-  },
-  {
-   "from": "rheinmetall",
-   "to": "rheinmetall-uop",
-   "type": "ubo",
-   "basis": "СП совместно принадлежит Rheinmetall Landsysteme GmbH (51%) и АО «УОП» (49%)",
-   "source": "https://www.rheinmetall.com/en/company/subsidiaries/rheinmetall-ukrainian-defense-industry"
-  },
-  {
-   "from": "udi",
-   "to": "rheinmetall-uop",
-   "type": "ubo",
-   "basis": "49% у АО «УОП» (Rheinmetall); по ЕГР — через 100%-ную дочку ТОВ «Западноукраинский машиностроительный завод»",
-   "source": "https://opendatabot.ua/c/44789782"
-  },
-  {
-   "from": "rheinmetall",
-   "to": "udi",
-   "type": "partner",
-   "basis": "стратегическое сотрудничество с 05.2023; СП в Киеве (работает с 18.10.2023): ремонт, затем совместное производство продукции Rheinmetall в Украине",
-   "source": "https://www.rheinmetall.com/en/media/news-watch/news/2023/10/2023-10-24-rheinmetall-ag-and-ukrainian-defense-industry-jsc-establish-joint-venture-in-kyiv"
-  },
-  {
-   "from": "general-cherry",
-   "to": "orqa",
-   "type": "partner",
-   "basis": "меморандум о сотрудничестве с хорватской ORQA — развитие производственных возможностей в Украине и Европе (сайт General Cherry). Подземный завод из вводной на официальных страницах не подтверждён",
-   "source": "https://gencherry.com/en/about-us"
-  },
-  {
-   "from": "general-cherry",
-   "to": "drone-dominance",
-   "type": "partner",
-   "basis": "по сайту General Cherry: компания прошла первый и второй этапы DDP; Wilcox Cherry Defense (совместное производство с американской Wilcox) — среди 19 компаний, прошедших квалификационный этап",
-   "source": "https://gencherry.com/en/about-us"
-  },
-  {
-   "from": "odd-systems",
-   "to": "x-terma",
-   "type": "partner",
-   "basis": "стратегическое партнёрство Odd Systems и Terma Group (Дания): недорогой ИИ-перехватчик дронов (релиз 21.07.2025)",
-   "source": "https://oddsystems.io/en/terma-oddsystems-strategic-partnership"
-  },
-  {
-   "from": "bluebird-tech",
-   "to": "brave1",
-   "type": "partner",
-   "basis": "по сайту BlueBird Tech: официальный канал продаж партнёров — market.brave1.gov.ua (Brave1 Market)",
-   "source": "https://www.blue-bird.tech/en/products/chuyka-3-0/"
-  }
- ]
+  "_note": "Аналитические связи для карты. Каждая связь — только с основанием из реестра (поля sponsor/role_focus/customers/ubo_name) и URL источника. Внешние узлы (external) — организации, которых нет в реестре, но которые названы в источнике. Тип partner — сотрудничество/партнёрство/инвестиция/испытания по опубликованному источнику; не означает подчинённость.",
+  "external": [
+    {
+      "id": "x-cto",
+      "name": "Министерство войны (обороны) США — USW(R&E)/CTO",
+      "country": "США",
+      "note": "вне реестра; по релизу war.gov от 12.01.2026 — организации инновационной экосистемы под CTO"
+    },
+    {
+      "id": "x-irgc-asf",
+      "name": "Аэрокосмические силы КСИР (IRGC ASF)",
+      "country": "Иран",
+      "note": "вне реестра; объект анализа угроз"
+    },
+    {
+      "id": "x-naval-group",
+      "name": "Naval Group",
+      "country": "Франция",
+      "note": "вне реестра; прайм-подрядчик и интегратор по заказу S-100 для FREMM (по сайту Schiebel)"
+    },
+    {
+      "id": "x-skyfall",
+      "name": "SkyFall",
+      "country": "Украина",
+      "note": "вне реестра: официальный сайт skyfall.ua 11.11.2026 и 12.11.2026 не открылся (TLS-ошибка), поэтому строка реестра не создана. По релизу Airbus (12.06.2026, раздел About SkyFall): производит бомбардировщик «Vampire» («the enemy nicknamed “Baba Yaga”»), FPV Shrike, перехватчики P1-SUN против «Shahed», средства связи и компоненты"
+    },
+    {
+      "id": "x-japan-mod",
+      "name": "Министерство обороны Японии",
+      "country": "Япония",
+      "note": "вне реестра; заказчик перехватчиков SkyFall по стенограмме пресс-конференции министра обороны 09.10.2026"
+    },
+    {
+      "id": "x-terma",
+      "name": "Terma Group",
+      "country": "Дания",
+      "note": "вне реестра; партнёр Odd Systems по ИИ-перехватчику (релиз Odd Systems, 21.07.2025); штаб-квартира — Terma A/S, Hovmarken 4, 8520 Lystrup (terma.com, 12.11.2026)"
+    }
+  ],
+  "links": [
+    {
+      "from": "x-cto",
+      "to": "darpa",
+      "type": "structure",
+      "basis": "DARPA — одна из шести организаций инновационной экосистемы под CTO",
+      "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
+    },
+    {
+      "from": "x-cto",
+      "to": "sco",
+      "type": "structure",
+      "basis": "SCO — оперативно под CTO",
+      "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
+    },
+    {
+      "from": "x-cto",
+      "to": "osc",
+      "type": "structure",
+      "basis": "OSC — под CTO",
+      "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
+    },
+    {
+      "from": "x-cto",
+      "to": "cdao",
+      "type": "structure",
+      "basis": "CDAO — под CTO",
+      "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
+    },
+    {
+      "from": "x-cto",
+      "to": "trmc",
+      "type": "structure",
+      "basis": "TRMC — под CTO",
+      "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
+    },
+    {
+      "from": "diu",
+      "to": "replicator",
+      "type": "structure",
+      "basis": "DIU — Office of Primary Responsibility процесса Replicator",
+      "source": "https://www.diu.mil/latest/memorandum-replicator-2-direction-and-execution"
+    },
+    {
+      "from": "dga",
+      "to": "aid",
+      "type": "structure",
+      "basis": "AID входит в контур DGA (Министерство вооружённых сил Франции)",
+      "source": "https://www.defense.gouv.fr/en/aid/mieux-nous-connaitre/presentation-agency"
+    },
+    {
+      "from": "dstl",
+      "to": "dasa",
+      "type": "structure",
+      "basis": "DASA работает через Dstl (MOD)",
+      "source": "https://www.gov.uk/government/organisations/defence-and-security-accelerator"
+    },
+    {
+      "from": "dga",
+      "to": "schiebel",
+      "type": "customer",
+      "basis": "ВМС Франции заказали S-100 через DGA и Naval Group",
+      "source": "https://schiebel.net/french-navy-further-expands-camcopter-s-100-fleet/"
+    },
+    {
+      "from": "x-naval-group",
+      "to": "schiebel",
+      "type": "customer",
+      "basis": "Naval Group — прайм-подрядчик и интегратор S-100 на FREMM",
+      "source": "https://schiebel.net/french-navy-further-expands-camcopter-s-100-fleet/"
+    },
+    {
+      "from": "anduril",
+      "to": "area-i",
+      "type": "ubo",
+      "basis": "Area-I — 100% дочерняя компания Anduril с 2021 г., бренд сохранён",
+      "source": "https://www.anduril.com/news/anduril-industries-acquires-area-i-adds-altius-capabilities-to-hardware-portfolio"
+    },
+    {
+      "from": "x-irgc-asf",
+      "to": "shahed",
+      "type": "ubo",
+      "basis": "по Минфину США: Shahed Aviation Industries Research Center подчинён IRGC ASF",
+      "source": "https://home.treasury.gov/news/press-releases/jy1104"
+    },
+    {
+      "from": "diehl",
+      "to": "brave1",
+      "type": "partner",
+      "basis": "Diehl — первая иностранная компания, испытавшая свой НРК (UGV) в рамках платформы Test in Ukraine (Brave1), на полигоне 3-й штурмовой бригады (Минцифры, 28.07.2025)",
+      "source": "https://digitalstate.gov.ua/news/tech/ukrayina-vidkryla-platformu-test-in-ukraine-dlia-vyprobuvannia-miznarodnykh-oboronnykh-tekhnolohiy-pershyy-uchasnyk-diehl"
+    },
+    {
+      "from": "shieldai",
+      "to": "brave1",
+      "type": "partner",
+      "basis": "через Brave1 Shield AI установила партнёрство с украинской компанией (название не раскрыто): ПО Shield AI интегрировано с дронами этой компании (пост Brave1; Shield AI в X, по «Украинской правде», 13.03.2026)",
+      "source": "https://www.linkedin.com/posts/brave1ukraine_brave1-helped-the-american-defense-unicorn-activity-7438297999207936000-xyZT https://www.pravda.com.ua/eng/news/2026/03/13/8025307/"
+    },
+    {
+      "from": "palantir",
+      "to": "brave1",
+      "type": "partner",
+      "basis": "Brave1 Dataroom — защищённая среда для обучения военных ИИ-моделей на ПО Palantir; запущена МО и Минцифры Украины, ВСУ, НИИ военной разведки и Palantir (МО Украины, 21.01.2026)",
+      "source": "https://mod.gov.ua/en/news/ministry-of-defence-launches-brave1-dataroom-a-secure-environment-for-training-military-ai-solutions"
+    },
+    {
+      "from": "anduril",
+      "to": "kara-dag",
+      "type": "partner",
+      "basis": "Kara Dag Technologies начала сотрудничество с Anduril: передаёт практики противодействия дронам, полученные в боевых условиях, для систем Anduril, уже используемых в Украине (сайт Kara Dag, 03.2026)",
+      "source": "https://karadagtech.com/en/cooperation-kara-dag-with-anduril/"
+    },
+    {
+      "from": "network-vc-defense",
+      "to": "swarmer",
+      "type": "partner",
+      "basis": "Network VC — участник раунда Series A Swarmer на $15 млн (лид — Broadband Capital Investments), 09.2025",
+      "source": "https://investors.swarmer.com/news/swarmer-ukraines-leading-drone-autonomy-and-swarming-company-announces-15m-series-a-led-by-us-investors/"
+    },
+    {
+      "from": "dm-holding",
+      "to": "udi",
+      "type": "partner",
+      "basis": "соглашение о создании СП в США по производству спецхимии (одноосновный порох для артбоеприпасов, в т.ч. 155 мм), подписано 11.07.2025 в Риме",
+      "source": "https://www.dmholding.com/industry-articles/us-ukraine-ammunition-jv/"
+    },
+    {
+      "from": "airbus-ds",
+      "to": "x-skyfall",
+      "type": "partner",
+      "basis": "Airbus Defence and Space и SkyFall подписали меморандум (MoU) о стратегическом партнёрстве на ILA Berlin, 12.06.2026 (релиз Airbus); партнёрство, не подчинённость",
+      "source": "https://www.airbus.com/en/newsroom/press-releases/2026-06-airbus-and-skyfall-form-strategic-alliance-to-advance-european-and-ukrainian-defence-innovation"
+    },
+    {
+      "from": "x-japan-mod",
+      "to": "x-skyfall",
+      "type": "customer",
+      "basis": "министр обороны Японии С. Коидзуми, 09.10.2026: «既に防衛省では、ウクライナのスカイフォール社の迎撃用ドローンの取得契約を締結しており» — контракт на приобретение дронов-перехватчиков уже подписан; модель, количество и сумма не названы",
+      "source": "https://www.mod.go.jp/j/press/kisha/2026/1009a.html"
+    },
+    {
+      "from": "redcat",
+      "to": "sine-engineering",
+      "type": "partner",
+      "basis": "Red Cat и Sine Advanced Engineering, Inc. (американское подразделение Sine) подписали неэксклюзивный MoU о стратегическом партнёрстве: интеграция связи и навигации Sine в БЭК Blue Ops и БЛА Red Cat (релиз Red Cat, 02.11.2026)",
+      "source": "https://ir.redcatholdings.com/news-events/press-releases/detail/248/red-cat-announces-strategic-partnership-with-sine-engineering-to-strengthen-resilient-communications-and-navigation-across-air-and-maritime-systems"
+    },
+    {
+      "from": "phantom-defense",
+      "to": "drone-dominance",
+      "type": "partner",
+      "basis": "Phantom Defense участвовала в Gauntlet II программы Drone Dominance (Форт-Карсон): одна из трёх компаний, создававших РЭБ-среду противодействия для испытаний БЛА; после этапа получила приглашения на дальнейшие мероприятия (по сайту компании). Испытания, не подчинённость",
+      "source": "https://www.phantomdefense.tech/en/blog/phantom-defense-drone-dominance-gauntlet-ii"
+    },
+    {
+      "from": "diu",
+      "to": "drone-dominance",
+      "type": "structure",
+      "basis": "DDP «jointly administered by the Test Resource Management Center (TRMC) and the Defense Innovation Unit (DIU)»; DIU курирует работу с промышленностью",
+      "source": "https://dronedominance.mil/"
+    },
+    {
+      "from": "trmc",
+      "to": "drone-dominance",
+      "type": "structure",
+      "basis": "TRMC — «primary execution authority and test range coordinator» программы Drone Dominance",
+      "source": "https://dronedominance.mil/"
+    },
+    {
+      "from": "techex",
+      "to": "brave1",
+      "type": "partner",
+      "basis": "по сайту TechEx: «TechEx works with the Ukrainian state through the BRAVE1 defense innovation cluster and the Dot Chain procurement system» (заявление компании)",
+      "source": "https://techex.com.ua/en/about-us/"
+    },
+    {
+      "from": "militech",
+      "to": "brave1",
+      "type": "partner",
+      "basis": "по сайту MILITECH: решения «available on the government portals DOT and Brave1» (заявление компании)",
+      "source": "https://www.militech.com.ua/en"
+    },
+    {
+      "from": "nswc-crane",
+      "to": "drone-dominance",
+      "type": "structure",
+      "basis": "NSWC Crane «holds contracting authority and issues prototype delivery orders based on Gauntlet test results» в программе Drone Dominance",
+      "source": "https://dronedominance.mil/"
+    },
+    {
+      "from": "rheinmetall",
+      "to": "rheinmetall-uop",
+      "type": "ubo",
+      "basis": "СП совместно принадлежит Rheinmetall Landsysteme GmbH (51%) и АО «УОП» (49%)",
+      "source": "https://www.rheinmetall.com/en/company/subsidiaries/rheinmetall-ukrainian-defense-industry"
+    },
+    {
+      "from": "udi",
+      "to": "rheinmetall-uop",
+      "type": "ubo",
+      "basis": "49% у АО «УОП» (Rheinmetall); по ЕГР — через 100%-ную дочку ТОВ «Западноукраинский машиностроительный завод»",
+      "source": "https://opendatabot.ua/c/44789782"
+    },
+    {
+      "from": "rheinmetall",
+      "to": "udi",
+      "type": "partner",
+      "basis": "стратегическое сотрудничество с 05.2023; СП в Киеве (работает с 18.10.2023): ремонт, затем совместное производство продукции Rheinmetall в Украине",
+      "source": "https://www.rheinmetall.com/en/media/news-watch/news/2023/10/2023-10-24-rheinmetall-ag-and-ukrainian-defense-industry-jsc-establish-joint-venture-in-kyiv"
+    },
+    {
+      "from": "general-cherry",
+      "to": "orqa",
+      "type": "partner",
+      "basis": "меморандум о сотрудничестве с хорватской ORQA — развитие производственных возможностей в Украине и Европе (сайт General Cherry). Подземный завод из вводной на официальных страницах не подтверждён",
+      "source": "https://gencherry.com/en/about-us"
+    },
+    {
+      "from": "general-cherry",
+      "to": "drone-dominance",
+      "type": "partner",
+      "basis": "по сайту General Cherry: компания прошла первый и второй этапы DDP; Wilcox Cherry Defense (совместное производство с американской Wilcox) — среди 19 компаний, прошедших квалификационный этап",
+      "source": "https://gencherry.com/en/about-us"
+    },
+    {
+      "from": "odd-systems",
+      "to": "x-terma",
+      "type": "partner",
+      "basis": "стратегическое партнёрство Odd Systems и Terma Group (Дания): недорогой ИИ-перехватчик дронов (релиз 21.07.2025)",
+      "source": "https://oddsystems.io/en/terma-oddsystems-strategic-partnership"
+    },
+    {
+      "from": "bluebird-tech",
+      "to": "brave1",
+      "type": "partner",
+      "basis": "по сайту BlueBird Tech: официальный канал продаж партнёров — market.brave1.gov.ua (Brave1 Market)",
+      "source": "https://www.blue-bird.tech/en/products/chuyka-3-0/"
+    },
+    {
+      "from": "taf-industries",
+      "to": "wingcopter",
+      "type": "partner",
+      "basis": "меморандум (MoU) 13.02.2026 о намерении создать совместное предприятие для производства разведывательных БЛА TAF в Германии (сайты TAF и Wingcopter); СП в стадии намерения",
+      "source": "https://taf-ua.com/en/build-with-ukraine-wingcopter-and-taf-industries-establish-joint-venture-to-scale-production-of-reconnaissance-drones-in-germany-for-ukraine/"
+    },
+    {
+      "from": "taf-industries",
+      "to": "pgz",
+      "type": "partner",
+      "basis": "письмо о намерениях (LoI) 25.06.2026, Гданьск: локализация производства БЛА в Польше (сайт TAF)",
+      "source": "https://taf-ua.com/en/taf-industries-and-pgz-partner-to-localize-uav-production-in-poland/"
+    },
+    {
+      "from": "front-ventures",
+      "to": "molfar",
+      "type": "partner",
+      "basis": "инвестиция Front Ventures 1,5 млн евро (ведущий инвестор раунда 2 млн евро, доля 10%), релиз Front Ventures 03.06.2026; инвестиция, не подчинённость",
+      "source": "https://news.cision.com/se/front-ventures-ab/r/front-ventures-investerar-1-5-miljoner-euro-i-ukrainskt-radarbolag,c4356698"
+    },
+    {
+      "from": "innovation-development-fund",
+      "to": "brave1",
+      "type": "structure",
+      "basis": "Brave1 — государственная инициатива, реализуемая Фондом развития инноваций (страница About Brave1, 12.11.2026); решения о грантах — большинством голосов наблюдательного совета Фонда (МО Украины, 06.11.2026)",
+      "source": "https://brave1.gov.ua/en/about https://mod.gov.ua/en/explainers/brave1-ukraine-defense-tech-cluster"
+    },
+    {
+      "from": "unite-brave-nato",
+      "to": "brave1",
+      "type": "structure",
+      "basis": "с украинской стороны программу координирует Brave1, первый конкурс со стороны НАТО ведёт NCIA (МО Украины)",
+      "source": "https://mod.gov.ua/en/news/unite-brave-nato-applications-open-for-the-first-joint-ukraine-nato-innovation-grant-program https://www.nato.int/en/news-and-events/articles/news/2026/03/25/nato-and-ukraine-activate-next-steps-for-unite-brave-nato-innovation-programme"
+    },
+    {
+      "from": "bravetech-eu",
+      "to": "brave1",
+      "type": "structure",
+      "basis": "BraveTech EU связывает платформу Brave1 Минцифры с European Defence Fund и EUDIS (Еврокомиссия, 11.07.2025)",
+      "source": "https://enlargement.ec.europa.eu/news/joint-press-release-eu-and-ukraine-boost-battlefield-driven-solutions-bravetech-eu-2025-07-11_en"
+    },
+    {
+      "from": "eda",
+      "to": "bravetech-eu",
+      "type": "partner",
+      "basis": "DefTech Forges — конкурсы в рамках BraveTech EU: финансирует Еврокомиссия, поддерживают Brave1 и EDA; победители смогут продолжить испытания с EDA (Brave1, 12.08.2026)",
+      "source": "https://brave1.gov.ua/en/news/deftech-forges-applications-open"
+    },
+    {
+      "from": "airbus-ds",
+      "to": "brave1",
+      "type": "partner",
+      "basis": "Airbus Defence and Space подписала меморандум о взаимопонимании (MoU) с Brave1 — первое промышленное стратегическое партнёрство Brave1 с западной компанией; технологии Airbus — в контур Test in Ukraine (Airbus, 01.07.2026)",
+      "source": "https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-and-brave1-partner-to-boost-ukrainian-defence-innovation"
+    },
+    {
+      "from": "saab",
+      "to": "brave1",
+      "type": "partner",
+      "basis": "первый этап инициативы Brave Prime — подписание официальных соглашений с Airbus и Saab (МО Украины, 01.07.2026)",
+      "source": "https://mod.gov.ua/en/news/one-billion-for-explosives-low-cost-missiles-and-agreements-with-airbus-and-saab-key-takeaways-from-brave1-advantage"
+    },
+    {
+      "from": "aid",
+      "to": "brave1",
+      "type": "partner",
+      "basis": "Brave1 и AID подписали соглашение о запуске BRAVE FRANCE — совместной грантовой программы украинских и французских оборонных компаний, бюджет €20 млн (по €10 млн от сторон) (Brave1, 16.06.2026)",
+      "source": "https://brave1.gov.ua/en/news/brave-france-eng"
+    }
+  ]
 }
