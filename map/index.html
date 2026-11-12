@@ -73,6 +73,19 @@
   .leaflet-tooltip.lbl { background:var(--panel); color:var(--text); border:1px solid var(--line-2); }
   .warn { background:#3a1416 !important; border-color:#7a2a2e !important; color:#ffb3b5 !important; }
   .mk .n { background:#0b0d10 !important; color:#e7ecf1 !important; border-color:#3a4350 !important; }
+  /* t69u: сведения и связи организаций (все разделы и сферы) */
+  #orgs { list-style:none; padding:0; margin:0; max-height:46vh; overflow:auto; }
+  #orgs li { padding:6px 8px; margin:3px 0; background:var(--bg-2); border:1px solid var(--line); border-radius:2px; cursor:pointer; font-size:12.5px; color:var(--text); }
+  #orgs li:hover { border-color:var(--accent); }
+  .cnt { font:11px var(--mono); color:var(--muted); white-space:nowrap; }
+  .nopt { font:10.5px var(--mono); color:var(--warn); border:1px solid var(--warn); border-radius:2px; padding:0 4px; margin-left:4px; }
+  select.f { width:100%; padding:6px 8px; background:var(--bg-2); color:var(--text); border:1px solid var(--line); border-radius:2px; font:inherit; margin:4px 0; }
+  .oi { padding:0 .35em; border-radius:2px; font:600 11px var(--mono); white-space:nowrap; }
+  .sv { list-style:none; padding:0 !important; margin:6px 0 0 !important; }
+  .sv li { padding:5px 0; border-top:1px solid var(--line); font-size:12.5px; }
+  .sv .m { font:11px var(--mono); color:var(--muted); }
+  .ok2 { color:#3fb950; } .ok1 { color:#8ad48f; } .ok0 { color:#9aa4b1; } .ng1 { color:#e0a050; } .ng2 { color:#f2555a; }
+  .leaflet-tooltip.hov { background:var(--panel); color:var(--text); border:1px solid var(--line-2); max-width:380px; white-space:normal; font-size:12px; }
 </style>
 </head>
 <body>
@@ -104,6 +117,12 @@
       <h2>Аналитические цепочки</h2>
       <ul id="chains"></ul>
       <p class="muted">Связи — только с URL источника (<a href="links.json">links.json</a>) и только если оба конца имеют точку; пунктир — внешний узел, которого нет в реестре.</p>
+      <h2>Сведения и связи организаций, компаний и фирм</h2>
+      <p class="muted">Все разделы и сферы. Сведения — материалы с кодом ОИ 5×5 с 01.01.2026, где названа организация (упоминание в контуре или точное имя в заголовке); порядок — дата, достоверность, значимость. Связи — именованные связи из опубликованных материалов с окрасом, без «совместного упоминания». Узел без подтверждённого адреса показан с пометкой «без точки» — координаты не выдумываются. Телефоны, e-mail и домашние адреса не публикуются.</p>
+      <select class="f" id="fsph"><option value="">Сфера: все</option></select>
+      <select class="f" id="fsrc"><option value="">Узлы: реестр и контур</option><option value="реестр">только реестр</option><option value="контур">только контур (нет в реестре)</option><option value="nopt">только без точки на карте</option></select>
+      <div class="muted" id="orgs-h"></div>
+      <ul id="orgs"></ul>
       <h2 id="unloc-h">Без точки на карте</h2>
       <ul id="unloc"></ul>
     </div>
@@ -113,6 +132,7 @@
 </div>
 <script src="vendor/leaflet.js?v=t27"></script>
 <script src="data.js?v=t39"></script>
+<script src="contour.js?v=t69"></script>
 <script>
 (function(){
 const D = window.MAP_DATA;
@@ -197,8 +217,37 @@ function card(n){
       +row("Tier",esc(n.tier_level))+row("Упоминаний в базе",esc(n.mentions))+"</dl>";
   }
   if(rel) h+=`<h2>Связи</h2><ul>${rel}</ul>`;
-  return h+"</div>";
+  return h+cardC(n.id)+"</div>";
 }
+// ---- t69u: сведения и связи из контура
+const C = window.REG_CONTOUR || {nodes:{}, items:{}, rels:[]};
+const SPH = ["БПЛА","вооружение","бронетехника","армейские джипы","артиллерийские системы","системы ПВО и РВСН","авиация","средства связи и коммуникаций","программное обеспечение специального назначения","тактика и стратегия"];
+const SPHL = {"вооружение":"вооружение (легкое, тяжелое, гранатометы, гранаты, мины)","бронетехника":"бронетехника (автомобильная бронетехника, БМП, танки, САУ и ПТ САУ)","армейские джипы":"армейские джипы (вездеходы, багги, квадроциклы, мотоциклы)"};
+const PAL = {"А1":["#0B5D2A","#fff"],"Б1":["#1B7A3D","#fff"],"В1":["#2E9A4F","#fff"],"Г1":["#5BB86A","#000"],"Д1":["#A8D5B0","#000"],"А2":["#0D47A1","#fff"],"Б2":["#1565C0","#fff"],"В2":["#1E88E5","#fff"],"Г2":["#64B5F6","#000"],"Д2":["#BBDEFB","#000"],"А3":["#F9A825","#000"],"Б3":["#FBC02D","#000"],"В3":["#FDD835","#000"],"Г3":["#FFEE58","#000"],"Д3":["#FFF59D","#000"],"А4":["#EF6C00","#fff"],"Б4":["#FB8C00","#000"],"В4":["#FFA726","#000"],"Г4":["#FFCC80","#000"],"Д4":["#BDBDBD","#000"],"А5":["#B71C1C","#fff"],"Б5":["#C62828","#fff"],"В5":["#E53935","#fff"],"Г5":["#EF5350","#000"],"Д5":["#4A0000","#fff"]};
+const OKR = {"-2":["красный","ng2"],"-1":["оранжевый","ng1"],"0":["серый","ok0"],"1":["светло-зелёный","ok1"],"2":["ярко-зелёный","ok2"]};
+function oib(c){ const p=PAL[c]; return p?`<span class="oi" style="background:${p[0]};color:${p[1]}" title="ОИ 5×5: ${c}">${c}</span>`:""; }
+function st(c){ if(!c||c.length!==2) return ""; if(c[1]==="1") return "новость"; if(c[1]==="2"&&"АБВ".includes(c[0])) return "утверждение"; return "слух"; }
+function okr(s2,s1){ if(s2==null) return ""; const o=OKR[String(s2)]||["",""]; const f=v=>v==null?"":(v>0?"+":"")+String(v).replace("-","−");
+  return `<span class="${o[1]}">окрас ${f(s2)}${s1!=null?" ("+f(s1)+")":""}</span>`; }
+function curSph(){ return document.getElementById("fsph").value; }
+function nodeItems(id){ const n=C.nodes[id]; if(!n) return []; const sp=curSph();
+  return n.it.map(([h,how])=>[h,how,C.items[h]]).filter(x=>x[2] && (!sp || x[2][7].some(s=>s[0]===sp))); }
+function nodeRels(id){ return C.rels.filter(r=>r.a===id||r.b===id); }
+function nm(id,lab){ if(id){ const r=byId[id]; if(r) return short(r); const c=C.nodes[id]; return c?c.name:id; } return lab?lab[1]:"—"; }
+function itemLi(x){ const [h,how,it]=x, code=it[6]||it[5];
+  const sp=it[7].map(s=>(SPHL[s[0]]?s[0]:s[0])+(s[1]?" — "+s[1]:"")).join("; ");
+  return `<li><span class="m">${esc(it[0])} · ${esc(it[1])}</span> ${oib(it[5])}${it[6]?" → "+oib(it[6]):""} <span class="m">${esc(st(code))}</span><br>`
+    +`<a href="${esc(it[2])}" target="_blank" rel="noopener">${esc(it[3])}</a>${it[4]?`<br><span class="muted">по-русски: ${esc(it[4])}</span>`:""}`
+    +`<br><span class="m">${sp?"сфера: "+esc(sp)+" · ":""}${okr(it[8],it[9])}${how==="заголовок"?" · имя в заголовке":""}</span></li>`; }
+function relLi(r){ const ev=r.ev.map(e=>`<a href="${esc(e[0])}" target="_blank" rel="noopener">${esc(e[1].slice(0,10))}</a>${e[2]?": «"+esc(e[2])+"»":""}`).join("<br>");
+  return `<li><b>${esc(r.t)}</b>: ${esc(nm(r.a,r.al))} → ${esc(nm(r.b,r.bl))}${r.d?" ("+esc(r.d)+")":""} <span class="m">· материалов ${r.n} · ${okr(r.s2,r.s1)}</span><br><span class="m">${ev}</span></li>`; }
+function cardC(id){ const n=C.nodes[id]; if(!n) return `<h2>Сведения</h2><p class="muted">Материалов с кодом ОИ 5×5 с 01.01.2026, где названа эта организация, в контуре нет.</p>`;
+  const its=nodeItems(id), rs=nodeRels(id), sp=curSph();
+  let h=`<h2>Сведения (${its.length}${n.ni>n.it.length?" из "+n.ni+", показаны последние "+n.it.length:""})${sp?" · сфера: "+esc(sp):""}</h2>`;
+  h+= its.length?`<ul class="sv">${its.map(itemLi).join("")}</ul>`:`<p class="muted">Нет материалов${sp?" в этой сфере":""}.</p>`;
+  h+=`<h2>Связи из материалов (${rs.length})</h2>`+(rs.length?`<ul class="sv">${rs.map(relLi).join("")}</ul>`:`<p class="muted">Именованных связей нет.</p>`);
+  return h; }
+function cardOnly(id){ const n=C.nodes[id]; return `<div class="pp"><h3>${esc(n.name)}</h3><span class="tag" style="background:#d08a1e">из контура · нет в реестре</span> <span class="nopt">без точки</span><dl><dt>Тип</dt><dd>${esc({company:"компания",agency:"организация",program:"программа"}[n.kind]||n.kind)}</dd>${n.country?`<dt>Страна</dt><dd>${esc(n.country)}</dd>`:""}<dt>Локация</dt><dd>нет подтверждённого адреса с официальной или реестровой страницы</dd></dl>${cardC(id)}</div>`; }
 
 const vis = {program:true, agency:true, company:true, outside:true, threat:true, external:true};
 const markers = {}, lines = [];
@@ -217,13 +266,23 @@ D.links.forEach(l=>{ const s=LINK[l.type], a=byId[l.from], b=byId[l.to];
   pl.bindTooltip(`${esc(short(a))} → ${esc(short(b))}: ${esc(l.basis)}`,{sticky:true});
   pl.on("click",()=>openNode(b)); lines.push([l,pl]); });
 
+const OKC = {"-2":"#f2555a","-1":"#e0a050","0":"#9aa4b1","1":"#8ad48f","2":"#3fb950"};
+C.rels.forEach(r=>{ const a=byId[r.a], b=byId[r.b]; if(!a||!b||a.lat==null||b.lat==null||a._k===b._k) return;
+  const pl=L.polyline([], {color:OKC[String(r.s2==null?0:r.s2)], weight:2, opacity:.9, dashArray:"1 6", lineCap:"round"});
+  pl.bindTooltip(`${esc(short(a))} → ${esc(short(b))}: ${esc(r.t)} · ${okr(r.s2,r.s1)}`,{sticky:true});
+  pl.on("click",()=>openNode(b)); lines.push([{from:r.a,to:r.b,contour:true},pl]); });
+function hov(p){ const vn=visibleAt(p); let h=`<b>${esc(label(p))}</b>`;
+  vn.forEach(n=>{ const its=nodeItems(n.id).slice(0,5), c=C.nodes[n.id];
+    if(c) h+=`<div class="m">${esc(short(n))}: сведений ${nodeItems(n.id).length} · связей ${c.nr}</div>`;
+    its.forEach(x=>{ const it=x[2]; h+=`<div>${esc(it[0])} ${oib(it[6]||it[5])} ${esc((it[4]||it[3]).slice(0,110))}</div>`; }); });
+  return h; }
 function layout(){ lines.forEach(([l,pl])=>{ const a=byId[l.from], b=byId[l.to]; pl.setLatLngs(curve(L.latLng(a.lat,a.lon), L.latLng(b.lat,b.lon))); }); }
 function refresh(){
   const q=document.getElementById("q").value.trim().toLowerCase(), all=document.getElementById("labels").checked;
   mLayer.clearLayers(); lLayer.clearLayers();
   Object.values(points).forEach(p=>{ const m=makeMarker(p); markers[p.k]=m; if(!m) return; mLayer.addLayer(m);
     const perm = all || (q.length>1 && visibleAt(p).some(n=>n.name.toLowerCase().includes(q)));
-    m.bindTooltip(label(p),{direction:"right",offset:[8,0],className:"lbl",permanent:perm}); });
+    m.bindTooltip(perm?label(p):hov(p),{direction:"right",offset:[8,0],className:perm?"lbl":"hov",permanent:perm}); });
   lines.forEach(([l,pl])=>{ if(vis[cat(byId[l.from])] && vis[cat(byId[l.to])]) lLayer.addLayer(pl); });
 }
 map.on("zoomend viewreset", layout);
@@ -250,6 +309,7 @@ Object.entries(KIND).forEach(([k,K])=>{ const tot=nodes.filter(n=>cat(n)===k).le
 { const lab=document.createElement("div"); lab.className="row";
   lab.innerHTML=`<span class="sw"><span class="mk company risk" style="width:14px;height:14px"></span></span>Маркер риска с источником (red_flags)`; fl.appendChild(lab); }
 const ll=document.getElementById("linklegend");
+{ const d=document.createElement("div"); d.className="row"; d.innerHTML=`<span class="ln" style="border-color:#8ad48f;border-top-style:dotted"></span>Связь из материалов (цвет — окрас: красный −2 … ярко-зелёный +2)`; document.getElementById("linklegend").appendChild(d); }
 Object.values(LINK).forEach(s=>{ const d=document.createElement("div"); d.className="row";
   d.innerHTML=`<span class="ln" style="border-color:${s.color};border-top-style:${s.dash?(s.dash.startsWith("2")?"dotted":"dashed"):"solid"}"></span>${esc(s.label)}`; ll.appendChild(d); });
 fl.addEventListener("change",e=>{ const k=e.target.dataset.k; if(k){ vis[k]=e.target.checked; refresh(); } });
@@ -264,10 +324,27 @@ D.links.forEach(l=>{ const li=document.createElement("li"); const s=LINK[l.type]
   li.onclick=()=>{ if(off || a._k===b._k){ openNode(a.lat==null?a:b); return; }
     map.fitBounds(L.latLngBounds([[a.lat,a.lon],[b.lat,b.lon]]).pad(0.6),{maxZoom:8}); setTimeout(()=>{ const m=markers[b._k]; if(m) m.openPopup(); },300); };
   ch.appendChild(li); });
+// t69u: перечень организаций со сведениями и связями
+const fs=document.getElementById("fsph"); SPH.forEach(s=>{ const o=document.createElement("option"); o.value=s; o.textContent="Сфера: "+(SPHL[s]||s); fs.appendChild(o); });
+function openAny(id){ const n=byId[id]; if(n) return openNode(n); L.popup({maxWidth:440}).setLatLng(map.getCenter()).setContent(cardOnly(id)).openOn(map); }
+function drawOrgs(){ const ol=document.getElementById("orgs"); ol.innerHTML=""; const src=document.getElementById("fsrc").value, sp=curSph();
+  const q=document.getElementById("q").value.trim().toLowerCase();
+  const rows=Object.entries(C.nodes).map(([id,n])=>{ const r=byId[id]; const loc=!!(r&&r.lat!=null);
+      return {id,n,loc,ni:nodeItems(id).length,nr:nodeRels(id).length}; })
+    .filter(x=>(x.ni||(!sp&&x.nr)) && (!src || (src==="nopt"?!x.loc:x.n.src===src)) && (!q||x.n.name.toLowerCase().includes(q)))
+    .sort((a,b)=>(b.ni+b.nr)-(a.ni+a.nr)||a.n.name.localeCompare(b.n.name));
+  document.getElementById("orgs-h").textContent=`Узлов со сведениями или связями: ${rows.length}`+(sp?` (сфера: ${sp})`:"");
+  rows.forEach(x=>{ const li=document.createElement("li"); const k=x.n.src==="реестр"&&byId[x.id]?cat(byId[x.id]):"external";
+    li.innerHTML=`<span class="tag" style="background:${x.n.src==="реестр"?KIND[k].color:"#d08a1e"}">${x.n.src==="реестр"?esc(KIND[k].label.split(" ")[0]):"контур"}</span>${esc(x.n.name.split(" — ")[0])}${x.loc?"":'<span class="nopt">без точки</span>'}<br><span class="cnt">сведений ${x.ni} · связей ${x.nr}${x.n.country?" · "+esc(x.n.country):""}</span>`;
+    li.onclick=()=>openAny(x.id); ol.appendChild(li); }); }
+fs.addEventListener("change",()=>{ drawOrgs(); refresh(); }); document.getElementById("fsrc").addEventListener("change",drawOrgs);
+document.getElementById("q").addEventListener("input",drawOrgs);
+drawOrgs();
 const ul=document.getElementById("unloc");
 document.getElementById("unloc-h").textContent=`Без точки на карте (${unplaced.length})`;
 unplaced.forEach(n=>{ const li=document.createElement("li");
-  li.innerHTML=`<span class="tag" style="background:${KIND[cat(n)].color}">${esc(KIND[cat(n)].label.split(" ")[0])}</span>${esc(short(n))}`; li.title=n.unlocated_reason||"";
+  const cc=C.nodes[n.id];
+  li.innerHTML=`<span class="tag" style="background:${KIND[cat(n)].color}">${esc(KIND[cat(n)].label.split(" ")[0])}</span>${esc(short(n))}${cc?`<br><span class="cnt">сведений ${cc.ni} · связей ${cc.nr}</span>`:""}`; li.title=n.unlocated_reason||"";
   li.onclick=()=>openNode(n); ul.appendChild(li); });
 })();
 </script>
