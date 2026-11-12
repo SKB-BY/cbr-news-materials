@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="data:,">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Новостная карта CBR: новости с 01.01.2026 по местам, с кодами ОИ 5×5</title>
+<link rel="stylesheet" href="vendor/leaflet.css?v=t57">
+<style>
+  :root { --bg:#ffffff; --panel:#f7f9fb; --line:#e3e8ee; --text:#1c2733; --muted:#5d6b7a; --accent:#2f6fdb; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; height:100%; color:var(--text); font:14px/1.45 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  #wrap { display:flex; height:100vh; }
+  #side { width:420px; min-width:320px; display:flex; flex-direction:column; background:var(--panel); border-right:1px solid var(--line); }
+  #side .scroll { flex:1; overflow:auto; padding:16px 18px 8px; }
+  #side footer { padding:8px 18px 10px; border-top:1px solid var(--line); font-size:11.5px; color:var(--muted); }
+  #map { flex:1; }
+  h1 { font-size:17px; margin:0 0 6px; letter-spacing:-.01em; }
+  h2 { font-size:11.5px; margin:16px 0 6px; color:var(--muted); text-transform:uppercase; letter-spacing:.06em; }
+  .muted { color:var(--muted); font-size:12.5px; }
+  a { color:var(--accent); text-decoration:none; } a:hover { text-decoration:underline; }
+  input[type=search], select, input[type=date] { padding:6px 8px; border:1px solid var(--line); border-radius:8px; background:#fff; font:inherit; font-size:13px; }
+  input[type=search] { width:100%; }
+  .row { display:flex; align-items:center; gap:8px; margin:4px 0; flex-wrap:wrap; }
+  .row input[type=checkbox] { margin:0; }
+  button { font:inherit; font-size:12px; padding:4px 9px; border:1px solid var(--line); border-radius:8px; background:#fff; cursor:pointer; }
+  button:hover { border-color:var(--accent); } button.on { background:var(--accent); color:#fff; border-color:var(--accent); }
+  .oi { display:inline-block; padding:0 .35em; border-radius:3px; font-weight:600; white-space:nowrap; font-size:12px; line-height:18px; }
+  table.mx { border-collapse:separate; border-spacing:2px; font-size:11.5px; }
+  table.mx td, table.mx th { text-align:center; padding:2px 4px; }
+  table.mx th { color:var(--muted); font-weight:500; }
+  table.mx td.c { cursor:pointer; min-width:34px; border-radius:3px; font-weight:600; }
+  table.mx td.c.off { opacity:.18; }
+  #places, #stories { list-style:none; padding:0; margin:0; }
+  #places li { display:inline-block; padding:2px 7px; margin:2px 2px; border-radius:10px; background:#fff; border:1px solid var(--line); cursor:pointer; font-size:12px; }
+  #places li.sel { border-color:var(--accent); background:#e8f0fd; }
+  #places li .sw { display:inline-block; width:9px; height:9px; border-radius:2px; margin-right:4px; vertical-align:0; }
+  .st { background:#fff; border:1px solid var(--line); border-radius:8px; padding:8px 10px; margin:6px 0; font-size:12.8px; }
+  .st .h { display:flex; gap:6px; align-items:center; flex-wrap:wrap; }
+  .st .t { margin:4px 0 2px; font-weight:600; }
+  .st .m { color:var(--muted); font-size:12px; }
+  .st details { margin-top:6px; } .st summary { cursor:pointer; color:var(--accent); font-size:12px; }
+  .hi { border-left:3px solid var(--line); padding:4px 0 4px 8px; margin:5px 0; }
+  .lift { display:inline-block; font-size:10.5px; padding:0 6px; border-radius:10px; background:#6b4bd1; color:#fff; }
+  .chip { display:inline-block; font-size:11px; padding:0 6px; border-radius:10px; background:#eef2f6; margin:1px 2px 0 0; }
+  .leaflet-container { background:#eef1f4; }
+  .tiles-muted { filter:grayscale(.55) contrast(.95) brightness(1.04); }
+  .leaflet-control-attribution { display:none !important; }
+  .leaflet-tooltip.lbl { padding:4px 8px; font-size:12px; border-radius:6px; box-shadow:0 1px 3px #0003; }
+  #more { margin:6px 0 12px; }
+  @media (max-width:760px){ #wrap{flex-direction:column;} #side{width:100%;min-width:0;max-height:50vh;border-right:none;border-bottom:1px solid var(--line);} }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <aside id="side">
+    <div class="scroll">
+      <h1>Новостная карта</h1>
+      <p class="muted" id="cover"></p>
+      <p class="muted">Вторая карта репозитория. Первая — <a href="../map/">карта реестра</a> (организации и компании). Здесь — новости по местам из их ключевых мест; каждая запись подсвечена кодом <a href="../oi-5x5/" target="_blank" rel="noopener">ОИ 5×5</a> (<a href="../OI_5x5.md">пояснение</a>).</p>
+      <p class="muted">Место рисуется областью — страна, регион, город или акватория целиком: в новости названо место, а не адрес события. Новости без места — в <a href="news_unlocated.csv">news_unlocated.csv</a> (<a href="UNLOCATED.md">почему</a>); все точки карты — <a href="news_points.csv">news_points.csv</a>.</p>
+      <input type="search" id="q" placeholder="Поиск по заголовку или источнику…">
+      <h2>Период (дата события, если названа; иначе дата публикации)</h2>
+      <div class="row"><input type="date" id="d1"> — <input type="date" id="d2"></div>
+      <div class="row" id="presets"></div>
+      <h2>Фильтр</h2>
+      <div class="row" id="stat"></div>
+      <div class="row"><select id="topic"></select><select id="cat"></select><select id="sec"></select></div>
+      <label class="row"><input type="checkbox" id="onlylift"> только сюжеты с поднятыми из базы записями до 2026 г.</label>
+      <label class="row"><input type="checkbox" id="onlycur"> только актуальные записи (скрыть «дополнена позже»)</label>
+      <h2>ОИ 5×5 — легенда и фильтр по коду</h2>
+      <div id="mx"></div>
+      <p class="muted">Буква — надёжность источника (А–Д), цифра — достоверность сведений (1–5). Цвет: 1 — зелёный, 2 — синий, 3 — жёлтый, 4 — серо-оранжевый, 5 — красный; А темнее, Д светлее. Код записи — <b>ОИ со временем</b>, если был пересмотр, иначе <b>Первоначальная ОИ</b>. Нажатие на клетку скрывает / показывает код.</p>
+      <div class="row">Цвет области: <select id="paint"><option value="cur">код самого актуального сюжета</option><option value="best">лучший код среди сюжетов</option></select></div>
+      <h2 id="places-h">Места</h2>
+      <ul id="places"></ul>
+      <h2 id="stories-h">Сюжеты</h2>
+      <ul id="stories"></ul>
+      <div id="more"></div>
+    </div>
+    <footer>Подложка: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">участники OpenStreetMap</a> (ODbL). Границы: <a href="https://www.naturalearthdata.com" target="_blank" rel="noopener">Natural Earth</a> (public domain) и OpenStreetMap (ODbL) — <a href="areas.geojson">areas.geojson</a>. Карта: <a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a> 1.9.4.</footer>
+  </aside>
+  <div id="map"></div>
+</div>
+<script src="vendor/leaflet.js?v=t57"></script>
+<script src="data.js?v=t57"></script>
+<script>
+(function(){
+const D = window.NEWS_MAP_DATA, P = D.palette, F = D.fields;
+const SRC="АБВГД", INF="12345";
+const PREC={country:"страна", region:"регион", city:"город", sea:"акватория"};
+const ORDER={country:0, sea:1, region:2, city:3};
+function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function status(code){ if(!code) return ""; if(code[1]==="1") return "новость"; if(code[1]==="2" && "АБВ".includes(code[0])) return "утверждение"; return "слух"; }
+function badge(code, pre){ const c=P[code]; if(!c) return ""; return `<span class="oi" style="background:${c[0]};color:${c[1]}" title="ОИ 5×5: ${code} — ${status(code)}">${pre?esc(pre)+" ":""}${code}</span>`; }
+function rank(code){ return (INF.indexOf(code[1]))*5 + SRC.indexOf(code[0]); }  // меньше — достовернее
+function dmy(s){ if(!s) return ""; const [d,t]=s.split(" "); const p=d.split("-"); return (p.length===2? p[1]+"."+p[0] : p[2]+"."+p[1]+"."+p[0])+(t?" "+t:""); }
+const items = D.items.map(a=>{ const o={}; F.forEach((k,i)=>o[k]=a[i]); o.code=o.oi1||o.oi0; o.st=status(o.code);
+  o.lo = o.ev ? (o.ev.length===7? o.ev+"-01" : o.ev) : o.pub.slice(0,10); o.hi = o.ev ? (o.ev.length===7? o.ev+"-31" : o.ev) : o.pub.slice(0,10); return o; });
+const areas = D.areas.features;
+const stories = D.clusters.map((c,i)=>({i, items:c[0].map(k=>items[k]), places:c[1], more:c[2]||0, current:!!c[3], later:(c[4]||[]).map(k=>items[k])}));
+stories.forEach(s=>{ s.head=s.items[0]; s.lift=s.items.some(x=>x.lift); s.txt=s.items.map(x=>(x.t+" "+x.src).toLowerCase()).join(" "); });
+
+document.getElementById("cover").innerHTML = `Новости базы с датой публикации с ${dmy(D.from)} по ${dmy(D.as_of)} Europe/Minsk (по времени сбора), коды ОИ 5×5 — проход ${dmy(D.oi_as_of)} Europe/Minsk. Ранние записи (в том числе до 2026 г.), которые дополнила более поздняя новость, подняты из базы и стоят вместе с ней.`;
+
+// фильтры
+const st = {q:"", d1:"", d2:"", stat:{"новость":true,"утверждение":true,"слух":true}, topic:"", cat:"", sec:"", onlylift:false, onlycur:false, codes:{}, place:null, paint:"cur"};
+SRC.split("").forEach(s=>INF.split("").forEach(n=>st.codes[s+n]=true));
+const allDates = items.map(x=>x.lo).sort(); const minD = stories.map(s=>s.head.lo).sort()[0], maxD = D.as_of.slice(0,10);
+const d1=document.getElementById("d1"), d2=document.getElementById("d2"); d1.value=minD; d2.value=maxD; d1.min=d2.min=minD; d1.max=d2.max=maxD; st.d1=minD; st.d2=maxD;
+function addDays(s,n){ const d=new Date(s+"T00:00:00Z"); d.setUTCDate(d.getUTCDate()+n); return d.toISOString().slice(0,10); }
+const pr=document.getElementById("presets");
+[["за 7 дней",()=>addDays(maxD,-6)],["за 30 дней",()=>addDays(maxD,-29)],["с 01.01.2026",()=>"2026-01-01"],["весь срез",()=>minD]].forEach(([l,f],k)=>{
+  const b=document.createElement("button"); b.textContent=l; if(k===3) b.className="on";
+  b.onclick=()=>{ pr.querySelectorAll("button").forEach(x=>x.className=""); b.className="on"; st.d1=f(); st.d2=maxD; d1.value=st.d1; d2.value=st.d2; update(); }; pr.appendChild(b); });
+d1.onchange=()=>{ st.d1=d1.value||minD; pr.querySelectorAll("button").forEach(x=>x.className=""); update(); };
+d2.onchange=()=>{ st.d2=d2.value||maxD; pr.querySelectorAll("button").forEach(x=>x.className=""); update(); };
+const sb=document.getElementById("stat");
+["новость","утверждение","слух"].forEach(k=>{ const l=document.createElement("label"); l.className="row"; l.style.margin="0 6px 0 0";
+  l.innerHTML=`<input type="checkbox" checked> ${k}`; l.firstChild.onchange=e=>{ st.stat[k]=e.target.checked; update(); }; sb.appendChild(l); });
+function fillSel(id, key, label){ const s=document.getElementById(id); const vals=[...new Set(stories.map(x=>x.head[key]).filter(Boolean))].sort();
+  s.innerHTML=`<option value="">${label}: все</option>`+vals.map(v=>`<option>${esc(v)}</option>`).join(""); s.onchange=()=>{ st[key]=s.value; update(); }; }
+fillSel("topic","topic","тема"); fillSel("cat","cat","категория"); fillSel("sec","sec","раздел");
+document.getElementById("onlylift").onchange=e=>{ st.onlylift=e.target.checked; update(); };
+document.getElementById("onlycur").onchange=e=>{ st.onlycur=e.target.checked; update(); };
+document.getElementById("paint").onchange=e=>{ st.paint=e.target.value; update(); };
+let qt; document.getElementById("q").addEventListener("input",e=>{ clearTimeout(qt); qt=setTimeout(()=>{ st.q=e.target.value.trim().toLowerCase(); update(); },200); });
+
+// матрица ОИ 5×5
+const mx=document.getElementById("mx");
+let h='<table class="mx"><tr><th></th>'+INF.split("").map(n=>`<th>${n}</th>`).join("")+'</tr>';
+SRC.split("").forEach(s=>{ h+=`<tr><th>${s}</th>`+INF.split("").map(n=>{ const c=s+n, p=P[c]; return `<td class="c" data-c="${c}" style="background:${p[0]};color:${p[1]}" title="${c} — ${status(c)}">${c}</td>`; }).join("")+"</tr>"; });
+mx.innerHTML=h+"</table>";
+mx.addEventListener("click",e=>{ const td=e.target.closest("td.c"); if(!td) return; const c=td.dataset.c; st.codes[c]=!st.codes[c]; td.classList.toggle("off",!st.codes[c]); update(); });
+
+function visible(s){ const x=s.head;
+  if(!(x.hi>=st.d1 && x.lo<=st.d2)) return false;
+  if(!st.stat[x.st] || !st.codes[x.code]) return false;
+  if(st.topic && x.topic!==st.topic) return false; if(st.cat && x.cat!==st.cat) return false; if(st.sec && x.sec!==st.sec) return false;
+  if(st.onlylift && !s.lift) return false;
+  if(st.onlycur && !s.current) return false;
+  if(st.q.length>1 && !s.txt.includes(st.q)) return false;
+  return true; }
+
+// карта
+const map=L.map("map",{attributionControl:false, zoomControl:false, worldCopyJump:true, minZoom:2, maxZoom:12});
+L.control.zoom({position:"topleft"}).addTo(map); L.control.scale({position:"bottomleft", imperial:false}).addTo(map);
+const osm="https://tile.openstreetmap.org/{z}/{x}/{y}.png", topt={maxZoom:19, crossOrigin:true};
+const base={"Светлая (OpenStreetMap, приглушённая)":L.tileLayer(osm,Object.assign({className:"tiles-muted"},topt)), "Стандартная (OpenStreetMap)":L.tileLayer(osm,topt)};
+base["Светлая (OpenStreetMap, приглушённая)"].addTo(map); L.control.layers(base,null,{position:"topright"}).addTo(map);
+map.fitBounds([[20,-20],[65,80]]);
+const layers = areas.map((f,i)=>({i, f, name:f.properties.name, prec:f.properties.precision})).sort((a,b)=>ORDER[a.prec]-ORDER[b.prec]);
+layers.forEach(a=>{ a.layer=L.geoJSON(f2(a.f),{style:{weight:1,color:"#5d6b7a",fillOpacity:0}}).addTo(map);
+  a.layer.on("click",e=>{ L.DomEvent.stopPropagation(e); selectPlace(a.i===st.place?null:a.i); });
+  a.layer.bindTooltip(()=>tip(a),{sticky:true, className:"lbl"}); });
+function f2(f){ return {type:"Feature", properties:{}, geometry:f.geometry}; }
+map.on("click",()=>selectPlace(null));
+let vis=[], per={};
+function tip(a){ const ss=per[a.i]||[]; const s=pick(ss);
+  return `<b>${esc(a.name)}</b> <span class="muted">(${PREC[a.prec]})</span><br>${ss.length?`${st.paint==="cur"?"самый актуальный сюжет":"лучший код"}: ${badge(s.head.code)} ${esc(dmy(s.head.ev||s.head.pub.slice(0,10)))}`:"нет сюжетов при текущем фильтре"}`; }
+function pick(ss){ if(!ss.length) return null; if(st.paint==="cur") return ss.find(s=>s.current)||ss[0]; return ss.reduce((m,s)=>rank(s.head.code)<rank(m.head.code)?s:m, ss[0]); }
+
+function update(){
+  vis=stories.filter(visible); per={};
+  vis.forEach(s=>s.places.forEach(p=>(per[p]=per[p]||[]).push(s)));
+  layers.forEach(a=>{ const s=pick(per[a.i]||[]); const sel=st.place===a.i;
+    a.layer.setStyle(s ? {fillColor:P[s.head.code][0], fillOpacity: a.prec==="country"?.42:.62, color: sel?"#111":"#3b4652", weight: sel?3:(a.prec==="country"?.8:1.2)}
+                       : {fillOpacity:0, color:"#9aa6b2", weight:.6, dashArray:"3 3"}); if(sel) a.layer.bringToFront(); });
+  const pl=document.getElementById("places"); pl.innerHTML="";
+  document.getElementById("places-h").textContent="Места с сюжетами при текущем фильтре";
+  layers.filter(a=>per[a.i]).sort((a,b)=>ORDER[a.prec]-ORDER[b.prec]||a.name.localeCompare(b.name,"ru")).forEach(a=>{ const li=document.createElement("li"); const s=pick(per[a.i]);
+    li.className=st.place===a.i?"sel":""; li.innerHTML=`<span class="sw" style="background:${P[s.head.code][0]}"></span>${esc(a.name)}`;
+    li.title=PREC[a.prec]; li.onclick=()=>selectPlace(st.place===a.i?null:a.i, true); pl.appendChild(li); });
+  renderList(); }
+function selectPlace(i, zoom){ st.place=i; update();
+  if(i!=null && zoom){ const a=layers.find(x=>x.i===i); map.fitBounds(a.layer.getBounds().pad(.2),{maxZoom: a.prec==="city"?9:6}); } }
+
+function itemHtml(x, head){
+  const ev = x.ev ? `событие ${dmy(x.ev)}${x.evp==="month"?" (месяц)":x.evp==="relative"?" (по тексту относительно публикации)":""}` : "дата события не названа";
+  const tr = x.tf===1 ? ` <span class="muted">(машинный перевод, ${esc(x.lang)}→ru)</span>` : x.tf===2 ? ` <span class="muted">(оригинал, перевода нет)</span>` : "";
+  const codes = x.oi1 ? `${badge(x.oi1,"ОИ со временем")} <span class="muted">с ${dmy(x.oi1at)}</span> · ${badge(x.oi0,"Первоначальная")}` : badge(x.oi0,"Первоначальная ОИ");
+  return `<div class="h">${badge(x.code)}<b>${esc(x.st)}</b>${x.lift?' <span class="lift" title="Запись до 01.01.2026, поднята из базы: её дополнила более поздняя новость">поднято из базы</span>':""}</div>
+    <div class="t">${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.t||"без заголовка")}</a>`:esc(x.t)}${tr}</div>
+    <div class="m">${esc(ev)} · опубл. ${esc(dmy(x.pub))} Europe/Minsk · ${esc(x.src)}${x.topic?" · "+esc(x.topic):""}${x.cat?" · "+esc(x.cat):""}${x.sec?" · "+esc(x.sec):""}</div>
+    <div class="m">${codes}${!head && x.rel.length?` · связь: ${esc(x.rel.join(", "))}`:""}</div>`; }
+function storyHtml(s){
+  let h=`<li class="st"${s.current?"":' style="opacity:.85;border-style:dashed"'}>${s.current?"":`<div class="m"><b>дополнена позже</b> — актуальная информация в более поздних записях${s.later.length?":":""}</div>`+s.later.map(x=>`<div class="m">→ ${badge(x.code)} ${esc(dmy(x.ev||x.pub.slice(0,10)))} — ${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.t)}</a>`:esc(x.t)}</div>`).join("")}${itemHtml(s.head,true)}<div>${s.places.map(p=>`<span class="chip">${esc(areas[p].properties.name)}</span>`).join("")}</div>`;
+  if(s.items.length>1){ const nl=s.items.filter(x=>x.lift).length;
+    h+=`<details><summary>Ранние записи, которые дополняет эта новость${nl?" (в том числе поднятые из базы до 2026 г.)":""}</summary>`+
+      s.items.slice(1).map(x=>`<div class="hi" style="border-color:${P[x.code][0]}">${itemHtml(x,false)}</div>`).join("")+
+      (s.more?`<p class="muted">более ранние записи не показаны — показаны 40 самых поздних.</p>`:"")+`</details>`; }
+  return h+"</li>"; }
+let shown=0, cur=[];
+function renderList(){ cur = st.place==null ? vis : (per[st.place]||[]); shown=0;
+  const name = st.place==null ? "все места" : areas[st.place].properties.name;
+  document.getElementById("stories-h").textContent=`Сюжеты — ${name} (сначала самые актуальные)`;
+  document.getElementById("stories").innerHTML=""; more(); }
+function more(){ const ul=document.getElementById("stories"); const part=cur.slice(shown, shown+50); shown+=part.length;
+  ul.insertAdjacentHTML("beforeend", part.map(storyHtml).join(""));
+  const m=document.getElementById("more"); m.innerHTML = shown<cur.length ? `<button>показать ещё</button>` : ""; if(m.firstChild) m.firstChild.onclick=more; }
+update();
+})();
+</script>
+</body>
+</html>
