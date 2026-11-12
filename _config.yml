@@ -1,0 +1,14 @@
+title: Контур информационного мониторинга OSINT ЦБР РБ
+description: Публичные документы, таблицы и карты по проектам ЦБР
+lang: ru
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - scripts/__pycache__
