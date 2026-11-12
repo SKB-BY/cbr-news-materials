@@ -16,7 +16,7 @@
 
 ## Матрица 5×5
 
-Цвета видны на GitHub Pages ([https://skb-by.github.io/cbr-news-materials/oi-5x5/](https://skb-by.github.io/cbr-news-materials/oi-5x5/)); в просмотре файла на github.com цвет не отображается — коды и цвета перечислены в таблице «Палитра».
+Цвета видны на GitHub Pages ([https://skb-by.github.io/cbr-news-materials/OI_5x5.html](https://skb-by.github.io/cbr-news-materials/OI_5x5.html), [https://skb-by.github.io/cbr-news-materials/oi-5x5/](https://skb-by.github.io/cbr-news-materials/oi-5x5/)); в просмотре файла на github.com цвет не отображается — коды и цвета перечислены в таблице «Палитра».
 
 <table class="oi-matrix" style="border-collapse:separate;border-spacing:3px;table-layout:fixed;width:100%">
 <thead><tr><th></th><th style="padding:.4em;width:16%">сведения 1<br><small>точность не вызывает сомнений</small></th><th style="padding:.4em;width:16%">сведения 2<br><small>сведения от первоисточника, одной цепочки</small></th><th style="padding:.4em;width:16%">сведения 3<br><small>не от первоисточника, но согласуется с уже учтёнными материалами</small></th><th style="padding:.4em;width:16%">сведения 4<br><small>оценить нельзя</small></th><th style="padding:.4em;width:16%">сведения 5<br><small>сомнительно или противоречит уже подтверждённому</small></th></tr></thead>
