@@ -5,14 +5,20 @@
 <link rel="icon" href="data:,">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Новостная карта CBR: новости с 01.01.2026 по местам, с кодами ОИ 5×5</title>
-<link rel="stylesheet" href="vendor/leaflet.css?v=t57">
+<link rel="stylesheet" href="vendor/leaflet.css?v=t59">
 <style>
   :root { --bg:#ffffff; --panel:#f7f9fb; --line:#e3e8ee; --text:#1c2733; --muted:#5d6b7a; --accent:#2f6fdb; }
   * { box-sizing:border-box; }
   html,body { margin:0; height:100%; color:var(--text); font:14px/1.45 Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
   #wrap { display:flex; height:100vh; }
   #side { width:420px; min-width:320px; display:flex; flex-direction:column; background:var(--panel); border-right:1px solid var(--line); }
-  #side .scroll { flex:1; overflow:auto; padding:16px 18px 8px; }
+  #side .top { flex:none; max-height:55vh; overflow:auto; padding:14px 18px 8px; border-bottom:1px solid var(--line); }
+  #side .news { flex:1; overflow:auto; padding:8px 18px 8px; background:#fff; }
+  .hint { background:#fff7d6; border:1px solid #f0d77a; color:#5a4500; border-radius:8px; padding:8px 10px; font-weight:600; margin:6px 0 8px; }
+  .hint.pin { background:#e8f0fd; border-color:#9dbcf3; color:#1b3d7a; }
+  #flt, #about { margin:6px 0 0; } #flt > summary, #about > summary { cursor:pointer; color:var(--accent); font-size:12.5px; }
+  .nh { font-size:14px; font-weight:700; margin:4px 0 2px; }
+  .sorttxt { font-size:11.5px; color:var(--muted); margin:0 0 4px; }
   #side footer { padding:8px 18px 10px; border-top:1px solid var(--line); font-size:11.5px; color:var(--muted); }
   #map { flex:1; }
   h1 { font-size:17px; margin:0 0 6px; letter-spacing:-.01em; }
@@ -48,18 +54,17 @@
   .leaflet-control-attribution { display:none !important; }
   .leaflet-tooltip.lbl { padding:4px 8px; font-size:12px; border-radius:6px; box-shadow:0 1px 3px #0003; }
   #more { margin:6px 0 12px; }
-  @media (max-width:760px){ #wrap{flex-direction:column;} #side{width:100%;min-width:0;max-height:50vh;border-right:none;border-bottom:1px solid var(--line);} }
+  @media (max-width:760px){ #wrap{flex-direction:column;} #side{width:100%;min-width:0;max-height:60vh;border-right:none;border-bottom:1px solid var(--line);} }
 </style>
 </head>
 <body>
 <div id="wrap">
   <aside id="side">
-    <div class="scroll">
+    <div class="top">
       <h1>Новостная карта</h1>
-      <p class="muted" id="cover"></p>
-      <p class="muted">Вторая карта репозитория. Первая — <a href="../map/">карта реестра</a> (организации и компании). Здесь — новости по местам из их ключевых мест; каждая запись подсвечена кодом <a href="../oi-5x5/" target="_blank" rel="noopener">ОИ 5×5</a> (<a href="../OI_5x5.md">пояснение</a>).</p>
-      <p class="muted">Место рисуется областью — страна, регион, город или акватория целиком: в новости названо место, а не адрес события. Новости без места — в <a href="news_unlocated.csv">news_unlocated.csv</a> (<a href="UNLOCATED.md">почему</a>); все точки карты — <a href="news_points.csv">news_points.csv</a>.</p>
+      <div id="hint" class="hint">Наведите на область — если есть сведения, они появятся списком</div>
       <input type="search" id="q" placeholder="Поиск по заголовку или источнику…">
+      <details id="flt"><summary>Фильтры, период, легенда ОИ 5×5 и список мест</summary>
       <h2>Период (дата события, если названа; иначе дата публикации)</h2>
       <div class="row"><input type="date" id="d1"> — <input type="date" id="d2"></div>
       <div class="row" id="presets"></div>
@@ -71,10 +76,19 @@
       <h2>ОИ 5×5 — легенда и фильтр по коду</h2>
       <div id="mx"></div>
       <p class="muted">Буква — надёжность источника (А–Д), цифра — достоверность сведений (1–5). Цвет: 1 — зелёный, 2 — синий, 3 — жёлтый, 4 — серо-оранжевый, 5 — красный; А темнее, Д светлее. Код записи — <b>ОИ со временем</b>, если был пересмотр, иначе <b>Первоначальная ОИ</b>. Нажатие на клетку скрывает / показывает код.</p>
-      <div class="row">Цвет области: <select id="paint"><option value="cur">код самого актуального сюжета</option><option value="best">лучший код среди сюжетов</option></select></div>
+      <div class="row">Цвет области: <select id="paint"><option value="cur">код первой записи списка</option><option value="best">лучший код среди сюжетов</option></select></div>
       <h2 id="places-h">Места</h2>
       <ul id="places"></ul>
-      <h2 id="stories-h">Сюжеты</h2>
+      </details>
+      <details id="about"><summary>О карте</summary>
+      <p class="muted" id="cover"></p>
+      <p class="muted">Вторая карта репозитория. Первая — <a href="../map/">карта реестра</a> (организации и компании). Здесь — новости по местам из их ключевых мест; каждая запись подсвечена кодом <a href="../oi-5x5/" target="_blank" rel="noopener">ОИ 5×5</a> (<a href="../OI_5x5.md">пояснение</a>).</p>
+      <p class="muted">Место рисуется областью — страна, регион, город или акватория целиком: в новости названо место, а не адрес события. Новости без места — в <a href="news_unlocated.csv">news_unlocated.csv</a> (<a href="UNLOCATED.md">почему</a>); все записи карты — <a href="news_points.csv">news_points.csv</a>.</p>
+      </details>
+    </div>
+    <div class="news" id="newsbox">
+      <div id="stories-h" class="nh">Сведения</div>
+      <div class="sorttxt">Сверху вниз: <b>дата</b> (новее выше; дата события, если названа, иначе дата публикации) → <b>достоверность</b> (сведения ОИ 5×5: 1, 2, 3, 4, 5) → <b>значимость</b> (источник ОИ 5×5: А, Б, В, Г, Д).</div>
       <ul id="stories"></ul>
       <div id="more"></div>
     </div>
@@ -82,8 +96,8 @@
   </aside>
   <div id="map"></div>
 </div>
-<script src="vendor/leaflet.js?v=t57"></script>
-<script src="data.js?v=t57"></script>
+<script src="vendor/leaflet.js?v=t59"></script>
+<script src="data.js?v=t59"></script>
 <script>
 (function(){
 const D = window.NEWS_MAP_DATA, P = D.palette, F = D.fields;
@@ -99,12 +113,19 @@ const items = D.items.map(a=>{ const o={}; F.forEach((k,i)=>o[k]=a[i]); o.code=o
   o.lo = o.ev ? (o.ev.length===7? o.ev+"-01" : o.ev) : o.pub.slice(0,10); o.hi = o.ev ? (o.ev.length===7? o.ev+"-31" : o.ev) : o.pub.slice(0,10); return o; });
 const areas = D.areas.features;
 const stories = D.clusters.map((c,i)=>({i, items:c[0].map(k=>items[k]), places:c[1], more:c[2]||0, current:!!c[3], later:(c[4]||[]).map(k=>items[k])}));
+// порядок: дата (новее выше; дата события, если названа, иначе дата публикации) → достоверность (сведения 1..5) → значимость (источник А..Д)
+function dkey(x){ return x.ev ? (x.ev.length===7? x.ev+"-00" : x.ev) : x.pub.slice(0,10); }
+function cmp(a,b){ const x=a.head, y=b.head; const da=dkey(x), db=dkey(y);
+  if(da!==db) return da<db?1:-1;
+  const ia=INF.indexOf(x.code[1]), ib=INF.indexOf(y.code[1]); if(ia!==ib) return ia-ib;
+  const sa=SRC.indexOf(x.code[0]), sb=SRC.indexOf(y.code[0]); if(sa!==sb) return sa-sb;
+  return x.pub<y.pub?1:x.pub>y.pub?-1:0; }
 stories.forEach(s=>{ s.head=s.items[0]; s.lift=s.items.some(x=>x.lift); s.txt=s.items.map(x=>(x.t+" "+x.src).toLowerCase()).join(" "); });
 
 document.getElementById("cover").innerHTML = `Новости базы с датой публикации с ${dmy(D.from)} по ${dmy(D.as_of)} Europe/Minsk (по времени сбора), коды ОИ 5×5 — проход ${dmy(D.oi_as_of)} Europe/Minsk. Ранние записи (в том числе до 2026 г.), которые дополнила более поздняя новость, подняты из базы и стоят вместе с ней.`;
 
 // фильтры
-const st = {q:"", d1:"", d2:"", stat:{"новость":true,"утверждение":true,"слух":true}, topic:"", cat:"", sec:"", onlylift:false, onlycur:false, codes:{}, place:null, paint:"cur"};
+const st = {pin:null, q:"", d1:"", d2:"", stat:{"новость":true,"утверждение":true,"слух":true}, topic:"", cat:"", sec:"", onlylift:false, onlycur:false, codes:{}, place:null, paint:"cur"};
 SRC.split("").forEach(s=>INF.split("").forEach(n=>st.codes[s+n]=true));
 const allDates = items.map(x=>x.lo).sort(); const minD = stories.map(s=>s.head.lo).sort()[0], maxD = D.as_of.slice(0,10);
 const d1=document.getElementById("d1"), d2=document.getElementById("d2"); d1.value=minD; d2.value=maxD; d1.min=d2.min=minD; d1.max=d2.max=maxD; st.d1=minD; st.d2=maxD;
@@ -151,29 +172,36 @@ base["Светлая (OpenStreetMap, приглушённая)"].addTo(map); L.c
 map.fitBounds([[20,-20],[65,80]]);
 const layers = areas.map((f,i)=>({i, f, name:f.properties.name, prec:f.properties.precision})).sort((a,b)=>ORDER[a.prec]-ORDER[b.prec]);
 layers.forEach(a=>{ a.layer=L.geoJSON(f2(a.f),{style:{weight:1,color:"#5d6b7a",fillOpacity:0}}).addTo(map);
-  a.layer.on("click",e=>{ L.DomEvent.stopPropagation(e); selectPlace(a.i===st.place?null:a.i); });
-  a.layer.bindTooltip(()=>tip(a),{sticky:true, className:"lbl"}); });
+  a.layer.on("mouseover",()=>hoverPlace(a.i));
+  a.layer.on("click",e=>{ L.DomEvent.stopPropagation(e); pinPlace(st.pin===a.i?null:a.i); });
+  a.layer.bindTooltip(()=>tip(a),{sticky:true, className:"lbl", direction:"top", offset:[0,-8]}); });
 function f2(f){ return {type:"Feature", properties:{}, geometry:f.geometry}; }
-map.on("click",()=>selectPlace(null));
+map.on("click",()=>pinPlace(null));
+// наведение: сведения сразу списком; более точная область (город → регион → страна) лежит сверху и получает наведение первой
+let ht=null;
+function hoverPlace(i){ if(st.pin!=null) return; clearTimeout(ht); ht=setTimeout(()=>{ if(st.place!==i){ st.place=i; restyle(); renderList(); } },40); }
+function pinPlace(i){ st.pin=i; if(i!=null) st.place=i; restyle(); renderList(); }
 let vis=[], per={};
-function tip(a){ const ss=per[a.i]||[]; const s=pick(ss);
-  return `<b>${esc(a.name)}</b> <span class="muted">(${PREC[a.prec]})</span><br>${ss.length?`${st.paint==="cur"?"самый актуальный сюжет":"лучший код"}: ${badge(s.head.code)} ${esc(dmy(s.head.ev||s.head.pub.slice(0,10)))}`:"нет сюжетов при текущем фильтре"}`; }
-function pick(ss){ if(!ss.length) return null; if(st.paint==="cur") return ss.find(s=>s.current)||ss[0]; return ss.reduce((m,s)=>rank(s.head.code)<rank(m.head.code)?s:m, ss[0]); }
+function tip(a){ const ss=per[a.i]||[]; return `<b>${esc(a.name)}</b> <span class="muted">(${PREC[a.prec]})</span> — ${ss.length?"сведения в списке слева":"сведений нет при текущем фильтре"}`; }
+function pick(ss){ if(!ss.length) return null; if(st.paint==="cur") return ss[0]; return ss.reduce((m,s)=>rank(s.head.code)<rank(m.head.code)?s:m, ss[0]); }
 
-function update(){
-  vis=stories.filter(visible); per={};
-  vis.forEach(s=>s.places.forEach(p=>(per[p]=per[p]||[]).push(s)));
+function restyle(){
   layers.forEach(a=>{ const s=pick(per[a.i]||[]); const sel=st.place===a.i;
-    a.layer.setStyle(s ? {fillColor:P[s.head.code][0], fillOpacity: a.prec==="country"?.42:.62, color: sel?"#111":"#3b4652", weight: sel?3:(a.prec==="country"?.8:1.2)}
-                       : {fillOpacity:0, color:"#9aa6b2", weight:.6, dashArray:"3 3"}); if(sel) a.layer.bringToFront(); });
+    a.layer.setStyle(s ? {fillColor:P[s.head.code][0], fillOpacity: a.prec==="country"?.42:.62, color: sel?"#111":"#3b4652", weight: sel?3:(a.prec==="country"?.8:1.2), dashArray:null}
+                       : {fillOpacity:0, color: sel?"#111":"#9aa6b2", weight: sel?2:.6, dashArray:"3 3"}); });
+  document.querySelectorAll("#places li").forEach(li=>li.classList.toggle("sel", +li.dataset.i===st.place));
+  const hint=document.getElementById("hint");
+  if(st.pin!=null){ hint.className="hint pin"; hint.textContent=`Закреплено: ${areas[st.pin].properties.name}. Нажмите на область ещё раз или на пустое место карты, чтобы снова показывать сведения по наведению.`; }
+  else { hint.className="hint"; hint.textContent="Наведите на область — если есть сведения, они появятся списком"+(st.place!=null?" (нажатие закрепляет список)":""); } }
+function update(){
+  vis=stories.filter(visible).sort(cmp); per={};
+  vis.forEach(s=>s.places.forEach(p=>(per[p]=per[p]||[]).push(s)));
   const pl=document.getElementById("places"); pl.innerHTML="";
-  document.getElementById("places-h").textContent="Места с сюжетами при текущем фильтре";
+  document.getElementById("places-h").textContent="Места с сведениями при текущем фильтре (нажмите — список и приближение)";
   layers.filter(a=>per[a.i]).sort((a,b)=>ORDER[a.prec]-ORDER[b.prec]||a.name.localeCompare(b.name,"ru")).forEach(a=>{ const li=document.createElement("li"); const s=pick(per[a.i]);
-    li.className=st.place===a.i?"sel":""; li.innerHTML=`<span class="sw" style="background:${P[s.head.code][0]}"></span>${esc(a.name)}`;
-    li.title=PREC[a.prec]; li.onclick=()=>selectPlace(st.place===a.i?null:a.i, true); pl.appendChild(li); });
-  renderList(); }
-function selectPlace(i, zoom){ st.place=i; update();
-  if(i!=null && zoom){ const a=layers.find(x=>x.i===i); map.fitBounds(a.layer.getBounds().pad(.2),{maxZoom: a.prec==="city"?9:6}); } }
+    li.dataset.i=a.i; li.innerHTML=`<span class="sw" style="background:${P[s.head.code][0]}"></span>${esc(a.name)}`;
+    li.title=PREC[a.prec]; li.onclick=()=>{ pinPlace(a.i); map.fitBounds(a.layer.getBounds().pad(.2),{maxZoom: a.prec==="city"?9:6}); }; pl.appendChild(li); });
+  restyle(); renderList(); }
 
 function itemHtml(x, head){
   const ev = x.ev ? `событие ${dmy(x.ev)}${x.evp==="month"?" (месяц)":x.evp==="relative"?" (по тексту относительно публикации)":""}` : "дата события не названа";
@@ -192,13 +220,16 @@ function storyHtml(s){
   return h+"</li>"; }
 let shown=0, cur=[];
 function renderList(){ cur = st.place==null ? vis : (per[st.place]||[]); shown=0;
-  const name = st.place==null ? "все места" : areas[st.place].properties.name;
-  document.getElementById("stories-h").textContent=`Сюжеты — ${name} (сначала самые актуальные)`;
-  document.getElementById("stories").innerHTML=""; more(); }
+  const a = st.place==null ? null : areas[st.place].properties;
+  document.getElementById("stories-h").textContent = a ? `${a.name} (${PREC[a.precision]}) — сведения` : "Все места — последние сведения";
+  const ul=document.getElementById("stories"); ul.innerHTML="";
+  if(!cur.length) ul.innerHTML=`<li class="st"><b>${a?esc(a.name)+": с":"С"}ведений нет при текущем фильтре.</b> <span class="muted">Измените период или фильтр в разделе «Фильтры».</span></li>`;
+  document.getElementById("newsbox").scrollTop=0; more(); }
 function more(){ const ul=document.getElementById("stories"); const part=cur.slice(shown, shown+50); shown+=part.length;
   ul.insertAdjacentHTML("beforeend", part.map(storyHtml).join(""));
   const m=document.getElementById("more"); m.innerHTML = shown<cur.length ? `<button>показать ещё</button>` : ""; if(m.firstChild) m.firstChild.onclick=more; }
 update();
+window.NEWS_MAP={map};  // для проверки в браузере
 })();
 </script>
 </body>
