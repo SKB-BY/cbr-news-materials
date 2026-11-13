@@ -4,7 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {% assign u = page.url %}{% assign sec = "" %}{% if u contains "%D0%9E%D0%A2%D0%A7" or u contains "ОТЧЁТ" %}{% assign sec = "Актуальный отчёт" %}{% elsif u contains "OI_5x5" %}{% assign sec = "ОИ 5×5" %}{% elsif u contains "/data/oi5x5" %}{% assign sec = "Данные ОИ 5×5" %}{% elsif u contains "mention_gap" %}{% assign sec = "Разрыв упоминаний" %}{% elsif u contains "SOURCES" %}{% assign sec = "Источники сбора" %}{% elsif u contains "darpa-programs" %}{% assign sec = "Программы DARPA" %}{% elsif u != "/" and u != "/index.html" and page.title %}{% assign sec = page.title %}{% endif %}
-<title>{{ site.title }}{% if sec != "" and sec != site.title %} — {{ sec }}{% endif %}</title>
+{% assign cbr_title = site.title %}{% if sec != "" and sec != site.title %}{% assign cbr_title = site.title | append: " — " | append: sec %}{% endif %}
+<title>{{ cbr_title }}</title>
+<meta name="description" content="{{ site.description }}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ cbr_title }}">
+<meta property="og:description" content="{{ site.description }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ cbr_title }}">
+<meta name="twitter:description" content="{{ site.description }}">
 <link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
