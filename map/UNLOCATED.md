@@ -2,16 +2,14 @@
 
 Правило (с 13.11.2026, t79u/t80u): точка ставится по официально опубликованному адресу штаб-квартиры или (минимум) городу / району / штату — поле location_precision «точно». Если официального адреса нет, допустима приблизительная точка по косвенным признакам (официальный пресс-релиз или страница контактов, вакансии, выставка, город в реестре, даталайн новости, место исполнения контракта) — «приблизительно». У каждой приблизительной точки в location_basis в начале стоит формулировка «Местоположение не официальное, установлено по признакам», затем перечень признаков (URL, цитата, дата проверки). Нет признака — точки нет (список ниже). Столица или центр страны без признака не ставятся. Юридический адрес подписывается «юридический адрес», не как завод. Домашние адреса не публикуются. Российских юрлиц в реестре нет. Источник и дата — в [locations.csv](locations.csv).
 
-Размещено: адрес (улица) — 119, город — 30, район / область — 1, штат — 0; точно — 148, приблизительно — 2; без точки — 21.
+Размещено: адрес (улица) — 142, город — 51, район / область — 1, штат — 0; точно — 189, приблизительно — 5; без точки — 17.
 
 | id | Название | Тип | Причина |
 |---|---|---|---|
-| brave1 | Brave1 | agency | официальный адрес не найден (12.11.2026): на brave1.gov.ua (контакты, About) указаны только e-mail и телефон; Creative States, ул. Князей Острожских 8 — Kyiv Office USUBC (usubc.org), не Brave1; Ярославская 58 (Astarta) — без официальной страницы Brave1; адрес из каталога выставки AUSA не официален |
 | kara-dag | Kara Dag Technologies | company | официальный адрес не найден: на karadagtech.com указаны только e-mail |
 | taf-industries | TAF Industries | company | официальный адрес не найден: на taf-ua.com указаны только e-mail и телефон (город в вакансиях — не адрес штаб-квартиры) |
-| jco | JCO — Joint Counter-small UAS Office | program | программа/офис без опубликованного адреса на странице-источнике |
+| jco | JCO — Joint Counter-small UAS Office | program | точка не ставится: JCO упразднён и заменён JIATF 401 (релиз war.gov и Defense News, 28.08.2025); адрес офиса не опубликован |
 | replicator | Replicator (Replicator 1 и 2) | program | программа (инициатива), а не организация с адресом |
-| gcap | GCAP — Global Combat Air Programme | program | международная программа; адрес не указан на странице-источнике |
 | drone-wall | European Drone Defence Initiative (European Drone Wall) | program | инициатива ЕС, адреса нет |
 | phantom-defense | Phantom Defense | company | официальный адрес не найден: на phantomdefense.tech (Contacts) только телефоны и e-mail; на сайте — «nine production sites» без мест; адреса Creative States (Киев) и 1055 Thomas Jefferson St NW (Вашингтон) на usubc.org — офисы USUBC (страница Contacts USUBC), не Phantom Defense |
 | delta | DELTA — система ситуационной осведомлённости (Минобороны Украины) | program | система (программа) Минобороны Украины, а не организация с адресом |
@@ -24,34 +22,21 @@
 | innovation-development-fund | Фонд развития инноваций (Innovation Development Fund) | agency | официальный адрес не найден: на страницах Минцифры (03.06.2025, 20.08.2026) и Brave1 адреса нет; адрес Brave1 по умолчанию не переносится |
 | unite-brave-nato | UNITE – Brave NATO | program | совместная программа НАТО и Украины; одной локации нет |
 | bravetech-eu | BraveTech EU | program | совместная инициатива ЕС и Украины; одной локации нет |
-| nordic-air-defence | Nordic Air Defence | company | официальный адрес штаб-квартиры не подтверждён страницей (12.11.2026): точка не ставится |
 | x-irgc-asf | Аэрокосмические силы КСИР (IRGC ASF) | внешний узел | военная структура (Аэрокосмические силы КСИР); официального опубликованного адреса нет |
-| x-skyfall | SkyFall | внешний узел | официальный сайт skyfall.ua 11.11.2026 не открылся; адрес не установлен |
 
 Связи, которые не рисуются на карте (один из концов без точки; перечислены в боковой панели):
 
 - diu → replicator (structure): DIU — Office of Primary Responsibility процесса Replicator
 - x-irgc-asf → shahed (ubo): по Минфину США: Shahed Aviation Industries Research Center подчинён IRGC ASF
-- diehl → brave1 (partner): Diehl — первая иностранная компания, испытавшая свой НРК (UGV) в рамках платформы Test in Ukraine (Brave1), на полигоне 3-й штурмовой бригады (Минцифры, 28.07.2025)
-- shieldai → brave1 (partner): через Brave1 Shield AI установила партнёрство с украинской компанией (название не раскрыто): ПО Shield AI интегрировано с дронами этой компании (пост Brave1; Shield AI в X, по «Украинской правде», 13.03.2026)
-- palantir → brave1 (partner): Brave1 Dataroom — защищённая среда для обучения военных ИИ-моделей на ПО Palantir; запущена МО и Минцифры Украины, ВСУ, НИИ военной разведки и Palantir (МО Украины, 21.01.2026)
 - anduril → kara-dag (partner): Kara Dag Technologies начала сотрудничество с Anduril: передаёт практики противодействия дронам, полученные в боевых условиях, для систем Anduril, уже используемых в Украине (сайт Kara Dag, 03.2026)
-- airbus-ds → x-skyfall (partner): Airbus Defence and Space и SkyFall подписали меморандум (MoU) о стратегическом партнёрстве на ILA Berlin, 12.06.2026 (релиз Airbus); партнёрство, не подчинённость
-- x-japan-mod → x-skyfall (customer): министр обороны Японии С. Коидзуми, 09.10.2026: «既に防衛省では、ウクライナのスカイフォール社の迎撃用ドローンの取得契約を締結しており» — контракт на приобретение дронов-перехватчиков уже подписан; модель, количество и сумма не названы
 - phantom-defense → drone-dominance (partner): Phantom Defense участвовала в Gauntlet II программы Drone Dominance (Форт-Карсон): одна из трёх компаний, создававших РЭБ-среду противодействия для испытаний БЛА; после этапа получила приглашения на дальнейшие мероприятия (по сайту компании). Испытания, не подчинённость
 - diu → drone-dominance (structure): DDP «jointly administered by the Test Resource Management Center (TRMC) and the Defense Innovation Unit (DIU)»; DIU курирует работу с промышленностью
 - trmc → drone-dominance (structure): TRMC — «primary execution authority and test range coordinator» программы Drone Dominance
-- techex → brave1 (partner): по сайту TechEx: «TechEx works with the Ukrainian state through the BRAVE1 defense innovation cluster and the Dot Chain procurement system» (заявление компании)
-- militech → brave1 (partner): по сайту MILITECH: решения «available on the government portals DOT and Brave1» (заявление компании)
 - nswc-crane → drone-dominance (structure): NSWC Crane «holds contracting authority and issues prototype delivery orders based on Gauntlet test results» в программе Drone Dominance
 - general-cherry → drone-dominance (partner): по сайту General Cherry: компания прошла первый и второй этапы DDP; Wilcox Cherry Defense (совместное производство с американской Wilcox) — среди 19 компаний, прошедших квалификационный этап
-- bluebird-tech → brave1 (partner): по сайту BlueBird Tech: официальный канал продаж партнёров — market.brave1.gov.ua (Brave1 Market)
 - taf-industries → wingcopter (partner): меморандум (MoU) 13.02.2026 о намерении создать совместное предприятие для производства разведывательных БЛА TAF в Германии (сайты TAF и Wingcopter); СП в стадии намерения
 - taf-industries → pgz (partner): письмо о намерениях (LoI) 25.06.2026, Гданьск: локализация производства БЛА в Польше (сайт TAF)
 - innovation-development-fund → brave1 (structure): Brave1 — государственная инициатива, реализуемая Фондом развития инноваций (страница About Brave1, 12.11.2026); решения о грантах — большинством голосов наблюдательного совета Фонда (МО Украины, 06.11.2026)
 - unite-brave-nato → brave1 (structure): с украинской стороны программу координирует Brave1, первый конкурс со стороны НАТО ведёт NCIA (МО Украины)
 - bravetech-eu → brave1 (structure): BraveTech EU связывает платформу Brave1 Минцифры с European Defence Fund и EUDIS (Еврокомиссия, 11.07.2025)
 - eda → bravetech-eu (partner): DefTech Forges — конкурсы в рамках BraveTech EU: финансирует Еврокомиссия, поддерживают Brave1 и EDA; победители смогут продолжить испытания с EDA (Brave1, 12.08.2026)
-- airbus-ds → brave1 (partner): Airbus Defence and Space подписала меморандум о взаимопонимании (MoU) с Brave1 — первое промышленное стратегическое партнёрство Brave1 с западной компанией; технологии Airbus — в контур Test in Ukraine (Airbus, 01.07.2026)
-- saab → brave1 (partner): первый этап инициативы Brave Prime — подписание официальных соглашений с Airbus и Saab (МО Украины, 01.07.2026)
-- aid → brave1 (partner): Brave1 и AID подписали соглашение о запуске BRAVE FRANCE — совместной грантовой программы украинских и французских оборонных компаний, бюджет €20 млн (по €10 млн от сторон) (Brave1, 16.06.2026)
