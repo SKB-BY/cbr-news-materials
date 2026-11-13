@@ -2,10 +2,13 @@
 # -*- coding: utf-8 -*-
 """Build map/data.js and map/UNLOCATED.md for the static map (stdlib only).
 
-Inputs: companies.csv, map/links.json, map/locations.csv (official HQ address/locality per node,
-geocoded by scripts/geocode_locations.py). A node is placed on the map only if locations.csv gives it
-a sourced address/locality (precision street|city|region|state) and lat/lon. Nodes without one are
-not placed and are listed in map/UNLOCATED.md. No invented points, no jitter.
+Inputs: companies.csv, map/links.json, map/locations.csv (sourced locality per node,
+geocoded by Nominatim). A node is placed if locations.csv has precision street|city|region|state,
+lat/lon and source_url. Official HQ/legal address → location_precision «точно». Indirect evidence
+(press city, vacancies, exhibition, registry city, etc.) → «приблизительно» and location_basis
+must start with «Местоположение не официальное, установлено по признакам». No evidence → listed
+in map/UNLOCATED.md. No country/capital default, no invented points, no jitter, no home addresses.
+Legal address is labelled «юридический адрес», not a plant.
 
 Usage: python3 scripts/build_map_data.py   (run from the repository root)
 """
@@ -27,7 +30,9 @@ def load_locations():
         if r["precision"] in PREC and r["lat"] and r["lon"] and r["source_url"]:
             out[r["id"]] = {"lat": float(r["lat"]), "lon": float(r["lon"]), "precision": r["precision"],
                             "address": r["address_text"], "location_source": r["source_url"],
-                            "location_as_of": r["as_of"], "location_note": r["note"]}
+                            "location_as_of": r["as_of"], "location_note": r["note"],
+                            "location_precision": (r.get("location_precision") or "точно"),
+                            "location_basis": r.get("location_basis") or ""}
         else:
             out[r["id"]] = {"unlocated": r["note"]}
     return out
@@ -66,13 +71,21 @@ def main():
     un = [n for n in allx if n["precision"] == "none"]
     byid = {n["id"]: n for n in allx}
     cnt = {p: sum(1 for n in allx if n["precision"] == p) for p in PREC}
+    approx = [n for n in allx if n.get("location_precision") == "приблизительно" and n.get("lat") is not None]
+    exact = [n for n in allx if n.get("location_precision") == "точно" and n.get("lat") is not None]
     md = ["# Узлы без точки на карте", "",
-          "Правило (с 11.11.2026): узел ставится на карту только по официально опубликованному адресу "
-          "штаб-квартиры; если адреса нет — минимум город, район (область) или штат. Источник и дата — в "
-          "[locations.csv](locations.csv). Узлы ниже не размещены, потому что на открытых официальных страницах "
-          "такой локации не найдено (точки не придумываются).", "",
+          "Правило (с 13.11.2026, t79u/t80u): точка ставится по официально опубликованному адресу "
+          "штаб-квартиры или (минимум) городу / району / штату — поле location_precision «точно». "
+          "Если официального адреса нет, допустима приблизительная точка по косвенным признакам "
+          "(официальный пресс-релиз или страница контактов, вакансии, выставка, город в реестре, "
+          "даталайн новости, место исполнения контракта) — «приблизительно». У каждой приблизительной "
+          "точки в location_basis в начале стоит формулировка «Местоположение не официальное, установлено по признакам», "
+          "затем перечень признаков (URL, цитата, дата проверки). Нет признака — точки нет (список ниже). "
+          "Столица или центр страны без признака не ставятся. Юридический адрес подписывается "
+          "«юридический адрес», не как завод. Домашние адреса не публикуются. Российских юрлиц в реестре нет. "
+          "Источник и дата — в [locations.csv](locations.csv).", "",
           "Размещено: " + ", ".join("%s — %d" % (PREC_RU[p], cnt[p]) for p in PREC)
-          + "; без точки — %d." % len(un), "",
+          + "; точно — %d, приблизительно — %d; без точки — %d." % (len(exact), len(approx), len(un)), "",
           "| id | Название | Тип | Причина |", "|---|---|---|---|"]
     for n in un:
         kind = "внешний узел" if n in ext else n.get("kind", "")
@@ -83,7 +96,7 @@ def main():
         md += ["", "Связи, которые не рисуются на карте (один из концов без точки; перечислены в боковой панели):", ""]
         md += ["- %s → %s (%s): %s" % (l["from"], l["to"], l["type"], l["basis"]) for l in nl]
     (ROOT / "map" / "UNLOCATED.md").write_text("\n".join(md) + "\n", encoding="utf-8")
-    print(len(nodes), "nodes,", len(ext), "external,", len(links["links"]), "links;", cnt, "unlocated", len(un))
+    print(len(nodes), "nodes,", len(ext), "external,", len(links["links"]), "links;", cnt, "точно", len(exact), "приблизительно", len(approx), "unlocated", len(un))
 
 
 if __name__ == "__main__":
