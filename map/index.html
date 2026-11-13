@@ -95,6 +95,11 @@
   .sv li { padding:5px 0; border-top:1px solid var(--line); font-size:12.5px; }
   .sv .m { font:11px var(--mono); color:var(--muted); }
   .ok2 { color:#3fb950; } .ok1 { color:#8ad48f; } .ok0 { color:#9aa4b1; } .ng1 { color:#e0a050; } .ng2 { color:#f2555a; }
+
+  .mk.approx { background:#fff !important; border-style:dashed; box-shadow:0 1px 4px #0005; }
+  .mk.approx .approx-mark { position:absolute; left:50%; top:50%; transform:translate(-50%,-58%); font:700 12px/1 var(--sans); color:#1a1f2b; }
+  .mk.program.approx .approx-mark { transform:translate(-50%,-58%) rotate(-45deg); }
+  .approx-note { margin:8px 0 0; padding:6px 8px; border-left:3px solid #c47a0a; background:#c47a0a14; font-size:12.5px; }
   .leaflet-tooltip.hov { background:var(--panel); color:var(--text); border:1px solid var(--line-2); max-width:380px; white-space:normal; font-size:12px; }
 </style>
 </head>
@@ -118,7 +123,7 @@
   <aside id="side">
     <div class="scroll">
       <h1>Карта реестра: связи и точки</h1>
-      <p class="muted">Точки — только по официальному адресу штаб-квартиры (или минимум город, район / область, штат) из <a href="../companies.csv">реестра</a> и <a href="locations.csv">locations.csv</a>. Узлы без опубликованной локации — в списке ниже и в <a href="UNLOCATED.md">UNLOCATED.md</a>, на карту не ставятся; несколько узлов с одной локацией — одна точка.</p>
+      <p class="muted">Точки — по официальному адресу штаб-квартиры или (минимум) городу / району / штату из <a href="../companies.csv">реестра</a> и <a href="locations.csv">locations.csv</a> («точно»). Если официального адреса нет, допустима приблизительная точка по косвенным признакам (маркер ≈, пунктир). У таких точек в подсказке и карточке: «Местоположение не официальное, установлено по признакам». Нет признака — в списке ниже и в <a href="UNLOCATED.md">UNLOCATED.md</a>, на карту не ставятся. Столица без признака не ставится. Юридический адрес подписывается как юридический, не как завод. Несколько узлов с одной локацией — одна точка.</p>
       <input type="search" id="q" placeholder="Поиск по названию…">
       <h2>Легенда и фильтр</h2>
       <div id="filters"></div>
@@ -129,7 +134,7 @@
       <p class="muted">Связи — только с URL источника (<a href="links.json">links.json</a>) и только если оба конца имеют точку; пунктир — внешний узел, которого нет в реестре.</p>
       <details class="cbr-help-inline" id="cbr-legend"><summary>Справка: окрас, субъективность, ОИ 5×5</summary></details>
       <h2>Сведения и связи организаций, компаний и фирм</h2>
-      <p class="muted">Все разделы и сферы. Сведения — материалы с кодом ОИ 5×5 с 01.01.2026, где названа организация (упоминание в контуре или точное имя в заголовке); порядок — дата, достоверность, значимость. Связи — именованные связи из опубликованных материалов с окрасом, без «совместного упоминания». Узел без подтверждённого адреса показан с пометкой «без точки» — координаты не выдумываются. Телефоны, e-mail и домашние адреса не публикуются.</p>
+      <p class="muted">Все разделы и сферы. Сведения — материалы с кодом ОИ 5×5 с 01.01.2026, где названа организация (упоминание в контуре или точное имя в заголовке); порядок — дата, достоверность, значимость. Связи — именованные связи из опубликованных материалов с окрасом, без «совместного упоминания». Узел без подтверждённого или обоснованного признаками места показан с пометкой «без точки» — координаты не выдумываются. Приблизительные точки помечены ≈. Телефоны, e-mail и домашние адреса не публикуются.</p>
       <select class="f" id="fsph"><option value="">Сфера: все</option></select>
       <select class="f" id="fsrc"><option value="">Узлы: реестр и контур</option><option value="реестр">только реестр</option><option value="контур">только контур (нет в реестре)</option><option value="nopt">только без точки на карте</option></select>
       <div class="muted" id="orgs-h"></div>
@@ -142,7 +147,7 @@
   <div id="map"></div>
 </div>
 <script src="vendor/leaflet.js?v=t27"></script>
-<script src="data.js?v=t39"></script>
+<script src="data.js?v=t81"></script>
 <script src="contour.js?v=t72"></script>
 <script src="../assets/asof.js?v=t81"></script>
 <script src="../news-map/explain.js?v=t81"></script>
@@ -158,6 +163,15 @@ const KIND = {
   external:{label:"Внешний узел (нет в реестре)", color:"#d08a1e"}
 };
 const PREC = {street:"адрес (улица)", city:"город", region:"район / область", state:"штат"};
+const APPROX_STMT = "Местоположение не официальное, установлено по признакам";
+function isApprox(n){ return n.location_precision === "приблизительно"; }
+function approxBlock(n){
+  if(!isApprox(n)) return "";
+  const basis = String(n.location_basis||"");
+  const rest = basis.indexOf(APPROX_STMT)===0 ? basis.slice(APPROX_STMT.length).replace(/^\.\s*/,"").trim() : basis;
+  return `<div class="approx-note"><b>${APPROX_STMT}</b>${rest? " "+esc(rest):""}</div>`;
+}
+
 const LINK = {
   structure:{label:"Структура (подчинённость агентств и программ)", color:"#2f6fdb", dash:null, short:"структура"},
   customer:{label:"Заказчик (с источником)", color:"#16a34a", dash:"6 5", short:"заказчик"},
@@ -214,11 +228,14 @@ function card(n){
     `<li><b>${esc(LINK[l.type].short)}</b>: ${esc(short(byId[l.from]))} → ${esc(short(byId[l.to]))}. ${esc(l.basis)}<br>${urls(l.source)}</li>`).join("");
   let h=`<div class="pp"><h3>${esc(n.name)}</h3><span class="tag" style="background:${KIND[c].color}">${esc(KIND[c].label)}</span>`;
   if(c==="threat") h+=`<div class="warn">Объект анализа угроз и цепочек поставок. Запись в реестре — для картирования, не признак сотрудничества.</div>`;
+  if(isApprox(n)) h+=approxBlock(n);
   const row=(k,v)=> v?`<dt>${k}</dt><dd>${v}</dd>`:"";
+  const locPrec = n.location_precision ? (n.location_precision==="приблизительно"?"приблизительно":"точно") : (n.lat!=null?"точно":"");
   const where = n.lat!=null
-    ? row("Адрес / локация",esc(n.address))+row("Точность",esc(PREC[n.precision]||n.precision))
-      +row("Источник адреса",urls(n.location_source)+(n.location_as_of?` <span class="muted">(${esc(n.location_as_of)})</span>`:""))
-      +row("Примечание",esc(n.location_note))
+    ? row("Адрес / локация",esc(n.address))+row("Точность",esc((PREC[n.precision]||n.precision)+(locPrec?" · "+locPrec:"")))
+      +(isApprox(n)?"":row("Источник адреса",urls(n.location_source)+(n.location_as_of?` <span class="muted">(${esc(n.location_as_of)})</span>`:"")))
+      +(isApprox(n)?"":row("Основание",esc(n.location_basis||n.location_note||"")))
+      +(!isApprox(n)?row("Примечание",esc(n.location_note)):"")
     : row("Локация",`не размещён на карте: ${esc(n.unlocated_reason)}`);
   if(n.external) h+=`<p>${esc(n.country)}. ${esc(n.note)}</p><dl>${where}</dl>`;
   else {
@@ -269,10 +286,12 @@ function cardOnly(id){ const n=C.nodes[id]; return `<div class="pp"><h3>${esc(n.
 const vis = {program:true, agency:true, company:true, outside:true, threat:true, external:true};
 const markers = {}, lines = [];
 const mLayer = L.layerGroup().addTo(map), lLayer = L.layerGroup().addTo(map);
-function visibleAt(p){ return p.nodes.filter(n=>vis[cat(n)]); }
+let showApprox = true;
+function visibleAt(p){ return p.nodes.filter(n=>vis[cat(n)] && (showApprox || !isApprox(n))); }
 function makeMarker(p){
   const vn=visibleAt(p); if(!vn.length) return null; const n=vn[0], c=cat(n), risk=vn.some(x=>x.red_flags);
-  const icon=L.divIcon({className:"mkw", html:`<div class="mk ${c}${risk?" risk":""}">${vn.length>1?`<span class="n">${vn.length}</span>`:""}</div>`, iconSize:[22,22], iconAnchor:[11,11], popupAnchor:[0,-12]});
+  const approxAll=vn.every(isApprox), approxAny=vn.some(isApprox);
+  const icon=L.divIcon({className:"mkw", html:`<div class="mk ${c}${risk?" risk":""}${approxAll?" approx":""}">${approxAny?`<span class="approx-mark">≈</span>`:""}${vn.length>1?`<span class="n">${vn.length}</span>`:""}</div>`, iconSize:[22,22], iconAnchor:[11,11], popupAnchor:[0,-12]});
   const m=L.marker([p.lat,p.lon],{icon, title:vn.map(x=>x.name).join(" · "), riseOnHover:true});
   m.bindPopup(()=>visibleAt(p).map(card).join(""),{maxWidth:420, autoPanPadding:[30,30]});
   return m; }
@@ -290,6 +309,7 @@ C.rels.forEach(r=>{ const a=byId[r.a], b=byId[r.b]; if(!a||!b||a.lat==null||b.la
   pl.on("click",()=>openNode(b)); lines.push([{from:r.a,to:r.b,contour:true},pl]); });
 function hov(p){ const vn=visibleAt(p); let h=`<b>${esc(label(p))}</b>`;
   vn.forEach(n=>{ const its=nodeItems(n.id).slice(0,5), c=C.nodes[n.id];
+    if(isApprox(n)) h+=approxBlock(n);
     if(c) h+=`<div class="m">${esc(short(n))}: сведений ${nodeItems(n.id).length} · связей ${c.nr}</div>`;
     its.forEach(x=>{ const it=x[2]; h+=`<div>${esc(it[0])} ${oib(it[6]||it[5])} ${esc((it[4]||it[3]).slice(0,110))}</div>`; }); });
   return h; }
@@ -307,7 +327,7 @@ layout(); refresh();
 if(!Object.keys(points).length){
   L.popup({closeButton:false, maxWidth:360, autoClose:false, closeOnClick:false})
     .setLatLng(map.getCenter())
-    .setContent("<div class=\"pp\"><h3>Точек на карте нет</h3><p>В загруженных данных нет координат. Обновите страницу без кэша (Ctrl+F5) или откройте <a href=\"data.js?v=t39\">data.js</a>.</p></div>")
+    .setContent("<div class=\"pp\"><h3>Точек на карте нет</h3><p>В загруженных данных нет координат. Обновите страницу без кэша (Ctrl+F5) или откройте <a href=\"data.js?v=t81\">data.js</a>.</p></div>")
     .openOn(map);
 }
 
@@ -325,11 +345,15 @@ Object.entries(KIND).forEach(([k,K])=>{ const tot=nodes.filter(n=>cat(n)===k).le
   fl.appendChild(lab); });
 { const lab=document.createElement("div"); lab.className="row";
   lab.innerHTML=`<span class="sw"><span class="mk company risk" style="width:14px;height:14px"></span></span>Маркер риска с источником (red_flags)`; fl.appendChild(lab); }
+{ const lab=document.createElement("label"); lab.className="row";
+  lab.innerHTML=`<input type="checkbox" id="approx-toggle" checked><span class="sw"><span class="mk company approx" style="width:14px;height:14px"><span class="approx-mark">≈</span></span></span>≈ приблизительное расположение`;
+  fl.appendChild(lab);
+  const hint=document.createElement("div"); hint.className="muted"; hint.style.margin="0 0 8px 28px"; hint.textContent=APPROX_STMT; fl.appendChild(hint); }
 const ll=document.getElementById("linklegend");
 { const d=document.createElement("div"); d.className="row"; d.innerHTML=`<span class="ln" style="border-color:#8ad48f;border-top-style:dotted"></span>Связь из материалов (цвет — окрас: красный −2 … ярко-зелёный +2)`; document.getElementById("linklegend").appendChild(d); }
 Object.values(LINK).forEach(s=>{ const d=document.createElement("div"); d.className="row";
   d.innerHTML=`<span class="ln" style="border-color:${s.color};border-top-style:${s.dash?(s.dash.startsWith("2")?"dotted":"dashed"):"solid"}"></span>${esc(s.label)}`; ll.appendChild(d); });
-fl.addEventListener("change",e=>{ const k=e.target.dataset.k; if(k){ vis[k]=e.target.checked; refresh(); } });
+fl.addEventListener("change",e=>{ if(e.target.id==="approx-toggle"){ showApprox=e.target.checked; refresh(); return; } const k=e.target.dataset.k; if(k){ vis[k]=e.target.checked; refresh(); } });
 document.getElementById("labels").addEventListener("change",refresh);
 document.getElementById("q").addEventListener("input",()=>{ refresh(); const q=document.getElementById("q").value.trim().toLowerCase();
   const n=q.length>2 && nodes.find(x=>vis[cat(x)] && x.name.toLowerCase().includes(q)); if(n) openNode(n); });
@@ -352,7 +376,8 @@ function drawOrgs(){ const ol=document.getElementById("orgs"); ol.innerHTML=""; 
     .sort((a,b)=>(b.ni+b.nr)-(a.ni+a.nr)||a.n.name.localeCompare(b.n.name));
   document.getElementById("orgs-h").textContent=`Узлов со сведениями или связями: ${rows.length}`+(sp?` (сфера: ${sp})`:"");
   rows.forEach(x=>{ const li=document.createElement("li"); const k=x.n.src==="реестр"&&byId[x.id]?cat(byId[x.id]):"external";
-    li.innerHTML=`<span class="tag" style="background:${x.n.src==="реестр"?KIND[k].color:"#d08a1e"}">${x.n.src==="реестр"?esc(KIND[k].label.split(" ")[0]):"контур"}</span>${esc(x.n.name.split(" — ")[0])}${x.loc?"":'<span class="nopt">без точки</span>'}<br><span class="cnt">сведений ${x.ni} · связей ${x.nr}${x.n.country?" · "+esc(x.n.country):""}</span>`;
+    const approx=x.loc && byId[x.id] && isApprox(byId[x.id]);
+    li.innerHTML=`<span class="tag" style="background:${x.n.src==="реестр"?KIND[k].color:"#d08a1e"}">${x.n.src==="реестр"?esc(KIND[k].label.split(" ")[0]):"контур"}</span>${esc(x.n.name.split(" — ")[0])}${x.loc?(approx?'<span class="nopt">≈</span>':""):'<span class="nopt">без точки</span>'}<br><span class="cnt">сведений ${x.ni} · связей ${x.nr}${x.n.country?" · "+esc(x.n.country):""}${approx?" · "+APPROX_STMT:""}</span>`;
     li.onclick=()=>openAny(x.id); ol.appendChild(li); }); }
 fs.addEventListener("change",()=>{ drawOrgs(); refresh(); }); document.getElementById("fsrc").addEventListener("change",drawOrgs);
 document.getElementById("q").addEventListener("input",drawOrgs);
