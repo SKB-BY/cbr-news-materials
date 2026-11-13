@@ -158,6 +158,7 @@
       <details id="about"><summary>О карте</summary>
       <p class="muted" id="cover"></p>
       <p class="muted">Вторая карта репозитория. Первая — <a href="../map/">карта реестра</a> (организации и компании). Здесь — новости по местам из их ключевых мест; каждая запись подсвечена кодом <a href="../oi-5x5/" target="_blank" rel="noopener">ОИ 5×5</a> (<a href="../OI_5x5.md">пояснение</a>).</p>
+      <details class="cbr-help-inline" id="cbr-legend"><summary>Справка: окрас, субъективность, ОИ 5×5</summary></details>
       <p class="muted" id="cxabout"></p>
       <p class="muted">Место рисуется областью — страна, регион, город или акватория целиком: в новости названо место, а не адрес события. Новости без места — в <a href="news_unlocated.csv">news_unlocated.csv</a> (<a href="UNLOCATED.md">почему</a>); все записи карты — <a href="news_points.csv">news_points.csv</a>.</p>
       </details>
@@ -177,6 +178,7 @@
 <script src="data.js?v=t62"></script>
 <script src="contour.js?v=t62"></script>
 <script src="../assets/asof.js?v=t62"></script>
+<script src="explain.js?v=t72"></script>
 <script>
 (function(){
 const D = window.NEWS_MAP_DATA, P = D.palette, F = D.fields;
@@ -189,13 +191,14 @@ const SPH=[["БПЛА",[]],["вооружение",["легкое","тяжело
 const ENT = C.entities.map((e,i)=>({i, id:e[0], type:e[1], name:e[2], al:e[3]||[], country:e[4], n:e[5], place:e[6], key:(e[2]+" "+(e[3]||[]).join(" ")).toLowerCase()}));
 const REL = C.relations.map((r,i)=>({i, a:r[0], b:r[1], type:r[2], n:r[3], pm2:r[4], pm1:r[5], ev:r[6]||[], ed:r[7]}));
 const urlRels={}; REL.forEach(r=>r.ev.forEach(e=>(urlRels[e[0]]=urlRels[e[0]]||[]).push(r.i)));
-(function(){ const a=window.CBR_ASOF, el=document.getElementById("cbr-asof"); if(el) el.innerHTML="<i></i>"+(a? a.as_of : (D.as_of||"").split(" ")[0].split("-").reverse().join(".")+" "+((D.as_of||"").split(" ")[1]||""))+" Europe/Minsk"; })();
+(function(){ const a=window.CBR_ASOF, el=document.getElementById("cbr-asof"); if(el && !a) el.setAttribute("data-asof",(D.as_of||"").split(" ")[0].split("-").reverse().join(".")+" "+((D.as_of||"").split(" ")[1]||"")); })();
+const CX = window.CBRX || null;  // t72u: разъяснение значений при наведении
 const SRC="АБВГД", INF="12345";
 const PREC={country:"страна", region:"регион", city:"город", sea:"акватория"};
 const ORDER={country:0, sea:1, region:2, city:3};
 function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 function status(code){ if(!code) return ""; if(code[1]==="1") return "новость"; if(code[1]==="2" && "АБВ".includes(code[0])) return "утверждение"; return "слух"; }
-function badge(code, pre){ const c=P[code]; if(!c) return ""; return `<span class="oi" style="background:${c[0]};color:${c[1]}" title="ОИ 5×5: ${code} — ${status(code)}">${pre?esc(pre)+" ":""}${code}</span>`; }
+function badge(code, pre, x, k){ const c=P[code]; if(!c) return ""; const at = x&&CX ? CX.oiAttrs(code,k,x.id,x.url) : ` title="ОИ 5×5: ${code} — ${status(code)}"`; return `<span class="oi" style="background:${c[0]};color:${c[1]}"${at}>${pre?esc(pre)+" ":""}${code}</span>`; }
 function rank(code){ return (INF.indexOf(code[1]))*5 + SRC.indexOf(code[0]); }  // меньше — достовернее
 function dmy(s){ if(!s) return ""; const [d,t]=s.split(" "); const p=d.split("-"); return (p.length===2? p[1]+"."+p[0] : p[2]+"."+p[1]+"."+p[0])+(t?" "+t:""); }
 const items = D.items.map(a=>{ const o={}; F.forEach((k,i)=>o[k]=a[i]); o.code=o.oi1||o.oi0; o.st=status(o.code); o.cx=C.items[o.id]||null;
@@ -211,6 +214,7 @@ function cmp(a,b){ const x=a.head, y=b.head; const da=dkey(x), db=dkey(y);
   return x.pub<y.pub?1:x.pub>y.pub?-1:0; }
 stories.forEach(s=>{ s.head=s.items[0]; s.lift=s.items.some(x=>x.lift); s.txt=s.items.map(x=>(x.t+" "+x.src).toLowerCase()).join(" "); });
 
+if(CX) document.getElementById("cbr-legend").insertAdjacentHTML("beforeend", CX.legendHtml());
 document.getElementById("cxabout").innerHTML = `Сфера, сущности, связи, окрас, субъективность и маркеры рисков — из контура (<a href="entities.json">entities.json</a>, <a href="relations.json">relations.json</a>, <a href="items.json">items.json</a>; связь с материалом — по dedupe_hash). Извлечение — по правилам: часть связей может быть ложной, окрас упоминания берётся из предложения. Сущность ставится на карту только областью из словаря мест (локация) или точкой по адресу с официальной или реестровой страницы; центроид Киева не используется, юридический адрес — не завод. Сущности без подтверждённого места — <a href="entities_unlocated.csv">entities_unlocated.csv</a> (${C.unlocated}).`;
 document.getElementById("cover").innerHTML = `Новости базы с датой публикации с ${dmy(D.from)} по ${dmy(D.as_of)} Europe/Minsk (по времени сбора), коды ОИ 5×5 — проход ${dmy(D.oi_as_of)} Europe/Minsk. Ранние записи (в том числе до 2026 г.), которые дополнила более поздняя новость, подняты из базы и стоят вместе с ней.`;
 
@@ -277,16 +281,16 @@ function contourOk(s){ const x=s.head, cx=x.cx;
   if(st.subj){ const v=cx?cx[3]:null; if(v==null) return false; if(st.subj==="lt0.5"){ if(!(v<0.5)) return false; } else if(!(v>=+st.subj.slice(2))) return false; }
   if(st.risk.size){ if(!cx || !cx[4].some(r=>st.risk.has(r))) return false; }
   return true; }
-function sentChip(v,pm1){ const x=SENTC[v]; if(!x) return ""; return `<span class="s-chip" style="background:${x[2]}" title="окрас: ${x[1]}${pm1!=null?" ("+pm1+")":""}">${v>0?"+"+v:v===0?"0":"−"+(-v)} ${x[1]}</span>`; }
+function sentChip(v,pm1,o){ const x=SENTC[v]; if(!x) return ""; const at = CX ? ` tabindex="0" data-x="okr" data-s2="${v}"${pm1!=null?` data-s1="${pm1}"`:""}${o&&o.h?` data-h="${esc(o.h)}"`:""}${o&&o.lvl?` data-lvl="${o.lvl}"`:""}${o&&o.q?` data-q="${esc(o.q)}"`:""}${o&&o.n?` data-n="${o.n}"`:""}` : ` title="окрас: ${x[1]}${pm1!=null?" ("+pm1+")":""}"`; return `<span class="s-chip" style="background:${x[2]}"${at}>${v>0?"+"+v:v===0?"0":"−"+(-v)} ${x[1]}</span>`; }
 function cxHtml(x){ const cx=x.cx; if(!cx) return "";
   const sp=cx[0].map(([a,b])=>`<span class="sph-chip">${esc(a)}${b?" · "+esc(b):""}</span>`).join("");
-  return `<div class="m">${sp}${cx[2]!=null?" "+sentChip(cx[2],cx[1]):""}${cx[3]!=null?` <span class="muted">субъективность ${cx[3]}</span>`:""} ${cx[4].map(r=>`<span class="risk-chip">${r}</span>`).join("")}</div>`; }
+  return `<div class="m">${sp}${cx[2]!=null?" "+sentChip(cx[2],cx[1],{h:x.id,lvl:"doc"}):""}${cx[3]!=null?(CX?" "+CX.subjBadge(cx[3],{h:x.id}):` <span class="muted">субъективность ${cx[3]}</span>`):""} ${cx[4].map(r=>`<span class="risk-chip">${r}</span>`).join("")}</div>`; }
 function ecardHtml(){ if(st.ent==null) return ""; const e=ENT[st.ent];
   const pl = e.place&&e.place.a ? `область на карте: ${esc(e.place.a)}` : e.place&&e.place.p ? `точка по адресу с официальной страницы: ${esc(e.place.p[2])} (<a href="${esc(e.place.p[3])}" target="_blank" rel="noopener">источник</a>)` : "места нет — на карту точкой не ставится";
   const rs=REL.filter(r=>(r.a===st.ent||r.b===st.ent)&&relOk(r)).sort((a,b)=>b.n-a.n).slice(0,30);
   return `<div class="ecard"><div class="ops-label" style="margin:0 0 4px">Сущность · ${esc(e.type)}</div><h3>${esc(e.name)}</h3>
     <div class="m">${e.country?esc(e.country)+" · ":""}${pl}</div><div class="m">материалов в контуре: ${e.n}; ниже — сведения с этой сущностью при текущем фильтре. <a href="#" id="eclr">сбросить</a></div>
-    ${rs.length?rs.map(r=>{ const o=ENT[r.a===st.ent?r.b:r.a]; return `<div class="rel"><b>${esc(r.type)}</b> → ${esc(o.name)} <span class="muted">(${esc(o.type)}; доказательств: ${r.n})</span> ${r.pm2!=null?sentChip(r.pm2,r.pm1):""}${r.ev.slice(0,2).map(v=>`<div class="q">«${esc(v[2])}» — <a href="${esc(v[0])}" target="_blank" rel="noopener">${esc(dmy(minskD(v[1])))}</a></div>`).join("")}</div>`; }).join(""):'<div class="m">Связей при текущем фильтре нет.</div>'}</div>`; }
+    ${rs.length?rs.map(r=>{ const o=ENT[r.a===st.ent?r.b:r.a]; return `<div class="rel"><b>${esc(r.type)}</b> → ${esc(o.name)} <span class="muted">(${esc(o.type)}; доказательств: ${r.n})</span> ${r.pm2!=null?sentChip(r.pm2,r.pm1,{lvl:"rel",q:(r.ev[0]||[])[2],n:r.ev.length}):""}${r.ev.slice(0,2).map(v=>`<div class="q">«${esc(v[2])}» — <a href="${esc(v[0])}" target="_blank" rel="noopener">${esc(dmy(minskD(v[1])))}</a></div>`).join("")}</div>`; }).join(""):'<div class="m">Связей при текущем фильтре нет.</div>'}</div>`; }
 function minskD(iso){ if(!iso) return ""; const d=new Date(iso); if(isNaN(d)) return iso.slice(0,10); return new Date(d.getTime()+3*3600e3).toISOString().slice(0,10); }
 entList();
 
@@ -351,8 +355,8 @@ function update(){
 function itemHtml(x, head){
   const ev = x.ev ? `событие ${dmy(x.ev)}${x.evp==="month"?" (месяц)":x.evp==="relative"?" (по тексту относительно публикации)":""}` : "дата события не названа";
   const tr = x.tf===1 ? ` <span class="muted">(машинный перевод, ${esc(x.lang)}→ru)</span>` : x.tf===2 ? ` <span class="muted">(оригинал, перевода нет)</span>` : "";
-  const codes = x.oi1 ? `${badge(x.oi1,"ОИ со временем")} <span class="muted">с ${dmy(x.oi1at)}</span> · ${badge(x.oi0,"Первоначальная")}` : badge(x.oi0,"Первоначальная ОИ");
-  return `<div class="h">${badge(x.code)}<b>${esc(x.st)}</b>${x.lift?' <span class="lift" title="Запись до 01.01.2026, поднята из базы: её дополнила более поздняя новость">поднято из базы</span>':""}</div>
+  const codes = x.oi1 ? `${badge(x.oi1,"ОИ со временем",x,1)} <span class="muted">с ${dmy(x.oi1at)}</span> · ${badge(x.oi0,"Первоначальная",x,0)}` : badge(x.oi0,"Первоначальная ОИ",x,0);
+  return `<div class="h">${badge(x.code,"",x,x.oi1?1:0)}<b>${esc(x.st)}</b>${x.lift?' <span class="lift" title="Запись до 01.01.2026, поднята из базы: её дополнила более поздняя новость">поднято из базы</span>':""}</div>
     <div class="t">${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.t||"без заголовка")}</a>`:esc(x.t)}${tr}</div>
     <div class="m">${esc(ev)} · опубл. ${esc(dmy(x.pub))} Europe/Minsk · ${esc(x.src)}${x.topic?" · "+esc(x.topic):""}${x.cat?" · "+esc(x.cat):""}${x.sec?" · "+esc(x.sec):""}</div>
     <div class="m">${codes}${!head && x.rel.length?` · связь: ${esc(x.rel.join(", "))}`:""}</div>${cxHtml(x)}`; }

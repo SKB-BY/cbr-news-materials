@@ -25,11 +25,12 @@
     <a href="{{ site.baseurl }}/SOURCES.html"{% if u contains "SOURCES" %} class="on"{% endif %}>Источники сбора</a>
     <a href="{{ site.baseurl }}/darpa-programs/"{% if u contains "darpa-programs" %} class="on"{% endif %}>Программы DARPA</a>
   </nav>
-  <span class="cbr-asof" title="Сведения актуальны на (Europe/Minsk)"><i></i>{{ site.data.asof.as_of }} Europe/Minsk</span>
+  <span class="cbr-asof" id="cbr-asof" data-asof="{{ site.data.asof.as_of }}"><span class="cbr-st"><i class="dot-warn"></i>СБОР ДАННЫХ</span><span class="cbr-last">последнее обновление <b>{{ site.data.asof.as_of }} Europe/Minsk</b></span><span class="cbr-now"><i class="dot-live"></i>актуально <b id="cbr-now">—</b></span></span>
 </header>
 <main class="cbr-doc">
 {{ content }}
 </main>
 <footer class="cbr-foot">{{ site.title }} · сведения на {{ site.data.asof.as_of }} Europe/Minsk · коды ОИ 5×5 — проход {{ site.data.asof.oi_as_of }} Europe/Minsk · <a href="https://github.com/SKB-BY/cbr-news-materials">репозиторий</a></footer>
+<script src="{{ site.baseurl }}/news-map/explain.js?v={{ site.github.build_revision | slice: 0, 7 }}"></script>
 </body>
 </html>
