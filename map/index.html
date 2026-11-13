@@ -117,6 +117,7 @@
       <h2>Аналитические цепочки</h2>
       <ul id="chains"></ul>
       <p class="muted">Связи — только с URL источника (<a href="links.json">links.json</a>) и только если оба конца имеют точку; пунктир — внешний узел, которого нет в реестре.</p>
+      <details class="cbr-help-inline" id="cbr-legend"><summary>Справка: окрас, субъективность, ОИ 5×5</summary></details>
       <h2>Сведения и связи организаций, компаний и фирм</h2>
       <p class="muted">Все разделы и сферы. Сведения — материалы с кодом ОИ 5×5 с 01.01.2026, где названа организация (упоминание в контуре или точное имя в заголовке); порядок — дата, достоверность, значимость. Связи — именованные связи из опубликованных материалов с окрасом, без «совместного упоминания». Узел без подтверждённого адреса показан с пометкой «без точки» — координаты не выдумываются. Телефоны, e-mail и домашние адреса не публикуются.</p>
       <select class="f" id="fsph"><option value="">Сфера: все</option></select>
@@ -132,7 +133,9 @@
 </div>
 <script src="vendor/leaflet.js?v=t27"></script>
 <script src="data.js?v=t39"></script>
-<script src="contour.js?v=t69"></script>
+<script src="contour.js?v=t72"></script>
+<script src="../assets/asof.js?v=t72"></script>
+<script src="../news-map/explain.js?v=t72"></script>
 <script>
 (function(){
 const D = window.MAP_DATA;
@@ -221,14 +224,18 @@ function card(n){
 }
 // ---- t69u: сведения и связи из контура
 const C = window.REG_CONTOUR || {nodes:{}, items:{}, rels:[]};
+if(window.CBRX){ const lg=document.getElementById("cbr-legend"); if(lg) lg.insertAdjacentHTML("beforeend", CBRX.legendHtml()); }
 const SPH = ["БПЛА","вооружение","бронетехника","армейские джипы","артиллерийские системы","системы ПВО и РВСН","авиация","средства связи и коммуникаций","программное обеспечение специального назначения","тактика и стратегия"];
 const SPHL = {"вооружение":"вооружение (легкое, тяжелое, гранатометы, гранаты, мины)","бронетехника":"бронетехника (автомобильная бронетехника, БМП, танки, САУ и ПТ САУ)","армейские джипы":"армейские джипы (вездеходы, багги, квадроциклы, мотоциклы)"};
 const PAL = {"А1":["#0B5D2A","#fff"],"Б1":["#1B7A3D","#fff"],"В1":["#2E9A4F","#fff"],"Г1":["#5BB86A","#000"],"Д1":["#A8D5B0","#000"],"А2":["#0D47A1","#fff"],"Б2":["#1565C0","#fff"],"В2":["#1E88E5","#fff"],"Г2":["#64B5F6","#000"],"Д2":["#BBDEFB","#000"],"А3":["#F9A825","#000"],"Б3":["#FBC02D","#000"],"В3":["#FDD835","#000"],"Г3":["#FFEE58","#000"],"Д3":["#FFF59D","#000"],"А4":["#EF6C00","#fff"],"Б4":["#FB8C00","#000"],"В4":["#FFA726","#000"],"Г4":["#FFCC80","#000"],"Д4":["#BDBDBD","#000"],"А5":["#B71C1C","#fff"],"Б5":["#C62828","#fff"],"В5":["#E53935","#fff"],"Г5":["#EF5350","#000"],"Д5":["#4A0000","#fff"]};
 const OKR = {"-2":["красный","ng2"],"-1":["оранжевый","ng1"],"0":["серый","ok0"],"1":["светло-зелёный","ok1"],"2":["ярко-зелёный","ok2"]};
-function oib(c){ const p=PAL[c]; return p?`<span class="oi" style="background:${p[0]};color:${p[1]}" title="ОИ 5×5: ${c}">${c}</span>`:""; }
+const CX = window.CBRX || null;  // t72u: разъяснение значений при наведении
+function oib(c,h,k,u){ const p=PAL[c]; if(!p) return ""; const at = CX&&(h||u) ? CX.oiAttrs(c,k,h,u) : ` title="ОИ 5×5: ${c}"`; return `<span class="oi" style="background:${p[0]};color:${p[1]}"${at}>${c}</span>`; }
 function st(c){ if(!c||c.length!==2) return ""; if(c[1]==="1") return "новость"; if(c[1]==="2"&&"АБВ".includes(c[0])) return "утверждение"; return "слух"; }
-function okr(s2,s1){ if(s2==null) return ""; const o=OKR[String(s2)]||["",""]; const f=v=>v==null?"":(v>0?"+":"")+String(v).replace("-","−");
-  return `<span class="${o[1]}">окрас ${f(s2)}${s1!=null?" ("+f(s1)+")":""}</span>`; }
+function okr(s2,s1,o2){ if(s2==null) return ""; const o=OKR[String(s2)]||["",""]; const f=v=>v==null?"":(v>0?"+":"")+String(v).replace("-","−"); o2=o2||{};
+  const at = CX ? ` tabindex="0" data-x="okr" data-s2="${s2}"${s1!=null?` data-s1="${s1}"`:""}${o2.h?` data-h="${esc(o2.h)}"`:""}${o2.lvl?` data-lvl="${o2.lvl}"`:""}${o2.q?` data-q="${esc(o2.q)}"`:""}${o2.n?` data-n="${o2.n}"`:""} style="cursor:help;border-bottom:1px dotted currentColor"` : "";
+  return `<span class="${o[1]}"${at}>окрас ${f(s2)}${s1!=null?" ("+f(s1)+")":""}</span>`; }
+function subj(v,h){ return v==null||!CX ? "" : " · "+CX.subjBadge(v,{h}); }
 function curSph(){ return document.getElementById("fsph").value; }
 function nodeItems(id){ const n=C.nodes[id]; if(!n) return []; const sp=curSph();
   return n.it.map(([h,how])=>[h,how,C.items[h]]).filter(x=>x[2] && (!sp || x[2][7].some(s=>s[0]===sp))); }
@@ -236,11 +243,11 @@ function nodeRels(id){ return C.rels.filter(r=>r.a===id||r.b===id); }
 function nm(id,lab){ if(id){ const r=byId[id]; if(r) return short(r); const c=C.nodes[id]; return c?c.name:id; } return lab?lab[1]:"—"; }
 function itemLi(x){ const [h,how,it]=x, code=it[6]||it[5];
   const sp=it[7].map(s=>(SPHL[s[0]]?s[0]:s[0])+(s[1]?" — "+s[1]:"")).join("; ");
-  return `<li><span class="m">${esc(it[0])} · ${esc(it[1])}</span> ${oib(it[5])}${it[6]?" → "+oib(it[6]):""} <span class="m">${esc(st(code))}</span><br>`
+  return `<li><span class="m">${esc(it[0])} · ${esc(it[1])}</span> ${oib(it[5],h,0,it[2])}${it[6]?" → "+oib(it[6],h,1,it[2]):""} <span class="m">${esc(st(code))}</span><br>`
     +`<a href="${esc(it[2])}" target="_blank" rel="noopener">${esc(it[3])}</a>${it[4]?`<br><span class="muted">по-русски: ${esc(it[4])}</span>`:""}`
-    +`<br><span class="m">${sp?"сфера: "+esc(sp)+" · ":""}${okr(it[8],it[9])}${how==="заголовок"?" · имя в заголовке":""}</span></li>`; }
+    +`<br><span class="m">${sp?"сфера: "+esc(sp)+" · ":""}${okr(it[8],it[9],{h,lvl:"doc"})}${subj(it[10],h)}${how==="заголовок"?" · имя в заголовке":""}</span></li>`; }
 function relLi(r){ const ev=r.ev.map(e=>`<a href="${esc(e[0])}" target="_blank" rel="noopener">${esc(e[1].slice(0,10))}</a>${e[2]?": «"+esc(e[2])+"»":""}`).join("<br>");
-  return `<li><b>${esc(r.t)}</b>: ${esc(nm(r.a,r.al))} → ${esc(nm(r.b,r.bl))}${r.d?" ("+esc(r.d)+")":""} <span class="m">· материалов ${r.n} · ${okr(r.s2,r.s1)}</span><br><span class="m">${ev}</span></li>`; }
+  return `<li><b>${esc(r.t)}</b>: ${esc(nm(r.a,r.al))} → ${esc(nm(r.b,r.bl))}${r.d?" ("+esc(r.d)+")":""} <span class="m">· материалов ${r.n} · ${okr(r.s2,r.s1,{lvl:"rel",q:(r.ev[0]||[])[2],n:r.ev.length})}</span><br><span class="m">${ev}</span></li>`; }
 function cardC(id){ const n=C.nodes[id]; if(!n) return `<h2>Сведения</h2><p class="muted">Материалов с кодом ОИ 5×5 с 01.01.2026, где названа эта организация, в контуре нет.</p>`;
   const its=nodeItems(id), rs=nodeRels(id), sp=curSph();
   let h=`<h2>Сведения (${its.length}${n.ni>n.it.length?" из "+n.ni+", показаны последние "+n.it.length:""})${sp?" · сфера: "+esc(sp):""}</h2>`;
@@ -348,7 +355,5 @@ unplaced.forEach(n=>{ const li=document.createElement("li");
   li.onclick=()=>openNode(n); ul.appendChild(li); });
 })();
 </script>
-<script src="../assets/asof.js?v=t62"></script>
-<script>(function(){var a=window.CBR_ASOF,e=document.getElementById("cbr-asof");if(a&&e)e.innerHTML="<i></i>"+a.as_of+" Europe/Minsk";})();</script>
 </body>
 </html>
