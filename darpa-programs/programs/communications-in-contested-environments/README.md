@@ -1,0 +1,44 @@
+# C2E — Communications in Contested Environments
+
+Единица сбора и анализа рабочего реестра darpa-programs. Только проверенные факты с URL источника.
+
+## Карточка
+
+| Поле | Значение |
+|---|---|
+| Тип | program |
+| Страница darpa.mil | [https://www.darpa.mil/research/programs/communications-in-contested-environments](https://www.darpa.mil/research/programs/communications-in-contested-environments) |
+| Офис DARPA | Strategic Technology Office |
+| Статус | завершена |
+| Период | не установлен |
+| Дата проверки | 2026-11-11 |
+
+## Назначение (цитата DARPA)
+
+> The Communications in Contested Environments (C2E) program seeks to enable the development and deployment of adaptive communication systems through a three-part approach that is motivated by processes in the commercial world, which allow incorporation of third-party technologies that are from neither the hardware developer nor the core software provider.
+
+Источник: [https://www.darpa.mil/research/programs/communications-in-contested-environments](https://www.darpa.mil/research/programs/communications-in-contested-environments)
+
+## Организации
+
+| Организация | Роль | Листинг | Доказательство | Дата | Примечание |
+|---|---|---|---|---|---|
+| — | — | — | — | — | организации не подтверждены |
+
+## Персоналии
+
+| Имя | Роль | Организация | Доказательство | Примечание |
+|---|---|---|---|---|
+| — | — | — | — | не подтверждены |
+
+## Новости из хранилища (0)
+
+Совпадение по названию программы в тексте (правило — `../../ADD_PROGRAM.md`). Машиночитаемо: `../../data/darpa_item_tags.json`. Хранилище: live — `news.sqlite`, archive — `archive/news_archive.sqlite`.
+
+Совпадений нет.
+
+## Категория и сфера (t86u, проверка 2026-11-13)
+
+- Офис DARPA (категория): Strategic Technology Office (STO) — стратегические технологии
+- Статус по darpa.mil: пометка «This program is now complete»
+- Сфера (ось сайта, словарь sphere.py по названию и цитате назначения): средства связи и коммуникаций

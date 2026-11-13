@@ -14,3 +14,56 @@
 - 2026-02-17 [DARPA в июне 2025 года впервые продемонстрировала передачу 800 ватт энергии с помощью лазера на расстояние 8 километров. Это рекордный показ](https://t.me/uav_tech/35153) — archive
 - 2026-02-16 [Патент, который ускоряет разработку дронов в сотни раз](https://t.me/uav_tech/35144) — archive
 - 2026-01-07 [Бюджет DARPA на 2026 финансовый год](https://t.me/uav_tech/34843) — archive
+- 2025-12-10 [Новый конкурс Lift от DARPA. Дроны должны перевозить гораздо больше груза](https://t.me/news_UAV/4370) — archive
+- 2025-12-08 [Small but mighty: DARPA’s new Lift competition wants drones to carry much, much more](https://breakingdefense.com/2025/12/small-but-mighty-darpas-new-lift-competition-wants-drones-to-carry-much-much-more) — archive
+- 2025-10-06 [Lockheed Martin Sikorsky reveals Nomad family of long-endurance, runway-independent drones [VIDEO]](https://defence-industry.eu/lockheed-martin-sikorsky-reveals-nomad-family-of-long-endurance-runway-independent-drones) — archive
+- 2025-08-28 [GE Aerospace and Kratos partner on turbofan engines for Collaborative Combat Aircraft programme](https://defence-industry.eu/ge-aerospace-and-kratos-partner-on-turbofan-engines-for-collaborative-combat-aircraft-programme) — archive
+- 2025-08-15 [Новый вызов для наших ЛПР, ответственных за связь в армии. Учитывая что Харрис, это одна из передовых компаний по связи, этот вызов явно бол](https://t.me/news_UAV/3838) — archive
+- 2025-06-27 [EVADE: DARPA pivots shipboard drone program to rapidly field tech later this year](https://breakingdefense.com/2025/06/evade-darpa-pivots-shipboard-drone-program-to-rapidly-field-tech-later-this-year) — archive
+- 2025-06-24 [DARPA to Demonstrate UAS VTOL Capabilities](https://uasvision.com/2025/06/24/darpa-to-demonstrate-uas-vtol-capabilities) — archive
+- 2025-05-27 [🇺🇸🚤🛩США будут конвоировать гражданские суда с помощью БЭКов и БПЛА](https://t.me/uav_tech/32168) — archive
+- 2025-04-21 [Вместе с Андреем Бойко, кандидатом физико-математических наук, руководителем проекта «Мастерская Роевой Механики» Университета ИТМО, обсужда](https://t.me/news_UAV/3212) — archive
+- 2025-04-21 [Вместе с Андреем Бойко, кандидатом физико-математических наук, руководителем проекта «Мастерская Роевой Механики» Университета ИТМО, обсужда](https://t.me/news_UAV/3211) — archive
+- 2025-01-23 [В 2017 году компания Otherlab начала разрабатывать воздушную платформу для автономного пополнения запасов APSARA (Aerial Platform Supporting](https://t.me/uav_tech/30761) — archive
+- 2024-10-23 [Aurora Flight Sciences, входящая в Boeing, разрабатывает решение X-plane, в котором используется технология "вентилятор в крыле" (Fan-in-win](https://t.me/uav_tech/29666) — archive
+- 2024-08-02 [🦾 Американские исследователи разработали автономного “жука”, который может скользить по воде.](https://t.me/drone_expert_news/3234) — archive
+- 2024-07-04 [🦾 Пентагон будет применять ИИ и беспилотники для поиска редких минералов.](https://t.me/drone_expert_news/2908) — archive
+- 2024-06-12 [Достижения в области экспериментальных самолетов в рамках инициативы DARPA](https://t.me/uav_tech/27634) — archive
+- 2024-06-11 [Researcher Charges Ahead with New Tech to Power Drones Wirelessly](https://uasvision.com/2024/06/11/researcher-charges-ahead-with-new-tech-to-power-drones-wirelessly) — archive
+- 2024-06-03 [Scott Howe on NASA’s Innovative Leap in Autonomy Software for Sikorsky Helicopters: A Glimpse into the Future of Air Taxis](https://dronelife.com/2024/06/03/scott-howe-on-nasas-innovative-leap-in-autonomy-software-for-sikorsky-helicopters-a-glimpse-into-the-future-of-air-taxis) — archive
+- 2024-06-03 [Sikorsky Flight-Tests Scalable ‘Rotor Blown Wing’ UAS For DARPA Project](https://uasvision.com/2024/06/03/sikorsky-flight-tests-scalable-rotor-blown-wing-uas-for-darpa-project) — archive
+- 2024-05-29 [В США беспилотники будут заряжать энергетическим лучом в полете.](https://t.me/drone_expert_news/2364) — archive
+- 2024-05-29 [Rheinmetall подписала сделку с канадской компанией Quaze Technologies по интеграции решений для беспроводной зарядки в свои возможности Dron](https://t.me/news_UAV/1710) — archive
+- 2024-05-29 [Sikorsky начинает летные испытания нового беспилотника Rotor Blowed Wing](https://t.me/news_UAV/1709) — archive
+- 2024-05-26 [Высокоскоростной беспилотник DARPA VTOL X-Plane с смешанным крылом представлен компанией Aurora Flight Sciences (Boeing) для программы DARPA](https://t.me/drone_expert_news/2321) — archive
+- 2024-05-24 [🤩  Aurora Flight Sciences ("дочка" Boeing) показала обновленный концепт беспилотника вертикального взлета и посадки, который разрабатывается](https://t.me/dronesrussia/24906) — archive
+- 2024-05-24 [Sikorsky проводит летные испытания БПЛА «Несущее Крыло» в проекте DARPA.](https://t.me/drone_expert_news/2253) — archive
+- 2024-05-23 [Sikorsky проводит летные испытания БПЛА ‘Несущее Крыло’ для проекта DARPA](https://t.me/uav_tech/27181) — archive
+- 2024-05-23 [Sikorsky проводит летные испытания БПЛА ‘Несущее Крыло’ для проекта DARPA](https://t.me/dronesrussia/24892) — archive
+- 2024-05-23 [Sikorsky проводит летные испытания БПЛА ‘Несущее Крыло’ для проекта DARPA](https://t.me/news_UAV/1674) — archive
+- 2024-02-02 [Большой материал вышел на тему развития беспилотных кораблей в интересах Министерства обороны США.](https://t.me/news_UAV/1128) — archive
+- 2024-01-20 ["Британская лазерная пушка стоимостью более 140 миллионов фунтов стерлингов уничтожает дроны в ходе новых испытаний противоракетного оружия ](https://t.me/news_UAV/1052) — archive
+- 2024-01-10 [Художественный рендеринг двух прототипов БПЛА от американской компании General Atomic](https://t.me/uav_tech/24544) — archive
+- 2024-01-10 [DARPA профинансирует следующую фазу разработки активного управления потоком БПЛА X-Plane](https://t.me/news_UAV/1004) — archive
+- 2023-12-30 [🇺🇸  Лазеры и беспилотники. Технологии будущего](https://t.me/proUAV/1532) — archive
+- 2023-12-15 [#инновации #беспилотники](https://t.me/uav_tech/23689) — archive
+- 2023-12-05 [Компания Bell Textron была выбрана для участия в программе X-Plane Агентства DARPA по скорости и независимым технологиям взлетно-посадочных ](https://t.me/uav_tech/23401) — archive
+- 2023-11-20 [Stanford PNT Symposium Marks 50 Years of GPS, Covers Various Emerging Topics](https://insidegnss.com/stanford-pnt-symposium-marks-50-years-of-gps-covers-various-emerging-topics) — archive
+- 2023-10-06 [Sikorsky сотрудничает со стартапом Rain, чтобы удалить пилотов с пожарных вертолетов](https://t.me/news_UAV/693) — archive
+- 2023-09-15 [США создают беспилотники нового типа LongShot🇺🇸✈️](https://t.me/uav_tech/20623) — archive
+- 2023-09-15 [DARPA Seeks Tech Solutions to Create Autonomous Capabilities for Commercial Drones](https://uasvision.com/2023/09/15/darpa-seeks-tech-solutions-to-create-autonomous-capabilities-for-commercial-drones) — archive
+- 2023-09-13 [DARPA Seeks Tech Solutions to Create Autonomous Capabilities for Commercial Drones](https://suasnews.com/2023/09/darpa-seeks-tech-solutions-to-create-autonomous-capabilities-for-commercial-drones) — archive
+- 2023-09-12 [General Atomics Aeronautical Systems, Inc. (GA-ASI) готова приступить к этапу летных испытаний по программе LongShot Агентства перспективных](https://t.me/news_UAV/610) — archive
+- 2023-09-11 [🇺🇸 В США испытают дрон LongShot с ракетами «воздух-воздух»](https://t.me/uav_tech/20414) — archive
+- 2023-09-11 [🇺🇸 В США испытают дрон LongShot с ракетами «воздух-воздух»](https://t.me/dronesrussia/23883) — archive
+- 2023-08-21 [High Point completes Liteye, Black Sage integration, announces new leadership team](https://unmannedairspace.info/counter-uas-systems-and-policies/high-point-completes-liteye-black-sage-integration-announces-new-leadership-team) — archive
+- 2023-08-16 [🇷🇺🖍 #СилаТыла: Создатели FPV-дронов — наш арт в поддержку работников тыла](https://t.me/uav_tech/19376) — archive
+- 2023-07-18 [Northrop Grumman to Design Autonomous VTOL UAS for DARPA](https://uasvision.com/2023/07/18/northrop-grumman-designs-uas-for-darpa) — archive
+- 2023-06-21 [French Army Selects Nexter to Develop Anti-Tank Kamikaze Drones](https://uasvision.com/2023/06/21/french-army-selects-nexter-to-develop-anti-tank-kamikaze-drones) — archive
+- 2023-05-31 [РЭБ в ВС сша Часть 38  (Часть 37)](https://t.me/uav_tech/16020) — archive
+- 2023-05-15 [“Counter-drone laser weapons still limited compared to other C-UAS systems” – Skylock’s Ofer Kachan](https://unmannedairspace.info/counter-uas-systems-and-policies/counter-drone-laser-weapons-still-limited-compared-to-other-c-uas-systems-skylocks-ofer-kachan) — archive
+- 2023-05-14 [Интересная новость от производителя нано-дронов Black Hornet компании Teledyne FLIR (мирового лидера в производстве различных тепловизионных](https://t.me/news_UAV/287) — archive
+- 2023-04-26 [Вооруженные Силы Украины получат от Австралии картонные дроны. На первый взгляд странная идея на самом деле имеет серьёзное обоснование.](https://t.me/uav_tech/14799) — archive
+- 2023-03-06 [DARPA moves General Atomics’ ‘LongShot’ drone pitch to phase 2](https://breakingdefense.com/2023/03/darpa-moves-general-atomics-longshot-drone-pitch-to-phase-2) — archive
+- 2023-02-13 [Pentagon’s DARPA seeks massive drone swarms to swamp enemy defense bubbles](https://dronedj.com/2023/02/13/pentagons-darpa-seeks-massive-drone-swarms-to-swamp-enemy-defense-bubbles) — archive
+- 2023-02-03 [DARPA selects two teams to develop Liberty Lifter X-Plane programme](https://unmannedairspace.info/uncategorized/darpa-selects-two-teams-to-develop-liberty-lifter-x-plane-programme) — archive

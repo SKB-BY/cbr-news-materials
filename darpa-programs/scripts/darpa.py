@@ -148,11 +148,25 @@ def successor_watch(progs):
     return out
 
 
+try:  # t86u: предфильтр по ключевым словам для программ из darpa_ext.json (ускорение разметки архива)
+    from darpa_t86u import KEYS as T86U_KEYS
+except Exception:  # noqa: BLE001
+    T86U_KEYS = {}
+_TOKEN = re.compile(r"[a-z0-9]+")
+
+
 def match_text(text, progs, orgs, watch=()):
     pids, matched = [], []
     text = NOISE.sub(" ", text)
     ctx = bool(DARPA_CTX.search(text))
+    toks = None
     for pid, strong, weak in progs:
+        keys = T86U_KEYS.get(pid)
+        if keys is not None:
+            if toks is None:
+                toks = set(_TOKEN.findall(text.lower()))
+            if not (keys & toks):
+                continue
         hit = next((m.group(0) for rx in strong if (m := rx.search(text))), None)
         if not hit and ctx:
             hit = next((m.group(0) for rx in weak if (m := rx.search(text))), None)
