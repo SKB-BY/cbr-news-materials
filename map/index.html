@@ -49,6 +49,7 @@
   .mk.company { background:#1a56c4; border-radius:50%; }
   .mk.outside { background:#7a3fd4; border-radius:50%; }
   .mk.threat { background:#e5484d; border-radius:50%; outline:3px solid #e5484d66; outline-offset:2px; }
+  .mk.research { background:#0e7490; border-radius:30%; }
   .mk.external { background:#fff; border:3px dashed #c47a0a; border-radius:50%; }
   .mk.risk { box-shadow:0 0 0 4px #e5484d99, 0 1px 4px #0007; }
   .tiles-muted { filter:grayscale(.35) contrast(.96) brightness(1.02); }
@@ -147,7 +148,7 @@
   <div id="map"></div>
 </div>
 <script src="vendor/leaflet.js?v=t27"></script>
-<script src="data.js?v=t81"></script>
+<script src="data.js?v=t86"></script>
 <script src="contour.js?v=t72"></script>
 <script src="../assets/asof.js?v=t81"></script>
 <script src="../news-map/explain.js?v=t83"></script>
@@ -159,6 +160,7 @@ const KIND = {
   agency:{label:"Организация (агентство)", color:"#0f9d8a"},
   company:{label:"Компания США / Европы / Украины", color:"#1a56c4"},
   outside:{label:"Компания вне США/Европы", color:"#8a63d2"},
+  research:{label:"НИИ / университет / лаборатория (исполнитель DARPA)", color:"#0e7490"},
   threat:{label:"Объект анализа угроз (Иран)", color:"#e5484d"},
   external:{label:"Внешний узел (нет в реестре)", color:"#d08a1e"}
 };
@@ -176,10 +178,11 @@ const LINK = {
   structure:{label:"Структура (подчинённость агентств и программ)", color:"#2f6fdb", dash:null, short:"структура"},
   customer:{label:"Заказчик (с источником)", color:"#16a34a", dash:"6 5", short:"заказчик"},
   ubo:{label:"Владелец / материнская компания (с источником)", color:"#d08a1e", dash:"2 5", short:"владелец"},
-  partner:{label:"Партнёрство / испытания / инвестиции (с источником; не подчинённость)", color:"#9333ea", dash:"10 4 2 4", short:"партнёрство"}
+  partner:{label:"Партнёрство / испытания / инвестиции (с источником; не подчинённость)", color:"#9333ea", dash:"10 4 2 4", short:"партнёрство"},
+  contract:{label:"Исполнитель программы DARPA (контракт / грант, USAspending)", color:"#0e7490", dash:"1 4", short:"контракт DARPA"}
 };
 function cat(n){ if(n.external) return "external"; if(n.threat) return "threat"; if(n.kind==="program") return "program";
-  if(n.kind==="agency") return "agency"; return n.region==="outside" ? "outside" : "company"; }
+  if(n.kind==="agency") return "agency"; if(n.kind==="research") return "research"; return n.region==="outside" ? "outside" : "company"; }
 function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
 function urls(s){ return (s||"").split(/\s+/).filter(Boolean).map(u=>`<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\//,"").slice(0,60))}</a>`).join("<br>"); }
 function short(n){ return n.name.split(" — ")[0]; }
@@ -190,7 +193,7 @@ const placed = nodes.filter(n=>n.lat!=null && n.lon!=null), unplaced = nodes.fil
 // one point per published location: nodes with identical coordinates share one marker (no jitter)
 const points = {};
 placed.forEach(n=>{ const k=n.lat.toFixed(6)+","+n.lon.toFixed(6); n._k=k; (points[k]=points[k]||{k, lat:n.lat, lon:n.lon, nodes:[]}).nodes.push(n); });
-const ORDER = ["threat","program","agency","external","outside","company"];
+const ORDER = ["threat","program","agency","research","external","outside","company"];
 Object.values(points).forEach(p=>p.nodes.sort((a,b)=>ORDER.indexOf(cat(a))-ORDER.indexOf(cat(b))||a.name.localeCompare(b.name)));
 
 // Map: attribution control disabled (no bottom-right widget); credit is plain text in the side panel footer.
@@ -281,9 +284,9 @@ function cardC(id){ const n=C.nodes[id]; if(!n) return `<h2>Сведения</h2
   h+= its.length?`<ul class="sv">${its.map(itemLi).join("")}</ul>`:`<p class="muted">Нет материалов${sp?" в этой сфере":""}.</p>`;
   h+=`<h2>Связи из материалов (${rs.length})</h2>`+(rs.length?`<ul class="sv">${rs.map(relLi).join("")}</ul>`:`<p class="muted">Именованных связей нет.</p>`);
   return h; }
-function cardOnly(id){ const n=C.nodes[id]; return `<div class="pp"><h3>${esc(n.name)}</h3><span class="tag" style="background:#d08a1e">из контура · нет в реестре</span> <span class="nopt">без точки</span><dl><dt>Тип</dt><dd>${esc({company:"компания",agency:"организация",program:"программа"}[n.kind]||n.kind)}</dd>${n.country?`<dt>Страна</dt><dd>${esc(n.country)}</dd>`:""}<dt>Локация</dt><dd>нет подтверждённого адреса с официальной или реестровой страницы</dd></dl>${cardC(id)}</div>`; }
+function cardOnly(id){ const n=C.nodes[id]; return `<div class="pp"><h3>${esc(n.name)}</h3><span class="tag" style="background:#d08a1e">из контура · нет в реестре</span> <span class="nopt">без точки</span><dl><dt>Тип</dt><dd>${esc({company:"компания",agency:"организация",program:"программа",research:"НИИ / университет"}[n.kind]||n.kind)}</dd>${n.country?`<dt>Страна</dt><dd>${esc(n.country)}</dd>`:""}<dt>Локация</dt><dd>нет подтверждённого адреса с официальной или реестровой страницы</dd></dl>${cardC(id)}</div>`; }
 
-const vis = {program:true, agency:true, company:true, outside:true, threat:true, external:true};
+const vis = {program:true, agency:true, research:true, company:true, outside:true, threat:true, external:true};
 const markers = {}, lines = [];
 const mLayer = L.layerGroup().addTo(map), lLayer = L.layerGroup().addTo(map);
 let showApprox = true;

@@ -1,351 +1,758 @@
 {
-  "_note": "Аналитические связи для карты. Каждая связь — только с основанием из реестра (поля sponsor/role_focus/customers/ubo_name) и URL источника. Внешние узлы (external) — организации, которых нет в реестре, но которые названы в источнике. Тип partner — сотрудничество/партнёрство/инвестиция/испытания по опубликованному источнику; не означает подчинённость.",
-  "external": [
-    {
-      "id": "x-cto",
-      "name": "Министерство войны (обороны) США — USW(R&E)/CTO",
-      "country": "США",
-      "note": "вне реестра; по релизу war.gov от 12.01.2026 — организации инновационной экосистемы под CTO"
-    },
-    {
-      "id": "x-irgc-asf",
-      "name": "Аэрокосмические силы КСИР (IRGC ASF)",
-      "country": "Иран",
-      "note": "вне реестра; объект анализа угроз"
-    },
-    {
-      "id": "x-naval-group",
-      "name": "Naval Group",
-      "country": "Франция",
-      "note": "вне реестра; прайм-подрядчик и интегратор по заказу S-100 для FREMM (по сайту Schiebel)"
-    },
-    {
-      "id": "x-skyfall",
-      "name": "SkyFall",
-      "country": "Украина",
-      "note": "вне реестра: официальный сайт skyfall.ua 11.11.2026 и 12.11.2026 не открылся (TLS-ошибка), поэтому строка реестра не создана. По релизу Airbus (12.06.2026, раздел About SkyFall): производит бомбардировщик «Vampire» («the enemy nicknamed “Baba Yaga”»), FPV Shrike, перехватчики P1-SUN против «Shahed», средства связи и компоненты"
-    },
-    {
-      "id": "x-japan-mod",
-      "name": "Министерство обороны Японии",
-      "country": "Япония",
-      "note": "вне реестра; заказчик перехватчиков SkyFall по стенограмме пресс-конференции министра обороны 09.10.2026"
-    },
-    {
-      "id": "x-terma",
-      "name": "Terma Group",
-      "country": "Дания",
-      "note": "вне реестра; партнёр Odd Systems по ИИ-перехватчику (релиз Odd Systems, 21.07.2025); штаб-квартира — Terma A/S, Hovmarken 4, 8520 Lystrup (terma.com, 12.11.2026)"
-    }
-  ],
-  "links": [
-    {
-      "from": "x-cto",
-      "to": "darpa",
-      "type": "structure",
-      "basis": "DARPA — одна из шести организаций инновационной экосистемы под CTO",
-      "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
-    },
-    {
-      "from": "x-cto",
-      "to": "sco",
-      "type": "structure",
-      "basis": "SCO — оперативно под CTO",
-      "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
-    },
-    {
-      "from": "x-cto",
-      "to": "osc",
-      "type": "structure",
-      "basis": "OSC — под CTO",
-      "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
-    },
-    {
-      "from": "x-cto",
-      "to": "cdao",
-      "type": "structure",
-      "basis": "CDAO — под CTO",
-      "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
-    },
-    {
-      "from": "x-cto",
-      "to": "trmc",
-      "type": "structure",
-      "basis": "TRMC — под CTO",
-      "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
-    },
-    {
-      "from": "diu",
-      "to": "replicator",
-      "type": "structure",
-      "basis": "DIU — Office of Primary Responsibility процесса Replicator",
-      "source": "https://www.diu.mil/latest/memorandum-replicator-2-direction-and-execution"
-    },
-    {
-      "from": "dga",
-      "to": "aid",
-      "type": "structure",
-      "basis": "AID входит в контур DGA (Министерство вооружённых сил Франции)",
-      "source": "https://www.defense.gouv.fr/en/aid/mieux-nous-connaitre/presentation-agency"
-    },
-    {
-      "from": "dstl",
-      "to": "dasa",
-      "type": "structure",
-      "basis": "DASA работает через Dstl (MOD)",
-      "source": "https://www.gov.uk/government/organisations/defence-and-security-accelerator"
-    },
-    {
-      "from": "dga",
-      "to": "schiebel",
-      "type": "customer",
-      "basis": "ВМС Франции заказали S-100 через DGA и Naval Group",
-      "source": "https://schiebel.net/french-navy-further-expands-camcopter-s-100-fleet/"
-    },
-    {
-      "from": "x-naval-group",
-      "to": "schiebel",
-      "type": "customer",
-      "basis": "Naval Group — прайм-подрядчик и интегратор S-100 на FREMM",
-      "source": "https://schiebel.net/french-navy-further-expands-camcopter-s-100-fleet/"
-    },
-    {
-      "from": "anduril",
-      "to": "area-i",
-      "type": "ubo",
-      "basis": "Area-I — 100% дочерняя компания Anduril с 2021 г., бренд сохранён",
-      "source": "https://www.anduril.com/news/anduril-industries-acquires-area-i-adds-altius-capabilities-to-hardware-portfolio"
-    },
-    {
-      "from": "x-irgc-asf",
-      "to": "shahed",
-      "type": "ubo",
-      "basis": "по Минфину США: Shahed Aviation Industries Research Center подчинён IRGC ASF",
-      "source": "https://home.treasury.gov/news/press-releases/jy1104"
-    },
-    {
-      "from": "diehl",
-      "to": "brave1",
-      "type": "partner",
-      "basis": "Diehl — первая иностранная компания, испытавшая свой НРК (UGV) в рамках платформы Test in Ukraine (Brave1), на полигоне 3-й штурмовой бригады (Минцифры, 28.07.2025)",
-      "source": "https://digitalstate.gov.ua/news/tech/ukrayina-vidkryla-platformu-test-in-ukraine-dlia-vyprobuvannia-miznarodnykh-oboronnykh-tekhnolohiy-pershyy-uchasnyk-diehl"
-    },
-    {
-      "from": "shieldai",
-      "to": "brave1",
-      "type": "partner",
-      "basis": "через Brave1 Shield AI установила партнёрство с украинской компанией (название не раскрыто): ПО Shield AI интегрировано с дронами этой компании (пост Brave1; Shield AI в X, по «Украинской правде», 13.03.2026)",
-      "source": "https://www.linkedin.com/posts/brave1ukraine_brave1-helped-the-american-defense-unicorn-activity-7438297999207936000-xyZT https://www.pravda.com.ua/eng/news/2026/03/13/8025307/"
-    },
-    {
-      "from": "palantir",
-      "to": "brave1",
-      "type": "partner",
-      "basis": "Brave1 Dataroom — защищённая среда для обучения военных ИИ-моделей на ПО Palantir; запущена МО и Минцифры Украины, ВСУ, НИИ военной разведки и Palantir (МО Украины, 21.01.2026)",
-      "source": "https://mod.gov.ua/en/news/ministry-of-defence-launches-brave1-dataroom-a-secure-environment-for-training-military-ai-solutions"
-    },
-    {
-      "from": "anduril",
-      "to": "kara-dag",
-      "type": "partner",
-      "basis": "Kara Dag Technologies начала сотрудничество с Anduril: передаёт практики противодействия дронам, полученные в боевых условиях, для систем Anduril, уже используемых в Украине (сайт Kara Dag, 03.2026)",
-      "source": "https://karadagtech.com/en/cooperation-kara-dag-with-anduril/"
-    },
-    {
-      "from": "network-vc-defense",
-      "to": "swarmer",
-      "type": "partner",
-      "basis": "Network VC — участник раунда Series A Swarmer на $15 млн (лид — Broadband Capital Investments), 09.2025",
-      "source": "https://investors.swarmer.com/news/swarmer-ukraines-leading-drone-autonomy-and-swarming-company-announces-15m-series-a-led-by-us-investors/"
-    },
-    {
-      "from": "dm-holding",
-      "to": "udi",
-      "type": "partner",
-      "basis": "соглашение о создании СП в США по производству спецхимии (одноосновный порох для артбоеприпасов, в т.ч. 155 мм), подписано 11.07.2025 в Риме",
-      "source": "https://www.dmholding.com/industry-articles/us-ukraine-ammunition-jv/"
-    },
-    {
-      "from": "airbus-ds",
-      "to": "x-skyfall",
-      "type": "partner",
-      "basis": "Airbus Defence and Space и SkyFall подписали меморандум (MoU) о стратегическом партнёрстве на ILA Berlin, 12.06.2026 (релиз Airbus); партнёрство, не подчинённость",
-      "source": "https://www.airbus.com/en/newsroom/press-releases/2026-06-airbus-and-skyfall-form-strategic-alliance-to-advance-european-and-ukrainian-defence-innovation"
-    },
-    {
-      "from": "x-japan-mod",
-      "to": "x-skyfall",
-      "type": "customer",
-      "basis": "министр обороны Японии С. Коидзуми, 09.10.2026: «既に防衛省では、ウクライナのスカイフォール社の迎撃用ドローンの取得契約を締結しており» — контракт на приобретение дронов-перехватчиков уже подписан; модель, количество и сумма не названы",
-      "source": "https://www.mod.go.jp/j/press/kisha/2026/1009a.html"
-    },
-    {
-      "from": "redcat",
-      "to": "sine-engineering",
-      "type": "partner",
-      "basis": "Red Cat и Sine Advanced Engineering, Inc. (американское подразделение Sine) подписали неэксклюзивный MoU о стратегическом партнёрстве: интеграция связи и навигации Sine в БЭК Blue Ops и БЛА Red Cat (релиз Red Cat, 02.11.2026)",
-      "source": "https://ir.redcatholdings.com/news-events/press-releases/detail/248/red-cat-announces-strategic-partnership-with-sine-engineering-to-strengthen-resilient-communications-and-navigation-across-air-and-maritime-systems"
-    },
-    {
-      "from": "phantom-defense",
-      "to": "drone-dominance",
-      "type": "partner",
-      "basis": "Phantom Defense участвовала в Gauntlet II программы Drone Dominance (Форт-Карсон): одна из трёх компаний, создававших РЭБ-среду противодействия для испытаний БЛА; после этапа получила приглашения на дальнейшие мероприятия (по сайту компании). Испытания, не подчинённость",
-      "source": "https://www.phantomdefense.tech/en/blog/phantom-defense-drone-dominance-gauntlet-ii"
-    },
-    {
-      "from": "diu",
-      "to": "drone-dominance",
-      "type": "structure",
-      "basis": "DDP «jointly administered by the Test Resource Management Center (TRMC) and the Defense Innovation Unit (DIU)»; DIU курирует работу с промышленностью",
-      "source": "https://dronedominance.mil/"
-    },
-    {
-      "from": "trmc",
-      "to": "drone-dominance",
-      "type": "structure",
-      "basis": "TRMC — «primary execution authority and test range coordinator» программы Drone Dominance",
-      "source": "https://dronedominance.mil/"
-    },
-    {
-      "from": "techex",
-      "to": "brave1",
-      "type": "partner",
-      "basis": "по сайту TechEx: «TechEx works with the Ukrainian state through the BRAVE1 defense innovation cluster and the Dot Chain procurement system» (заявление компании)",
-      "source": "https://techex.com.ua/en/about-us/"
-    },
-    {
-      "from": "militech",
-      "to": "brave1",
-      "type": "partner",
-      "basis": "по сайту MILITECH: решения «available on the government portals DOT and Brave1» (заявление компании)",
-      "source": "https://www.militech.com.ua/en"
-    },
-    {
-      "from": "nswc-crane",
-      "to": "drone-dominance",
-      "type": "structure",
-      "basis": "NSWC Crane «holds contracting authority and issues prototype delivery orders based on Gauntlet test results» в программе Drone Dominance",
-      "source": "https://dronedominance.mil/"
-    },
-    {
-      "from": "rheinmetall",
-      "to": "rheinmetall-uop",
-      "type": "ubo",
-      "basis": "СП совместно принадлежит Rheinmetall Landsysteme GmbH (51%) и АО «УОП» (49%)",
-      "source": "https://www.rheinmetall.com/en/company/subsidiaries/rheinmetall-ukrainian-defense-industry"
-    },
-    {
-      "from": "udi",
-      "to": "rheinmetall-uop",
-      "type": "ubo",
-      "basis": "49% у АО «УОП» (Rheinmetall); по ЕГР — через 100%-ную дочку ТОВ «Западноукраинский машиностроительный завод»",
-      "source": "https://opendatabot.ua/c/44789782"
-    },
-    {
-      "from": "rheinmetall",
-      "to": "udi",
-      "type": "partner",
-      "basis": "стратегическое сотрудничество с 05.2023; СП в Киеве (работает с 18.10.2023): ремонт, затем совместное производство продукции Rheinmetall в Украине",
-      "source": "https://www.rheinmetall.com/en/media/news-watch/news/2023/10/2023-10-24-rheinmetall-ag-and-ukrainian-defense-industry-jsc-establish-joint-venture-in-kyiv"
-    },
-    {
-      "from": "general-cherry",
-      "to": "orqa",
-      "type": "partner",
-      "basis": "меморандум о сотрудничестве с хорватской ORQA — развитие производственных возможностей в Украине и Европе (сайт General Cherry). Подземный завод из вводной на официальных страницах не подтверждён",
-      "source": "https://gencherry.com/en/about-us"
-    },
-    {
-      "from": "general-cherry",
-      "to": "drone-dominance",
-      "type": "partner",
-      "basis": "по сайту General Cherry: компания прошла первый и второй этапы DDP; Wilcox Cherry Defense (совместное производство с американской Wilcox) — среди 19 компаний, прошедших квалификационный этап",
-      "source": "https://gencherry.com/en/about-us"
-    },
-    {
-      "from": "odd-systems",
-      "to": "x-terma",
-      "type": "partner",
-      "basis": "стратегическое партнёрство Odd Systems и Terma Group (Дания): недорогой ИИ-перехватчик дронов (релиз 21.07.2025)",
-      "source": "https://oddsystems.io/en/terma-oddsystems-strategic-partnership"
-    },
-    {
-      "from": "bluebird-tech",
-      "to": "brave1",
-      "type": "partner",
-      "basis": "по сайту BlueBird Tech: официальный канал продаж партнёров — market.brave1.gov.ua (Brave1 Market)",
-      "source": "https://www.blue-bird.tech/en/products/chuyka-3-0/"
-    },
-    {
-      "from": "taf-industries",
-      "to": "wingcopter",
-      "type": "partner",
-      "basis": "меморандум (MoU) 13.02.2026 о намерении создать совместное предприятие для производства разведывательных БЛА TAF в Германии (сайты TAF и Wingcopter); СП в стадии намерения",
-      "source": "https://taf-ua.com/en/build-with-ukraine-wingcopter-and-taf-industries-establish-joint-venture-to-scale-production-of-reconnaissance-drones-in-germany-for-ukraine/"
-    },
-    {
-      "from": "taf-industries",
-      "to": "pgz",
-      "type": "partner",
-      "basis": "письмо о намерениях (LoI) 25.06.2026, Гданьск: локализация производства БЛА в Польше (сайт TAF)",
-      "source": "https://taf-ua.com/en/taf-industries-and-pgz-partner-to-localize-uav-production-in-poland/"
-    },
-    {
-      "from": "front-ventures",
-      "to": "molfar",
-      "type": "partner",
-      "basis": "инвестиция Front Ventures 1,5 млн евро (ведущий инвестор раунда 2 млн евро, доля 10%), релиз Front Ventures 03.06.2026; инвестиция, не подчинённость",
-      "source": "https://news.cision.com/se/front-ventures-ab/r/front-ventures-investerar-1-5-miljoner-euro-i-ukrainskt-radarbolag,c4356698"
-    },
-    {
-      "from": "innovation-development-fund",
-      "to": "brave1",
-      "type": "structure",
-      "basis": "Brave1 — государственная инициатива, реализуемая Фондом развития инноваций (страница About Brave1, 12.11.2026); решения о грантах — большинством голосов наблюдательного совета Фонда (МО Украины, 06.11.2026)",
-      "source": "https://brave1.gov.ua/en/about https://mod.gov.ua/en/explainers/brave1-ukraine-defense-tech-cluster"
-    },
-    {
-      "from": "unite-brave-nato",
-      "to": "brave1",
-      "type": "structure",
-      "basis": "с украинской стороны программу координирует Brave1, первый конкурс со стороны НАТО ведёт NCIA (МО Украины)",
-      "source": "https://mod.gov.ua/en/news/unite-brave-nato-applications-open-for-the-first-joint-ukraine-nato-innovation-grant-program https://www.nato.int/en/news-and-events/articles/news/2026/03/25/nato-and-ukraine-activate-next-steps-for-unite-brave-nato-innovation-programme"
-    },
-    {
-      "from": "bravetech-eu",
-      "to": "brave1",
-      "type": "structure",
-      "basis": "BraveTech EU связывает платформу Brave1 Минцифры с European Defence Fund и EUDIS (Еврокомиссия, 11.07.2025)",
-      "source": "https://enlargement.ec.europa.eu/news/joint-press-release-eu-and-ukraine-boost-battlefield-driven-solutions-bravetech-eu-2025-07-11_en"
-    },
-    {
-      "from": "eda",
-      "to": "bravetech-eu",
-      "type": "partner",
-      "basis": "DefTech Forges — конкурсы в рамках BraveTech EU: финансирует Еврокомиссия, поддерживают Brave1 и EDA; победители смогут продолжить испытания с EDA (Brave1, 12.08.2026)",
-      "source": "https://brave1.gov.ua/en/news/deftech-forges-applications-open"
-    },
-    {
-      "from": "airbus-ds",
-      "to": "brave1",
-      "type": "partner",
-      "basis": "Airbus Defence and Space подписала меморандум о взаимопонимании (MoU) с Brave1 — первое промышленное стратегическое партнёрство Brave1 с западной компанией; технологии Airbus — в контур Test in Ukraine (Airbus, 01.07.2026)",
-      "source": "https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-and-brave1-partner-to-boost-ukrainian-defence-innovation"
-    },
-    {
-      "from": "saab",
-      "to": "brave1",
-      "type": "partner",
-      "basis": "первый этап инициативы Brave Prime — подписание официальных соглашений с Airbus и Saab (МО Украины, 01.07.2026)",
-      "source": "https://mod.gov.ua/en/news/one-billion-for-explosives-low-cost-missiles-and-agreements-with-airbus-and-saab-key-takeaways-from-brave1-advantage"
-    },
-    {
-      "from": "aid",
-      "to": "brave1",
-      "type": "partner",
-      "basis": "Brave1 и AID подписали соглашение о запуске BRAVE FRANCE — совместной грантовой программы украинских и французских оборонных компаний, бюджет €20 млн (по €10 млн от сторон) (Brave1, 16.06.2026)",
-      "source": "https://brave1.gov.ua/en/news/brave-france-eng"
-    }
-  ]
+ "_note": "Аналитические связи для карты. Каждая связь — только с основанием из реестра (поля sponsor/role_focus/customers/ubo_name) и URL источника. Внешние узлы (external) — организации, которых нет в реестре, но которые названы в источнике. Тип partner — сотрудничество/партнёрство/инвестиция/испытания по опубликованному источнику; не означает подчинённость.",
+ "external": [
+  {
+   "id": "x-cto",
+   "name": "Министерство войны (обороны) США — USW(R&E)/CTO",
+   "country": "США",
+   "note": "вне реестра; по релизу war.gov от 12.01.2026 — организации инновационной экосистемы под CTO"
+  },
+  {
+   "id": "x-irgc-asf",
+   "name": "Аэрокосмические силы КСИР (IRGC ASF)",
+   "country": "Иран",
+   "note": "вне реестра; объект анализа угроз"
+  },
+  {
+   "id": "x-naval-group",
+   "name": "Naval Group",
+   "country": "Франция",
+   "note": "вне реестра; прайм-подрядчик и интегратор по заказу S-100 для FREMM (по сайту Schiebel)"
+  },
+  {
+   "id": "x-skyfall",
+   "name": "SkyFall",
+   "country": "Украина",
+   "note": "вне реестра: официальный сайт skyfall.ua 11.11.2026 и 12.11.2026 не открылся (TLS-ошибка), поэтому строка реестра не создана. По релизу Airbus (12.06.2026, раздел About SkyFall): производит бомбардировщик «Vampire» («the enemy nicknamed “Baba Yaga”»), FPV Shrike, перехватчики P1-SUN против «Shahed», средства связи и компоненты"
+  },
+  {
+   "id": "x-japan-mod",
+   "name": "Министерство обороны Японии",
+   "country": "Япония",
+   "note": "вне реестра; заказчик перехватчиков SkyFall по стенограмме пресс-конференции министра обороны 09.10.2026"
+  },
+  {
+   "id": "x-terma",
+   "name": "Terma Group",
+   "country": "Дания",
+   "note": "вне реестра; партнёр Odd Systems по ИИ-перехватчику (релиз Odd Systems, 21.07.2025); штаб-квартира — Terma A/S, Hovmarken 4, 8520 Lystrup (terma.com, 12.11.2026)"
+  }
+ ],
+ "links": [
+  {
+   "from": "x-cto",
+   "to": "darpa",
+   "type": "structure",
+   "basis": "DARPA — одна из шести организаций инновационной экосистемы под CTO",
+   "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
+  },
+  {
+   "from": "x-cto",
+   "to": "sco",
+   "type": "structure",
+   "basis": "SCO — оперативно под CTO",
+   "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
+  },
+  {
+   "from": "x-cto",
+   "to": "osc",
+   "type": "structure",
+   "basis": "OSC — под CTO",
+   "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
+  },
+  {
+   "from": "x-cto",
+   "to": "cdao",
+   "type": "structure",
+   "basis": "CDAO — под CTO",
+   "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
+  },
+  {
+   "from": "x-cto",
+   "to": "trmc",
+   "type": "structure",
+   "basis": "TRMC — под CTO",
+   "source": "https://www.war.gov/News/Releases/Release/Article/4376441/the-war-department-overhauls-innovation-ecosystem-to-accelerate-technology-to-t/"
+  },
+  {
+   "from": "diu",
+   "to": "replicator",
+   "type": "structure",
+   "basis": "DIU — Office of Primary Responsibility процесса Replicator",
+   "source": "https://www.diu.mil/latest/memorandum-replicator-2-direction-and-execution"
+  },
+  {
+   "from": "dga",
+   "to": "aid",
+   "type": "structure",
+   "basis": "AID входит в контур DGA (Министерство вооружённых сил Франции)",
+   "source": "https://www.defense.gouv.fr/en/aid/mieux-nous-connaitre/presentation-agency"
+  },
+  {
+   "from": "dstl",
+   "to": "dasa",
+   "type": "structure",
+   "basis": "DASA работает через Dstl (MOD)",
+   "source": "https://www.gov.uk/government/organisations/defence-and-security-accelerator"
+  },
+  {
+   "from": "dga",
+   "to": "schiebel",
+   "type": "customer",
+   "basis": "ВМС Франции заказали S-100 через DGA и Naval Group",
+   "source": "https://schiebel.net/french-navy-further-expands-camcopter-s-100-fleet/"
+  },
+  {
+   "from": "x-naval-group",
+   "to": "schiebel",
+   "type": "customer",
+   "basis": "Naval Group — прайм-подрядчик и интегратор S-100 на FREMM",
+   "source": "https://schiebel.net/french-navy-further-expands-camcopter-s-100-fleet/"
+  },
+  {
+   "from": "anduril",
+   "to": "area-i",
+   "type": "ubo",
+   "basis": "Area-I — 100% дочерняя компания Anduril с 2021 г., бренд сохранён",
+   "source": "https://www.anduril.com/news/anduril-industries-acquires-area-i-adds-altius-capabilities-to-hardware-portfolio"
+  },
+  {
+   "from": "x-irgc-asf",
+   "to": "shahed",
+   "type": "ubo",
+   "basis": "по Минфину США: Shahed Aviation Industries Research Center подчинён IRGC ASF",
+   "source": "https://home.treasury.gov/news/press-releases/jy1104"
+  },
+  {
+   "from": "diehl",
+   "to": "brave1",
+   "type": "partner",
+   "basis": "Diehl — первая иностранная компания, испытавшая свой НРК (UGV) в рамках платформы Test in Ukraine (Brave1), на полигоне 3-й штурмовой бригады (Минцифры, 28.07.2025)",
+   "source": "https://digitalstate.gov.ua/news/tech/ukrayina-vidkryla-platformu-test-in-ukraine-dlia-vyprobuvannia-miznarodnykh-oboronnykh-tekhnolohiy-pershyy-uchasnyk-diehl"
+  },
+  {
+   "from": "shieldai",
+   "to": "brave1",
+   "type": "partner",
+   "basis": "через Brave1 Shield AI установила партнёрство с украинской компанией (название не раскрыто): ПО Shield AI интегрировано с дронами этой компании (пост Brave1; Shield AI в X, по «Украинской правде», 13.03.2026)",
+   "source": "https://www.linkedin.com/posts/brave1ukraine_brave1-helped-the-american-defense-unicorn-activity-7438297999207936000-xyZT https://www.pravda.com.ua/eng/news/2026/03/13/8025307/"
+  },
+  {
+   "from": "palantir",
+   "to": "brave1",
+   "type": "partner",
+   "basis": "Brave1 Dataroom — защищённая среда для обучения военных ИИ-моделей на ПО Palantir; запущена МО и Минцифры Украины, ВСУ, НИИ военной разведки и Palantir (МО Украины, 21.01.2026)",
+   "source": "https://mod.gov.ua/en/news/ministry-of-defence-launches-brave1-dataroom-a-secure-environment-for-training-military-ai-solutions"
+  },
+  {
+   "from": "anduril",
+   "to": "kara-dag",
+   "type": "partner",
+   "basis": "Kara Dag Technologies начала сотрудничество с Anduril: передаёт практики противодействия дронам, полученные в боевых условиях, для систем Anduril, уже используемых в Украине (сайт Kara Dag, 03.2026)",
+   "source": "https://karadagtech.com/en/cooperation-kara-dag-with-anduril/"
+  },
+  {
+   "from": "network-vc-defense",
+   "to": "swarmer",
+   "type": "partner",
+   "basis": "Network VC — участник раунда Series A Swarmer на $15 млн (лид — Broadband Capital Investments), 09.2025",
+   "source": "https://investors.swarmer.com/news/swarmer-ukraines-leading-drone-autonomy-and-swarming-company-announces-15m-series-a-led-by-us-investors/"
+  },
+  {
+   "from": "dm-holding",
+   "to": "udi",
+   "type": "partner",
+   "basis": "соглашение о создании СП в США по производству спецхимии (одноосновный порох для артбоеприпасов, в т.ч. 155 мм), подписано 11.07.2025 в Риме",
+   "source": "https://www.dmholding.com/industry-articles/us-ukraine-ammunition-jv/"
+  },
+  {
+   "from": "airbus-ds",
+   "to": "x-skyfall",
+   "type": "partner",
+   "basis": "Airbus Defence and Space и SkyFall подписали меморандум (MoU) о стратегическом партнёрстве на ILA Berlin, 12.06.2026 (релиз Airbus); партнёрство, не подчинённость",
+   "source": "https://www.airbus.com/en/newsroom/press-releases/2026-06-airbus-and-skyfall-form-strategic-alliance-to-advance-european-and-ukrainian-defence-innovation"
+  },
+  {
+   "from": "x-japan-mod",
+   "to": "x-skyfall",
+   "type": "customer",
+   "basis": "министр обороны Японии С. Коидзуми, 09.10.2026: «既に防衛省では、ウクライナのスカイフォール社の迎撃用ドローンの取得契約を締結しており» — контракт на приобретение дронов-перехватчиков уже подписан; модель, количество и сумма не названы",
+   "source": "https://www.mod.go.jp/j/press/kisha/2026/1009a.html"
+  },
+  {
+   "from": "redcat",
+   "to": "sine-engineering",
+   "type": "partner",
+   "basis": "Red Cat и Sine Advanced Engineering, Inc. (американское подразделение Sine) подписали неэксклюзивный MoU о стратегическом партнёрстве: интеграция связи и навигации Sine в БЭК Blue Ops и БЛА Red Cat (релиз Red Cat, 02.11.2026)",
+   "source": "https://ir.redcatholdings.com/news-events/press-releases/detail/248/red-cat-announces-strategic-partnership-with-sine-engineering-to-strengthen-resilient-communications-and-navigation-across-air-and-maritime-systems"
+  },
+  {
+   "from": "phantom-defense",
+   "to": "drone-dominance",
+   "type": "partner",
+   "basis": "Phantom Defense участвовала в Gauntlet II программы Drone Dominance (Форт-Карсон): одна из трёх компаний, создававших РЭБ-среду противодействия для испытаний БЛА; после этапа получила приглашения на дальнейшие мероприятия (по сайту компании). Испытания, не подчинённость",
+   "source": "https://www.phantomdefense.tech/en/blog/phantom-defense-drone-dominance-gauntlet-ii"
+  },
+  {
+   "from": "diu",
+   "to": "drone-dominance",
+   "type": "structure",
+   "basis": "DDP «jointly administered by the Test Resource Management Center (TRMC) and the Defense Innovation Unit (DIU)»; DIU курирует работу с промышленностью",
+   "source": "https://dronedominance.mil/"
+  },
+  {
+   "from": "trmc",
+   "to": "drone-dominance",
+   "type": "structure",
+   "basis": "TRMC — «primary execution authority and test range coordinator» программы Drone Dominance",
+   "source": "https://dronedominance.mil/"
+  },
+  {
+   "from": "techex",
+   "to": "brave1",
+   "type": "partner",
+   "basis": "по сайту TechEx: «TechEx works with the Ukrainian state through the BRAVE1 defense innovation cluster and the Dot Chain procurement system» (заявление компании)",
+   "source": "https://techex.com.ua/en/about-us/"
+  },
+  {
+   "from": "militech",
+   "to": "brave1",
+   "type": "partner",
+   "basis": "по сайту MILITECH: решения «available on the government portals DOT and Brave1» (заявление компании)",
+   "source": "https://www.militech.com.ua/en"
+  },
+  {
+   "from": "nswc-crane",
+   "to": "drone-dominance",
+   "type": "structure",
+   "basis": "NSWC Crane «holds contracting authority and issues prototype delivery orders based on Gauntlet test results» в программе Drone Dominance",
+   "source": "https://dronedominance.mil/"
+  },
+  {
+   "from": "rheinmetall",
+   "to": "rheinmetall-uop",
+   "type": "ubo",
+   "basis": "СП совместно принадлежит Rheinmetall Landsysteme GmbH (51%) и АО «УОП» (49%)",
+   "source": "https://www.rheinmetall.com/en/company/subsidiaries/rheinmetall-ukrainian-defense-industry"
+  },
+  {
+   "from": "udi",
+   "to": "rheinmetall-uop",
+   "type": "ubo",
+   "basis": "49% у АО «УОП» (Rheinmetall); по ЕГР — через 100%-ную дочку ТОВ «Западноукраинский машиностроительный завод»",
+   "source": "https://opendatabot.ua/c/44789782"
+  },
+  {
+   "from": "rheinmetall",
+   "to": "udi",
+   "type": "partner",
+   "basis": "стратегическое сотрудничество с 05.2023; СП в Киеве (работает с 18.10.2023): ремонт, затем совместное производство продукции Rheinmetall в Украине",
+   "source": "https://www.rheinmetall.com/en/media/news-watch/news/2023/10/2023-10-24-rheinmetall-ag-and-ukrainian-defense-industry-jsc-establish-joint-venture-in-kyiv"
+  },
+  {
+   "from": "general-cherry",
+   "to": "orqa",
+   "type": "partner",
+   "basis": "меморандум о сотрудничестве с хорватской ORQA — развитие производственных возможностей в Украине и Европе (сайт General Cherry). Подземный завод из вводной на официальных страницах не подтверждён",
+   "source": "https://gencherry.com/en/about-us"
+  },
+  {
+   "from": "general-cherry",
+   "to": "drone-dominance",
+   "type": "partner",
+   "basis": "по сайту General Cherry: компания прошла первый и второй этапы DDP; Wilcox Cherry Defense (совместное производство с американской Wilcox) — среди 19 компаний, прошедших квалификационный этап",
+   "source": "https://gencherry.com/en/about-us"
+  },
+  {
+   "from": "odd-systems",
+   "to": "x-terma",
+   "type": "partner",
+   "basis": "стратегическое партнёрство Odd Systems и Terma Group (Дания): недорогой ИИ-перехватчик дронов (релиз 21.07.2025)",
+   "source": "https://oddsystems.io/en/terma-oddsystems-strategic-partnership"
+  },
+  {
+   "from": "bluebird-tech",
+   "to": "brave1",
+   "type": "partner",
+   "basis": "по сайту BlueBird Tech: официальный канал продаж партнёров — market.brave1.gov.ua (Brave1 Market)",
+   "source": "https://www.blue-bird.tech/en/products/chuyka-3-0/"
+  },
+  {
+   "from": "taf-industries",
+   "to": "wingcopter",
+   "type": "partner",
+   "basis": "меморандум (MoU) 13.02.2026 о намерении создать совместное предприятие для производства разведывательных БЛА TAF в Германии (сайты TAF и Wingcopter); СП в стадии намерения",
+   "source": "https://taf-ua.com/en/build-with-ukraine-wingcopter-and-taf-industries-establish-joint-venture-to-scale-production-of-reconnaissance-drones-in-germany-for-ukraine/"
+  },
+  {
+   "from": "taf-industries",
+   "to": "pgz",
+   "type": "partner",
+   "basis": "письмо о намерениях (LoI) 25.06.2026, Гданьск: локализация производства БЛА в Польше (сайт TAF)",
+   "source": "https://taf-ua.com/en/taf-industries-and-pgz-partner-to-localize-uav-production-in-poland/"
+  },
+  {
+   "from": "front-ventures",
+   "to": "molfar",
+   "type": "partner",
+   "basis": "инвестиция Front Ventures 1,5 млн евро (ведущий инвестор раунда 2 млн евро, доля 10%), релиз Front Ventures 03.06.2026; инвестиция, не подчинённость",
+   "source": "https://news.cision.com/se/front-ventures-ab/r/front-ventures-investerar-1-5-miljoner-euro-i-ukrainskt-radarbolag,c4356698"
+  },
+  {
+   "from": "innovation-development-fund",
+   "to": "brave1",
+   "type": "structure",
+   "basis": "Brave1 — государственная инициатива, реализуемая Фондом развития инноваций (страница About Brave1, 12.11.2026); решения о грантах — большинством голосов наблюдательного совета Фонда (МО Украины, 06.11.2026)",
+   "source": "https://brave1.gov.ua/en/about https://mod.gov.ua/en/explainers/brave1-ukraine-defense-tech-cluster"
+  },
+  {
+   "from": "unite-brave-nato",
+   "to": "brave1",
+   "type": "structure",
+   "basis": "с украинской стороны программу координирует Brave1, первый конкурс со стороны НАТО ведёт NCIA (МО Украины)",
+   "source": "https://mod.gov.ua/en/news/unite-brave-nato-applications-open-for-the-first-joint-ukraine-nato-innovation-grant-program https://www.nato.int/en/news-and-events/articles/news/2026/03/25/nato-and-ukraine-activate-next-steps-for-unite-brave-nato-innovation-programme"
+  },
+  {
+   "from": "bravetech-eu",
+   "to": "brave1",
+   "type": "structure",
+   "basis": "BraveTech EU связывает платформу Brave1 Минцифры с European Defence Fund и EUDIS (Еврокомиссия, 11.07.2025)",
+   "source": "https://enlargement.ec.europa.eu/news/joint-press-release-eu-and-ukraine-boost-battlefield-driven-solutions-bravetech-eu-2025-07-11_en"
+  },
+  {
+   "from": "eda",
+   "to": "bravetech-eu",
+   "type": "partner",
+   "basis": "DefTech Forges — конкурсы в рамках BraveTech EU: финансирует Еврокомиссия, поддерживают Brave1 и EDA; победители смогут продолжить испытания с EDA (Brave1, 12.08.2026)",
+   "source": "https://brave1.gov.ua/en/news/deftech-forges-applications-open"
+  },
+  {
+   "from": "airbus-ds",
+   "to": "brave1",
+   "type": "partner",
+   "basis": "Airbus Defence and Space подписала меморандум о взаимопонимании (MoU) с Brave1 — первое промышленное стратегическое партнёрство Brave1 с западной компанией; технологии Airbus — в контур Test in Ukraine (Airbus, 01.07.2026)",
+   "source": "https://www.airbus.com/en/newsroom/press-releases/2026-07-airbus-and-brave1-partner-to-boost-ukrainian-defence-innovation"
+  },
+  {
+   "from": "saab",
+   "to": "brave1",
+   "type": "partner",
+   "basis": "первый этап инициативы Brave Prime — подписание официальных соглашений с Airbus и Saab (МО Украины, 01.07.2026)",
+   "source": "https://mod.gov.ua/en/news/one-billion-for-explosives-low-cost-missiles-and-agreements-with-airbus-and-saab-key-takeaways-from-brave1-advantage"
+  },
+  {
+   "from": "aid",
+   "to": "brave1",
+   "type": "partner",
+   "basis": "Brave1 и AID подписали соглашение о запуске BRAVE FRANCE — совместной грантовой программы украинских и французских оборонных компаний, бюджет €20 млн (по €10 млн от сторон) (Brave1, 16.06.2026)",
+   "source": "https://brave1.gov.ua/en/news/brave-france-eng"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-johns-hopkins-university-applied-physics-laboratory",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 57 программ(ы) — US2QC, ACE, Spectrum Challenge, APT, TBG, MATRIX и др.; награды HR001119F0019, HR001118F0015, HR001117F0011, HR001118C0146, 0070, HR001122F0034, HR001119F0091, 0071, 0002, HR001123F0015, HR001122F0030, HR001121F0011, HR001125F0028, HR001118F0033, HR001121F0004, HR001117F0024, HR001122F0067, 0003, 0036, 0018, HR001118F0027, HR001119F0074, 0080, 0068, HR001125FE00",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001122F0052_9700_HR001122D0001_9700 https://www.usaspending.gov/award/CONT_AWD_HR001119F0091_9700_HR001117D0001_9700 https://www.usaspending.gov/award/CONT_AWD_HR001117F0017_9700_HR001117D0001_9700 https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "sri",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 39 программ(ы) — AMD, SHIELD, SHIELD, BOLT, SemaFor, CCU и др.; награды HR001115C0010, HR001119C0108, HR001121C0026, HR001116C0126, HR001112C0016, HR001119C0112, HR001122C0032, HR001122C0031, HR001121C0035, HR001116C0019, HR001122C0043, HR001125C0001, HR001120C0011, HR001125C0043, HR001115C0129, HR001111C0088, HR001115C0071, HR001124C0409, HR001113C0012, HR001124C0511, ",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001119C0108_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001115C0010_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001115C0010_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-massachusetts-institute-of-technology",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 21 программ(ы) — Living Foundries, DODOS, GARD, M-STUDIO, AMD, ASKEM и др.; награды HR00111920025, HR00112120001, HR00112220042, HR001115C0091, HR001115C0056, HR001115C0155, HR0011262E018, HR00112010001, HR001120C0015, HR001115C0084, HR001114C0067, HR001112C0068, HR00112420376, HR0011262E044, HR00112320040, HR00112420303, HR001120C0191, HR00112210002, HR00112020049, HR001116C0030, ",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001115C0084_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001115C0056_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001120C0015_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-university-of-maryland-college-park",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 17 программ(ы) — QBI, BLUE, AISS, HIVE, SDH, WARDEN и др.; награды HR001121F0032, HR001120F0045, HR001125C0004, HR001122F0008, HR00112420304, HR0011262E016, HR00112020007, HR001119F0096, HR001123F0003, HR001123F0021, HR001121F0022, HR00112320009, HR001126FE003, HR001122F0069, HR001119F0072, HR001122F0068, HR00112420344, HR00112120021",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001126FE003_9700_HQ003424D0003_9700 https://www.usaspending.gov/award/CONT_AWD_HR001125C0004_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001120F0045_9700_HQ003418D0005_9700 https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-carnegie-mellon-university",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 14 программ(ы) — LORELEI, RACER, ASIST, PERFECT, GARD, CoasterChase и др.; награды HR001120C0036, HR001116C0038, HR0011262E007, HR00112420329, HR001117C0051, HR0011262E028, HR00112020006, HR00112420350, HR001115C0114, HR00112220032, HR001115C0137, HR00111320007, HR001121C0189",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001115C0114_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001121C0189_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001120C0036_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-university-of-southern-california",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 14 программ(ы) — CRAFT, IRIS, LORELEI, QuANET, Dispersed Computing, OPS-5G и др.; награды HR001116C0043, HR001116C0017, HR001112C0030, HR001117C0053, HR001120C0088, HR00112020009, HR001121C0169, HR001121C0168, HR001111C0067, HR001111C0041, HR00112220046, HR001115C0115, HR001120C0157, HR00112320022, HR00111320004, HR001123C0101, HR001124C0403",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001116C0017_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001111C0041_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001115C0115_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-regents-of-university-of-california",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 13 программ(ы) — CRAFT, DODOS, SemaFor, MICA, PIPES, ElectRx и др.; награды HR001115C0004, HR00111220003, HR001116C0052, HR001115C0057, HR00111520006, HR00112420387, HR0011262E031, HR00111620009, HR001125CE031, HR00111920015, HR00112020054, HR00111020002",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001116C0052_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001115C0057_9700_-NONE-_-NONE- https://www.usaspending.gov/award/ASST_NON_HR00112020054_097 https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-trustees-of-columbia-university-in-city-of-new-york",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 12 программ(ы) — STRENGTHEN, PREPARE, BLUE, CCU, PERFECT, MIDAS и др.; награды HR00112320001, HR001117C0026, HR00112520020, HR001122C0034, HR00110810069, HR00111520054, HR00112220007, HR00111010080, HR001113C0003, HR00111920009, HR001118C0017, HR00112320032",
+   "source": "https://www.usaspending.gov/award/ASST_NON_HR00112320032_097 https://www.usaspending.gov/award/ASST_NON_HR00111920009_097 https://www.usaspending.gov/award/ASST_NON_HR00112520020_097 https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-president-and-fellows-of-harvard-college",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 11 программ(ы) — Panacea, Prophecy, PREPARE, AMPHORA, BRICS, LUMOS и др.; награды HR00111920029, HR00112420367, HR00112220036, HR001115C0094, HR0011262E027, HR001120C0137, HR001114C0072, HR001112C0061, HR00111920022, HR00112020040, HR001111C0093",
+   "source": "https://www.usaspending.gov/award/ASST_NON_HR00111920022_097 https://www.usaspending.gov/award/CONT_AWD_HR001111C0093_9700_-NONE-_-NONE- https://www.usaspending.gov/award/ASST_NON_HR00112020040_097 https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-trustees-of-university-of-pennsylvania",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 11 программ(ы) — LORELEI, CCU, FLA, PIPES, SciFy, XD3 и др.; награды HR001122C0033, HR00110810074, HR00112420305, HR00112220013, HR001116C0056, HR00111520020, HR001115C0123, HR00111520023, HR00110810004, HR00112320024, HR00111920016, HR00112520300",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001115C0123_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001122C0033_9700_-NONE-_-NONE- https://www.usaspending.gov/award/ASST_NON_HR00111520020_097 https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-hrl-laboratories",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 10 программ(ы) — Minitherms3D, ELGAR, NOM4D, SURGE, RADER, SynQuaNon и др.; награды HR001124C0305, HR001117C0106, HR001122C0123, HR001115C0023, HR001115C0053, HR001122C0016, HR001124C0473, HR001110C0063, HR001125C0036, HR001124C0442",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001124C0305_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001122C0123_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001122C0016_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-systems-technology-research",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 10 программ(ы) — Blackjack, HACCS, GeCCO, ICS, SemaFor, SciFy и др.; награды HR001113C0031, HR001120C0162, HR001117C0011, HR001117C0057, HR001123C0069, HR001118C0063, HR001124C0458, HR001125CE018, HR001125C0303, HR001120C0129",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001120C0162_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001118C0063_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001123C0069_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-georgia-tech-research",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 10 программ(ы) — SMOKE, OPS-5G, CRANE, OPTIMA, HAPPI, 3DSoC и др.; награды HR001120C0130, HR001116C0059, HR001125C0045, HR00112420332, HR00112420336, HR001120C0155, HR001124C0312, HR001123C0035, HR001118C0096",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001123C0035_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001120C0155_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001120C0130_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-peraton-labs",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 10 программ(ы) — EdgeCT, FastNICs, OPS-5G, WiSPER, XD3, CONCERTO и др.; награды HR001119C0064, HR001115C0098, HR001116C0101, HR001120C0090, HR001119C0106, HR001120C0012, HR001125CE027, HR001120C0160, HR001120C0156, HR001120C0039, HR001121C0069",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001115C0098_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001120C0090_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001120C0160_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-galois",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 10 программ(ы) — SafeDocs, SSITH, SIEVE, DPRIVE, COOP, CASE и др.; награды HR001125C0300, HR001118C0030, HR001118C0029, HR001121C0034, HR001124C0488, HR001119C0103, HR001114C0113, HR001118C0095, HR001119C0073, HR001120C0085, HR001118C0013",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001119C0073_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001118C0013_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001120C0085_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-physical-sciences",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 9 программ(ы) — SIGMA+, AWE, AtmoSense, ENVision, NOM4D, WUD и др.; награды HR001121C0016, HR001121C0032, HR001116C0127, HR001122C0041, HR001125C0002, HR001109C0026, HR001122C0002, HR001119C0014, HR001124C0456",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001119C0014_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001121C0032_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001121C0016_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-leland-stanford-junior-university",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 9 программ(ы) — Focused Pharma, INSPIRED, ReVector, Living Foundries, ENVision, MOCHA и др.; награды HR00112220010, HR0011262E020, HR00112120027, HR00112420356, HR001112C0057, HR0011262E052, HR00112420300, HR00112520039, HR00112020030",
+   "source": "https://www.usaspending.gov/award/ASST_NON_HR00112120027_097 https://www.usaspending.gov/award/ASST_NON_HR00112420356_097 https://www.usaspending.gov/award/ASST_NON_HR00112020030_097 https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-university-of-illinois",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 9 программ(ы) — MINT, NOM4D, INCAS, Structural Logic, SHIELD, GARD и др.; награды HR00112020019, HR00112320012, HR001121C0165, HR001114C0069, HR00111520025, HR00111520022, HR00112220028, HR001122C0057, HR00111010077, HR001115C0008",
+   "source": "https://www.usaspending.gov/award/ASST_NON_HR00112220028_097 https://www.usaspending.gov/award/CONT_AWD_HR001122C0057_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001121C0165_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-battelle-memorial-institute",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 8 программ(ы) — SIGMA+, ReSource, Cornerstone, Tellus, MICA, RIDE и др.; награды HR001124C0482, HR001124C0370, HR001124C0334, HR001124C0333, HR001125CE043, HR001123C0102, HR001120C0118, HR001119C0019, HR001124C0441",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001119C0019_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001120C0118_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001124C0370_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-charles-stark-draper-laboratory",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 8 программ(ы) — FLA, SSITH, SHIELD, Tellus, CAML, SAVaNT и др.; награды HR001120C0032, HR001115C0110, HR001116P0017, HR001122C0061, HR001118C0011, HR001115C0009, HR001124C0423, HR001116C0100",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001115C0110_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001118C0011_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001115C0009_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-two-six-labs",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 8 программ(ы) — SHARE, GARD, INGOTS, HACCS, RSDN, XD3 и др.; награды HR001116C0060, HR001120C0014, HR001118C0064, HR001116P0033, HR001125C0015, HR001125CE021, HR001123C0026, HR001117C0111",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001117C0111_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001120C0014_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001125C0015_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-teledyne-scientific-imaging",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 7 программ(ы) — EXACTO, ELGAR, Minitherms3D, CAML, MDP, Structural Logic и др.; награды HR001124C0307, HR001120C0027, HR001122C0122, HR001116C0137, HR001109C0016, HR001115C0033, HR001122C0005, HR001110C0148",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001109C0016_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001122C0122_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001124C0307_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-georgia-tech-applied-research",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 7 программ(ы) — HACCS, ONISQ, ACT, SciFy, RadioBio, SSPARC и др.; награды HR001114C0056, HR001118C0057, HR001115C0051, HR001120C0046, HR001117C0124, HR001125C0302, HR001114C0026, HR001114C0025",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001118C0057_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001120C0046_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001114C0056_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-johns-hopkins-university",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 7 программ(ы) — Biological Control, GARD, MINT, SciFy, LORELEI, expMath и др.; награды HR001116C0139, HR0011262E019, HR00112020010, HR00112020004, HR001116P0014, HR00111520029, HR00111520028, HR00111520024, HR00112220033, HR001125C0304",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001116C0139_9700_-NONE-_-NONE- https://www.usaspending.gov/award/ASST_NON_HR00112020010_097 https://www.usaspending.gov/award/ASST_NON_HR00112220033_097 https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-michigan-technological-university",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 7 программ(ы) — ReSource, BLUE, ARC, WUD, SubT, SSPARC и др.; награды HR001113C0032, HR00112420381, HR001118C0124, HR001120C0079, HR00112020033, HR001114C0136, HR001114C0024, HR00112420341",
+   "source": "https://www.usaspending.gov/award/ASST_NON_HR00112020033_097 https://www.usaspending.gov/award/ASST_NON_HR00112420381_097 https://www.usaspending.gov/award/CONT_AWD_HR001113C0032_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-yale-univ",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 7 программ(ы) — SynQuaNon, OpTIm, LUMOS, HNO3, SUNSPOT, HEALR и др.; награды HR00112320003, HR0011262E038, HR00112020045, HR00112320023, HR00112020051, HR00112520031, HR00112420346",
+   "source": "https://www.usaspending.gov/award/ASST_NON_HR00112420346_097 https://www.usaspending.gov/award/ASST_NON_HR00112320023_097 https://www.usaspending.gov/award/ASST_NON_HR00112020045_097 https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-california-institute-of-technology",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 7 программ(ы) — GRYPHON, LUMOS, NOM4D, BRICS, Living Foundries, expMath и др.; награды HR001115C0093, HR0011262E017, HR00112220009, HR00112020044, HR001112C0065, HR001122C0054, HR0011262E009",
+   "source": "https://www.usaspending.gov/award/ASST_NON_HR00112220009_097 https://www.usaspending.gov/award/ASST_NON_HR00112020044_097 https://www.usaspending.gov/award/CONT_AWD_HR001122C0054_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-aurora-flight-sciences",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 6 программ(ы) — CRANE, Liberty Lifter, SPRINT, ALIAS, VTOL X-Plane, Tern; награды HR001115C0027, HR001123C0012, HR001120C0119, HR001123C0013, HR001124C0325, HR001113C0098, HR001114C0014",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001123C0012_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001123C0013_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001124C0325_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-international-business-machines",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 6 программ(ы) — BOLT, DSSoC, PERFECT, GARD, ICECool, IRIS; награды HR001112C0015, HR001118C0122, HR001120C0013, HR001116C0040, HR001113C0035, HR001113C0022",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001112C0015_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001118C0122_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001113C0022_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-cornell-university",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 6 программ(ы) — SHIELD, SHIELD, CASTLE, N-ZERO, SSITH, expMath; награды N660012424021, HR001124C0429, HR0011262E021, HR001115C0140, HR001118C0014",
+   "source": "https://www.usaspending.gov/award/ASST_NON_N660012424021_097 https://www.usaspending.gov/award/ASST_NON_N660012424021_097 https://www.usaspending.gov/award/CONT_AWD_HR001124C0429_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-university-of-washington",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 6 программ(ы) — RACER, Aerial Dragnet, HEALR, SD2, SynQuaNon, LORELEI; награды HR001117C0076, HR00112120012, HR00111520043, HR001123C0150, HR001121C0171, HR001117C0095, HR00112420342",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001123C0150_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001117C0076_9700_-NONE-_-NONE- https://www.usaspending.gov/award/ASST_NON_HR00112120012_097 https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-university-of-california-san-diego",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 6 программ(ы) — PIPES, N-ZERO, ENVision, CRAFT, SSITH, INTERCEPT; награды HR001116C0037, HR001121C0233, HR001114C0099, HR001115C0134, HR00111920024, HR001118C0020",
+   "source": "https://www.usaspending.gov/award/ASST_NON_HR00111920024_097 https://www.usaspending.gov/award/CONT_AWD_HR001115C0134_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001121C0233_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-university-of-florida",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 6 программ(ы) — ASKEM, ASKE, PTG, OpTIm, NOM4D, HTV-2; награды HR00112220038, HR001112C0011, HR001122C0044, HR00112320028, HR00112220004",
+   "source": "https://www.usaspending.gov/award/ASST_NON_HR00112220038_097 https://www.usaspending.gov/award/ASST_NON_HR00112220038_097 https://www.usaspending.gov/award/ASST_NON_HR00112220004_097 https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-rector-visitors-of-university-of-virginia",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 6 программ(ы) — Metals, INSPIRED, N-ZERO, GRYPHON, MINT, CSSG; награды HR00110810072, HR00112220008, HR00112420360, HR00112220021, HR00112420333, HR001115C0139",
+   "source": "https://www.usaspending.gov/award/ASST_NON_HR00112420333_097 https://www.usaspending.gov/award/ASST_NON_HR00112420360_097 https://www.usaspending.gov/award/CONT_AWD_HR001115C0139_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-new-york-university",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 6 программ(ы) — SIEVE, INTERCEPT, PTG, SynQuaNon, SemaFor, expMath; награды HR0011262E029, HR00112120018, HR00112220002, HR00112020022, HR00112020047, HR00112420343",
+   "source": "https://www.usaspending.gov/award/ASST_NON_HR00112020022_097 https://www.usaspending.gov/award/ASST_NON_HR00112120018_097 https://www.usaspending.gov/award/ASST_NON_HR00112220002_097 https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-regents-of-university-of-michigan",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 6 программ(ы) — SURGE, NOM4D, N-ZERO, SSITH, GARD, MINT; награды HR00112020011, HR00112420352, HR001115C0142, HR001121C0241, HR001118C0019, HR00112520009",
+   "source": "https://www.usaspending.gov/award/ASST_NON_HR00112520009_097 https://www.usaspending.gov/award/CONT_AWD_HR001121C0241_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001115C0142_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-university-of-wisconsin-system",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 5 программ(ы) — STRENGTHEN, REVEAL, ASKEM, ASKE, GARD; награды HR00112220037, HR00112020008, HR001116C0025, HR00112320033",
+   "source": "https://www.usaspending.gov/award/ASST_NON_HR00112320033_097 https://www.usaspending.gov/award/CONT_AWD_HR001116C0025_9700_-NONE-_-NONE- https://www.usaspending.gov/award/ASST_NON_HR00112220037_097 https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-virginia-polytechnic-institute-state-university",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 5 программ(ы) — MATRIX, E-BOSS, OpTIm, SSPARC, QuSeN; награды HR001124C0492, HR001116C0035, HR00112320031, HR00112520036, HR001114C0027",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001116C0035_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001124C0492_9700_-NONE-_-NONE- https://www.usaspending.gov/award/ASST_NON_HR00112320031_097 https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "usa-arizona-state-university",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 5 программ(ы) — HACCS, PROWESS, OP TEMPO, Protean, SSPARC; награды HR001118C0060, HR001124C0495, HR001123C0130, HR0011262E047, HR00111310004",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001118C0060_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001123C0130_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001124C0495_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "charles-river",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 5 программ(ы) — SAIL-ON, ASIST, CAML, DARPA Triage Challenge, OFFSET; награды HR001119C0126, HR001120C0031, HR001124C0345, HR001120C0111, HR001120C0042",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001120C0042_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001119C0126_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001120C0031_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "northrop",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 31 программ(ы) — Manta Ray, Tern, Glide Breaker, FENCE, GAPS, PRIGM и др.; награды HR001124C0303, HR001124C0411, HR001121C0065, HR001119C0023, HR001117C0098, HR001125C0009, HR001122C0087, HR001119C0063, HR001117C0012, HR001115C0104, HR001122C0121, HR001121C0132, HR001120C0025, HR001119C0085, HR001116C0077, HR001121C0150, HR001116P0026, HR001118C0091, HR001115C0078, HR001121C0025, ; получатель — NORTHROP GRUMMAN SYSTEMS CORP, NORTHROP GRUMMAN SYSTEMS CORPORATION",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001122C0021_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001113C0096_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001120C0025_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "rtx",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 33 программ(ы) — HAWC, INTERCEPT, MAD-FIRES, Blackjack, SESU, FENCE и др.; награды HR001120C0096, HR001119C0024, HR001122C0088, HR001118C0032, HR001124C0479, HR001122C0124, HR001111C0064, HR001121C0134, HR001123C0117, HR001125C0050, HR001117C0025, HR001116P0030, HR001115C0081, HR001113C0011, HR001111C0125, HR001126CE062, HR001124C0393, HR001123C0144, HR001117C0064, HR001114C0135, ; получатель — RAYTHEON COMPANY, RTX BBN TECHNOLOGIES, INC., RTX CORPORATION",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001117C0025_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001115C0081_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001115C0081_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "lockheed",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 23 программ(ы) — Integrated Sensor is Structure, HAWC, OpFires, BLADE, CRANE, INCAS и др.; награды HR001122C0141, HR001120C0060, HR001115C0026, HR001111C0033, HR001120C0110, HR001121C0075, HR001109C0015, HR001116C0110, HR001116P0034, HR001116P0021, HR001116P0005, HR001121C0164, HR001109C0036, HR001113C0010, HR001121C0024, HR001120C0050, HR001115C0032, HR001123C0003, HR001118C0076, HR001120C0038, ; получатель — LOCKHEED MARTIN ACULIGHT CORPORATION, LOCKHEED MARTIN CORP, LOCKHEED MARTIN CORPORATION",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001109C0036_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001116C0110_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001120C0038_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "bae",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 11 программ(ы) — TBG, MINC, LCTI-M, FENCE, HOTS, PERFECT и др.; награды HR001117C0027, HR001122C0086, HR001121C0133, HR001118C0099, HR001124C0398, HR001116P0028, HR001111C0126, HR001112C0046, HR001122C0023, HR001113C0005, HR001121C0002; получатель — BAE SYSTEMS INFORMATION & ELECTRONIC SYSTEMS INTEGRATION INC, BAE SYSTEMS INFORMATION AND ELECTRONIC SYSTEMS INTEGRATION INC.",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001121C0002_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001122C0023_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001111C0126_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "leidos",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 8 программ(ы) — ARC, SSPARC, INGOTS, ExCURSion, AtmoSense, GXV-T и др.; награды HR001113C0030, HR001121C0081, HR001125C0012, HR001116C0051, HR001125C0018, HR001114C0062, HR001115C0039, HR001115C0126; получатель — LEIDOS, INC.",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001113C0030_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001115C0126_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001125C0018_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "boeing",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 8 программ(ы) — HAWC, TBG, Glide Breaker, IRIS, AtmoSense, CHIPS и др.; награды HR001114C0060, HR001121C0091, HR001117C0089, HR001123C0044, HR001115C0013, HR001116C0041, HR001117P0007, HR001115C0012; получатель — THE BOEING COMPANY",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001115C0013_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001115C0012_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001123C0044_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "honeywell",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 6 программ(ы) — Open Manufacturing, ACES, Zenith, AWE, N-ZERO, GRYPHON; награды HR001121C0015, HR001116C0122, HR001122C0018, HR001115C0141, HR001117P0005, HR001112C0037, HR001125C0308; получатель — HONEYWELL INTERNATIONAL INC.",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001112C0037_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001116C0122_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001125C0308_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "ga-asi",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 3 программ(ы) — LongShot, Liberty Lifter, CONCERTO; награды HR001117C0013, HR001123C0016, HR001123C0087, HR001121C0023; получатель — GENERAL ATOMICS AERONAUTICAL SYSTEMS, INC.",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001123C0087_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001123C0016_9700_-NONE-_-NONE- https://www.usaspending.gov/award/CONT_AWD_HR001117C0013_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "gd",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 1 программ(ы) — GAPS; награды HR001120C0024; получатель — GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001120C0024_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "mercury",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 1 программ(ы) — GAPS; награды HR001119C0105; получатель — MERCURY SYSTEMS INC",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001119C0105_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "leonardo",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 1 программ(ы) — Improv; награды HR001116P0035; получатель — LEONARDO ELECTRONICS US INC.",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001116P0035_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "cubic",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 1 программ(ы) — LogX; награды HR001122C0040; получатель — CUBIC DEFENSE APPLICATIONS, INC.",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001122C0040_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "qinetiq",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 1 программ(ы) — ACTUV; награды HR001111C0021; получатель — QINETIQ NORTH AMERICA, INC.",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001111C0021_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "darpa",
+   "to": "aerovironment",
+   "type": "contract",
+   "basis": "исполнитель программ DARPA по USAspending.gov (2026-11-13): 1 программ(ы) — SESU; награды HR001120C0003; получатель — AEROVIRONMENT, INC.",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001120C0003_9700_-NONE-_-NONE- https://skb-by.github.io/cbr-news-materials/darpa-programs/"
+  },
+  {
+   "from": "boeing",
+   "to": "usa-hrl-laboratories",
+   "type": "ubo",
+   "basis": "по USAspending: материнская организация получателя HRL LABORATORIES, LLC — «THE BOEING COMPANY»",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001124C0305_9700_-NONE-_-NONE-"
+  },
+  {
+   "from": "boeing",
+   "to": "usa-aurora-flight-sciences",
+   "type": "ubo",
+   "basis": "официальный сайт: «Aurora Flight Sciences, a Boeing Company»",
+   "source": "https://www.aurora.aero/"
+  },
+  {
+   "from": "usa-johns-hopkins-university",
+   "to": "usa-johns-hopkins-university-applied-physics-laboratory",
+   "type": "ubo",
+   "basis": "по USAspending: материнская организация JHU APL LLC — «THE JOHNS HOPKINS UNIVERSITY»",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001119F0019_9700_HR001117D0001_9700"
+  },
+  {
+   "from": "usa-georgia-tech-research",
+   "to": "usa-georgia-tech-applied-research",
+   "type": "ubo",
+   "basis": "по USAspending: материнская организация GTARC — «GEORGIA TECH RESEARCH CORP»",
+   "source": "https://www.usaspending.gov/award/CONT_AWD_HR001114C0056_9700_-NONE-_-NONE-"
+  }
+ ],
+ "_note_contract": "Тип contract (t86u, 13.11.2026): DARPA → исполнитель; основание — награды DARPA на USAspending.gov, где программа названа в описании (полное название программы или отличительная аббревиатура). Сумма и номера наград — в darpa-programs/data/darpa_contracts_usaspending.csv. Это не подчинённость и не владение."
 }
