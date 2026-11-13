@@ -1,5 +1,5 @@
-/* Контур информационного мониторинга OSINT ЦБР РБ — шапка (последнее обновление, актуально, СБОР ДАННЫХ),
-   справка по окрасу, субъективности и ОИ 5×5, разъяснение текущего значения при наведении (t72u, 13.11.2026). */
+/* Контур информационного мониторинга OSINT ЦБР РБ — шапка (последнее обновление, актуально, СБОР ДАННЫХ, До следующего среза ЧЧ:ММ),
+   справка по окрасу, субъективности и ОИ 5×5, разъяснение текущего значения при наведении (t72u, t83u, 13.11.2026). */
 (function(){
 "use strict";
 var TZ="Europe/Minsk";
@@ -10,7 +10,7 @@ var FMT=new Intl.DateTimeFormat("ru-RU",{timeZone:TZ,year:"numeric",month:"2-dig
 function nowMinsk(){ var p={}; FMT.formatToParts(new Date()).forEach(function(x){p[x.type]=x.value;}); return p.day+"."+p.month+"."+p.year+" "+(p.hour==="24"?"00":p.hour)+":"+p.minute; }
 // ---------- шапка ----------
 function pad2(n){ return (n<10?"0":"")+n; }
-function fmtHMS(ms){ if(ms<0) ms=0; var s=Math.floor(ms/1000); return pad2(Math.floor(s/3600))+":"+pad2(Math.floor((s%3600)/60))+":"+pad2(s%60); }
+function fmtHM(ms){ if(ms<0) ms=0; var s=Math.floor(ms/1000); return pad2(Math.floor(s/3600))+":"+pad2(Math.floor((s%3600)/60)); }
 function parseIso(s){ if(!s) return null; var d=new Date(s); return isNaN(d.getTime())?null:d; }
 function parseAsof(s){
   var m=/^(\d{2})\.(\d{2})\.(\d{4})(?:\s+(\d{2}):(\d{2}))?/.exec(s||"");
@@ -42,24 +42,21 @@ function fmtMinsk(dt){
   return p.day+"."+p.month+"."+p.year+" "+(p.hour==="24"?"00":p.hour)+":"+p.minute;
 }
 function nextTip(dt){
-  return "Следующая порция: "+fmtMinsk(dt)+" "+TZ+". Интервал обновления публичных страниц — 2 часа (чётные часы 00:00, 02:00, … 22:00). Если слот попадает в окно сводки, выгрузка ждёт конца окна.";
+  return "Следующий срез: "+fmtMinsk(dt)+" "+TZ+". Интервал обновления публичных страниц — 2 часа (чётные часы 00:00, 02:00, … 22:00). Если слот попадает в окно сводки, выгрузка ждёт конца окна.";
+}
+function resolveNext(){
+  var a=window.CBR_ASOF||{};
+  var now=Date.now();
+  var nxt=parseIso(a.next_export);
+  if(!nxt || nxt.getTime()<now) return nextEvenExport();
+  return nxt;
 }
 function tickNext(){
-  var a=window.CBR_ASOF||{};
   var el=document.getElementById("cbr-next-val");
   var box=document.getElementById("cbr-next");
   if(!el||!box) return;
-  var nxt=parseIso(a.next_export)||nextEvenExport();
-  var now=new Date();
-  var last=parseAsof(a.as_of||"");
-  if(now.getTime()>=nxt.getTime() && (!last || last.getTime()<nxt.getTime())){
-    el.textContent="СБОР ДАННЫХ";
-    box.classList.add("cbr-next-wait");
-    box.setAttribute("data-tipc", "Назначенное время порции ("+fmtMinsk(nxt)+" "+TZ+") уже наступило, новая порция ещё не выложена. Статус остаётся «СБОР ДАННЫХ». Интервал обновления — 2 часа.");
-    return;
-  }
-  if(now.getTime()>=nxt.getTime()) nxt=nextEvenExport(now);
-  el.textContent=fmtHMS(nxt.getTime()-now.getTime());
+  var nxt=resolveNext();
+  el.textContent=fmtHM(nxt.getTime()-Date.now());
   box.classList.remove("cbr-next-wait");
   box.setAttribute("data-tipc", nextTip(nxt));
 }
@@ -97,14 +94,14 @@ function visits(){
 function chrome(){
   var el=document.getElementById("cbr-asof")||document.querySelector(".cbr-asof"); if(!el) return;
   var a=window.CBR_ASOF||{}; var last=a.as_of||el.getAttribute("data-asof")||"";
-  var nxt=parseIso(a.next_export)||nextEvenExport();
+  var nxt=resolveNext();
   el.classList.add("cbr-asof");
   el.removeAttribute("title");
   el.innerHTML=
     '<span class="cbr-st" tabindex="0" data-tipc="Статус: идёт сбор данных к очередной порции новостей. Когда порция выйдет, «последнее обновление» сменится на время её выхода, и статус снова будет «СБОР ДАННЫХ» — сбор к следующей порции."><i class="dot-warn"></i>СБОР ДАННЫХ</span>'+
     '<span class="cbr-last" tabindex="0" data-tipc="Последнее обновление — дата и время выхода последней порции: выгрузки актуального отчёта и данных на страницы. Сведения на страницах — на это время.">последнее обновление <b>'+esc(last)+' '+TZ+'</b></span>'+
     '<span class="cbr-now" tabindex="0" data-tipc="Актуально — текущие дата и время Europe/Minsk по часам вашего устройства; обновляются на странице каждую секунду. Это не время сведений."><i class="dot-live"></i>актуально <b id="cbr-now">'+nowMinsk()+' '+TZ+'</b></span>'+
-    '<span class="cbr-next" id="cbr-next" tabindex="0" data-tipc="'+esc(nextTip(nxt))+'">до следующей порции <b id="cbr-next-val">'+fmtHMS(Math.max(0,nxt.getTime()-Date.now()))+'</b></span>'+
+    '<span class="cbr-next" id="cbr-next" tabindex="0" data-tipc="'+esc(nextTip(nxt))+'">До следующего среза <b id="cbr-next-val">'+fmtHM(Math.max(0,nxt.getTime()-Date.now()))+'</b></span>'+
     '<button type="button" class="cbr-help-btn" aria-expanded="false" aria-controls="cbr-help-pop">СПРАВКА</button>';
   var n=document.getElementById("cbr-now");
   tickNext();
