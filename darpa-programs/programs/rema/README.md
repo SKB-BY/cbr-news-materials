@@ -36,8 +36,20 @@
 | Lael Rudd | DARPA program manager |  | [https://www.darpa.mil/news/2024/mission-autonomy](https://www.darpa.mil/news/2024/mission-autonomy) | PM на 08.02.2024 |
 | Phillip Smith | DARPA program manager |  | [https://www.darpa.mil/research/programs/rema-rapid-experimental-missionized-autonomy](https://www.darpa.mil/research/programs/rema-rapid-experimental-missionized-autonomy) | указан на странице REMA; также PM Lift Challenge |
 
-## Новости из хранилища (0)
+## Новости из хранилища (3)
 
 Совпадение по названию программы в тексте (правило — `../../ADD_PROGRAM.md`). Машиночитаемо: `../../data/darpa_item_tags.json`. Хранилище: live — `news.sqlite`, archive — `archive/news_archive.sqlite`.
 
-Совпадений нет.
+- 2024-02-16 [Противодействие атидронам от DARPA](https://t.me/uav_tech/25443) — archive
+- 2024-02-15 [DARPA’s REMA Program to Add Mission Autonomy to Commercial Drones](https://uasvision.com/2024/02/15/darpas-rema-program-to-add-mission-autonomy-to-commercial-drones) — archive
+- 2023-09-14 [DARPA seeks technical solutions to create autonomous capabilities for commercial drones](https://unmannedairspace.info/uncategorized/darpa-seeks-technical-solutions-to-create-autonomous-capabilities-for-commercial-drones) — archive
+
+## Категория и сфера (t86u, проверка 2026-11-13)
+
+- Офис DARPA (категория): Tactical Technology Office (TTO) — тактические технологии
+- Статус по darpa.mil: пометки о завершении нет
+- Сфера (ось сайта, словарь sphere.py по названию и цитате назначения): БПЛА
+
+## Руководитель программы (darpa.mil)
+
+- Phillip Smith — [страница DARPA](https://www.darpa.mil/about/people/phillip-smith)

@@ -429,3 +429,21 @@ LEAD_CHECK += [
   "Area-I куплена Anduril Industries 01.04.2021 и работает как 100 % дочерняя компания под брендом Area-I; в darpa_orgs не входит (связь с программой DARPA не подтверждена), отслеживается в companies.csv (id area-i)",
   "https://www.anduril.com/news/anduril-industries-acquires-area-i-adds-altius-capabilities-to-hardware-portfolio"),
 ]
+
+# --- t86u (13.11.2026): все офисы DARPA (darpa.mil sitemap) + исполнители по USAspending --------------
+# Данные — darpa_ext.json (загрузчик darpa_t86u.py). Ошибка загрузки не ломает сводку: реестр остаётся прежним.
+try:
+    import darpa_t86u as _T86U
+    _U = _T86U.EXISTING_UPDATE
+    _ids = {p[0] for p in PROGRAMS}
+    PROGRAMS = [(p[0], p[1], p[2], p[3], p[4] or _U.get(p[0], {}).get("darpa_url", ""),
+                 p[5] or _U.get(p[0], {}).get("office", ""),
+                 p[6] if p[6] != "unknown" else (_U.get(p[0], {}).get("status") or p[6]), *p[7:])
+                for p in PROGRAMS] + [p for p in _T86U.PROGRAMS_T86U if p[0] not in _ids]
+    _oids = {o[0] for o in ORGS}
+    ORGS = ORGS + [o for o in _T86U.ORGS_T86U if o[0] not in _oids]
+    PROGRAM_ORGS = PROGRAM_ORGS + _T86U.PROGRAM_ORGS_T86U
+    _pk = {(x[0], x[1], x[3], x[2]) for x in PERSONNEL}
+    PERSONNEL = PERSONNEL + [x for x in _T86U.PERSONNEL_T86U if (x[0], x[1], x[3], x[2]) not in _pk]
+except Exception as _e:  # noqa: BLE001
+    T86U_ERROR = repr(_e)

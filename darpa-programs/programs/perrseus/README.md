@@ -36,3 +36,13 @@
 Совпадение по названию программы в тексте (правило — `../../ADD_PROGRAM.md`). Машиночитаемо: `../../data/darpa_item_tags.json`. Хранилище: live — `news.sqlite`, archive — `archive/news_archive.sqlite`.
 
 - 2026-07-11 [DARPA создаёт навигатор, которому не нужны спутники](https://t.me/uav_tech/36646) — live
+
+## Категория и сфера (t86u, проверка 2026-11-13)
+
+- Офис DARPA (категория): Multi X Office (MXO; расширение Microsystems Technology Office, MTO)
+- Статус по darpa.mil: пометки о завершении нет
+- Сфера (ось сайта, словарь sphere.py по названию и цитате назначения): не назначена (признаков нет)
+
+## Руководитель программы (darpa.mil)
+
+- Travis Autry — [страница DARPA](https://www.darpa.mil/about/people/travis-autry)
