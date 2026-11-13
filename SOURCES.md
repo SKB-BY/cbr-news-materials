@@ -1,148 +1,62 @@
 # Источники сбора
 
-Перечень без объёмов.
+Перечень источников живой базы, без объёмов. Карточка: тип (RSS / HTML / Telegram / API / реестр); что даёт по ВПК; ограничения; резервный канал; периодичность проверки (7 или 30 дней); метод сбора. Проверено с сервера сбора 13.11.2026, Europe/Minsk.
 
-- tg:uav_tech
-- tg:news_uav
-- tg:voron_fpv
-- tg:FPV_vyZOV
-- tg:UAVDEV
-- tg:drone_expert_news
-- cos-news.ru
-- tg:bpla_drone
-- dronedj.com
-- euronews-drones
-- tg:skyindustry
-- tg:proUAV
-- tg:zadrony
-- tg:xronikabpla
-- breakingdefense.com
-- tg:operativnoZSU
-- dronelife.com
-- unmannedairspace.info
-- uasvision.com
-- dronexl.co
-- dronus.ru
-- tg:vrv_radar
-- tg:escadrone
-- tg:germesfpv
-- insidegnss.com
-- tg:texotdelBPLA
-- tg:zloy_dron
-- defence-industry.eu
-- tg:Military_engineer
-- suasnews.com
-- tg:dronesrussia
-- belta.by-bpla
-- tg:Drones_Belarus
-- c4isrnet.com-unmanned
-- defensenews.com-unmanned
-- twz.com
-- tg:INFRONT_Z
-- tg:war_monitor
-- eda.europa.eu
-- gov.uk-mod-drone
-- tg:citsecurity
-- tg:dji911mod
-- bellingcat.com
-- defense.gouv.fr-aid
-- firstquadcopter.com
-- gov.uk-dstl
-- tg:toro_ua
-- aljazeera
-- bbc-world
-- tg:csp_voron
-- tg:robotics_channel
-- pravda.com.ua-eng
-- tg:ministry_of_defense_ua
+Российские предприятия и холдинги, если указаны ниже, используются только как **новостные источники**. В карту реестра и в реестр сил и компаний российские юрлица не включаются.
 
-## Подключены 11.11.2026 (Украина; общие и расследовательские ленты — только материалы по теме)
+Экономические и финансовые ленты (Банк России, Интерфакс, ПРАЙМ, Ведомости, РБК, Коммерсантъ, Smart-Lab) **не подключены как постоянные RSS**, хотя их ленты 13.11.2026 открывались. Их можно использовать только точечно — по названиям предприятий ОПК (финансы, ГОЗ, санкции, суды, кадры, производство, экспорт/импорт).
 
-- pravda.com.ua-eng — Українська правда (English), RSS
-- slidstvo.info — Слідство.Інфо, RSS
-- bihus.info — Bihus.Info, страница новостей (RSS закрыт robots.txt)
-- occrp.org — OCCRP, RSS
-- tg:ministry_of_defense_ua — Міноборони України, публичная лента t.me/s
+## Подключённые и исправленные 13.11.2026
 
-## Проверены 11.11.2026 и не собираются
+| источник | тип | что даёт по ВПК | ограничения | резервный канал | проверка | метод | результат проверки |
+|---|---|---|---|---|---|---|---|
+| Defense Express (`defence-ua.com/rss/feed.xml`) | RSS | ОПК Украины, экспорт, вооружение | — | — | 7 дней | RSS | HTTP 200, 10 записей, последняя 13.11.2026 12:41 +02 |
+| The Kyiv Independent (`/news-archive/rss/`) | RSS | контекст по ВПК Украины | `/feed/` — 404 | — | 7 дней | RSS | HTTP 200, 15 записей, последняя 13.11.2026 10:48 UTC |
+| АрміяInform (`armyinform.com.ua/feed/`) | RSS | официальные сообщения (только по сферам) | строгий фильтр | — | 7 дней | RSS | HTTP 200, 10 записей, последняя 13.11.2026 10:48 UTC |
+| БЕЛТА (`belta.by/rss/all.rss`) | RSS | белорусские предприятия и официальные сообщения (только по сферам) | общая лента, строгий фильтр | — | 7 дней | RSS | HTTP 200, 30 записей, последняя 13.11.2026 14:04 Europe/Minsk |
+| БелВПО (`belvpo.com/rss`) | RSS | белорусский ВПК | — | — | 7 дней | RSS | HTTP 200, 30 записей, последняя 13.11.2026 11:01 UTC |
+| РИА Новости (общая лента, только по сферам) | RSS | российский ВПК | раздел `defense_safety` RSS — 404; строгий фильтр | раздел `/defense_safety/` (HTML-сбор не подключён) | 7 дней | RSS | HTTP 200, 20 записей, последняя 13.11.2026 14:04 Europe/Minsk |
+| U.S. Army official RSS | RSS | армия США, закупки (только по сферам) | строгий фильтр | — | 7 дней | RSS | HTTP 200, 38 записей, последняя 13.11.2026 05:00 UTC-5 |
+| C4ISRNET (основной RSS) | RSS | связь / управление | — | — | 7 дней | RSS | HTTP 200, 10 записей, последняя 11.11.2026 |
+| Breaking Defense — Electronic Warfare | RSS | РЭБ (замена устаревшей ленты C4ISRNET EW) | — | основной RSS Breaking Defense | 7 дней | RSS | HTTP 200, 15 записей, последняя 12.11.2026 13:39 UTC |
+| Oryx | RSS (Atom) | учёт потерь и техники | — | — | 7 дней | RSS | HTTP 200, 21 запись, последняя 08.11.2026 |
+| ВПК.name, bmpd (блог ЦАСТ) | RSS | вооружение, бронетехника, ПВО, авиация | — | — | 7 дней | RSS | HTTP 200, актуальные записи 12–13.11.2026 |
+| Telegram `t.me/s/ministry_of_defense_ua` | Telegram | официальные сообщения МО Украины | сайт mod.gov.ua — HTTP 403 | — | 7 дней | t.me/s | HTTP 200, последняя запись 13.11.2026 09:48 UTC |
+| Telegram `t.me/s/modmilby` | Telegram | официальные сообщения МО РБ | сайт mil.by — HTTP 403 | — | 7 дней | t.me/s | HTTP 200, последняя запись 13.11.2026 07:59 UTC |
+| Telegram `t.me/s/kalashnikovgroup` | Telegram | новости холдинга «Калашников» (только как новостной источник, не реестр) | сайт — ошибка цепочки TLS; проверка сертификата не отключается | — | 7 дней | t.me/s | HTTP 200, последняя запись 13.11.2026 10:36 UTC |
+| Telegram `t.me/s/milinfolive`, `t.me/s/rybar` | Telegram | оперативные сведения по ВПК | **оперативно, требует проверки** | — | 7 дней | t.me/s | HTTP 200, последние записи 13.11.2026 |
 
-- brave1.gov.ua — robots.txt запрещает автоматический сбор
-- mod.gov.ua — HTTP 403 для сборщика (новости МО — через t.me/s/ministry_of_defense_ua)
-- militarnyi.com — RSS пустой
-- kyivindependent.com — RSS нет (HTTP 404)
-- defence-ua.com — RSS пустой / HTTP 404
-- ukrinform — HTTP 503
-- armyinform.com.ua — не отвечает
-- youcontrol.com.ua — HTTP 403; платные данные не собираются
-- tg:brave1ukraine, tg:militarnyi — нет публичной ленты t.me/s
-- tg:defence_ua — лента не обновляется с 03.2023
+Ранее подключённые ленты БПЛА и сфер (Defense News, Breaking Defense, отраслевые издания, официальные листинги) сохраняются.
 
-## Справочные реестры (для проверки фактов, не ленты)
+## Не собираются автоматически
 
-- prozorro.gov.ua — Prozorro
-- efile.fara.gov — FARA eFile (Минюст США)
-- opendatabot.ua — Opendatabot
-- congress.gov — законопроекты США
+| источник | решение | результат проверки 13.11.2026 |
+|---|---|---|
+| `mod.gov.ua` | заменить на `t.me/s/ministry_of_defense_ua` | HTTP 403 |
+| `brave1.gov.ua` | только ручная проверка: `robots.txt` запрещает автоматический сбор; открытый официальный API не найден | robots.txt HTTP 200, сайт HTTP 403 |
+| `militarnyi.com` / `mil.in.ua` | не подключён до рабочей открытой ленты | все проверенные `/feed/` — HTTP 403 |
+| Telegram `@militarnyi`, `@brave1ukraine`, `@bmpd`, `@dambiev`, `@vysokoe_napryazhenie` | нет публичных сообщений в `t.me/s` | HTTP 200, превью без записей |
+| Telegram `@militarnyi_ua` | не подключён | последняя запись 02.10.2025 |
+| Telegram `@defence_ua` | **исключён** | последняя запись 02.03.2023 |
+| `youcontrol.com.ua` | только справочный реестр, вручную | HTTP 403; платные данные не собираются |
+| `rostec.ru`, `roe.ru`, `uacrussia.ru`, `kalashnikovgroup.ru` (сайты) | TLS: самоподписанная цепочка, проверка не отключается. Для «Калашникова» — Telegram (см. выше). Остальные без рабочей публичной ленты | ошибка TLS |
+| `mil.ru` | TLS: идентификаторы сертификата не сходятся; проверка не отключается | ошибка TLS; рабочий `t.me/s` не найден |
+| `uvz.ru`, `function.mil.ru`, `военное.рф`, `impnavigator.ru` | нет DNS с сервера | DNS |
+| `vpk-news.ru` | сайт и RSS не открылись | ошибка TLS/сети; HTML-сбор не подключён |
+| `vpk.gov.by`, `arms-expo.ru`, `armstrade.org` | страницы открываются, RSS нет | HTML-сбор не подключён |
+| `ukrinform` | рабочей RSS нет | `/rss.htm` — 404; сайт 200; HTML-сбор не подключён |
+| `thedefensepost.com` | `/feed/` отдаёт HTML, не ленту | HTML-сбор не подключён |
+| `nvo.ng.ru`, `rand.org` (проверенные ленты) | пустые ленты (0 записей) | не подключены |
+| `sipri.org`, `rusi.org`, IDEX, Eurosatory | рабочей RSS нет | HTML-сбор не подключён |
+| `ukrmilitary.com` | лента есть, но давно без новых материалов | последняя запись 08.09.2026; как регулярный источник не подключён |
+| C4ISRNET EW | лента устарела | последняя запись 01.09.2026; замена — Breaking Defense EW |
+| `janes.com`, `aerosociety.com` | `robots.txt` запрещает сбор | без автоматического сбора |
+| `flightglobal.com` | исключён: гражданская авиация, не ВПК | лента открывается, не подключается |
+| `armytimes.com` | исключён: дубликат Military Times | — |
+| `defenseworld.net` | исключён: не редакционные материалы | — |
+| `navalnews.com` | исключён: сфера «флот» в перечне сфер отсутствует | — |
+| `kad.arbitr.ru` | только справочный реестр | `robots.txt` запрещает автоматический сбор |
 
-## Подключены 12.11.2026 (сферы; общие ленты — только материалы по сферам)
+## Справочные реестры (не ленты)
 
-Ленты проверены 12.11.2026. Разовый сбор по ним в живую базу выполнен 12.11.2026 18:15 Europe/Minsk; в плановый сбор они входят после обновления сборщика. Российские сайты — только источники новостей, не компании реестра. defence-ua.com и armyinform.com.ua перепроверены 12.11.2026: ленты отвечают.
-
-- defensenews.com-land — Defense News — Land; сферы: вооружение, бронетехника, армейские джипы, артиллерийские системы
-- defensenews.com-air — Defense News — Air; сферы: авиация, системы ПВО и РВСН
-- c4isrnet.com-battlefield-tech — C4ISRNET — Battlefield Tech; сферы: средства связи и коммуникаций, программное обеспечение специального назначения
-- breakingdefense.com-spheres — Breaking Defense — Land / Air / Missile Defense / Artillery; сферы: бронетехника, артиллерийские системы, системы ПВО и РВСН, авиация, тактика и стратегия
-- army-technology.com — Army Technology; сферы: вооружение, бронетехника, армейские джипы, артиллерийские системы, средства связи и коммуникаций
-- airforce-technology.com — Airforce Technology; сферы: авиация, системы ПВО и РВСН
-- theaviationist.com — The Aviationist; сферы: авиация, системы ПВО и РВСН
-- defenseone.com — Defense One (только по сферам); сферы: тактика и стратегия, авиация, системы ПВО и РВСН, программное обеспечение специального назначения
-- defense.gov-news — U.S. Department of War — News (official, только по сферам); сферы: вооружение, бронетехника, артиллерийские системы, системы ПВО и РВСН, авиация, средства связи и коммуникаций, программное обеспечение специального назначения, тактика и стратегия
-- af.mil-news — U.S. Air Force — News (official, только по сферам); сферы: авиация, системы ПВО и РВСН
-- gov.uk-mod — UK Ministry of Defence — news (official, только по сферам); сферы: вооружение, бронетехника, артиллерийские системы, системы ПВО и РВСН, авиация, средства связи и коммуникаций, тактика и стратегия
-- armadainternational.com — Armada International; сферы: вооружение, бронетехника, артиллерийские системы, системы ПВО и РВСН, авиация, средства связи и коммуникаций
-- militarytimes.com — Military Times (только по сферам); сферы: вооружение, бронетехника, авиация, тактика и стратегия
-- edrmagazine.eu — European Defence Review; сферы: вооружение, бронетехника, армейские джипы, артиллерийские системы, системы ПВО и РВСН, средства связи и коммуникаций
-- euro-sd.com — European Security & Defence; сферы: вооружение, бронетехника, артиллерийские системы, системы ПВО и РВСН, авиация, тактика и стратегия
-- overtdefense.com — Overt Defense; сферы: вооружение, бронетехника, артиллерийские системы, авиация
-- missiledefenseadvocacy.org — Missile Defense Advocacy Alliance; сферы: системы ПВО и РВСН
-- armscontrol.org — Arms Control Association (только по сферам); сферы: системы ПВО и РВСН, тактика и стратегия
-- defence-ua.com — Defense Express; сферы: вооружение, бронетехника, артиллерийские системы, системы ПВО и РВСН, авиация, средства связи и коммуникаций, тактика и стратегия
-- topwar.ru — Военное обозрение; сферы: вооружение, бронетехника, армейские джипы, артиллерийские системы, системы ПВО и РВСН, авиация, средства связи и коммуникаций, тактика и стратегия
-- bmpd.livejournal.com — bmpd (блог ЦАСТ); сферы: вооружение, бронетехника, артиллерийские системы, системы ПВО и РВСН, авиация
-- vpk.name — ВПК.name; сферы: вооружение, бронетехника, артиллерийские системы, системы ПВО и РВСН, авиация
-- tass.ru — ТАСС (только по сферам); сферы: вооружение, бронетехника, артиллерийские системы, системы ПВО и РВСН, авиация, тактика и стратегия
-- armyinform.com.ua — АрміяInform (только по сферам); сферы: вооружение, бронетехника, артиллерийские системы, системы ПВО и РВСН, авиация, тактика и стратегия
-- airandspaceforces.com — Air & Space Forces Magazine; сферы: авиация, системы ПВО и РВСН
-- defence-blog.com — Defence Blog; сферы: вооружение, бронетехника, армейские джипы, артиллерийские системы, системы ПВО и РВСН, авиация
-- warontherocks.com — War on the Rocks; сферы: тактика и стратегия
-
-## Проверены 12.11.2026 и не собираются
-
-- https://www.armyrecognition.com/index.php?format=feed&type=rss — HTTP 404
-- https://militaryembedded.com/rss — HTTP 403
-- https://www.c4isrnet.com/arc/outboundfeeds/rss/category/networks/?outputType=xml — HTTP 404
-- https://www.c4isrnet.com/arc/outboundfeeds/rss/category/electronic-warfare/?outputType=xml — 200, но последняя запись — 2025-08 (лента не обновляется)
-- https://breakingdefense.com/category/networks-digital-warfare/feed/ — HTTP 404
-- https://www.ukrmilitary.com/feeds/posts/default — 200, но последняя запись — 2025-12
-- https://mil.in.ua/uk/feed/, https://militarnyi.com/uk/feed/ — с box — одна защищённая паролем запись; с сервера HTTP 403
-- https://thedefensepost.com/feed/ — вместо ленты HTML-страница
-- https://nvo.ng.ru/rss/ — пустая лента
-- https://www.rand.org/topics/military-strategy.xml — пустая лента
-- https://thebulletin.org/feed/, https://www.iiss.org/rss, https://www.esd.whs.mil/, https://www.armyupress.army.mil/ — HTTP 403
-- https://www.army.mil/rss/static/1.xml — HTTP 403 при повторной проверке
-- https://rusi.org/rss.xml, https://www.csis.org/rss, https://www.nato.int/cps/rss/en/natohq/rssFeed.xsl/rssFeed.xml, https://www.mil.gov.ua/rss — HTTP 404
-- https://www.janes.com/feeds/news — robots.txt запрещает, лента — 404
-- https://www.aerosociety.com/rss — robots.txt запрещает
-- https://vpk-news.ru/feed, https://vpk-news.ru/rss — с сервера — ошибка TLS (unsupported protocol); с box — нет соединения
-- https://rostec.ru/, https://rostec.ru/rss/, https://www.kalashnikovgroup.ru/media/news — с сервера — самоподписанная цепочка сертификатов
-- https://mil.ru/ — с сервера — сертификат не соответствует имени
-- https://function.mil.ru/rss_feeds/reference_to_general.htm — нет DNS
-- https://uvz.ru/press/news — нет DNS с сервера
-- https://www.mil.by/ru/news/ — с сервера HTTP 403
-- https://www.belta.by/rss, https://www.belvpo.com/rss — HTTP 301 (ленты нет по этому адресу)
-- https://ria.ru/export/rss2/defense_safety/index.xml — HTTP 404
-- https://vpk.gov.by/, https://www.arms-expo.ru/news/, https://armstrade.org/ — страница HTTP 200, ленты нет; сборщик страниц в этом проходе не делался
-- https://www.flightglobal.com/rss — гражданская авиация, 0 заголовков по сферам
-- https://www.navalnews.com/feed/ — флот — не сфера из списка
-- https://www.armytimes.com/arc/outboundfeeds/rss/?outputType=xml — та же редакция, что Military Times (добавлен militarytimes.com)
-- https://www.defenseworld.net/rss — не редакционные материалы
+ЕГРЮЛ/ФНС, ГИР БО, ЕИС госзакупки, картотека арбитражных дел, ФССП, реестры Минпромторга, санкционные списки OFAC SDN, EU Consolidated, UK Sanctions List, Canada, НАЗК Украины, BIS Entity List — **точечная проверка**, не постоянный RSS. С сервера 13.11.2026: список OFAC SDN открылся (HTTP 200); выгрузка в новости не подключается без явных условий использования. ЕГРЮЛ — таймаут; закупки — ошибка TLS; КАД — запрет `robots.txt`; ФССП — HTTP 474; EU list — 403; UK storage — 409; Canada XML — 404; НАЗК — нет DNS. Периодичность проверки карточки: 7 или 30 дней.
