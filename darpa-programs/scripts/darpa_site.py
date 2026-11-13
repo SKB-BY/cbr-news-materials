@@ -134,6 +134,14 @@ def main():
         if (HERE / fn).exists():
             shutil.copy2(HERE / fn, out / "scripts" / fn)
     shutil.copy2(HERE / "darpa_ext.json", out / "data" / "darpa_ext.json")
+    # t86u: связи «новость → программа DARPA» для Новостной карты (ключ — первые 16 символов dedupe_hash)
+    pn = {r[0]: (r[1] or r[0]) for r in conn.execute("select id, short from darpa_programs")}
+    tags = {}
+    for h, pids in conn.execute("select dedupe_hash, program_ids from darpa_item_tags where program_ids not in ('', '[]')"):
+        lst = [[x, pn[x]] for x in json.loads(pids or "[]") if x in pn]
+        if lst and h:
+            tags[h[:16]] = lst
+    (out / "data" / "news_tags.js").write_text("window.DARPA_NEWS_TAGS=" + json.dumps(tags, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
     print(json.dumps({"programs": total, "offices": {k or "—": len(v) for k, v in by.items()}, "contracts": len(ext["contracts"])}, ensure_ascii=False))
 
 

@@ -186,6 +186,7 @@
 </div>
 <script src="vendor/leaflet.js?v=t62"></script>
 <script src="data.js?v=t62"></script>
+<script src="../darpa-programs/data/news_tags.js?v=t86"></script>
 <script src="contour.js?v=t62"></script>
 <script src="../assets/asof.js?v=t81"></script>
 <script src="explain.js?v=t83"></script>
@@ -369,7 +370,8 @@ function itemHtml(x, head){
   return `<div class="h">${badge(x.code,"",x,x.oi1?1:0)}<b>${esc(x.st)}</b>${x.lift?' <span class="lift" title="Запись до 01.01.2026, поднята из базы: её дополнила более поздняя новость">поднято из базы</span>':""}</div>
     <div class="t">${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.t||"без заголовка")}</a>`:esc(x.t)}${tr}</div>
     <div class="m">${esc(ev)} · опубл. ${esc(dmy(x.pub))} Europe/Minsk · ${esc(x.src)}${x.topic?" · "+esc(x.topic):""}${x.cat?" · "+esc(x.cat):""}${x.sec?" · "+esc(x.sec):""}</div>
-    <div class="m">${codes}${!head && x.rel.length?` · связь: ${esc(x.rel.join(", "))}`:""}</div>${cxHtml(x)}`; }
+    <div class="m">${codes}${!head && x.rel.length?` · связь: ${esc(x.rel.join(", "))}`:""}</div>${dpHtml(x)}${cxHtml(x)}`; }
+function dpHtml(x){ const dp=(window.DARPA_NEWS_TAGS||{})[x.id]; if(!dp||!dp.length) return ""; return `<div class="m">Программа DARPA: ${dp.map(p=>`<a href="../darpa-programs/programs/${encodeURIComponent(p[0])}/" target="_blank" rel="noopener">${esc(p[1])}</a>`).join(", ")}</div>`; }
 function storyHtml(s){
   let h=`<li class="st"${s.current?"":' style="opacity:.85;border-style:dashed"'}>${s.current?"":`<div class="m"><b>дополнена позже</b> — актуальная информация в более поздних записях${s.later.length?":":""}</div>`+s.later.map(x=>`<div class="m">→ ${badge(x.code)} ${esc(dmy(x.ev||x.pub.slice(0,10)))} — ${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.t)}</a>`:esc(x.t)}</div>`).join("")}${itemHtml(s.head,true)}<div>${s.places.map(p=>`<span class="chip">${esc(areas[p].properties.name)}</span>`).join("")}</div>`;
   if(s.items.length>1){ const nl=s.items.filter(x=>x.lift).length;
