@@ -26508,5 +26508,222 @@
 "subjectivity": 0.1,
 "risk_tags": []
 }
+},
+{
+"dedupe_hash": "eb5bf52f43b2bd9a97c423b9027ced1792685707be3b28780e0958a8053af440",
+"url": "https://t.me/voron_fpv/6060",
+"published_at": "2026-11-14T17:25:38Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ed2c28bec65e4f68eeddbd9149a00185872c88579cfc0c328059e8589d660599",
+"url": "https://t.me/voron_fpv/6061",
+"published_at": "2026-11-14T17:34:23Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c79d45b4c171fb01254e6eb29a8c889000c225346dc5498311a157646318e0ce",
+"url": "https://t.me/vrv_radar/107805",
+"published_at": "2026-11-14T17:21:21Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "0bf6fc3af708c8c0732f6520f789147e4eac533c51cbfc29ff06832b4593ccc6",
+"url": "https://defence-ua.com/news/nevzhe_frantsija_rozuchilas_robiti_ne_tilki_tanki_leclerc_ale_j_desantni_kateri_raz_kupit_v_shvetsiji_azh_20_cb90-24750.html",
+"published_at": "2026-11-14T15:52:54Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "бронетехника",
+"subfilter": "танки"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "cef004eb552f0282f8dc7e3d53b17692a173759c51c77a8c7f6ccc880782ace0",
+"url": "https://topwar.ru/293555-amerikanskij-samolet-shestogo-pokolenija-b-21-raider-vpervye-sbrosil-aviabombu.html",
+"published_at": "2026-11-14T17:21:33Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "82db12e6ad602047576366c66d55b0ddbcc8ec2ad5c16381fca61e4a41c425b3",
+"url": "https://tass.ru/armiya-i-opk/28318247",
+"published_at": "2026-11-14T17:17:34Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "8b7d626b9834a60d23a7d34cb20d48fd4a21523c98c7ac84c78d8a2794161fd6",
+"url": "https://tass.ru/ekonomika/28318239",
+"published_at": "2026-11-14T17:08:16Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b73d57156cb514470e824539255b97c4287e21f3cc908dea696f20c36dfa7d6e",
+"url": "https://armyinform.com.ua/2026/11/14/haj-krashhe-nad-nymy-letyt-rosiyany-proponuyut-pidstavlyaty-afrykancziv-pid-udary-droniv-perehoplennya-gur",
+"published_at": "2026-11-14T17:11:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "4408653e0cee3c74ef6a627f6fa09ddc8f671da1fe935fae92d2bd9e7dce274d",
+"url": "https://armyinform.com.ua/2026/11/14/cze-bulo-vazhko-ale-cze-bulo-gidno-komandyrka-alfa-rozpovila-pro-robotu-artyleriyi-pid-chas-vivaldi",
+"published_at": "2026-11-14T16:54:40Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "артиллерийские системы",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "e9c7f6414a5928399dd30913e6a64f497ffcf78dc20c6dd6ae2f4d13a6bf6738",
+"url": "https://armyinform.com.ua/2026/11/14/te-shho-moye-to-moye-u-garmashi-pokazaly-bojovu-robotu-garmatnogo-rozrahunku-snikersa",
+"published_at": "2026-11-14T16:14:02Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "артиллерийские системы",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "11bbf364d406f824d737aa8b5f113e63eea71f1ccc280dce35fdde29422d835b",
+"url": "https://ria.ru/20261114/pvo-2131597726.html",
+"published_at": "2026-11-14T17:23:19Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
 }
 ]
