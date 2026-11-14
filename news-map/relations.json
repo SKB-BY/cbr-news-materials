@@ -1,5 +1,45 @@
 [
 {
+"id": "rel_9756ee3823267bcd",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 7,
+"evidence": [
+{
+"url": "https://defence-ua.com/news/zsu_naroschujut_zastosuvannja_raket_neptun_i_tsogo_razu_vdarili_po_virobnitstvu_droniv-24741.html",
+"published_at": "2026-11-13T16:45:09Z",
+"quote": "ЗСУ нарощують застосування ракет \"Нептун\" і цього разу вдарили по виробництву дронів у Ростові"
+},
+{
+"url": "https://armyinform.com.ua/2026/11/13/vid-vyrobnycztva-do-remontu-neptuny-urazyly-try-obyekty-rosijskyh-bpla-v-rostovi-na-donu",
+"published_at": "2026-11-13T12:08:12Z",
+"quote": "Ударів завдали ракетні війська Військово-Морських Сил ЗСУ, застосувавши береговий ракетний комплекс «Нептун»."
+},
+{
+"url": "https://belvpo.com/granata-dlya-obezyany",
+"published_at": "2026-11-13T10:01:57Z",
+"quote": "Четыре ВСУ запустили, четыре были уничтожены."
+},
+{
+"url": "https://vpk.name/news/1171391_rzhavyi_kinzhal_natknulsya_na_rossiiskuyu_pvo.html",
+"published_at": "2026-11-12T21:00:01Z",
+"quote": "Попытка ВСУ применить новый вид крылатых ракет тут же столкнулась с эффективными действиями российской ПВО."
+},
+{
+"url": "https://tass.ru/proisshestviya/28312431",
+"published_at": "2026-11-12T14:48:50Z",
+"quote": "В Брянской области при ударах дронов ВСУ по автомобилям пострадали три человека"
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_af9c3dd12649a73d",
 "from": "ent_cd3c86a3a1af0b40",
 "to": "ent_76aae9f116d88191",
@@ -60,36 +100,6 @@
 }
 },
 {
-"id": "rel_9756ee3823267bcd",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_76aae9f116d88191",
-"type": "применение",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://tass.ru/proisshestviya/28312431",
-"published_at": "2026-11-12T14:48:50Z",
-"quote": "В Брянской области при ударах дронов ВСУ по автомобилям пострадали три человека"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28312231",
-"published_at": "2026-11-12T14:15:51Z",
-"quote": "Расчеты \"Рубикона\" тараном сбили дроны ВСУ \"Зозуля\", \"Анубис\" и \"Бегемот\""
-},
-{
-"url": "https://t.me/operativnoZSU/225244",
-"published_at": "2026-11-03T10:13:37Z",
-"quote": "Протягом жовтня 2026 року Cилами оборони знищено понад 8000 повітряних цілей, крім того, знешкоджено понад 43000 БпЛА тактичного рівня, — ПС ЗСУ"
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_1111cdc4a691a8d1",
 "from": "ent_cd3c86a3a1af0b40",
 "to": "ent_d54ac6fc23eb6450",
@@ -115,6 +125,36 @@
 ],
 "sentiment": {
 "score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_3d12f6183620f8b4",
+"from": "ent_ebcab0b315957eba",
+"to": "ent_868a15ba4aeb446a",
+"type": "должность",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/b-21-raider-first-weapons-release-test",
+"published_at": "2026-11-13T20:00:40Z",
+"quote": "unrivaled deterrence,” Tom Jones, president of Northrop Grumman Aeronautics Systems, said in the company’s statement."
+},
+{
+"url": "https://theaviationist.com/2026/11/13/b-21-raider-first-weapon-release",
+"published_at": "2026-11-13T15:21:15Z",
+"quote": "unrivaled deterrence,” said Tom Jones, corporate vice president and president of Northrop Grumman Aeronautics Systems."
+},
+{
+"url": "https://theaviationist.com/2026/11/10/royal-navy-yfq-48a-aircraft-carrier-2027",
+"published_at": "2026-11-10T22:42:39Z",
+"quote": "| Source: Northrop Grumman Talon aimed to find the right balance between capability and cost, with Tom Jones, president of Northrop’s aeronautics systems division, saying the result was a design that is both cheaper and more capable."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -445,6 +485,31 @@
 }
 },
 {
+"id": "rel_5e9b6cae48511d8b",
+"from": "ent_c9797c9635450715",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://vpk.name/news/1171310_samuyu_dalnoboinuyu_raketu_vms_ssha_zagruzyat_snaryadami_vektrex.html",
+"published_at": "2026-11-12T21:00:01Z",
+"quote": "TWZ: Ракета AIM-174B ВМС США станет носителем планирующих боеприпасов Vektrex Ракета класса «воздух-воздух» AIM-174B, которую используют самолеты Военно-морских сил (ВМС) США, может стать носителем планирующих боеприпасов Vektrex для пораже"
+},
+{
+"url": "https://bmpd.livejournal.com/5010955.html",
+"published_at": "2026-10-04T21:54:25Z",
+"quote": "ВМС США с самого начала указывали, что, в отличие от пилотируемого истребителя завоевания превосходства в воздухе, планируемого к созданию по программе NGAD ВВС США, палубный F/A-XX предназначен для использования в качестве ударного истреби"
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_a654020d9f895443",
 "from": "ent_cc536968c15118bb",
 "to": "ent_7c4278bb1c2365e3",
@@ -536,6 +601,131 @@
 "url": "https://vpk.name/news/1171190_nositelyami_rzhavyh_kinzhalov_vsu_stali_f-16_i_mig-29.html",
 "published_at": "2026-11-11T21:00:01Z",
 "quote": "Эксперт Степанов: Носителями украинских «Ржавых кинжалов» стали F-16 и МиГ-29 Носителями ракет Rusty Dagger («Ржавые кинжалы»), которые США поставили Вооруженным силам Украины (ВСУ), стали истребители F-16 и МиГ-29."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_d00f30e2bea61202",
+"from": "ent_e50e9b8e1c289c1d",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://army-technology.com/news/elbit-puls-rocket-contract",
+"published_at": "2026-11-13T16:09:32Z",
+"quote": "Elbit wins $260m PULS rocket artillery contract from Nato member"
+},
+{
+"url": "https://defence-blog.com/elbit-wins-260-million-puls-rocket-artillery-deal-from-nato",
+"published_at": "2026-11-12T08:30:35Z",
+"quote": "Israeli defense company Elbit Systems has won a contract worth about $260 million to supply PULS rocket artillery launchers and munitions to an unnamed NATO country in Europe, the company said Thursday."
+}
+],
+"sentiment": {
+"score_pm1": 0.4,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_36dc9b13ddf1a45c",
+"from": "ent_76aae9f116d88191",
+"to": "ent_ff878af017a8077e",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://tass.ru/mezhdunarodnaya-panorama/28317771",
+"published_at": "2026-11-14T09:48:10Z",
+"quote": "Зеленский: переданные Украине F-16 постоянно находятся в ремонте"
+},
+{
+"url": "https://theaviationist.com/2026/11/12/ukraine-eyes-up-to-16-l-39ng-skyfox-trainers",
+"published_at": "2026-11-12T22:08:40Z",
+"quote": "However, should the latter be delivered, it would provide Ukraine with an aircraft capable of intercepting slower attack without having to commit frontline fighters such as the F-16."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_4b9929f95e947b52",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_48a4e1e33ddc917b",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/b-21-raider-first-weapons-release-test",
+"published_at": "2026-11-13T20:00:40Z",
+"quote": "” Northrop Grumman, in its own release , also praised the B-21 Combined Test Force’s “sustained rapid test pace and progress."
+},
+{
+"url": "https://theaviationist.com/2026/11/13/b-21-raider-first-weapon-release",
+"published_at": "2026-11-13T15:21:15Z",
+"quote": "Air Force and Northrop Grumman have confirmed that the B-21 Raider has demonstrated its weapon release capability, marking another important milestone in the stealth bomber’s flight test campaign."
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_34182952eea15b35",
+"from": "ent_ebcab0b315957eba",
+"to": "ent_b691d0e0b13535db",
+"type": "должность",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/b-21-raider-first-weapons-release-test",
+"published_at": "2026-11-13T20:00:40Z",
+"quote": "unrivaled deterrence,” Tom Jones, president of Northrop Grumman Aeronautics Systems, said in the company’s statement."
+},
+{
+"url": "https://theaviationist.com/2026/11/13/b-21-raider-first-weapon-release",
+"published_at": "2026-11-13T15:21:15Z",
+"quote": "unrivaled deterrence,” said Tom Jones, corporate vice president and president of Northrop Grumman Aeronautics Systems."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_d7ba3d9b1cf1d139",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_48a4e1e33ddc917b",
+"type": "производство",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/b-21-raider-first-weapons-release-test",
+"published_at": "2026-11-13T20:00:40Z",
+"quote": "The B-21 Raider this month conducted a weapons release test for the first time, the Air Force and manufacturer Northrop Grumman said Nov."
+},
+{
+"url": "https://theaviationist.com/2026/11/13/b-21-raider-first-weapon-release",
+"published_at": "2026-11-13T15:21:15Z",
+"quote": "As we have reported here at The Aviationist , an undisclosed number of B-21s are in production, with final assembly taking place at Northrop Grumman’s Palmdale, California, facility, the s"
 }
 ],
 "sentiment": {
@@ -3725,26 +3915,6 @@
 }
 },
 {
-"id": "rel_3d12f6183620f8b4",
-"from": "ent_ebcab0b315957eba",
-"to": "ent_868a15ba4aeb446a",
-"type": "должность",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://theaviationist.com/2026/11/10/royal-navy-yfq-48a-aircraft-carrier-2027",
-"published_at": "2026-11-10T22:42:39Z",
-"quote": "| Source: Northrop Grumman Talon aimed to find the right balance between capability and cost, with Tom Jones, president of Northrop’s aeronautics systems division, saying the result was a design that is both cheaper and more capable."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_be705171de6f4ebe",
 "from": "ent_b0bba4c8f275ffd0",
 "to": "ent_7c4278bb1c2365e3",
@@ -5065,26 +5235,6 @@
 }
 },
 {
-"id": "rel_5e9b6cae48511d8b",
-"from": "ent_c9797c9635450715",
-"to": "ent_b677547c4bb180c5",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://bmpd.livejournal.com/5010955.html",
-"published_at": "2026-10-04T21:54:25Z",
-"quote": "ВМС США с самого начала указывали, что, в отличие от пилотируемого истребителя завоевания превосходства в воздухе, планируемого к созданию по программе NGAD ВВС США, палубный F/A-XX предназначен для использования в качестве ударного истреби"
-}
-],
-"sentiment": {
-"score_pm1": -0.5,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_9952377d07758483",
 "from": "ent_82d695889d3fa2fa",
 "to": "ent_6db9790c0b5ee6ca",
@@ -5665,26 +5815,6 @@
 }
 },
 {
-"id": "rel_d00f30e2bea61202",
-"from": "ent_e50e9b8e1c289c1d",
-"to": "ent_cd3c86a3a1af0b40",
-"type": "контракт",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://defence-blog.com/elbit-wins-260-million-puls-rocket-artillery-deal-from-nato",
-"published_at": "2026-11-12T08:30:35Z",
-"quote": "Israeli defense company Elbit Systems has won a contract worth about $260 million to supply PULS rocket artillery launchers and munitions to an unnamed NATO country in Europe, the company said Thursday."
-}
-],
-"sentiment": {
-"score_pm1": 0.5,
-"score_pm2": 1,
-"label": "умеренно позитивный"
-}
-},
-{
 "id": "rel_0e8df6e9920115c0",
 "from": "ent_7b38de8388191703",
 "to": "ent_0e439444e0d24c40",
@@ -5722,6 +5852,846 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_c1178687bae4d8d7",
+"from": "ent_fa323d4f8a738909",
+"to": "ent_31fc8fd80270acae",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://army-technology.com/news/allison-us-army-abrams-tank",
+"published_at": "2026-11-13T12:42:03Z",
+"quote": "Allison wins $67m US Army contract for Abrams tank transmissions"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_2dd17aa26685421d",
+"from": "ent_fa323d4f8a738909",
+"to": "ent_31fc8fd80270acae",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://army-technology.com/news/allison-us-army-abrams-tank",
+"published_at": "2026-11-13T12:42:03Z",
+"quote": "Allison Transmission has secured a $67m contract to supply propulsion systems and support services for the US Army’s 2027 Abrams tank orders."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_f5a9ba6e47608043",
+"from": "ent_a07ae3d2be8c5e02",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/12/ukraine-eyes-up-to-16-l-39ng-skyfox-trainers",
+"published_at": "2026-11-12T22:08:40Z",
+"quote": "-made LAU-131A/A seven-round rocket pods, with the latter being the same used by the Advanced Precision Kill Weapon System (APKWS) which is already in service in Ukraine."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_a69ed09b5243b2b2",
+"from": "ent_276f84cd7d3f6204",
+"to": "ent_76aae9f116d88191",
+"type": "поставка",
+"event_date": "2026-11-11",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/12/ukraine-eyes-up-to-16-l-39ng-skyfox-trainers",
+"published_at": "2026-11-12T22:08:40Z",
+"quote": "— Special Kherson Cat (@bayraktar_1love) November 11, 2026 The first aircraft to be delivered will be the 16 JAS 39 Gripen C/D fighters that Sweden has committed while waiting for the delivery to Ukraine of the newer Gripen E fighters."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_a4439a136b4c7e82",
+"from": "ent_276f84cd7d3f6204",
+"to": "ent_aabf628900541628",
+"type": "поставка",
+"event_date": "2026-11-11",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/12/ukraine-eyes-up-to-16-l-39ng-skyfox-trainers",
+"published_at": "2026-11-12T22:08:40Z",
+"quote": "— Special Kherson Cat (@bayraktar_1love) November 11, 2026 The first aircraft to be delivered will be the 16 JAS 39 Gripen C/D fighters that Sweden has committed while waiting for the delivery to Ukraine of the newer Gripen E fighters."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_9b0c259566509847",
+"from": "ent_276f84cd7d3f6204",
+"to": "ent_f4de600127d3237b",
+"type": "поставка",
+"event_date": "2026-11-11",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/12/ukraine-eyes-up-to-16-l-39ng-skyfox-trainers",
+"published_at": "2026-11-12T22:08:40Z",
+"quote": "— Special Kherson Cat (@bayraktar_1love) November 11, 2026 The first aircraft to be delivered will be the 16 JAS 39 Gripen C/D fighters that Sweden has committed while waiting for the delivery to Ukraine of the newer Gripen E fighters."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_b58b96a636b85735",
+"from": "ent_276f84cd7d3f6204",
+"to": "ent_b31f8cec89da9384",
+"type": "поставка",
+"event_date": "2026-11-11",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/12/ukraine-eyes-up-to-16-l-39ng-skyfox-trainers",
+"published_at": "2026-11-12T22:08:40Z",
+"quote": "— Special Kherson Cat (@bayraktar_1love) November 11, 2026 The first aircraft to be delivered will be the 16 JAS 39 Gripen C/D fighters that Sweden has committed while waiting for the delivery to Ukraine of the newer Gripen E fighters."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_a61c723633ac5fa3",
+"from": "ent_ef0cfce175421f33",
+"to": "ent_e17193806fd8c259",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://armadainternational.com/2026/11/amphibious-aircraft-take-off-foc",
+"published_at": "2026-11-13T07:54:43Z",
+"quote": "(DHC) With 22 DHC-515s ordered by six European countries, De Havilland Canada has secured financing to double production capacity for its DHC-515 amphibious firefighting aircraft."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_7a41d6b272f8efff",
+"from": "ent_ef0cfce175421f33",
+"to": "ent_acc27f8d699dd650",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://armadainternational.com/2026/11/amphibious-aircraft-take-off-foc",
+"published_at": "2026-11-13T07:54:43Z",
+"quote": "(DHC) With 22 DHC-515s ordered by six European countries, De Havilland Canada has secured financing to double production capacity for its DHC-515 amphibious firefighting aircraft."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_6cab34e4469890f0",
+"from": "ent_32aeaad6425cc78c",
+"to": "ent_ef0cfce175421f33",
+"type": "поставка",
+"event_date": "2026-11-12",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/%e2%96%ba-csgs-speer-awarded-contract-to-provide-9mm-luger-jhp-ammunition-to-the-canadian-dnd",
+"published_at": "2026-11-13T07:53:27Z",
+"quote": "LEWISTON, Idaho – November 12, 2026 – Speer Ammunition, part of The Kinetic Group, a member of CSG Group (Euronext Amsterdam: CSG), was recently awarded a contract to supply 9mm Luger JHP Ammunition to the Canadian Department of National De"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_f46b5c3bb561315f",
+"from": "ent_cc536968c15118bb",
+"to": "ent_9ab08c2213ed942f",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-ua.com/people_and_company/do_balistichnih_raket_prsm_na_500_km_do_himars_lishe_roste_interes_hocha_ssha_i_vitratili_praktichno_vsi_zapasi_v_irani-24739.html",
+"published_at": "2026-11-13T12:13:25Z",
+"quote": "Lockheed Martin працює над нарощуванням виробництва балістичних ракет PrSM, бо все більше країн зацікавленні у придбанні такого озброєння для своїх HIMARS"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_a8181e25bbfc2c7b",
+"from": "ent_f2dcf230404a0bff",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1171485_rossiiskie_gerani_s_rassvetom_peredadut_video_operatoru.html",
+"published_at": "2026-11-12T21:00:01Z",
+"quote": "Российские «Герани-2» с терминалами спутниковой связи «Рассвет» передадут видео оператору Российские дроны-камикадзе «Герань-2» после оснащения терминалами спутниковой системы связи «Рассвет» смогут передавать оператору видео в режиме реаль"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_4d21fe72d23e34f6",
+"from": "ent_f2dcf230404a0bff",
+"to": "ent_49a2676a83ed6c54",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1171485_rossiiskie_gerani_s_rassvetom_peredadut_video_operatoru.html",
+"published_at": "2026-11-12T21:00:01Z",
+"quote": "Российские «Герани-2» с терминалами спутниковой связи «Рассвет» передадут видео оператору Российские дроны-камикадзе «Герань-2» после оснащения терминалами спутниковой системы связи «Рассвет» смогут передавать оператору видео в режиме реаль"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_23fe517b774ee7a4",
+"from": "ent_b60b9b97f85d08d7",
+"to": "ent_14d1757585b55c53",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1171382_v_kieve_opasayutsya_chto_rf_uzhe_nachala_primenyat_gerani_s_terminalami_rassvet.html",
+"published_at": "2026-11-12T21:00:01Z",
+"quote": "В качестве доказательств приводятся обломки российских «Гераней» с наклейками компании «Бюро 1440», которая является разработчиком российского аналога американского Starlink."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_716402f2428f8f75",
+"from": "ent_88a35e9d9716037f",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1171497_chei_kompleks_luchshe_mi-28nm_i_dan-t_protiv_ah-1z_viper_s_red_wolf.html",
+"published_at": "2026-11-12T21:00:01Z",
+"quote": "Российские вертолеты Ми-28НМ стали первыми в мире, применившими крылатые ракеты в реальных боевых действиях."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_1d9d7bf647921150",
+"from": "ent_9e51a7ee6340af7b",
+"to": "ent_875f89720c603994",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1171292_vvs_latvii_poluchili_chetvertyi_vertolet_uh-60m_black_hawk.html",
+"published_at": "2026-11-12T21:00:01Z",
+"quote": "ВВС Латвии получили четвертый вертолет UH-60M Black Hawk"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_c3d7972dceecf28d",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1171391_rzhavyi_kinzhal_natknulsya_na_rossiiskuyu_pvo.html",
+"published_at": "2026-11-12T21:00:01Z",
+"quote": "Попытка ВСУ применить новый вид крылатых ракет тут же столкнулась с эффективными действиями российской ПВО."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_67ab94e214bf2dfa",
+"from": "ent_c9797c9635450715",
+"to": "ent_22d4c9f3f6fe14c2",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1171310_samuyu_dalnoboinuyu_raketu_vms_ssha_zagruzyat_snaryadami_vektrex.html",
+"published_at": "2026-11-12T21:00:01Z",
+"quote": "TWZ: Ракета AIM-174B ВМС США станет носителем планирующих боеприпасов Vektrex Ракета класса «воздух-воздух» AIM-174B, которую используют самолеты Военно-морских сил (ВМС) США, может стать носителем планирующих боеприпасов Vektrex для пораже"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_76719493002aad1b",
+"from": "ent_22d4c9f3f6fe14c2",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1171310_samuyu_dalnoboinuyu_raketu_vms_ssha_zagruzyat_snaryadami_vektrex.html",
+"published_at": "2026-11-12T21:00:01Z",
+"quote": "TWZ: Ракета AIM-174B ВМС США станет носителем планирующих боеприпасов Vektrex Ракета класса «воздух-воздух» AIM-174B, которую используют самолеты Военно-морских сил (ВМС) США, может стать носителем планирующих боеприпасов Vektrex для пораже"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_548118f1adf80b5a",
+"from": "ent_0da1f8a626082dde",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://belvpo.com/granata-dlya-obezyany",
+"published_at": "2026-11-13T10:01:57Z",
+"quote": "Американские крылатые ракеты AGM-188A Rusty Dagger («Ржавый кинжал») были успешно сбиты российскими средствами ПВО."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_72de36a9cdc10089",
+"from": "ent_0da1f8a626082dde",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://belvpo.com/granata-dlya-obezyany",
+"published_at": "2026-11-13T10:01:57Z",
+"quote": "Американские крылатые ракеты AGM-188A Rusty Dagger («Ржавый кинжал») были успешно сбиты российскими средствами ПВО."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c9be873c0ceedbfb",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_7902a5283b8ea891",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/13/b-21-raider-first-weapon-release",
+"published_at": "2026-11-13T15:21:15Z",
+"quote": "USAF and Northrop Grumman Confirm B-21 Raider’s First Weapon Release Capability Demonstration"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_d13ea37601c896fc",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_48a4e1e33ddc917b",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/13/b-21-raider-first-weapon-release",
+"published_at": "2026-11-13T15:21:15Z",
+"quote": "USAF and Northrop Grumman Confirm B-21 Raider’s First Weapon Release Capability Demonstration"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_19cc63edd87ff350",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_411f0c4b3a8ebc4d",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/13/b-21-raider-first-weapon-release",
+"published_at": "2026-11-13T15:21:15Z",
+"quote": "USAF and Northrop Grumman Confirm B-21 Raider’s First Weapon Release Capability Demonstration"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_d15333f63794a3f0",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_48a4e1e33ddc917b",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/13/b-21-raider-first-weapon-release",
+"published_at": "2026-11-13T15:21:15Z",
+"quote": "USAF and Northrop Grumman Confirm B-21 Raider’s First Weapon Release Capability Demonstration"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e4a86c186284b29b",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_411f0c4b3a8ebc4d",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/13/b-21-raider-first-weapon-release",
+"published_at": "2026-11-13T15:21:15Z",
+"quote": "USAF and Northrop Grumman Confirm B-21 Raider’s First Weapon Release Capability Demonstration"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_928ca763e8a1bda0",
+"from": "ent_48a4e1e33ddc917b",
+"to": "ent_868a15ba4aeb446a",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/13/b-21-raider-first-weapon-release",
+"published_at": "2026-11-13T15:21:15Z",
+"quote": "Air Force publicly acknowledged that the B-21 Raider had conducted aerial refueling from a KC-135 as part of its ongoing test and evaluation program, jointly conducted with Northrop Grumman, at Edwards AFB, California."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_129acc6d555235de",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_48a4e1e33ddc917b",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/13/b-21-raider-first-weapon-release",
+"published_at": "2026-11-13T15:21:15Z",
+"quote": "” Northrop Grumman also highlighted the aircraft’s payload flexibility, explaining that the B-21 has been designed to accommodate different weapon loadouts depending on mission requirements, while its open-architecture design will allow add"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_689ee6e79d3aae2a",
+"from": "ent_cc536968c15118bb",
+"to": "ent_2e39cb415dfec6a7",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/13/lockheed-martin-delivers-its-100000th-gmlrs-rocket",
+"published_at": "2026-11-13T13:00:48Z",
+"quote": "Lockheed Martin Delivers Its 100,000th GMLRS Rocket"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_031e4d70c21ab14a",
+"from": "ent_cc536968c15118bb",
+"to": "ent_7714f862451f1ba0",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/13/lockheed-martin-delivers-its-100000th-gmlrs-rocket",
+"published_at": "2026-11-13T13:00:48Z",
+"quote": "Lockheed Martin Delivers Its 100,000th GMLRS Rocket"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_28d28e9c8d24dfd8",
+"from": "ent_cc536968c15118bb",
+"to": "ent_2e39cb415dfec6a7",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/13/lockheed-martin-delivers-its-100000th-gmlrs-rocket",
+"published_at": "2026-11-13T13:00:48Z",
+"quote": "The company marked the milestone with a ceremony at its Camden, Arkansas production facility for the rockets, with Lockheed adding that it is now capable of producing nearly 14,000 GMLRS rockets a year, ahead of its own target."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_de17a714937029ec",
+"from": "ent_cc536968c15118bb",
+"to": "ent_2e39cb415dfec6a7",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/13/lockheed-martin-delivers-its-100000th-gmlrs-rocket",
+"published_at": "2026-11-13T13:00:48Z",
+"quote": "In addition to the milestone, Lockheed Martin says General Dynamics Ordnance and Tactical Systems (GDOTS) has conducted the first test on a new solid rocket motor it is building for future GMLRS rockets ."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_b42d4707c9d1e748",
+"from": "ent_74e5105c9694faf7",
+"to": "ent_2e39cb415dfec6a7",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/13/lockheed-martin-delivers-its-100000th-gmlrs-rocket",
+"published_at": "2026-11-13T13:00:48Z",
+"quote": "In addition to the milestone, Lockheed Martin says General Dynamics Ordnance and Tactical Systems (GDOTS) has conducted the first test on a new solid rocket motor it is building for future GMLRS rockets ."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_c58cd4dbdc6c123a",
+"from": "ent_5561055e3bf92e63",
+"to": "ent_cc536968c15118bb",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/13/lockheed-martin-delivers-its-100000th-gmlrs-rocket",
+"published_at": "2026-11-13T13:00:48Z",
+"quote": "Army representatives at the acceptance ceremony for the 100,000th GMLRS rocket delivered (Lockheed Martin) “Today’s production milestones reinforce how Lockheed Martin is delivering with urgency, investing in our supply chain and ensuring A"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_84dd378a94f556f5",
+"from": "ent_d8a707bdf6697026",
+"to": "ent_2e39cb415dfec6a7",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/13/lockheed-martin-delivers-its-100000th-gmlrs-rocket",
+"published_at": "2026-11-13T13:00:48Z",
+"quote": "” The post Lockheed Martin Delivers Its 100,000th GMLRS Rocket appeared first on Overt Defense ."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_db706e642cc36a28",
+"from": "ent_d8a707bdf6697026",
+"to": "ent_7714f862451f1ba0",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/13/lockheed-martin-delivers-its-100000th-gmlrs-rocket",
+"published_at": "2026-11-13T13:00:48Z",
+"quote": "” The post Lockheed Martin Delivers Its 100,000th GMLRS Rocket appeared first on Overt Defense ."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_f6af66de4c02d6c4",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_7bfad24d9b0db5c3",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-ua.com/news/zsu_naroschujut_zastosuvannja_raket_neptun_i_tsogo_razu_vdarili_po_virobnitstvu_droniv-24741.html",
+"published_at": "2026-11-13T16:45:09Z",
+"quote": "ЗСУ нарощують застосування ракет \"Нептун\" і цього разу вдарили по виробництву дронів у Ростові"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_3db818e6fd02b06a",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_b677547c4bb180c5",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tass.ru/mezhdunarodnaya-panorama/28316587",
+"published_at": "2026-11-13T16:30:11Z",
+"quote": "Первые B-21 планируется передать ВВС США в 2027 году"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_b7c4f203e696e3dd",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_48a4e1e33ddc917b",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tass.ru/mezhdunarodnaya-panorama/28316587",
+"published_at": "2026-11-13T16:30:11Z",
+"quote": "Первые B-21 планируется передать ВВС США в 2027 году"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_59b54bb981b0d64a",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_48a4e1e33ddc917b",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/b-21-raider-first-weapons-release-test",
+"published_at": "2026-11-13T20:00:40Z",
+"quote": "“These facilities—and more to come—show how Northrop Grumman is moving with speed to meet the Air Force’s directive to accelerate B-21 production and delivery capability to the field,” Northrop said."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_f3c6524622ea9804",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_48a4e1e33ddc917b",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://belvpo.com/vvs-ssha-proveli-ispytanie-po-sbrosu-vooruzheniya-s-b-21-raider",
+"published_at": "2026-11-13T18:45:45Z",
+"quote": "ВВС США провели испытание по сбросу вооружения с B-21 Raider"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_afc92f07bb1669b7",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_ff878af017a8077e",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/f-16-radar-upgrade-contract-passes-2-billion-with-new-northrop-award",
+"published_at": "2026-11-14T08:56:22Z",
+"quote": "F-16 radar upgrade contract passes $2 billion with new Northrop award"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
 }
 }
 ]
