@@ -15,7 +15,8 @@
 from __future__ import annotations
 
 import argparse, csv, json, os, re, sqlite3, sys
-from datetime import datetime, timezone
+from calendar import monthrange
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import darpa_data as DD
@@ -88,6 +89,180 @@ ORG_RX = {
 
 def now():
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+# t89u: в бот (сводка, «Актуальный отчёт») программа DARPA попадает только при наличии
+# связанной новости за последние BOT_RECENT_DAYS суток от момента отчёта, Europe/Minsk.
+# Дата события (item_analysis.event_date), если указана; иначе дата публикации. Страница сайта не затронута.
+MINSK = timezone(timedelta(hours=3))
+BOT_RECENT_DAYS = 7
+
+
+def now_minsk(ts=None):
+    if ts is None:
+        return datetime.now(MINSK)
+    if ts.tzinfo is None:
+        return ts.replace(tzinfo=MINSK)
+    return ts.astimezone(MINSK)
+
+
+def bot_cutoff(as_of=None, days=BOT_RECENT_DAYS):
+    return now_minsk(as_of) - timedelta(days=days)
+
+
+def parse_published(s):
+    """published_at → datetime Europe/Minsk, иначе None."""
+    if not s:
+        return None
+    raw = str(s).strip()
+    if not raw:
+        return None
+    try:
+        if raw.endswith("Z"):
+            dt = datetime.fromisoformat(raw[:-1] + "+00:00")
+        else:
+            dt = datetime.fromisoformat(raw)
+    except ValueError:
+        try:
+            dt = datetime.strptime(raw[:19], "%Y-%m-%d %H:%M:%S")
+        except ValueError:
+            return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=MINSK)
+    return dt.astimezone(MINSK)
+
+
+def parse_event_date(s):
+    """event_date (YYYY-MM-DD / YYYY-MM / YYYY) → date. Для неполной даты — последний день периода."""
+    raw = (s or "").strip()
+    if not raw:
+        return None
+    if len(raw) >= 10 and raw[4] == "-" and raw[7] == "-":
+        try:
+            return datetime.strptime(raw[:10], "%Y-%m-%d").date()
+        except ValueError:
+            pass
+    if len(raw) >= 7 and raw[4] == "-" and raw[:7].replace("-", "").isdigit():
+        try:
+            y, m = int(raw[:4]), int(raw[5:7])
+            return datetime(y, m, monthrange(y, m)[1]).date()
+        except ValueError:
+            pass
+    if len(raw) >= 4 and raw[:4].isdigit():
+        try:
+            return datetime(int(raw[:4]), 12, 31).date()
+        except ValueError:
+            pass
+    return None
+
+
+def effective_dt(published_at, event_date=None):
+    """Дата события (конец дня, Europe/Minsk), если указана и разобрана; иначе дата публикации."""
+    ev = parse_event_date(event_date)
+    if ev is not None:
+        return datetime(ev.year, ev.month, ev.day, 23, 59, 59, tzinfo=MINSK)
+    return parse_published(published_at)
+
+
+def item_is_recent(published_at, event_date=None, as_of=None, days=BOT_RECENT_DAYS):
+    dt = effective_dt(published_at, event_date)
+    if dt is None:
+        return False
+    return dt >= bot_cutoff(as_of, days)
+
+
+def _tag_rows_with_event(conn):
+    has_ia = conn.execute(
+        "select 1 from sqlite_master where type='table' and name='item_analysis'"
+    ).fetchone()
+    if has_ia:
+        return conn.execute(
+            "select t.program_ids, t.published_at, a.event_date "
+            "from darpa_item_tags t "
+            "left join item_analysis a on a.dedupe_hash=t.dedupe_hash "
+            "where t.program_ids is not null and t.program_ids != '[]'"
+        ).fetchall()
+    return conn.execute(
+        "select program_ids, published_at, null from darpa_item_tags "
+        "where program_ids is not null and program_ids != '[]'"
+    ).fetchall()
+
+
+def recent_program_hits(conn, as_of=None, days=BOT_RECENT_DAYS):
+    """program_id → {short, latest (datetime Minsk), count} за скользящие days суток."""
+    try:
+        names = {r[0]: r[1] for r in conn.execute("select id, short from darpa_programs")}
+        rows = _tag_rows_with_event(conn)
+    except Exception:
+        return {}
+    cutoff = bot_cutoff(as_of, days)
+    out = {}
+    for r in rows:
+        try:
+            pids = json.loads(r[0] or "[]") or []
+        except Exception:
+            pids = []
+        dt = effective_dt(r[1], r[2])
+        if not pids or dt is None or dt < cutoff:
+            continue
+        for pid in pids:
+            rec = out.setdefault(pid, {"short": names.get(pid, pid), "latest": dt, "count": 0})
+            rec["count"] += 1
+            if dt > rec["latest"]:
+                rec["latest"] = dt
+    return out
+
+
+def program_latest_dates(conn):
+    """program_id → {short, latest} по всем размеченным новостям (для отчёта «снято»)."""
+    try:
+        names = {r[0]: r[1] for r in conn.execute("select id, short from darpa_programs")}
+        rows = _tag_rows_with_event(conn)
+    except Exception:
+        return {}
+    out = {}
+    for r in rows:
+        try:
+            pids = json.loads(r[0] or "[]") or []
+        except Exception:
+            pids = []
+        dt = effective_dt(r[1], r[2])
+        for pid in pids:
+            rec = out.setdefault(pid, {"short": names.get(pid, pid), "latest": dt})
+            if dt is not None and (rec["latest"] is None or dt > rec["latest"]):
+                rec["latest"] = dt
+    return out
+
+
+def format_bot_recent_audit(conn, as_of=None, days=BOT_RECENT_DAYS):
+    """Текст проверки t89u: какие программы остаются в боте и какие сняты."""
+    as_of_dt = now_minsk(as_of)
+    cutoff = bot_cutoff(as_of_dt, days)
+    kept = recent_program_hits(conn, as_of_dt, days)
+    allp = program_latest_dates(conn)
+    dropped = {pid: rec for pid, rec in allp.items() if pid not in kept}
+    lines = [
+        f"darpa t89u as_of={as_of_dt.strftime('%Y-%m-%d %H:%M:%S %Z')} "
+        f"cutoff={cutoff.strftime('%Y-%m-%d %H:%M:%S %Z')} days={days}",
+        f"kept={len(kept)} dropped={len(dropped)} tagged_programs={len(allp)}",
+    ]
+    if kept:
+        lines.append("kept:")
+        for pid, rec in sorted(kept.items(), key=lambda kv: kv[1]["latest"], reverse=True):
+            last = rec["latest"].strftime("%Y-%m-%d %H:%M Europe/Minsk")
+            lines.append(f"  {rec['short']} ({pid}) last={last} n={rec['count']}")
+    else:
+        lines.append("kept: (none)")
+    if dropped:
+        lines.append("dropped:")
+        def _key(kv):
+            return kv[1]["latest"] or datetime(1, 1, 1, tzinfo=MINSK)
+        for pid, rec in sorted(dropped.items(), key=_key, reverse=True):
+            last = rec["latest"].strftime("%Y-%m-%d %H:%M Europe/Minsk") if rec["latest"] else "—"
+            lines.append(f"  {rec['short']} ({pid}) last={last}")
+    else:
+        lines.append("dropped: (none)")
+    return "\n".join(lines)
 
 
 def seed(conn):
@@ -244,6 +419,11 @@ def digest_block(conn, since, until, esc=lambda s: s, limit=8):
             by.setdefault(pid, []).append(r)
     lines = ["<b>Программы DARPA</b>",
              "Материалы окна, где названы DARPA или программа из рабочего реестра darpa-programs. Связь — по совпадению названия в тексте."]
+    # t89u: именованная программа — только если по ней есть новость за последние 7 дней (Europe/Minsk).
+    recent = recent_program_hits(conn)
+    by = {pid: items for pid, items in by.items() if pid == "—" or pid in recent}
+    if not by:
+        return ""
     for pid, items in sorted(by.items(), key=lambda kv: kv[0] or ""):
         label = names.get(pid, "DARPA без названной программы") if pid != "—" else "DARPA без названной программы"
         lines.append(f"• {esc(label)}")
@@ -372,10 +552,11 @@ def repo(conn, out):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["seed", "tag", "export", "repo", "block", "all"])
+    ap.add_argument("cmd", choices=["seed", "tag", "export", "repo", "block", "all", "bot-recent"])
     ap.add_argument("--csv-dir", default="export/darpa")
     ap.add_argument("--out", default="/tmp/darpa-programs")
     ap.add_argument("--since"); ap.add_argument("--until")
+    ap.add_argument("--at", help="moment for bot-recent, ISO Europe/Minsk")
     a = ap.parse_args()
     conn = connect()
     if a.cmd in ("seed", "all"):
@@ -388,6 +569,9 @@ def main():
         repo(conn, a.out)
     if a.cmd == "block":
         print(digest_block(conn, a.since, a.until))
+    if a.cmd == "bot-recent":
+        ts = datetime.fromisoformat(a.at) if a.at else None
+        print(format_bot_recent_audit(conn, ts))
 
 
 if __name__ == "__main__":
