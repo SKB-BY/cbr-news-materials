@@ -1505,6 +1505,56 @@
 }
 },
 {
+"id": "rel_fe22483c155cdffb",
+"from": "ent_78f1ace85264a541",
+"to": "ent_9c2426bff2d18a5f",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/royal-navy-buys-saab-radars-for-drone-hunting-boats",
+"published_at": "2026-11-15T15:00:02Z",
+"quote": "The Royal Navy has awarded Saab a £15 million contract for several Sea Giraffe 1X radars to fit to Kraken’s K3 Scout uncrewed boats, creating an autonomous drone seeker for the service’s hybrid fleet, according to Saab ."
+},
+{
+"url": "https://unmannedairspace.info/counter-uas-systems-and-policies/royal-navy-awards-saab-gbp15-million-contract-for-autonomous-counter-drone-radar-capability",
+"published_at": "2026-11-11T19:34:15Z",
+"quote": "The Royal Navy has awarded Saab a GBP15 million contract for its Sea Giraffe 1X radar, which will be integrated into an autonomous uncrewed surface vessel (USV) to provide maritime surveillance and counter-drone capabilities."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_1320c5a0ca9f27ee",
+"from": "ent_417bebbed4a23e75",
+"to": "ent_c29cc83181a40db6",
+"type": "должность",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/royal-navy-buys-saab-radars-for-drone-hunting-boats",
+"published_at": "2026-11-15T15:00:02Z",
+"quote": "Mal Crease, chief executive and founder of Kraken Technology Group, said: “K3 Scout was designed from the outset to integrate with mission-ready payloads."
+},
+{
+"url": "https://defence-industry.eu/saab-says-royal-navy-orders-15-million-of-drone-detection-radars-for-uncrewed-k3-scout-vessels",
+"published_at": "2026-11-11T12:37:01Z",
+"quote": "The K3 Scout can take different payloads in the same bay, said Mal Crease, chief executive and founder of Kraken Technology Group."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_9da242d3209845e6",
 "from": "ent_78f1ace85264a541",
 "to": "ent_e55238bf82c70aa9",
@@ -2002,6 +2052,31 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_2ef9f709fbde7513",
+"from": "ent_9c8e52cacc07b5f5",
+"to": "ent_82e7db2d9eb367cd",
+"type": "должность",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/birkenhead-lined-up-to-build-arctic-hunter-drone-sub-hunters",
+"published_at": "2026-11-15T14:00:52Z",
+"quote": "Simon Gillett, chief executive of Balaena, and Lisa Edvardsen Haugan, chief executive of Kongsberg Maritime, signed the agreement at Kongsberg Maritime’s offices in Norway on Wednesday."
+},
+{
+"url": "https://edrmagazine.eu/kongsberg-maritime-launches-arctic-hunter-usv-for-the-hybrid-navy",
+"published_at": "2026-11-09T10:25:22Z",
+"quote": "Speaking ahead of this week’s Atlantic Future Forum conference in Oslo, Lisa Edvardsen Haugan, CEO of Kongsberg Maritime, said: “Atlantic security is an absolute priority, and we believe that the Arctic Hunter USV offers a robust and practi"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -3510,26 +3585,6 @@
 }
 },
 {
-"id": "rel_fe22483c155cdffb",
-"from": "ent_78f1ace85264a541",
-"to": "ent_9c2426bff2d18a5f",
-"type": "контракт",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://unmannedairspace.info/counter-uas-systems-and-policies/royal-navy-awards-saab-gbp15-million-contract-for-autonomous-counter-drone-radar-capability",
-"published_at": "2026-11-11T19:34:15Z",
-"quote": "The Royal Navy has awarded Saab a GBP15 million contract for its Sea Giraffe 1X radar, which will be integrated into an autonomous uncrewed surface vessel (USV) to provide maritime surveillance and counter-drone capabilities."
-}
-],
-"sentiment": {
-"score_pm1": 0.5,
-"score_pm2": 1,
-"label": "умеренно позитивный"
-}
-},
-{
 "id": "rel_966956508d737fe0",
 "from": "ent_c29cc83181a40db6",
 "to": "ent_9c2426bff2d18a5f",
@@ -3747,26 +3802,6 @@
 "score_pm1": 0.5,
 "score_pm2": 1,
 "label": "умеренно позитивный"
-}
-},
-{
-"id": "rel_1320c5a0ca9f27ee",
-"from": "ent_417bebbed4a23e75",
-"to": "ent_c29cc83181a40db6",
-"type": "должность",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://defence-industry.eu/saab-says-royal-navy-orders-15-million-of-drone-detection-radars-for-uncrewed-k3-scout-vessels",
-"published_at": "2026-11-11T12:37:01Z",
-"quote": "The K3 Scout can take different payloads in the same bay, said Mal Crease, chief executive and founder of Kraken Technology Group."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -6881,26 +6916,6 @@
 "url": "https://edrmagazine.eu/valkyrie-dynamics-raises-e1m-for-a-miniature-radar-seeker-that-lets-interceptor-drones-hunt-in-any-weather",
 "published_at": "2026-11-10T13:15:53Z",
 "quote": "Marcin Kovalevskij, founder and CEO of Valkyrie Dynamics, said: “Our mission is to make mass-scale air defence more affordable and expendable."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_2ef9f709fbde7513",
-"from": "ent_9c8e52cacc07b5f5",
-"to": "ent_82e7db2d9eb367cd",
-"type": "должность",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://edrmagazine.eu/kongsberg-maritime-launches-arctic-hunter-usv-for-the-hybrid-navy",
-"published_at": "2026-11-09T10:25:22Z",
-"quote": "Speaking ahead of this week’s Atlantic Future Forum conference in Oslo, Lisa Edvardsen Haugan, CEO of Kongsberg Maritime, said: “Atlantic security is an absolute priority, and we believe that the Arctic Hunter USV offers a robust and practi"
 }
 ],
 "sentiment": {
@@ -18087,6 +18102,46 @@
 "score_pm1": 0.5,
 "score_pm2": 1,
 "label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_4a65b7a9182490eb",
+"from": "ent_78f1ace85264a541",
+"to": "ent_382bc265ebab3a18",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/royal-navy-buys-saab-radars-for-drone-hunting-boats",
+"published_at": "2026-11-15T15:00:02Z",
+"quote": "We are proud to support the Royal Navy in delivering a world-leading capability that will help protect critical assets at sea and ashore,” said Andy Fraser, Group Managing Director of Saab UK."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_871b73216a700d52",
+"from": "ent_6a4cda2eb8048586",
+"to": "ent_82e7db2d9eb367cd",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/birkenhead-lined-up-to-build-arctic-hunter-drone-sub-hunters",
+"published_at": "2026-11-15T14:00:52Z",
+"quote": "Simon Gillett, chief executive of Balaena, and Lisa Edvardsen Haugan, chief executive of Kongsberg Maritime, signed the agreement at Kongsberg Maritime’s offices in Norway on Wednesday."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 }
 ]

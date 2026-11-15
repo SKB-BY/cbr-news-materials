@@ -1,1 +1,1 @@
-window.CBR_ASOF={"as_of": "15.11.2026 16:17", "oi_as_of": "15.11.2026 16:17", "tz": "Europe/Minsk", "next_export": "2026-11-15T16:25:00+03:00", "export_interval_hours": 2};
+window.CBR_ASOF={"as_of": "15.11.2026 18:26", "oi_as_of": "15.11.2026 18:25", "tz": "Europe/Minsk", "next_export": "2026-11-15T19:55:00+03:00", "export_interval_hours": 2};
