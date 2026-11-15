@@ -159460,5 +159460,264 @@
 "subjectivity": 0.1,
 "risk_tags": []
 }
+},
+{
+"dedupe_hash": "b2ab0943d9ddc0ba9b87c328c035917daf91b1fedf0134b4ccb99ac448fc9a17",
+"url": "https://aljazeera.com/video/newsfeed/2026/11/15/israeli-drone-filmed-flying-low-outside-homes-in-southern-lebanon?traffic_source=rss",
+"published_at": "2026-11-15T19:02:21Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "0100357ea0d5f87c908720c228055a02574d041349597c7b1ff2145c8bde01df",
+"url": "https://tass.ru/proisshestviya/28319715",
+"published_at": "2026-11-15T20:54:43Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "вооружение",
+"subfilter": "мины"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "146cba4ac88c295007b62e30b314fe6993f5aec74fe04762b56efaf6a472c14b",
+"url": "https://tass.ru/mezhdunarodnaya-panorama/28319691",
+"published_at": "2026-11-15T20:31:26Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c0e5600a26345d93174da03bc5ab24a0a7c8683f2bede229ad97aec899e14a21",
+"url": "https://tass.ru/proisshestviya/28319687",
+"published_at": "2026-11-15T20:25:06Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d7e1ab66c10d7db1492138b75fa4177b7949ab6566ec3afd1518a7aa1b976e4b",
+"url": "https://tass.ru/proisshestviya/28319675",
+"published_at": "2026-11-15T20:17:15Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "70a10c886504fcc6324c3c432c6b3aad18e2498ae38372d3725a824fc4c367e8",
+"url": "https://tass.ru/proisshestviya/28319631",
+"published_at": "2026-11-15T19:15:18Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "69d9b88f5324223d97f0ea002cc86a6400d27b01812a2d3136d51b1637fb9607",
+"url": "https://kyivindependent.com/estonia-to-close-border-with-russia-after-moscow-linked-sabotage-attempt-on-drone-maker",
+"published_at": "2026-11-15T20:13:19Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "81bff412ba3c9d91a63f625ae336b7c9affbe3f819dce8bb6fce7076471f53f3",
+"url": "https://belta.by/tech/view/elektricheskij-samolet-sovershil-pervyj-pilotiruemyj-polet-v-kitae-811005-2026",
+"published_at": "2026-11-15T20:32:39Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6b131188088da8bf0b5ea98b0e6b2eb1d25318484186bacc99c400dd05d8f4f3",
+"url": "https://ria.ru/20261115/moskva-2131736410.html",
+"published_at": "2026-11-15T20:52:25Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "0a0365940d397a25bb9ee79fff24c753521ef23436e408eb135b9ee5777d4732",
+"url": "https://ria.ru/20261115/pvo-2131734310.html",
+"published_at": "2026-11-15T20:24:58Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d1b20ce61c6fe01b2a54ccf5f85c182a8c9d4fefa75d3d6b2ade60f1c7ac4d17",
+"url": "https://ria.ru/20261115/mekka-2131733680.html",
+"published_at": "2026-11-15T20:05:47Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "20237a496063d150aebf50ed4f2cf665f462dc47394161f3f7a39804242140fb",
+"url": "https://esut.de/2026/11/meldungen/76830/patriot-rumaenien-luftverteidigung",
+"published_at": "2026-11-15T20:48:15Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "8217f85e8b699eb6c6f0642e0ebdc5a782d7e4b00df8318e8eee6d6c3d8a15a6",
+"url": "https://zona-militar.com/2026/11/15/la-marina-de-brasil-y-motorola-evaluaran-conformar-una-red-de-comunicaciones-entre-buques-y-vehiculos-no-tripulados",
+"published_at": "2026-11-15T20:00:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
 }
 ]
