@@ -790,6 +790,36 @@
 }
 },
 {
+"id": "rel_d2da7b7cc8061ce9",
+"from": "ent_7d6438c0636fce49",
+"to": "ent_0cf94809207eaa8c",
+"type": "должность",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/bae-picks-echodyne-radar-for-its-bats-drone-defence-system",
+"published_at": "2026-11-15T13:00:49Z",
+"quote": "” Eben Frankenberg, chief executive of Echodyne, said: “Every decision and every effect is only as good as the sensor data beneath it,” he said."
+},
+{
+"url": "https://defence-industry.eu/echodyne-says-bae-systems-has-integrated-echoshield-radar-into-its-bats-counter-drone-system",
+"published_at": "2026-11-11T20:22:40Z",
+"quote": "“Every decision and every effect is only as good as the sensor data beneath it,” said Eben Frankenberg, Echodyne’s chief executive."
+},
+{
+"url": "https://dronexl.co/2026/11/09/shield-ai-echodyne-5-3-billion-counter-drone-radar",
+"published_at": "2026-11-10T00:27:00Z",
+"quote": "CEO Eben Frankenberg will report directly to Shield AI CEO Gary Steele and keep responsibility for Echodyne’s products and its customers."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_78016c356543d94a",
 "from": "ent_3d66be6936f89f7f",
 "to": "ent_cd75b7acacf53304",
@@ -1450,22 +1480,22 @@
 }
 },
 {
-"id": "rel_d2da7b7cc8061ce9",
-"from": "ent_7d6438c0636fce49",
-"to": "ent_0cf94809207eaa8c",
+"id": "rel_96a6d691c9e648d9",
+"from": "ent_159fc1bf21c307ea",
+"to": "ent_e075b2ff37cd5b37",
 "type": "должность",
 "event_date": null,
 "evidence_count": 2,
 "evidence": [
 {
-"url": "https://defence-industry.eu/echodyne-says-bae-systems-has-integrated-echoshield-radar-into-its-bats-counter-drone-system",
-"published_at": "2026-11-11T20:22:40Z",
-"quote": "“Every decision and every effect is only as good as the sensor data beneath it,” said Eben Frankenberg, Echodyne’s chief executive."
+"url": "https://ukdefencejournal.org.uk/bae-picks-echodyne-radar-for-its-bats-drone-defence-system",
+"published_at": "2026-11-15T13:00:49Z",
+"quote": "Louise Heywood, head of strategy at BAE Systems Digital Intelligence and Land, said: “Drones are becoming increasingly capable, accessible and difficult to counter, creating new challenges for armed forces and critical infrastructure operat"
 },
 {
-"url": "https://dronexl.co/2026/11/09/shield-ai-echodyne-5-3-billion-counter-drone-radar",
-"published_at": "2026-11-10T00:27:00Z",
-"quote": "CEO Eben Frankenberg will report directly to Shield AI CEO Gary Steele and keep responsibility for Echodyne’s products and its customers."
+"url": "https://defence-industry.eu/echodyne-says-bae-systems-has-integrated-echoshield-radar-into-its-bats-counter-drone-system",
+"published_at": "2026-11-11T20:22:40Z",
+"quote": "“EchoShield contributes a precise, data-rich airspace picture,” said Louise Heywood, head of strategy for BAE Systems Digital Intelligence & Land."
 }
 ],
 "sentiment": {
@@ -3375,6 +3405,31 @@
 }
 },
 {
+"id": "rel_e3954abeb6713184",
+"from": "ent_d380c846b4a97fed",
+"to": "ent_82e26e90a014009e",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/15/kadena-welcomes-its-first-f-15ex-eagle-ii-fighters",
+"published_at": "2026-11-15T12:14:40Z",
+"quote": "Air Force F-15EX Eagle II fighters jets permanently stationed at Kadena Air Base , Japan, arrived at their new home on Nov."
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%81%d1%88%d0%b0-%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%81%d1%82%d0%b8%d0%bb%d0%b8-%d0%b2-%d1%8f%d0%bf%d0%be%d0%bd%d0%b8%d0%b8-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d0%b8-f-15ex",
+"published_at": "2026-11-15T10:21:45Z",
+"quote": "США РАЗМЕСТИЛИ В ЯПОНИИ ИСТРЕБИТЕЛИ F-15EX Модернизированные истребители F-15EX были размещены на базе американских ВВС Кадена на южном японском острове Окинава."
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_2c6cfd6630ff9d94",
 "from": "ent_c91088d26303c660",
 "to": "ent_28fea1c77915c37a",
@@ -3446,26 +3501,6 @@
 "url": "https://twz.com/news-features/plans-to-fly-talon-blue-cca-drone-from-british-carrier-confirmed-by-northrop-grumman",
 "published_at": "2026-11-11T20:30:40Z",
 "quote": "Plans To Fly Talon Blue CCA Drone From British Carrier Confirmed By Northrop Grumman"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_96a6d691c9e648d9",
-"from": "ent_159fc1bf21c307ea",
-"to": "ent_e075b2ff37cd5b37",
-"type": "должность",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://defence-industry.eu/echodyne-says-bae-systems-has-integrated-echoshield-radar-into-its-bats-counter-drone-system",
-"published_at": "2026-11-11T20:22:40Z",
-"quote": "“EchoShield contributes a precise, data-rich airspace picture,” said Louise Heywood, head of strategy for BAE Systems Digital Intelligence & Land."
 }
 ],
 "sentiment": {
@@ -17995,21 +18030,61 @@
 }
 },
 {
-"id": "rel_e3954abeb6713184",
-"from": "ent_d380c846b4a97fed",
-"to": "ent_82e26e90a014009e",
+"id": "rel_996d72d67f7c5fee",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_b677547c4bb180c5",
 "type": "дислокация",
 "event_date": null,
 "evidence_count": 1,
 "evidence": [
 {
-"url": "https://bastion-karpenko.ru/%d1%81%d1%88%d0%b0-%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%81%d1%82%d0%b8%d0%bb%d0%b8-%d0%b2-%d1%8f%d0%bf%d0%be%d0%bd%d0%b8%d0%b8-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d0%b8-f-15ex",
-"published_at": "2026-11-15T10:21:45Z",
-"quote": "США РАЗМЕСТИЛИ В ЯПОНИИ ИСТРЕБИТЕЛИ F-15EX Модернизированные истребители F-15EX были размещены на базе американских ВВС Кадена на южном японском острове Окинава."
+"url": "https://theaviationist.com/2026/11/15/kadena-welcomes-its-first-f-15ex-eagle-ii-fighters",
+"published_at": "2026-11-15T12:14:40Z",
+"quote": "The first permanently stationed U."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c26fc231823e061b",
+"from": "ent_82e26e90a014009e",
+"to": "ent_d380c846b4a97fed",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/15/kadena-welcomes-its-first-f-15ex-eagle-ii-fighters",
+"published_at": "2026-11-15T12:14:40Z",
+"quote": "Recently, Air Force Secretary Troy Meink said that the first F-15EXs would arrive in Japan in 2027, with a full complement delivered by 2028."
 }
 ],
 "sentiment": {
 "score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_732987ca3f190946",
+"from": "ent_a14014758edbb408",
+"to": "ent_5f6783ae9ec5d78b",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/new-surveillance-drone-lands-on-hms-queen-elizabeth",
+"published_at": "2026-11-15T11:34:05Z",
+"quote": "” The Ministry of Defence awarded TEKEVER the Project Corvus contract this summer to replace the Army’s Watchkeeper drones."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
 "score_pm2": 1,
 "label": "умеренно позитивный"
 }
