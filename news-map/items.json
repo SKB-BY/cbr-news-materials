@@ -156032,5 +156032,245 @@
 "subjectivity": 0.1,
 "risk_tags": []
 }
+},
+{
+"dedupe_hash": "a3ae449814e668b85811b701ac7f024a9d7480c4b1cb9c014991b51337b7c931",
+"url": "https://t.me/skyindustry/3467",
+"published_at": "2026-11-15T08:54:54Z",
+"event_date": "2026-11-14",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ee14d2e46e5654e19d04ea1e3c4c99d1b6d7b529b8135abde580b18eab78590d",
+"url": "https://t.me/operativnoZSU/226155",
+"published_at": "2026-11-15T08:08:09Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "a8335f054da69dc3e1c0a89939ccd687607adb138caac1e9e1f9b7cf2c5eeea4",
+"url": "https://t.me/operativnoZSU/226161",
+"published_at": "2026-11-15T09:05:40Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "94db48968c865067d5ae96afe03151ca577e21ce32079735fcc003cd060879ca",
+"url": "https://t.me/milinfolive/183200",
+"published_at": "2026-11-15T08:20:15Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "3798488796d24ff45e94f29a436acaf0130610a64bf14057c0d74cb6b65a1aa9",
+"url": "https://tass.ru/proisshestviya/28319069",
+"published_at": "2026-11-15T09:02:40Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "45a7b47a1906eafb6630822cbfb5aaabd873b62aec408efb1e83be1a79057c01",
+"url": "https://tass.ru/armiya-i-opk/28319045",
+"published_at": "2026-11-15T08:57:44Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "51da2322d9f0ce83b13100d506d838065c3b6b6b2738c3081836cbfe9fa162a9",
+"url": "https://tass.ru/obschestvo/28319009",
+"published_at": "2026-11-15T08:28:14Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ef9e2808b43a1867ead4ff7eee3179930b1215a97b87cdd4e8001fd2b492412b",
+"url": "https://tass.ru/armiya-i-opk/28318995",
+"published_at": "2026-11-15T08:19:25Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "47cf0c967748f8a9dfdf9ee15717cef33d5f5f658acbb3a0b604d49d2560008e",
+"url": "https://tass.ru/obschestvo/28318999",
+"published_at": "2026-11-15T08:11:53Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "16e02417705e370df5c5c6281ade908f6f24f07bdbd814945ec26b65b345b22c",
+"url": "https://armyinform.com.ua/2026/11/15/syly-oborony-uspishno-vrazyly-nyzku-ukryttiv-vorozhyh-ekipazhiv-bpla",
+"published_at": "2026-11-15T08:23:27Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ffdaa69aaa4f751481d88358e996c342a97256169a918af6e72a8a8c3e2e5004",
+"url": "https://ria.ru/20261115/pvo--2131662789.html",
+"published_at": "2026-11-15T09:00:04Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "973feead065263e3d59a921b7c75e1104978c1fa0de15eef99b2e4907929422b",
+"url": "https://ria.ru/20261115/taganrog-2131661596.html",
+"published_at": "2026-11-15T08:55:03Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
 }
 ]
