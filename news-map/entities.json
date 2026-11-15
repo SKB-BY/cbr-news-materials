@@ -13,9 +13,9 @@
 "рф"
 ],
 "country": "Россия",
-"items": 1550,
+"items": 1551,
 "first_seen": "2026-11-12T13:36:02Z",
-"last_seen": "2026-11-15T10:14:30Z"
+"last_seen": "2026-11-15T11:07:07Z"
 },
 {
 "id": "ent_b677547c4bb180c5",
@@ -36,9 +36,9 @@
 "американским"
 ],
 "country": "США",
-"items": 1013,
+"items": 1014,
 "first_seen": "2026-11-12T13:36:03Z",
-"last_seen": "2026-11-15T10:20:15Z"
+"last_seen": "2026-11-15T11:13:04Z"
 },
 {
 "id": "ent_76aae9f116d88191",
@@ -59,9 +59,9 @@
 "ВСУ"
 ],
 "country": "Украина",
-"items": 846,
+"items": 850,
 "first_seen": "2026-11-12T13:36:02Z",
-"last_seen": "2026-11-15T10:19:46Z"
+"last_seen": "2026-11-15T11:12:44Z"
 },
 {
 "id": "ent_7bc34647511f8698",
@@ -126,9 +126,9 @@
 "ЗСУ"
 ],
 "country": null,
-"items": 288,
+"items": 289,
 "first_seen": "2026-11-12T13:36:13Z",
-"last_seen": "2026-11-15T10:18:56Z"
+"last_seen": "2026-11-15T11:11:51Z"
 },
 {
 "id": "ent_382bc265ebab3a18",
@@ -149,9 +149,9 @@
 "Британские"
 ],
 "country": "Великобритания",
-"items": 219,
+"items": 220,
 "first_seen": "2026-11-12T13:36:02Z",
-"last_seen": "2026-11-15T10:19:23Z"
+"last_seen": "2026-11-15T11:12:44Z"
 },
 {
 "id": "ent_5ef06d4929a4484b",
@@ -692,6 +692,22 @@
 "last_seen": "2026-11-15T10:20:20Z"
 },
 {
+"id": "ent_82e26e90a014009e",
+"type": "локация",
+"name": "Япония",
+"aliases": [
+"Japan",
+"Japanese",
+"Японией",
+"Японии",
+"Япония"
+],
+"country": "Япония",
+"items": 60,
+"first_seen": "2026-11-12T13:36:06Z",
+"last_seen": "2026-11-15T11:13:04Z"
+},
+{
 "id": "ent_8a1fb18f6e513bb6",
 "type": "локация",
 "name": "Донбасс (ДНР / ЛНР)",
@@ -733,22 +749,6 @@
 "last_seen": "2026-11-15T08:24:46Z"
 },
 {
-"id": "ent_82e26e90a014009e",
-"type": "локация",
-"name": "Япония",
-"aliases": [
-"Japan",
-"Japanese",
-"Японией",
-"Японии",
-"Япония"
-],
-"country": "Япония",
-"items": 59,
-"first_seen": "2026-11-12T13:36:06Z",
-"last_seen": "2026-11-15T10:19:58Z"
-},
-{
 "id": "ent_cc536968c15118bb",
 "type": "компания",
 "name": "Lockheed Martin",
@@ -757,9 +757,9 @@
 "Lockheed Martin"
 ],
 "country": "США",
-"items": 57,
+"items": 58,
 "first_seen": "2026-11-12T13:36:14Z",
-"last_seen": "2026-11-15T10:20:34Z"
+"last_seen": "2026-11-15T11:12:44Z"
 },
 {
 "id": "ent_469aac1a6973d563",
@@ -831,9 +831,9 @@
 "Татарстані"
 ],
 "country": null,
-"items": 46,
+"items": 47,
 "first_seen": "2026-11-12T13:36:09Z",
-"last_seen": "2026-11-15T10:18:56Z"
+"last_seen": "2026-11-15T11:11:25Z"
 },
 {
 "id": "ent_b9e63951ba06e9db",
@@ -1056,6 +1056,19 @@
 "last_seen": "2026-11-15T08:25:00Z"
 },
 {
+"id": "ent_54a6fa8993794d9e",
+"type": "компания",
+"name": "Boeing Defense, Space & Security",
+"aliases": [
+"Boeing",
+"Boeing Defense, Space & Security"
+],
+"country": "США",
+"items": 31,
+"first_seen": "2026-11-12T13:36:45Z",
+"last_seen": "2026-11-15T11:13:22Z"
+},
+{
 "id": "ent_c4d02534cbe847ba",
 "type": "компания",
 "name": "SpaceX",
@@ -1080,19 +1093,6 @@
 "items": 30,
 "first_seen": "2026-11-12T13:36:28Z",
 "last_seen": "2026-11-15T08:25:34Z"
-},
-{
-"id": "ent_54a6fa8993794d9e",
-"type": "компания",
-"name": "Boeing Defense, Space & Security",
-"aliases": [
-"Boeing",
-"Boeing Defense, Space & Security"
-],
-"country": "США",
-"items": 30,
-"first_seen": "2026-11-12T13:36:45Z",
-"last_seen": "2026-11-15T10:20:34Z"
 },
 {
 "id": "ent_0a0009fc82d3fadc",
@@ -1312,9 +1312,9 @@
 "Thales"
 ],
 "country": "Франция",
-"items": 25,
+"items": 26,
 "first_seen": "2026-11-12T13:36:05Z",
-"last_seen": "2026-11-15T08:25:07Z"
+"last_seen": "2026-11-15T11:12:44Z"
 },
 {
 "id": "ent_ec85fb59920d1b72",
@@ -1429,6 +1429,21 @@
 "last_seen": "2026-11-15T08:25:40Z"
 },
 {
+"id": "ent_d380c846b4a97fed",
+"type": "изделие",
+"name": "F-15",
+"aliases": [
+"F-15",
+"F-150",
+"F-15E",
+"F-15EX"
+],
+"country": null,
+"items": 20,
+"first_seen": "2026-11-12T15:15:56Z",
+"last_seen": "2026-11-15T11:13:22Z"
+},
+{
 "id": "ent_e075b2ff37cd5b37",
 "type": "компания",
 "name": "BAE Systems",
@@ -1495,21 +1510,6 @@
 "items": 19,
 "first_seen": "2026-11-12T13:36:07Z",
 "last_seen": "2026-11-15T10:14:26Z"
-},
-{
-"id": "ent_d380c846b4a97fed",
-"type": "изделие",
-"name": "F-15",
-"aliases": [
-"F-15",
-"F-150",
-"F-15E",
-"F-15EX"
-],
-"country": null,
-"items": 18,
-"first_seen": "2026-11-12T15:15:56Z",
-"last_seen": "2026-11-15T10:19:16Z"
 },
 {
 "id": "ent_86a408b5b14fa5a6",
@@ -1621,6 +1621,18 @@
 "items": 16,
 "first_seen": "2026-11-12T13:36:22Z",
 "last_seen": "2026-11-15T08:25:01Z"
+},
+{
+"id": "ent_ea737724a72411d4",
+"type": "изделие",
+"name": "Starshield",
+"aliases": [
+"Starshield"
+],
+"country": null,
+"items": 16,
+"first_seen": "2026-11-12T13:36:58Z",
+"last_seen": "2026-11-15T11:11:28Z"
 },
 {
 "id": "ent_85a81afee9e48a7e",
@@ -1735,18 +1747,6 @@
 "last_seen": "2026-11-15T08:25:33Z"
 },
 {
-"id": "ent_ea737724a72411d4",
-"type": "изделие",
-"name": "Starshield",
-"aliases": [
-"Starshield"
-],
-"country": null,
-"items": 14,
-"first_seen": "2026-11-12T13:36:58Z",
-"last_seen": "2026-11-15T10:18:20Z"
-},
-{
 "id": "ent_0dd93c1cbb5c85fa",
 "type": "изделие",
 "name": "THAAD",
@@ -1769,6 +1769,32 @@
 "items": 14,
 "first_seen": "2026-11-12T13:36:29Z",
 "last_seen": "2026-11-15T10:19:24Z"
+},
+{
+"id": "ent_286ac1a705054b05",
+"type": "компания",
+"name": "RTX (Raytheon)",
+"aliases": [
+"Raytheon",
+"RTX",
+"RTX (Raytheon)"
+],
+"country": "США",
+"items": 14,
+"first_seen": "2026-11-12T13:36:08Z",
+"last_seen": "2026-11-15T11:12:44Z"
+},
+{
+"id": "ent_78f1ace85264a541",
+"type": "компания",
+"name": "Saab",
+"aliases": [
+"Saab"
+],
+"country": "Швеция",
+"items": 14,
+"first_seen": "2026-11-12T13:36:05Z",
+"last_seen": "2026-11-15T11:12:44Z"
 },
 {
 "id": "ent_63d8d9b08e5add2f",
@@ -1829,32 +1855,6 @@
 "items": 13,
 "first_seen": "2026-11-15T08:23:38Z",
 "last_seen": "2026-11-15T08:25:46Z"
-},
-{
-"id": "ent_286ac1a705054b05",
-"type": "компания",
-"name": "RTX (Raytheon)",
-"aliases": [
-"Raytheon",
-"RTX",
-"RTX (Raytheon)"
-],
-"country": "США",
-"items": 13,
-"first_seen": "2026-11-12T13:36:08Z",
-"last_seen": "2026-11-15T08:25:33Z"
-},
-{
-"id": "ent_78f1ace85264a541",
-"type": "компания",
-"name": "Saab",
-"aliases": [
-"Saab"
-],
-"country": "Швеция",
-"items": 13,
-"first_seen": "2026-11-12T13:36:05Z",
-"last_seen": "2026-11-15T08:22:43Z"
 },
 {
 "id": "ent_e5f0d2210c15f13c",
@@ -2978,6 +2978,21 @@
 "last_seen": "2026-11-15T08:25:12Z"
 },
 {
+"id": "ent_11c649f419e82a9f",
+"type": "изделие",
+"name": "FGM-148 Javelin",
+"aliases": [
+"FGM-148 Javelin",
+"Javelin",
+"Джавелин",
+"Джавелинами"
+],
+"country": null,
+"items": 6,
+"first_seen": "2026-11-15T08:19:30Z",
+"last_seen": "2026-11-15T11:12:44Z"
+},
+{
 "id": "ent_2ea283e971c4fe16",
 "type": "изделие",
 "name": "IRIS-T",
@@ -3315,21 +3330,6 @@
 "last_seen": "2026-11-15T08:25:24Z"
 },
 {
-"id": "ent_11c649f419e82a9f",
-"type": "изделие",
-"name": "FGM-148 Javelin",
-"aliases": [
-"FGM-148 Javelin",
-"Javelin",
-"Джавелин",
-"Джавелинами"
-],
-"country": null,
-"items": 5,
-"first_seen": "2026-11-15T08:19:30Z",
-"last_seen": "2026-11-15T08:23:25Z"
-},
-{
 "id": "ent_a4d2f9a620f1ea2a",
 "type": "изделие",
 "name": "Fimi X8",
@@ -3614,6 +3614,18 @@
 "items": 5,
 "first_seen": "2026-11-15T08:19:52Z",
 "last_seen": "2026-11-15T08:25:09Z"
+},
+{
+"id": "ent_fb9d115f2c2a9a7b",
+"type": "компания",
+"name": "UK Defence",
+"aliases": [
+"UK Defence"
+],
+"country": null,
+"items": 5,
+"first_seen": "2026-11-12T15:16:22Z",
+"last_seen": "2026-11-15T11:12:44Z"
 },
 {
 "id": "ent_04d71f41a48f5517",
@@ -4147,18 +4159,6 @@
 "items": 4,
 "first_seen": "2026-11-12T15:17:17Z",
 "last_seen": "2026-11-15T08:25:32Z"
-},
-{
-"id": "ent_fb9d115f2c2a9a7b",
-"type": "компания",
-"name": "UK Defence",
-"aliases": [
-"UK Defence"
-],
-"country": null,
-"items": 4,
-"first_seen": "2026-11-12T15:16:22Z",
-"last_seen": "2026-11-15T08:19:34Z"
 },
 {
 "id": "ent_82ae1115c186c663",
@@ -14577,6 +14577,18 @@
 "last_seen": "2026-11-13T17:26:33Z"
 },
 {
+"id": "ent_91c36975c910bd9d",
+"type": "изделие",
+"name": "NLAW",
+"aliases": [
+"NLAW"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-15T11:12:44Z",
+"last_seen": "2026-11-15T11:12:44Z"
+},
+{
 "id": "ent_184c9a82c997056d",
 "type": "изделие",
 "name": "North American B-25",
@@ -14947,6 +14959,18 @@
 "items": 1,
 "first_seen": "2026-11-15T08:25:40Z",
 "last_seen": "2026-11-15T08:25:40Z"
+},
+{
+"id": "ent_65e8a43fce6e4fc0",
+"type": "изделие",
+"name": "Pierwsze F-15EX",
+"aliases": [
+"Pierwsze F-15EX"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-15T11:13:22Z",
+"last_seen": "2026-11-15T11:13:22Z"
 },
 {
 "id": "ent_ebbdfd3dbbd69512",

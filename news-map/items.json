@@ -157707,5 +157707,243 @@
 "subjectivity": 0.1,
 "risk_tags": []
 }
+},
+{
+"dedupe_hash": "93aa943d9d79a59850e905b169022e8d2cdc0aff8c6458c1709af7b974c59a50",
+"url": "https://t.me/operativnoZSU/226167",
+"published_at": "2026-11-15T10:48:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "34e97a08fd760375d27ac08a7ef11747f4e56f2b2592e1cb190597b75f1a45df",
+"url": "https://t.me/milinfolive/183204",
+"published_at": "2026-11-15T10:39:05Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "15936f969b3d023c4c3245fc3e0a2594094a0b7dc719493846acb4c7b38e44a3",
+"url": "https://aljazeera.com/features/2026/11/15/drone-strikes-on-power-stations-plunges-sudans-cities-into-darkness?traffic_source=rss",
+"published_at": "2026-11-15T09:59:37Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "21ff83edd886e0d086cafe4a36a86855ca4f6bc63f48b1a77150b1ecfcc7460d",
+"url": "https://tass.ru/proisshestviya/28319187",
+"published_at": "2026-11-15T11:03:29Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ae58fd9dfc5e21d9bb592d0ccea66050fb655a2f9a2d753d99b6e83668e25374",
+"url": "https://tass.ru/obschestvo/28319181",
+"published_at": "2026-11-15T10:54:12Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "артиллерийские системы",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "f6514bc5d0aba462d4d77487eee32cc2dcd51551087c5b72185438075bc42d86",
+"url": "https://armyinform.com.ua/2026/11/15/%c2%abperehoplyuvachi-vtrachayut-zv%e2%80%99yazok%c2%bb-obmezhennya-starshield-poznachylys-na-zahysti-energetyky-%e2%80%94-prezydent",
+"published_at": "2026-11-15T10:59:51Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "средства связи и коммуникаций",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "f04fd8e83f44605b83df89b200d0b8801c5041a5b5f81f8e2797f95163f2abed",
+"url": "https://ria.ru/20261115/nizhnekamsk-2131680185.html",
+"published_at": "2026-11-15T11:10:13Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "37627ad809c3bc19f0808d261a1f79cc21498dbaf3f9c2a5194f21ba93069de5",
+"url": "https://ria.ru/20261115/volgograd-2131679522.html",
+"published_at": "2026-11-15T11:05:28Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": [
+"Legal"
+]
+}
+},
+{
+"dedupe_hash": "a6fba63cb05b695ca00daff4e629857d08d68596d472aecdbcfb188371d27e05",
+"url": "https://ria.ru/20261115/melitopol-2131679015.html",
+"published_at": "2026-11-15T11:01:20Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b9435879df643791f42543a1749770e382e99615f1853f71ef4880d2b7acbf7b",
+"url": "https://ukdefencejournal.org.uk/british-troops-fire-off-javelin-missiles",
+"published_at": "2026-11-15T10:24:34Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "вооружение",
+"subfilter": "тяжелое"
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "24c845f4ee2b6ee6978a83d52917a196d54f55e369d2110323a4e21761a03585",
+"url": "https://bastion-karpenko.ru/%d1%81%d1%88%d0%b0-%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%81%d1%82%d0%b8%d0%bb%d0%b8-%d0%b2-%d1%8f%d0%bf%d0%be%d0%bd%d0%b8%d0%b8-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d0%b8-f-15ex",
+"published_at": "2026-11-15T10:21:45Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "5fd62a323344288dbd8c4d1eb7addb66047c7c2feb2cbcd4159392b6e45a51ec",
+"url": "https://zbiam.pl/pierwsze-f-15ex-eagle-ii-dostarczone-do-bazy-kadena-w-japonii",
+"published_at": "2026-11-15T11:00:37Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
 }
 ]

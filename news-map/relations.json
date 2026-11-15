@@ -45,8 +45,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "поставка",
 "event_date": null,
-"evidence_count": 27,
+"evidence_count": 28,
 "evidence": [
+{
+"url": "https://ria.ru/20261115/melitopol-2131679015.html",
+"published_at": "2026-11-15T11:01:20Z",
+"quote": "В Мелитополе жилые дома получили повреждения при атаке БПЛА ВСУ"
+},
 {
 "url": "https://defence-ua.com/army_and_war/italija_peredala_zsu_kolisni_tanki_b1_centauro_a_teper_stavit_mangali_proti_droniv_na_ti_mashini_jaki_lishilisja-24742.html",
 "published_at": "2026-11-14T06:43:34Z",
@@ -66,11 +71,6 @@
 "url": "https://t.me/uav_tech/37239",
 "published_at": "2026-09-30T11:03:13Z",
 "quote": "❗️ВСУ ставят сеткометы на роботов против FPV-дронов Наземные роботы ВСУ получили курсовые сеткометы против российских FPV-дронов."
-},
-{
-"url": "https://t.me/news_UAV/5758",
-"published_at": "2026-09-25T04:18:21Z",
-"quote": "ВСУ нанесли удар по промышленной и гражданской инфраструктуре Ульяновска При массированной атаке БПЛА на Ульяновск повреждения получили объекты промышленной и гражданской инфраструктуры, есть пострадавшие, сообщил губернатор Ульяновской обл"
 }
 ],
 "sentiment": {
@@ -17892,6 +17892,126 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_7987f08d4968cb7a",
+"from": "ent_9fd39938cc6ffa53",
+"to": "ent_91c36975c910bd9d",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/british-troops-fire-off-javelin-missiles",
+"published_at": "2026-11-15T10:24:34Z",
+"quote": "NLAW, produced by Saab with Thales in Belfast, is a lighter shorter-range weapon that uses predicted line of sight guidance and can overfly a target and detonate its warhead downwards."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_0b5c881f91edb156",
+"from": "ent_78f1ace85264a541",
+"to": "ent_91c36975c910bd9d",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/british-troops-fire-off-javelin-missiles",
+"published_at": "2026-11-15T10:24:34Z",
+"quote": "NLAW, produced by Saab with Thales in Belfast, is a lighter shorter-range weapon that uses predicted line of sight guidance and can overfly a target and detonate its warhead downwards."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e37d120df20a451b",
+"from": "ent_fb9d115f2c2a9a7b",
+"to": "ent_11c649f419e82a9f",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/british-troops-fire-off-javelin-missiles",
+"published_at": "2026-11-15T10:24:34Z",
+"quote": "The UK Defence Journal reported when the US State Department cleared Britain to buy 600 Javelin missiles , and when the government ordered thousands more NLAW anti-tank weapons ."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_4e0cfb3714306074",
+"from": "ent_fb9d115f2c2a9a7b",
+"to": "ent_91c36975c910bd9d",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/british-troops-fire-off-javelin-missiles",
+"published_at": "2026-11-15T10:24:34Z",
+"quote": "The UK Defence Journal reported when the US State Department cleared Britain to buy 600 Javelin missiles , and when the government ordered thousands more NLAW anti-tank weapons ."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_fce9fd8c9766495a",
+"from": "ent_d380c846b4a97fed",
+"to": "ent_b677547c4bb180c5",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d1%81%d1%88%d0%b0-%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%81%d1%82%d0%b8%d0%bb%d0%b8-%d0%b2-%d1%8f%d0%bf%d0%be%d0%bd%d0%b8%d0%b8-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d0%b8-f-15ex",
+"published_at": "2026-11-15T10:21:45Z",
+"quote": "США РАЗМЕСТИЛИ В ЯПОНИИ ИСТРЕБИТЕЛИ F-15EX Модернизированные истребители F-15EX были размещены на базе американских ВВС Кадена на южном японском острове Окинава."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_e3954abeb6713184",
+"from": "ent_d380c846b4a97fed",
+"to": "ent_82e26e90a014009e",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d1%81%d1%88%d0%b0-%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%81%d1%82%d0%b8%d0%bb%d0%b8-%d0%b2-%d1%8f%d0%bf%d0%be%d0%bd%d0%b8%d0%b8-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d0%b8-f-15ex",
+"published_at": "2026-11-15T10:21:45Z",
+"quote": "США РАЗМЕСТИЛИ В ЯПОНИИ ИСТРЕБИТЕЛИ F-15EX Модернизированные истребители F-15EX были размещены на базе американских ВВС Кадена на южном японском острове Окинава."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
 }
 }
 ]
