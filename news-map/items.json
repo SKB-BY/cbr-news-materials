@@ -159719,5 +159719,285 @@
 "subjectivity": 0.1,
 "risk_tags": []
 }
+},
+{
+"dedupe_hash": "06fe96ff3062280e82da4e43e90c4d6c3ea1fa1961dcec426a9b868f2220782d",
+"url": "https://dronexl.co/2026/11/15/amazon-baton-rouge-drone-routes-changed-30-an-hour",
+"published_at": "2026-11-15T22:22:00Z",
+"event_date": "2026-10-01",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "97555dfc1cce9cc4c19e14e43cc4dcec15f9a9ce270f88e5e0f94ee9d570c962",
+"url": "https://vpk.name/news/1172005_ispolzuyut_dannye_ot_ssha_kak_ukraina_gotovila_zvezdnyi_nalet_dronov_na_rossiyu.html",
+"published_at": "2026-11-15T21:00:01Z",
+"event_date": "2026-11-13",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "59719bd95c284087670b6cce664b9f0cf7b5d46327f0bd6d1d68bc1f0597b87e",
+"url": "https://vpk.name/news/1172011_axios_uznal_o_provale_100_missii_vsu_iz-za_voennoi_versii_starlink.html",
+"published_at": "2026-11-15T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "средства связи и коммуникаций",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "9c842e4ced56ef9519519fd6170618e2462c07a14e4d4039a59279e38c2a8c4d",
+"url": "https://vpk.name/news/1171722_amerikanskie_poslanniki_pribyli_v_moskvu_a_ukraina_pozhalovalas_na_novye_ogranicheniya_v_rabote_starlink_financial_times_velikobritaniya.html",
+"published_at": "2026-11-15T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "средства связи и коммуникаций",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ff574826555245ff1dc9b03317eccb747cd43a6fce2f56ccfa842b468d087b00",
+"url": "https://vpk.name/news/1171715_krylatye_rakety_dan-t_mogut_stat_udarnym_oruzhiem_yak-130_i_su-25m3.html",
+"published_at": "2026-11-15T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "a05d0b28229d7c8294b15e5963dc812f866fde641076823411369c4e4b6b8a92",
+"url": "https://vpk.name/news/1171824_v_knr_pokazali_dorabotannyi_tank_vt-4_s_pushkoi_i_radarom_dlya_zashity_ot_bpla.html",
+"published_at": "2026-11-15T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "бронетехника",
+"subfilter": "танки"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ca39fe7e3f9bdeb1098b3404cda280efd41b5f017909fdfd8c219e941ed6f295",
+"url": "https://vpk.name/news/1171990_novyi_gibridnyi_dvigatel_uvelichil_vremya_poleta_dronov_v_dva_raza.html",
+"published_at": "2026-11-15T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6eacb207c69d708730ddfddd6e049776a32641a1b627ab52521361a9725bb2af",
+"url": "https://vpk.name/news/1171634_novye_rossiiskie_elektrodvigateli_pozvolyat_bespilotnikam_letat_dolshe_i_dalshe.html",
+"published_at": "2026-11-15T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": [
+"Financial"
+]
+}
+},
+{
+"dedupe_hash": "41119d0317b51365d227b4bbd1eb43d1bed0131d25d848cdcd12d0bbf6a85b67",
+"url": "https://tass.ru/ekonomika/28319827",
+"published_at": "2026-11-15T22:37:14Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "475c6b15b555f01e205a62d9775e1004b793200ce7d63a71dd466a4a450b4e9d",
+"url": "https://tass.ru/proisshestviya/28319725",
+"published_at": "2026-11-15T21:00:50Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "55b70ebc4bc7a53286aa65a964fffc39d6b7f32ba1ed630360c3c29587aca341",
+"url": "https://ria.ru/20261116/trevoga-2131740737.html",
+"published_at": "2026-11-15T21:58:58Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "60a4ae91e63aec53f3606c30d1f351fa5539893819613d8fb7320354259caac9",
+"url": "https://zona-militar.com/2026/11/15/una-capacidad-no-se-prende-como-una-luz-el-f-16-el-mirilado-y-los-asesores-que-discuten-la-defensa-sin-mirar-el-material-ni-al-soldado",
+"published_at": "2026-11-15T21:41:18Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "cd95ad2f5d39002429662096908a201d911de464ab80dd0901499acf182e40ad",
+"url": "https://ria.ru/20261116/moskva-2131743610.html",
+"published_at": "2026-11-15T22:58:57Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "90e09c6ba8de5d0652b76564f5dbf6824a68be7d83db11dc35cca49829cf13ad",
+"url": "https://tass.ru/proisshestviya/28319849",
+"published_at": "2026-11-15T22:58:29Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
 }
 ]
