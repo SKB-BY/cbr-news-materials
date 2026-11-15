@@ -360,6 +360,46 @@
 }
 },
 {
+"id": "rel_94a004dd432484e5",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 5,
+"evidence": [
+{
+"url": "https://kyivindependent.com/ukraine-war-latest-russia-launches-mass-attack-on-odesa-oblast-as-ukraine-strikes-airfield-drone-launch-site-in-russia",
+"published_at": "2026-11-15T18:02:19Z",
+"quote": "14-15 Ukraine strikes Russian military airfield in Astrakhan Oblast, drone launch site in Oryol Oblast, General Staff says Russia launches 'mass attack' on Odesa Oblast as strikes kill 4, injure 69 across Ukraine over past day US floats NAT"
+},
+{
+"url": "https://t.me/uav_tech/37265",
+"published_at": "2026-10-07T05:56:24Z",
+"quote": "Поэтому России придется учитывать уже не отдельные поставки дронов странам НАТО, а формирование целостной системы, где спутник, а формирование целостной системы, где спутник, радар, БПЛА, оператор, ИИ и ударное средство становятся элементам"
+},
+{
+"url": "https://c4isrnet.com/unmanned/2026/09/15/italian-nato-jet-downs-drone-in-lithuania-minister-says-it-probably-came-from-russia",
+"published_at": "2026-09-15T15:35:13Z",
+"quote": "SIAULIAI AIR BASE, Lithuania — An Italian NATO fighter jet shot down a drone in Lithuanian airspace on Tuesday that “most probably” came from Russia, Italian Defense Minister Guido Crosetto said."
+},
+{
+"url": "https://t.me/uav_tech/36831",
+"published_at": "2026-08-07T05:44:44Z",
+"quote": "Российская средиземноморская группировка не могла соперничать с силами НАТО в большой морской войне, но позволяла вести разведку, демонстрировать флаг, сопровождать грузы, наносить удары крылатыми ракетами и поддерживать операции в Сирии и "
+},
+{
+"url": "https://t.me/uav_tech/36128",
+"published_at": "2026-05-07T20:13:56Z",
+"quote": "Еще в 2024 Президент России так и сказал: «Разрешение Киеву на нанесение ударов западным оружием вглубь России будет означать, что ЕС, НАТО и США вступили в войну с РФ»."
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_dd7568b1f61ec32f",
 "from": "ent_f7a9f659b73e4140",
 "to": "ent_28fea1c77915c37a",
@@ -512,41 +552,6 @@
 "score_pm1": -0.1,
 "score_pm2": 0,
 "label": "нейтральный"
-}
-},
-{
-"id": "rel_94a004dd432484e5",
-"from": "ent_cd3c86a3a1af0b40",
-"to": "ent_28fea1c77915c37a",
-"type": "применение",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://t.me/uav_tech/37265",
-"published_at": "2026-10-07T05:56:24Z",
-"quote": "Поэтому России придется учитывать уже не отдельные поставки дронов странам НАТО, а формирование целостной системы, где спутник, а формирование целостной системы, где спутник, радар, БПЛА, оператор, ИИ и ударное средство становятся элементам"
-},
-{
-"url": "https://c4isrnet.com/unmanned/2026/09/15/italian-nato-jet-downs-drone-in-lithuania-minister-says-it-probably-came-from-russia",
-"published_at": "2026-09-15T15:35:13Z",
-"quote": "SIAULIAI AIR BASE, Lithuania — An Italian NATO fighter jet shot down a drone in Lithuanian airspace on Tuesday that “most probably” came from Russia, Italian Defense Minister Guido Crosetto said."
-},
-{
-"url": "https://t.me/uav_tech/36831",
-"published_at": "2026-08-07T05:44:44Z",
-"quote": "Российская средиземноморская группировка не могла соперничать с силами НАТО в большой морской войне, но позволяла вести разведку, демонстрировать флаг, сопровождать грузы, наносить удары крылатыми ракетами и поддерживать операции в Сирии и "
-},
-{
-"url": "https://t.me/uav_tech/36128",
-"published_at": "2026-05-07T20:13:56Z",
-"quote": "Еще в 2024 Президент России так и сказал: «Разрешение Киеву на нанесение ударов западным оружием вглубь России будет означать, что ЕС, НАТО и США вступили в войну с РФ»."
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
 }
 },
 {
@@ -1665,6 +1670,31 @@
 }
 },
 {
+"id": "rel_4e599c1a189813fc",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://kyivindependent.com/ukraine-war-latest-russia-launches-mass-attack-on-odesa-oblast-as-ukraine-strikes-airfield-drone-launch-site-in-russia",
+"published_at": "2026-11-15T18:02:19Z",
+"quote": "14-15 Ukraine strikes Russian military airfield in Astrakhan Oblast, drone launch site in Oryol Oblast, General Staff says Russia launches 'mass attack' on Odesa Oblast as strikes kill 4, injure 69 across Ukraine over past day US floats NAT"
+},
+{
+"url": "https://t.me/zadrony/2058",
+"published_at": "2026-11-06T13:23:32Z",
+"quote": "По данным НАТО, отобранные системы уже применялись в странах альянса и на Украине."
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_4e18757df2a44729",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_e66a2be7fe38d473",
@@ -2387,6 +2417,31 @@
 "score_pm1": 0.1,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_afc92f07bb1669b7",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_ff878af017a8077e",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d0%ba%d0%be%d0%bd%d1%82%d1%80%d0%b0%d0%ba%d1%82-%d0%ba%d0%be%d0%bc%d0%bf%d0%b0%d0%bd%d0%b8%d0%b8-northrop-grumman-%d0%bd%d0%b0-%d1%80%d0%bb%d1%81-%d0%b4%d0%bb%d1%8f-%d0%b8%d1%81%d1%82%d1%80%d0%b5",
+"published_at": "2026-11-15T17:28:43Z",
+"quote": "КОНТРАКТ КОМПАНИИ NORTHROP GRUMMAN НА РЛС ДЛЯ ИСТРЕБИТЕЛЯ F-16 ПРЕВЫСИЛ 2 МИЛЛИАРДА ДОЛЛАРОВ"
+},
+{
+"url": "https://defence-blog.com/f-16-radar-upgrade-contract-passes-2-billion-with-new-northrop-award",
+"published_at": "2026-11-14T08:56:22Z",
+"quote": "F-16 radar upgrade contract passes $2 billion with new Northrop award"
+}
+],
+"sentiment": {
+"score_pm1": 0.4,
+"score_pm2": 1,
+"label": "умеренно позитивный"
 }
 },
 {
@@ -4677,26 +4732,6 @@
 "score_pm1": -0.5,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_4e599c1a189813fc",
-"from": "ent_cd3c86a3a1af0b40",
-"to": "ent_76aae9f116d88191",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://t.me/zadrony/2058",
-"published_at": "2026-11-06T13:23:32Z",
-"quote": "По данным НАТО, отобранные системы уже применялись в странах альянса и на Украине."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -8797,26 +8832,6 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
-}
-},
-{
-"id": "rel_afc92f07bb1669b7",
-"from": "ent_868a15ba4aeb446a",
-"to": "ent_ff878af017a8077e",
-"type": "контракт",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://defence-blog.com/f-16-radar-upgrade-contract-passes-2-billion-with-new-northrop-award",
-"published_at": "2026-11-14T08:56:22Z",
-"quote": "F-16 radar upgrade contract passes $2 billion with new Northrop award"
-}
-],
-"sentiment": {
-"score_pm1": 0.5,
-"score_pm2": 1,
-"label": "умеренно позитивный"
 }
 },
 {
@@ -18197,6 +18212,86 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_b5b30f6d5b9b6219",
+"from": "ent_530c873d863a1075",
+"to": "ent_811de8cf3998eec5",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/aselsan-says-its-ejderha-counter-drone-system-used-electromagnetic-waves-to-neutralise-a-swarm-of-51-drones-within-seconds",
+"published_at": "2026-11-15T18:37:21Z",
+"quote": "“Aselsan’s EJDERHA has become the world’s first system to successfully neutralize 51 drones with a single push of a button, without firing a missile or using any ammunition,” said Ahmet Akyol, Aselsan’s president and chief executive."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_73790a6a1fad4a10",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_eb8cb296fc293dc4",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://kyivindependent.com/ukraine-war-latest-russia-launches-mass-attack-on-odesa-oblast-as-ukraine-strikes-airfield-drone-launch-site-in-russia",
+"published_at": "2026-11-15T18:02:19Z",
+"quote": "14-15 Ukraine strikes Russian military airfield in Astrakhan Oblast, drone launch site in Oryol Oblast, General Staff says Russia launches 'mass attack' on Odesa Oblast as strikes kill 4, injure 69 across Ukraine over past day US floats NAT"
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_27887aa6039fe7ab",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_7902a5283b8ea891",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d0%ba%d0%be%d0%bd%d1%82%d1%80%d0%b0%d0%ba%d1%82-%d0%ba%d0%be%d0%bc%d0%bf%d0%b0%d0%bd%d0%b8%d0%b8-northrop-grumman-%d0%bd%d0%b0-%d1%80%d0%bb%d1%81-%d0%b4%d0%bb%d1%8f-%d0%b8%d1%81%d1%82%d1%80%d0%b5",
+"published_at": "2026-11-15T17:28:43Z",
+"quote": "КОНТРАКТ КОМПАНИИ NORTHROP GRUMMAN НА РЛС ДЛЯ ИСТРЕБИТЕЛЯ F-16 ПРЕВЫСИЛ 2 МИЛЛИАРДА ДОЛЛАРОВ КОНТРАКТ КОМПАНИИ NORTHROP GRUMMAN НА РЛС ДЛЯ ИСТРЕБИТЕЛЯ F-16 ПРЕВЫСИЛ 2 МИЛЛИАРДА ДОЛЛАРОВ Компания Northrop Grumman получила от ВВС США контракт"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_a275c05e8501724d",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_ff878af017a8077e",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d0%ba%d0%be%d0%bd%d1%82%d1%80%d0%b0%d0%ba%d1%82-%d0%ba%d0%be%d0%bc%d0%bf%d0%b0%d0%bd%d0%b8%d0%b8-northrop-grumman-%d0%bd%d0%b0-%d1%80%d0%bb%d1%81-%d0%b4%d0%bb%d1%8f-%d0%b8%d1%81%d1%82%d1%80%d0%b5",
+"published_at": "2026-11-15T17:28:43Z",
+"quote": "КОНТРАКТ КОМПАНИИ NORTHROP GRUMMAN НА РЛС ДЛЯ ИСТРЕБИТЕЛЯ F-16 ПРЕВЫСИЛ 2 МИЛЛИАРДА ДОЛЛАРОВ КОНТРАКТ КОМПАНИИ NORTHROP GRUMMAN НА РЛС ДЛЯ ИСТРЕБИТЕЛЯ F-16 ПРЕВЫСИЛ 2 МИЛЛИАРДА ДОЛЛАРОВ Компания Northrop Grumman получила от ВВС США контракт"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
 }
 }
 ]
