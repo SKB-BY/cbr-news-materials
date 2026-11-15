@@ -5,12 +5,22 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 92,
+"evidence_count": 95,
 "evidence": [
+{
+"url": "https://t.me/mod_russia/69030",
+"published_at": "2026-11-15T09:05:14Z",
+"quote": "✈️ Оперативно-тактической авиацией, ударными БПЛА, ракетными войсками и артиллерией группировок войск ВС РФ нанесено поражение военным аэродромам, объектам энергетической, транспортной инфраструктуры, используемым в интересах ВСУ, цехам про"
+},
 {
 "url": "https://ria.ru/20261115/pvo--2131662789.html",
 "published_at": "2026-11-15T09:00:04Z",
 "quote": "Силы ПВО сбили 1065 беспилотников ВСУ за сутки"
+},
+{
+"url": "https://t.me/mod_russia/69025",
+"published_at": "2026-11-15T05:42:06Z",
+"quote": "🔥 Кроме того, поражены два железнодорожных локомотива в районе ж/д станции Днепропетровск, используемых в интересах перевозки грузов, предназначенных для обеспечения ВСУ."
 },
 {
 "url": "https://tass.ru/armiya-i-opk/28318733",
@@ -21,16 +31,6 @@
 "url": "https://tass.ru/armiya-i-opk/28318669",
 "published_at": "2026-11-15T03:31:16Z",
 "quote": "Комроты Кот: ВС РФ за неделю уничтожили 10 НРТК ВСУ на сумском направлении"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28318167",
-"published_at": "2026-11-14T15:39:54Z",
-"quote": "Расчеты \"Рубикона\" сбили тараном тяжелые беспилотники ВСУ"
-},
-{
-"url": "https://t.me/uav_tech/37518",
-"published_at": "2026-11-14T11:06:03Z",
-"quote": "Наибольшая угроза для ВСУ возникает не по причине появления спутниковой связи у отдельных «Гераней», а благодаря  объединению спутниковой связи, данных от разведывательных БПЛА и ударных беспилотников в единую информационную систему."
 }
 ],
 "sentiment": {
@@ -85,7 +85,7 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 25,
+"evidence_count": 26,
 "evidence": [
 {
 "url": "https://tass.ru/armiya-i-opk/28318733",
@@ -98,6 +98,11 @@
 "quote": "Комроты Кот: ВС РФ за неделю уничтожили 10 НРТК ВСУ на сумском направлении"
 },
 {
+"url": "https://t.me/mod_russia/69016",
+"published_at": "2026-11-14T15:58:35Z",
+"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по объектам портовой инфраструктуры и морским судам, задействованным в интересах ВСУ."
+},
+{
 "url": "https://tass.ru/armiya-i-opk/28317695",
 "published_at": "2026-11-14T08:55:16Z",
 "quote": "Силы ПВО РФ сбили за сутки 231 беспилотник ВСУ"
@@ -106,11 +111,6 @@
 "url": "https://tass.ru/armiya-i-opk/28317513",
 "published_at": "2026-11-14T07:02:38Z",
 "quote": "ВС РФ уничтожили восемь пунктов управления беспилотной авиацией ВСУ"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28317261",
-"published_at": "2026-11-14T03:01:50Z",
-"quote": "Силы ПВО \"Севера\" уничтожили 426 летевших к России дронов ВСУ"
 }
 ],
 "sentiment": {
@@ -125,8 +125,18 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 12,
+"evidence_count": 17,
 "evidence": [
+{
+"url": "https://t.me/mod_russia/69030",
+"published_at": "2026-11-15T09:05:14Z",
+"quote": "✈️ Оперативно-тактической авиацией, ударными БПЛА, ракетными войсками и артиллерией группировок войск ВС РФ нанесено поражение военным аэродромам, объектам энергетической, транспортной инфраструкту..."
+},
+{
+"url": "https://t.me/mod_russia/69025",
+"published_at": "2026-11-15T05:42:06Z",
+"quote": "❗️ Сегодня ночью Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам энергетики, портовой и железнодорожной инфраструктуры, а также..."
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28318733",
 "published_at": "2026-11-15T04:32:10Z",
@@ -138,19 +148,49 @@
 "quote": "Комроты Кот: ВС РФ за неделю уничтожили 10 НРТК ВСУ на сумском направлении"
 },
 {
+"url": "https://t.me/mod_russia/69016",
+"published_at": "2026-11-14T15:58:35Z",
+"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по объектам портовой инфраструктуры и морским судам, задействованным в интересах ВСУ."
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_e404a30999dd5344",
+"from": "ent_e66a2be7fe38d473",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 9,
+"evidence": [
+{
+"url": "https://t.me/mod_russia/69030",
+"published_at": "2026-11-15T09:05:14Z",
+"quote": "✈️ Оперативно-тактической авиацией, ударными БПЛА, ракетными войсками и артиллерией группировок войск ВС РФ нанесено поражение военным аэродромам, объектам энергетической, транспортной инфраструктуры, используемым в интересах ВСУ, цехам про"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28318733",
+"published_at": "2026-11-15T04:32:10Z",
+"quote": "Комвзвода Степ: ВС РФ поразили пункт управления БПЛА ВСУ на сумском направлении"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28318669",
+"published_at": "2026-11-15T03:31:16Z",
+"quote": "Комроты Кот: ВС РФ за неделю уничтожили 10 НРТК ВСУ на сумском направлении"
+},
+{
+"url": "https://t.me/mod_russia/69016",
+"published_at": "2026-11-14T15:58:35Z",
+"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по объектам портовой инфраструктуры и морским судам, задействованным в интересах ВСУ."
+},
+{
 "url": "https://tass.ru/armiya-i-opk/28317513",
 "published_at": "2026-11-14T07:02:38Z",
 "quote": "ВС РФ уничтожили восемь пунктов управления беспилотной авиацией ВСУ"
-},
-{
-"url": "https://vpk.name/news/1171271_vs_rossii_primenili_novyi_bpla_na_dnepropetrovskom_napravlenii.html",
-"published_at": "2026-11-12T21:00:01Z",
-"quote": "ВС РФ применили новый БПЛА-перехватчик \"Сокол-3\" на Днепропетровском направлении Новейший БПЛА-перехватчик самолетного типа \"Сокол-3\" применили военные группировки войск \"Центр\" для уничтожения вражеских воздушных целей на днепропетровском "
-},
-{
-"url": "https://t.me/uav_tech/36801",
-"published_at": "2026-08-02T15:19:55Z",
-"quote": "Мост неоднократно становился целью ВС РФ с 2022 года, подвергаясь ударам «Искандеров», Х-59МК2, ФАБ с УМПК, «Гераней» и даже БЭК."
 }
 ],
 "sentiment": {
@@ -397,46 +437,6 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
-}
-},
-{
-"id": "rel_e404a30999dd5344",
-"from": "ent_e66a2be7fe38d473",
-"to": "ent_76aae9f116d88191",
-"type": "применение",
-"event_date": null,
-"evidence_count": 5,
-"evidence": [
-{
-"url": "https://tass.ru/armiya-i-opk/28318733",
-"published_at": "2026-11-15T04:32:10Z",
-"quote": "Комвзвода Степ: ВС РФ поразили пункт управления БПЛА ВСУ на сумском направлении"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28318669",
-"published_at": "2026-11-15T03:31:16Z",
-"quote": "Комроты Кот: ВС РФ за неделю уничтожили 10 НРТК ВСУ на сумском направлении"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28317513",
-"published_at": "2026-11-14T07:02:38Z",
-"quote": "ВС РФ уничтожили восемь пунктов управления беспилотной авиацией ВСУ"
-},
-{
-"url": "https://t.me/uav_tech/36785",
-"published_at": "2026-07-30T17:22:57Z",
-"quote": "ВС РФ ударили по штабу морских операций ВСУ с британскими офицерами"
-},
-{
-"url": "https://t.me/drone_expert_news/5281",
-"published_at": "2026-01-11T14:42:23Z",
-"quote": "🦾 В ГУР Украины заявили, что ВС РФ впервые применила новые дроны «Герань-5»."
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
 }
 },
 {
@@ -3341,6 +3341,31 @@
 "url": "https://t.me/dronesrussia/26843",
 "published_at": "2026-01-01T19:01:16Z",
 "quote": "Материалы с расшифрованными данными маршрутизации и контроллер украинского БПЛА, пораженного ПВО 29 декабря над Новгородской областью, переданы представителю аппарата военного атташе при посольстве США, сообщило Минобороны РФ."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_795a2febfc5b43c6",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_e66a2be7fe38d473",
+"type": "судебный спор",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://t.me/mod_russia/69025",
+"published_at": "2026-11-15T05:42:06Z",
+"quote": "❗️ Сегодня ночью Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам энергетики, портовой и железнодорожной инфраструктуры, а также морским судам, задействованным в интересах"
+},
+{
+"url": "https://t.me/mod_russia/69016",
+"published_at": "2026-11-14T15:58:35Z",
+"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по объектам портовой инфраструктуры и морским судам, задействованным в интересах ВСУ."
 }
 ],
 "sentiment": {
@@ -17707,6 +17732,166 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_052a9524c0f2eda4",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_e5f190ccc39e3fdd",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/mod_russia/69025",
+"published_at": "2026-11-15T05:42:06Z",
+"quote": "🔥 Кроме того, поражены два железнодорожных локомотива в районе ж/д станции Днепропетровск, используемых в интересах перевозки грузов, предназначенных для обеспечения ВСУ."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_9e363114949dde1f",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_eb8cb296fc293dc4",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/mod_russia/68995",
+"published_at": "2026-11-13T15:22:04Z",
+"quote": "▪️ Кроме того, на переходе морем поражено морское судно типа «сухогруз», доставлявшее в порт Черноморск военные грузы, и два железнодорожных локомотива в районе ж/д станции Сербка Одесской области, используемых в интересах перевозки грузов,"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_5be9d4c568aaef6c",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_a22db82c40874406",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/mod_russia/69004",
+"published_at": "2026-11-14T05:02:18Z",
+"quote": "▪️ Кроме того, поражены два железнодорожных локомотива в районе ж/д станции Матвеевка Запорожской области, используемых в интересах перевозки грузов, предназначенных для обеспечения ВСУ."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_e25015b17624c985",
+"from": "ent_3605db4374744812",
+"to": "ent_82e26e90a014009e",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://news.usni.org/2026/11/13/japan-pledges-drones-coastal-defense-radar-in-latest-philippine-defense-package",
+"published_at": "2026-11-13T16:48:57Z",
+"quote": "Philippine Navy photo Japan will transfer unmanned aerial vehicles and a coastal defense radar system to the Philippine military in Tokyo’s latest defense package to bolster Manila’s forces."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_fd48c69320b6b9d5",
+"from": "ent_0bc0a3c008b67806",
+"to": "ent_f0b2f8109fce6ff2",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://zona-militar.com/2026/11/15/general-de-division-timo-herranen-comandante-de-la-fuerza-aerea-finlandesa-los-sistemas-contra-drones-incorporados-recientemente-tienen-su-lugar-en-nuestra-defensa-aerea",
+"published_at": "2026-11-15T06:00:00Z",
+"quote": "El ejercicio combinado Mallet Strike 2/26 permitió a las Fuerzas Armadas de Finlandia poner a prueba sus distintos medios de defensa aérea, entre ellos los sistemas contra drone."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_487f4d0647f2b45c",
+"from": "ent_7f573abab4366299",
+"to": "ent_f0b2f8109fce6ff2",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://zona-militar.com/2026/11/14/con-2-canones-de-35mm-y-una-cadencia-de-1-000-disparos-por-minuto-finlandia-prueba-su-sistema-marksman-en-la-lucha-contra-drones",
+"published_at": "2026-11-14T14:35:28Z",
+"quote": "Como parte del ejercicio Mallet Strike 26, el Ejército de Finlandia puso a prueba a sistema antiaéreo autopropulsado ITPSV 90 Marksman en la lucha contra drones."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_e21b2971cc3910d4",
+"from": "ent_7f573abab4366299",
+"to": "ent_d7553bd7f99dce50",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://zona-militar.com/2026/11/14/con-2-canones-de-35mm-y-una-cadencia-de-1-000-disparos-por-minuto-finlandia-prueba-su-sistema-marksman-en-la-lucha-contra-drones",
+"published_at": "2026-11-14T14:35:28Z",
+"quote": "Como parte del ejercicio Mallet Strike 26, el Ejército de Finlandia puso a prueba a sistema antiaéreo autopropulsado ITPSV 90 Marksman en la lucha contra drones."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_6c3a91fec70b6592",
+"from": "ent_d7553bd7f99dce50",
+"to": "ent_f0b2f8109fce6ff2",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://zona-militar.com/2026/11/14/con-2-canones-de-35mm-y-una-cadencia-de-1-000-disparos-por-minuto-finlandia-prueba-su-sistema-marksman-en-la-lucha-contra-drones",
+"published_at": "2026-11-14T14:35:28Z",
+"quote": "Como parte del ejercicio Mallet Strike 26, el Ejército de Finlandia puso a prueba a sistema antiaéreo autopropulsado ITPSV 90 Marksman en la lucha contra drones."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 }
 ]
