@@ -158594,5 +158594,256 @@
 "subjectivity": 0.1,
 "risk_tags": []
 }
+},
+{
+"dedupe_hash": "be8bf6832d1a0d8e0fc6ce19ec9343df974bea2366e24f7fe09d567aec1ca792",
+"url": "https://t.me/milinfolive/183218",
+"published_at": "2026-11-15T15:28:34Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6aa2b229d22d985ad9b94e91a6ba74be168663eb8898c949710614eba4ec15cd",
+"url": "https://t.me/mod_russia/69043",
+"published_at": "2026-11-15T15:13:54Z",
+"event_date": "2026-11-15",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "1bbecd9f375eb2829f6d9e09d840d2f4943a6d20cd024ed73d6262c5cd83a442",
+"url": "https://af.mil/News/Article-Display/Article/4648603/kadena-welcomes-first-permanently-assigned-f-15ex-eagle-ii-aircraft",
+"published_at": "2026-11-15T14:30:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6b2fec70035cc5f34a3fca011072e2eb24678704dca70c3511095afdfaf916a5",
+"url": "https://defence-ua.com/news/po_skyranger_35_na_leopard_1_jaki_peredavali_zsu_stala_vidoma_tsikava_detal_pro_pogon_pid_bashtu_i_trivozhnij_signal_zaodno-24755.html",
+"published_at": "2026-11-15T15:38:23Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "бронетехника",
+"subfilter": "танки"
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "eec0ebc9415fae23192ae19c52f80f5714126c549bff4d8655f9b58c301731c9",
+"url": "https://topwar.ru/293596-ozhidajte-rossijskie-tanki-pogoda-blagoprijatstvuet-atakam-bronegrupp.html",
+"published_at": "2026-11-15T15:56:23Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "бронетехника",
+"subfilter": "танки"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "68490172d4c29d44526d9c493f589d44e9d1a3dccc3909f65b831f525c936119",
+"url": "https://topwar.ru/293593-istrebitel-j-10-vvs-knr-osnastili-kitajskoj-versiej-rossijskoj-rakety-h-29-t.html",
+"published_at": "2026-11-15T15:31:43Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "307589da80e5f608953a73432c77a384101cbd83772e08258d68dca10d5f1654",
+"url": "https://tass.ru/mezhdunarodnaya-panorama/28319447",
+"published_at": "2026-11-15T15:46:41Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "9f7fdcbffa1449e7f0d515b572ab8d87f35dcba40c82aa469c7d89f2b2838b1f",
+"url": "https://tass.ru/mezhdunarodnaya-panorama/28319419",
+"published_at": "2026-11-15T15:16:46Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "df66736f8a54ca66062c638502177eaec630052eb1c1eb94d01c2d98efda4da8",
+"url": "https://tass.ru/proisshestviya/28319413",
+"published_at": "2026-11-15T15:15:07Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "65bfb46babd49d5afe3091a57c5f7a207f983ff22644b2a70fc953579fd11a69",
+"url": "https://armyinform.com.ua/2026/11/15/sklad-garmata-okupanty-na-pivdenno-slobozhanskomu-napryamku-prykordonnyky-urazyly-nyzku-vorozhyh-czilej",
+"published_at": "2026-11-15T15:12:17Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "артиллерийские системы",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "5a03da0a5eb9611193e06f8a258b59c4aea1606eca3a3910c83d86d291fe397f",
+"url": "https://ria.ru/20261115/raschet-2131711190.html",
+"published_at": "2026-11-15T16:00:14Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "cdeaf25b957cbfd959b161d718fa76976d5e23656110a12d505b2327a0086539",
+"url": "https://armyrecognition.com/news/army-news/2026/ukraine-new-freyja-anti-ballistic-missile-is-ready-as-denmark-completes-missile-defense-radar",
+"published_at": "2026-11-15T14:07:25Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "cb603c5a3a592cd28df145cff8c738e1111a35068dbbe974995308068d8748b6",
+"url": "https://zona-militar.com/2026/11/15/ya-es-oficial-los-cazas-f-15ex-eagle-ii-de-la-fuerza-aerea-de-ee-uu-arribaron-a-japon-para-su-primer-despliegue-permanente",
+"published_at": "2026-11-15T15:31:41Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
 }
 ]
