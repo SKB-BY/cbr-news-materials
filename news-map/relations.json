@@ -5,8 +5,18 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 135,
+"evidence_count": 138,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611161821-ILkjP.html",
+"published_at": "2026-11-16T15:41:22Z",
+"quote": "Ранее операторы FPV-дронов Испытательного центра перспективных беспилотных технологий «Рубикон» нанесли серию ударов по военной технике и позициям ВСУ в зоне специальной военной операции."
+},
+{
+"url": "https://t.me/mod_russia/69064",
+"published_at": "2026-11-16T15:14:38Z",
+"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по логистическим центрам, объектам портовой и железнодорожной инфраструктуры, задействованным в интересах ВСУ."
+},
 {
 "url": "https://tass.ru/proisshestviya/28323007",
 "published_at": "2026-11-16T14:48:24Z",
@@ -21,16 +31,6 @@
 "url": "https://tvzvezda.ru/news/202611161533-EeDWp.html",
 "published_at": "2026-11-16T12:49:01Z",
 "quote": "Дроноводы группировки войск «Центр» уничтожили пункт дислокации ВСУ"
-},
-{
-"url": "https://tvzvezda.ru/news/202611161359-H9Y81.html",
-"published_at": "2026-11-16T11:58:15Z",
-"quote": "Минобороны России сообщило об уничтожении сразу нескольких пунктов управления беспилотными летательными аппаратами ВСУ в зоне проведения специальной военной операции."
-},
-{
-"url": "https://tvzvezda.ru/news/202611161445-l9A5w.html",
-"published_at": "2026-11-16T11:51:29Z",
-"quote": "Дроноводы группировки «Запад» нанесли удары по бронетехнике и роботам ВСУ"
 }
 ],
 "sentiment": {
@@ -45,8 +45,13 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 37,
+"evidence_count": 39,
 "evidence": [
+{
+"url": "https://t.me/mod_russia/69064",
+"published_at": "2026-11-16T15:14:38Z",
+"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по логистическим центрам, объектам портовой и железнодорожной инфраструктуры, задействованным в интересах ВСУ."
+},
 {
 "url": "https://tvzvezda.ru/news/202611161359-H9Y81.html",
 "published_at": "2026-11-16T11:58:15Z",
@@ -58,19 +63,14 @@
 "quote": "Российская ПВО сбила 2049 дронов ВСУ за сутки"
 },
 {
+"url": "https://t.me/mod_russia/69060",
+"published_at": "2026-11-16T09:10:56Z",
+"quote": "✈️ Оперативно-тактической авиацией, ударными беспилотными летательными аппаратами, ракетными войсками и артиллерией группировок войск Вооруженных Сил Российской Федерации нанесено поражение объектам энергетической, транспортной инфраструкту"
+},
+{
 "url": "https://ria.ru/20261116/pvo-2131817638.html",
 "published_at": "2026-11-16T08:53:38Z",
 "quote": "Российская ПВО сбила 2049 дронов ВСУ за сутки"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28321057",
-"published_at": "2026-11-16T08:53:15Z",
-"quote": "Средства ПВО РФ сбили за сутки 2 049 беспилотников ВСУ"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28321055",
-"published_at": "2026-11-16T08:52:50Z",
-"quote": "ВС РФ поразили места хранения и запуска беспилотников ВСУ"
 }
 ],
 "sentiment": {
@@ -125,8 +125,23 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 22,
+"evidence_count": 26,
 "evidence": [
+{
+"url": "https://t.me/mod_russia/69064",
+"published_at": "2026-11-16T15:14:38Z",
+"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по логистическим центрам, объектам портовой и железнодорожной инфраструктуры, задействов..."
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28323119",
+"published_at": "2026-11-16T15:11:46Z",
+"quote": "ВС РФ поразили используемый для хранения БПЛА склад в Киевской области"
+},
+{
+"url": "https://t.me/mod_russia/69060",
+"published_at": "2026-11-16T09:10:56Z",
+"quote": "✈️ Оперативно-тактической авиацией, ударными беспилотными летательными аппаратами, ракетными войсками и артиллерией группировок войск Вооруженных Сил Российской Федерации нанесено поражение объекта..."
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28321073",
 "published_at": "2026-11-16T08:53:55Z",
@@ -136,21 +151,6 @@
 "url": "https://tass.ru/armiya-i-opk/28321055",
 "published_at": "2026-11-16T08:52:50Z",
 "quote": "ВС РФ поразили места хранения и запуска беспилотников ВСУ"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28320247",
-"published_at": "2026-11-16T04:31:21Z",
-"quote": "Офицер Карта: ВС РФ сбили более 10 разведывательных дронов ВСУ под Харьковом"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28320143",
-"published_at": "2026-11-16T03:30:34Z",
-"quote": "Комвзвода Спец: ВС РФ сбили свыше 15 дронов \"Баба-яга\" ВСУ под Харьковом"
-},
-{
-"url": "https://t.me/mod_russia/69043",
-"published_at": "2026-11-15T15:13:54Z",
-"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по логистическим центрам Украины, объектам портовой инфраструктуры и морским судам, заде..."
 }
 ],
 "sentiment": {
@@ -165,8 +165,18 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 13,
+"evidence_count": 15,
 "evidence": [
+{
+"url": "https://t.me/mod_russia/69064",
+"published_at": "2026-11-16T15:14:38Z",
+"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по логистическим центрам, объектам портовой и железнодорожной инфраструктуры, задействованным в интересах ВСУ."
+},
+{
+"url": "https://t.me/mod_russia/69060",
+"published_at": "2026-11-16T09:10:56Z",
+"quote": "✈️ Оперативно-тактической авиацией, ударными беспилотными летательными аппаратами, ракетными войсками и артиллерией группировок войск Вооруженных Сил Российской Федерации нанесено поражение объектам энергетической, транспортной инфраструкту"
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28321055",
 "published_at": "2026-11-16T08:52:50Z",
@@ -181,16 +191,6 @@
 "url": "https://tass.ru/armiya-i-opk/28320143",
 "published_at": "2026-11-16T03:30:34Z",
 "quote": "Комвзвода Спец: ВС РФ сбили свыше 15 дронов \"Баба-яга\" ВСУ под Харьковом"
-},
-{
-"url": "https://t.me/mod_russia/69043",
-"published_at": "2026-11-15T15:13:54Z",
-"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по логистическим центрам Украины, объектам портовой инфраструктуры и морским судам, заде..."
-},
-{
-"url": "https://t.me/mod_russia/69030",
-"published_at": "2026-11-15T09:05:14Z",
-"quote": "✈️ Оперативно-тактической авиацией, ударными БПЛА, ракетными войсками и артиллерией группировок войск ВС РФ нанесено поражение военным аэродромам, объектам энергетической, транспортной инфраструктуры, используемым в интересах ВСУ, цехам про"
 }
 ],
 "sentiment": {
@@ -877,6 +877,41 @@
 "score_pm1": -0.1,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_795a2febfc5b43c6",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_e66a2be7fe38d473",
+"type": "судебный спор",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://t.me/mod_russia/69055",
+"published_at": "2026-11-16T06:01:05Z",
+"quote": "❗️ Сегодня ночью Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам портовой и железнодорожной инфраструктуры, а также морским судам, задействованным в интересах обеспечения"
+},
+{
+"url": "https://t.me/mod_russia/69043",
+"published_at": "2026-11-15T15:13:54Z",
+"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по логистическим центрам Украины, объектам портовой инфраструктуры и морским судам, задействованным в интересах ВСУ."
+},
+{
+"url": "https://t.me/mod_russia/69025",
+"published_at": "2026-11-15T05:42:06Z",
+"quote": "❗️ Сегодня ночью Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам энергетики, портовой и железнодорожной инфраструктуры, а также морским судам, задействованным в интересах"
+},
+{
+"url": "https://t.me/mod_russia/69016",
+"published_at": "2026-11-14T15:58:35Z",
+"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по объектам портовой инфраструктуры и морским судам, задействованным в интересах ВСУ."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 },
 {
@@ -1657,36 +1692,6 @@
 "score_pm1": -0.6,
 "score_pm2": -2,
 "label": "резко негативный"
-}
-},
-{
-"id": "rel_795a2febfc5b43c6",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_e66a2be7fe38d473",
-"type": "судебный спор",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://t.me/mod_russia/69043",
-"published_at": "2026-11-15T15:13:54Z",
-"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по логистическим центрам Украины, объектам портовой инфраструктуры и морским судам, задействованным в интересах ВСУ."
-},
-{
-"url": "https://t.me/mod_russia/69025",
-"published_at": "2026-11-15T05:42:06Z",
-"quote": "❗️ Сегодня ночью Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам энергетики, портовой и железнодорожной инфраструктуры, а также морским судам, задействованным в интересах"
-},
-{
-"url": "https://t.me/mod_russia/69016",
-"published_at": "2026-11-14T15:58:35Z",
-"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по объектам портовой инфраструктуры и морским судам, задействованным в интересах ВСУ."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
 }
 },
 {
@@ -3275,6 +3280,31 @@
 }
 },
 {
+"id": "rel_2ec954c0ab6a224a",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_76aae9f116d88191",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/estonia-russia-gru-arson-drone-maker-threod",
+"published_at": "2026-11-16T15:18:48Z",
+"quote": "According to the company, it has delivered its equipment to 27 countries, including 14 NATO members and Ukraine."
+},
+{
+"url": "https://t.me/uav_tech/36694",
+"published_at": "2026-07-18T12:52:40Z",
+"quote": "❗️Кадыров призвал Путина начать военные действия против стран НАТО Глава Чечни заявил, что России следует «открыть огонь» по государствам, которые поставляют Украине оружие и разведданные."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_4089f2773a1b863a",
 "from": "ent_340314be7304a427",
 "to": "ent_28fea1c77915c37a",
@@ -3922,6 +3952,56 @@
 "score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_24d285d0c3f0404f",
+"from": "ent_1afbfbcc6a11603a",
+"to": "ent_f534fbe20a2a74ea",
+"type": "должность",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://microavia.com/news/microavia-khaleej-times",
+"published_at": "2025-11-06T00:00:00Z",
+"quote": "/ News / Microavia in Khaleej Times: How UAE-Made Drones Are Redefining Security and Innovation Microavia in Khaleej Times: How UAE-Made Drones Are Redefining Security and Innovation Enrique Plaza Baez, CEO of Microavia, spoke with Khaleej "
+},
+{
+"url": "https://microavia.com/news/drone-in-a-box_in_uae_cnbc_arabia_tours_microavias_facility_in_dubai",
+"published_at": "2025-10-09T00:00:00Z",
+"quote": "/ News / CNBC Arabia Showcases Microavia’s Drone-in-a-Box Innovation in the UAE CNBC Arabia Showcases Microavia’s Drone-in-a-Box Innovation in the UAE Enrique Plaza Baez, CEO of Microavia, speaks with CNBC Arabia at the autonomous drone-in-"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_76b18c1dde70bca8",
+"from": "ent_cedc6134e2e9e6aa",
+"to": "ent_f534fbe20a2a74ea",
+"type": "должность",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://microavia.com/news/drone-in-a-box_in_uae_cnbc_arabia_tours_microavias_facility_in_dubai",
+"published_at": "2025-10-09T00:00:00Z",
+"quote": "/ News / CNBC Arabia Showcases Microavia’s Drone-in-a-Box Innovation in the UAE CNBC Arabia Showcases Microavia’s Drone-in-a-Box Innovation in the UAE Enrique Plaza Baez, CEO of Microavia, speaks with CNBC Arabia at the autonomous drone-in-"
+},
+{
+"url": "https://microavia.com/news/microavia_unveils_the_strategic_importance_of_drones_for_security",
+"published_at": "2024-02-28T00:00:00Z",
+"quote": "/ News / Microavia Unveils the Strategic Importance of Drones for Security Microavia Unveils the Strategic Importance of Drones for Security Enrique Plaza, CEO of Microavia, illuminated the Family Office Forum in Dubai 2024 with a compellin"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -12045,26 +12125,6 @@
 }
 },
 {
-"id": "rel_2ec954c0ab6a224a",
-"from": "ent_cd3c86a3a1af0b40",
-"to": "ent_76aae9f116d88191",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://t.me/uav_tech/36694",
-"published_at": "2026-07-18T12:52:40Z",
-"quote": "❗️Кадыров призвал Путина начать военные действия против стран НАТО Глава Чечни заявил, что России следует «открыть огонь» по государствам, которые поставляют Украине оружие и разведданные."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_748afc09dbd9ff40",
 "from": "ent_7bc34647511f8698",
 "to": "ent_7bb0175854bea9a8",
@@ -19302,6 +19362,206 @@
 "score_pm1": -0.5,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_0ac053088127711b",
+"from": "ent_f534fbe20a2a74ea",
+"to": "ent_0619abbd484d84b2",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://microavia.com/news/aerial_surveillance_drone_for_oil_and_gas_industry",
+"published_at": "2024-05-10T00:00:00Z",
+"quote": "What we will discuss in this article 1 Key challenges in the Oil and Gas Industry 2 Top-6 use cases of drones in the Oil and Gas Industry 3 Key features of drones for inspections in the Oil and Gas sector 4 Technical advantages of Drone-in-"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_3d0b61c88a3e10b6",
+"from": "ent_f534fbe20a2a74ea",
+"to": "ent_a393afb34e8810f4",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://microavia.com/news/aerial_surveillance_drone_for_oil_and_gas_industry",
+"published_at": "2024-05-10T00:00:00Z",
+"quote": "What we will discuss in this article 1 Key challenges in the Oil and Gas Industry 2 Top-6 use cases of drones in the Oil and Gas Industry 3 Key features of drones for inspections in the Oil and Gas sector 4 Technical advantages of Drone-in-"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_743335bbb7bbbef0",
+"from": "ent_490017b0c098a1d0",
+"to": "ent_aae50e7ef52c996a",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://microavia.com/news/unveiling_the_future_of_unmanned_systems_microavia_at_umex_abu_dhabi_2024",
+"published_at": "2024-01-26T00:00:00Z",
+"quote": "Highlights from the air shows of UMEX and SimTEX 2024 at Sweihan Hills, attended by His Excellency Sheikh Sultan bin Tahnoon Al Nahyan, Chairman of the Board of Directors of the National Pride Office, Major General Saeed Rashid Al Shehhi, C"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6c78aa0e6207ae2c",
+"from": "ent_3e943396f9c90a21",
+"to": "ent_aae50e7ef52c996a",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://microavia.com/news/unveiling_the_future_of_unmanned_systems_microavia_at_umex_abu_dhabi_2024",
+"published_at": "2024-01-26T00:00:00Z",
+"quote": "Highlights from the air shows of UMEX and SimTEX 2024 at Sweihan Hills, attended by His Excellency Sheikh Sultan bin Tahnoon Al Nahyan, Chairman of the Board of Directors of the National Pride Office, Major General Saeed Rashid Al Shehhi, C"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_f4f431462c8f7181",
+"from": "ent_efab962e13fa5940",
+"to": "ent_ef0cfce175421f33",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/16/volatus-canada-drone-contract-first-100-uk-company",
+"published_at": "2026-11-16T16:20:00Z",
+"quote": "Army captain look at a drone controller with a tablet screen in an autumn forest\" /></p> <p><strong>Volatus Aerospace</strong>, one of three companies that have announced Government of Canada contracts to supply low-cost reconnaissance dron"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_22188d712582301e",
+"from": "ent_e66a2be7fe38d473",
+"to": "ent_c32678e4a0ae4599",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28323119",
+"published_at": "2026-11-16T15:11:46Z",
+"quote": "ВС РФ поразили используемый для хранения БПЛА склад в Киевской области"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_42c54454f11a9339",
+"from": "ent_b5f76dc0ce128813",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611161821-ILkjP.html",
+"published_at": "2026-11-16T15:41:22Z",
+"quote": "Российские дроны уничтожили гаубицы М777 и «Богдана» в Запорожской области"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_094e2d50bb5a8f9f",
+"from": "ent_b5f76dc0ce128813",
+"to": "ent_a22db82c40874406",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611161821-ILkjP.html",
+"published_at": "2026-11-16T15:41:22Z",
+"quote": "Российские дроны уничтожили гаубицы М777 и «Богдана» в Запорожской области"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_930ae4b9bb06cc4e",
+"from": "ent_2f3b8b1848d53569",
+"to": "ent_b5f76dc0ce128813",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611161821-ILkjP.html",
+"published_at": "2026-11-16T15:41:22Z",
+"quote": "Среди пораженных целей оказались замаскированная артиллерийская установка «Богдана» и американский бронеавтомобиль MaxxPro."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_6d5d9d628d2abdac",
+"from": "ent_ce24835bf268b31a",
+"to": "ent_83685d4592294a19",
+"type": "санкции",
+"event_date": "2026-11-16",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/estonia-russia-gru-arson-drone-maker-threod",
+"published_at": "2026-11-16T15:18:48Z",
+"quote": "Foreign Minister Margus Tsahkna said he would push for tougher sanctions and a stricter visa policy at the EU foreign ministers’ meeting in Brussels on November 16, 2026."
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный"
 }
 }
 ]
