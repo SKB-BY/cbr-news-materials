@@ -160,9 +160,14 @@ for h in orphans:
     c = mk(h, False)
     (clusters if c["places"] else unplaced).append(c)
 
-clusters.sort(key=lambda c: chron(items[c["head"]]), reverse=True)
+# t151u (GREEN 16.11.2026): порядок на карте — по дате публикации (Europe/Minsk), новые сверху; дата события — вторым ключом
+def pubkey(it):
+    return (it["pub"] or "", it["ev"] or "")
+
+
+clusters.sort(key=lambda c: pubkey(items[c["head"]]), reverse=True)
 used = {h for c in clusters for h in c["items"]}
-idx = {h: i for i, h in enumerate(sorted(used, key=lambda h: chron(items[h]), reverse=True))}
+idx = {h: i for i, h in enumerate(sorted(used, key=lambda h: pubkey(items[h]), reverse=True))}
 FIELDS = ["id", "pub", "ev", "evp", "src", "url", "t", "tf", "lang", "topic", "cat", "sec", "veh", "oi0", "oi1", "oi1at", "lift", "rel", "nonplace"]
 item_arr = [None] * len(idx)
 for h, i in idx.items():
@@ -200,7 +205,7 @@ with open(OUT / "news_points.csv", "w", encoding="utf-8", newline="") as fh:
 with open(OUT / "news_unlocated.csv", "w", encoding="utf-8", newline="") as fh:
     w = csv.writer(fh)
     w.writerow(["id", "lifted", "published_at_minsk", "event_date", "source", "url", "title_ru", "oi_initial", "oi_evolved", "status", "named_not_a_place"])
-    for c in sorted(unplaced, key=lambda c: chron(items[c["head"]]), reverse=True):
+    for c in sorted(unplaced, key=lambda c: pubkey(items[c["head"]]), reverse=True):
         for h in c["items"]:
             it = items[h]; code = it["oi1"] or it["oi0"]
             w.writerow([h, it["lift"], it["pub"], it["ev"], it["src"], it["url"], it["t"], it["oi0"], it["oi1"], status_of(code),

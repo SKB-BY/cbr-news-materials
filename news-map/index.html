@@ -219,9 +219,10 @@ const items = D.items.map(a=>{ const o={}; F.forEach((k,i)=>o[k]=a[i]); o.code=o
   o.lo = o.ev ? (o.ev.length===7? o.ev+"-01" : o.ev) : o.pub.slice(0,10); o.hi = o.ev ? (o.ev.length===7? o.ev+"-31" : o.ev) : o.pub.slice(0,10); return o; });
 const areas = D.areas.features;
 const stories = D.clusters.map((c,i)=>({i, items:c[0].map(k=>items[k]), places:c[1], more:c[2]||0, current:!!c[3], later:(c[4]||[]).map(k=>items[k])}));
-// порядок: дата (новее выше; дата события, если названа, иначе дата публикации) → достоверность (сведения 1..5) → значимость (источник А..Д)
+// t151u: порядок — дата публикации Europe/Minsk (новее выше) → достоверность (сведения 1..5) → значимость (источник А..Д) → время публикации
 function dkey(x){ return x.ev ? (x.ev.length===7? x.ev+"-00" : x.ev) : x.pub.slice(0,10); }
-function cmp(a,b){ const x=a.head, y=b.head; const da=dkey(x), db=dkey(y);
+function pkey(x){ return (x.pub||"").slice(0,10); }
+function cmp(a,b){ const x=a.head, y=b.head; const da=pkey(x), db=pkey(y);
   if(da!==db) return da<db?1:-1;
   const ia=INF.indexOf(x.code[1]), ib=INF.indexOf(y.code[1]); if(ia!==ib) return ia-ib;
   const sa=SRC.indexOf(x.code[0]), sb=SRC.indexOf(y.code[0]); if(sa!==sb) return sa-sb;
