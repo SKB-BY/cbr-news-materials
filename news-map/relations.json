@@ -5,32 +5,32 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 123,
+"evidence_count": 129,
 "evidence": [
 {
-"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%82%d0%be%d1%81-2-%d1%82%d0%be%d1%81%d0%be%d1%87%d0%ba%d0%b0-%d1%81%d0%be%d0%b5%d0%b4%d0%b8%d0%bd%d0%b5%d0%bd%d0%b8%d1%8f-%d1%80%d1%85%d0%b1%d0%b7",
-"published_at": "2026-11-16T08:59:14Z",
-"quote": "РАСЧЕТ ТОС-2 «ТОСОЧКА» СОЕДИНЕНИЯ РХБЗ ГРУППИРОВКИ ВОЙСК «ЦЕНТР» УНИЧТОЖИЛ РАЙОН СОСРЕДОТОЧЕНИЯ ПУНКТОВ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+"url": "https://tass.ru/proisshestviya/28321835",
+"published_at": "2026-11-16T11:04:42Z",
+"quote": "В Белгороде при ударе беспилотника ВСУ пострадали два человека"
 },
 {
-"url": "https://ria.ru/20261116/pvo-2131817638.html",
-"published_at": "2026-11-16T08:53:38Z",
+"url": "https://tvzvezda.ru/news/202611161255-jCl4d.html",
+"published_at": "2026-11-16T10:04:04Z",
+"quote": "Во время воздушной разведки расчеты ежедневно обнаруживают и уничтожают более десяти беспилотников ВСУ - от небольших FPV-дронов до тяжелых ударных аппаратов."
+},
+{
+"url": "https://t.me/news_UAV/5963",
+"published_at": "2026-11-16T09:53:49Z",
 "quote": "Российская ПВО сбила 2049 дронов ВСУ за сутки"
 },
 {
-"url": "https://tass.ru/armiya-i-opk/28321057",
-"published_at": "2026-11-16T08:53:15Z",
-"quote": "Средства ПВО РФ сбили за сутки 2 049 беспилотников ВСУ"
+"url": "https://tvzvezda.ru/news/202611161138-MvDEo.html",
+"published_at": "2026-11-16T09:52:33Z",
+"quote": "Ранее сообщалось, что расчет САУ «Пион» уничтожил укрепленный опорный пункт ВСУ в зоне спецоперации."
 },
 {
-"url": "https://tass.ru/armiya-i-opk/28321055",
-"published_at": "2026-11-16T08:52:50Z",
-"quote": "ВС РФ поразили места хранения и запуска беспилотников ВСУ"
-},
-{
-"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d0%b4%d1%80%d0%be%d0%bd%d0%b0-%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%b2%d0%b0%d1%82%d1%87%d0%b8%d0%ba%d0%b0-%d1%81%d0%be%d0%ba%d0%be%d0%bb-%d0%b22-%d0%b7",
-"published_at": "2026-11-16T08:40:21Z",
-"quote": "РАСЧЕТ ДРОНА-ПЕРЕХВАТЧИКА «СОКОЛ-В2» ЗЕНИТНОЙ РАКЕТНОЙ БРИГАДЫ ГРУППИРОВКИ «ЦЕНТР» УНИЧТОЖИЛ ДЕСЯТКИ УДАРНЫХ И РАЗВЕДЫВАТЕЛЬНЫХ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+"url": "https://bastion-karpenko.ru/%d1%82%d0%b0%d1%81%d1%81-%d0%b0%d1%82%d0%b0%d0%ba%d0%b0-%d0%b4%d1%80%d0%be%d0%bd%d0%be%d0%b2-%d0%b2%d1%81%d1%83-%d0%bd%d0%b0-%d1%80%d1%84-%d1%81%d1%82%d0%b0%d0%bb%d0%b0-%d0%be%d0%b4%d0%bd%d0%be%d0%b9",
+"published_at": "2026-11-16T09:49:49Z",
+"quote": "ТАСС: АТАКА ДРОНОВ ВСУ НА РФ СТАЛА ОДНОЙ ИЗ САМЫХ МАССИРОВАННЫХ ЗА ГОД ТАСС: АТАКА ДРОНОВ ВСУ НА РФ СТАЛА ОДНОЙ ИЗ САМЫХ МАССИРОВАННЫХ ЗА ГОД Дежурные силы противовоздушной обороны минувшей ночью сбили 1 336 беспилотников над территорией Ро"
 }
 ],
 "sentiment": {
@@ -45,8 +45,13 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 35,
+"evidence_count": 36,
 "evidence": [
+{
+"url": "https://t.me/news_UAV/5963",
+"published_at": "2026-11-16T09:53:49Z",
+"quote": "Российская ПВО сбила 2049 дронов ВСУ за сутки"
+},
 {
 "url": "https://ria.ru/20261116/pvo-2131817638.html",
 "published_at": "2026-11-16T08:53:38Z",
@@ -66,11 +71,6 @@
 "url": "https://ria.ru/20261116/voennye-2131794102.html",
 "published_at": "2026-11-16T07:12:30Z",
 "quote": "ВС России уничтожили 58 пунктов управления дронами ВСУ в ДНР за сутки"
-},
-{
-"url": "https://ria.ru/20261116/spetsoperatsiya-2131772526.html",
-"published_at": "2026-11-16T04:37:29Z",
-"quote": "ВС России за две недели сбили более десяти БПЛА ВСУ в Харьковской области"
 }
 ],
 "sentiment": {
@@ -85,8 +85,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "поставка",
 "event_date": null,
-"evidence_count": 29,
+"evidence_count": 30,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611161255-jCl4d.html",
+"published_at": "2026-11-16T10:04:04Z",
+"quote": "Кроме того, беспилотники круглосуточно наблюдают за обстановкой вдоль линии боевого соприкосновения, выявляют позиции ВСУ и передают их координаты для нанесения ударов."
+},
 {
 "url": "https://defence-ua.com/news/po_skyranger_35_na_leopard_1_jaki_peredavali_zsu_stala_vidoma_tsikava_detal_pro_pogon_pid_bashtu_i_trivozhnij_signal_zaodno-24755.html",
 "published_at": "2026-11-15T15:38:23Z",
@@ -106,11 +111,6 @@
 "url": "https://vpk.name/news/1171198_stali_izvestny_rossiiskie_perehvatchiki_rzhavyh_kinzhalov_vsu.html",
 "published_at": "2026-11-11T21:00:01Z",
 "quote": "Эксперт Кнутов: Ракеты Rusty Dagger могут перехватывать российские системы ПВО Крылатые ракеты Rusty Dagger («Ржавый кинжал»), которые США поставили Вооруженным силам Украины (ВСУ), могут перехватывать российские системы противовоздушной об"
-},
-{
-"url": "https://vpk.name/news/1171190_nositelyami_rzhavyh_kinzhalov_vsu_stali_f-16_i_mig-29.html",
-"published_at": "2026-11-11T21:00:01Z",
-"quote": "Эксперт Степанов: Носителями украинских «Ржавых кинжалов» стали F-16 и МиГ-29 Носителями ракет Rusty Dagger («Ржавые кинжалы»), которые США поставили Вооруженным силам Украины (ВСУ), стали истребители F-16 и МиГ-29."
 }
 ],
 "sentiment": {
@@ -205,8 +205,23 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 9,
+"evidence_count": 12,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/20261116147-MPv9x.html",
+"published_at": "2026-11-16T11:11:23Z",
+"quote": "Минобороны России сообщило об отражении наиболее массированного в истории украинского удара."
+},
+{
+"url": "https://t.me/news_UAV/5963",
+"published_at": "2026-11-16T09:53:49Z",
+"quote": "Российская ПВО сбила 2049 дронов ВСУ за сутки Силы ПВО за сутки уничтожили четыре ракеты \"Фламинго\" и 2049 беспилотников ВСУ, сообщило в понедельник Минобороны России."
+},
+{
+"url": "https://tvzvezda.ru/news/202611161138-MvDEo.html",
+"published_at": "2026-11-16T09:52:33Z",
+"quote": "Минобороны России сообщило об уничтожении украинских расчетов беспилотных летательных аппаратов в зоне проведения специальной военной операции."
+},
 {
 "url": "https://vpk.name/news/1171271_vs_rossii_primenili_novyi_bpla_na_dnepropetrovskom_napravlenii.html",
 "published_at": "2026-11-12T21:00:01Z",
@@ -216,21 +231,6 @@
 "url": "https://vpk.name/news/1171483_armiya_rossii_primenila_novye_sokoly-3_protiv_dronov_vsu.html",
 "published_at": "2026-11-12T21:00:01Z",
 "quote": "Минобороны России: Новые дроны-перехватчики «Сокол-3» применили против БПЛА ВСУ Военнослужащие армии России применили новые дроны-перехватчики «Сокол-3» против скоростных беспилотных летательных аппаратов (БПЛА) ВСУ."
-},
-{
-"url": "https://t.me/news_UAV/5680",
-"published_at": "2026-09-10T06:29:20Z",
-"quote": "Средства ПВО за сутки сбили 1185 украинских беспилотников самолетного типа, сообщило 9 сентября Минобороны России"
-},
-{
-"url": "https://t.me/uav_tech/36545",
-"published_at": "2026-06-27T11:35:50Z",
-"quote": "Минобороны РФ сообщило о том, что российские БПЛА \"Герань-4 сикер\" уничтожили два истребителя МиГ-29 ВСУ на аэродроме Вознесенск в Николаевской области."
-},
-{
-"url": "https://t.me/news_UAV/5308",
-"published_at": "2026-06-22T10:35:09Z",
-"quote": "ПВО за сутки сбила 734 украинских беспилотника Силы ПВО за сутки уничтожили 734 беспилотника и 12 управляемых авиационных бомб ВСУ, сообщили в Минобороны России."
 }
 ],
 "sentiment": {
@@ -245,8 +245,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 7,
+"evidence_count": 8,
 "evidence": [
+{
+"url": "https://t.me/news_UAV/5963",
+"published_at": "2026-11-16T09:53:49Z",
+"quote": "Российская ПВО сбила 2049 дронов ВСУ за сутки Силы ПВО за сутки уничтожили четыре ракеты \"Фламинго\" и 2049 беспилотников ВСУ, сообщило в понедельник Минобороны России."
+},
 {
 "url": "https://vpk.name/news/1171483_armiya_rossii_primenila_novye_sokoly-3_protiv_dronov_vsu.html",
 "published_at": "2026-11-12T21:00:01Z",
@@ -266,11 +271,6 @@
 "url": "https://t.me/news_UAV/5089",
 "published_at": "2026-05-15T05:17:38Z",
 "quote": "Средства ПВО уничтожили 355 беспилотных летательных аппаратов ВСУ над территорией России за ночь, сообщило журналистам Минобороны РФ."
-},
-{
-"url": "https://t.me/uav_tech/36104",
-"published_at": "2026-05-04T16:12:24Z",
-"quote": "Ранее в Минобороны России сообщили, что ряд европейских стран на фоне роста потерь и нехватки живой силы у ВСУ принял решение о наращивании производства дронов для Украины для ударов по территории России."
 }
 ],
 "sentiment": {
@@ -1436,6 +1436,36 @@
 "url": "https://t.me/uav_tech/34915",
 "published_at": "2026-01-16T12:32:06Z",
 "quote": "Касаемо сегодняшних кадров уничтожения американкой высокоточной модульной системы M142 HIMARS ударом неизвестных реактивных боеприпасов."
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_45e8ee5eb18d7389",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_934031688aa80182",
+"type": "применение",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://tass.ru/proisshestviya/28321835",
+"published_at": "2026-11-16T11:04:42Z",
+"quote": "В Белгороде при ударе беспилотника ВСУ пострадали два человека"
+},
+{
+"url": "https://ria.ru/20261116/belgorodskaya-oblast-2131792901.html",
+"published_at": "2026-11-16T07:10:01Z",
+"quote": "В Белгородской области при ударе дрона ВСУ пострадал мужчина"
+},
+{
+"url": "https://t.me/news_UAV/5103",
+"published_at": "2026-05-17T05:27:25Z",
+"quote": "🔜Водитель грузовика погиб от удара дрона ВСУ в селе Нежеголь в Белгородской области, сообщает оперштаб региона."
 }
 ],
 "sentiment": {
@@ -3407,31 +3437,6 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
-}
-},
-{
-"id": "rel_45e8ee5eb18d7389",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_934031688aa80182",
-"type": "применение",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://ria.ru/20261116/belgorodskaya-oblast-2131792901.html",
-"published_at": "2026-11-16T07:10:01Z",
-"quote": "В Белгородской области при ударе дрона ВСУ пострадал мужчина"
-},
-{
-"url": "https://t.me/news_UAV/5103",
-"published_at": "2026-05-17T05:27:25Z",
-"quote": "🔜Водитель грузовика погиб от удара дрона ВСУ в селе Нежеголь в Белгородской области, сообщает оперштаб региона."
-}
-],
-"sentiment": {
-"score_pm1": -0.4,
-"score_pm2": -1,
-"label": "умеренно негативный"
 }
 },
 {
@@ -18642,6 +18647,146 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_76fcc4e08975423e",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_4530f008d0cdc124",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://belvpo.com/vsu-poteryali-do-330-voennyh-i-tank-v-zone-dejstvij-czentra-za-sutki",
+"published_at": "2026-11-16T09:13:45Z",
+"quote": "Нанесли поражение живой силе и технике трех механизированных, штурмовой бригад, штурмового полка ВСУ, двух бригад морской пехоты и двух бригад нацгвардии в районах населенных пунктов Новосергеевка, Криворожье, Курицыно, Сергеевка, Львовка, "
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_61f3b373a5d2df6f",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_8a1fb18f6e513bb6",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://belvpo.com/vsu-poteryali-do-330-voennyh-i-tank-v-zone-dejstvij-czentra-za-sutki",
+"published_at": "2026-11-16T09:13:45Z",
+"quote": "Нанесли поражение живой силе и технике трех механизированных, штурмовой бригад, штурмового полка ВСУ, двух бригад морской пехоты и двух бригад нацгвардии в районах населенных пунктов Новосергеевка, Криворожье, Курицыно, Сергеевка, Львовка, "
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_2d6fd701c7efd3e9",
+"from": "ent_d380c846b4a97fed",
+"to": "ent_82e26e90a014009e",
+"type": "дислокация",
+"event_date": "2026-11-15",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/first-overseas-based-f15ex-fighters-arrive-japan",
+"published_at": "2026-11-16T09:27:12Z",
+"quote": "Two F-15EX Eagle II fighters assigned to the 67th Fighter Squadron landed at Kadena Air Base (DNA) in Okinawa, Japan, on November 15, 2026, becoming the first of the type to be permanently stationed overseas."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_cc9dc68aca6e0678",
+"from": "ent_0700d0cbea888437",
+"to": "ent_82e26e90a014009e",
+"type": "дислокация",
+"event_date": "2026-11-15",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/first-overseas-based-f15ex-fighters-arrive-japan",
+"published_at": "2026-11-16T09:27:12Z",
+"quote": "Two F-15EX Eagle II fighters assigned to the 67th Fighter Squadron landed at Kadena Air Base (DNA) in Okinawa, Japan, on November 15, 2026, becoming the first of the type to be permanently stationed overseas."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_57e7e034136ce948",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_d380c846b4a97fed",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/first-overseas-based-f15ex-fighters-arrive-japan",
+"published_at": "2026-11-16T09:27:12Z",
+"quote": "From test visits to permanent deployment The first two permanently assigned US Air Force F-15EX Eagle II fighters from the 67th Fighter Squadron taxi at Kadena Air Base, Japan."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_8de13adfae9625cb",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_df839aaee404789b",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611161138-MvDEo.html",
+"published_at": "2026-11-16T09:52:33Z",
+"quote": "Ранее сообщалось, что расчет САУ «Пион» уничтожил укрепленный опорный пункт ВСУ в зоне спецоперации."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_41780a28b86081fb",
+"from": "ent_df839aaee404789b",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611161138-MvDEo.html",
+"published_at": "2026-11-16T09:52:33Z",
+"quote": "Ранее сообщалось, что расчет САУ «Пион» уничтожил укрепленный опорный пункт ВСУ в зоне спецоперации."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 }
 ]
