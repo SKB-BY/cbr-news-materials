@@ -399,19 +399,28 @@ window.NEWS_MAP={map};  // для проверки в браузере
 })();
 </script>
 
-<script src="../iid/iid_data.js?v=t143"></script>
+<script src="../iid/iid_data.js?v=t153"></script>
 <script>
-/* t143u: ИИД-100 по странам источников на Новостной карте. © 2026 GREEN-CBR. */
+/* t143u/t153u: ИИД-100 по странам источников на Новостной карте — из того же файла ../iid/iid_data.js, что и страница /iid/. © 2026 GREEN-CBR. */
 (function(){
   const I=window.IID, M=(window.NEWS_MAP||{}).map; if(!I||!window.L) return;
   const P={"Украина":[50.45,30.52],"Польша":[52.23,21.01],"Литва":[54.69,25.28],"Латвия":[56.95,24.11],"Россия":[55.76,37.62]};
   const col=v=>v<=25?"#1f6f43":v<=50?"#8a7a2a":v<=75?"#b5602a":"#a3262a";
-  const d=I.day, dd=d.date.slice(8,10)+"."+d.date.slice(5,7);
-  const box=document.createElement("details"); box.id="iidbox"; box.open=true;
-  let h='<summary>ИИД-100 по странам источников</summary><p class="muted">Индекс информационного давления на РБ: 0–100, 100 — максимум. Сутки '+dd+': <b>'+d.iid+'</b> ('+d.zone+'); 7 дней: <b>'+I.iid7+'</b>. <a href="../iid/">Подробно →</a></p><table style="width:100%;font-size:12px;border-collapse:collapse">';
-  h+='<tr><th style="text-align:left">Страна</th><th>сутки</th><th>7 дней</th><th>N 7 дн.</th></tr>';
-  I.rows.forEach(r=>{const r7=(I.rows7||[]).find(x=>x.country===r.country)||{}; h+='<tr><td>'+r.country+'</td><td style="text-align:center"><span style="background:'+col(r.iid)+';color:#fff;padding:0 6px;border-radius:2px">'+(r.N?r.iid:'—')+'</span></td><td style="text-align:center">'+(r7.iid7==null?'—':r7.iid7)+'</td><td style="text-align:center">'+(r7.N7||0)+'</td></tr>';});
-  h+='</table>'; box.innerHTML=h;
+  const d=I.day, dd=d.date.slice(8,10)+"."+d.date.slice(5,7), tp=I.today_partial, nr=I.no_response||{};
+  const z7=v=>v<=25?"спокойно":v<=50?"умеренно":v<=75?"высокое":"критическое";
+  const box=document.createElement("details"); box.id="iidbox"; box.open=true; box.dataset.snapshot=I.snapshot_id||(I.snapshot_hash||"").slice(0,12);
+  let h='<summary>ИИД-100 по странам источников</summary><p class="muted">Индекс информационного давления на РБ: 0–100, 100 — максимум.</p><p>';
+  if(tp) h+='Сегодня на '+tp.as_of+' (неполные сутки): <b>'+tp.iid+'</b> ('+tp.zone+'), N = '+tp.N+'<br>';
+  h+='Сутки '+dd+': <b>'+d.iid+'</b> ('+d.zone+'), N = '+d.N+'<br>7 дней: <b>'+I.iid7+'</b> ('+z7(I.iid7)+')<br>Сюжеты без ответа (7 дней): <b>'+(nr.without||0)+'</b> из '+(nr.recent_7d||0)+(nr.window_open?' (окно ответа открыто у '+nr.window_open+')':'')+'</p>';
+  h+='<table style="width:100%;font-size:12px;border-collapse:collapse"><tr><th style="text-align:left">Страна</th>'+(tp?'<th>сегодня</th>':'')+'<th>сутки '+dd+'</th><th>7 дней</th><th>N 7 дн.</th></tr>';
+  const cell=(r)=>r&&r.N?'<span style="background:'+col(r.iid)+';color:#fff;padding:0 6px;border-radius:2px">'+r.iid+'</span> <span class="muted">N='+r.N+'</span>':'—';
+  let sT=0,sD=0,s7=0;
+  (I.countries||I.rows.map(r=>r.country)).forEach(c=>{const r=I.rows.find(x=>x.country===c)||{}, rt=(I.rows_today||[]).find(x=>x.country===c)||{}, r7=(I.rows7||[]).find(x=>x.country===c)||{};
+    sT+=rt.N||0; sD+=r.N||0; s7+=r7.N7||0;
+    h+='<tr><td>'+c+'</td>'+(tp?'<td style="text-align:center">'+cell(rt)+'</td>':'')+'<td style="text-align:center">'+cell(r)+'</td><td style="text-align:center">'+(r7.iid7==null?'—':r7.iid7)+'</td><td style="text-align:center">'+(r7.N7||0)+'</td></tr>';});
+  h+='<tr><th style="text-align:left">Всего</th>'+(tp?'<th>'+tp.iid+' <span class="muted">N='+sT+'</span></th>':'')+'<th>'+d.iid+' <span class="muted">N='+sD+'</span></th><th>'+I.iid7+'</th><th>'+s7+'</th></tr>';
+  h+='</table><p class="muted" style="font-size:11px">Расчёт: '+I.computed_at.replace("T"," ").slice(0,16)+' Europe/Minsk · методика '+I.method_version+' · словари '+I.lex_version+' · снимок '+box.dataset.snapshot+' · <a href="../iid/">Подробно →</a></p>';
+  box.innerHTML=h;
   const top=document.querySelector("#side .top"); const flt=document.getElementById("flt");
   if(top&&flt) top.insertBefore(box, flt);
   if(!M) return;
@@ -419,7 +428,7 @@ window.NEWS_MAP={map};  // для проверки в браузере
   I.rows.forEach(r=>{ const p=P[r.country]; if(!p) return; const r7=(I.rows7||[]).find(x=>x.country===r.country)||{};
     const v=r7.iid7||0;
     L.circleMarker(p,{radius:10+Math.min(14,(r7.N7||0)),color:col(v),fillColor:col(v),fillOpacity:.55,weight:2})
-     .bindTooltip("ИИД-100 · "+r.country+": 7 дней "+v+", сутки "+(r.N?r.iid:"—")+" (материалов о РБ за 7 дней: "+(r7.N7||0)+")",{direction:"top"}).addTo(lg); });
+     .bindTooltip("ИИД-100 · "+r.country+": "+(tp?("сегодня "+(((I.rows_today||[]).find(x=>x.country===r.country)||{}).N?((I.rows_today||[]).find(x=>x.country===r.country)).iid:"—")+", "):"")+"сутки "+(r.N?r.iid:"—")+", 7 дней "+v+" (материалов о РБ за 7 дней: "+(r7.N7||0)+")",{direction:"top"}).addTo(lg); });
   lg.addTo(M);
   try{ L.control.layers(null,{"ИИД-100 по странам":lg},{collapsed:true,position:"bottomright"}).addTo(M);}catch(e){}
 })();

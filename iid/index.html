@@ -116,7 +116,7 @@ h2{margin-top:28px;border-bottom:1px solid var(--line);padding-bottom:4px}
 <details><summary>Суточный ряд с промежуточными суммами</summary><div style="overflow-x:auto"><table class="iid" id="iid-series"></table></div></details>
 </main>
 <footer class="cbr-copy">© 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR. · <a href="https://github.com/SKB-BY/cbr-news-materials/blob/main/LICENSE">Лицензия</a> · Новости — собственность их источников.</footer>
-<script src="iid_data.js?v=t143"></script>
+<script src="iid_data.js?v=t153"></script>
 <script src="../assets/asof.js?v=t143"></script>
 <script src="../news-map/explain.js?v=t143"></script>
 <script>
@@ -157,7 +157,15 @@ function heat(){
   $("iid-heat").innerHTML=x;
 }
 [fc,fs,$("f-min")].forEach(e=>e.addEventListener("change",heat)); heat();
-$("iid-rows7").innerHTML="<tr><th>Страна (7 дней)</th><th>ИИД 7 дней</th><th>N за 7 дней</th></tr>"+I.rows7.map(r=>`<tr><td>${esc(r.country)}</td><td class="num">${r.iid7}</td><td class="num">${r.N7}</td></tr>`).join("");
+/* t153u: по странам — сегодня (неполные сутки), сутки, 7 дней; итог сходится с карточками выше; тот же файл, что у Новостной карты */
+(function(){const tp=I.today_partial, RT=I.rows_today||[]; let sT=0,sD=0,s7=0;
+ let x="<tr><th>Страна</th>"+(tp?"<th>Сегодня на "+tp.as_of+"</th>":"")+"<th>Сутки "+dmy(D.date)+"</th><th>ИИД 7 дней</th><th>N за 7 дней</th></tr>";
+ const cv=r=>r&&r.N?r.iid+" · N="+r.N:"—";
+ I.countries.forEach(c=>{const r=I.rows.find(q=>q.country===c)||{}, rt=RT.find(q=>q.country===c)||{}, r7=I.rows7.find(q=>q.country===c)||{};
+  sT+=rt.N||0; sD+=r.N||0; s7+=r7.N7||0;
+  x+=`<tr><td>${esc(c)}</td>`+(tp?`<td class="num">${cv(rt)}</td>`:"")+`<td class="num">${cv(r)}</td><td class="num">${r7.iid7==null?"—":r7.iid7}</td><td class="num">${r7.N7||0}</td></tr>`;});
+ x+="<tr><th>Всего</th>"+(tp?`<th class="num">${tp.iid} · N=${sT}</th>`:"")+`<th class="num">${D.iid} · N=${sD}</th><th class="num">${I.iid7}</th><th class="num">${s7}</th></tr>`;
+ $("iid-rows7").innerHTML=x; $("iid-rows7").dataset.snapshot=I.snapshot_id||I.snapshot_hash.slice(0,12);})();
 // график
 (function(){
   const S=I.series, w=1100, hh=260, pl=34, pb=40, n=S.length, bw=(w-pl-10)/n, maxN=Math.max(3,...S.map(s=>s.N));
