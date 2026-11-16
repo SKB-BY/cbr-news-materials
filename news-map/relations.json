@@ -5,8 +5,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 138,
+"evidence_count": 141,
 "evidence": [
+{
+"url": "https://lenta.ru/news/2026/11/16/pochti-20-dronov-vsu-sbili-na-podlete-k-moskve",
+"published_at": "2026-11-16T17:17:00Z",
+"quote": "Почти 20 дронов ВСУ сбили на подлете к Москве"
+},
 {
 "url": "https://tvzvezda.ru/news/202611161821-ILkjP.html",
 "published_at": "2026-11-16T15:41:22Z",
@@ -26,11 +31,6 @@
 "url": "https://topwar.ru/293651-vsu-stavjat-rekord-za-rekordom-po-chislu-primenjaemyh-bpla-prichiny-i-faktory.html",
 "published_at": "2026-11-16T13:19:36Z",
 "quote": "ВСУ ставят рекорд за рекордом по числу применяемых БПЛА: причины и факторы"
-},
-{
-"url": "https://tvzvezda.ru/news/202611161533-EeDWp.html",
-"published_at": "2026-11-16T12:49:01Z",
-"quote": "Дроноводы группировки войск «Центр» уничтожили пункт дислокации ВСУ"
 }
 ],
 "sentiment": {
@@ -740,6 +740,41 @@
 }
 },
 {
+"id": "rel_f3c6524622ea9804",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_48a4e1e33ddc917b",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://airforce-technology.com/news/usaf-b-21-raider-2",
+"published_at": "2026-11-16T17:05:18Z",
+"quote": "US Air Force B-21 Raider completes first weapons release test"
+},
+{
+"url": "https://israeldefense.co.il/en/node/72858",
+"published_at": "2026-11-16T00:00:00Z",
+"quote": "sharing US Air Force Validates B-21 Raider as Weapons Platform The stealth bomber completed a successful weapons release test in California ahead of its planned fielding at Ellsworth AFB next year."
+},
+{
+"url": "https://vpk.name/news/1172002_vvs_ssha_ispytali_sbros_vooruzheniya_s_noveishego_bombardirovshika_b-21_raider.html",
+"published_at": "2026-11-15T21:00:01Z",
+"quote": "ВВС США испытали сброс вооружения с новейшего бомбардировщика B-21 Raider"
+},
+{
+"url": "https://belvpo.com/vvs-ssha-proveli-ispytanie-po-sbrosu-vooruzheniya-s-b-21-raider",
+"published_at": "2026-11-13T18:45:45Z",
+"quote": "ВВС США провели испытание по сбросу вооружения с B-21 Raider"
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_6d0a9ce7c79afa84",
 "from": "ent_cd3c86a3a1af0b40",
 "to": "ent_b677547c4bb180c5",
@@ -1365,36 +1400,6 @@
 }
 },
 {
-"id": "rel_f3c6524622ea9804",
-"from": "ent_7902a5283b8ea891",
-"to": "ent_48a4e1e33ddc917b",
-"type": "испытание",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://israeldefense.co.il/en/node/72858",
-"published_at": "2026-11-16T00:00:00Z",
-"quote": "sharing US Air Force Validates B-21 Raider as Weapons Platform The stealth bomber completed a successful weapons release test in California ahead of its planned fielding at Ellsworth AFB next year."
-},
-{
-"url": "https://vpk.name/news/1172002_vvs_ssha_ispytali_sbros_vooruzheniya_s_noveishego_bombardirovshika_b-21_raider.html",
-"published_at": "2026-11-15T21:00:01Z",
-"quote": "ВВС США испытали сброс вооружения с новейшего бомбардировщика B-21 Raider"
-},
-{
-"url": "https://belvpo.com/vvs-ssha-proveli-ispytanie-po-sbrosu-vooruzheniya-s-b-21-raider",
-"published_at": "2026-11-13T18:45:45Z",
-"quote": "ВВС США провели испытание по сбросу вооружения с B-21 Raider"
-}
-],
-"sentiment": {
-"score_pm1": 0.1,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_ae6f9762c3b8e832",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_4dd10f19e652ad7c",
@@ -1512,6 +1517,36 @@
 "score_pm1": -0.4,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_3f547846b61c0215",
+"from": "ent_e66a2be7fe38d473",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://t.me/genprocrf/6963",
+"published_at": "2026-11-16T08:01:05Z",
+"quote": "За свои преступные действия на стороне киевского режима против ВС РФ он получил 4 миллиона…"
+},
+{
+"url": "https://t.me/uav_tech/36435",
+"published_at": "2026-06-15T15:35:17Z",
+"quote": "ТАСС со ссылкой на экс-сотрудника СБУ Прозорова опубликовало информацию о том, что \"львиная доля\" поставок дронов и комплектующих из Европы выполнялась для ВСУ через терминал \"Новой почты\" в Киеве, который был поражен ВС РФ."
+},
+{
+"url": "https://t.me/uav_tech/35818",
+"published_at": "2026-04-06T11:06:04Z",
+"quote": "The Sunday Times со ссылкой на высокопоставленных украинских военных чиновников пишет, что ВС РФ меняют тактику на Украине, ставя задачей истощить системы ПВО, такие как американские ракеты Patriot..."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -1752,6 +1787,36 @@
 "score_pm1": -0.4,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_e3954abeb6713184",
+"from": "ent_d380c846b4a97fed",
+"to": "ent_82e26e90a014009e",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://airforce-technology.com/news/usaf-f-15ex-kadena",
+"published_at": "2026-11-16T16:26:04Z",
+"quote": "US Air Force permanently deploys F-15EX jets to Kadena Air Base in Japan"
+},
+{
+"url": "https://theaviationist.com/2026/11/15/kadena-welcomes-its-first-f-15ex-eagle-ii-fighters",
+"published_at": "2026-11-15T12:14:40Z",
+"quote": "Air Force F-15EX Eagle II fighters jets permanently stationed at Kadena Air Base , Japan, arrived at their new home on Nov."
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%81%d1%88%d0%b0-%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%81%d1%82%d0%b8%d0%bb%d0%b8-%d0%b2-%d1%8f%d0%bf%d0%be%d0%bd%d0%b8%d0%b8-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d0%b8-f-15ex",
+"published_at": "2026-11-15T10:21:45Z",
+"quote": "США РАЗМЕСТИЛИ В ЯПОНИИ ИСТРЕБИТЕЛИ F-15EX Модернизированные истребители F-15EX были размещены на базе американских ВВС Кадена на южном японском острове Окинава."
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -2755,6 +2820,81 @@
 }
 },
 {
+"id": "rel_4a3f5c75d84790c5",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_c4d02534cbe847ba",
+"type": "опровержение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://defence-blog.com/ukraines-envoy-disputes-pentagon-on-starshield-speed-limits",
+"published_at": "2026-11-16T18:36:24Z",
+"quote": "Ukraine’s top diplomat in Washington says SpaceX’s Starshield satellite service is still being throttled in Russian-occupied parts of Ukraine for a seventh straight day, and he flatly disputed reports that the Pentagon has denied any restri"
+},
+{
+"url": "https://dronexl.co/2026/11/12/zelensky-starshield-100-mph-cap-returns-spacex-denies",
+"published_at": "2026-11-13T02:04:00Z",
+"quote": "</p> <h2 id=\"spacex-denies-any-change-and-the-pentagon-has-not-explained\">SpaceX Denies Any Change and the Pentagon Has Not Explained</h2> <p>SpaceX’s denial to Axios was the only on-record answer from the company or the U."
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_726d9b627198de8d",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_b677547c4bb180c5",
+"type": "опровержение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://defence-blog.com/ukraines-envoy-disputes-pentagon-on-starshield-speed-limits",
+"published_at": "2026-11-16T18:36:24Z",
+"quote": "Ukraine’s top diplomat in Washington says SpaceX’s Starshield satellite service is still being throttled in Russian-occupied parts of Ukraine for a seventh straight day, and he flatly disputed reports that the Pentagon has denied any restri"
+},
+{
+"url": "https://dronexl.co/2026/11/12/zelensky-starshield-100-mph-cap-returns-spacex-denies",
+"published_at": "2026-11-13T02:04:00Z",
+"quote": "</p> <h2 id=\"spacex-denies-any-change-and-the-pentagon-has-not-explained\">SpaceX Denies Any Change and the Pentagon Has Not Explained</h2> <p>SpaceX’s denial to Axios was the only on-record answer from the company or the U."
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_396398f5b10f021d",
+"from": "ent_c4d02534cbe847ba",
+"to": "ent_b677547c4bb180c5",
+"type": "опровержение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://defence-blog.com/ukraines-envoy-disputes-pentagon-on-starshield-speed-limits",
+"published_at": "2026-11-16T18:36:24Z",
+"quote": "Ukraine’s top diplomat in Washington says SpaceX’s Starshield satellite service is still being throttled in Russian-occupied parts of Ukraine for a seventh straight day, and he flatly disputed reports that the Pentagon has denied any restri"
+},
+{
+"url": "https://dronexl.co/2026/11/12/zelensky-starshield-100-mph-cap-returns-spacex-denies",
+"published_at": "2026-11-13T02:04:00Z",
+"quote": "</p> <h2 id=\"spacex-denies-any-change-and-the-pentagon-has-not-explained\">SpaceX Denies Any Change and the Pentagon Has Not Explained</h2> <p>SpaceX’s denial to Axios was the only on-record answer from the company or the U."
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_a2ecf09c9e1dffc9",
 "from": "ent_72167ac7999f6b9e",
 "to": "ent_7c890d4124b478ff",
@@ -3405,9 +3545,9 @@
 }
 },
 {
-"id": "rel_3f547846b61c0215",
+"id": "rel_6c49fbfd90940173",
 "from": "ent_e66a2be7fe38d473",
-"to": "ent_28fea1c77915c37a",
+"to": "ent_76aae9f116d88191",
 "type": "поставка",
 "event_date": null,
 "evidence_count": 2,
@@ -3430,26 +3570,26 @@
 }
 },
 {
-"id": "rel_6c49fbfd90940173",
+"id": "rel_4f4521c3bfd08d10",
 "from": "ent_e66a2be7fe38d473",
-"to": "ent_76aae9f116d88191",
+"to": "ent_c32678e4a0ae4599",
 "type": "поставка",
 "event_date": null,
 "evidence_count": 2,
 "evidence": [
 {
+"url": "https://t.me/genprocrf/6963",
+"published_at": "2026-11-16T08:01:05Z",
+"quote": "За свои преступные действия на стороне киевского режима против ВС РФ он получил 4 миллиона…"
+},
+{
 "url": "https://t.me/uav_tech/36435",
 "published_at": "2026-06-15T15:35:17Z",
 "quote": "ТАСС со ссылкой на экс-сотрудника СБУ Прозорова опубликовало информацию о том, что \"львиная доля\" поставок дронов и комплектующих из Европы выполнялась для ВСУ через терминал \"Новой почты\" в Киеве, который был поражен ВС РФ."
-},
-{
-"url": "https://t.me/uav_tech/35818",
-"published_at": "2026-04-06T11:06:04Z",
-"quote": "The Sunday Times со ссылкой на высокопоставленных украинских военных чиновников пишет, что ВС РФ меняют тактику на Украине, ставя задачей истощить системы ПВО, такие как американские ракеты Patriot..."
 }
 ],
 "sentiment": {
-"score_pm1": -0.1,
+"score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -3575,6 +3715,56 @@
 ],
 "sentiment": {
 "score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c08f23a6c3bbfd45",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_5ef06d4929a4484b",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://lenta.ru/news/2026/11/16/pochti-20-dronov-vsu-sbili-na-podlete-k-moskve",
+"published_at": "2026-11-16T17:17:00Z",
+"quote": "Почти 20 дронов ВСУ сбили на подлете к Москве"
+},
+{
+"url": "https://t.me/uav_tech/36026",
+"published_at": "2026-04-27T12:20:13Z",
+"quote": "Конечно, Москва должна отвечать на такое именно ударами по конкретным предприятиям европейской военной промышленности, которые работают в интересах ВСУ: вначале точечно, а потом по нарастающей, если европейские союзники Украины продолжат ей"
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_b6d89c0b49d2e82c",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "Army Photo) Palantir’s Maven Smart System has been widely used by Ukraine in its fight against Russia while the Pentagon has adopted it as its core military software and has used it in its war with Iran this year."
+},
+{
+"url": "https://t.me/quadro_news/5109",
+"published_at": "2026-04-24T11:00:18Z",
+"quote": "Ещё в 2024 году такие комплексы отправили для тестирования на Украину — и, по данным Пентагона, они сбили уже более 1."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -3855,31 +4045,6 @@
 }
 },
 {
-"id": "rel_e3954abeb6713184",
-"from": "ent_d380c846b4a97fed",
-"to": "ent_82e26e90a014009e",
-"type": "дислокация",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://theaviationist.com/2026/11/15/kadena-welcomes-its-first-f-15ex-eagle-ii-fighters",
-"published_at": "2026-11-15T12:14:40Z",
-"quote": "Air Force F-15EX Eagle II fighters jets permanently stationed at Kadena Air Base , Japan, arrived at their new home on Nov."
-},
-{
-"url": "https://bastion-karpenko.ru/%d1%81%d1%88%d0%b0-%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%81%d1%82%d0%b8%d0%bb%d0%b8-%d0%b2-%d1%8f%d0%bf%d0%be%d0%bd%d0%b8%d0%b8-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d0%b8-f-15ex",
-"published_at": "2026-11-15T10:21:45Z",
-"quote": "США РАЗМЕСТИЛИ В ЯПОНИИ ИСТРЕБИТЕЛИ F-15EX Модернизированные истребители F-15EX были размещены на базе американских ВВС Кадена на южном японском острове Окинава."
-}
-],
-"sentiment": {
-"score_pm1": 0.1,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_392ab80f6ee66acb",
 "from": "ent_e66a2be7fe38d473",
 "to": "ent_0a0009fc82d3fadc",
@@ -3950,6 +4115,56 @@
 ],
 "sentiment": {
 "score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_61f3b373a5d2df6f",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_8a1fb18f6e513bb6",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://belvpo.com/vsu-poteryali-do-330-voennyh-i-tank-v-zone-dejstvij-czentra-za-sutki",
+"published_at": "2026-11-16T09:13:45Z",
+"quote": "Нанесли поражение живой силе и технике трех механизированных, штурмовой бригад, штурмового полка ВСУ, двух бригад морской пехоты и двух бригад нацгвардии в районах населенных пунктов Новосергеевка, Криворожье, Курицыно, Сергеевка, Львовка, "
+},
+{
+"url": "https://t.me/RosgvardOfficial/15781",
+"published_at": "2026-11-16T06:01:01Z",
+"quote": "В ЛНР спецназ Росгвардии уничтожил ударные беспилотники ВСУ 😎В ходе выполнения боевой задачи на территории Луганской Народной Республики сотрудники СОБР своевременно обнаружили БПЛА, летевший в их сторону."
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_39afbfb4accaa021",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_42945ce6b8f796c3",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "Army Photo) Palantir’s Maven Smart System has been widely used by Ukraine in its fight against Russia while the Pentagon has adopted it as its core military software and has used it in its war with Iran this year."
+},
+{
+"url": "https://nypost.com/2026/11/16/us-news/pentagon-ignored-warnings-before-iran-drone-killed-6-us-service-members-in-kuwait-whistleblower-claims",
+"published_at": "2026-11-16T12:05:27Z",
+"quote": "Stephen Ramsbottom claims the Pentagon ignored warnings before an Iranian drone strike killed six US service members in Kuwait."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -9645,66 +9860,6 @@
 }
 },
 {
-"id": "rel_4a3f5c75d84790c5",
-"from": "ent_b0bba4c8f275ffd0",
-"to": "ent_c4d02534cbe847ba",
-"type": "опровержение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://dronexl.co/2026/11/12/zelensky-starshield-100-mph-cap-returns-spacex-denies",
-"published_at": "2026-11-13T02:04:00Z",
-"quote": "</p> <h2 id=\"spacex-denies-any-change-and-the-pentagon-has-not-explained\">SpaceX Denies Any Change and the Pentagon Has Not Explained</h2> <p>SpaceX’s denial to Axios was the only on-record answer from the company or the U."
-}
-],
-"sentiment": {
-"score_pm1": 0.5,
-"score_pm2": 1,
-"label": "умеренно позитивный"
-}
-},
-{
-"id": "rel_726d9b627198de8d",
-"from": "ent_b0bba4c8f275ffd0",
-"to": "ent_b677547c4bb180c5",
-"type": "опровержение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://dronexl.co/2026/11/12/zelensky-starshield-100-mph-cap-returns-spacex-denies",
-"published_at": "2026-11-13T02:04:00Z",
-"quote": "</p> <h2 id=\"spacex-denies-any-change-and-the-pentagon-has-not-explained\">SpaceX Denies Any Change and the Pentagon Has Not Explained</h2> <p>SpaceX’s denial to Axios was the only on-record answer from the company or the U."
-}
-],
-"sentiment": {
-"score_pm1": 0.5,
-"score_pm2": 1,
-"label": "умеренно позитивный"
-}
-},
-{
-"id": "rel_396398f5b10f021d",
-"from": "ent_c4d02534cbe847ba",
-"to": "ent_b677547c4bb180c5",
-"type": "опровержение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://dronexl.co/2026/11/12/zelensky-starshield-100-mph-cap-returns-spacex-denies",
-"published_at": "2026-11-13T02:04:00Z",
-"quote": "</p> <h2 id=\"spacex-denies-any-change-and-the-pentagon-has-not-explained\">SpaceX Denies Any Change and the Pentagon Has Not Explained</h2> <p>SpaceX’s denial to Axios was the only on-record answer from the company or the U."
-}
-],
-"sentiment": {
-"score_pm1": 0.5,
-"score_pm2": 1,
-"label": "умеренно позитивный"
-}
-},
-{
 "id": "rel_310de8c9ca397f82",
 "from": "ent_b0bba4c8f275ffd0",
 "to": "ent_15f8eb5484169610",
@@ -13445,26 +13600,6 @@
 }
 },
 {
-"id": "rel_4f4521c3bfd08d10",
-"from": "ent_e66a2be7fe38d473",
-"to": "ent_c32678e4a0ae4599",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://t.me/uav_tech/36435",
-"published_at": "2026-06-15T15:35:17Z",
-"quote": "ТАСС со ссылкой на экс-сотрудника СБУ Прозорова опубликовало информацию о том, что \"львиная доля\" поставок дронов и комплектующих из Европы выполнялась для ВСУ через терминал \"Новой почты\" в Киеве, который был поражен ВС РФ."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_6d32525f784e7f48",
 "from": "ent_a02f859093a4e63a",
 "to": "ent_28fea1c77915c37a",
@@ -14805,26 +14940,6 @@
 }
 },
 {
-"id": "rel_c08f23a6c3bbfd45",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_5ef06d4929a4484b",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://t.me/uav_tech/36026",
-"published_at": "2026-04-27T12:20:13Z",
-"quote": "Конечно, Москва должна отвечать на такое именно ударами по конкретным предприятиям европейской военной промышленности, которые работают в интересах ВСУ: вначале точечно, а потом по нарастающей, если европейские союзники Украины продолжат ей"
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_94b0b93bf6ec3ee6",
 "from": "ent_f7a9f659b73e4140",
 "to": "ent_6db9790c0b5ee6ca",
@@ -14962,26 +15077,6 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_b6d89c0b49d2e82c",
-"from": "ent_b0bba4c8f275ffd0",
-"to": "ent_76aae9f116d88191",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://t.me/quadro_news/5109",
-"published_at": "2026-04-24T11:00:18Z",
-"quote": "Ещё в 2024 году такие комплексы отправили для тестирования на Украину — и, по данным Пентагона, они сбили уже более 1."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -18765,26 +18860,6 @@
 }
 },
 {
-"id": "rel_61f3b373a5d2df6f",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_8a1fb18f6e513bb6",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://belvpo.com/vsu-poteryali-do-330-voennyh-i-tank-v-zone-dejstvij-czentra-za-sutki",
-"published_at": "2026-11-16T09:13:45Z",
-"quote": "Нанесли поражение живой силе и технике трех механизированных, штурмовой бригад, штурмового полка ВСУ, двух бригад морской пехоты и двух бригад нацгвардии в районах населенных пунктов Новосергеевка, Криворожье, Курицыно, Сергеевка, Львовка, "
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_2d6fd701c7efd3e9",
 "from": "ent_d380c846b4a97fed",
 "to": "ent_82e26e90a014009e",
@@ -19225,26 +19300,6 @@
 }
 },
 {
-"id": "rel_39afbfb4accaa021",
-"from": "ent_b0bba4c8f275ffd0",
-"to": "ent_42945ce6b8f796c3",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://nypost.com/2026/11/16/us-news/pentagon-ignored-warnings-before-iran-drone-killed-6-us-service-members-in-kuwait-whistleblower-claims",
-"published_at": "2026-11-16T12:05:27Z",
-"quote": "Stephen Ramsbottom claims the Pentagon ignored warnings before an Iranian drone strike killed six US service members in Kuwait."
-}
-],
-"sentiment": {
-"score_pm1": -0.6,
-"score_pm2": -2,
-"label": "резко негативный"
-}
-},
-{
 "id": "rel_29ec2d8578a661cd",
 "from": "ent_e4e2df975bde8376",
 "to": "ent_76aae9f116d88191",
@@ -19562,6 +19617,1126 @@
 "score_pm1": -0.6,
 "score_pm2": -2,
 "label": "резко негативный"
+}
+},
+{
+"id": "rel_e3b8c7a8f52deb83",
+"from": "ent_fa323d4f8a738909",
+"to": "ent_461f895cd3ecdc32",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://army-technology.com/news/us-army-drone-test-germany",
+"published_at": "2026-11-16T16:16:06Z",
+"quote": "The US Army has conducted a live-fire demonstration in Germany involving coordinated drone strikes, uncrewed ground vehicles and existing missile systems, as it evaluates options for future formations."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_429782e0c62e9f38",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_82e26e90a014009e",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airforce-technology.com/news/usaf-f-15ex-kadena",
+"published_at": "2026-11-16T16:26:04Z",
+"quote": "US Air Force permanently deploys F-15EX jets to Kadena Air Base in Japan"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_d906b879443ce7a0",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "Army Photo) Palantir’s Maven Smart System has been widely used by Ukraine in its fight against Russia while the Pentagon has adopted it as its core military software and has used it in its war with Iran this year."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_48e709e8fabcb811",
+"from": "ent_d044254c49a81c46",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "“I’ve yet to find anything that can pull together as much of a diverse set of data and allow us the ability to make sense of that data as flexibly,” NATO’s top commander, US Air Force General Alexus Grynkewich, told Reuters this summer."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_f94c49d056d7f728",
+"from": "ent_d044254c49a81c46",
+"to": "ent_7902a5283b8ea891",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "“I’ve yet to find anything that can pull together as much of a diverse set of data and allow us the ability to make sense of that data as flexibly,” NATO’s top commander, US Air Force General Alexus Grynkewich, told Reuters this summer."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6efc067612db71eb",
+"from": "ent_b89569b4c89018bb",
+"to": "ent_7af60e51312772aa",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "Helsing said it could supply an initial version of its Clarity software within a matter of months to the German military’s Lithuania brigade, widely viewed as the Bundeswehr unit most likely to see frontline combat in the event of a conflic"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_efaf27605f6b77f6",
+"from": "ent_b89569b4c89018bb",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "Helsing said it could supply an initial version of its Clarity software within a matter of months to the German military’s Lithuania brigade, widely viewed as the Bundeswehr unit most likely to see frontline combat in the event of a conflic"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_8e3a989d6c0f5241",
+"from": "ent_b89569b4c89018bb",
+"to": "ent_9e51a7ee6340af7b",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "Helsing said it could supply an initial version of its Clarity software within a matter of months to the German military’s Lithuania brigade, widely viewed as the Bundeswehr unit most likely to see frontline combat in the event of a conflic"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_a89bf9c799bb1e2d",
+"from": "ent_7af60e51312772aa",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "Helsing said it could supply an initial version of its Clarity software within a matter of months to the German military’s Lithuania brigade, widely viewed as the Bundeswehr unit most likely to see frontline combat in the event of a conflic"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_fd502ed279b6c82b",
+"from": "ent_7af60e51312772aa",
+"to": "ent_9e51a7ee6340af7b",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "Helsing said it could supply an initial version of its Clarity software within a matter of months to the German military’s Lithuania brigade, widely viewed as the Bundeswehr unit most likely to see frontline combat in the event of a conflic"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_2f56c2499c51b06c",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_a6df7175414b7cd4",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "Other European makers of military software include Denmark’s Systematic, whose SitaWare product is used by the Bundeswehr and parts of NATO, as well as traditional defense companies like France’s Thales and Safran, plus startups such as Par"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_d2202510bc7ce96c",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_cbecc516f76ba895",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "Other European makers of military software include Denmark’s Systematic, whose SitaWare product is used by the Bundeswehr and parts of NATO, as well as traditional defense companies like France’s Thales and Safran, plus startups such as Par"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_ed1eae48f8a1a174",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_648194e6a050cdd8",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "Other European makers of military software include Denmark’s Systematic, whose SitaWare product is used by the Bundeswehr and parts of NATO, as well as traditional defense companies like France’s Thales and Safran, plus startups such as Par"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c793b4663c9337e5",
+"from": "ent_7af60e51312772aa",
+"to": "ent_a6df7175414b7cd4",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "Other European makers of military software include Denmark’s Systematic, whose SitaWare product is used by the Bundeswehr and parts of NATO, as well as traditional defense companies like France’s Thales and Safran, plus startups such as Par"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_43e24389e277df02",
+"from": "ent_7af60e51312772aa",
+"to": "ent_cbecc516f76ba895",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "Other European makers of military software include Denmark’s Systematic, whose SitaWare product is used by the Bundeswehr and parts of NATO, as well as traditional defense companies like France’s Thales and Safran, plus startups such as Par"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6031a58198a9006b",
+"from": "ent_7af60e51312772aa",
+"to": "ent_648194e6a050cdd8",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "Other European makers of military software include Denmark’s Systematic, whose SitaWare product is used by the Bundeswehr and parts of NATO, as well as traditional defense companies like France’s Thales and Safran, plus startups such as Par"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_cca105da55e9a5b2",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_76aae9f116d88191",
+"type": "опровержение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/ukraines-envoy-disputes-pentagon-on-starshield-speed-limits",
+"published_at": "2026-11-16T18:36:24Z",
+"quote": "Ukraine’s top diplomat in Washington says SpaceX’s Starshield satellite service is still being throttled in Russian-occupied parts of Ukraine for a seventh straight day, and he flatly disputed reports that the Pentagon has denied any restri"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_061a5d46ec80f76a",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_503b5bb2fa38e881",
+"type": "опровержение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/ukraines-envoy-disputes-pentagon-on-starshield-speed-limits",
+"published_at": "2026-11-16T18:36:24Z",
+"quote": "Ukraine’s top diplomat in Washington says SpaceX’s Starshield satellite service is still being throttled in Russian-occupied parts of Ukraine for a seventh straight day, and he flatly disputed reports that the Pentagon has denied any restri"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_5ba22f5d6ba8ab7c",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_ea737724a72411d4",
+"type": "опровержение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/ukraines-envoy-disputes-pentagon-on-starshield-speed-limits",
+"published_at": "2026-11-16T18:36:24Z",
+"quote": "Ukraine’s top diplomat in Washington says SpaceX’s Starshield satellite service is still being throttled in Russian-occupied parts of Ukraine for a seventh straight day, and he flatly disputed reports that the Pentagon has denied any restri"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_d3859a0d1e55d2d9",
+"from": "ent_c4d02534cbe847ba",
+"to": "ent_76aae9f116d88191",
+"type": "опровержение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/ukraines-envoy-disputes-pentagon-on-starshield-speed-limits",
+"published_at": "2026-11-16T18:36:24Z",
+"quote": "Ukraine’s top diplomat in Washington says SpaceX’s Starshield satellite service is still being throttled in Russian-occupied parts of Ukraine for a seventh straight day, and he flatly disputed reports that the Pentagon has denied any restri"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_a1f1966e6cb3974a",
+"from": "ent_c4d02534cbe847ba",
+"to": "ent_503b5bb2fa38e881",
+"type": "опровержение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/ukraines-envoy-disputes-pentagon-on-starshield-speed-limits",
+"published_at": "2026-11-16T18:36:24Z",
+"quote": "Ukraine’s top diplomat in Washington says SpaceX’s Starshield satellite service is still being throttled in Russian-occupied parts of Ukraine for a seventh straight day, and he flatly disputed reports that the Pentagon has denied any restri"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_dac2665caa8ab53c",
+"from": "ent_c4d02534cbe847ba",
+"to": "ent_ea737724a72411d4",
+"type": "опровержение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/ukraines-envoy-disputes-pentagon-on-starshield-speed-limits",
+"published_at": "2026-11-16T18:36:24Z",
+"quote": "Ukraine’s top diplomat in Washington says SpaceX’s Starshield satellite service is still being throttled in Russian-occupied parts of Ukraine for a seventh straight day, and he flatly disputed reports that the Pentagon has denied any restri"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_be181dc7e34feec6",
+"from": "ent_b677547c4bb180c5",
+"to": "ent_86a408b5b14fa5a6",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/northrop-gets-1-6b-order-for-patriot-pac-3-rocket-motors",
+"published_at": "2026-11-16T17:46:40Z",
+"quote": "6 billion order to build more rocket motors for the PAC-3 MSE, the Patriot interceptor at the heart of U."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_f748e14ed1e06413",
+"from": "ent_cc536968c15118bb",
+"to": "ent_868a15ba4aeb446a",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/northrop-gets-1-6b-order-for-patriot-pac-3-rocket-motors",
+"published_at": "2026-11-16T17:46:40Z",
+"quote": "The multi-year order covers solid rocket motors and ignition safety devices that Northrop supplies to Lockheed Martin, which builds the missile for […"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_b3b7629cff43d134",
+"from": "ent_cc536968c15118bb",
+"to": "ent_85a81afee9e48a7e",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_b7f4f2555b552d1d",
+"from": "ent_cc536968c15118bb",
+"to": "ent_6eec13693e0c7343",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6308407acab4588d",
+"from": "ent_cc536968c15118bb",
+"to": "ent_b0bba4c8f275ffd0",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_2de5f9d3e30a7137",
+"from": "ent_cc536968c15118bb",
+"to": "ent_1b51d8528a19c285",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_9041a2b410a1b645",
+"from": "ent_cc536968c15118bb",
+"to": "ent_0a42b13c39536e51",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_9e873ddf74cb9621",
+"from": "ent_cc536968c15118bb",
+"to": "ent_5c9f10c24f38507c",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e3c63e376e17a5ee",
+"from": "ent_85a81afee9e48a7e",
+"to": "ent_6eec13693e0c7343",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6d13276848faa8d6",
+"from": "ent_85a81afee9e48a7e",
+"to": "ent_b0bba4c8f275ffd0",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_3aa5359b97d49282",
+"from": "ent_85a81afee9e48a7e",
+"to": "ent_1b51d8528a19c285",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_dd1069dfa15cae80",
+"from": "ent_85a81afee9e48a7e",
+"to": "ent_0a42b13c39536e51",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_ee62be987b5e318e",
+"from": "ent_85a81afee9e48a7e",
+"to": "ent_5c9f10c24f38507c",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_727106ee485af1cf",
+"from": "ent_6eec13693e0c7343",
+"to": "ent_b0bba4c8f275ffd0",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_84f37f883045ec1b",
+"from": "ent_6eec13693e0c7343",
+"to": "ent_1b51d8528a19c285",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_4e414ba747732ef1",
+"from": "ent_6eec13693e0c7343",
+"to": "ent_0a42b13c39536e51",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_201a5de52c64b795",
+"from": "ent_6eec13693e0c7343",
+"to": "ent_5c9f10c24f38507c",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_57afd2b002627dc6",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_1b51d8528a19c285",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_3c579602812d9a67",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_0a42b13c39536e51",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_9113d391dca70659",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_5c9f10c24f38507c",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_310b6190f3f1834e",
+"from": "ent_1b51d8528a19c285",
+"to": "ent_0a42b13c39536e51",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_90a457b201882cfe",
+"from": "ent_1b51d8528a19c285",
+"to": "ent_5c9f10c24f38507c",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_a520f1c4fb50227a",
+"from": "ent_0a42b13c39536e51",
+"to": "ent_5c9f10c24f38507c",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_909e32e453d69e3c",
+"from": "ent_1e93cabae4a2c8b7",
+"to": "ent_cc536968c15118bb",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_daa915c79a3d309b",
+"from": "ent_1e93cabae4a2c8b7",
+"to": "ent_85a81afee9e48a7e",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_8709a1f1b9fc2521",
+"from": "ent_1e93cabae4a2c8b7",
+"to": "ent_6eec13693e0c7343",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_fa959814ec76b6bd",
+"from": "ent_1e93cabae4a2c8b7",
+"to": "ent_b0bba4c8f275ffd0",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_bb639808008ecf09",
+"from": "ent_1e93cabae4a2c8b7",
+"to": "ent_1b51d8528a19c285",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_285306dcc2de26c2",
+"from": "ent_1e93cabae4a2c8b7",
+"to": "ent_0a42b13c39536e51",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_198c4db2ddaafc9c",
+"from": "ent_1e93cabae4a2c8b7",
+"to": "ent_5c9f10c24f38507c",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"published_at": "2026-11-16T17:58:46Z",
+"quote": "According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_3c02b7037a03c1ba",
+"from": "ent_1d9da8c11eb4d96b",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://delo.ua/ru/news/ukrainskie-drony-ostanovili-tri-bolsix-npz-postavlyayushhix-goryucee-v-moskvu-476489",
+"published_at": "2026-11-16T16:08:23Z",
+"quote": "По оценке эксперта американского аналитического центра Rand Corp Майкла Бонерта, ключевые предприятия, поставляющие нефтепродукты в российскую столицу, потеряли основную часть своих мощностей."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_593d9b6d2f0f9ed7",
+"from": "ent_1d9da8c11eb4d96b",
+"to": "ent_b677547c4bb180c5",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://delo.ua/ru/news/ukrainskie-drony-ostanovili-tri-bolsix-npz-postavlyayushhix-goryucee-v-moskvu-476489",
+"published_at": "2026-11-16T16:08:23Z",
+"quote": "По оценке эксперта американского аналитического центра Rand Corp Майкла Бонерта, ключевые предприятия, поставляющие нефтепродукты в российскую столицу, потеряли основную часть своих мощностей."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_fe9c33b88969310a",
+"from": "ent_1af8e80224936974",
+"to": "ent_0c7791d169d924d7",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://pravda.com.ua/eng/news/2026/11/16/8063141",
+"published_at": "2026-11-16T16:58:00Z",
+"quote": "Ukrainian President Volodymyr Zelenskyy recently said that SpaceX told the Ukrainian Defence Ministry that it has not imposed any restrictions on Starshield operations and that the problem is technical in nature."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_514788a409332765",
+"from": "ent_1af8e80224936974",
+"to": "ent_c4d02534cbe847ba",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://pravda.com.ua/eng/news/2026/11/16/8063141",
+"published_at": "2026-11-16T16:58:00Z",
+"quote": "Ukrainian President Volodymyr Zelenskyy recently said that SpaceX told the Ukrainian Defence Ministry that it has not imposed any restrictions on Starshield operations and that the problem is technical in nature."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 }
 ]
