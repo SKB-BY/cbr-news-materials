@@ -1,5 +1,6 @@
 /* Контур информационного мониторинга OSINT ЦБР РБ — шапка (последнее обновление, актуально, СБОР ДАННЫХ, До следующего среза ЧЧ:ММ),
-   справка по окрасу, субъективности и ОИ 5×5, разъяснение текущего значения при наведении (t72u, t83u, t113u, 14.11.2026). */
+   справка по окрасу, субъективности и ОИ 5×5, разъяснение текущего значения при наведении (t72u, t83u, t113u, 14.11.2026);
+   t136u-1 (16.11.2026): значки окраса и субъективности из разметки отчёта. */
 (function(){
 "use strict";
 var TZ="Europe/Minsk";
@@ -260,6 +261,9 @@ function enhanceReport(){
       var sp=[].slice.call(li.querySelectorAll("span[title^='ОИ 5×5:']")); if(!sp.length) return;
       sp.forEach(function(s,i){ var c=s.textContent.trim(); s.removeAttribute("title"); s.setAttribute("tabindex","0"); s.setAttribute("data-x","oi"); s.setAttribute("data-c",c);
         s.setAttribute("data-k", /ОИ со временем\s*$/.test((s.previousSibling&&s.previousSibling.textContent)||"")?"1":"0"); s.setAttribute("data-u",u); s.classList.add("cbr-oi"); });
+      /* t136u-1: значки окраса и субъективности уже в разметке отчёта (public_export.okr_badge/subj_badge) — не дублируем */
+      li.querySelectorAll("[data-x=okr],[data-x=subj]").forEach(function(b){ b.removeAttribute("title"); });
+      if(li.querySelector("[data-x=okr]")) return;
       var h=D.U[fnv(u)], x=h&&D.X[h]; if(!x) return;
       var last=sp[sp.length-1], w=document.createElement("span"); w.innerHTML=" · "+API.okrBadge(x[1],x[0],{h:h})+" "+API.subjBadge(x[2],{h:h});
       last.parentNode.insertBefore(w,last.nextSibling);
