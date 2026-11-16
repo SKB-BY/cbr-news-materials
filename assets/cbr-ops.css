@@ -113,3 +113,6 @@ details.cbr-help-inline summary{cursor:pointer;font:600 11px var(--sans);text-tr
 /* общие для карт */
 .oi{font-family:var(--mono)}
 .s-chip{display:inline-block;font:600 11px/17px var(--mono);padding:0 6px;border-radius:2px;color:#0b0d10}
+/* t154u: картинка цветовой таблицы ОИ 5×5 — только для github.com (там встроенные стили вырезаются); на Pages видна цветная HTML-таблица */
+img.oi-gh-only{display:none!important}
+.cbr-doc table.oi-colors td{border:0}
