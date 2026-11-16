@@ -21,10 +21,8 @@
 .iid-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;margin:12px 0}
 .iid-card{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:14px;min-width:0;overflow:hidden}
 .iid-label{font:600 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
-.iid-big{font:600 48px var(--mono);line-height:1.1}
-.iid-big.iid-text{font:600 18px/1.3 var(--sans);overflow-wrap:anywhere;word-wrap:break-word;max-width:100%}
+.iid-big{font:600 28px/1.2 var(--mono);overflow-wrap:anywhere;word-wrap:break-word;word-break:break-word;max-width:100%}
 .iid-card .small sub{font-size:85%;line-height:0}
-@media (max-width:600px){.iid-big{font-size:40px}.iid-big.iid-text{font-size:16px}}
 .iid-zone{font:600 14px var(--mono);padding:2px 8px;border-radius:3px;display:inline-block}
 .z0{background:#1f6f43;color:#fff}.z1{background:#8a7a2a;color:#fff}.z2{background:#b5602a;color:#fff}.z3{background:#a3262a;color:#fff}
 .zonebar{display:flex;margin-top:8px;font:11px var(--mono)}.zonebar span{flex:1;padding:3px 4px;text-align:center}
@@ -133,8 +131,7 @@ const arrow=d=>d>0?"▲ +"+d:d<0?"▼ "+d:"±0";
 const dmy=s=>s.slice(8,10)+"."+s.slice(5,7)+"."+s.slice(0,4);
 const D=I.day, tp=I.top;
 $("iid-asof").textContent="Расчёт: "+I.computed_at.replace("T"," ").slice(0,16)+" Europe/Minsk · методика "+I.method_version+" · словари "+I.lex_version+" · снимок "+I.snapshot_hash.slice(0,12)+" · материалов о Беларуси в окне 62 сут.: "+I.counts.iid_materials+(I.checks&&I.checks.ok?" · самопроверки пройдены":"");
-const isTextVal=v=>{const x=String(v).replace(/\s/g,"").replace(",",".");return v!=="—"&&!/^-?\d+(\.\d+)?$/.test(x);};
-const card=(l,v,z,s)=>`<div class="iid-card"><div class="iid-label">${l}</div><div class="iid-big${isTextVal(v)?" iid-text":""}">${v}</div>${z?`<span class="iid-zone ${zc(+v)}">${z}</span>`:""}<div class="small muted" style="margin-top:6px">${s||""}</div></div>`;
+const card=(l,v,z,s)=>`<div class="iid-card"><div class="iid-label">${l}</div><div class="iid-big">${v}</div>${z?`<span class="iid-zone ${zc(+v)}">${z}</span>`:""}<div class="small muted" style="margin-top:6px">${s||""}</div></div>`;
 let h=card("ИИД за сутки "+dmy(D.date),D.iid,D.zone,arrow(D.delta)+" к предыдущим суткам ("+D.prev_iid+") · N = "+D.N+", |M⁻| = "+D.nneg);
 h+=card("ИИД за 7 дней",I.iid7,I.iid7<=25?"спокойно":I.iid7<=50?"умеренно":I.iid7<=75?"высокое":"критическое",arrow(I.delta7)+" к предыдущим 7 дням ("+I.iid7prev+") · среднее суточных: "+I.iid7days.join(" + ")+" / 7");
 h+=card("Главный вклад",tp?esc(tp.country):"—","",tp?("«"+esc(tp.sphere)+"»: "+nf(tp.contrib,1)+" п. = ИИД × N<sub>ячейки</sub> / N<sub>суток</sub>"):"негативных материалов за сутки нет");

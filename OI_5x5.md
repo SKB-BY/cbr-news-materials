@@ -137,13 +137,20 @@
 
 Фон / текст:
 
-| сведения \ источник | А | Б | В | Г | Д |
-|---|---|---|---|---|---|
-| 1 | А1 `#0B5D2A` / `#fff` | Б1 `#1B7A3D` / `#fff` | В1 `#2E9A4F` / `#fff` | Г1 `#5BB86A` / `#000` | Д1 `#A8D5B0` / `#000` |
-| 2 | А2 `#0D47A1` / `#fff` | Б2 `#1565C0` / `#fff` | В2 `#1E88E5` / `#fff` | Г2 `#64B5F6` / `#000` | Д2 `#BBDEFB` / `#000` |
-| 3 | А3 `#F9A825` / `#000` | Б3 `#FBC02D` / `#000` | В3 `#FDD835` / `#000` | Г3 `#FFEE58` / `#000` | Д3 `#FFF59D` / `#000` |
-| 4 | А4 `#EF6C00` / `#fff` | Б4 `#FB8C00` / `#000` | В4 `#FFA726` / `#000` | Г4 `#FFCC80` / `#000` | Д4 `#BDBDBD` / `#000` |
-| 5 | А5 `#B71C1C` / `#fff` | Б5 `#C62828` / `#fff` | В5 `#E53935` / `#fff` | Г5 `#EF5350` / `#000` | Д5 `#4A0000` / `#fff` |
+<!-- t154u: oi5x5 colors -->
+
+<img class="oi-gh-only" src="data/oi5x5/oi5x5_colors.svg" alt="Цветовой код ОИ 5×5: фон / текст для 25 кодов (А1–Д5)" width="782">
+
+<table class="oi-colors" style="border-collapse:separate;border-spacing:3px">
+<thead><tr><th>сведения \ источник</th><th>А</th><th>Б</th><th>В</th><th>Г</th><th>Д</th></tr></thead>
+<tbody>
+<tr><th>1</th><td data-oi="А1" style="background:#0B5D2A;color:#fff;text-align:center;padding:.45em .5em"><b>А1</b><br><span style="color:#fff">#0B5D2A / #fff</span></td><td data-oi="Б1" style="background:#1B7A3D;color:#fff;text-align:center;padding:.45em .5em"><b>Б1</b><br><span style="color:#fff">#1B7A3D / #fff</span></td><td data-oi="В1" style="background:#2E9A4F;color:#fff;text-align:center;padding:.45em .5em"><b>В1</b><br><span style="color:#fff">#2E9A4F / #fff</span></td><td data-oi="Г1" style="background:#5BB86A;color:#000;text-align:center;padding:.45em .5em"><b>Г1</b><br><span style="color:#000">#5BB86A / #000</span></td><td data-oi="Д1" style="background:#A8D5B0;color:#000;text-align:center;padding:.45em .5em"><b>Д1</b><br><span style="color:#000">#A8D5B0 / #000</span></td></tr>
+<tr><th>2</th><td data-oi="А2" style="background:#0D47A1;color:#fff;text-align:center;padding:.45em .5em"><b>А2</b><br><span style="color:#fff">#0D47A1 / #fff</span></td><td data-oi="Б2" style="background:#1565C0;color:#fff;text-align:center;padding:.45em .5em"><b>Б2</b><br><span style="color:#fff">#1565C0 / #fff</span></td><td data-oi="В2" style="background:#1E88E5;color:#fff;text-align:center;padding:.45em .5em"><b>В2</b><br><span style="color:#fff">#1E88E5 / #fff</span></td><td data-oi="Г2" style="background:#64B5F6;color:#000;text-align:center;padding:.45em .5em"><b>Г2</b><br><span style="color:#000">#64B5F6 / #000</span></td><td data-oi="Д2" style="background:#BBDEFB;color:#000;text-align:center;padding:.45em .5em"><b>Д2</b><br><span style="color:#000">#BBDEFB / #000</span></td></tr>
+<tr><th>3</th><td data-oi="А3" style="background:#F9A825;color:#000;text-align:center;padding:.45em .5em"><b>А3</b><br><span style="color:#000">#F9A825 / #000</span></td><td data-oi="Б3" style="background:#FBC02D;color:#000;text-align:center;padding:.45em .5em"><b>Б3</b><br><span style="color:#000">#FBC02D / #000</span></td><td data-oi="В3" style="background:#FDD835;color:#000;text-align:center;padding:.45em .5em"><b>В3</b><br><span style="color:#000">#FDD835 / #000</span></td><td data-oi="Г3" style="background:#FFEE58;color:#000;text-align:center;padding:.45em .5em"><b>Г3</b><br><span style="color:#000">#FFEE58 / #000</span></td><td data-oi="Д3" style="background:#FFF59D;color:#000;text-align:center;padding:.45em .5em"><b>Д3</b><br><span style="color:#000">#FFF59D / #000</span></td></tr>
+<tr><th>4</th><td data-oi="А4" style="background:#EF6C00;color:#fff;text-align:center;padding:.45em .5em"><b>А4</b><br><span style="color:#fff">#EF6C00 / #fff</span></td><td data-oi="Б4" style="background:#FB8C00;color:#000;text-align:center;padding:.45em .5em"><b>Б4</b><br><span style="color:#000">#FB8C00 / #000</span></td><td data-oi="В4" style="background:#FFA726;color:#000;text-align:center;padding:.45em .5em"><b>В4</b><br><span style="color:#000">#FFA726 / #000</span></td><td data-oi="Г4" style="background:#FFCC80;color:#000;text-align:center;padding:.45em .5em"><b>Г4</b><br><span style="color:#000">#FFCC80 / #000</span></td><td data-oi="Д4" style="background:#BDBDBD;color:#000;text-align:center;padding:.45em .5em"><b>Д4</b><br><span style="color:#000">#BDBDBD / #000</span></td></tr>
+<tr><th>5</th><td data-oi="А5" style="background:#B71C1C;color:#fff;text-align:center;padding:.45em .5em"><b>А5</b><br><span style="color:#fff">#B71C1C / #fff</span></td><td data-oi="Б5" style="background:#C62828;color:#fff;text-align:center;padding:.45em .5em"><b>Б5</b><br><span style="color:#fff">#C62828 / #fff</span></td><td data-oi="В5" style="background:#E53935;color:#fff;text-align:center;padding:.45em .5em"><b>В5</b><br><span style="color:#fff">#E53935 / #fff</span></td><td data-oi="Г5" style="background:#EF5350;color:#000;text-align:center;padding:.45em .5em"><b>Г5</b><br><span style="color:#000">#EF5350 / #000</span></td><td data-oi="Д5" style="background:#4A0000;color:#fff;text-align:center;padding:.45em .5em"><b>Д5</b><br><span style="color:#fff">#4A0000 / #fff</span></td></tr>
+</tbody></table>
+
 
 Публичное пояснение с цветной матрицей: https://skb-by.github.io/cbr-news-materials/oi-5x5/ (файл репозитория OI_5x5.md).
 
