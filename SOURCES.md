@@ -289,6 +289,428 @@
 | `dw.com` | robots.txt и условия запрещают автоматический сбор (без изменений) |
 | `fedscoop.com` | robots.txt: `Disallow: /` (без изменений) |
 
+## Европа и НАТО (подключены 16.11.2026, t147u/t148u)
+
+Группа «Европа и НАТО»: официальные ленты министерств обороны и правительств, госинформагентства и национальные СМИ стран Европы и НАТО (все 32 члена НАТО). Список СМИ по странам — каталог vsesmi.online (страницы стран); у каждого СМИ берётся только его собственная RSS/Atom-лента. Сам vsesmi.online не собирается. Проверка лент — 16.11.2026 с сервера cbr-srv-big тем же клиентом, что и сбор (ответ 200, есть записи за 7 дней).
+
+Правила:
+
+- **Фильтр «Контура»** (t115u). СМИ — только по заголовку и только ключами на языках стран: БПЛА, ПВО, РЭБ, ВПК и закупки вооружений; организации реестра — вместе с ключом или темой безопасности; упоминание Беларуси — вместе с темой безопасности (для ИИД-100). Официальные ленты — заголовок и анонс: ключи, классификатор БПЛА, сферы ОИ 5×5. Остальное не записывается (спорт, светская хроника и т.п. отсекаются).
+- **Каждый материал** получает ОИ 5×5, окрас, субъективность, перевод на русский и проверку на повтор (t133u–t135u). Язык записи определяется по тексту (русскоязычные СМИ Эстонии, Латвии, Молдовы — «ru», перевод не нужен).
+- **Ступень ОИ по типу источника**, пока истории мало: **А** — официальная лента министерства или правительства; **Б** — госинформагентство (Anadolu, РИА Новости); **В** — национальное СМИ из каталога.
+- **Перевод → ru** (бокс, CTranslate2/Argos). Добавлены пары: hr, sr, bs, mk → Helsinki-NLP `opus-mt-zls-en` → `opus-mt-en-ru`; is → `opus-mt-is-en` → `opus-mt-en-ru`; da, nb, sl, sq → Argos 1.9 → `opus-mt-en-ru`. Определение языка: сербская и македонская кириллица, болгарский, норвежский (nb).
+- **Окрас и субъективность** на языках группы: словарь `contour_lex_eu.py` (основы слов ~27 языков). Шкала и формула окраса не менялись. Словарь ИИД-100 не менялся (новая версия методики — по решению GREEN).
+- **Включение** — флаг `CBR_EUROPE=1` в `run-cycle.sh`; в циклах перед сводкой (08:30, 14:30, 19:30; выходные 10:00, 14:00, 19:00) группа не собирается (`CBR_EUROPE_PREDIGEST=0`), чтобы сводка выходила вовремя; материалы прочих циклов в сводку попадают. Сбор по странам параллельно (коллекторы `eu-<страна>-N`, до 6 лент, дедлайн 150 с).
+- **robots.txt** — по решению GREEN (t150u) рекомендация, не запрет: ленты, закрытые для сервера только robots.txt или сетью/403 сервера, но отдающие RSS боксу, собираются путём бокса (t146u, `browser_inbox.py`) редко, без обхода капчи и защиты, честной меткой. Фильтр «Контура» для них тот же — на сервере.
+
+Лент: 327 — 304 собирает сервер, 23 — путь бокса. Первый сбор 16.11.2026 10:36 (окно 48 ч): фильтр «Контура» прошли 178 материалов; у всех — ОИ, окрас, субъективность, перевод.
+
+| страна | НАТО | СМИ в каталоге | лент СМИ: сервер / путь бокса | официальные ленты | первый сбор, материалов за 48 ч |
+|---|---|---|---|---|---|
+| Австрия | — | 13 | 8 / 1 | — | 8 |
+| Албания | да | 11 | 2 / 1 | — | 0 |
+| Андорра | — | 4 | 3 / 0 | — | 0 |
+| Беларусь | — | 11 | 3 / 0 | — | 1 |
+| Бельгия | да | 15 | 8 / 1 | — | 8 |
+| Болгария | да | 13 | 7 / 0 | — | 7 |
+| Босния и Герцеговина | — | 10 | 4 / 0 | — | 2 |
+| Ватикан | — | 4 | 2 / 0 | — | 0 |
+| Великобритания | да | 67 | 42 / 1 | Министерство обороны Великобритании | 1 |
+| Венгрия | да | 12 | 7 / 1 | — | 3 |
+| Германия | да | 9 | 3 / 0 | Федеральное правительство Германии (Bundesregierung) | 0 |
+| Гибралтар (Великобритания) | да | 5 | 1 / 0 | — | 0 |
+| Греция | да | 12 | 8 / 0 | — | 0 |
+| Грузия | — | 3 | 0 / 0 | — | 0 |
+| Дания | да | 11 | 4 / 0 | — | 2 |
+| Ирландия | — | 9 | 5 / 0 | — | 0 |
+| Исландия | да | 7 | 5 / 0 | Береговая охрана Исландии (Landhelgisgæslan) | 1 |
+| Испания | да | 11 | 8 / 0 | Правительство Испании (La Moncloa) | 7 |
+| Италия | да | 11 | 5 / 1 | Правительство Италии (governo.it) | 1 |
+| Канада | да | 11 | 3 / 0 | Министерство национальной обороны Канады | 0 |
+| Кипр | — | 10 | 5 / 0 | — | 2 |
+| Латвия | да | 7 | 0 / 7 | Министерство обороны Латвии | 0 |
+| Литва | да | 7 | 4 / 0 | — | 4 |
+| Лихтенштейн | — | 9 | 3 / 0 | — | 0 |
+| Люксембург | да | 8 | 2 / 0 | — | 0 |
+| Мальта | — | 8 | 1 / 0 | — | 1 |
+| Молдова | — | 7 | 4 / 0 | — | 10 |
+| Нидерланды | да | 11 | 8 / 0 | — | 6 |
+| Норвегия | да | 14 | 9 / 0 | Министерство обороны Норвегии (regjeringen.no, FD) | 3 |
+| Польша | да | 13 | 9 / 2 | — | 2 |
+| Португалия | да | 12 | 6 / 0 | — | 2 |
+| Россия | — | 25 | 1 / 0 | РИА Новости (лента-архив; фильтр «Контура» Европа/НАТО) | 12 |
+| Румыния | да | 17 | 13 / 1 | Правительство Румынии (gov.ro) | 42 |
+| США | да | 23 | 6 / 0 | Министерство обороны США — релизы | 0 |
+| Сан-Марино | — | 2 | 0 / 0 | — | 0 |
+| Северная Македония | да | 10 | 7 / 1 | — | 5 |
+| Сербия | — | 16 | 10 / 0 | Министерство обороны Сербии | 7 |
+| Словакия | да | 11 | 4 / 0 | — | 7 |
+| Словения | да | 10 | 6 / 1 | Правительство Словении — новости Министерства обороны | 1 |
+| Турция | да | 15 | 8 / 0 | Anadolu Ajansı (госинформагентство Турции) | 11 |
+| Украина | — | — (нет страницы) | 1 / 0 | — | 0 |
+| Финляндия | да | 8 | 1 / 0 | — | 0 |
+| Франция | да | 24 | 9 / 2 | — | 8 |
+| Хорватия | да | 15 | 15 / 0 | Министерство обороны Хорватии | 6 |
+| Черногория | да | 5 | 3 / 0 | — | 1 |
+| Чехия | да | 11 | 7 / 0 | Министерство обороны Чехии | 1 |
+| Швейцария | — | 13 | 3 / 0 | Федеральная администрация Швейцарии (все ведомства, вкл. ВБС) | 3 |
+| Швеция | да | 13 | 8 / 1 | Правительство Швеции (пресс-релизы) | 1 |
+| Эстония | да | 6 | 5 / 0 | Министерство обороны Эстонии (Kaitseministeerium) (путь бокса); Силы обороны Эстонии (mil.ee) (путь бокса) | 2 |
+
+Великобритания в каталоге — четыре страницы (Англия, Шотландия, Северная Ирландия, Уэльс). Россия: из каталога не подключались (ТАСС и РИА Новости уже в сборе); подключены названные GREEN lenta.ru и лента-архив РИА Новости. Украина: страницы в каталоге нет; в сборе — ранее подключённые украинские источники и delo.ua. Официальные ленты Франции (defense.gouv.fr-aid), Украины (mod.gov.ua-en, armyinform) и НАТО (diana.nato.int) были подключены раньше.
+
+### Названные GREEN (t147u)
+
+| ресурс | итог | основание |
+|---|---|---|
+| ria.ru | собирается | был в сборе (`export/rss2/index.xml`, 20 записей, строгий фильтр сфер); добавлена лента-архив `export/rss2/archive/index.xml` (94 записи) с фильтром группы |
+| lenta.ru | собирается | RSS `lenta.ru/rss`, HTTP 200, 200 записей |
+| times.by | собирается | RSS `times.by/feed/rss-google.xml` (ссылка `<link rel=alternate>` на главной), HTTP 200, 100 записей |
+| delo.ua/ru/news-feed/world/ | собирается | RSS у сайта нет; HTML-листинг раздела, статьи по ссылкам |
+| источник «только для расчёта ИИД-100»/ru/ | не подключён | с сервера нет ответа (таймаут); сайт внесён в Республиканский список экстремистских материалов (решение суда Центрального района Минска 05.06.2023), КГБ 14.01.2022 признал «Нашу Ниву» экстремистским формированием. Требует решения GREEN |
+
+### Не подключены по проверке 16.11.2026
+
+- Google News RSS: условия ленты — только личное некоммерческое чтение. GDELT DOC API: отвечает «limit requests» на первый запрос.
+- 403 на сервере и на robots.txt с бокса (проверка браузером бокса — t146u, без обхода защиты): МО Литвы (kam.lt), Армия Литвы (kariuomene.lt), МО Греции (mod.mil.gr), ВС Мальты (afm.gov.mt). Нет ответа ни с сервера, ни с бокса: МО Кипра, МО Италии (difesa.it), МО Словакии (mosr.sk), правительство Нидерландов (rijksoverheid), МО Косово; МО Финляндии и Украины — RSS по проверенным адресам нет (404).
+- Официальной ленты МО/правительства с записями не найдено (проверено 120 адресов): Албания, Бельгия, Болгария, Венгрия, Греция, Дания, Люксембург, Северная Македония, Польша (gov.pl — лента пуста или обрыв), Португалия, Черногория, Турция (msb.gov.tr; подключено госагентство Anadolu).
+- Из проб бокса не взяты по теме: sportsport.ba (спорт), cancan.ro (светская хроника), blogto.com (досуг Торонто), wrexham.com (городские новости), slovenskenovice.delo.si (таблоид).
+
+<details><summary>Все ленты группы (327)</summary>
+
+| id | страна | тип | ОИ | сбор | лента |
+|---|---|---|---|---|---|
+| derstandard.at | Австрия | media | В | сервер | `https://www.derstandard.at/rss` |
+| diepresse.com | Австрия | media | В | сервер | `https://www.diepresse.com/rss//` |
+| kleinezeitung.at | Австрия | media | В | сервер | `https://www.kleinezeitung.at/rss/news` |
+| krone.at | Австрия | media | В | сервер | `https://api.krone.at/v1/rss/rssfeed-google.xml?id=2311992` |
+| kurier.at | Австрия | media | В | бокс | `https://kurier.at/xml/rss` |
+| nachrichten.at | Австрия | media | В | сервер | `https://www.nachrichten.at/storage/rss/rss/nachrichten.xml` |
+| orf.at | Австрия | media | В | сервер | `https://rss.orf.at/news.xml` |
+| tt.com | Австрия | media | В | сервер | `https://www.tt.com/rss/news.xml` |
+| meinbezirk.at | Австрия | media | В | сервер | `https://www.meinbezirk.at/rss` |
+| albeu.com | Албания | media | В | сервер | `https://albeu.com/feed/` |
+| balkanweb.com | Албания | media | В | сервер | `https://www.balkanweb.com/feed/` |
+| kohajone.com | Албания | media | В | бокс | `https://kohajone.com/feed/` |
+| bondia.ad | Андорра | media | В | сервер | `https://www.bondia.ad/rss.xml` |
+| diariandorra.ad | Андорра | media | В | сервер | `https://www.diariandorra.ad/rss/home.xml` |
+| elperiodic.ad | Андорра | media | В | сервер | `https://elperiodic.ad/feed/` |
+| times.by | Беларусь | media | В | сервер | `https://times.by/feed/rss-google.xml` |
+| grodnonews.by | Беларусь | media | В | сервер | `https://grodnonews.by/rss/` |
+| gp.by | Беларусь | media | В | сервер | `https://gp.by/feed/` |
+| 7sur7.be | Бельгия | media | В | сервер | `https://www.7sur7.be/home/rss.xml` |
+| demorgen.be | Бельгия | media | В | сервер | `https://www.demorgen.be/rss.xml` |
+| standaard.be | Бельгия | media | В | сервер | `https://www.standaard.be/rss/` |
+| gva.be | Бельгия | media | В | сервер | `https://www.gva.be/rss/` |
+| hbvl.be | Бельгия | media | В | сервер | `https://www.hbvl.be/rss/` |
+| nieuwsblad.be | Бельгия | media | В | сервер | `https://www.nieuwsblad.be/rss/` |
+| knack.be | Бельгия | media | В | бокс | `https://www.knack.be/feed/` |
+| dhnet.be | Бельгия | media | В | сервер | `https://www.dhnet.be/arc/outboundfeeds/rss/?outputType=xml` |
+| lalibre.be | Бельгия | media | В | сервер | `https://www.lalibre.be/arc/outboundfeeds/rss/?outputType=xml` |
+| dir.bg | Болгария | media | В | сервер | `https://dir.bg/feeds/rss` |
+| dnevnik.bg | Болгария | media | В | сервер | `https://www.dnevnik.bg/rss/` |
+| nova.bg | Болгария | media | В | сервер | `https://nova.bg/rss/latest` |
+| offnews.bg | Болгария | media | В | сервер | `https://offnews.bg/rss/all` |
+| plovdiv24.bg | Болгария | media | В | сервер | `https://www.plovdiv24.bg/rss.php` |
+| vesti.bg | Болгария | media | В | сервер | `https://www.vesti.bg/rss` |
+| fakti.bg | Болгария | media | В | сервер | `https://fakti.bg/feed` |
+| 6yka.com | Босния и Герцеговина | media | В | сервер | `https://6yka.com/feed/` |
+| avaz.ba | Босния и Герцеговина | media | В | сервер | `https://avaz.ba/rss` |
+| nezavisne.com | Босния и Герцеговина | media | В | сервер | `https://www.nezavisne.com/rss/najnovije` |
+| oslobodjenje.ba | Босния и Герцеговина | media | В | сервер | `https://www.oslobodjenje.ba/rss.xml` |
+| vaticannews.va | Ватикан | media | В | сервер | `https://www.vaticannews.va/ru.rss.xml` |
+| zenit.org | Ватикан | media | В | сервер | `https://zenit.org/feed/` |
+| gov.uk | Великобритания | mod | А | сервер | `https://www.gov.uk/government/organisations/ministry-of-defence.atom` |
+| belfastlive.co.uk | Великобритания | media | В | сервер | `https://www.belfastlive.co.uk/?service=rss` |
+| belfastmedia.com | Великобритания | media | В | сервер | `https://belfastmedia.com/feeds/section-articles.atom` |
+| belfasttelegraph.co.uk | Великобритания | media | В | сервер | `https://www.belfasttelegraph.co.uk/rss/` |
+| birminghammail.co.uk | Великобритания | media | В | сервер | `https://www.birminghammail.co.uk/?service=rss` |
+| businessnewswales.com | Великобритания | media | В | сервер | `https://businessnewswales.com/feed/` |
+| caerphillyobserver.co.uk | Великобритания | media | В | сервер | `https://caerphilly.observer/feed/` |
+| cambrian-news.co.uk | Великобритания | media | В | сервер | `https://www.cambrian-news.co.uk/rss` |
+| channel4.com | Великобритания | media | В | сервер | `https://www.channel4.com/news/feed` |
+| chroniclelive.co.uk | Великобритания | media | В | сервер | `https://www.chroniclelive.co.uk/?service=rss` |
+| dailymail.co.uk | Великобритания | media | В | сервер | `https://www.dailymail.com/home/index.rss` |
+| mirror.co.uk | Великобритания | media | В | сервер | `https://www.mirror.co.uk/?service=rss` |
+| dailyrecord.co.uk | Великобритания | media | В | сервер | `https://www.dailyrecord.co.uk/?service=rss` |
+| derryjournal.com | Великобритания | media | В | сервер | `https://www.derryjournal.com/rss` |
+| derrynow.com | Великобритания | media | В | сервер | `https://www.derrynow.com/rss` |
+| edinburghnews.scotsman.com | Великобритания | media | В | сервер | `https://www.edinburghnews.scotsman.com/rss` |
+| standard.co.uk | Великобритания | media | В | сервер | `https://www.standard.co.uk/rss` |
+| falkirkherald.co.uk | Великобритания | media | В | сервер | `https://www.falkirkherald.co.uk/rss` |
+| ft.com | Великобритания | media | В | сервер | `https://www.ft.com/rss/home/international` |
+| gbnews.com | Великобритания | media | В | сервер | `https://www.gbnews.com/feeds/feed.rss` |
+| glasgowlive.co.uk | Великобритания | media | В | сервер | `https://www.glasgowlive.co.uk/?service=rss` |
+| glasgowworld.com | Великобритания | media | В | сервер | `https://www.glasgowworld.com/rss` |
+| golwg.360.cymru | Великобритания | media | В | сервер | `https://golwg.360.cymru/ffrwd` |
+| herald.wales | Великобритания | media | В | сервер | `https://herald.wales/feed/` |
+| liverpoolecho.co.uk | Великобритания | media | В | сервер | `https://www.liverpoolecho.co.uk/?service=rss` |
+| manchestereveningnews.co.uk | Великобритания | media | В | сервер | `https://www.manchestereveningnews.co.uk/?service=rss` |
+| metro.co.uk | Великобритания | media | В | сервер | `https://metro.co.uk/feed/` |
+| nation.cymru | Великобритания | media | В | сервер | `https://nation.cymru/feed/` |
+| newstatesman.com | Великобритания | media | В | сервер | `https://www.newstatesman.com/feed` |
+| newsletter.co.uk | Великобритания | media | В | сервер | `https://www.newsletter.co.uk/rss` |
+| dailypost.co.uk | Великобритания | media | В | сервер | `https://www.dailypost.co.uk/?service=rss` |
+| news.stv.tv | Великобритания | media | В | сервер | `https://news.stv.tv/feed` |
+| scottishdailyexpress.co.uk | Великобритания | media | В | сервер | `https://www.scottishdailyexpress.co.uk/?service=rss` |
+| sluggerotoole.com | Великобритания | media | В | сервер | `https://sluggerotoole.com/feed/` |
+| thedetail.tv | Великобритания | media | В | бокс | `https://www.thedetail.tv/feed` |
+| theferret.scot | Великобритания | media | В | сервер | `https://www.theferret.scot/latest/rss/` |
+| theguardian.com | Великобритания | media | В | сервер | `https://www.theguardian.com/uk/rss` |
+| irishnews.com | Великобритания | media | В | сервер | `https://www.irishnews.com/arc/outboundfeeds/rss/` |
+| scotsman.com | Великобритания | media | В | сервер | `https://www.scotsman.com/rss` |
+| shetlandtimes.co.uk | Великобритания | media | В | сервер | `https://www.shetlandtimes.co.uk/_api/rss/shetland-news-feed.xml` |
+| telegraph.co.uk | Великобритания | media | В | сервер | `https://www.telegraph.co.uk/rss.xml` |
+| inews.co.uk | Великобритания | media | В | сервер | `https://inews.co.uk/feed` |
+| walesonline.co.uk | Великобритания | media | В | сервер | `https://www.walesonline.co.uk/?service=rss` |
+| yorkshirepost.co.uk | Великобритания | media | В | сервер | `https://www.yorkshirepost.co.uk/rss` |
+| 444.hu | Венгрия | media | В | бокс | `https://444.hu/feed` |
+| 24.hu | Венгрия | media | В | сервер | `https://24.hu/feed/` |
+| blikk.hu | Венгрия | media | В | сервер | `https://www.blikk.hu/rss-articles.xml` |
+| hvg.hu | Венгрия | media | В | сервер | `https://hvg.hu/rss` |
+| index.hu | Венгрия | media | В | сервер | `https://index.hu/24ora/rss/` |
+| magyarnemzet.hu | Венгрия | media | В | сервер | `https://magyarnemzet.hu/feed/` |
+| napi.hu | Венгрия | media | В | сервер | `https://www.economx.hu/feed/` |
+| portfolio.hu | Венгрия | media | В | сервер | `https://www.portfolio.hu/rss/all.xml` |
+| bundesregierung.de | Германия | gov | А | сервер | `https://www.bundesregierung.de/service/rss/breg-de/1151244/feed.xml` |
+| spiegel.de | Германия | media | В | сервер | `https://www.spiegel.de/schlagzeilen/index.rss` |
+| derwesten.de | Германия | media | В | сервер | `https://www.derwesten.de/feed` |
+| faz.net | Германия | media | В | сервер | `https://www.faz.net/rss/aktuell/` |
+| chronicle.gi | Гибралтар (Великобритания) | media | В | сервер | `http://www.chronicle.gi/feed/` |
+| dikaiologitika.gr | Греция | media | В | сервер | `https://feeds.feedburner.com/dikaiologitika/ZteV` |
+| newsit.gr | Греция | media | В | сервер | `https://www.newsit.gr/feed/` |
+| newsbomb.gr | Греция | media | В | сервер | `https://www.newsbomb.gr/oles-oi-eidhseis?format=feed&type=rss` |
+| protothema.gr | Греция | media | В | сервер | `https://www.protothema.gr/rss` |
+| zougla.gr | Греция | media | В | сервер | `https://www.zougla.gr/feed/` |
+| gazzetta.gr | Греция | media | В | сервер | `https://www.gazzetta.gr/rss` |
+| iefimerida.gr | Греция | media | В | сервер | `https://www.iefimerida.gr/rss.xml` |
+| pentapostagma.gr | Греция | media | В | сервер | `https://www.pentapostagma.gr/rss.xml` |
+| information.dk | Дания | media | В | сервер | `https://www.information.dk/feed` |
+| jyllands-posten.dk | Дания | media | В | сервер | `https://newsletter-proxy.aws.jyllands-posten.dk/v1/latestNewsRss/jyllands-posten.dk?count=10` |
+| nordjyske.dk | Дания | media | В | сервер | `https://nordjyske.dk/rss/nyheder` |
+| lokalavisen.dk | Дания | media | В | сервер | `https://newsletter-proxy.aws.jyllands-posten.dk/v1/top-stories/dinavis.dk` |
+| irishexaminer.com | Ирландия | media | В | сервер | `https://www.irishexaminer.com/feed/35-top_news.xml` |
+| independent.ie | Ирландия | media | В | сервер | `https://www.independent.ie/rss/` |
+| irishmirror.ie | Ирландия | media | В | сервер | `https://www.irishmirror.ie/?service=rss` |
+| irishcentral.com | Ирландия | media | В | сервер | `https://www.irishcentral.com/feeds/section-articles.atom` |
+| thejournal.ie | Ирландия | media | В | сервер | `https://www.thejournal.ie/feed/` |
+| lhg.is | Исландия | mod | А | сервер | `https://www.lhg.is/feed/` |
+| dv.is | Исландия | media | В | сервер | `https://www.dv.is/feed` |
+| mbl.is | Исландия | media | В | сервер | `https://www.mbl.is/feeds/fp/` |
+| ruv.is | Исландия | media | В | сервер | `https://www.ruv.is/rss/all` |
+| visir.is | Исландия | media | В | сервер | `https://www.visir.is/rss/allt` |
+| vb.is | Исландия | media | В | сервер | `https://vb.is/rss/` |
+| lamoncloa.gob.es | Испания | gov | А | сервер | `https://www.lamoncloa.gob.es/Paginas/rss.aspx?tipo=16` |
+| 20minutos.es | Испания | media | В | сервер | `https://www.20minutos.es/rss` |
+| abc.es | Испания | media | В | сервер | `https://www.abc.es/rss/2.0/portada/` |
+| elcorreo.com | Испания | media | В | сервер | `https://www.elcorreo.com/rss/2.0/?section=` |
+| elmundo.es | Испания | media | В | сервер | `https://www.elmundo.es/rss/googlenews/portada.xml` |
+| expansion.com | Испания | media | В | сервер | `https://www.expansion.com/rss/googlenews/portada.xml` |
+| larazon.es | Испания | media | В | сервер | `https://www.larazon.es/?outputType=xml` |
+| lavanguardia.com | Испания | media | В | сервер | `https://www.lavanguardia.com/rss/home.xml` |
+| libertaddigital.com | Испания | media | В | сервер | `https://www.libertaddigital.com/rss.xml` |
+| governo.it | Италия | gov | А | сервер | `https://www.governo.it/it/rss.xml` |
+| ansa.it | Италия | media | В | сервер | `https://www.ansa.it/rss.xml` |
+| ilfattoquotidiano.it | Италия | media | В | бокс | `https://www.ilfattoquotidiano.it/feed/` |
+| ilmessaggero.it | Италия | media | В | сервер | `https://www.ilmessaggero.it/rss/home.xml` |
+| ilsole24ore.com | Италия | media | В | сервер | `https://www.ilsole24ore.com/rss/homepage.xml` |
+| repubblica.it | Италия | media | В | сервер | `https://www.repubblica.it/en/rss` |
+| lastampa.it | Италия | media | В | сервер | `https://www.lastampa.it/rss/copertina.xml` |
+| api.io.canada.ca | Канада | mod | А | сервер | `https://api.io.canada.ca/io-server/gc/news/en/v2?dept=departmentnationaldefense&sort=publishedDate&orderBy=desc&pick=50&format=atom&atomtitle=National%20Defence` |
+| journaldemontreal.com | Канада | media | В | сервер | `https://www.journaldemontreal.com/rss.xml` |
+| tvanouvelles.ca | Канада | media | В | сервер | `https://www.tvanouvelles.ca/rss.xml` |
+| torontosun.com | Канада | media | В | сервер | `https://torontosun.com/feed` |
+| cyprus-mail.com | Кипр | media | В | сервер | `https://cyprus-mail.com/feed/` |
+| cyprusnews.eu | Кипр | media | В | сервер | `https://cyprusnews.eu/feed/` |
+| gundemkibris.com | Кипр | media | В | сервер | `https://www.gundemkibris.com/rss` |
+| haberkibris.com | Кипр | media | В | сервер | `https://haberkibris.com/rss.php` |
+| sigmalive.com | Кипр | media | В | сервер | `https://www.sigmalive.com/rss` |
+| mod.gov.lv | Латвия | mod | А | сервер | `https://www.mod.gov.lv/lv/rss.xml` |
+| delfi.lv | Латвия | media | В | бокс | `https://www.delfi.lv/rss/index.xml` |
+| jauns.lv | Латвия | media | В | бокс | `https://jauns.lv/rss` |
+| lsm.lv | Латвия | media | В | бокс | `https://www.lsm.lv/rss/` |
+| la.lv | Латвия | media | В | бокс | `https://www.la.lv/feed/` |
+| mixnews.lv | Латвия | media | В | бокс | `https://mixnews.lv/feed/gn/` |
+| tvnet.lv | Латвия | media | В | бокс | `https://www.tvnet.lv/rss` |
+| apollo.lv | Латвия | media | В | бокс | `https://www.apollo.lv/rss` |
+| krepsinis.net | Литва | media | В | сервер | `https://www.krepsinis.net/rss` |
+| lrytas.lt | Литва | media | В | сервер | `https://www.lrytas.lt/rss.xml` |
+| respublika.lt | Литва | media | В | сервер | `https://www.respublika.lt/feed.php?format=rss` |
+| vz.lt | Литва | media | В | сервер | `https://www.vz.lt/rss` |
+| 1fl.li | Лихтенштейн | media | В | сервер | `https://1fl.li/wp/feed/` |
+| landesspiegel.li | Лихтенштейн | media | В | сервер | `https://landesspiegel.li/feed/` |
+| lie-zeit.li | Лихтенштейн | media | В | сервер | `https://www.lie-zeit.li/feed/` |
+| lesfrontaliers.lu | Люксембург | media | В | сервер | `https://www.lesfrontaliers.lu/feed/` |
+| wort.lu | Люксембург | media | В | сервер | `https://www.wort.lu/rss/` |
+| maltatoday.com.mt | Мальта | media | В | сервер | `https://www.maltatoday.com.mt/rss/` |
+| jurnal.md | Молдова | media | В | сервер | `https://www.jurnal.md/ro/rss/all` |
+| noi.md | Молдова | media | В | сервер | `https://noi.md/md/feed` |
+| protv.md | Молдова | media | В | сервер | `https://protv.md/rss` |
+| unimedia.info | Молдова | media | В | сервер | `https://unimedia.info/ro/rss/all/` |
+| dvhn.nl | Нидерланды | media | В | сервер | `https://www.dvhn.nl/rss/` |
+| telegraaf.nl | Нидерланды | media | В | сервер | `https://www.telegraaf.nl/rss/` |
+| volkskrant.nl | Нидерланды | media | В | сервер | `https://www.volkskrant.nl/rss.xml` |
+| parool.nl | Нидерланды | media | В | сервер | `https://www.parool.nl/rss.xml` |
+| nrc.nl | Нидерланды | media | В | сервер | `https://www.nrc.nl/rss/` |
+| nu.nl | Нидерланды | media | В | сервер | `https://www.nu.nl/rss` |
+| rtlnieuws.nl | Нидерланды | media | В | сервер | `https://www.rtl.nl/rss.xml` |
+| trouw.nl | Нидерланды | media | В | сервер | `https://www.trouw.nl/rss.xml` |
+| regjeringen.no | Норвегия | mod | А | сервер | `https://www.regjeringen.no/no/rss/Rss/2581966/?documentType=aktuelt/nyheter&owner=380` |
+| adressa.no | Норвегия | media | В | сервер | `https://www.adressa.no/rss` |
+| aftenposten.no | Норвегия | media | В | сервер | `https://www.aftenposten.no/rss` |
+| bt.no | Норвегия | media | В | сервер | `https://www.bt.no/rss?characteristicsHotness=50..100` |
+| dagbladet.no | Норвегия | media | В | сервер | `https://www.dagbladet.no/?lab_viewport=rss` |
+| e24.no | Норвегия | media | В | сервер | `https://e24.no/rss` |
+| fvn.no | Норвегия | media | В | сервер | `https://www.fvn.no/rss` |
+| nrk.no | Норвегия | media | В | сервер | `https://www.nrk.no/toppsaker.rss` |
+| aftenbladet.no | Норвегия | media | В | сервер | `https://www.aftenbladet.no/rss` |
+| vg.no | Норвегия | media | В | сервер | `https://www.vg.no/rss/feed?format=rss` |
+| dziennikzachodni.pl | Польша | media | В | бокс | `https://dziennikzachodni.pl/rss/dziennikzachodni.xml` |
+| dziennik.pl | Польша | media | В | сервер | `https://www.dziennik.pl/.feed` |
+| gazetawroclawska.pl | Польша | media | В | бокс | `https://gazetawroclawska.pl/rss/gazetawroclawska.xml` |
+| wyborcza.pl | Польша | media | В | сервер | `https://wyborcza.pl/pub/rss/najnowsze_wyborcza.xml` |
+| gazeta.pl | Польша | media | В | сервер | `https://wiadomosci.gazeta.pl/pub/rss/wiadomosci.xml` |
+| gazetaprawna.pl | Польша | media | В | сервер | `https://www.gazetaprawna.pl/.feed` |
+| natemat.pl | Польша | media | В | сервер | `https://natemat.pl/rss/wszystkie` |
+| newsweek.pl | Польша | media | В | сервер | `https://www.newsweek.pl/.feed` |
+| niezalezna.pl | Польша | media | В | сервер | `https://niezalezna.pl/feed` |
+| polityka.pl | Польша | media | В | сервер | `https://www.polityka.pl/rss/articles.xml?list=517` |
+| rp.pl | Польша | media | В | сервер | `https://www.rp.pl/rss_main` |
+| cmjornal.pt | Португалия | media | В | сервер | `https://www.cmjornal.pt/rss` |
+| dnoticias.pt | Португалия | media | В | сервер | `https://www.dnoticias.pt/rss.xml` |
+| omirante.pt | Португалия | media | В | сервер | `https://rss.impresa.pt/feed/latest/mirante.rss?type=ARTICLE,VIDEO,GALLERY,STREAM,PLAYLIST,EVENT&limit=20&pubsubhub=true` |
+| observador.pt | Португалия | media | В | сервер | `https://observador.pt/feed/` |
+| sabado.pt | Португалия | media | В | сервер | `https://www.sabado.pt/rss` |
+| sapo.pt | Португалия | media | В | сервер | `https://sapo.pt:443/rss/destaques` |
+| eu:ria.ru | Россия | agency | Б | сервер | `https://ria.ru/export/rss2/archive/index.xml` |
+| lenta.ru | Россия | media | В | сервер | `https://lenta.ru/rss` |
+| gov.ro | Румыния | gov | А | сервер | `https://gov.ro/ro/rss` |
+| adevarul.ro | Румыния | media | В | сервер | `https://adevarul.ro/rss/index` |
+| antena3.ro | Румыния | media | В | сервер | `https://www.antena3.ro/rss` |
+| b1.ro | Румыния | media | В | сервер | `https://www.b1tv.ro/feed/` |
+| dcnews.ro | Румыния | media | В | сервер | `https://www.dcnews.ro/feed` |
+| digi24.ro | Румыния | media | В | сервер | `https://www.digi24.ro/rss` |
+| gandul.ro | Румыния | media | В | сервер | `https://www.gandul.ro/feed` |
+| hotnews.ro | Румыния | media | В | сервер | `https://hotnews.ro/feed` |
+| libertatea.ro | Румыния | media | В | бокс | `https://www.libertatea.ro/feed` |
+| mediafax.ro | Румыния | media | В | сервер | `https://www.mediafax.ro/feed` |
+| realitatea.net | Румыния | media | В | сервер | `https://www.realitatea.net/access/share/feeds/rss/homepage.xml` |
+| romaniatv.net | Румыния | media | В | сервер | `https://www.romaniatv.net/feed` |
+| stiripesurse.ro | Румыния | media | В | сервер | `https://www.stiripesurse.ro/rss/stiri.xml` |
+| stirileprotv.ro | Румыния | media | В | сервер | `https://stirileprotv.ro/rss/` |
+| zf.ro | Румыния | media | В | сервер | `https://www.zf.ro/rss/` |
+| defense.gov | США | mod | А | сервер | `https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=9&Site=945&max=10` |
+| foxnews.com | США | media | В | сервер | `https://www.foxnews.com/rss.xml?category=us` |
+| latimes.com | США | media | В | сервер | `https://www.latimes.com/index.rss` |
+| nypost.com | США | media | В | сервер | `https://nypost.com/feed/` |
+| time.com | США | media | В | сервер | `https://time.com/feed/` |
+| nytimes.com | США | media | В | сервер | `https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml` |
+| newyorker.com | США | media | В | сервер | `https://www.newyorker.com/feed/rss` |
+| kajgana.com | Северная Македония | media | В | сервер | `https://kajgana.com/rss.xml` |
+| kurir.mk | Северная Македония | media | В | сервер | `https://kurir.mk/feed/` |
+| press24.mk | Северная Македония | media | В | сервер | `https://press24.mk/feed/` |
+| time.mk | Северная Македония | media | В | бокс | `https://time.mk/rss/all` |
+| vecer.mk | Северная Македония | media | В | сервер | `https://vecer.mk/feed` |
+| a1on.mk | Северная Македония | media | В | сервер | `https://a1on.mk/feed/` |
+| republika.mk | Северная Македония | media | В | сервер | `https://republika.mk/feed/` |
+| sitel.com.mk | Северная Македония | media | В | сервер | `https://sitel.com.mk/rss.xml` |
+| mod.gov.rs | Сербия | mod | А | сервер | `https://www.mod.gov.rs/rss.php` |
+| b92.net | Сербия | media | В | сервер | `https://www.b92.net/rss/latest` |
+| blic.rs | Сербия | media | В | сервер | `https://www.blic.rs/rss/all` |
+| danas.rs | Сербия | media | В | сервер | `https://www.danas.rs/feed/` |
+| espreso.rs | Сербия | media | В | сервер | `https://www.espreso.co.rs/rss` |
+| kurir.rs | Сербия | media | В | сервер | `https://www.kurir.rs/rss` |
+| mondo.rs | Сербия | media | В | сервер | `https://mondo.rs/rss/629/Naslovna` |
+| naslovi.net | Сербия | media | В | сервер | `https://naslovi.net/rss/` |
+| telegraf.rs | Сербия | media | В | сервер | `https://www.telegraf.rs/rss` |
+| pink.rs | Сербия | media | В | сервер | `https://pink.rs/rss-feed` |
+| pravda.rs | Сербия | media | В | сервер | `https://pravda.rs/rss.xml` |
+| dobrenoviny.sk | Словакия | media | В | сервер | `https://www.dobrenoviny.sk/rss` |
+| hnonline.sk | Словакия | media | В | сервер | `https://hnonline.sk/feed` |
+| sme.sk | Словакия | media | В | сервер | `https://www.sme.sk/rss` |
+| webnoviny.sk | Словакия | media | В | сервер | `https://sita.sk/feed/` |
+| gov.si | Словения | mod | А | сервер | `https://www.gov.si/novice/rss/?orgID%5B0%5D=30` |
+| 24ur.com | Словения | media | В | сервер | `https://www.24ur.com/rss` |
+| delo.si | Словения | media | В | бокс | `https://www.delo.si/rss` |
+| dnevnik.si | Словения | media | В | сервер | `https://www.dnevnik.si/rss.xml` |
+| pozareport.si | Словения | media | В | сервер | `https://pozareport.si/rss` |
+| siol.net | Словения | media | В | сервер | `https://siol.net/feeds/latest` |
+| vecer.com | Словения | media | В | сервер | `https://vecer.com/feed/allarticles` |
+| zurnal24.si | Словения | media | В | сервер | `https://www.zurnal24.si/feeds/latest` |
+| aa.com.tr | Турция | agency | Б | сервер | `https://www.aa.com.tr/tr/rss/default?cat=guncel` |
+| ahaber.com.tr | Турция | media | В | сервер | `https://www.ahaber.com.tr/rss/anasayfa.xml` |
+| cumhuriyet.com.tr | Турция | media | В | сервер | `https://www.cumhuriyet.com.tr/rss` |
+| haber7.com | Турция | media | В | сервер | `https://i12.haber7.net/sondakika/newsstand/latest.xml` |
+| haberturk.com | Турция | media | В | сервер | `https://www.haberturk.com/rss` |
+| onedio.com | Турция | media | В | сервер | `https://onedio.com/Publisher/publisher-daily.rss` |
+| sabah.com.tr | Турция | media | В | сервер | `https://www.sabah.com.tr/rss/anasayfa.xml` |
+| sozcu.com.tr | Турция | media | В | сервер | `https://www.sozcu.com.tr/feeds/rsssubpub` |
+| yenisafak.com | Турция | media | В | сервер | `https://www.yenisafak.com/rss` |
+| delo.ua | Украина | media | В | сервер | `https://delo.ua/ru/news-feed/world/` |
+| iltalehti.fi | Финляндия | media | В | сервер | `https://www.iltalehti.fi/rss.xml` |
+| 20minutes.fr | Франция | media | В | сервер | `https://www.20minutes.fr/feeds/rss-une.xml` |
+| actu.fr | Франция | media | В | сервер | `https://actu.fr/rss.xml` |
+| cnews.fr | Франция | media | В | сервер | `https://www.cnews.fr/rss.xml` |
+| france24.com | Франция | media | В | сервер | `https://www.france24.com/en/rss` |
+| humanite.fr | Франция | media | В | бокс | `https://www.humanite.fr/feed` |
+| ladepeche.fr | Франция | media | В | сервер | `https://www.ladepeche.fr/rss.xml` |
+| ledauphine.com | Франция | media | В | сервер | `https://www.ledauphine.com/rss` |
+| lemonde.fr | Франция | media | В | сервер | `https://www.lemonde.fr/rss/une.xml` |
+| rfi.fr | Франция | media | В | бокс | `https://www.rfi.fr/fr/rss` |
+| sudouest.fr | Франция | media | В | сервер | `https://www.sudouest.fr/rss.xml` |
+| tf1info.fr | Франция | media | В | сервер | `https://www.tf1info.fr/feeds/rss-une.xml` |
+| morh.hr | Хорватия | mod | А | сервер | `https://www.morh.hr/feed/` |
+| 24sata.hr | Хорватия | media | В | сервер | `https://www.24sata.hr/feeds/najnovije.xml` |
+| dnevnik.hr | Хорватия | media | В | сервер | `https://dnevnik.hr/assets/feed/articles` |
+| dnevno.hr | Хорватия | media | В | сервер | `https://www.dnevno.hr/feed/` |
+| glasistre.hr | Хорватия | media | В | сервер | `https://www.glasistre.hr/rss.xml` |
+| index.hr | Хорватия | media | В | сервер | `https://www.index.hr/rss` |
+| jutarnji.hr | Хорватия | media | В | сервер | `https://www.jutarnji.hr/feed` |
+| hr.n1info.com | Хорватия | media | В | сервер | `https://n1info.hr/feed/` |
+| net.hr | Хорватия | media | В | сервер | `https://net.hr/rss.xml` |
+| novilist.hr | Хорватия | media | В | сервер | `https://www.novilist.hr/feed/` |
+| poslovni.hr | Хорватия | media | В | сервер | `https://www.poslovni.hr/feed` |
+| rtl.hr | Хорватия | media | В | сервер | `https://www.rtl.hr/rss` |
+| slobodnadalmacija.hr | Хорватия | media | В | сервер | `https://slobodnadalmacija.hr/feed` |
+| telegram.hr | Хорватия | media | В | сервер | `https://www.telegram.hr/feed/` |
+| tportal.hr | Хорватия | media | В | сервер | `https://www.tportal.hr/rss-najnovije.xml` |
+| vecernji.hr | Хорватия | media | В | сервер | `https://www.vecernji.hr/feeds/latest` |
+| pobjeda.me | Черногория | media | В | сервер | `https://rss.pobjeda.me` |
+| portalanalitika.me | Черногория | media | В | сервер | `https://rss.portalanalitika.me` |
+| vijesti.me | Черногория | media | В | сервер | `https://www.vijesti.me/rss` |
+| mo.gov.cz | Чехия | mod | А | сервер | `https://www.mo.gov.cz/rss-mo.xml` |
+| aktualne.cz | Чехия | media | В | сервер | `https://www.aktualne.cz/rss` |
+| denik.cz | Чехия | media | В | сервер | `https://www.denik.cz/rss/vse.xml` |
+| echo24.cz | Чехия | media | В | сервер | `https://www.echo24.cz/rss/s` |
+| ihned.cz | Чехия | media | В | сервер | `https://hn.cz/?m=rss` |
+| reflex.cz | Чехия | media | В | сервер | `https://www.reflex.cz/rss` |
+| sport.cz | Чехия | media | В | сервер | `https://www.sport.cz/rss` |
+| tyden.cz | Чехия | media | В | сервер | `https://www.tyden.cz/rss` |
+| newsd.admin.ch | Швейцария | gov | А | сервер | `https://www.newsd.admin.ch/newsd/feeds/rss?lang=de&org-nr=1` |
+| blick.ch | Швейцария | media | В | сервер | `https://www.blick.ch/rss.xml` |
+| letemps.ch | Швейцария | media | В | сервер | `https://www.letemps.ch/articles.rss` |
+| watson.ch | Швейцария | media | В | сервер | `https://www.watson.ch/api/2.0/rss/index.xml?tag=Front` |
+| regeringen.se | Швеция | gov | А | сервер | `https://www.regeringen.se/Filter/RssFeed?filterType=Taxonomy&filterByType=FilterablePageBase&preFilteredCategories=2097&rootPageReference=0&filteredContentCategories=Pressmeddelande` |
+| dn.se | Швеция | media | В | сервер | `https://www.dn.se/rss/` |
+| friatider.se | Швеция | media | В | сервер | `https://www.friatider.se/rss.xml` |
+| hd.se | Швеция | media | В | сервер | `https://www.hd.se/feeds/feed.xml` |
+| nyheter24.se | Швеция | media | В | сервер | `https://rss.nyheter24.se` |
+| omni.se | Швеция | media | В | сервер | `https://omni.se/rss.xml` |
+| samnytt.se | Швеция | media | В | бокс | `https://konto.samnytt.se/feed/?v=ac5585d98646` |
+| svt.se | Швеция | media | В | сервер | `https://www.svt.se/rss.xml` |
+| sydsvenskan.se | Швеция | media | В | сервер | `https://www.sydsvenskan.se/feeds/feed.xml` |
+| thelocal.se | Швеция | media | В | сервер | `https://feeds.thelocal.com/rss/builder/se` |
+| kaitseministeerium.ee | Эстония | mod | А | бокс | `https://www.kaitseministeerium.ee/rss-feeds/rss.xml` |
+| mil.ee | Эстония | mod | А | бокс | `https://mil.ee/feed/` |
+| aripaev.ee | Эстония | media | В | сервер | `https://www.aripaev.ee/rss` |
+| online.le.ee | Эстония | media | В | сервер | `https://online.le.ee/feed/` |
+| telegram.ee | Эстония | media | В | сервер | `https://www.telegram.ee/feed` |
+| ohtuleht.ee | Эстония | media | В | сервер | `https://www.ohtuleht.ee/rss` |
+| mke.ee | Эстония | media | В | сервер | `https://www.mke.ee/feed/` |
+
+</details>
+
+
 ## Справочные реестры (не ленты)
 
 ЕГРЮЛ/ФНС, ГИР БО, ЕИС госзакупки, картотека арбитражных дел, ФССП, реестры Минпромторга, санкционные списки OFAC SDN, EU Consolidated, UK Sanctions List, Canada, НАЗК Украины, BIS Entity List — **точечная проверка**, не постоянный RSS. С сервера 13.11.2026: список OFAC SDN открылся (HTTP 200); выгрузка в новости не подключается без явных условий использования. ЕГРЮЛ — таймаут; закупки — ошибка TLS; КАД — запрет `robots.txt`; ФССП — HTTP 474; EU list — 403; UK storage — 409; Canada XML — 404; НАЗК — нет DNS. Периодичность проверки карточки: 7 или 30 дней.
