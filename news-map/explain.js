@@ -1,5 +1,5 @@
 /* КОНТУР - I-OSINT BY — шапка (последнее обновление, актуально, СБОР ДАННЫХ, До следующего среза ЧЧ:ММ),
-   справка по окрасу, субъективности и ОИ 5×5, разъяснение текущего значения при наведении (t72u, t83u, t113u, 14.11.2026);
+   справка по окрасу, субъективности и ОИ 5×5, честный таймер среза (t149u), разъяснение текущего значения при наведении (t72u, t83u, t113u, 14.11.2026);
    t136u-1 (16.11.2026): значки окраса и субъективности из разметки отчёта. */
 (function(){
 "use strict";
@@ -42,24 +42,52 @@ function fmtMinsk(dt){
   var p={}; parts.forEach(function(x){p[x.type]=x.value;});
   return p.day+"."+p.month+"."+p.year+" "+(p.hour==="24"?"00":p.hour)+":"+p.minute;
 }
+function hmMinsk(dt){ return fmtMinsk(dt).slice(11); }
 function nextTip(dt){
-  return "Следующий срез: "+fmtMinsk(dt)+" "+TZ+". Интервал обновления публичных страниц — 2 часа (чётные часы 00:00, 02:00, … 22:00). Если слот попадает в окно сводки, выгрузка ждёт конца окна.";
+  var a=window.CBR_ASOF||{}, st=parseIso(a.next_cycle_at);
+  return "Следующий срез — выход порции ожидается ~"+fmtMinsk(dt)+" "+TZ+
+    (st? " (старт цикла "+hmMinsk(st)+" + типичная длительность "+(a.typical_cycle_min||"—")+" мин)" : "")+
+    ". Время ориентировочное: порция выходит, когда цикл закончит сбор, ОИ 5×5 и проверки.";
 }
+// t149u: честный таймер. Цель — expected_export_at из asof.js (старт цикла + типичная длительность).
+// После нуля: «СБОР ДАННЫХ — идёт цикл, выгрузка ожидается ~ЧЧ:ММ» (позже — «задерживается»),
+// раз в 60 с перечитывается assets/asof.js; при новом срезе страница перезагружается. Отрицательного и «00:00» нет.
+var ASOF_URL=(function(){ var s=document.querySelector('script[src*="assets/asof.js"]'); return s? s.src.split("?")[0] : BASE+"assets/asof.js"; })();
+var lastPoll=0, polling=false;
 function resolveNext(){
   var a=window.CBR_ASOF||{};
-  var now=Date.now();
-  var nxt=parseIso(a.next_export);
-  if(!nxt || nxt.getTime()<now) return nextEvenExport();
-  return nxt;
+  return parseIso(a.expected_export_at)||parseIso(a.next_export)||nextEvenExport();
+}
+function pollAsof(){
+  if(polling || Date.now()-lastPoll<60000) return;
+  polling=true; lastPoll=Date.now();
+  fetch(ASOF_URL+"?cb="+Date.now(),{cache:"no-store",credentials:"omit"}).then(function(r){ return r.ok? r.text() : ""; }).then(function(t){
+    var m=/window\.CBR_ASOF\s*=\s*(\{[\s\S]*\})\s*;?\s*$/.exec(t||""); if(!m) return;
+    var j=JSON.parse(m[1]); var cur=window.CBR_ASOF||{};
+    if(j.as_of && j.as_of!==cur.as_of){ location.reload(); return; }
+    window.CBR_ASOF=j;
+  }).catch(function(){}).then(function(){ polling=false; });
 }
 function tickNext(){
   var el=document.getElementById("cbr-next-val");
   var box=document.getElementById("cbr-next");
   if(!el||!box) return;
   var nxt=resolveNext();
-  el.textContent=fmtHM(nxt.getTime()-Date.now());
-  box.classList.remove("cbr-next-wait");
-  box.setAttribute("data-tipc", nextTip(nxt));
+  var left=nxt.getTime()-Date.now();
+  var lbl=box.firstChild;
+  if(left>=60000){
+    if(lbl && lbl.nodeType===3) lbl.nodeValue="До следующего среза ";
+    el.textContent=fmtHM(left);
+    box.classList.remove("cbr-next-wait");
+    box.setAttribute("data-tipc", nextTip(nxt));
+    return;
+  }
+  // время вышло (или осталось меньше минуты): цикл идёт, ждём новый срез
+  if(lbl && lbl.nodeType===3) lbl.nodeValue="СБОР ДАННЫХ — идёт цикл, выгрузка ";
+  el.textContent=(left>-15*60000? "ожидается ~" : "задерживается, ожидалась ~")+hmMinsk(nxt);
+  box.classList.add("cbr-next-wait");
+  box.setAttribute("data-tipc","Цикл сбора идёт: сбор, анализ, ОИ 5×5, перевод, проверки. Порция выйдет после проверок; страница проверяет новый срез раз в минуту и обновится сама. Ориентир: ~"+fmtMinsk(nxt)+" "+TZ+".");
+  pollAsof();
 }
 function visits(){
   var mark=document.querySelector(".cbr-mark"); if(!mark) return;
@@ -102,7 +130,7 @@ function chrome(){
     '<span class="cbr-st" tabindex="0" data-tipc="Статус: идёт сбор данных к очередной порции новостей. Когда порция выйдет, «последнее обновление» сменится на время её выхода, и статус снова будет «СБОР ДАННЫХ» — сбор к следующей порции."><i class="dot-warn"></i>СБОР ДАННЫХ</span>'+
     '<span class="cbr-last" tabindex="0" data-tipc="Последнее обновление — дата и время выхода последней порции: выгрузки актуального отчёта и данных на страницы. Сведения на страницах — на это время.">последнее обновление <b>'+esc(last)+' '+TZ+'</b></span>'+
     '<span class="cbr-now" tabindex="0" data-tipc="Актуально — текущие дата и время Europe/Minsk по часам вашего устройства; обновляются на странице каждую секунду. Это не время сведений."><i class="dot-live"></i>актуально <b id="cbr-now">'+nowMinsk()+' '+TZ+'</b></span>'+
-    '<span class="cbr-next" id="cbr-next" tabindex="0" data-tipc="'+esc(nextTip(nxt))+'">До следующего среза <b id="cbr-next-val">'+fmtHM(Math.max(0,nxt.getTime()-Date.now()))+'</b></span>'+
+    '<span class="cbr-next" id="cbr-next" tabindex="0" data-tipc="'+esc(nextTip(nxt))+'">До следующего среза <b id="cbr-next-val">—</b></span>'+
     '<button type="button" class="cbr-help-btn" aria-expanded="false" aria-controls="cbr-help-pop">СПРАВКА</button>';
   var n=document.getElementById("cbr-now");
   tickNext();
