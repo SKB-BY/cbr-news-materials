@@ -2450,6 +2450,31 @@
 }
 },
 {
+"id": "rel_f3c6524622ea9804",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_48a4e1e33ddc917b",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172002_vvs_ssha_ispytali_sbros_vooruzheniya_s_noveishego_bombardirovshika_b-21_raider.html",
+"published_at": "2026-11-15T21:00:01Z",
+"quote": "ВВС США испытали сброс вооружения с новейшего бомбардировщика B-21 Raider"
+},
+{
+"url": "https://belvpo.com/vvs-ssha-proveli-ispytanie-po-sbrosu-vooruzheniya-s-b-21-raider",
+"published_at": "2026-11-13T18:45:45Z",
+"quote": "ВВС США провели испытание по сбросу вооружения с B-21 Raider"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_afc92f07bb1669b7",
 "from": "ent_868a15ba4aeb446a",
 "to": "ent_ff878af017a8077e",
@@ -8842,26 +8867,6 @@
 "score_pm1": 0.3,
 "score_pm2": 1,
 "label": "умеренно позитивный"
-}
-},
-{
-"id": "rel_f3c6524622ea9804",
-"from": "ent_7902a5283b8ea891",
-"to": "ent_48a4e1e33ddc917b",
-"type": "испытание",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://belvpo.com/vvs-ssha-proveli-ispytanie-po-sbrosu-vooruzheniya-s-b-21-raider",
-"published_at": "2026-11-13T18:45:45Z",
-"quote": "ВВС США провели испытание по сбросу вооружения с B-21 Raider"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -18302,6 +18307,26 @@
 "score_pm1": 0.5,
 "score_pm2": 1,
 "label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_a896a4e82a08661b",
+"from": "ent_43252652072753d2",
+"to": "ent_ef817cedf5e8def8",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172016_kak_irakskie_tanki_t-72m1_pytalis_obmanut_amerikanskie_rakety_tow-2.html",
+"published_at": "2026-11-15T21:00:01Z",
+"quote": "В феврале 1991 года после окончания наземной фазы операции \"Буря в пустыне\" военные США заметили, что часть трофейных иракских танков Т-72М1 польского и чехословацкого производства оборудована неизвестным устройством, установленным рядом с "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 }
 ]
