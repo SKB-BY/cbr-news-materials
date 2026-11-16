@@ -160848,5 +160848,553 @@
 "subjectivity": 0.1,
 "risk_tags": []
 }
+},
+{
+"dedupe_hash": "2b5de05e6007d35f1e6b2e8b25596c78e87006fc9b359390a4f57c6b552f88c8",
+"url": "https://topwar.ru/293618-vsu-zaminirovali-rylsk-s-dronov-prestuplenie-o-kotorom-zapad-promolchit.html",
+"published_at": "2026-11-16T04:50:58Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "60d7e67265eb5c6b6642f4fb798ef791bd1570ade7843d0b7bc6726e9a9f8d3c",
+"url": "https://topwar.ru/293613-v-spacex-nashli-prichinu-ogranichenij-starshield-dlja-vsu-no-ne-ispravili.html",
+"published_at": "2026-11-16T04:01:45Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "средства связи и коммуникаций",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "8223fc5cafbc026d59ac6346c3ead05ce29f631faffb1b159f5632392567f825",
+"url": "https://tass.ru/proisshestviya/28320367",
+"published_at": "2026-11-16T05:19:52Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "bab2c7a5328c5c14a83df185221eb1bdc1b0000e727504c8e5c8577a2b6195b6",
+"url": "https://tass.ru/proisshestviya/28320347",
+"published_at": "2026-11-16T05:09:38Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b70723578d7abbdab1edaffa5d449c008b678a632d7d32ca678a2a33e3baf91b",
+"url": "https://tass.ru/proisshestviya/28320339",
+"published_at": "2026-11-16T05:07:34Z",
+"event_date": "2026-11-15",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "904d231e46c8ecc23ecff3aef5e3ecb8beccd9554660687dff56ef179869b40b",
+"url": "https://tass.ru/proisshestviya/28320307",
+"published_at": "2026-11-16T05:03:47Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "baf98f0893c237e4f81c298a9c58b1b2f48d2d7ebff7617a04379e07e5c1818b",
+"url": "https://tass.ru/proisshestviya/28320261",
+"published_at": "2026-11-16T04:42:20Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b3c5401a816db73b7d0d22f5fd841faf786fa45756b462222a5f70ec48072238",
+"url": "https://tass.ru/proisshestviya/28320259",
+"published_at": "2026-11-16T04:39:46Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "a108ccceeab14bb7be27b580dbf0f9f25302576174b82c6c3fea4195b326b1ab",
+"url": "https://tass.ru/proisshestviya/28320249",
+"published_at": "2026-11-16T04:38:24Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "0a71db2c041403ae8efe4f5e533d5e5bccad434b09c1bc6f597fc86df94402b7",
+"url": "https://tass.ru/armiya-i-opk/28320247",
+"published_at": "2026-11-16T04:31:21Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6c5e8d95f0137b297f42be16cb44cd534162ab4c461324f4d3dcbfe1e6b1fffe",
+"url": "https://tass.ru/proisshestviya/28320207",
+"published_at": "2026-11-16T04:09:36Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d5b30f9eb4d5d9db5de8a2d76e8d4f11f94b4e00fa515aded287f9640c4165ba",
+"url": "https://tass.ru/armiya-i-opk/28320175",
+"published_at": "2026-11-16T04:08:04Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "a684353fa8053a416bd3235b7eb1e17a4e832561e7f01f458337700e99b68866",
+"url": "https://tass.ru/armiya-i-opk/28320183",
+"published_at": "2026-11-16T04:01:35Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "армейские джипы",
+"subfilter": "квадроциклы"
+},
+{
+"sphere": "армейские джипы",
+"subfilter": "мотоциклы"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "959193b6c2f5b32eafa75e074e68a5ada5db74965a7c453c6bb1db18591096cb",
+"url": "https://tass.ru/armiya-i-opk/28320171",
+"published_at": "2026-11-16T04:00:35Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "бронетехника",
+"subfilter": "танки"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "31c35cd6e1202e36b53e6cf23be82d7f6fd27c1670033e8e5f662fcd6cd30f4f",
+"url": "https://tass.ru/proisshestviya/28320167",
+"published_at": "2026-11-16T03:57:59Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "9738e11e1e693a1c5eca30999e58e7dfa7307a0302e6b89b6b55b7eeb00694c7",
+"url": "https://tass.ru/armiya-i-opk/28320143",
+"published_at": "2026-11-16T03:30:34Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7f5064fa95646ad86d603a580df7306a67f63c64e6a330b29f2fbd2df2926145",
+"url": "https://tass.ru/proisshestviya/28320113",
+"published_at": "2026-11-16T03:05:06Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "18599a23c118051764a82295f303510f2cb5cdb4ed57b4705108e91de9e7a7aa",
+"url": "https://tass.ru/armiya-i-opk/28320105",
+"published_at": "2026-11-16T03:03:33Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "67cef03b3d0c573a9607da8aeea951c0ad53e0e5ae9216e039d1a03697afc1cb",
+"url": "https://tass.ru/armiya-i-opk/28320107",
+"published_at": "2026-11-16T03:02:23Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "артиллерийские системы",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ce6da888bc7fc93eefc472bd0c3df5ee3583d9e4379fa615cf6a021226f8afcc",
+"url": "https://kyivindependent.com/fuel-depot-in-azov-russia-reportedly-in-flames-following-ukrainian-drone-attacks",
+"published_at": "2026-11-16T04:48:49Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b5903ffc1315ec9935f6de1ce55ebfd681eaaca258f23115762284290135400c",
+"url": "https://ria.ru/20261116/donetsk-2131777917.html",
+"published_at": "2026-11-16T05:20:21Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "3624638cfd91a5947963ff7a8bdc64daee830729b576c605544fc1a7896e916a",
+"url": "https://ria.ru/20261116/sobyanin-2131776960.html",
+"published_at": "2026-11-16T05:10:19Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "20a051cdd501bd0262717748ba7baf621348797288bb05da0a65b687b9a655dd",
+"url": "https://ria.ru/20261116/bespilotniki-2131776868.html",
+"published_at": "2026-11-16T05:10:16Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "9b78b3f25cd3591cde6e3f07fbd049b20235755a1a5c81d32b60b91409cc6a89",
+"url": "https://ria.ru/20261116/bespilotniki-2131776542.html",
+"published_at": "2026-11-16T05:08:20Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6d00e27e4c2c6a538caad62a04a098fcad109834f5c26f56fedfdbab667c763c",
+"url": "https://ria.ru/20261116/bespilotnik-2131773786.html",
+"published_at": "2026-11-16T04:44:10Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "cb89c9ff6bc6b63ff8824d65d56089ed54d490b644f1cd11c76330533bb95343",
+"url": "https://ria.ru/20261116/bespilotniki-2131773394.html",
+"published_at": "2026-11-16T04:42:05Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "e54bf70d995ba385455ff81c80243b4e4ee89ec9969d676fa482b63513a1bb53",
+"url": "https://soldat-und-technik.de/2026/11/bewaffnung/50770/90-russland-geran",
+"published_at": "2026-11-16T05:06:41Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "8a989bb8c2079d7384be4071e79902faaf61ab9826a80ebd5d39971af53c855d",
+"url": "https://zona-militar.com/2026/11/16/51-drones-derribados-en-segundos-aselsan-celebro-su-aniversario-marcando-un-record-mundial-con-su-sistema-ejderha",
+"published_at": "2026-11-16T04:00:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
 }
 ]
