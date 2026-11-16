@@ -2,6 +2,8 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8">
+<meta name="author" content="GREEN-CBR">
+<meta name="copyright" content="© 2026 GREEN-CBR. Все права защищены.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {% assign u = page.url %}{% assign sec = "" %}{% if u contains "%D0%9E%D0%A2%D0%A7" or u contains "ОТЧЁТ" %}{% assign sec = "Актуальный отчёт" %}{% elsif u contains "OI_5x5" %}{% assign sec = "ОИ 5×5" %}{% elsif u contains "/data/oi5x5" %}{% assign sec = "Данные ОИ 5×5" %}{% elsif u contains "mention_gap" %}{% assign sec = "Разрыв упоминаний" %}{% elsif u contains "SOURCES" %}{% assign sec = "Источники сбора" %}{% elsif u contains "darpa-programs" %}{% assign sec = "Программы DARPA" %}{% elsif u != "/" and u != "/index.html" and page.title %}{% assign sec = page.title %}{% endif %}
 {% assign cbr_title = site.title %}{% if sec != "" and sec != site.title %}{% assign cbr_title = site.title | append: " — " | append: sec %}{% endif %}
@@ -27,6 +29,7 @@
   <a class="cbr-mark" href="{{ site.baseurl }}/"><b class="cbr-logo" tabindex="0">CBR</b><span>{{ site.title }}</span></a>
   <nav class="cbr-nav">
     <a href="{{ site.baseurl }}/%D0%90%D0%9A%D0%A2%D0%A3%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%99_%D0%9E%D0%A2%D0%A7%D0%81%D0%A2.html"{% if u contains "ОТЧЁТ" or u contains "%D0%9E%D0%A2%D0%A7" %} class="on"{% endif %}>Актуальный отчёт</a>
+    <a href="{{ site.baseurl }}/iid/">ИИД-100</a>
     <a href="{{ site.baseurl }}/news-map/">Новостная карта</a>
     <a href="{{ site.baseurl }}/map/">Карта реестра</a>
     <a href="{{ site.baseurl }}/companies.csv">Реестр сил и компаний</a>
@@ -41,7 +44,7 @@
 <main class="cbr-doc">
 {{ content }}
 </main>
-<footer class="cbr-foot">{{ site.title }} · сведения на {{ site.data.asof.as_of }} Europe/Minsk · коды ОИ 5×5 — проход {{ site.data.asof.oi_as_of }} Europe/Minsk · <a href="https://github.com/SKB-BY/cbr-news-materials">репозиторий</a></footer>
+<footer class="cbr-foot">{{ site.title }} · сведения на {{ site.data.asof.as_of }} Europe/Minsk · коды ОИ 5×5 — проход {{ site.data.asof.oi_as_of }} Europe/Minsk · <a href="https://github.com/SKB-BY/cbr-news-materials">репозиторий</a><br>© 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR. · <a href="https://github.com/SKB-BY/cbr-news-materials/blob/main/LICENSE">Лицензия</a> · новости — собственность их источников</footer>
 <script src="{{ site.baseurl }}/assets/asof.js?v={{ site.github.build_revision | slice: 0, 7 }}"></script>
 <script src="{{ site.baseurl }}/news-map/explain.js?v={{ site.github.build_revision | slice: 0, 7 }}"></script>
 </body>

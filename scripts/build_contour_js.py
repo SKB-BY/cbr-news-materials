@@ -1,3 +1,4 @@
+# © 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR. Лицензия: LICENSE в корне репозитория.
 # t62u: news-map/contour.js — сущности, связи, сфера и окрас для фильтров Новостной карты.
 import csv, json, sys
 from pathlib import Path

@@ -2,18 +2,20 @@
 <html lang="ru">
 <head>
 <meta charset="utf-8">
+<meta name="author" content="GREEN-CBR">
+<meta name="copyright" content="© 2026 GREEN-CBR. Все права защищены.">
 <link rel="icon" href="data:,">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Контур информационного мониторинга OSINT ЦБР РБ — Новостная карта</title>
+<title>КОНТУР - I-OSINT BY — Новостная карта</title>
 <meta name="description" content="Открытые новости разбираются по сферам, сущностям и связям, получают код ОИ 5×5 и окрас и выкладываются в актуальный отчёт, на новостную карту, карту реестра и в реестр сил и компаний.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ru_RU">
-<meta property="og:site_name" content="Контур информационного мониторинга OSINT ЦБР РБ">
-<meta property="og:title" content="Контур информационного мониторинга OSINT ЦБР РБ — Новостная карта">
+<meta property="og:site_name" content="КОНТУР - I-OSINT BY">
+<meta property="og:title" content="КОНТУР - I-OSINT BY — Новостная карта">
 <meta property="og:description" content="Открытые новости разбираются по сферам, сущностям и связям, получают код ОИ 5×5 и окрас и выкладываются в актуальный отчёт, на новостную карту, карту реестра и в реестр сил и компаний.">
 <meta property="og:url" content="https://skb-by.github.io/cbr-news-materials/news-map/">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Контур информационного мониторинга OSINT ЦБР РБ — Новостная карта">
+<meta name="twitter:title" content="КОНТУР - I-OSINT BY — Новостная карта">
 <meta name="twitter:description" content="Открытые новости разбираются по сферам, сущностям и связям, получают код ОИ 5×5 и окрас и выкладываются в актуальный отчёт, на новостную карту, карту реестра и в реестр сил и компаний.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
@@ -113,9 +115,10 @@
 </head>
 <body>
 <header class="cbr-bar">
-  <a class="cbr-mark" href="../"><b class="cbr-logo" tabindex="0">CBR</b><span>Контур информационного мониторинга OSINT ЦБР РБ</span></a>
+  <a class="cbr-mark" href="../"><b class="cbr-logo" tabindex="0">CBR</b><span>КОНТУР - I-OSINT BY</span></a>
   <nav class="cbr-nav">
     <a href="../%D0%90%D0%9A%D0%A2%D0%A3%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%99_%D0%9E%D0%A2%D0%A7%D0%81%D0%A2.html">Актуальный отчёт</a>
+    <a href="../iid/">ИИД-100</a>
     <a class="on" href="./">Новостная карта</a>
     <a href="../map/">Карта реестра</a>
     <a href="../companies.csv">Реестр сил и компаний</a>
@@ -180,7 +183,7 @@
       <ul id="stories"></ul>
       <div id="more"></div>
     </div>
-    <footer>Подложка: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">участники OpenStreetMap</a> (ODbL); тёмная подложка — те же тайлы OpenStreetMap с инверсией цвета. Границы: <a href="https://www.naturalearthdata.com" target="_blank" rel="noopener">Natural Earth</a> (public domain) и OpenStreetMap (ODbL) — <a href="areas.geojson">areas.geojson</a>. Карта: <a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a> 1.9.4.</footer>
+    <footer>© 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR. <a href="https://github.com/SKB-BY/cbr-news-materials/blob/main/LICENSE" target="_blank" rel="noopener">Лицензия</a>.<br>Подложка: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">участники OpenStreetMap</a> (ODbL); тёмная подложка — те же тайлы OpenStreetMap с инверсией цвета. Границы: <a href="https://www.naturalearthdata.com" target="_blank" rel="noopener">Natural Earth</a> (public domain) и OpenStreetMap (ODbL) — <a href="areas.geojson">areas.geojson</a>. Карта: <a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a> 1.9.4.</footer>
   </aside>
   <div id="map"></div>
 </div>
@@ -392,6 +395,32 @@ function more(){ const ul=document.getElementById("stories"); const part=cur.sli
   const m=document.getElementById("more"); m.innerHTML = shown<cur.length ? `<button>показать ещё</button>` : ""; if(m.firstChild) m.firstChild.onclick=more; }
 update();
 window.NEWS_MAP={map};  // для проверки в браузере
+})();
+</script>
+
+<script src="../iid/iid_data.js?v=t143"></script>
+<script>
+/* t143u: ИИД-100 по странам источников на Новостной карте. © 2026 GREEN-CBR. */
+(function(){
+  const I=window.IID, M=(window.NEWS_MAP||{}).map; if(!I||!window.L) return;
+  const P={"Украина":[50.45,30.52],"Польша":[52.23,21.01],"Литва":[54.69,25.28],"Латвия":[56.95,24.11],"Россия":[55.76,37.62]};
+  const col=v=>v<=25?"#1f6f43":v<=50?"#8a7a2a":v<=75?"#b5602a":"#a3262a";
+  const d=I.day, dd=d.date.slice(8,10)+"."+d.date.slice(5,7);
+  const box=document.createElement("details"); box.id="iidbox"; box.open=true;
+  let h='<summary>ИИД-100 по странам источников</summary><p class="muted">Индекс информационного давления на РБ: 0–100, 100 — максимум. Сутки '+dd+': <b>'+d.iid+'</b> ('+d.zone+'); 7 дней: <b>'+I.iid7+'</b>. <a href="../iid/">Подробно →</a></p><table style="width:100%;font-size:12px;border-collapse:collapse">';
+  h+='<tr><th style="text-align:left">Страна</th><th>сутки</th><th>7 дней</th><th>N 7 дн.</th></tr>';
+  I.rows.forEach(r=>{const r7=(I.rows7||[]).find(x=>x.country===r.country)||{}; h+='<tr><td>'+r.country+'</td><td style="text-align:center"><span style="background:'+col(r.iid)+';color:#fff;padding:0 6px;border-radius:2px">'+(r.N?r.iid:'—')+'</span></td><td style="text-align:center">'+(r7.iid7==null?'—':r7.iid7)+'</td><td style="text-align:center">'+(r7.N7||0)+'</td></tr>';});
+  h+='</table>'; box.innerHTML=h;
+  const top=document.querySelector("#side .top"); const flt=document.getElementById("flt");
+  if(top&&flt) top.insertBefore(box, flt);
+  if(!M) return;
+  const lg=L.layerGroup();
+  I.rows.forEach(r=>{ const p=P[r.country]; if(!p) return; const r7=(I.rows7||[]).find(x=>x.country===r.country)||{};
+    const v=r7.iid7||0;
+    L.circleMarker(p,{radius:10+Math.min(14,(r7.N7||0)),color:col(v),fillColor:col(v),fillOpacity:.55,weight:2})
+     .bindTooltip("ИИД-100 · "+r.country+": 7 дней "+v+", сутки "+(r.N?r.iid:"—")+" (материалов о РБ за 7 дней: "+(r7.N7||0)+")",{direction:"top"}).addTo(lg); });
+  lg.addTo(M);
+  try{ L.control.layers(null,{"ИИД-100 по странам":lg},{collapsed:true,position:"bottomright"}).addTo(M);}catch(e){}
 })();
 </script>
 </body>

@@ -1,0 +1,161 @@
+{
+ "method_version": "iid100-1",
+ "approved": "GREEN t143u, 16.11.2026: внедрить по образцу; веса и пороги — из образца",
+ "author": "GREEN-CBR",
+ "weights": {
+  "V": 0.25,
+  "O": 0.25,
+  "S": 0.2,
+  "R": 0.15,
+  "C": 0.15
+ },
+ "oi_letter": {
+  "А": 1.0,
+  "Б": 0.8,
+  "В": 0.6,
+  "Г": 0.4,
+  "Д": 0.2
+ },
+ "oi_digit": {
+  "1": 1.0,
+  "2": 0.8,
+  "3": 0.6,
+  "4": 0.4,
+  "5": 0.2
+ },
+ "negative_threshold": -0.2,
+ "baseline_days": 30,
+ "kv_full_ratio": 3,
+ "consistency_families": 3,
+ "consistency_hours": 24,
+ "story_window_hours": 72,
+ "story_shingle_words": 4,
+ "story_jaccard": 0.35,
+ "story_cosine": 0.6,
+ "story_same_lang_min_keys": 1,
+ "story_cross_lang_min_keys": 3,
+ "story_cross_lang_min_numdate": 1,
+ "response_window_hours": 72,
+ "response_min_keys": 2,
+ "timely_hours": 12,
+ "mass_story_per_day": 10,
+ "effect_threshold": 5,
+ "quality_keys_full": 3,
+ "quality_high": 0.7,
+ "quality_mid": 0.5,
+ "cell_min_n": 3,
+ "zones": [
+  [
+   25,
+   "спокойно"
+  ],
+  [
+   50,
+   "умеренно"
+  ],
+  [
+   75,
+   "высокое"
+  ],
+  [
+   100,
+   "критическое"
+  ]
+ ],
+ "series_days": 30,
+ "pressure_story_min_neg": 1,
+ "countries_shown": [
+  "Украина",
+  "Польша",
+  "Литва",
+  "Латвия",
+  "Россия",
+  "Прочие страны"
+ ],
+ "excluded_source_country": "Беларусь",
+ "languages": [
+  "ru",
+  "be",
+  "uk",
+  "pl",
+  "lt",
+  "lv",
+  "en",
+  "de"
+ ],
+ "number_min_value": 10,
+ "number_year_range": [
+  1990,
+  2035
+ ],
+ "body_max_chars": 6000,
+ "time_budget_s": 240,
+ "mention_exclude_after": {
+  "BY-MSQ": [
+   "mazowieck",
+   "mazowsz"
+  ]
+ },
+ "our_sources_fallback": [
+  "belta.by",
+  "belta.by-bpla",
+  "tg:modmilby",
+  "sb.by-bpla",
+  "mil.by",
+  "vpk.gov.by",
+  "tg:vpk_gov_by",
+  "tg:vpkgovby"
+ ],
+ "our_resource_names": {
+  "МИД Беларуси": [
+   "мид беларуси",
+   "мид рб",
+   "белорусск мид",
+   "мзс білорусі",
+   "мзс беларусі",
+   "belarusian foreign ministry",
+   "belarus foreign ministry",
+   "msz białorusi",
+   "białorusk msz",
+   "baltarusijos užsienio reikalų ministerij",
+   "baltkrievijas ārlietu ministrij",
+   "belarussisch außenministerium"
+  ],
+  "Минобороны Беларуси": [
+   "минобороны беларуси",
+   "минобороны рб",
+   "белорусск минобороны",
+   "міноборони білорусі",
+   "міністэрства абароны",
+   "belarusian defence ministry",
+   "belarusian defense ministry",
+   "ministry of defence of belarus",
+   "mon białorusi"
+  ],
+  "Госпогранкомитет": [
+   "госпогранкомитет",
+   "гпк беларуси",
+   "дпк білорусі",
+   "дзяржпамежкамітэт",
+   "belarusian border committee",
+   "state border committee of belarus",
+   "białorusk straż graniczn"
+  ],
+  "ГВПК": [
+   "госкомвоенпром",
+   "гвпк",
+   "state authority for military industry"
+  ],
+  "БелТА": [
+   "белта",
+   "belta"
+  ],
+  "Пресс-служба Президента": [
+   "пресс-служб президента беларуси",
+   "пул первого",
+   "press service of the president of belarus"
+  ]
+ },
+ "response_default_digit": "3",
+ "sphere_note": "Сфера — одна основная сфера по классификатору «Контура» (item_sphere), приоритет: ПВО/РВСН, авиация, вооружение, бронетехника, артиллерия, связь, ПО, джипы, тактика, БПЛА."
+}

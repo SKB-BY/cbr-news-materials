@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>КОНТУР - I-OSINT BY — ИИД-100</title>
+<meta name="description" content="ИИД-100 — Индекс информационного давления на Республику Беларусь: 0–100, 100 — максимальное давление. Расчёт без нейросетей и машинного перевода.">
+<meta name="author" content="GREEN-CBR">
+<meta name="copyright" content="© 2026 GREEN-CBR. Все права защищены.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="КОНТУР - I-OSINT BY">
+<meta property="og:title" content="КОНТУР - I-OSINT BY — ИИД-100">
+<meta property="og:url" content="https://skb-by.github.io/cbr-news-materials/iid/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="КОНТУР - I-OSINT BY — ИИД-100">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../assets/cbr-ops.css?v=t143">
+<style>
+.iid-wrap{max-width:1180px;margin:0 auto;padding:18px}
+.iid-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;margin:12px 0}
+.iid-card{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:14px}
+.iid-label{font:600 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.iid-big{font:600 48px var(--mono);line-height:1.1}
+.iid-zone{font:600 14px var(--mono);padding:2px 8px;border-radius:3px;display:inline-block}
+.z0{background:#1f6f43;color:#fff}.z1{background:#8a7a2a;color:#fff}.z2{background:#b5602a;color:#fff}.z3{background:#a3262a;color:#fff}
+.zonebar{display:flex;margin-top:8px;font:11px var(--mono)}.zonebar span{flex:1;padding:3px 4px;text-align:center}
+table.iid{border-collapse:collapse;width:100%;font-size:13px;margin:8px 0}
+table.iid th,table.iid td{border:1px solid var(--line);padding:5px 6px;vertical-align:top;text-align:left}
+table.iid th{background:var(--panel-2);font-weight:600}
+td.num{text-align:right;font-family:var(--mono)}
+.heat td.cell{text-align:center;font-family:var(--mono)}
+.muted{color:var(--muted)} .small{font-size:12px}
+select,label{font:13px var(--sans);color:var(--text);background:var(--panel-2);border:1px solid var(--line);padding:3px 6px;border-radius:3px}
+label{border:0;background:none}
+.bar{height:10px;background:var(--accent);display:inline-block;vertical-align:middle}
+svg text{fill:var(--muted);font:11px var(--mono)}
+h2{margin-top:28px;border-bottom:1px solid var(--line);padding-bottom:4px}
+.note{border-left:3px solid var(--warn);padding:6px 10px;background:var(--panel)}
+.cbr-copy{max-width:1180px;margin:24px auto 30px;padding:10px 18px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
+</style>
+</head><body>
+<header class="cbr-bar">
+  <a class="cbr-mark" href="../"><b class="cbr-logo" tabindex="0">CBR</b><span>КОНТУР - I-OSINT BY</span></a>
+  <nav class="cbr-nav">
+    <a href="../%D0%90%D0%9A%D0%A2%D0%A3%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%99_%D0%9E%D0%A2%D0%A7%D0%81%D0%A2.html">Актуальный отчёт</a>
+    <a class="on" href="./">ИИД-100</a>
+    <a href="../news-map/">Новостная карта</a>
+    <a href="../map/">Карта реестра</a>
+    <a href="../companies.csv">Реестр сил и компаний</a>
+    <a href="../OI_5x5.html">ОИ 5×5</a>
+    <a href="../SOURCES.html">Источники сбора</a>
+  </nav>
+  <span class="cbr-asof" id="cbr-asof"><i></i></span>
+</header>
+<main class="cbr-doc iid-wrap">
+<h1>ИИД-100 — Индекс информационного давления</h1>
+<p>Насколько неблагоприятная повестка складывается в отношении Республики Беларусь в собранных открытых источниках. Шкала 0–100: <b>100 — максимальное давление</b>. Расчёт без нейросетей, языковых моделей и машинного перевода: словари, формулы и пороги (раздел «Методика»). Сутки — 00:00–24:00 Europe/Minsk.</p>
+<p class="muted small" id="iid-asof">—</p>
+<div id="iid-err" class="note" style="display:none"></div>
+
+<h2>1. Текущие значения</h2>
+<div class="iid-grid" id="iid-head"></div>
+<div class="zonebar"><span class="z0">0–25 спокойно</span><span class="z1">26–50 умеренно</span><span class="z2">51–75 высокое</span><span class="z3">76–100 критическое</span></div>
+
+<h2>2. Составляющие (расчётные сутки)</h2>
+<p class="small muted">ИИД = округление(100 × (wV·kV + wO·kO + wS·kS + wR·kR + wC·kC)). Сумма вкладов равна индексу.</p>
+<table class="iid" id="iid-parts"></table>
+
+<h2>3. Страны источников × сферы</h2>
+<p class="small muted">Ячейка — ИИД по формуле (1) только по материалам этой страны и сферы; ячейка с N &lt; 3 — «—» (выборка мала, но материалы входят в итоги). Итоги — по объединённым суммам, не среднее ячеек. Запись «ИИД · N/|M⁻|».</p>
+<div>
+ <label>Страна <select id="f-country"><option value="">все</option></select></label>
+ <label>Сфера <select id="f-sphere"><option value="">все</option></select></label>
+ <label><input type="checkbox" id="f-min"> только ячейки с N ≥ 3</label>
+</div>
+<div style="overflow-x:auto"><table class="iid heat" id="iid-heat"></table></div>
+<table class="iid" id="iid-rows7"></table>
+
+<h2>4. ИИД за 30 дней и наши ответы</h2>
+<p class="small muted">Линия — ИИД за сутки, столбцы — N (материалов о Беларуси). ▲ зелёная — время ответа наших ресурсов; ✕ красная — окончание окна ответа (72 ч) у сюжета без ответа.</p>
+<div id="iid-chart"></div>
+
+<h2>5. Сюжеты давления и наш ответ</h2>
+<p class="small muted">Сюжет давления — связная группа материалов (72 ч; один язык — шинглы/TF-IDF и общий ключ; разные языки — ≥ 3 общих ключа, из них ≥ 1 число или дата), в которой есть негативный материал (окрас ≤ −0,2). Ответ — первый материал группы «наши официальные ресурсы РБ» с ≥ 2 ключами сюжета в 72 ч от начала.</p>
+<div style="overflow-x:auto"><table class="iid" id="iid-stories"></table></div>
+
+<h2>6. Эффективность ответов</h2>
+<table class="iid" id="iid-eff"></table>
+<p class="note"><b>Корреляция, не доказательство причины.</b> Это совпадение по времени: на повестку влияют и другие события тех же дней; вывод о пользе ответа делается по многим сюжетам, а не по одному.</p>
+
+<h2>7. Методика</h2>
+<ul>
+<li><b>Какие материалы входят.</b> Материал входит в ИИД, если в нём найдено упоминание Беларуси по словарю упоминаний (страна, Президент, органы власти, населённые пункты РБ, организации реестра с пометкой BY) на языках ru, be, uk, pl, lt, lv, en, de — поиск по основе слова с фиксированным списком окончаний языка и по границе слова. Язык — по алфавиту и словарю служебных слов. Материалы на других языках и материалы источников из Беларуси в расчёт не входят (счётчик «вне расчёта»).</li>
+<li><b>Страна</b> — страна издателя по карточке источника; <b>сфера</b> — одна основная сфера по классификатору «Контура».</li>
+<li><b>Окрас</b> S — только по предложениям, где названа Беларусь: S = (2·сп + п − 2·сн − н)/(Σвесов + 2); без сильных признаков не дальше ±0,5; −1…+1, до 0,1. Негативный материал — S ≤ −0,2.</li>
+<li><b>Субъективность</b> — 0,1 + 0,15 за оценочное слово (не более 4) + 0,1 за «!!» + 0,15 за первое лицо + 0,05 за «??» + 0,1 за 2+ слова ЗАГЛАВНЫМИ в заголовке; до 0,1, не выше 1.</li>
+<li><b>Вес ОИ 5×5</b> r = a(буква) × b(цифра): А 1,0 … Д 0,2; 1 = 1,0 … 5 = 0,2.</li>
+<li><b>Согласованность</b> c = 1, если за 24 ч до материала (включая его) материалы того же сюжета дали ≥ 3 разные издательские семьи.</li>
+<li><b>Составляющие</b>: kV = min(1; max(0; (N/B − 1)/2)), B = max(1; M30/30); kO = Σn/N, n = max(0; −S); kS = ΣSubj/|M⁻|; kR = Σr/|M⁻|; kC = Σc/|M⁻|; при |M⁻| = 0 kS = kR = kC = 0.</li>
+<li><b>ИИД сюжета</b> — та же формула по материалам окна; kV = min(1; v/10), v — материалов в сутки. Окно «до» = [max(t0; tr − 72 ч); tr), «после» = [tr; tr + 72 ч); без ответа tr = t0 + 72 ч. Δ ≤ −5 — снижение, Δ ≥ +5 — усиление; пока окно «после» не закрыто, эффект не ставится.</li>
+<li><b>Качество ответа</b> Q = (r + (1 − Subj) + f)/3, f = min(1; общих ключей/3): ≥ 0,70 высокое, ≥ 0,50 среднее. Своевременный — не позже 12 ч.</li>
+<li><b>Вклад</b> ячейки или сюжета = ИИД × |M⁻ ячейки (сюжета) за сутки| / |M⁻ суток|.</li>
+<li><b>Округления</b>: S, Subj — 0,1; r — 0,01; k — 0,001; ИИД — целое; везде «половина вверх».</li>
+</ul>
+<p>Словари признаков, упоминаний, топонимов и организаций, карточки стран источников и все коэффициенты — в каталоге <a href="https://github.com/SKB-BY/cbr-news-materials/tree/main/iid">iid/</a> репозитория (<code>IID_METHOD.md</code>, <code>IID_DICTIONARIES.md</code>, <code>iid_config.json</code>, <code>iid_lex.json</code>, <code>iid_sources.json</code>).</p>
+
+<h2>8. Воспроизводимость</h2>
+<ul>
+<li>Одинаковый вход → одинаковый результат. Случайных чисел и обучаемых параметров нет; порядок обработки — время публикации, затем идентификатор.</li>
+<li>Каждый расчёт выполняется дважды на одном снимке входа; при расхождении значение не публикуется.</li>
+<li>С каждым значением хранятся версия методики, хэш снимка и промежуточные суммы (N, M30, Σn, |M⁻|, ΣSubj, Σr, Σc) — пересчёт возможен на калькуляторе (таблица суточного ряда ниже).</li>
+<li>Не используются: нейросети, языковые модели, обучаемые классификаторы и модели тональности, векторные представления слов, машинный перевод.</li>
+</ul>
+<div id="iid-repro"></div>
+<details><summary>Суточный ряд с промежуточными суммами</summary><div style="overflow-x:auto"><table class="iid" id="iid-series"></table></div></details>
+</main>
+<footer class="cbr-copy">© 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR. · <a href="https://github.com/SKB-BY/cbr-news-materials/blob/main/LICENSE">Лицензия</a> · Новости — собственность их источников.</footer>
+<script src="iid_data.js?v=t143"></script>
+<script src="../assets/asof.js?v=t143"></script>
+<script src="../news-map/explain.js?v=t143"></script>
+<script>
+(function(){
+const I=window.IID, $=id=>document.getElementById(id);
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const nf=(v,d)=>v==null?"—":Number(v).toFixed(d).replace(".",",");
+if(!I){$("iid-err").style.display="block";$("iid-err").textContent="Данные ИИД-100 не загружены.";return;}
+const zc=v=>v<=25?"z0":v<=50?"z1":v<=75?"z2":"z3";
+const arrow=d=>d>0?"▲ +"+d:d<0?"▼ "+d:"±0";
+const dmy=s=>s.slice(8,10)+"."+s.slice(5,7)+"."+s.slice(0,4);
+const D=I.day, tp=I.top;
+$("iid-asof").textContent="Расчёт: "+I.computed_at.replace("T"," ").slice(0,16)+" Europe/Minsk · методика "+I.method_version+" · словари "+I.lex_version+" · снимок "+I.snapshot_hash.slice(0,12)+" · материалов о Беларуси в окне 62 сут.: "+I.counts.iid_materials+(I.checks&&I.checks.ok?" · самопроверки пройдены":"");
+const card=(l,v,z,s)=>`<div class="iid-card"><div class="iid-label">${l}</div><div class="iid-big">${v}</div>${z?`<span class="iid-zone ${zc(+v)}">${z}</span>`:""}<div class="small muted" style="margin-top:6px">${s||""}</div></div>`;
+let h=card("ИИД за сутки "+dmy(D.date),D.iid,D.zone,arrow(D.delta)+" к предыдущим суткам ("+D.prev_iid+") · N = "+D.N+", |M⁻| = "+D.nneg);
+h+=card("ИИД за 7 дней",I.iid7,I.iid7<=25?"спокойно":I.iid7<=50?"умеренно":I.iid7<=75?"высокое":"критическое",arrow(I.delta7)+" к предыдущим 7 дням ("+I.iid7prev+") · среднее суточных: "+I.iid7days.join(" + ")+" / 7");
+h+=card("Главный вклад",tp?esc(tp.country):"—","",tp?("«"+esc(tp.sphere)+"»: "+nf(tp.contrib,1)+" п. = ИИД × N⁻ячейки / N⁻суток"):"негативных материалов за сутки нет");
+const nr=I.no_response;
+h+=card("Сюжеты без ответа (7 дней)",nr.without,"","из "+nr.recent_7d+" сюжетов давления"+(nr.window_open?"; у "+nr.window_open+" окно ответа ещё открыто":""));
+if(I.today_partial) h+=card("Сегодня на "+I.today_partial.as_of+" (неполные сутки)",I.today_partial.iid,I.today_partial.zone,"N = "+I.today_partial.N+"; в итоги дня войдёт после 24:00");
+$("iid-head").innerHTML=h;
+const names={V:"Объём V",O:"Окрас O",S:"Субъективность S",R:"Вес по ОИ 5×5 R",C:"Согласованность C"};
+const W=I.config.weights; let t="<tr><th>Составляющая</th><th>w</th><th>k (0…1)</th><th>вклад, п. = 100·w·k</th><th></th></tr>"; let sum=0;
+for(const c of ["V","O","S","R","C"]){sum+=D.points[c];t+=`<tr><td>${names[c]}</td><td class="num">${nf(W[c],2)}</td><td class="num">${nf(D.k[c],3)}</td><td class="num">${nf(D.points[c],3)}</td><td><span class="bar" style="width:${Math.round(D.points[c]*4)}px"></span></td></tr>`;}
+t+=`<tr><th>Итого</th><td class="num">1,00</td><td></td><th class="num">${nf(sum,3)} → ${D.iid}</th><td class="small muted">N=${D.N}; M30=${D.M30}; B=${nf(D.B,3)}; Σn=${nf(D.sumO,1)}; |M⁻|=${D.nneg}; ΣSubj=${nf(D.sumS,1)}; Σr=${nf(D.sumR,2)}; Σc=${D.C}</td></tr>`;
+$("iid-parts").innerHTML=t;
+const fc=$("f-country"), fs=$("f-sphere");
+I.countries.forEach(c=>fc.insertAdjacentHTML("beforeend",`<option>${esc(c)}</option>`));
+I.spheres.forEach(s=>fs.insertAdjacentHTML("beforeend",`<option>${esc(s)}</option>`));
+function heat(){
+  const C=fc.value?[fc.value]:I.countries, S=fs.value?[fs.value]:I.spheres, mn=$("f-min").checked;
+  const bg=v=>v==null?"":`background:${v<=25?"#1f6f4366":v<=50?"#8a7a2a88":v<=75?"#b5602a99":"#a3262aaa"}`;
+  let x="<tr><th>Страна</th>"+S.map(s=>`<th>${esc(s)}</th>`).join("")+"<th>Итог</th></tr>";
+  for(const c of C){ const row=I.rows.find(r=>r.country===c)||{};
+    x+=`<tr><th>${esc(c)}</th>`+S.map(s=>{const e=I.cells.find(q=>q.country===c&&q.sphere===s); if(!e||(mn&&e.N<3)) return '<td class="cell muted">·</td>'; return `<td class="cell" style="${bg(e.iid)}" title="вклад ${nf(e.contrib,1)} п.">${e.iid==null?"—":e.iid} · ${e.N}/${e.nneg}</td>`;}).join("")+`<td class="cell" style="${row.N?bg(row.iid):""}">${row.N?row.iid:"—"} · ${row.N||0}/${row.nneg||0}</td></tr>`;}
+  x+="<tr><th>Итог</th>"+S.map(s=>{const e=I.cols.find(q=>q.sphere===s)||{};return `<td class="cell">${e.N?e.iid:"—"} · ${e.N||0}/${e.nneg||0}</td>`;}).join("")+`<th class="cell">${D.iid} · ${D.N}/${D.nneg}</th></tr>`;
+  if(!I.spheres.length) x="<tr><td>За расчётные сутки материалов о Беларуси нет.</td></tr>";
+  $("iid-heat").innerHTML=x;
+}
+[fc,fs,$("f-min")].forEach(e=>e.addEventListener("change",heat)); heat();
+$("iid-rows7").innerHTML="<tr><th>Страна (7 дней)</th><th>ИИД 7 дней</th><th>N за 7 дней</th></tr>"+I.rows7.map(r=>`<tr><td>${esc(r.country)}</td><td class="num">${r.iid7}</td><td class="num">${r.N7}</td></tr>`).join("");
+// график
+(function(){
+  const S=I.series, w=1100, hh=260, pl=34, pb=40, n=S.length, bw=(w-pl-10)/n, maxN=Math.max(3,...S.map(s=>s.N));
+  const x=i=>pl+i*bw+bw/2, yI=v=>hh-pb-(v/100)*(hh-pb-12), yN=v=>hh-pb-(v/maxN)*(hh-pb-12)*0.6;
+  let g=`<svg viewBox="0 0 ${w} ${hh}" width="100%" role="img" aria-label="ИИД за 30 дней">`;
+  [0,25,50,75,100].forEach(v=>{g+=`<line x1="${pl}" x2="${w-10}" y1="${yI(v)}" y2="${yI(v)}" stroke="#2a313c"/><text x="4" y="${yI(v)+4}">${v}</text>`;});
+  S.forEach((s,i)=>{g+=`<rect x="${x(i)-bw*0.35}" y="${yN(s.N)}" width="${bw*0.7}" height="${hh-pb-yN(s.N)}" fill="#3d8eff33"><title>${dmy(s.date)}: N=${s.N}</title></rect>`; if(i%3===0||i===n-1) g+=`<text x="${x(i)-14}" y="${hh-pb+14}">${s.date.slice(8,10)}.${s.date.slice(5,7)}</text>`;});
+  g+=`<polyline fill="none" stroke="#e7ecf1" stroke-width="2" points="${S.map((s,i)=>x(i)+","+yI(s.iid)).join(" ")}"/>`;
+  S.forEach((s,i)=>{g+=`<circle cx="${x(i)}" cy="${yI(s.iid)}" r="3" fill="#e7ecf1"><title>${dmy(s.date)}: ИИД ${s.iid} (${s.zone}); N=${s.N}, B=${nf(s.B,2)}</title></circle>`;});
+  const idx=d=>S.findIndex(s=>s.date===d);
+  I.stories.forEach(st=>{ if(st.response){const i=idx(st.response.t.slice(0,10)); if(i>=0) g+=`<text x="${x(i)-5}" y="${hh-pb+30}" style="fill:#3dcc8a;font-size:14px">▲<title>Ответ: ${esc(st.response.resource||st.response.source)} ${st.response.t.replace("T"," ")}</title></text>`;}
+    else if(!st.window_open){const i=idx(st.window_until.slice(0,10)); if(i>=0) g+=`<text x="${x(i)-5}" y="${hh-pb+30}" style="fill:#e5484d;font-size:14px">✕<title>Без ответа: окно закрыто ${st.window_until.replace("T"," ")}</title></text>`;}});
+  g+="</svg>"; $("iid-chart").innerHTML=g;
+})();
+// сюжеты
+(function(){
+  let x="<tr><th>Сюжет</th><th>Страны · сфера</th><th>t0</th><th>Ответ</th><th>Задержка</th><th>Q</th><th>ИИД до → после</th><th>Δ, эффект</th><th>Цит.</th><th>Вклад за сутки</th></tr>";
+  if(!I.stories.length) x+='<tr><td colspan="10">Сюжетов давления за 30 дней нет.</td></tr>';
+  I.stories.forEach(s=>{const r=s.response;
+    x+=`<tr><td><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a><div class="small muted">материалов ${s.n}, негативных ${s.nneg}; ${esc(s.sources.join(", "))}</div></td><td>${esc(s.countries.join(", "))} · ${esc(s.sphere)}</td><td class="num">${s.t0.slice(8,10)}.${s.t0.slice(5,7)} ${s.t0.slice(11,16)}</td>`+
+    (r?`<td><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.resource||r.source)}</a>, ${esc(r.oi)}<div class="small muted">${r.t.slice(8,10)}.${r.t.slice(5,7)} ${r.t.slice(11,16)}; ключи: ${esc(r.shared_keys.join(", "))}</div></td><td>${nf(r.delay_h,1)} ч<br><span class="small">${r.timely}</span></td><td class="num">${nf(r.Q,2)}<br><span class="small">${r.Q_label}</span></td>`
+      :`<td>нет${s.window_open?'<div class="small muted">окно открыто до '+s.window_until.slice(8,10)+"."+s.window_until.slice(5,7)+" "+s.window_until.slice(11,16)+"</div>":""}</td><td>—</td><td>—</td>`)+
+    `<td class="num">${s.before.iid} → ${s.after_closed?s.after.iid:"…"}</td><td>${s.effect?((s.delta>0?"+":"")+s.delta+", "+s.effect):"окно «после» не закрыто"}</td><td class="num">${r?r.cites:0}</td><td class="num">${nf(s.contrib_day,1)}</td></tr>`;});
+  $("iid-stories").innerHTML=x;
+})();
+(function(){const e=I.effectiveness;
+  const rows=[["Сюжетов давления (30 дней)",e.stories_total,""],["Доля сюжетов с ответом",e.share_with_response==null?"—":e.share_with_response+" %",e.with_response+" из "+e.stories_total],
+   ["Средняя задержка ответа",e.mean_delay_h==null?"—":nf(e.mean_delay_h,1)+" ч","своевременных "+e.timely+" из "+e.with_response],
+   ["Сюжетов с закрытым окном «после»",e.closed,"эффект ставится только по закрытым окнам"],
+   ["Доля ответов со снижением",e.decrease_share==null?"—":e.decrease_share+" %",""],
+   ["Средний ИИД сюжета с ответом",e.with_resp_before==null?"—":nf(e.with_resp_before,1)+" → "+nf(e.with_resp_after,1),"до → после"],
+   ["Средний ИИД сюжета без ответа",e.without_before==null?"—":nf(e.without_before,1)+" → "+nf(e.without_after,1),"до → после"]];
+  $("iid-eff").innerHTML="<tr><th>Показатель</th><th>Значение</th><th>Расчёт</th></tr>"+rows.map(r=>`<tr><td>${r[0]}</td><td class="num">${r[1]}</td><td class="small">${r[2]}</td></tr>`).join("");})();
+(function(){const c=I.config; const P=[["Веса wV, wO, wS, wR, wC",[c.weights.V,c.weights.O,c.weights.S,c.weights.R,c.weights.C].join("; ")],["Порог негативного материала","S ≤ "+c.negative_threshold],["База объёма","B = max(1; M30/"+c.baseline_days+"), kV = 1 при N = "+c.kv_full_ratio+"B"],["Согласованность","≥ "+c.consistency_families+" семьи за "+c.consistency_hours+" ч"],["Сюжет: окно; шинглы; Жаккар; косинус TF-IDF",c.story_window_hours+" ч; "+c.story_shingle_words+" слова; ≥ "+c.story_jaccard+"; ≥ "+c.story_cosine],["Сюжет между языками","≥ "+c.story_cross_lang_min_keys+" общих ключа, из них ≥ "+c.story_cross_lang_min_numdate+" число или дата"],["Ответ: окно; ключей",c.response_window_hours+" ч; ≥ "+c.response_min_keys],["Своевременный ответ","≤ "+c.timely_hours+" ч"],["Массовый сюжет",c.mass_story_per_day+" материалов в сутки"],["Порог эффекта","|Δ| ≥ "+c.effect_threshold],["Качество ответа","f = ключи/"+c.quality_keys_full+"; Q ≥ "+c.quality_high+" высокое; ≥ "+c.quality_mid+" среднее"],["Минимум для ячейки","N ≥ "+c.cell_min_n],["Языки словарей",c.languages.join(", ")],["Хэш снимка входа",I.snapshot_hash]];
+  $("iid-repro").innerHTML='<table class="iid"><tr><th>Параметр</th><th>Значение</th></tr>'+P.map(p=>`<tr><td>${p[0]}</td><td class="num" style="text-align:left">${esc(p[1])}</td></tr>`).join("")+"</table>";
+  $("iid-series").innerHTML="<tr><th>Дата</th><th>N</th><th>M30</th><th>B</th><th>Σn</th><th>|M⁻|</th><th>ΣSubj</th><th>Σr</th><th>Σc</th><th>kV</th><th>kO</th><th>kS</th><th>kR</th><th>kC</th><th>ИИД</th></tr>"+I.series.map(s=>`<tr><td>${dmy(s.date)}</td><td class="num">${s.N}</td><td class="num">${s.M30}</td><td class="num">${nf(s.B,3)}</td><td class="num">${nf(s.sumO,1)}</td><td class="num">${s.nneg}</td><td class="num">${nf(s.sumS,1)}</td><td class="num">${nf(s.sumR,2)}</td><td class="num">${s.C}</td>${["V","O","S","R","C"].map(k=>`<td class="num">${nf(s.k[k],3)}</td>`).join("")}<td class="num"><b>${s.iid}</b></td></tr>`).join("");
+})();
+})();
+</script>
+</body></html>

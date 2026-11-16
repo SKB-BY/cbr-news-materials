@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# © 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR. Лицензия: LICENSE в корне репозитория.
 """«Новостная» карта: news-map/data.js, news-map/news_points.csv, news-map/UNLOCATED.md, news-map/news_unlocated.csv
 (t57u, 12.11.2026, Europe/Minsk).
 
