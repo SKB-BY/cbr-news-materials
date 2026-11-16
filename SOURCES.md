@@ -787,6 +787,73 @@
 </details>
 
 
+## Официальные ведомства ЕС и СНГ (подключены 16.11.2026, t161u/t162s863)
+
+Решение GREEN (виджет t162s863, 16.11.2026): включить все доступные источники (сервер и браузер) после сводки 20:15. Каталог составлен 16.11.2026 (t161u): официальные сайты МВД / полиции / погранслужбы / налоговой и таможни / МЧС и иных профильных ведомств 27 стран ЕС и СНГ (RU, BY, KZ, KG, TJ, UZ, AM, AZ, MD; TM — ассоциированный член). Адреса проверены с сервера cbr-srv-big и с бокса честным User-Agent, без подмены, без обхода витрин и капчи. Факты не домысливались.
+
+Правила сбора:
+
+- **Фильтр «Контура» (строго, t115u):** в выгрузки попадает только материал по ключам БПЛА / ПВО / РЭБ / ВПК, по сферам ОИ 5×5, по организациям реестра или по упоминанию Беларуси вместе с темой безопасности. Общие ленты ведомств не берутся.
+- **Сервер:** RSS, если рабочая лента есть; иначе HTML-листинг или главная страница. Публичные превью Telegram — только `t.me/s`. Флаг `CBR_AGENCIES=1` (перед сводкой — 0, как у группы «Европа и НАТО»).
+- **Бокс:** источники, которые серверу не отдают страницу (403 / витрина). Честная метка (`ua=token`), без подмены UA. Ленты RSS, уже открытые с бокса, — `kind=rss`. Остальные — браузер, не более 1 листинга и 1 статьи за проход; новые источники вращаются партиями (группа A — сайты, которые бокс уже открыл по HTTP 200, по 1 за проход; группа B — вероятный 403, по 1 за проход), чтобы проход укладывался в мягкий дедлайн 800 с. Первая партия 21:20 (по 2+2) заняла 871 с; с 22:07:45 нагрузка снижена, источники не отключались.
+- **Не включались:** 72 адреса, которые не открылись (DNS / TLS / таймаут / петля переадресации), и региональный сайт interior.gencat.cat (Каталония, не национальное МВД Испании). Уже подключенные ранее (официальные RSS МО в группе «Европа и НАТО», источники бокса, `rb_official` МВД / ГПК / МЧС / t.me/s/modmilby) не дублировались.
+- **Ступень ОИ по типу источника**, пока истории мало: **А** — официальный государственный орган.
+
+### Сводка по странам (каталог / подключено / почему нет)
+
+| Страна | Каталог (найдено) | Подключено ранее | Подключено 16.11 (сервер / браузер) | Не подключено | Почему не подключено |
+|---|---:|---:|---:|---:|---|
+| Австрия (AUT) | 4 | 0 | 4 (4 / 0) | 2 | Министерство обороны Австрии: сервер: HTTP 404 HTTPError 404; Federal Ministry of Defence: сервер: HTTP 404 HTTPError 404 |
+| Бельгия (BEL) | 9 | 0 | 9 (6 / 3) | 0 | — |
+| Болгария (BGR) | 4 | 0 | 4 (1 / 3) | 3 | National Revenue Agency: с сервера не открылся: RemoteDisconnected: Remote end closed connection without response; НАП Болгарии: с сервера не открылся: RemoteDisconnected: Remote end closed connection without response; Таможня Болгарии: с сервера не открылся: RemoteDisconnected: Remote end closed connection without response |
+| Венгрия (HUN) | 5 | 0 | 5 (5 / 0) | 1 | МВД Венгрии: сервер: HTTP 404 HTTPError 404 |
+| Германия (DEU) | 8 | 0 | 8 (8 / 0) | 2 | МВД Германии (BMI): сервер: HTTP 400 HTTPError 400; Министерство финансов Германии: сервер: HTTP 503 HTTPError 503 |
+| Греция (GRC) | 8 | 1 | 7 (1 / 6) | 0 | — |
+| Дания (DNK) | 9 | 0 | 9 (9 / 0) | 0 | — |
+| Ирландия (IRL) | 6 | 0 | 6 (2 / 4) | 0 | — |
+| Испания (ESP) | 10 | 0 | 9 (7 / 2) | 3 | interior.gencat.cat — региональный (Каталония), не национальный; не включался; Centro de Inteligencia de las Fuerzas Armadas: с сервера не открылся: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)>; General Commissariat of Judiciary Police: сервер: HTTP 404 HTTPError 404 |
+| Италия (ITA) | 11 | 0 | 11 (8 / 3) | 3 | State Forestry Corps: с сервера не открылся: URLError: <urlopen error [Errno -2] Name or service not known>; National Fire-watchers' Corps: с сервера не открылся: URLError: <urlopen error timed out>; Министерство обороны Италии: с сервера не открылся: URLError: <urlopen error timed out> |
+| Кипр (CYP) | 6 | 0 | 6 (0 / 6) | 2 | Налоговый департамент Кипра: с сервера не открылся: URLError: <urlopen error timed out>; Министерство обороны Кипра: с сервера не открылся: URLError: <urlopen error timed out> |
+| Латвия (LVA) | 8 | 1 | 7 (7 / 0) | 0 | — |
+| Литва (LTU) | 8 | 1 | 7 (0 / 7) | 0 | — |
+| Люксембург (LUX) | 6 | 0 | 6 (6 / 0) | 0 | — |
+| Мальта (MLT) | 5 | 1 | 4 (0 / 4) | 1 | Гражданская защита Мальты: с сервера не открылся: URLError: <urlopen error timed out> |
+| Нидерланды (NLD) | 11 | 0 | 11 (11 / 0) | 1 | Ministry of Defence of the Netherlands: сервер: HTTP 404 HTTPError 404 |
+| Польша (POL) | 2 | 0 | 2 (2 / 0) | 7 | Ministry of Interior: с сервера не открылся: URLError: <urlopen error [Errno -5] No address associated with hostname>; МВД и администрации Польши: с сервера не открылся: URLError: <urlopen error [Errno 101] Network is unreachable> | ipv4-retry URLError: <urlopen error timed out>; KAS Польши (налоги и таможня): с сервера не открылся: URLError: <urlopen error [Errno 101] Network is unreachable> | ipv4-retry URLError: <urlopen error timed out>; Государственная пожарная стража Польши: с сервера не открылся: URLError: <urlopen error [Errno 101] Network is unreachable> | ipv4-retry URLError: <urlopen error timed out> … ещё 3 |
+| Португалия (PRT) | 8 | 0 | 7 (5 / 2) | 2 | PSP Португалии: с сервера не открылся: URLError: <urlopen error timed out>; Министерство обороны Португалии: сервер: HTTP 307 redirect_loop |
+| Румыния (ROU) | 9 | 0 | 9 (5 / 4) | 6 | Жандармерия Румынии: сервер: HTTP 503 HTTPError 503; Полиция Румынии: с сервера не открылся: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)>; Пограничная полиция Румынии: с сервера не открылся: URLError: <urlopen error timed out>; Serviciul de Telecomunicații Speciale: сервер: HTTP 503 HTTPError 503 … ещё 2 |
+| Словакия (SVK) | 4 | 0 | 4 (3 / 1) | 2 | SIS Словакии (публичные сообщения): с сервера не открылся: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)>; Министерство обороны Словакии: с сервера не открылся: URLError: <urlopen error timed out> |
+| Словения (SVN) | 5 | 1 | 4 (3 / 1) | 2 | Ministry of the Interior: с сервера не открылся: URLError: <urlopen error [Errno 104] Connection reset by peer>; Ministry of Defence of Slovenia: с сервера не открылся: URLError: <urlopen error [Errno 104] Connection reset by peer> |
+| Финляндия (FIN) | 10 | 0 | 10 (3 / 7) | 1 | Ministry of the Interior of Finland: с сервера не открылся: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'intermin.fi.'. (_ssl.c:1007)> |
+| Франция (FRA) | 12 | 0 | 12 (3 / 9) | 1 | Direction du renseignement militaire: сервер: HTTP 503 HTTPError 503 |
+| Хорватия (HRV) | 7 | 1 | 6 (0 / 6) | 1 | Law enforcement in Croatia: с сервера не открылся: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.policija.hr'. (_ssl.c:1007)> |
+| Чехия (CZE) | 14 | 1 | 13 (8 / 5) | 0 | — |
+| Швеция (SWE) | 7 | 0 | 7 (7 / 0) | 1 | Swedish Security Service: сервер: HTTP 247 |
+| Эстония (EST) | 6 | 1 | 5 (0 / 5) | 0 | — |
+| Азербайджан (AZE) | 4 | 0 | 4 (4 / 0) | 6 | МВД Азербайджана: с сервера не открылся: URLError: <urlopen error [Errno 104] Connection reset by peer>; Таможня Азербайджана: с сервера не открылся: URLError: <urlopen error [Errno 104] Connection reset by peer>; МЧС Азербайджана: с сервера не открылся: URLError: <urlopen error [Errno 104] Connection reset by peer>; СГБ Азербайджана (публичные сообщения): с сервера не открылся: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)> … ещё 2 |
+| Армения (ARM) | 5 | 0 | 5 (5 / 0) | 1 | МЧС Армении: с сервера не открылся: URLError: <urlopen error [Errno -3] Temporary failure in name resolution> |
+| Беларусь (BLR) | 9 | 5 | 4 (4 / 0) | 1 | КГБ РБ (публичные сообщения): с сервера не открылся: URLError: <urlopen error timed out> |
+| ЕС (институты) (EU) | 2 | 0 | 2 (2 / 0) | 0 | — |
+| Казахстан (KAZ) | 6 | 0 | 6 (6 / 0) | 6 | National Guard of Kazakhstan: с сервера не открылся: URLError: <urlopen error timed out>; Internal Troops of Kazakhstan: с сервера не открылся: URLError: <urlopen error [Errno -2] Name or service not known>; Пограничная служба КНБ Казахстана: сервер: HTTP 404 HTTPError 404; Border Service of the National Security Committee of the Republic of Kazakhstan: сервер: HTTP 500 HTTPError 500 … ещё 2 |
+| Кыргызстан (KGZ) | 5 | 0 | 5 (3 / 2) | 4 | МВД Кыргызстана: с сервера не открылся: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'mvd.gov.kg'. (_ssl.c:1007)>; Ministry of the Interior: с сервера не открылся: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.mvd.kg'. (_ssl.c:1007)>; Kyrgyzstan Frontier Force: с сервера не открылся: URLError: <urlopen error [Errno -5] No address associated with hostname>; Ministry of Emergency Situations of Kyrgyzstan: с сервера не открылся: URLError: <urlopen error [Errno -2] Name or service not known> |
+| Молдова (MDA) | 8 | 0 | 8 (6 / 2) | 1 | МВД Молдовы: с сервера не открылся: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.mai.gov.md'. (_ssl.c:1007)> |
+| Россия (RUS) | 6 | 0 | 6 (5 / 1) | 5 | Пограничная служба ФСБ России (публичные сообщения): с сервера не открылся: URLError: <urlopen error timed out>; МЧС России: с сервера не открылся: URLError: <urlopen error timed out>; ФСБ России (публичные сообщения): с сервера не открылся: URLError: <urlopen error timed out>; Foreign Intelligence Service: с сервера не открылся: URLError: <urlopen error timed out> … ещё 1 |
+| Таджикистан (TJK) | 3 | 0 | 3 (2 / 1) | 3 | Налоговый комитет Таджикистана: с сервера не открылся: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)>; Комитет по ЧС Таджикистана: с сервера не открылся: URLError: <urlopen error [Errno -2] Name or service not known>; Министерство обороны Таджикистана: с сервера не открылся: URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)> |
+| Туркменистан (TKM) | 4 | 0 | 4 (4 / 0) | 0 | — |
+| Узбекистан (UZB) | 1 | 0 | 1 (1 / 0) | 5 | МВД Узбекистана: с сервера не открылся: URLError: <urlopen error [Errno -5] No address associated with hostname>; Налоговый комитет Узбекистана: с сервера не открылся: URLError: <urlopen error timed out>; МЧС Узбекистана: с сервера не открылся: URLError: <urlopen error timed out>; СГБ Узбекистана (публичные сообщения): с сервера не открылся: URLError: <urlopen error [Errno -2] Name or service not known> … ещё 1 |
+| **Всего** | **255** | **13** | **240 (156 / 84)** | **73** | |
+
+Подробный перечень адресов, кодов ответа и пробелов — таблица [t161u (Google Sheet)](https://docs.google.com/spreadsheets/d/1P7FVNFLIuVzbJj2vSfZtA3fadoCBkw5lhsMlpBqejgU/edit) (проверено 16.11.2026).
+
+### Первый цикл после включения (16.11.2026, Europe/Minsk)
+
+Штатный cron 22:00 не стартовал: после правки `run-cycle.sh` в 20:48 у файла временно пропал исполняемый бит; восстановлен в 22:06. Вместо штатного слота выполнен ручной цикл вне окон сводки, старт 22:06:37.
+
+- **Сбор на сервере:** rc=0, 594 с (лимит 900 с). Новые ведомственные коллекторы: найдено 2927, вставлено 60; 4 ошибки `feed_timeout_90s` (чанки ag-CZE-1, ag-DEU-1, ag-ESP-1, ag-RUS-1 — частичный сбор, затем остановка чанка); blocked=13 (в том числе THW, `robots.txt` Disallow). Telegram ведомств СНГ: найдено 285, вставлено 17; ЕС: найдено 20, вставлено 0. Новые каналы `t.me/s` РБ: mnsrb 20/0, customs_bel 12/0, prokuraturabelarus 11/0, skgovby 11/1 (строгий фильтр «Контура»). Сайты nalog.gov.by, prokuratura.gov.by и sk.gov.by в этом цикле не собирались: вставка в `RB_LISTINGS` не прошла, потому что строка `nalog.gov.by` уже была в ссылке канала; исправлено 22:50, сбор начнётся со следующего цикла.
+- **Браузерный проход 21:20:** rc=0, 871 с (мягкий дедлайн 800 с, жёсткий 900 с). В партии 8 источников (все 4 RSS и по 2 из групп A и B): успешно 7, ошибка 1 (`cy-customs-mof`, RSS HTTP -1). Найдено 232, новых 43. Inbox был доставлен к циклу. После прохода ротация уменьшена до 1+1, источник не стартует, если до дедлайна меньше 30 с. Повторный проход для проверки 800 с на момент записи ещё не выполнялся.
+- **browser_inbox:** 18 с, 2 файла, вставлено 9, пропущено 547. Из новых ведомств: ee-interior-siseministeerium вставлено 1, пропущено 14; ee-tax, eurogendfor, mt-police, ro-prosecutor-dna, si-police — пропущены фильтром «Контура».
+- **Шлюз и выгрузка:** коды ОИ и окрас по новым материалам проставлены. Ожидание ОИ 1514 с (лимит 1500) завершилось по таймауту: 10 живых материалов без машинного перевода заголовка. У девяти `langdet` ошибочно ставил туркменский (`tk`) из-за букв ý/ä/ň в чешском, словацком, немецком, шведском и эстонском текстах; правило ужесточено, перевод выполнен в 22:42:50. Остался один материал `kz-interior-kz` на казахском: рабочей модели перевода kk→ru нет (пакета Argos нет; проверка Helsinki-NLP opus-mt-trk-en дала непригодный текст, модель не включалась). Выгрузка GitHub этого цикла не выполнялась, `export_check` не запускался. Штатный `export-retry-cron` выгрузит срез, когда шлюз будет готов. Сверка ИИД и чисел на страницах для этого среза не проводилась.
+
 ## Справочные реестры (не ленты)
 
 ЕГРЮЛ/ФНС, ГИР БО, ЕИС госзакупки, картотека арбитражных дел, ФССП, реестры Минпромторга, санкционные списки OFAC SDN, EU Consolidated, UK Sanctions List, Canada, НАЗК Украины, BIS Entity List — **точечная проверка**, не постоянный RSS. С сервера 13.11.2026: список OFAC SDN открылся (HTTP 200); выгрузка в новости не подключается без явных условий использования. ЕГРЮЛ — таймаут; закупки — ошибка TLS; КАД — запрет `robots.txt`; ФССП — HTTP 474; EU list — 403; UK storage — 409; Canada XML — 404; НАЗК — нет DNS. Периодичность проверки карточки: 7 или 30 дней.
