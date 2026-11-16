@@ -950,6 +950,41 @@
 }
 },
 {
+"id": "rel_e3954abeb6713184",
+"from": "ent_d380c846b4a97fed",
+"to": "ent_82e26e90a014009e",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/kadena-first-permanent-f-15ex-arrives",
+"published_at": "2026-11-16T20:00:01Z",
+"quote": "A new Eagle is in the nest on Okinawa, Japan—the 18th Wing at Kadena Air Base received its first permanently stationed F-15EX Eagle II on Nov."
+},
+{
+"url": "https://airforce-technology.com/news/usaf-f-15ex-kadena",
+"published_at": "2026-11-16T16:26:04Z",
+"quote": "US Air Force permanently deploys F-15EX jets to Kadena Air Base in Japan"
+},
+{
+"url": "https://theaviationist.com/2026/11/15/kadena-welcomes-its-first-f-15ex-eagle-ii-fighters",
+"published_at": "2026-11-15T12:14:40Z",
+"quote": "Air Force F-15EX Eagle II fighters jets permanently stationed at Kadena Air Base , Japan, arrived at their new home on Nov."
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%81%d1%88%d0%b0-%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%81%d1%82%d0%b8%d0%bb%d0%b8-%d0%b2-%d1%8f%d0%bf%d0%be%d0%bd%d0%b8%d0%b8-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d0%b8-f-15ex",
+"published_at": "2026-11-15T10:21:45Z",
+"quote": "США РАЗМЕСТИЛИ В ЯПОНИИ ИСТРЕБИТЕЛИ F-15EX Модернизированные истребители F-15EX были размещены на базе американских ВВС Кадена на южном японском острове Окинава."
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_25d8bf6ebe7bee26",
 "from": "ent_173e263ab90e6a8d",
 "to": "ent_b13f51a44caf63cf",
@@ -1787,36 +1822,6 @@
 "score_pm1": -0.4,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_e3954abeb6713184",
-"from": "ent_d380c846b4a97fed",
-"to": "ent_82e26e90a014009e",
-"type": "дислокация",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://airforce-technology.com/news/usaf-f-15ex-kadena",
-"published_at": "2026-11-16T16:26:04Z",
-"quote": "US Air Force permanently deploys F-15EX jets to Kadena Air Base in Japan"
-},
-{
-"url": "https://theaviationist.com/2026/11/15/kadena-welcomes-its-first-f-15ex-eagle-ii-fighters",
-"published_at": "2026-11-15T12:14:40Z",
-"quote": "Air Force F-15EX Eagle II fighters jets permanently stationed at Kadena Air Base , Japan, arrived at their new home on Nov."
-},
-{
-"url": "https://bastion-karpenko.ru/%d1%81%d1%88%d0%b0-%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%81%d1%82%d0%b8%d0%bb%d0%b8-%d0%b2-%d1%8f%d0%bf%d0%be%d0%bd%d0%b8%d0%b8-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d0%b8-f-15ex",
-"published_at": "2026-11-15T10:21:45Z",
-"quote": "США РАЗМЕСТИЛИ В ЯПОНИИ ИСТРЕБИТЕЛИ F-15EX Модернизированные истребители F-15EX были размещены на базе американских ВВС Кадена на южном японском острове Окинава."
-}
-],
-"sentiment": {
-"score_pm1": 0.1,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -20731,6 +20736,26 @@
 "url": "https://pravda.com.ua/eng/news/2026/11/16/8063141",
 "published_at": "2026-11-16T16:58:00Z",
 "quote": "Ukrainian President Volodymyr Zelenskyy recently said that SpaceX told the Ukrainian Defence Ministry that it has not imposed any restrictions on Starshield operations and that the problem is technical in nature."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_71dbb3e521359b05",
+"from": "ent_ff878af017a8077e",
+"to": "ent_7c4278bb1c2365e3",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/kadena-first-permanent-f-15ex-arrives",
+"published_at": "2026-11-16T20:00:01Z",
+"quote": "have filled the tactical fighter need with a mix of F-35 Lightning IIs, F-22 Raptors, F-16 Fighting Falcons, F-15E Strike Eagles, and F-15C/D Eagles."
 }
 ],
 "sentiment": {
