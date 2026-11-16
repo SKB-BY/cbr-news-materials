@@ -5,8 +5,18 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 133,
+"evidence_count": 135,
 "evidence": [
+{
+"url": "https://tass.ru/proisshestviya/28323007",
+"published_at": "2026-11-16T14:48:24Z",
+"quote": "В Брянской области из-за удара дрона ВСУ погиб мужчина"
+},
+{
+"url": "https://topwar.ru/293651-vsu-stavjat-rekord-za-rekordom-po-chislu-primenjaemyh-bpla-prichiny-i-faktory.html",
+"published_at": "2026-11-16T13:19:36Z",
+"quote": "ВСУ ставят рекорд за рекордом по числу применяемых БПЛА: причины и факторы"
+},
 {
 "url": "https://tvzvezda.ru/news/202611161533-EeDWp.html",
 "published_at": "2026-11-16T12:49:01Z",
@@ -21,16 +31,6 @@
 "url": "https://tvzvezda.ru/news/202611161445-l9A5w.html",
 "published_at": "2026-11-16T11:51:29Z",
 "quote": "Дроноводы группировки «Запад» нанесли удары по бронетехнике и роботам ВСУ"
-},
-{
-"url": "https://defence-ua.com/army_and_war/uzhe_5_uspishnih_udariv_krilatimi_raketami_neptun_zsu_za_30_dniv_skilki_su_34_ta_zavodiv_vpk_urazheno-24759.html",
-"published_at": "2026-11-16T11:43:22Z",
-"quote": "Уже 5 успішних ударів крилатими ракетами \"Нептун\" ЗСУ за 30 днів, скільки Су-34 та заводів ВПК уражено"
-},
-{
-"url": "https://tass.ru/proisshestviya/28321835",
-"published_at": "2026-11-16T11:04:42Z",
-"quote": "В Белгороде при ударе беспилотника ВСУ пострадали два человека"
 }
 ],
 "sentiment": {
@@ -480,6 +480,46 @@
 }
 },
 {
+"id": "rel_a7c54e65ef7435a3",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_61cfa3db2af82321",
+"type": "применение",
+"event_date": null,
+"evidence_count": 5,
+"evidence": [
+{
+"url": "https://tass.ru/proisshestviya/28323007",
+"published_at": "2026-11-16T14:48:24Z",
+"quote": "В Брянской области из-за удара дрона ВСУ погиб мужчина"
+},
+{
+"url": "https://tass.ru/proisshestviya/28312431",
+"published_at": "2026-11-12T14:48:50Z",
+"quote": "В Брянской области при ударах дронов ВСУ по автомобилям пострадали три человека"
+},
+{
+"url": "https://t.me/news_UAV/5399",
+"published_at": "2026-07-16T06:44:40Z",
+"quote": "🔜15-летняя девочка и ее бабушка погибли, еще одна женщина пострадала в результате удара ВСУ с помощью РСЗО «Град» по поселку в Брянской области."
+},
+{
+"url": "https://t.me/news_UAV/5018",
+"published_at": "2026-04-28T05:30:19Z",
+"quote": "🔜Мужчина ранен в поселке Косицы Брянской области в результате удара дрона ВСУ по движущемуся…"
+},
+{
+"url": "https://t.me/uav_tech/35484",
+"published_at": "2026-03-10T19:53:50Z",
+"quote": "Ракетный удар ВСУ по Брянску, нанесённый с использованием британских крылатых ракет Storm Shadow, не мог быть осуществлён без предоставления украинской стороне разведданных со стороны Соединённых Ш..."
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_a8181e25bbfc2c7b",
 "from": "ent_f2dcf230404a0bff",
 "to": "ent_28fea1c77915c37a",
@@ -695,41 +735,6 @@
 ],
 "sentiment": {
 "score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_a7c54e65ef7435a3",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_61cfa3db2af82321",
-"type": "применение",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://tass.ru/proisshestviya/28312431",
-"published_at": "2026-11-12T14:48:50Z",
-"quote": "В Брянской области при ударах дронов ВСУ по автомобилям пострадали три человека"
-},
-{
-"url": "https://t.me/news_UAV/5399",
-"published_at": "2026-07-16T06:44:40Z",
-"quote": "🔜15-летняя девочка и ее бабушка погибли, еще одна женщина пострадала в результате удара ВСУ с помощью РСЗО «Град» по поселку в Брянской области."
-},
-{
-"url": "https://t.me/news_UAV/5018",
-"published_at": "2026-04-28T05:30:19Z",
-"quote": "🔜Мужчина ранен в поселке Косицы Брянской области в результате удара дрона ВСУ по движущемуся…"
-},
-{
-"url": "https://t.me/uav_tech/35484",
-"published_at": "2026-03-10T19:53:50Z",
-"quote": "Ракетный удар ВСУ по Брянску, нанесённый с использованием британских крылатых ракет Storm Shadow, не мог быть осуществлён без предоставления украинской стороне разведданных со стороны Соединённых Ш..."
-}
-],
-"sentiment": {
-"score_pm1": -0.4,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -1316,6 +1321,36 @@
 "url": "https://theaviationist.com/2026/11/13/b-21-raider-first-weapon-release",
 "published_at": "2026-11-13T15:21:15Z",
 "quote": "As we have reported here at The Aviationist , an undisclosed number of B-21s are in production, with final assembly taking place at Northrop Grumman’s Palmdale, California, facility, the s"
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_f3c6524622ea9804",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_48a4e1e33ddc917b",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72858",
+"published_at": "2026-11-16T00:00:00Z",
+"quote": "sharing US Air Force Validates B-21 Raider as Weapons Platform The stealth bomber completed a successful weapons release test in California ahead of its planned fielding at Ellsworth AFB next year."
+},
+{
+"url": "https://vpk.name/news/1172002_vvs_ssha_ispytali_sbros_vooruzheniya_s_noveishego_bombardirovshika_b-21_raider.html",
+"published_at": "2026-11-15T21:00:01Z",
+"quote": "ВВС США испытали сброс вооружения с новейшего бомбардировщика B-21 Raider"
+},
+{
+"url": "https://belvpo.com/vvs-ssha-proveli-ispytanie-po-sbrosu-vooruzheniya-s-b-21-raider",
+"published_at": "2026-11-13T18:45:45Z",
+"quote": "ВВС США провели испытание по сбросу вооружения с B-21 Raider"
 }
 ],
 "sentiment": {
@@ -2615,31 +2650,6 @@
 }
 },
 {
-"id": "rel_f3c6524622ea9804",
-"from": "ent_7902a5283b8ea891",
-"to": "ent_48a4e1e33ddc917b",
-"type": "испытание",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://vpk.name/news/1172002_vvs_ssha_ispytali_sbros_vooruzheniya_s_noveishego_bombardirovshika_b-21_raider.html",
-"published_at": "2026-11-15T21:00:01Z",
-"quote": "ВВС США испытали сброс вооружения с новейшего бомбардировщика B-21 Raider"
-},
-{
-"url": "https://belvpo.com/vvs-ssha-proveli-ispytanie-po-sbrosu-vooruzheniya-s-b-21-raider",
-"published_at": "2026-11-13T18:45:45Z",
-"quote": "ВВС США провели испытание по сбросу вооружения с B-21 Raider"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_afc92f07bb1669b7",
 "from": "ent_868a15ba4aeb446a",
 "to": "ent_ff878af017a8077e",
@@ -2712,6 +2722,31 @@
 "score_pm1": -0.1,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_2372d8d545627a3a",
+"from": "ent_ea737724a72411d4",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://france24.com/en/video/20261116-russia-says-intercepted-over-1-300-ukrainian-drones-in-a-major-attack",
+"published_at": "2026-11-16T14:00:25Z",
+"quote": "Russia, meanwhile, has battered Ukrainian civilian areas with relentless strikes that seek to choke the economy and break public morale, in attacks President Volodymyr Zelensky said were made possible ⁠partly due to restrictions on Ukraine'"
+},
+{
+"url": "https://dronexl.co/2026/11/12/zelensky-starshield-100-mph-cap-returns-spacex-denies",
+"published_at": "2026-11-13T02:04:00Z",
+"quote": "com/starshield-speed-restrictions-return-hampering-efforts-to-intercept-russian-drones-zelensky-says/\">Kyiv Independent</a> the limit was still in place and made Ukraine’s mid-range strike drones easier for Russia to intercept or evade."
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 },
 {
@@ -9507,26 +9542,6 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
-}
-},
-{
-"id": "rel_2372d8d545627a3a",
-"from": "ent_ea737724a72411d4",
-"to": "ent_28fea1c77915c37a",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://dronexl.co/2026/11/12/zelensky-starshield-100-mph-cap-returns-spacex-denies",
-"published_at": "2026-11-13T02:04:00Z",
-"quote": "com/starshield-speed-restrictions-return-hampering-efforts-to-intercept-russian-drones-zelensky-says/\">Kyiv Independent</a> the limit was still in place and made Ukraine’s mid-range strike drones easier for Russia to intercept or evade."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
 }
 },
 {
@@ -19167,6 +19182,126 @@
 "score_pm1": -0.6,
 "score_pm2": -2,
 "label": "резко негативный"
+}
+},
+{
+"id": "rel_29ec2d8578a661cd",
+"from": "ent_e4e2df975bde8376",
+"to": "ent_76aae9f116d88191",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensenews.com/global/europe/2026/11/16/estonia-to-close-border-with-russia-after-arson-attack-on-local-drone-maker",
+"published_at": "2026-11-16T13:23:20Z",
+"quote": "Alongside its deliveries to Ukraine, Threod Systems has also supplied its products to a number of militaries across the world, including in Europe, the Middle East and Africa."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_245b5515994121bd",
+"from": "ent_801f9ef8848ff36b",
+"to": "ent_4a617641aad56d85",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/16/sikorskys-s-92a-selected-as-south-koreas-next-presidential-helicopter",
+"published_at": "2026-11-16T15:00:38Z",
+"quote": "According to Sikorsky, Korea Aerospace Industries subsidiary Korea Aviation Engineering & Maintenance Service (KAEMS) will be tasked with modifying three of the helicopters for the presidential transport role in South Korea, in addition to "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_732607c238754b81",
+"from": "ent_cbecc516f76ba895",
+"to": "ent_197bc2e3e763bb8f",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/16/airo-group-secures-first-u-s-government-order-for-sky-watch-rq-35-and-rq-70-drones",
+"published_at": "2026-11-16T14:00:39Z",
+"quote": "government order for the Danish Sky-Watch RQ-35 Heidrun and RQ-70 Dainn drones."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_a5c13cc81f4e80af",
+"from": "ent_d8a707bdf6697026",
+"to": "ent_197bc2e3e763bb8f",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/16/airo-group-secures-first-u-s-government-order-for-sky-watch-rq-35-and-rq-70-drones",
+"published_at": "2026-11-16T14:00:39Z",
+"quote": "Government Order for Sky-Watch RQ-35 and RQ-70 Drones appeared first on Overt Defense ."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_46f673338b4b1f9b",
+"from": "ent_4018d1bb0230fed7",
+"to": "ent_1db814fd656b8d86",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://belvpo.com/bolgarskie-voennye-spasli-12-moryakov-s-perevernuvshegosya-sudna",
+"published_at": "2026-11-16T14:02:18Z",
+"quote": "bg в понедельник сообщал, что спасатели в Варне получили сигнал от экипажа грузового судна Betul 8, терпящего бедствие в Черном море."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_05fbf29fdc58ad89",
+"from": "ent_ea737724a72411d4",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://france24.com/en/video/20261116-russia-says-intercepted-over-1-300-ukrainian-drones-in-a-major-attack",
+"published_at": "2026-11-16T14:00:25Z",
+"quote": "Russia, meanwhile, has battered Ukrainian civilian areas with relentless strikes that seek to choke the economy and break public morale, in attacks President Volodymyr Zelensky said were made possible ⁠partly due to restrictions on Ukraine'"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 }
 ]
