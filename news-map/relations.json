@@ -5,32 +5,32 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 115,
+"evidence_count": 123,
 "evidence": [
 {
-"url": "https://tass.ru/armiya-i-opk/28320763",
-"published_at": "2026-11-16T07:34:12Z",
-"quote": "Бойцы \"Южной\" поразили 58 пунктов управления БПЛА ВСУ за сутки"
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%82%d0%be%d1%81-2-%d1%82%d0%be%d1%81%d0%be%d1%87%d0%ba%d0%b0-%d1%81%d0%be%d0%b5%d0%b4%d0%b8%d0%bd%d0%b5%d0%bd%d0%b8%d1%8f-%d1%80%d1%85%d0%b1%d0%b7",
+"published_at": "2026-11-16T08:59:14Z",
+"quote": "РАСЧЕТ ТОС-2 «ТОСОЧКА» СОЕДИНЕНИЯ РХБЗ ГРУППИРОВКИ ВОЙСК «ЦЕНТР» УНИЧТОЖИЛ РАЙОН СОСРЕДОТОЧЕНИЯ ПУНКТОВ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
 },
 {
-"url": "https://ria.ru/20261116/voennye-2131794102.html",
-"published_at": "2026-11-16T07:12:30Z",
-"quote": "ВС России уничтожили 58 пунктов управления дронами ВСУ в ДНР за сутки"
+"url": "https://ria.ru/20261116/pvo-2131817638.html",
+"published_at": "2026-11-16T08:53:38Z",
+"quote": "Российская ПВО сбила 2049 дронов ВСУ за сутки"
 },
 {
-"url": "https://ria.ru/20261116/belgorodskaya-oblast-2131792901.html",
-"published_at": "2026-11-16T07:10:01Z",
-"quote": "В Белгородской области при ударе дрона ВСУ пострадал мужчина"
+"url": "https://tass.ru/armiya-i-opk/28321057",
+"published_at": "2026-11-16T08:53:15Z",
+"quote": "Средства ПВО РФ сбили за сутки 2 049 беспилотников ВСУ"
 },
 {
-"url": "https://topwar.ru/293624-odna-iz-krupnejshih-atak-za-god-za-noch-sbito-bolee-13-tysjachi-dronov-vsu.html",
-"published_at": "2026-11-16T06:24:00Z",
-"quote": "Одна из крупнейших атак за год: за ночь сбито более 1,3 тысячи дронов ВСУ"
+"url": "https://tass.ru/armiya-i-opk/28321055",
+"published_at": "2026-11-16T08:52:50Z",
+"quote": "ВС РФ поразили места хранения и запуска беспилотников ВСУ"
 },
 {
-"url": "https://tass.ru/proisshestviya/28320493",
-"published_at": "2026-11-16T06:21:07Z",
-"quote": "Над Смоленской областью сбили 23 беспилотника ВСУ"
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d0%b4%d1%80%d0%be%d0%bd%d0%b0-%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%b2%d0%b0%d1%82%d1%87%d0%b8%d0%ba%d0%b0-%d1%81%d0%be%d0%ba%d0%be%d0%bb-%d0%b22-%d0%b7",
+"published_at": "2026-11-16T08:40:21Z",
+"quote": "РАСЧЕТ ДРОНА-ПЕРЕХВАТЧИКА «СОКОЛ-В2» ЗЕНИТНОЙ РАКЕТНОЙ БРИГАДЫ ГРУППИРОВКИ «ЦЕНТР» УНИЧТОЖИЛ ДЕСЯТКИ УДАРНЫХ И РАЗВЕДЫВАТЕЛЬНЫХ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
 }
 ],
 "sentiment": {
@@ -45,8 +45,23 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 32,
+"evidence_count": 35,
 "evidence": [
+{
+"url": "https://ria.ru/20261116/pvo-2131817638.html",
+"published_at": "2026-11-16T08:53:38Z",
+"quote": "Российская ПВО сбила 2049 дронов ВСУ за сутки"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28321057",
+"published_at": "2026-11-16T08:53:15Z",
+"quote": "Средства ПВО РФ сбили за сутки 2 049 беспилотников ВСУ"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28321055",
+"published_at": "2026-11-16T08:52:50Z",
+"quote": "ВС РФ поразили места хранения и запуска беспилотников ВСУ"
+},
 {
 "url": "https://ria.ru/20261116/voennye-2131794102.html",
 "published_at": "2026-11-16T07:12:30Z",
@@ -56,21 +71,6 @@
 "url": "https://ria.ru/20261116/spetsoperatsiya-2131772526.html",
 "published_at": "2026-11-16T04:37:29Z",
 "quote": "ВС России за две недели сбили более десяти БПЛА ВСУ в Харьковской области"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28320247",
-"published_at": "2026-11-16T04:31:21Z",
-"quote": "Офицер Карта: ВС РФ сбили более 10 разведывательных дронов ВСУ под Харьковом"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28320143",
-"published_at": "2026-11-16T03:30:34Z",
-"quote": "Комвзвода Спец: ВС РФ сбили свыше 15 дронов \"Баба-яга\" ВСУ под Харьковом"
-},
-{
-"url": "https://ria.ru/20261116/spetsoperatsiya-2131762888.html",
-"published_at": "2026-11-16T02:10:14Z",
-"quote": "ВС России уничтожили пункты управления БПЛА ВСУ в Запорожской области"
 }
 ],
 "sentiment": {
@@ -125,8 +125,18 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 20,
+"evidence_count": 22,
 "evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28321073",
+"published_at": "2026-11-16T08:53:55Z",
+"quote": "ВС РФ с начала СВО сбили свыше 290 тыс."
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28321055",
+"published_at": "2026-11-16T08:52:50Z",
+"quote": "ВС РФ поразили места хранения и запуска беспилотников ВСУ"
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28320247",
 "published_at": "2026-11-16T04:31:21Z",
@@ -141,16 +151,6 @@
 "url": "https://t.me/mod_russia/69043",
 "published_at": "2026-11-15T15:13:54Z",
 "quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по логистическим центрам Украины, объектам портовой инфраструктуры и морским судам, заде..."
-},
-{
-"url": "https://t.me/mod_russia/69030",
-"published_at": "2026-11-15T09:05:14Z",
-"quote": "✈️ Оперативно-тактической авиацией, ударными БПЛА, ракетными войсками и артиллерией группировок войск ВС РФ нанесено поражение военным аэродромам, объектам энергетической, транспортной инфраструкту..."
-},
-{
-"url": "https://t.me/mod_russia/69025",
-"published_at": "2026-11-15T05:42:06Z",
-"quote": "❗️ Сегодня ночью Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам энергетики, портовой и железнодорожной инфраструктуры, а также..."
 }
 ],
 "sentiment": {
@@ -165,8 +165,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 12,
+"evidence_count": 13,
 "evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28321055",
+"published_at": "2026-11-16T08:52:50Z",
+"quote": "ВС РФ поразили места хранения и запуска беспилотников ВСУ"
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28320247",
 "published_at": "2026-11-16T04:31:21Z",
@@ -186,11 +191,6 @@
 "url": "https://t.me/mod_russia/69030",
 "published_at": "2026-11-15T09:05:14Z",
 "quote": "✈️ Оперативно-тактической авиацией, ударными БПЛА, ракетными войсками и артиллерией группировок войск ВС РФ нанесено поражение военным аэродромам, объектам энергетической, транспортной инфраструктуры, используемым в интересах ВСУ, цехам про"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28318733",
-"published_at": "2026-11-15T04:32:10Z",
-"quote": "Комвзвода Степ: ВС РФ поразили пункт управления БПЛА ВСУ на сумском направлении"
 }
 ],
 "sentiment": {
@@ -280,6 +280,46 @@
 }
 },
 {
+"id": "rel_10779e8458274135",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_0a0009fc82d3fadc",
+"type": "применение",
+"event_date": null,
+"evidence_count": 7,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82%d1%8b-%d1%81%d0%b0%d0%bc%d0%be%d1%85%d0%be%d0%b4%d0%bd%d1%8b%d1%85-%d0%b0%d1%80%d1%82%d0%b8%d0%bb%d0%bb%d0%b5%d1%80%d0%b8%d0%b9%d1%81%d0%ba%d0%b8%d1%85-%d1%83",
+"published_at": "2026-11-16T08:12:50Z",
+"quote": "РАСЧЕТЫ САМОХОДНЫХ АРТИЛЛЕРИЙСКИХ УСТАНОВОК «ПИОН» ГРУППИРОВКИ ВОЙСК «ЗАПАД» УНИЧТОЖИЛИ ПУНКТЫ УПРАВЛЕНИЯ БПЛА, БЛИНДАЖИ, СКЛАДЫ БОЕПРИПАСОВ И СКОПЛЕНИЯ ЖИВОЙ СИЛЫ ПОДРАЗДЕЛЕНИЙ ВСУ В ХАРЬКОВСКОЙ ОБЛАСТИ"
+},
+{
+"url": "https://ria.ru/20261116/spetsoperatsiya-2131772526.html",
+"published_at": "2026-11-16T04:37:29Z",
+"quote": "ВС России за две недели сбили более десяти БПЛА ВСУ в Харьковской области"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28320247",
+"published_at": "2026-11-16T04:31:21Z",
+"quote": "Офицер Карта: ВС РФ сбили более 10 разведывательных дронов ВСУ под Харьковом"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28320171",
+"published_at": "2026-11-16T04:00:35Z",
+"quote": "Боец Танцор: операторы БПЛА уничтожили танк и группу ВСУ в Харьковской области"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28320143",
+"published_at": "2026-11-16T03:30:34Z",
+"quote": "Комвзвода Спец: ВС РФ сбили свыше 15 дронов \"Баба-яга\" ВСУ под Харьковом"
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_367661821a6ffa05",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_28fea1c77915c37a",
@@ -315,46 +355,6 @@
 ],
 "sentiment": {
 "score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_10779e8458274135",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_0a0009fc82d3fadc",
-"type": "применение",
-"event_date": null,
-"evidence_count": 6,
-"evidence": [
-{
-"url": "https://ria.ru/20261116/spetsoperatsiya-2131772526.html",
-"published_at": "2026-11-16T04:37:29Z",
-"quote": "ВС России за две недели сбили более десяти БПЛА ВСУ в Харьковской области"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28320247",
-"published_at": "2026-11-16T04:31:21Z",
-"quote": "Офицер Карта: ВС РФ сбили более 10 разведывательных дронов ВСУ под Харьковом"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28320171",
-"published_at": "2026-11-16T04:00:35Z",
-"quote": "Боец Танцор: операторы БПЛА уничтожили танк и группу ВСУ в Харьковской области"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28320143",
-"published_at": "2026-11-16T03:30:34Z",
-"quote": "Комвзвода Спец: ВС РФ сбили свыше 15 дронов \"Баба-яга\" ВСУ под Харьковом"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28320107",
-"published_at": "2026-11-16T03:02:23Z",
-"quote": "Артиллерия \"Севера\" поразила миномет и 69 солдат ВСУ под Харьковом и Сумами"
-}
-],
-"sentiment": {
-"score_pm1": -0.1,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -796,6 +796,41 @@
 "url": "https://t.me/UAVDEV/10001",
 "published_at": "2026-01-11T10:38:17Z",
 "quote": "ГУР Украины публикует первое изображение нового ударного беспилотного летательного аппарата Герань-5 (крылатая ракета), применяемого нами на Украине."
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_0f6f97cb3e4cf43d",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_e7e61f26b8fd6566",
+"type": "применение",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://lenta.ru/news/2026/11/16/long-noch-vydalas-tyazheloy-vsu-udarili-po-krymskomu-mostu-boevaya-chast-odnogo-iz-dronov-upala-na-arku",
+"published_at": "2026-11-16T08:18:00Z",
+"quote": "ВСУ ударили по Крымскому мосту."
+},
+{
+"url": "https://vpk.name/news/1172005_ispolzuyut_dannye_ot_ssha_kak_ukraina_gotovila_zvezdnyi_nalet_dronov_na_rossiyu.html",
+"published_at": "2026-11-15T21:00:01Z",
+"quote": "Полковник Ходаренок: цели для массированного удара ВСУ согласовывает Зеленский Силы ПВО за ночь на 13 ноября сбили 1198 украинских беспилотников над 16 областями, Московским регионом, Крымом и Черным морем."
+},
+{
+"url": "https://t.me/voron_fpv/5470",
+"published_at": "2026-05-28T08:06:02Z",
+"quote": "Подразделения Военно-воздушных сил ВСУ с использованием ракет воздушного базирования Storm Shadow уничтожили программно-аппаратные комплексы средств автоматизации разведки Военно-воздушных сил РФ в районах Воронежа (Воронежская область, РФ)"
+},
+{
+"url": "https://t.me/UAVDEV/10688",
+"published_at": "2026-03-11T14:43:59Z",
+"quote": "Дроны ВСУ, не долетевшие третьего дня до Крыма и сбитые ПВО."
 }
 ],
 "sentiment": {
@@ -1410,36 +1445,6 @@
 }
 },
 {
-"id": "rel_0f6f97cb3e4cf43d",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_e7e61f26b8fd6566",
-"type": "применение",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://vpk.name/news/1172005_ispolzuyut_dannye_ot_ssha_kak_ukraina_gotovila_zvezdnyi_nalet_dronov_na_rossiyu.html",
-"published_at": "2026-11-15T21:00:01Z",
-"quote": "Полковник Ходаренок: цели для массированного удара ВСУ согласовывает Зеленский Силы ПВО за ночь на 13 ноября сбили 1198 украинских беспилотников над 16 областями, Московским регионом, Крымом и Черным морем."
-},
-{
-"url": "https://t.me/voron_fpv/5470",
-"published_at": "2026-05-28T08:06:02Z",
-"quote": "Подразделения Военно-воздушных сил ВСУ с использованием ракет воздушного базирования Storm Shadow уничтожили программно-аппаратные комплексы средств автоматизации разведки Военно-воздушных сил РФ в районах Воронежа (Воронежская область, РФ)"
-},
-{
-"url": "https://t.me/UAVDEV/10688",
-"published_at": "2026-03-11T14:43:59Z",
-"quote": "Дроны ВСУ, не долетевшие третьего дня до Крыма и сбитые ПВО."
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_06ad2a70453c15a6",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_b677547c4bb180c5",
@@ -1615,6 +1620,36 @@
 ],
 "sentiment": {
 "score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_052a9524c0f2eda4",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_e5f190ccc39e3fdd",
+"type": "применение",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%82%d0%be%d1%81-2-%d1%82%d0%be%d1%81%d0%be%d1%87%d0%ba%d0%b0-%d1%81%d0%be%d0%b5%d0%b4%d0%b8%d0%bd%d0%b5%d0%bd%d0%b8%d1%8f-%d1%80%d1%85%d0%b1%d0%b7",
+"published_at": "2026-11-16T08:59:14Z",
+"quote": "РАСЧЕТ ТОС-2 «ТОСОЧКА» СОЕДИНЕНИЯ РХБЗ ГРУППИРОВКИ ВОЙСК «ЦЕНТР» УНИЧТОЖИЛ РАЙОН СОСРЕДОТОЧЕНИЯ ПУНКТОВ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d0%b4%d1%80%d0%be%d0%bd%d0%b0-%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%b2%d0%b0%d1%82%d1%87%d0%b8%d0%ba%d0%b0-%d1%81%d0%be%d0%ba%d0%be%d0%bb-%d0%b22-%d0%b7",
+"published_at": "2026-11-16T08:40:21Z",
+"quote": "РАСЧЕТ ДРОНА-ПЕРЕХВАТЧИКА «СОКОЛ-В2» ЗЕНИТНОЙ РАКЕТНОЙ БРИГАДЫ ГРУППИРОВКИ «ЦЕНТР» УНИЧТОЖИЛ ДЕСЯТКИ УДАРНЫХ И РАЗВЕДЫВАТЕЛЬНЫХ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+},
+{
+"url": "https://t.me/mod_russia/69025",
+"published_at": "2026-11-15T05:42:06Z",
+"quote": "🔥 Кроме того, поражены два железнодорожных локомотива в районе ж/д станции Днепропетровск, используемых в интересах перевозки грузов, предназначенных для обеспечения ВСУ."
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -17930,26 +17965,6 @@
 }
 },
 {
-"id": "rel_052a9524c0f2eda4",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_e5f190ccc39e3fdd",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://t.me/mod_russia/69025",
-"published_at": "2026-11-15T05:42:06Z",
-"quote": "🔥 Кроме того, поражены два железнодорожных локомотива в районе ж/д станции Днепропетровск, используемых в интересах перевозки грузов, предназначенных для обеспечения ВСУ."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_9e363114949dde1f",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_eb8cb296fc293dc4",
@@ -18507,6 +18522,126 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_90c27642e1391304",
+"from": "ent_455fb2e850fa6a65",
+"to": "ent_277be6952eb68e35",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/hensoldt-and-dronamics-demonstrate-european-airborne-early-warning-and-surveillance-system-on-black-swan-drone-in-flight",
+"published_at": "2026-11-16T08:07:16Z",
+"quote": "“Together, we have taken an important step towards realising our shared vision of providing a sovereign, EU-manufactured capability in the NATO Class III UAV category for strategic surveillance, including the detection of low-flying targets"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_9e2ccb06f9e3c4a9",
+"from": "ent_455fb2e850fa6a65",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/hensoldt-and-dronamics-demonstrate-european-airborne-early-warning-and-surveillance-system-on-black-swan-drone-in-flight",
+"published_at": "2026-11-16T08:07:16Z",
+"quote": "“Together, we have taken an important step towards realising our shared vision of providing a sovereign, EU-manufactured capability in the NATO Class III UAV category for strategic surveillance, including the detection of low-flying targets"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c032c7b7a3e90b26",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_59965f590d8fcc04",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6-%d1%81%d0%b2%d0%b5%d1%80%d1%85%d0%b7%d0%b2%d1%83%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d1%8f-%d0%b1",
+"published_at": "2026-11-16T08:27:02Z",
+"quote": "ЭКИПАЖ СВЕРХЗВУКОВОГО ИСТРЕБИТЕЛЯ-БОМБАРДИРОВЩИКА СУ-34 НАНЕС УДАР АВИАЦИОННЫМИ БОМБАМИ С УНИВЕРСАЛЬНЫМ МОДУЛЕМ ПЛАНИРОВАНИЯ И КОРРЕКЦИИ (УМПК) ЭКИПАЖ СВЕРХЗВУКОВОГО ИСТРЕБИТЕЛЯ-БОМБАРДИРОВЩИКА СУ-34 НАНЕС УДАР АВИАЦИОННЫМИ БОМБАМИ С УНИВЕР"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_c51629eeddb45121",
+"from": "ent_59965f590d8fcc04",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6-%d1%81%d0%b2%d0%b5%d1%80%d1%85%d0%b7%d0%b2%d1%83%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d1%8f-%d0%b1",
+"published_at": "2026-11-16T08:27:02Z",
+"quote": "ЭКИПАЖ СВЕРХЗВУКОВОГО ИСТРЕБИТЕЛЯ-БОМБАРДИРОВЩИКА СУ-34 НАНЕС УДАР АВИАЦИОННЫМИ БОМБАМИ С УНИВЕРСАЛЬНЫМ МОДУЛЕМ ПЛАНИРОВАНИЯ И КОРРЕКЦИИ (УМПК) ЭКИПАЖ СВЕРХЗВУКОВОГО ИСТРЕБИТЕЛЯ-БОМБАРДИРОВЩИКА СУ-34 НАНЕС УДАР АВИАЦИОННЫМИ БОМБАМИ С УНИВЕР"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_6f08578a3d429d24",
+"from": "ent_e075b2ff37cd5b37",
+"to": "ent_0cf94809207eaa8c",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72821",
+"published_at": "2026-11-16T00:00:00Z",
+"quote": "sharing BAE Systems Integrates Echodyne Radar into BATS Counter-UAS System The British defense contractor selected the American-made EchoShield radar following two weeks of field trials in Scotland to bolster layered counter-drone capabilit"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_c698ba82645f8829",
+"from": "ent_e075b2ff37cd5b37",
+"to": "ent_0cf94809207eaa8c",
+"type": "подтверждение",
+"event_date": "2026-11-10",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72821",
+"published_at": "2026-11-16T00:00:00Z",
+"quote": "According to a report in Army Recognition, Echodyne confirmed the selection of the EchoShield radar for the BATS system on November 10, 2026, following a two-week trial series conducted by BAE Systems in Scotland."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 }
 ]
