@@ -1,12 +1,12 @@
 # Упомянуто в новостях, но отсутствует в реестре — рабочий список
 
-Построен по живой базе на 16.11.2026 14:44 Europe/Minsk.
+Построен по живой базе на 16.11.2026 16:12 Europe/Minsk.
 
 Рабочий список кандидатов, **не проверенная перепись**. Названия извлечены регулярными выражениями из заголовков и вводных абзацев новостей и сравнены с реестром `companies.csv` (названия, псевдонимы, шаблоны упоминаний). Среди кандидатов есть ложные срабатывания (продукты, ведомства, общие слова). В реестр ничего автоматически не добавляется: строка вносится только после открытия официального сайта и источника.
 
 Российские компании в реестр не вносятся (решение 11.11.2026: «Удали все российские компании»); российские названия в этом списке — только упоминания в ленте, не кандидаты в реестр.
 
-Порог: кандидат встретился минимум в 2 материалах. Кандидатов: 85.
+Порог: кандидат встретился минимум в 2 материалах. Кандидатов: 86.
 
 | Кандидат | Материалов | Примеры (ссылки) |
 |---|---:|---|
@@ -72,6 +72,7 @@
 | European Union Aviation | 2 | [The 2026 EU Drone Summit – an urgent, overdue review of the Drone Strategy 2.0](https://unmannedairspace.info/uncategorized/the-2026-eu-drone-summit-an-urgent-overdue-review-of-the-drone-strategy-2-0); [UK CAA contemplates new UAS advisory panel](https://unmannedairspace.info/uncategorized/uk-caa-contemplates-new-uas-advisory-panel) |
 | GE Aerospace | 2 | [🇺🇸 Формуляр на американскую военно-промышленную компанию Shield AI Inc.](https://t.me/uav_tech/37129); [Shield unveils first X-BAT combat drone prototype with test flight planned for 2026](https://defence-industry.eu/shield-unveils-first-x-bat-combat-drone-prototype-with-test-flight-planned-for-2026) |
 | Germany’s CONDOR Group | 2 | [CONDOR Group acquires HHLA Sky to expand automated drone operations](https://unmannedairspace.info/uncategorized/condor-group-acquires-hhla-sky-to-expand-automated-drone-operations); [Condor Group acquires HHLA Sky as Hamburg port operator exits drone business](https://dronewatch.eu/condor-group-acquires-hhla-sky-as-hamburg-port-operator-exits-drone-business/?utm_source=rss&utm_medium=rss&utm_campaign=condor-group-acquires-hhla-sky-as-hamburg-port-operator-exits-drone-business) |
+| INFORM Wales Defence | 2 | [Welsh Defence Industry Priorities to Be Presented to More Than 200 Government and Industry Leaders](https://businessnewswales.com/welsh-defence-industry-priorities-to-be-presented-to-more-than-200-government-and-industry-leaders); [New Media Channel Launches to Spotlight Welsh Defence Industry and Supply Chain Opportunities](https://businessnewswales.com/new-media-channel-launches-to-spotlight-welsh-defence-industry-and-supply-chain-opportunities) |
 | International Development Finance Corporation | 2 | [UForce raises $700 million at a $6 billion valuation to build more drones in Ukraine and abroad](https://defence-industry.eu/uforce-raises-700-million-at-a-6-billion-valuation-to-build-more-drones-in-ukraine-and-abroad); [Defense Business Brief: This Ukraine-founded drone maker is now worth $6 billion. What now?](https://defenseone.com/business/2026/11/defense-business-brief-ukraine-founded-drone-maker-now-worth-6-billion-what-now/417207) |
 | Joby Aviation | 2 | [Peter Ryseck's Propeller Pole Stood 3 Hours. The Motors Barely Ran](https://dronexl.co/2026/11/08/peter-ryseck-self-balancing-pole-drone-propellers-three-hours); [Автономная Cessna Caravan пересекла США без вмешательства пилота](https://t.me/news_UAV/5727) |
 | Mexico The Federal Aviation | 2 | [FAA authorises Skyways to fly drones over Gulf of Mexico](https://unmannedairspace.info/uncategorized/faa-authorises-skyways-to-fly-drones-over-gulf-of-mexico); [FAA Authorizes Long-Range Drone Operations Over Gulf of Mexico](https://uasvision.com/2026/11/11/faa-authorizes-long-range-drone-operations-over-gulf-of-mexico) |

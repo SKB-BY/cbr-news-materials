@@ -5,32 +5,32 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 129,
+"evidence_count": 133,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611161533-EeDWp.html",
+"published_at": "2026-11-16T12:49:01Z",
+"quote": "Дроноводы группировки войск «Центр» уничтожили пункт дислокации ВСУ"
+},
+{
+"url": "https://tvzvezda.ru/news/202611161359-H9Y81.html",
+"published_at": "2026-11-16T11:58:15Z",
+"quote": "Минобороны России сообщило об уничтожении сразу нескольких пунктов управления беспилотными летательными аппаратами ВСУ в зоне проведения специальной военной операции."
+},
+{
+"url": "https://tvzvezda.ru/news/202611161445-l9A5w.html",
+"published_at": "2026-11-16T11:51:29Z",
+"quote": "Дроноводы группировки «Запад» нанесли удары по бронетехнике и роботам ВСУ"
+},
+{
+"url": "https://defence-ua.com/army_and_war/uzhe_5_uspishnih_udariv_krilatimi_raketami_neptun_zsu_za_30_dniv_skilki_su_34_ta_zavodiv_vpk_urazheno-24759.html",
+"published_at": "2026-11-16T11:43:22Z",
+"quote": "Уже 5 успішних ударів крилатими ракетами \"Нептун\" ЗСУ за 30 днів, скільки Су-34 та заводів ВПК уражено"
+},
 {
 "url": "https://tass.ru/proisshestviya/28321835",
 "published_at": "2026-11-16T11:04:42Z",
 "quote": "В Белгороде при ударе беспилотника ВСУ пострадали два человека"
-},
-{
-"url": "https://tvzvezda.ru/news/202611161255-jCl4d.html",
-"published_at": "2026-11-16T10:04:04Z",
-"quote": "Во время воздушной разведки расчеты ежедневно обнаруживают и уничтожают более десяти беспилотников ВСУ - от небольших FPV-дронов до тяжелых ударных аппаратов."
-},
-{
-"url": "https://t.me/news_UAV/5963",
-"published_at": "2026-11-16T09:53:49Z",
-"quote": "Российская ПВО сбила 2049 дронов ВСУ за сутки"
-},
-{
-"url": "https://tvzvezda.ru/news/202611161138-MvDEo.html",
-"published_at": "2026-11-16T09:52:33Z",
-"quote": "Ранее сообщалось, что расчет САУ «Пион» уничтожил укрепленный опорный пункт ВСУ в зоне спецоперации."
-},
-{
-"url": "https://bastion-karpenko.ru/%d1%82%d0%b0%d1%81%d1%81-%d0%b0%d1%82%d0%b0%d0%ba%d0%b0-%d0%b4%d1%80%d0%be%d0%bd%d0%be%d0%b2-%d0%b2%d1%81%d1%83-%d0%bd%d0%b0-%d1%80%d1%84-%d1%81%d1%82%d0%b0%d0%bb%d0%b0-%d0%be%d0%b4%d0%bd%d0%be%d0%b9",
-"published_at": "2026-11-16T09:49:49Z",
-"quote": "ТАСС: АТАКА ДРОНОВ ВСУ НА РФ СТАЛА ОДНОЙ ИЗ САМЫХ МАССИРОВАННЫХ ЗА ГОД ТАСС: АТАКА ДРОНОВ ВСУ НА РФ СТАЛА ОДНОЙ ИЗ САМЫХ МАССИРОВАННЫХ ЗА ГОД Дежурные силы противовоздушной обороны минувшей ночью сбили 1 336 беспилотников над территорией Ро"
 }
 ],
 "sentiment": {
@@ -45,8 +45,13 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 36,
+"evidence_count": 37,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611161359-H9Y81.html",
+"published_at": "2026-11-16T11:58:15Z",
+"quote": "Минобороны России сообщило об уничтожении сразу нескольких пунктов управления беспилотными летательными аппаратами ВСУ в зоне проведения специальной военной операции."
+},
 {
 "url": "https://t.me/news_UAV/5963",
 "published_at": "2026-11-16T09:53:49Z",
@@ -66,11 +71,6 @@
 "url": "https://tass.ru/armiya-i-opk/28321055",
 "published_at": "2026-11-16T08:52:50Z",
 "quote": "ВС РФ поразили места хранения и запуска беспилотников ВСУ"
-},
-{
-"url": "https://ria.ru/20261116/voennye-2131794102.html",
-"published_at": "2026-11-16T07:12:30Z",
-"quote": "ВС России уничтожили 58 пунктов управления дронами ВСУ в ДНР за сутки"
 }
 ],
 "sentiment": {
@@ -205,8 +205,13 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 12,
+"evidence_count": 13,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611161359-H9Y81.html",
+"published_at": "2026-11-16T11:58:15Z",
+"quote": "Минобороны России сообщило об уничтожении сразу нескольких пунктов управления беспилотными летательными аппаратами ВСУ в зоне проведения специальной военной операции."
+},
 {
 "url": "https://tvzvezda.ru/news/20261116147-MPv9x.html",
 "published_at": "2026-11-16T11:11:23Z",
@@ -226,15 +231,10 @@
 "url": "https://vpk.name/news/1171271_vs_rossii_primenili_novyi_bpla_na_dnepropetrovskom_napravlenii.html",
 "published_at": "2026-11-12T21:00:01Z",
 "quote": "ВС РФ применили новый БПЛА-перехватчик \"Сокол-3\" на Днепропетровском направлении Новейший БПЛА-перехватчик самолетного типа \"Сокол-3\" применили военные группировки войск \"Центр\" для уничтожения вражеских воздушных целей на днепропетровском "
-},
-{
-"url": "https://vpk.name/news/1171483_armiya_rossii_primenila_novye_sokoly-3_protiv_dronov_vsu.html",
-"published_at": "2026-11-12T21:00:01Z",
-"quote": "Минобороны России: Новые дроны-перехватчики «Сокол-3» применили против БПЛА ВСУ Военнослужащие армии России применили новые дроны-перехватчики «Сокол-3» против скоростных беспилотных летательных аппаратов (БПЛА) ВСУ."
 }
 ],
 "sentiment": {
-"score_pm1": -0.2,
+"score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -245,8 +245,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 8,
+"evidence_count": 9,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611161359-H9Y81.html",
+"published_at": "2026-11-16T11:58:15Z",
+"quote": "Минобороны России сообщило об уничтожении сразу нескольких пунктов управления беспилотными летательными аппаратами ВСУ в зоне проведения специальной военной операции."
+},
 {
 "url": "https://t.me/news_UAV/5963",
 "published_at": "2026-11-16T09:53:49Z",
@@ -266,11 +271,6 @@
 "url": "https://t.me/news_UAV/5308",
 "published_at": "2026-06-22T10:35:09Z",
 "quote": "ПВО за сутки сбила 734 украинских беспилотника Силы ПВО за сутки уничтожили 734 беспилотника и 12 управляемых авиационных бомб ВСУ, сообщили в Минобороны России."
-},
-{
-"url": "https://t.me/news_UAV/5089",
-"published_at": "2026-05-15T05:17:38Z",
-"quote": "Средства ПВО уничтожили 355 беспилотных летательных аппаратов ВСУ над территорией России за ночь, сообщило журналистам Минобороны РФ."
 }
 ],
 "sentiment": {
@@ -1815,6 +1815,31 @@
 }
 },
 {
+"id": "rel_6d86617406752333",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://nypost.com/2026/11/16/us-news/pentagon-ignored-warnings-before-iran-drone-killed-6-us-service-members-in-kuwait-whistleblower-claims",
+"published_at": "2026-11-16T12:05:27Z",
+"quote": "Stephen Ramsbottom claims the Pentagon ignored warnings before an Iranian drone strike killed six US service members in Kuwait."
+},
+{
+"url": "https://breakingdefense.com/2026/11/allen-control-systems-launches-new-division-to-develop-counter-drone-lasers",
+"published_at": "2026-11-10T20:56:37Z",
+"quote": "The announcement comes amid the Pentagon’s growing interest in laser weapons, which use concentrated beams of energy to heat and destroy targets."
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_f776755367d9183d",
 "from": "ent_82e7db2d9eb367cd",
 "to": "ent_382bc265ebab3a18",
@@ -2637,6 +2662,31 @@
 "score_pm1": 0.4,
 "score_pm2": 1,
 "label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_de9d0b32dd538502",
+"from": "ent_48a4e1e33ddc917b",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d0%b0%d0%bc%d0%b5%d1%80%d0%b8%d0%ba%d0%b0%d0%bd%d1%81%d0%ba%d0%b8%d0%b9-%d0%b1%d0%be%d0%bc%d0%b1%d0%b0%d1%80%d0%b4%d0%b8%d1%80%d0%be%d0%b2%d1%89%d0%b8%d0%ba-b-21-raider-%d0%b2%d0%bf%d0%b5%d1%80%d0%b2",
+"published_at": "2026-11-16T12:39:57Z",
+"quote": "АМЕРИКАНСКИЙ БОМБАРДИРОВЩИК B-21 RAIDER ВПЕРВЫЕ НА ИСПЫТАНИЯХ ПРИМЕНИЛ ОРУЖИЕ"
+},
+{
+"url": "https://armyrecognition.com/news/aerospace-news/2026/u-s-b-21-raider-demonstrates-strike-capability-as-future-backbone-of-u-s-air-force-bomber-fleet",
+"published_at": "2026-11-13T16:52:18Z",
+"quote": "B-21 Raider Demonstrates Strike Capability as Future Backbone of U."
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -3790,6 +3840,56 @@
 }
 },
 {
+"id": "rel_c032c7b7a3e90b26",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_59965f590d8fcc04",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://defence-ua.com/army_and_war/uzhe_5_uspishnih_udariv_krilatimi_raketami_neptun_zsu_za_30_dniv_skilki_su_34_ta_zavodiv_vpk_urazheno-24759.html",
+"published_at": "2026-11-16T11:43:22Z",
+"quote": "Уже 5 успішних ударів крилатими ракетами \"Нептун\" ЗСУ за 30 днів, скільки Су-34 та заводів ВПК уражено"
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6-%d1%81%d0%b2%d0%b5%d1%80%d1%85%d0%b7%d0%b2%d1%83%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d1%8f-%d0%b1",
+"published_at": "2026-11-16T08:27:02Z",
+"quote": "ЭКИПАЖ СВЕРХЗВУКОВОГО ИСТРЕБИТЕЛЯ-БОМБАРДИРОВЩИКА СУ-34 НАНЕС УДАР АВИАЦИОННЫМИ БОМБАМИ С УНИВЕРСАЛЬНЫМ МОДУЛЕМ ПЛАНИРОВАНИЯ И КОРРЕКЦИИ (УМПК) ЭКИПАЖ СВЕРХЗВУКОВОГО ИСТРЕБИТЕЛЯ-БОМБАРДИРОВЩИКА СУ-34 НАНЕС УДАР АВИАЦИОННЫМИ БОМБАМИ С УНИВЕР"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_c51629eeddb45121",
+"from": "ent_59965f590d8fcc04",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://defence-ua.com/army_and_war/uzhe_5_uspishnih_udariv_krilatimi_raketami_neptun_zsu_za_30_dniv_skilki_su_34_ta_zavodiv_vpk_urazheno-24759.html",
+"published_at": "2026-11-16T11:43:22Z",
+"quote": "Уже 5 успішних ударів крилатими ракетами \"Нептун\" ЗСУ за 30 днів, скільки Су-34 та заводів ВПК уражено"
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6-%d1%81%d0%b2%d0%b5%d1%80%d1%85%d0%b7%d0%b2%d1%83%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d1%8f-%d0%b1",
+"published_at": "2026-11-16T08:27:02Z",
+"quote": "ЭКИПАЖ СВЕРХЗВУКОВОГО ИСТРЕБИТЕЛЯ-БОМБАРДИРОВЩИКА СУ-34 НАНЕС УДАР АВИАЦИОННЫМИ БОМБАМИ С УНИВЕРСАЛЬНЫМ МОДУЛЕМ ПЛАНИРОВАНИЯ И КОРРЕКЦИИ (УМПК) ЭКИПАЖ СВЕРХЗВУКОВОГО ИСТРЕБИТЕЛЯ-БОМБАРДИРОВЩИКА СУ-34 НАНЕС УДАР АВИАЦИОННЫМИ БОМБАМИ С УНИВЕР"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_2c6cfd6630ff9d94",
 "from": "ent_c91088d26303c660",
 "to": "ent_28fea1c77915c37a",
@@ -4367,26 +4467,6 @@
 "score_pm1": 0.3,
 "score_pm2": 1,
 "label": "умеренно позитивный"
-}
-},
-{
-"id": "rel_6d86617406752333",
-"from": "ent_b0bba4c8f275ffd0",
-"to": "ent_b677547c4bb180c5",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://breakingdefense.com/2026/11/allen-control-systems-launches-new-division-to-develop-counter-drone-lasers",
-"published_at": "2026-11-10T20:56:37Z",
-"quote": "The announcement comes amid the Pentagon’s growing interest in laser weapons, which use concentrated beams of energy to heat and destroy targets."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
 }
 },
 {
@@ -9033,26 +9113,6 @@
 "id": "rel_c6cd6f443b30ce18",
 "from": "ent_7902a5283b8ea891",
 "to": "ent_48a4e1e33ddc917b",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://armyrecognition.com/news/aerospace-news/2026/u-s-b-21-raider-demonstrates-strike-capability-as-future-backbone-of-u-s-air-force-bomber-fleet",
-"published_at": "2026-11-13T16:52:18Z",
-"quote": "B-21 Raider Demonstrates Strike Capability as Future Backbone of U."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_de9d0b32dd538502",
-"from": "ent_48a4e1e33ddc917b",
-"to": "ent_b677547c4bb180c5",
 "type": "применение",
 "event_date": null,
 "evidence_count": 1,
@@ -18570,46 +18630,6 @@
 }
 },
 {
-"id": "rel_c032c7b7a3e90b26",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_59965f590d8fcc04",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6-%d1%81%d0%b2%d0%b5%d1%80%d1%85%d0%b7%d0%b2%d1%83%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d1%8f-%d0%b1",
-"published_at": "2026-11-16T08:27:02Z",
-"quote": "ЭКИПАЖ СВЕРХЗВУКОВОГО ИСТРЕБИТЕЛЯ-БОМБАРДИРОВЩИКА СУ-34 НАНЕС УДАР АВИАЦИОННЫМИ БОМБАМИ С УНИВЕРСАЛЬНЫМ МОДУЛЕМ ПЛАНИРОВАНИЯ И КОРРЕКЦИИ (УМПК) ЭКИПАЖ СВЕРХЗВУКОВОГО ИСТРЕБИТЕЛЯ-БОМБАРДИРОВЩИКА СУ-34 НАНЕС УДАР АВИАЦИОННЫМИ БОМБАМИ С УНИВЕР"
-}
-],
-"sentiment": {
-"score_pm1": -0.5,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_c51629eeddb45121",
-"from": "ent_59965f590d8fcc04",
-"to": "ent_76aae9f116d88191",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6-%d1%81%d0%b2%d0%b5%d1%80%d1%85%d0%b7%d0%b2%d1%83%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d1%8f-%d0%b1",
-"published_at": "2026-11-16T08:27:02Z",
-"quote": "ЭКИПАЖ СВЕРХЗВУКОВОГО ИСТРЕБИТЕЛЯ-БОМБАРДИРОВЩИКА СУ-34 НАНЕС УДАР АВИАЦИОННЫМИ БОМБАМИ С УНИВЕРСАЛЬНЫМ МОДУЛЕМ ПЛАНИРОВАНИЯ И КОРРЕКЦИИ (УМПК) ЭКИПАЖ СВЕРХЗВУКОВОГО ИСТРЕБИТЕЛЯ-БОМБАРДИРОВЩИКА СУ-34 НАНЕС УДАР АВИАЦИОННЫМИ БОМБАМИ С УНИВЕР"
-}
-],
-"sentiment": {
-"score_pm1": -0.5,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_6f08578a3d429d24",
 "from": "ent_e075b2ff37cd5b37",
 "to": "ent_0cf94809207eaa8c",
@@ -18787,6 +18807,366 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_483a52eefde4c820",
+"from": "ent_78f1ace85264a541",
+"to": "ent_d86f029c01852476",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://unmannedairspace.info/counter-uas-systems-and-policies/intelic-connects-saab-airborne-radar-into-c-uas-command-and-control-system-within-minutes",
+"published_at": "2026-11-16T12:38:14Z",
+"quote": "Intelic reports it has integrated its NEXUS command-and-control platform with Saab’s Giraffe 1X radar, during a field test held at a military base in the Netherlands, for potential counter UAS (C-UAS) applications."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_2fbbb3d935d8a21e",
+"from": "ent_7ceb075f01e15a10",
+"to": "ent_0367816413cb01aa",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://unmannedairspace.info/counter-uas-systems-and-policies/russias-barometer-develops-wheeled-barrier-to-protect-airfields-from-drone-attacks-tass",
+"published_at": "2026-11-16T11:41:34Z",
+"quote": "“These include physical UAV destruction systems such as the Pantsir-SMD-E air defence missile system and the Pantsir-S1M air defense missile and gun system developed by the High Precision Systems Holding Company, the Verba man-portable air "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_53db04c512718c7d",
+"from": "ent_7ceb075f01e15a10",
+"to": "ent_1675bdb5d61a10bf",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://unmannedairspace.info/counter-uas-systems-and-policies/russias-barometer-develops-wheeled-barrier-to-protect-airfields-from-drone-attacks-tass",
+"published_at": "2026-11-16T11:41:34Z",
+"quote": "“These include physical UAV destruction systems such as the Pantsir-SMD-E air defence missile system and the Pantsir-S1M air defense missile and gun system developed by the High Precision Systems Holding Company, the Verba man-portable air "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_03ba09c216bcc092",
+"from": "ent_7ceb075f01e15a10",
+"to": "ent_67454b920c5e2172",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://unmannedairspace.info/counter-uas-systems-and-policies/russias-barometer-develops-wheeled-barrier-to-protect-airfields-from-drone-attacks-tass",
+"published_at": "2026-11-16T11:41:34Z",
+"quote": "“These include physical UAV destruction systems such as the Pantsir-SMD-E air defence missile system and the Pantsir-S1M air defense missile and gun system developed by the High Precision Systems Holding Company, the Verba man-portable air "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6978d3be88b0b771",
+"from": "ent_f11f0b51e9b8bad0",
+"to": "ent_5dc20cdff9137daa",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/16/french-navy-falcon-10-retirement",
+"published_at": "2026-11-16T11:57:18Z",
+"quote": "The PC-24, manufactured in Switzerland, won out over Embraer’s Phenom 300 in a competition that concluded in October 2025."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c5e03182a44a1172",
+"from": "ent_c2652f0e90f42780",
+"to": "ent_0f1d1737e2370a7d",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/16/french-navy-falcon-10-retirement",
+"published_at": "2026-11-16T11:57:18Z",
+"quote": "The smallest in-production business jet in Dassault’s arsenal is the Falcon 2000LXS."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_56f373f92e24822a",
+"from": "ent_c2652f0e90f42780",
+"to": "ent_d6f4fdc8b49eff60",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/16/french-navy-falcon-10-retirement",
+"published_at": "2026-11-16T11:57:18Z",
+"quote": "The smallest in-production business jet in Dassault’s arsenal is the Falcon 2000LXS."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_eb1d2d67eee36814",
+"from": "ent_a6df7175414b7cd4",
+"to": "ent_d6f4fdc8b49eff60",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/16/french-navy-falcon-10-retirement",
+"published_at": "2026-11-16T11:57:18Z",
+"quote": "French defence procurement agency, DGA has delivered the first two Falcon 2000 LXS Albatros aircraft to the French Navy, as part of the AVSIMAR program."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_85bc5e9d90199c2b",
+"from": "ent_a6df7175414b7cd4",
+"to": "ent_6743055ee3ce4f5b",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/16/french-navy-falcon-10-retirement",
+"published_at": "2026-11-16T11:57:18Z",
+"quote": "@DGA @MarineNationale The aircraft, which were delivered on July 27 and 31, are destined for the French Naval Aviation’s Flottille 24F (Flotilla 24F) maritime surveillance and rescue squadron based at the Lann-Bihoué Naval Air Base in Morbi"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_39ca4201240d4342",
+"from": "ent_a6df7175414b7cd4",
+"to": "ent_1af9a1eafc9730d2",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/16/french-navy-falcon-10-retirement",
+"published_at": "2026-11-16T11:57:18Z",
+"quote": "@DGA @MarineNationale The aircraft, which were delivered on July 27 and 31, are destined for the French Naval Aviation’s Flottille 24F (Flotilla 24F) maritime surveillance and rescue squadron based at the Lann-Bihoué Naval Air Base in Morbi"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_184519c844818631",
+"from": "ent_9fd39938cc6ffa53",
+"to": "ent_72bae270858bf3e6",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/16/french-navy-falcon-10-retirement",
+"published_at": "2026-11-16T11:57:18Z",
+"quote": "Its high-performance primary sensors – Thales’ SearchMaster X-band active electronically scanned array (AESA) maritime surveillance radar and Safran’s EuroFLIR 410 optronic turret – are managed by a mission system developed by Naval Group."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_7dacbf1a5035ef7e",
+"from": "ent_8ee1d29ffcfae48f",
+"to": "ent_72bae270858bf3e6",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/16/french-navy-falcon-10-retirement",
+"published_at": "2026-11-16T11:57:18Z",
+"quote": "Its high-performance primary sensors – Thales’ SearchMaster X-band active electronically scanned array (AESA) maritime surveillance radar and Safran’s EuroFLIR 410 optronic turret – are managed by a mission system developed by Naval Group."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_d165e679b0dc97ee",
+"from": "ent_54a6fa8993794d9e",
+"to": "ent_f11f0b51e9b8bad0",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/wideroe-embraer-e195-e2-aircraft",
+"published_at": "2026-11-16T12:03:37Z",
+"quote": "RELATED Philippine Airlines firms order for up to 20 Boeing 787-10s with GE engines The post Widerøe to receive new Embraer E195-E2 aircraft early 2028 appeared first on AeroTime ."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_cc89ff5775d9cd9b",
+"from": "ent_26a0ea5efcaff045",
+"to": "ent_9a78ce074ce78826",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/schiphol-gps-jamming-80-aircraft-north-sea",
+"published_at": "2026-11-16T11:09:05Z",
+"quote": "Previous incidents have affected flights carrying senior European officials, including UK Defense Secretary John Healey in May 2026 and European Commission President Ursula von der Leyen in August 2025."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_d58eecb3f42d6fea",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_76aae9f116d88191",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611161533-EeDWp.html",
+"published_at": "2026-11-16T12:49:01Z",
+"quote": "Во время воздушной разведки расчеты 56-го отдельного батальона специального назначения 51-й гвардейской общевойсковой армии обнаружили место размещения ВСУ в частном доме."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_78cb772c755b60dd",
+"from": "ent_f2dcf230404a0bff",
+"to": "ent_382bc265ebab3a18",
+"type": "подтверждение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://gbnews.com/news/world/ukraine-british-army-russia-drones",
+"published_at": "2026-11-16T10:10:36Z",
+"quote": "GB News can confirm troops on the exercise have a dedicated cell for procuring replica drones similar to the Shahed so that air defence forces through the British military can train on representative targets."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_88bcb2c76ff1f279",
+"from": "ent_5c5af50813df2d95",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/operativnoZSU/226214",
+"published_at": "2026-11-16T05:19:05Z",
+"quote": "🔥Морський безекіпажний катер Військово-Морських Сил ЗС України Sargan 3000 автоматичною туреллю знищив черговий російський МБеК."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_39afbfb4accaa021",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_42945ce6b8f796c3",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://nypost.com/2026/11/16/us-news/pentagon-ignored-warnings-before-iran-drone-killed-6-us-service-members-in-kuwait-whistleblower-claims",
+"published_at": "2026-11-16T12:05:27Z",
+"quote": "Stephen Ramsbottom claims the Pentagon ignored warnings before an Iranian drone strike killed six US service members in Kuwait."
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный"
 }
 }
 ]
