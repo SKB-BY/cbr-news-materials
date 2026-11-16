@@ -171556,5 +171556,47 @@
 "subjectivity": 0.1,
 "risk_tags": []
 }
+},
+{
+"dedupe_hash": "46a13a913515c97e3daf0972aa35146da34e5fac60fd9b56ca00639d955b3563",
+"url": "https://viewpoints.dji.com/blog/new-update-on-dji-ban",
+"published_at": "2024-07-09T16:00:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": [
+"Regulatory"
+]
+}
+},
+{
+"dedupe_hash": "bab20637b35262bd6b4415e0003de4ce272dc3f19126f38892ab6a7c4f3053ce",
+"url": "https://viewpoints.dji.com/blog/dji-to-disable-flight-record-sync-in-the-us",
+"published_at": "2024-06-07T02:12:17Z",
+"event_date": "2023-06-12",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.6,
+"score_pm2": 2,
+"label": "резко позитивный",
+"subjectivity": 0.2,
+"risk_tags": [
+"Financial"
+]
+}
 }
 ]

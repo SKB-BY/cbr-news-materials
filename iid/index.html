@@ -39,6 +39,12 @@ svg text{fill:var(--muted);font:11px var(--mono)}
 h2{margin-top:28px;border-bottom:1px solid var(--line);padding-bottom:4px}
 .note{border-left:3px solid var(--warn);padding:6px 10px;background:var(--panel)}
 .cbr-copy{max-width:1180px;margin:24px auto 30px;padding:10px 18px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
+/* t158u (GREEN): имя источника «только для расчёта» — спойлер как в Telegram: размыто, открывается щелчком / касанием / Enter / пробелом */
+.io-sp{filter:blur(5px);background:rgba(140,150,160,.35);border-radius:3px;padding:0 .25em;cursor:pointer;user-select:none;-webkit-user-select:none;transition:filter .2s,background .2s}
+.io-sp:hover{background:rgba(140,150,160,.5)}
+.io-sp:focus-visible{outline:2px solid var(--accent,#3d8bfd);outline-offset:2px}
+.io-sp.on{filter:none;background:transparent;user-select:text;-webkit-user-select:text;cursor:auto}
+.io-label{font-style:normal}
 </style>
 </head><body>
 <header class="cbr-bar">
@@ -124,6 +130,15 @@ h2{margin-top:28px;border-bottom:1px solid var(--line);padding-bottom:4px}
 (function(){
 const I=window.IID, $=id=>document.getElementById(id);
 const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+// t157u/t158u: метка материала «только для расчёта»: имя источника — спойлер (io_name), ссылки нет
+const IO_HIDDEN="‹источник скрыт›";
+const ioSp=n=>`<span class="io-sp" role="button" tabindex="0" aria-pressed="false" aria-label="Источник скрыт — нажмите, чтобы показать" title="Показать источник">${esc(n)}</span>`;
+const ioText=(t,n)=>n?esc(t).split(esc(IO_HIDDEN)).join(ioSp(n)):esc(t);
+function ioToggle(e){const t=e.target.closest&&e.target.closest(".io-sp"); if(!t) return;
+  if(e.type==="keydown"&&e.key!=="Enter"&&e.key!==" ") return; e.preventDefault();
+  const on=!t.classList.contains("on"); t.classList.toggle("on",on); t.setAttribute("aria-pressed",on?"true":"false");
+  t.setAttribute("aria-label",on?"Источник показан":"Источник скрыт — нажмите, чтобы показать");}
+document.addEventListener("click",ioToggle); document.addEventListener("keydown",ioToggle);
 const nf=(v,d)=>v==null?"—":Number(v).toFixed(d).replace(".",",");
 if(!I){$("iid-err").style.display="block";$("iid-err").textContent="Данные ИИД-100 не загружены.";return;}
 const zc=v=>v<=25?"z0":v<=50?"z1":v<=75?"z2":"z3";
@@ -186,7 +201,7 @@ function heat(){
   let x="<tr><th>Сюжет</th><th>Страны · сфера</th><th>t0</th><th>Ответ</th><th>Задержка</th><th>Q</th><th>ИИД до → после</th><th>Δ, эффект</th><th>Цит.</th><th>Вклад за сутки</th></tr>";
   if(!I.stories.length) x+='<tr><td colspan="10">Сюжетов давления за 30 дней нет.</td></tr>';
   I.stories.forEach(s=>{const r=s.response;
-    x+=`<tr><td><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a><div class="small muted">материалов ${s.n}, негативных ${s.nneg}; ${esc(s.sources.join(", "))}</div></td><td>${esc(s.countries.join(", "))} · ${esc(s.sphere)}</td><td class="num">${s.t0.slice(8,10)}.${s.t0.slice(5,7)} ${s.t0.slice(11,16)}</td>`+
+    x+=`<tr><td>${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`:`<span class="io-label">${ioText(s.title,s.io_name)}</span>`}<div class="small muted">материалов ${s.n}, негативных ${s.nneg}; ${ioText(s.sources.join(", "),s.io_name||(s.materials||[]).map(m=>m.io_name).find(Boolean))}</div></td><td>${esc(s.countries.join(", "))} · ${esc(s.sphere)}</td><td class="num">${s.t0.slice(8,10)}.${s.t0.slice(5,7)} ${s.t0.slice(11,16)}</td>`+
     (r?`<td><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.resource||r.source)}</a>, ${esc(r.oi)}<div class="small muted">${r.t.slice(8,10)}.${r.t.slice(5,7)} ${r.t.slice(11,16)}; ключи: ${esc(r.shared_keys.join(", "))}</div></td><td>${nf(r.delay_h,1)} ч<br><span class="small">${r.timely}</span></td><td class="num">${nf(r.Q,2)}<br><span class="small">${r.Q_label}</span></td>`
       :`<td>нет${s.window_open?'<div class="small muted">окно открыто до '+s.window_until.slice(8,10)+"."+s.window_until.slice(5,7)+" "+s.window_until.slice(11,16)+"</div>":""}</td><td>—</td><td>—</td>`)+
     `<td class="num">${s.before.iid} → ${s.after_closed?s.after.iid:"…"}</td><td>${s.effect?((s.delta>0?"+":"")+s.delta+", "+s.effect):"окно «после» не закрыто"}</td><td class="num">${r?r.cites:0}</td><td class="num">${nf(s.contrib_day,1)}</td></tr>`;});
