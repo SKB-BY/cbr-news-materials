@@ -160570,5 +160570,283 @@
 "subjectivity": 0.1,
 "risk_tags": []
 }
+},
+{
+"dedupe_hash": "f69a1276edd6913d8554cd4fde93cea9818271069ca45070739aec3abf5a7364",
+"url": "https://topwar.ru/293607-anomalija-s-raketoj-vulkan-privela-k-potere-40-sputnikov-konkurentov-starlink.html",
+"published_at": "2026-11-16T02:39:36Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "средства связи и коммуникаций",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c7ac07e53a340f6fb7c7e0f9edb189484390a69e03cabf9693d6c054d4cb840d",
+"url": "https://tass.ru/armiya-i-opk/28320067",
+"published_at": "2026-11-16T02:32:15Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6454526768de54b41a3e28e3da97d17d1adead84535fb6ce1baa6db38c552e7c",
+"url": "https://tass.ru/ekonomika/28320037",
+"published_at": "2026-11-16T02:10:18Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "1d96ef04d759ed5c98533e6885d90259b8ffd91ebbfb3d7e84f3082b29963214",
+"url": "https://tass.ru/armiya-i-opk/28320013",
+"published_at": "2026-11-16T02:06:03Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "артиллерийские системы",
+"subfilter": null
+},
+{
+"sphere": "бронетехника",
+"subfilter": "САУ и ПТ САУ"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "de7bab17302321d2f778e3b0f855820011ed897b84521c3a1fd0f4493260604f",
+"url": "https://tass.ru/armiya-i-opk/28320005",
+"published_at": "2026-11-16T02:04:25Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b727c502a26f72a6bd6988b821cb8b968ff6f86b3bf84ccbf50227c089a7637a",
+"url": "https://tass.ru/armiya-i-opk/28320003",
+"published_at": "2026-11-16T02:02:55Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "39f368fc5cb179e6932a997899a241db7df858ce378e368ef34c67c98d883170",
+"url": "https://tass.ru/ekonomika/28319995",
+"published_at": "2026-11-16T01:58:42Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c92b0ff40b2ee09c4ceceb35b32e6a38b175d7e220e40458e2363b25314e799f",
+"url": "https://tass.ru/armiya-i-opk/28319951",
+"published_at": "2026-11-16T01:12:50Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "бронетехника",
+"subfilter": "танки"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c8312725c964682f0f1df70f571a09aafe193c01da9b8d5cf042ce5729216100",
+"url": "https://ria.ru/20261116/spetsoperatsiya-2131762888.html",
+"published_at": "2026-11-16T02:10:14Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "e335d8308fe73d593fd834c0b01b9299cc7b8b580b718f4bdc2b9574dcd41b3c",
+"url": "https://ria.ru/20261116/spetsoperatsiya-2131761748.html",
+"published_at": "2026-11-16T02:08:11Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "34fcb56087bd45a7f5447905021b9ead2fa2a263b0437f0cdbb0ae87b9f1e6a4",
+"url": "https://ria.ru/20261116/spetsoperatsiya-2131761062.html",
+"published_at": "2026-11-16T02:05:37Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "артиллерийские системы",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "5923374841af83c35577cf2104b76870028d36140cec1913726e0a8feb9edc1c",
+"url": "https://ria.ru/20261116/svo-2131760209.html",
+"published_at": "2026-11-16T02:04:11Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "4eb9b5e42670d3b3555f35d3264abc78267c5737ffa3bb9e584f3e82d71d1224",
+"url": "https://belvpo.com/kak-v-belarusi-rabotaet-sistema-protivodejstviya-bespilotnoj-aviaczii-rasskazali-v-minoborony",
+"published_at": "2026-11-16T01:35:40Z",
+"event_date": "2026-11-16",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "43e1c7fb32751ebd0a35318023f82cde80a4320be783a034e9832471aebfcbe5",
+"url": "https://t.me/mod_russia/69050",
+"published_at": "2026-11-16T02:00:35Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
 }
 ]
