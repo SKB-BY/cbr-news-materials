@@ -5,8 +5,23 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 111,
+"evidence_count": 115,
 "evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28320763",
+"published_at": "2026-11-16T07:34:12Z",
+"quote": "Бойцы \"Южной\" поразили 58 пунктов управления БПЛА ВСУ за сутки"
+},
+{
+"url": "https://ria.ru/20261116/voennye-2131794102.html",
+"published_at": "2026-11-16T07:12:30Z",
+"quote": "ВС России уничтожили 58 пунктов управления дронами ВСУ в ДНР за сутки"
+},
+{
+"url": "https://ria.ru/20261116/belgorodskaya-oblast-2131792901.html",
+"published_at": "2026-11-16T07:10:01Z",
+"quote": "В Белгородской области при ударе дрона ВСУ пострадал мужчина"
+},
 {
 "url": "https://topwar.ru/293624-odna-iz-krupnejshih-atak-za-god-za-noch-sbito-bolee-13-tysjachi-dronov-vsu.html",
 "published_at": "2026-11-16T06:24:00Z",
@@ -16,21 +31,6 @@
 "url": "https://tass.ru/proisshestviya/28320493",
 "published_at": "2026-11-16T06:21:07Z",
 "quote": "Над Смоленской областью сбили 23 беспилотника ВСУ"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28320247",
-"published_at": "2026-11-16T04:31:21Z",
-"quote": "Офицер Карта: ВС РФ сбили более 10 разведывательных дронов ВСУ под Харьковом"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28320183",
-"published_at": "2026-11-16T04:01:35Z",
-"quote": "Боец Грач: расчет БПЛА за неделю поразил шесть единиц техники ВСУ под Сумами"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28320171",
-"published_at": "2026-11-16T04:00:35Z",
-"quote": "Боец Танцор: операторы БПЛА уничтожили танк и группу ВСУ в Харьковской области"
 }
 ],
 "sentiment": {
@@ -45,8 +45,18 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 30,
+"evidence_count": 32,
 "evidence": [
+{
+"url": "https://ria.ru/20261116/voennye-2131794102.html",
+"published_at": "2026-11-16T07:12:30Z",
+"quote": "ВС России уничтожили 58 пунктов управления дронами ВСУ в ДНР за сутки"
+},
+{
+"url": "https://ria.ru/20261116/spetsoperatsiya-2131772526.html",
+"published_at": "2026-11-16T04:37:29Z",
+"quote": "ВС России за две недели сбили более десяти БПЛА ВСУ в Харьковской области"
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28320247",
 "published_at": "2026-11-16T04:31:21Z",
@@ -61,16 +71,6 @@
 "url": "https://ria.ru/20261116/spetsoperatsiya-2131762888.html",
 "published_at": "2026-11-16T02:10:14Z",
 "quote": "ВС России уничтожили пункты управления БПЛА ВСУ в Запорожской области"
-},
-{
-"url": "https://ria.ru/20261116/spetsoperatsiya-2131761748.html",
-"published_at": "2026-11-16T02:08:11Z",
-"quote": "ВС России уничтожили пункты управления БПЛА ВСУ в Харьковской области"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28318733",
-"published_at": "2026-11-15T04:32:10Z",
-"quote": "Комвзвода Степ: ВС РФ поразили пункт управления БПЛА ВСУ на сумском направлении"
 }
 ],
 "sentiment": {
@@ -320,6 +320,46 @@
 }
 },
 {
+"id": "rel_10779e8458274135",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_0a0009fc82d3fadc",
+"type": "применение",
+"event_date": null,
+"evidence_count": 6,
+"evidence": [
+{
+"url": "https://ria.ru/20261116/spetsoperatsiya-2131772526.html",
+"published_at": "2026-11-16T04:37:29Z",
+"quote": "ВС России за две недели сбили более десяти БПЛА ВСУ в Харьковской области"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28320247",
+"published_at": "2026-11-16T04:31:21Z",
+"quote": "Офицер Карта: ВС РФ сбили более 10 разведывательных дронов ВСУ под Харьковом"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28320171",
+"published_at": "2026-11-16T04:00:35Z",
+"quote": "Боец Танцор: операторы БПЛА уничтожили танк и группу ВСУ в Харьковской области"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28320143",
+"published_at": "2026-11-16T03:30:34Z",
+"quote": "Комвзвода Спец: ВС РФ сбили свыше 15 дронов \"Баба-яга\" ВСУ под Харьковом"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28320107",
+"published_at": "2026-11-16T03:02:23Z",
+"quote": "Артиллерия \"Севера\" поразила миномет и 69 солдат ВСУ под Харьковом и Сумами"
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_96cf90f7abd2f7ff",
 "from": "ent_14d1757585b55c53",
 "to": "ent_28fea1c77915c37a",
@@ -517,46 +557,6 @@
 "score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_10779e8458274135",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_0a0009fc82d3fadc",
-"type": "применение",
-"event_date": null,
-"evidence_count": 5,
-"evidence": [
-{
-"url": "https://tass.ru/armiya-i-opk/28320247",
-"published_at": "2026-11-16T04:31:21Z",
-"quote": "Офицер Карта: ВС РФ сбили более 10 разведывательных дронов ВСУ под Харьковом"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28320171",
-"published_at": "2026-11-16T04:00:35Z",
-"quote": "Боец Танцор: операторы БПЛА уничтожили танк и группу ВСУ в Харьковской области"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28320143",
-"published_at": "2026-11-16T03:30:34Z",
-"quote": "Комвзвода Спец: ВС РФ сбили свыше 15 дронов \"Баба-яга\" ВСУ под Харьковом"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28320107",
-"published_at": "2026-11-16T03:02:23Z",
-"quote": "Артиллерия \"Севера\" поразила миномет и 69 солдат ВСУ под Харьковом и Сумами"
-},
-{
-"url": "https://ria.ru/20261116/spetsoperatsiya-2131761748.html",
-"published_at": "2026-11-16T02:08:11Z",
-"quote": "ВС России уничтожили пункты управления БПЛА ВСУ в Харьковской области"
-}
-],
-"sentiment": {
-"score_pm1": -0.1,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -3372,6 +3372,31 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_45e8ee5eb18d7389",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_934031688aa80182",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://ria.ru/20261116/belgorodskaya-oblast-2131792901.html",
+"published_at": "2026-11-16T07:10:01Z",
+"quote": "В Белгородской области при ударе дрона ВСУ пострадал мужчина"
+},
+{
+"url": "https://t.me/news_UAV/5103",
+"published_at": "2026-05-17T05:27:25Z",
+"quote": "🔜Водитель грузовика погиб от удара дрона ВСУ в селе Нежеголь в Белгородской области, сообщает оперштаб региона."
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 },
 {
@@ -14265,26 +14290,6 @@
 }
 },
 {
-"id": "rel_45e8ee5eb18d7389",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_934031688aa80182",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://t.me/news_UAV/5103",
-"published_at": "2026-05-17T05:27:25Z",
-"quote": "🔜Водитель грузовика погиб от удара дрона ВСУ в селе Нежеголь в Белгородской области, сообщает оперштаб региона."
-}
-],
-"sentiment": {
-"score_pm1": -0.6,
-"score_pm2": -2,
-"label": "резко негативный"
-}
-},
-{
 "id": "rel_767e143eb1ae2e54",
 "from": "ent_c4d02534cbe847ba",
 "to": "ent_14d1757585b55c53",
@@ -18482,6 +18487,26 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_d98810f730feb4e3",
+"from": "ent_9696be44ba2f47ce",
+"to": "ent_382bc265ebab3a18",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/british-built-drone-shoots-down-attack-drones-with-rockets",
+"published_at": "2026-11-16T07:31:27Z",
+"quote": "” The T-150 is already in British service as a logistics drone, carrying supplies between ships throughout the Carrier Strike Group’s eight-month Indo-Pacific deployment last year."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 }
 ]
