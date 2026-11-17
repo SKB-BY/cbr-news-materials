@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="GREEN-CBR">
+<meta name="copyright" content="© 2026 GREEN-CBR. Все права защищены.">
+<link rel="icon" href="data:,">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>КОНТУР - I-OSINT BY — Таймлайн сюжетов</title>
+<meta name="description" content="Таймлайн эволюции сюжетов ИИД-100 и Новостной карты: как утверждения и слухи подтверждались и меняли код ОИ 5×5, Окрас и Субъективность.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="КОНТУР - I-OSINT BY">
+<meta property="og:title" content="КОНТУР - I-OSINT BY — Таймлайн сюжетов">
+<meta property="og:url" content="https://skb-by.github.io/cbr-news-materials/iid/timeline/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../../assets/cbr-ops.css?v=t62">
+<style>
+body{margin:0;color:var(--text);font:14px/1.45 var(--sans);background:var(--bg)}
+main{max-width:1180px;margin:0 auto;padding:14px 18px}
+h1{font-size:20px;margin:6px 0} h2{font-size:15px;margin:18px 0 6px}
+.muted,.m{color:var(--muted,#8b98a8);font-size:12.5px}
+.ctl{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin:8px 0;padding:8px 10px;background:var(--panel);border:1px solid var(--line)}
+.ctl input[type=search]{min-width:260px;padding:4px 7px;font:inherit;background:var(--bg-2);color:var(--text);border:1px solid var(--line-2)}
+.ctl select,.ctl button{font:inherit;background:var(--bg-2);color:var(--text);border:1px solid var(--line-2);padding:3px 8px;border-radius:3px}
+.tabs button{font:inherit;padding:5px 12px;margin-right:4px;background:var(--bg-2);color:var(--text);border:1px solid var(--line-2);cursor:pointer}
+.tabs button.on{border-color:var(--accent,#5aa9ff);color:var(--accent,#5aa9ff)}
+.story{margin:10px 0;padding:10px 12px;background:var(--panel);border:1px solid var(--line);border-radius:4px}
+.story h3{margin:0 0 4px;font-size:14.5px}
+.axis{position:relative;height:34px;margin:8px 4px 4px;border-bottom:1px solid var(--line-2)}
+.pt{position:absolute;bottom:-7px;width:14px;height:14px;margin-left:-7px;border-radius:50%;border:3px solid var(--bg);cursor:pointer}
+.pt.ch{border-radius:2px;transform:rotate(45deg)} .pt.rs{border-radius:0}
+.ax-l,.ax-r{position:absolute;top:0;font-size:11px;color:var(--muted,#8b98a8)} .ax-r{right:0}
+.ev{list-style:none;padding:0;margin:6px 0 0} .ev li{padding:4px 0 4px 8px;border-left:3px solid var(--line-2);margin:3px 0;font-size:13px}
+.ev li.hl{background:#ffd40018}
+.oi{display:inline-block;padding:0 5px;border-radius:2px;font:600 11.5px var(--mono)}
+.via{display:inline-block;font-size:11.5px;padding:0 5px;border:1px solid var(--line-2);border-radius:2px;margin-left:4px;color:var(--muted,#8b98a8)}
+.note{border-left:3px solid var(--warn,#c47a0a);padding:6px 10px;background:var(--panel)}
+.io-sp{filter:blur(5px);background:rgba(140,150,160,.35);border-radius:3px;padding:0 .25em;cursor:pointer;user-select:none;-webkit-user-select:none;transition:filter .2s,background .2s}
+.io-sp:hover{background:rgba(140,150,160,.5)} .io-sp:focus-visible{outline:2px solid var(--accent,#3d8bfd);outline-offset:2px}
+.io-sp.on{filter:none;background:transparent;user-select:text;-webkit-user-select:text;cursor:auto}
+.cbr-copy{max-width:1180px;margin:24px auto 30px;padding:10px 18px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
+a{color:var(--accent,#5aa9ff)}
+</style>
+</head>
+<body>
+<header class="cbr-bar">
+  <a class="cbr-mark" href="../../"><b class="cbr-logo" tabindex="0">CBR</b><span>КОНТУР - I-OSINT BY</span></a>
+  <nav class="cbr-nav">
+    <a href="../../%D0%90%D0%9A%D0%A2%D0%A3%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%99_%D0%9E%D0%A2%D0%A7%D0%81%D0%A2.html">Актуальный отчёт</a>
+    <a href="../">ИИД-100</a>
+    <a class="on" href="./">Таймлайн сюжетов</a>
+    <a href="../../news-map/">Новостная карта</a>
+    <a href="../../map/">Карта реестра</a>
+    <a href="../../graph/">Граф связей</a>
+    <a href="../../OI_5x5.html">ОИ 5×5</a>
+  </nav>
+  <span class="cbr-asof" id="cbr-asof"><i></i></span>
+</header>
+<main>
+<h1>Таймлайн эволюции сюжетов</h1>
+<p class="muted" id="about"></p>
+<p class="note" id="hist"></p>
+<div class="tabs"><button id="t-iid" class="on">Сюжеты ИИД-100</button><button id="t-news">Сюжеты Новостной карты</button></div>
+<div class="ctl">
+  <input type="search" id="q" placeholder="Поиск по заголовку, источнику, ключу…">
+  <label><input type="checkbox" id="onlych"> только со сменой кода ОИ 5×5</label>
+  <label>период: <select id="per"><option value="">всё</option><option value="7">7 суток</option><option value="30">30 суток</option><option value="90">90 суток</option></select></label>
+  <span id="cnt" class="m"></span>
+</div>
+<div id="exp"></div>
+<details class="cbr-help-inline" id="cbr-legend"><summary>Справка: окрас, субъективность, ОИ 5×5</summary></details>
+<p class="m">Шкала сюжета: кружок — материал (цвет — код ОИ 5×5 на дату публикации, рамка — Окрас), ромб — смена кода ОИ 5×5 (цвет — новый код), квадрат — отклик. Наведите на значок ОИ, окраса или субъективности — появится разъяснение текущего значения.</p>
+<div id="list"></div>
+<div id="more"></div>
+</main>
+<footer class="cbr-copy">© 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR. · <a href="https://github.com/SKB-BY/cbr-news-materials/blob/main/LICENSE">Лицензия</a> · Новости — собственность их источников.</footer>
+<script src="timeline_data.js?v=t171"></script>
+<script src="../../assets/asof.js?v=t171"></script>
+<script src="../../news-map/explain.js?v=t171"></script>
+<script src="../../assets/cbr-export.js?v=t171"></script>
+<script>
+(function(){
+const T=window.CBR_TIMELINE, CX=window.CBRX||null, EX=window.CBR_EXPORT, $=id=>document.getElementById(id);
+const PAL = {"А1":["#0B5D2A","#fff"],"Б1":["#1B7A3D","#fff"],"В1":["#2E9A4F","#fff"],"Г1":["#5BB86A","#000"],"Д1":["#A8D5B0","#000"],"А2":["#0D47A1","#fff"],"Б2":["#1565C0","#fff"],"В2":["#1E88E5","#fff"],"Г2":["#64B5F6","#000"],"Д2":["#BBDEFB","#000"],"А3":["#F9A825","#000"],"Б3":["#FBC02D","#000"],"В3":["#FDD835","#000"],"Г3":["#FFEE58","#000"],"Д3":["#FFF59D","#000"],"А4":["#EF6C00","#fff"],"Б4":["#FB8C00","#000"],"В4":["#FFA726","#000"],"Г4":["#FFCC80","#000"],"Д4":["#BDBDBD","#000"],"А5":["#B71C1C","#fff"],"Б5":["#C62828","#fff"],"В5":["#E53935","#fff"],"Г5":["#EF5350","#000"],"Д5":["#4A0000","#fff"]};
+const SCOL={"-2":"var(--s-m2)","-1":"var(--s-m1)","0":"var(--s-0)","1":"var(--s-p1)","2":"var(--s-p2)"};
+const esc=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+// t157u/t158u: метка «только для расчёта ИИД-100» — имя источника спойлером (io_name), ссылки нет
+const IO_HIDDEN="‹источник скрыт›";
+const ioSp=n=>`<span class="io-sp" role="button" tabindex="0" aria-pressed="false" aria-label="Источник скрыт — нажмите, чтобы показать" title="Показать источник">${esc(n)}</span>`;
+const ioText=(t,n)=>n?esc(t).split(esc(IO_HIDDEN)).join(ioSp(n)):esc(t);
+function ioToggle(e){const t=e.target.closest&&e.target.closest(".io-sp"); if(!t) return; if(e.type==="keydown"&&e.key!=="Enter"&&e.key!==" ") return; e.preventDefault();
+  const on=!t.classList.contains("on"); t.classList.toggle("on",on); t.setAttribute("aria-pressed",on?"true":"false"); t.setAttribute("aria-label",on?"Источник показан":"Источник скрыт — нажмите, чтобы показать");}
+document.addEventListener("click",ioToggle); document.addEventListener("keydown",ioToggle);
+function stName(c){ if(!c||c.length!==2) return ""; if(c[1]==="1") return "новость"; if(c[1]==="2"&&"АБВ".includes(c[0])) return "утверждение"; return "слух"; }
+function oib(c,e,k){ const p=PAL[c]; if(!p) return ""; const at = CX&&(e.id||e.url) ? CX.oiAttrs(c,k,e.id||"",e.url||"") : ` title="ОИ 5×5: ${c}"`; return `<span class="oi" style="background:${p[0]};color:${p[1]}"${at}>${c}</span>`; }
+function dmy(s){ if(!s) return ""; const d=s.slice(0,10).split("-"); return d[2]+"."+d[1]+"."+d[0]+(s.length>11?" "+s.slice(11,16):""); }
+const m=T.meta;
+$("about").innerHTML=`Сюжетов ИИД-100: ${m.counts.iid_stories} (из них «только для расчёта ИИД-100»: ${m.counts.iid_only_stories}); сюжетов Новостной карты: ${m.counts.news_stories} (со сменой кода ОИ 5×5: ${m.counts.news_changed}). Расчёт ИИД-100 — ${esc(dmy(m.iid_computed_at))} Europe/Minsk (${esc(m.iid_method)}); Новостная карта — ${esc(dmy(m.news_as_of))}, коды ОИ 5×5 — ${esc(dmy(m.oi_as_of))} Europe/Minsk. Связь сюжета ИИД-100 с новостями: тот же материал и его кластер дедупликации; подтверждение, перепечатка, ссылка (связи ОИ 5×5); ключи мест и организаций — только совпадение названия по словарю ИИД-100 в заголовке новости или узла реестра (t167u), ±${m.rules.window_days} суток, не более ${m.rules.max_key_links} на сюжет; ключи чисел и дат не используются.`;
+$("hist").textContent=m.history_note;
+if(CX) $("cbr-legend").insertAdjacentHTML("beforeend", CX.legendHtml());
+let tab="iid", shown=0, cur=[];
+function okrB(e){ if(e.okr!=null&&CX) return CX.okrBadge(e.okr,e.okr_score,{h:e.id||"",lvl:"doc"}); if(e.okr_score!=null) return `<span class="m">окрас (Sentiment Score) ${e.okr_score>0?"+":""}${String(e.okr_score).replace("-","−")}</span>`; return ""; }
+function subjB(e){ return e.subj!=null&&CX ? CX.subjBadge(e.subj,{h:e.id||""}) : ""; }
+function evLi(e, s){ const io=e.iid_only;
+  const codes = e.kind==="oi_change" ? `${oib(e.oi0,e,0)} → ${oib(e.oi1,e,1)} <b>${esc(stName(e.oi0))} → ${esc(stName(e.oi1))}</b>`
+    : (e.oi1 ? `${oib(e.oi0,e,0)} → ${oib(e.oi1,e,1)} <span class="m">с ${esc(dmy(e.oi1at))}</span>` : oib(e.oi||e.oi0,e,0)+` <span class="m">${esc(stName(e.oi||e.oi0))}</span>`);
+  const title = io ? `<span class="io-label">${ioText(e.title, s.io_name)}</span>` : (e.url?`<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title||"без заголовка")}</a>`:esc(e.title));
+  const src = io ? ioText(e.src, s.io_name) : esc(e.src);
+  return `<li style="border-left-color:${PAL[e.oi1||e.oi||e.oi0]?PAL[e.oi1||e.oi||e.oi0][0]:"var(--line-2)"}"><span class="m">${esc(e.day?dmy(e.t.slice(0,10)):dmy(e.t))} · ${src}</span> ${codes} ${okrB(e)} ${subjB(e)}<span class="via">${esc(e.via)}</span><br>${title}</li>`; }
+function axis(s){ const ts=s.events.map(e=>Date.parse(e.t)).filter(x=>!isNaN(x)); if(!ts.length) return ""; const a=Math.min(...ts), b=Math.max(...ts), w=Math.max(b-a,3600e3);
+  return `<div class="axis"><span class="ax-l">${esc(dmy(new Date(a+3*3600e3).toISOString().slice(0,16).replace("T"," ")))}</span><span class="ax-r">${esc(dmy(new Date(b+3*3600e3).toISOString().slice(0,16).replace("T"," ")))}</span>`+
+    s.events.map((e,i)=>{ const x=Date.parse(e.t); if(isNaN(x)) return ""; const c=PAL[e.kind==="oi_change"?e.oi1:(e.oi||e.oi0)]; const ok=e.okr!=null?SCOL[String(e.okr)]:"var(--bg)";
+      return `<span class="pt${e.kind==="oi_change"?" ch":e.kind==="response"?" rs":""}" data-i="${i}" style="left:${(4+92*(x-a)/w).toFixed(2)}%;background:${c?c[0]:"#888"};border-color:${ok}" title="${esc(dmy(e.t))} · ${esc(e.oi1||e.oi||e.oi0||"")} · ${esc(e.via)}"></span>`; }).join("")+`</div>`; }
+function storyHtml(s){ const io=s.iid_only;
+  let h=`<div class="story" data-id="${esc(s.id)}"><h3>${io?`<span class="io-label">${ioText(s.title,s.io_name)}</span>`:(s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`:esc(s.title))}</h3>`;
+  if(s.kind==="iid") h+=`<div class="m">начало ${esc(dmy(s.t0))} · окно до ${esc(dmy((s.window_until||"").replace("T"," ")))} · ${esc((s.countries||[]).join(", "))} · ${esc(s.sphere)} · материалов ${s.n}, негативных ${s.nneg} · ИИД сюжета до ${s.iid_before==null?"—":s.iid_before}, после ${s.iid_after==null?"—":s.iid_after}${s.delta!=null?`, изменение ${s.delta>0?"+":""}${s.delta}`:""}${s.effect?` (${esc(s.effect)})`:""}${s.closed?"":" · окно открыто"}${s.key_names&&s.key_names.length?` · ключи: ${esc(s.key_names.join(", "))}`:""}${s.key_links_total>m.rules.max_key_links?` (по ключам найдено ${s.key_links_total}, показаны ${m.rules.max_key_links})`:""}</div>`;
+  else h+=`<div class="m">${esc(dmy(s.t0))} — ${esc(dmy(s.t1))} · материалов в кластере ${s.n}${s.changed?" · <b>код ОИ 5×5 менялся</b>":""}${s.okr_range&&s.okr_range[0]!==s.okr_range[1]?` · Окрас от ${s.okr_range[0]} до ${s.okr_range[1]}`:""}</div>`;
+  h+=axis(s)+`<ul class="ev">${s.events.map(e=>evLi(e,s)).join("")}</ul></div>`; return h; }
+function visible(s){ const q=$("q").value.trim().toLowerCase(), per=+$("per").value||0, ch=$("onlych").checked;
+  if(ch && !(s.changed || s.events.some(e=>e.oi1))) return false;
+  if(per){ const lim=Date.now()-per*864e5; if(!s.events.some(e=>Date.parse(e.t)>=lim)) return false; }
+  if(q.length>1){ const txt=(s.title+" "+(s.key_names||[]).join(" ")+" "+s.events.map(e=>(e.iid_only?"":e.title+" "+e.src)).join(" ")).toLowerCase(); if(!txt.includes(q)) return false; }
+  return true; }
+function render(){ cur=(tab==="iid"?T.iid:T.news).filter(visible); shown=0; $("list").innerHTML=""; $("cnt").textContent=`сюжетов: ${cur.length}`; more(); }
+function more(){ const part=cur.slice(shown, shown+40); shown+=part.length; $("list").insertAdjacentHTML("beforeend", part.map(storyHtml).join(""));
+  $("more").innerHTML = shown<cur.length?`<button>показать ещё</button>`:""; if($("more").firstChild) $("more").firstChild.onclick=more; }
+document.addEventListener("click",e=>{ const p=e.target.closest&&e.target.closest(".pt"); if(!p) return; const li=p.closest(".story").querySelectorAll(".ev li")[+p.dataset.i]; if(li){ li.classList.add("hl"); li.scrollIntoView({block:"nearest",behavior:"smooth"}); setTimeout(()=>li.classList.remove("hl"),1800); } });
+$("t-iid").onclick=()=>{ tab="iid"; $("t-iid").classList.add("on"); $("t-news").classList.remove("on"); render(); };
+$("t-news").onclick=()=>{ tab="news"; $("t-news").classList.add("on"); $("t-iid").classList.remove("on"); render(); };
+["q","onlych","per"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",render));
+// выгрузка: события показанных сюжетов; сюжеты и материалы «только для расчёта ИИД-100» не выгружаются
+const TF=["story","kind","t","event","src","url","title","oi","oi0","oi1","oi1at","okr","okr_score","subj","via"];
+function rows(){ const out=[]; cur.forEach(s=>s.events.forEach(e=>out.push({story:s.id, kind:s.kind, t:e.t, event:e.kind, src:e.src, url:e.url, title:e.title, oi:e.oi||"", oi0:e.oi0||"", oi1:e.oi1||"", oi1at:e.oi1at||"",
+  okr:e.okr==null?"":e.okr, okr_score:e.okr_score==null?"":e.okr_score, subj:e.subj==null?"":e.subj, via:e.via, iid_only:!!(s.iid_only||e.iid_only)}))); return out; }
+function meta(){ return EX.meta("Таймлайн сюжетов", tab==="iid"?"сюжеты ИИД-100 по фильтру":"сюжеты Новостной карты по фильтру", {tab, query:$("q").value.trim(), only_changed:$("onlych").checked, period_days:$("per").value}, {timeline_version:m.version, iid_computed_at:m.iid_computed_at}); }
+if(EX) EX.panel($("exp"), "Выгрузка показанных сюжетов:", [["CSV", ()=>EX.csv("kontur_timeline", TF, rows(), meta())], ["JSON", ()=>EX.json("kontur_timeline", {events:rows()}, meta())]],
+  "Сюжеты и материалы «только для расчёта ИИД-100» в выгрузку не попадают. В шапке — срез, время выгрузки и © 2026 GREEN-CBR.");
+render();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="GREEN-CBR">
+<meta name="copyright" content="© 2026 GREEN-CBR. Все права защищены.">
+<link rel="icon" href="data:,">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>КОНТУР - I-OSINT BY — Граф связей</title>
+<meta name="description" content="Граф связей «Контура»: компании, программы DARPA, ведомства и публичные лица; только связи с основанием и URL источника; поиск кратчайшего пути; выгрузка CSV, JSON, GraphML.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="КОНТУР - I-OSINT BY">
+<meta property="og:title" content="КОНТУР - I-OSINT BY — Граф связей">
+<meta property="og:url" content="https://skb-by.github.io/cbr-news-materials/graph/">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="../assets/cbr-ops.css?v=t62">
+<style>
+  * { box-sizing:border-box; }
+  html,body { margin:0; height:100%; color:var(--text); font:14px/1.45 var(--sans); background:var(--bg); }
+  #wrap { display:flex; height:calc(100vh - var(--bar)); }
+  #side { width:370px; min-width:300px; overflow:auto; padding:12px 16px; background:var(--panel); border-right:1px solid var(--line); }
+  #side h2 { font-size:13px; margin:14px 0 6px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted,#8b98a8); }
+  #side input[type=search], #side input[type=text], #side select { width:100%; padding:5px 7px; font:inherit; background:var(--bg-2); color:var(--text); border:1px solid var(--line-2); border-radius:3px; }
+  #side button { font:inherit; padding:3px 10px; cursor:pointer; background:var(--bg-2); color:var(--text); border:1px solid var(--line-2); border-radius:3px; }
+  .row { display:flex; flex-wrap:wrap; gap:4px 10px; align-items:center; margin:4px 0; font-size:13px; }
+  .row label { display:inline-flex; gap:4px; align-items:center; }
+  .sw { display:inline-block; width:10px; height:10px; border-radius:50%; }
+  .ln { display:inline-block; width:18px; height:0; border-top:3px solid; vertical-align:middle; }
+  .muted, .m { color:var(--muted,#8b98a8); font-size:12px; }
+  #main { flex:1; position:relative; }
+  #cy { position:absolute; inset:0; background:var(--bg); }
+  #card { position:absolute; right:10px; top:10px; width:420px; max-height:calc(100% - 20px); overflow:auto; background:var(--panel); border:1px solid var(--line-2); border-radius:4px; padding:10px 12px; display:none; font-size:13px; z-index:5; box-shadow:0 4px 18px #0006; }
+  #card h3 { margin:0 26px 6px 0; font-size:15px; }
+  #card .x { position:absolute; right:8px; top:6px; cursor:pointer; background:none; border:0; color:var(--text); font-size:18px; }
+  #card ul { padding-left:16px; margin:4px 0; } #card li { margin:3px 0; }
+  .tag { display:inline-block; padding:0 6px; border-radius:2px; color:#fff; font-size:11.5px; margin-right:4px; }
+  .oi { display:inline-block; padding:0 5px; border-radius:2px; font:600 11.5px var(--mono); }
+  #status { position:absolute; left:10px; bottom:8px; z-index:4; font-size:12px; background:var(--panel); padding:3px 8px; border:1px solid var(--line); border-radius:3px; }
+  #path ol { padding-left:18px; margin:4px 0; font-size:12.5px; } #path li { cursor:pointer; }
+  a { color:var(--accent,#5aa9ff); }
+  footer.cbr-copy { font-size:11.5px; padding:10px 0; color:var(--muted,#8b98a8); }
+</style>
+</head>
+<body>
+<header class="cbr-bar">
+  <a class="cbr-mark" href="../"><b class="cbr-logo" tabindex="0">CBR</b><span>КОНТУР - I-OSINT BY</span></a>
+  <nav class="cbr-nav">
+    <a href="../%D0%90%D0%9A%D0%A2%D0%A3%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%99_%D0%9E%D0%A2%D0%A7%D0%81%D0%A2.html">Актуальный отчёт</a>
+    <a href="../iid/">ИИД-100</a>
+    <a href="../iid/timeline/">Таймлайн сюжетов</a>
+    <a href="../news-map/">Новостная карта</a>
+    <a href="../map/">Карта реестра</a>
+    <a class="on" href="../graph/">Граф связей</a>
+    <a href="../darpa-programs/">Программы DARPA</a>
+  </nav>
+  <span class="cbr-asof" id="cbr-asof"><i></i></span>
+</header>
+<div id="wrap">
+  <aside id="side">
+    <h2>Граф связей</h2>
+    <p class="muted" id="about"></p>
+    <input type="search" id="q" list="names" placeholder="Найти узел по названию…">
+    <datalist id="names"></datalist>
+    <h2>Кратчайший путь</h2>
+    <input type="text" id="pa" list="names" placeholder="От: компания, программа, ведомство, лицо">
+    <div style="height:4px"></div>
+    <input type="text" id="pb" list="names" placeholder="До:">
+    <div class="row"><button id="pgo">Найти путь</button><button id="pclr">Сбросить</button></div>
+    <div id="path" class="m">Путь ищется по включённым ниже видам связей (без учёта направления).</div>
+    <h2>Узлы</h2>
+    <div id="fkind"></div>
+    <label class="row"><input type="checkbox" id="iso"> показать узлы без связей</label>
+    <h2>Связи</h2>
+    <div id="fedge"></div>
+    <label class="row"><input type="checkbox" id="okrc" checked> окрашивать связи контура по Окрасу</label>
+    <h2>Вид</h2>
+    <div class="row">Окружение узла: <select id="hop" style="width:auto"><option value="0">весь граф</option><option value="p">только найденный путь</option><option value="1">1 шаг</option><option value="2">2 шага</option><option value="3">3 шага</option></select></div>
+    <div class="row">Раскладка: <select id="lay" style="width:auto"><option value="cose">силовая</option><option value="concentric">по числу связей</option><option value="breadthfirst">дерево</option><option value="grid">сетка</option></select><button id="relay">перестроить</button></div>
+    <p class="muted">Узлы можно перетаскивать мышью; колесо — масштаб; нажатие на узел или связь — карточка с основанием.</p>
+    <h2>Выгрузка</h2>
+    <div id="exp"></div>
+    <p class="muted">Полные файлы (собираются при каждой выгрузке среза): <a href="graph.graphml">весь граф GraphML</a> · <a href="registry.graphml">весь реестр GraphML</a> · <a href="graph.json">весь граф JSON</a>.</p>
+    <details class="cbr-help-inline" id="cbr-legend"><summary>Справка: окрас, субъективность, ОИ 5×5</summary></details>
+    <h2>Правила графа</h2>
+    <p class="muted">Связь есть, только если у неё есть основание с URL источника: аналитические связи реестра (<a href="../map/links.json">links.json</a>), исполнители программ DARPA (evidence_url из <a href="../darpa-programs/data/darpa_program_orgs.csv">darpa_program_orgs.csv</a>), принадлежность программы DARPA (страница darpa.mil), связи контура между узлами с цитатами из материалов. Совместное упоминание в одном материале связью не считается и в граф не входит (правило t167u: если связей нет — то их нет). Публичные лица — только из публичных материалов контура, без контактов. Окрас связи — среднее Sentiment Score по предложениям-основаниям, как на картах.</p>
+    <footer class="cbr-copy">© 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR. <a href="https://github.com/SKB-BY/cbr-news-materials/blob/main/LICENSE" target="_blank" rel="noopener">Лицензия</a>. Новости — собственность их источников.<br>Граф: <a href="https://js.cytoscape.org" target="_blank" rel="noopener">Cytoscape.js</a> 3.35.0 (MIT, <a href="vendor/LICENSE-cytoscape.txt">лицензия</a>), локальная копия.</footer>
+  </aside>
+  <div id="main"><div id="cy"></div><div id="card"></div><div id="status"></div></div>
+</div>
+<script src="vendor/cytoscape.min.js?v=t171"></script>
+<script src="graph_data.js?v=t171"></script>
+<script src="../assets/asof.js?v=t171"></script>
+<script src="../news-map/explain.js?v=t171"></script>
+<script src="../assets/cbr-export.js?v=t171"></script>
+<script>
+(function(){
+const G = window.CBR_GRAPH, CX = window.CBRX || null, EX = window.CBR_EXPORT;
+const PAL = {"А1":["#0B5D2A","#fff"],"Б1":["#1B7A3D","#fff"],"В1":["#2E9A4F","#fff"],"Г1":["#5BB86A","#000"],"Д1":["#A8D5B0","#000"],"А2":["#0D47A1","#fff"],"Б2":["#1565C0","#fff"],"В2":["#1E88E5","#fff"],"Г2":["#64B5F6","#000"],"Д2":["#BBDEFB","#000"],"А3":["#F9A825","#000"],"Б3":["#FBC02D","#000"],"В3":["#FDD835","#000"],"Г3":["#FFEE58","#000"],"Д3":["#FFF59D","#000"],"А4":["#EF6C00","#fff"],"Б4":["#FB8C00","#000"],"В4":["#FFA726","#000"],"Г4":["#FFCC80","#000"],"Д4":["#BDBDBD","#000"],"А5":["#B71C1C","#fff"],"Б5":["#C62828","#fff"],"В5":["#E53935","#fff"],"Г5":["#EF5350","#000"],"Д5":["#4A0000","#fff"]};
+const KIND = {
+  agency:{label:"Ведомство / агентство", color:"#0f9d8a", shape:"diamond"},
+  program:{label:"Программа / инициатива", color:"#2f6fdb", shape:"round-rectangle"},
+  "darpa-program":{label:"Программа DARPA", color:"#5b8def", shape:"round-rectangle"},
+  company:{label:"Компания", color:"#1a56c4", shape:"ellipse"},
+  research:{label:"НИИ / университет / лаборатория", color:"#0e7490", shape:"hexagon"},
+  person:{label:"Публичное лицо", color:"#b45fcf", shape:"triangle"},
+  external:{label:"Внешний узел (нет в реестре)", color:"#d08a1e", shape:"octagon"}
+};
+const GROUP = {"реестр":{label:"Реестр (основание + URL)", color:"#16a34a"}, "DARPA":{label:"DARPA (evidence_url, darpa.mil)", color:"#0e7490"}, "контур":{label:"Контур (цитаты из материалов)", color:"#9333ea"}};
+const SCOL = {"-2":"#e5484d","-1":"#f08c3a","0":"#8b98a8","1":"#9fdc8a","2":"#2fd36b"};
+function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function st(c){ if(!c||c.length!==2) return ""; if(c[1]==="1") return "новость"; if(c[1]==="2"&&"АБВ".includes(c[0])) return "утверждение"; return "слух"; }
+function oib(c,h,k,u){ const p=PAL[c]; if(!p) return ""; const at = CX&&(h||u) ? CX.oiAttrs(c,k,h,u) : ` title="ОИ 5×5: ${c}"`; return `<span class="oi" style="background:${p[0]};color:${p[1]}"${at}>${c}</span>`; }
+const N = {}; G.nodes.forEach(n=>N[n.id]=n);
+const E = G.edges;
+const adj = {}; E.forEach(e=>{ (adj[e.s]=adj[e.s]||[]).push(e); (adj[e.t]=adj[e.t]||[]).push(e); });
+const byLabel = {}; G.nodes.forEach(n=>{ const k=n.label.toLowerCase(); if(!byLabel[k] || n.deg>N[byLabel[k]].deg) byLabel[k]=n.id; });
+const m = G.meta;
+document.getElementById("about").innerHTML = `Узлов ${m.counts.nodes} (программ DARPA ${m.counts.darpa_programs}, публичных лиц ${m.counts.persons}), связей ${m.counts.edges}. Узлы и материалы — node_links ${esc(m.links_version)}; коды ОИ 5×5 — проход ${esc((m.oi_as_of||"").slice(0,16).replace("T"," "))} Europe/Minsk. Сборка ${esc((m.built_at||"").slice(0,16).replace("T"," "))} Europe/Minsk.`;
+if(CX) document.getElementById("cbr-legend").insertAdjacentHTML("beforeend", CX.legendHtml());
+const dl = document.getElementById("names");
+G.nodes.filter(n=>n.deg>0).sort((a,b)=>b.deg-a.deg).forEach(n=>{ const o=document.createElement("option"); o.value=n.label; dl.appendChild(o); });
+// фильтры
+const fk = {}, fe = {};
+const kc = {}; G.nodes.forEach(n=>kc[n.kind]=(kc[n.kind]||0)+1);
+document.getElementById("fkind").innerHTML = Object.keys(KIND).filter(k=>kc[k]).map(k=>{ fk[k]=true; return `<label class="row"><input type="checkbox" data-k="${k}" checked><span class="sw" style="background:${KIND[k].color}"></span>${esc(KIND[k].label)} <span class="m">${kc[k]}</span></label>`; }).join("");
+const gc = {}; E.forEach(e=>gc[e.g]=(gc[e.g]||0)+1);
+document.getElementById("fedge").innerHTML = Object.keys(GROUP).filter(g=>gc[g]).map(g=>{ fe[g]=true; return `<label class="row"><input type="checkbox" data-g="${g}" checked><span class="ln" style="border-color:${GROUP[g].color}"></span>${esc(GROUP[g].label)} <span class="m">${gc[g]}</span></label>`; }).join("");
+let focus = null, pathIds = null;
+function edgeOn(e){ return fe[e.g] && fk[N[e.s].kind] && fk[N[e.t].kind]; }
+function visibleSet(){
+  let ids;
+  const hv = document.getElementById("hop").value, hop = +hv||0;
+  if(hv==="p" && pathIds){ ids = new Set(pathIds); }
+  else if(focus && hop>0){ ids = new Set([focus]); let fr=[focus];
+    for(let i=0;i<hop;i++){ const nx=[]; fr.forEach(id=>(adj[id]||[]).forEach(e=>{ if(!edgeOn(e)) return; const o=e.s===id?e.t:e.s; if(!ids.has(o)){ ids.add(o); nx.push(o); } })); fr=nx; } }
+  else { ids = new Set(); const iso=document.getElementById("iso").checked;
+    G.nodes.forEach(n=>{ if(!fk[n.kind]) return; if(iso || (adj[n.id]||[]).some(edgeOn)) ids.add(n.id); }); }
+  if(pathIds) pathIds.forEach(id=>ids.add(id));
+  const es = E.filter(e=>ids.has(e.s)&&ids.has(e.t)&&(edgeOn(e) || (pathIds&&pathIds.has(e.s)&&pathIds.has(e.t)&&pathEdges.has(e.id))));
+  return {ids, es}; }
+let pathEdges = new Set();
+function eColor(e){ if(e.g==="контур" && document.getElementById("okrc").checked && e.s2!=null) return SCOL[String(e.s2)]||GROUP[e.g].color; return GROUP[e.g].color; }
+const cy = cytoscape({ container:document.getElementById("cy"), wheelSensitivity:0.25, minZoom:0.05, maxZoom:4,
+  style:[
+    {selector:"node", style:{"background-color":"data(c)", shape:"data(sh)", width:"data(sz)", height:"data(sz)", label:"data(lb)", "font-size":"data(fs)", color:"#c9d3df", "text-outline-color":"#0b0f14", "text-outline-width":2, "text-valign":"bottom", "text-margin-y":3, "min-zoomed-font-size":9}},
+    {selector:"edge", style:{width:1.3, "line-color":"data(c)", "target-arrow-color":"data(c)", "target-arrow-shape":"triangle", "arrow-scale":0.6, "curve-style":"bezier", opacity:0.75}},
+    {selector:".path", style:{width:4, "line-color":"#ffd400", "target-arrow-color":"#ffd400", opacity:1, "z-index":9}},
+    {selector:"node.path", style:{"border-width":4, "border-color":"#ffd400", "font-size":12, color:"#fff"}},
+    {selector:"node.focus", style:{"border-width":4, "border-color":"#fff"}},
+    {selector:":selected", style:{"border-width":3, "border-color":"#ffd400"}}
+  ]});
+function draw(relayout){
+  const {ids, es} = visibleSet();
+  cy.startBatch(); cy.elements().remove();
+  const els = [];
+  ids.forEach(id=>{ const n=N[id]; const k=KIND[n.kind]||KIND.company; els.push({group:"nodes", data:{id, lb:n.label.length>38?n.label.slice(0,36)+"…":n.label, c:k.color, sh:k.shape, sz:Math.min(46, 10+Math.sqrt(n.deg||0)*4), fs:Math.min(26, 8+Math.sqrt(n.deg||0)*1.6)}}); });
+  es.forEach(e=>els.push({group:"edges", data:{id:"e|"+e.id, source:e.s, target:e.t, c:eColor(e)}}));
+  cy.add(els);
+  if(pathIds){ cy.nodes().filter(n=>pathIds.has(n.id())).addClass("path"); cy.edges().filter(x=>pathEdges.has(x.id().slice(2))).addClass("path"); }
+  if(focus && cy.getElementById(focus).length) cy.getElementById(focus).addClass("focus");
+  cy.endBatch();
+  document.getElementById("status").textContent = `На экране: узлов ${ids.size}, связей ${es.length}`;
+  if(relayout!==false) layout(); }
+/* t171u: быстрая силовая раскладка (Фрухтерман — Рейнгольд с сеткой для отталкивания) — для больших видов;
+   cose из Cytoscape.js — для видов до 300 узлов (на 1300+ узлах он идёт десятки секунд). Позиции детерминированы. */
+function hash01(s){ let h=2166136261; for(let i=0;i<s.length;i++){ h^=s.charCodeAt(i); h=Math.imul(h,16777619); } return ((h>>>0)%100000)/100000; }
+function fastLayout(){ const ns=cy.nodes(), n=ns.length; if(!n) return; const idx={}, P=new Float64Array(n*2), D=new Float64Array(n*2);
+  const W=Math.sqrt(n)*90, k=W/Math.sqrt(n)*0.9;
+  ns.forEach((x,i)=>{ idx[x.id()]=i; const a=hash01(x.id())*6.2832, r=W*0.5*Math.sqrt(hash01(x.id()+"r")); P[2*i]=Math.cos(a)*r; P[2*i+1]=Math.sin(a)*r; });
+  const es=cy.edges().map(e=>[idx[e.source().id()], idx[e.target().id()]]);
+  let T=W/8; const cs=2*k, k2=k*k;
+  for(let it=0; it<350; it++){ D.fill(0); const grid=new Map();
+    for(let i=0;i<n;i++){ const key=Math.floor(P[2*i]/cs)+","+Math.floor(P[2*i+1]/cs); let c=grid.get(key); if(!c){ c=[]; grid.set(key,c); } c.push(i); }
+    for(let i=0;i<n;i++){ const gx=Math.floor(P[2*i]/cs), gy=Math.floor(P[2*i+1]/cs);
+      for(let dx=-1;dx<=1;dx++) for(let dy=-1;dy<=1;dy++){ const c=grid.get((gx+dx)+","+(gy+dy)); if(!c) continue;
+        for(const j of c){ if(j<=i) continue; let x=P[2*i]-P[2*j], y=P[2*i+1]-P[2*j+1], d2=x*x+y*y; if(d2<0.01){ x=0.1; y=0.1; d2=0.02; } if(d2>cs*cs) continue;
+          const f=k2/d2; D[2*i]+=x*f; D[2*i+1]+=y*f; D[2*j]-=x*f; D[2*j+1]-=y*f; } } }
+    for(const [a,b] of es){ const x=P[2*a]-P[2*b], y=P[2*a+1]-P[2*b+1], d=Math.sqrt(x*x+y*y)||0.01, f=d/k; D[2*a]-=x*f; D[2*a+1]-=y*f; D[2*b]+=x*f; D[2*b+1]+=y*f; }
+    for(let i=0;i<n;i++){ D[2*i]-=P[2*i]*0.004; D[2*i+1]-=P[2*i+1]*0.004;   // притяжение к центру — компоненты не разлетаются
+      const dx=D[2*i], dy=D[2*i+1], d=Math.sqrt(dx*dx+dy*dy)||1, m=Math.min(d,T); P[2*i]+=dx/d*m; P[2*i+1]+=dy/d*m; }
+    T*=0.985; }
+  cy.batch(()=>ns.forEach((x,i)=>x.position({x:P[2*i], y:P[2*i+1]}))); }
+function layout(){ const name=document.getElementById("lay").value; const n=cy.nodes().length; const stEl=document.getElementById("status");
+  stEl.textContent += " · раскладка…";
+  setTimeout(()=>{ if(name==="cose" && n>300) fastLayout();
+    else { const opt = name==="cose" ? {name:"cose", animate:false, randomize:true, numIter:1000, nodeRepulsion:()=>6000, idealEdgeLength:()=>70, gravity:0.6}
+      : name==="concentric" ? {name:"concentric", concentric:x=>N[x.id()].deg, levelWidth:()=>3, minNodeSpacing:6, animate:false}
+      : name==="breadthfirst" ? {name:"breadthfirst", directed:false, roots: focus&&cy.getElementById(focus).length?"#"+CSS.escape(focus):undefined, spacingFactor:0.9, animate:false}
+      : {name:"grid", animate:false};
+      cy.layout(opt).run(); }
+    cy.fit(undefined, 30); if(cy.zoom()>1.6){ cy.zoom(1.6); cy.center(); } stEl.textContent = stEl.textContent.replace(" · раскладка…",""); }, 20); }
+// карточки
+let REG=null, regLoading=false;
+function loadReg(cb){ if(window.REG_CONTOUR){ REG=window.REG_CONTOUR; return cb(); } if(regLoading) return; regLoading=true;
+  const s=document.createElement("script"); s.src="../map/contour.js?v=t171"; s.onload=()=>{ REG=window.REG_CONTOUR; cb(); }; document.head.appendChild(s); }
+function nodeLink(id){ const n=N[id]; return `<a href="#" data-n="${esc(id)}">${esc(n?n.label:id)}</a>`; }
+function edgeLi(e, from){ const o=e.s===from?e.t:e.s, dir=e.s===from?"→":"←";
+  return `<li><span class="tag" style="background:${GROUP[e.g].color}">${esc(e.g)}</span>${esc(e.type)} ${dir} ${nodeLink(o)} <a href="#" data-e="${esc(e.id)}" class="m">основание</a></li>`; }
+function okrB(e){ if(e.s2==null) return ""; return CX ? CX.okrBadge(e.s2,e.s1,{lvl:"rel",n:e.n,q:(e.ev&&e.ev[0]&&e.ev[0][2])||""}) : `окрас ${e.s2}`; }
+function showNode(id){ const n=N[id]; if(!n) return; const k=KIND[n.kind]||KIND.company; const card=document.getElementById("card");
+  const es=(adj[id]||[]); const inReg = !/^(darpa-|person:)/.test(id);
+  let h=`<button class="x" aria-label="закрыть">×</button><h3>${esc(n.label)}</h3><span class="tag" style="background:${k.color}">${esc(k.label)}</span><span class="m">${esc(n.src)}${n.country?" · "+esc(n.country):""}</span>`;
+  if(n.role) h+=`<div class="m">${esc(n.role)}</div>`;
+  h+=`<div class="m">Связей: ${es.length}${n.n?` · материалов: ${n.n}`:""}</div>`;
+  const links=[]; if(n.url) links.push(`<a href="${esc(n.url)}" target="_blank" rel="noopener">официальный сайт / источник</a>`);
+  if(inReg && n.kind!=="external") links.push(`<a href="../map/#node=${encodeURIComponent(id)}">на Карте реестра</a>`);
+  if(n.page) links.push(`<a href="${esc(n.page)}">карточка программы DARPA</a>`);
+  if(links.length) h+=`<div>${links.join(" · ")}</div>`;
+  h+=`<div class="row"><button data-act="focus">окружение узла</button><button data-act="from">путь от него</button><button data-act="to">путь до него</button></div>`;
+  if(es.length) h+=`<b>Связи</b><ul>${es.slice(0,60).map(e=>edgeLi(e,id)).join("")}</ul>${es.length>60?`<p class="m">показаны 60 из ${es.length}</p>`:""}`;
+  if(inReg && n.n) h+=`<b>Материалы с кодом ОИ 5×5</b><div id="mats" class="m">загрузка…</div>`;
+  card.innerHTML=h; card.style.display="block"; bindCard(card, id);
+  if(inReg && n.n) loadReg(()=>{ const rn=REG.nodes[id], box=document.getElementById("mats"); if(!box) return; if(!rn){ box.textContent="нет материалов"; return; }
+    const its=rn.it.map(([hh,how,mt])=>[hh,how,REG.items[hh],mt]).filter(x=>x[2]).sort((a,b)=>a[2][0]<b[2][0]?1:-1).slice(0,30);
+    box.innerHTML=`<ul>${its.map(([hh,how,it])=>`<li>${esc(it[0])} · ${esc(it[1])} ${oib(it[5],hh,0,it[2])}${it[6]?" → "+oib(it[6],hh,1,it[2]):""} <span class="m">${esc(st(it[6]||it[5]))}</span><br><a href="${esc(it[2])}" target="_blank" rel="noopener">${esc(it[3])}</a>${it[4]?`<br><span class="m">по-русски: ${esc(it[4])}</span>`:""}<br>${it[8]!=null&&CX?CX.okrBadge(it[8],it[9],{h:hh,lvl:"doc"}):""} ${it[10]!=null&&CX?CX.subjBadge(it[10],{h:hh}):""}</li>`).join("")}</ul>${rn.it.length>30?`<p class="m">показаны 30 последних из ${rn.it.length}; все — на Карте реестра</p>`:""}`; }); }
+function showEdge(eid){ const e=E.find(x=>x.id===eid); if(!e) return; const card=document.getElementById("card");
+  let h=`<button class="x" aria-label="закрыть">×</button><h3>${esc(e.type)}</h3><span class="tag" style="background:${GROUP[e.g].color}">${esc(e.g)}</span>${okrB(e)}`;
+  h+=`<div>${nodeLink(e.s)} → ${nodeLink(e.t)}</div>`;
+  if(e.basis) h+=`<div class="m">Основание: ${esc(e.basis)}</div>`;
+  if(e.date) h+=`<div class="m">Дата: ${esc(e.date)}</div>`;
+  h+=`<div><a href="${esc(e.url)}" target="_blank" rel="noopener">источник</a>${e.n>1?` <span class="m">· оснований: ${e.n}</span>`:""}</div>`;
+  if(e.ev&&e.ev.length) h+=`<b>Предложения-основания</b><ul>${e.ev.map(x=>`<li><a href="${esc(x[0])}" target="_blank" rel="noopener">${esc((x[1]||"").slice(0,16))}</a>${x[2]?": «"+esc(x[2])+"»":""}</li>`).join("")}</ul>`;
+  card.innerHTML=h; card.style.display="block"; bindCard(card, null); }
+function bindCard(card, id){
+  card.querySelector(".x").onclick=()=>{ card.style.display="none"; };
+  card.querySelectorAll("a[data-n]").forEach(a=>a.onclick=ev=>{ ev.preventDefault(); select(a.getAttribute("data-n")); });
+  card.querySelectorAll("a[data-e]").forEach(a=>a.onclick=ev=>{ ev.preventDefault(); showEdge(a.getAttribute("data-e")); });
+  card.querySelectorAll("button[data-act]").forEach(b=>b.onclick=()=>{ const act=b.getAttribute("data-act");
+    if(act==="focus"){ focus=id; if(document.getElementById("hop").value==="0") document.getElementById("hop").value="1"; draw(); }
+    if(act==="from") document.getElementById("pa").value=N[id].label;
+    if(act==="to") document.getElementById("pb").value=N[id].label; }); }
+function select(id){ showNode(id); const el=cy.getElementById(id); if(el.length){ cy.elements().unselect(); el.select(); cy.animate({center:{eles:el}, zoom:Math.max(cy.zoom(),1.1)},{duration:250}); }
+  else { focus=id; if(document.getElementById("hop").value==="0") document.getElementById("hop").value="1"; draw(); } }
+cy.on("tap","node",ev=>showNode(ev.target.id()));
+cy.on("tap","edge",ev=>showEdge(ev.target.id().slice(2)));
+function findId(v){ v=(v||"").trim().toLowerCase(); if(!v) return null; if(byLabel[v]) return byLabel[v];
+  const c=G.nodes.filter(n=>n.label.toLowerCase().includes(v)).sort((a,b)=>b.deg-a.deg)[0]; return c?c.id:null; }
+document.getElementById("q").addEventListener("change",ev=>{ const id=findId(ev.target.value); if(id) select(id); });
+// кратчайший путь (BFS по включённым видам связей, без учёта направления)
+function bfs(a,b){ const prev={}; prev[a]=null; let fr=[a];
+  while(fr.length){ const nx=[]; for(const id of fr){ for(const e of (adj[id]||[])){ if(!edgeOn(e)) continue; const o=e.s===id?e.t:e.s; if(o in prev) continue; prev[o]=[id,e]; if(o===b){ fr=[]; break; } nx.push(o); } if(b in prev) break; } if(b in prev) break; fr=nx; }
+  if(!(b in prev)) return null; const nodes=[b], edges=[]; let cur=b; while(prev[cur]){ edges.unshift(prev[cur][1]); cur=prev[cur][0]; nodes.unshift(cur); } return {nodes, edges}; }
+document.getElementById("pgo").onclick=()=>{ const a=findId(document.getElementById("pa").value), b=findId(document.getElementById("pb").value), box=document.getElementById("path");
+  if(!a||!b){ box.innerHTML="<b>Узел не найден.</b> Выберите название из подсказки."; return; }
+  const r=bfs(a,b);
+  if(!r){ pathIds=null; pathEdges=new Set(); box.innerHTML=`<b>Пути нет</b> между «${esc(N[a].label)}» и «${esc(N[b].label)}» по включённым видам связей. Если связей нет — то их нет (t167u).`; draw(false); return; }
+  pathIds=new Set(r.nodes); pathEdges=new Set(r.edges.map(e=>e.id));
+  box.innerHTML=`<b>Путь: ${r.edges.length} шаг(а)</b><ol>${r.nodes.map((id,i)=>`<li data-n="${esc(id)}">${esc(N[id].label)}${i<r.edges.length?` <span class="m">— ${esc(r.edges[i].type)} (${esc(r.edges[i].g)}) —</span>`:""}</li>`).join("")}</ol>`;
+  box.querySelectorAll("li[data-n]").forEach(li=>li.onclick=()=>select(li.getAttribute("data-n")));
+  focus=a; document.getElementById("hop").value="p"; draw(); setTimeout(()=>{ cy.fit(cy.elements(".path"),60); if(cy.zoom()>1.6){ cy.zoom(1.6); cy.center(cy.elements(".path")); } },200); };
+document.getElementById("pclr").onclick=()=>{ pathIds=null; if(document.getElementById("hop").value==="p") document.getElementById("hop").value="0"; pathEdges=new Set(); document.getElementById("path").textContent="Путь ищется по включённым ниже видам связей (без учёта направления)."; draw(); };
+document.querySelectorAll("#fkind input").forEach(i=>i.onchange=()=>{ fk[i.dataset.k]=i.checked; draw(); });
+document.querySelectorAll("#fedge input").forEach(i=>i.onchange=()=>{ fe[i.dataset.g]=i.checked; draw(); });
+["iso","hop"].forEach(id=>document.getElementById(id).onchange=()=>{ if(id==="hop"&&document.getElementById("hop").value==="0") focus=null; draw(); });
+document.getElementById("okrc").onchange=()=>draw(false);
+document.getElementById("relay").onclick=layout; document.getElementById("lay").onchange=layout;
+// выгрузка текущего вида
+const NK=["label","kind","country","src","n","deg","url","role"], EK=["type","g","basis","url","date","n","s2","s1"];
+function slice(){ const {ids, es}=visibleSet(); return {nodes:[...ids].map(id=>N[id]), edges:es}; }
+function fmeta(){ return EX.meta("Граф связей", "текущий вид графа", {kinds:Object.keys(fk).filter(k=>fk[k]), edges:Object.keys(fe).filter(g=>fe[g]), focus:focus?N[focus].label:"", hop:document.getElementById("hop").value, isolated:document.getElementById("iso").checked, path:pathIds?[...pathIds].map(id=>N[id].label):[]}, {graph_version:m.version, links_version:m.links_version}); }
+if(EX) EX.panel(document.getElementById("exp"), "Текущий вид:", [
+  ["узлы CSV", ()=>{ const s=slice(); EX.csv("kontur_graph_nodes", ["id"].concat(NK), s.nodes, fmeta()); }],
+  ["связи CSV", ()=>{ const s=slice(); EX.csv("kontur_graph_edges", ["id","s","t"].concat(EK), s.edges.map(e=>Object.assign({},e,{ev:undefined})), fmeta()); }],
+  ["JSON", ()=>{ const s=slice(); EX.json("kontur_graph", {nodes:s.nodes, edges:s.edges}, fmeta()); }],
+  ["GraphML", ()=>{ const s=slice(); EX.graphml("kontur_graph", s.nodes, s.edges, fmeta(), NK, EK); }]
+], "В шапке файла — срез, время выгрузки и © 2026 GREEN-CBR.");
+{ const mm=/^#node=(.+)$/.exec(location.hash||""); if(mm){ focus=decodeURIComponent(mm[1]); document.getElementById("hop").value="1"; } }
+draw();
+if(focus) setTimeout(()=>showNode(focus),300);
+window.CBR_GRAPH_VIEW={cy, bfs, visibleSet};
+})();
+</script>
+</body>
+</html>

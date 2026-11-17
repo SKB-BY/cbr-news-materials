@@ -121,6 +121,7 @@
     <a href="../iid/">ИИД-100</a>
     <a class="on" href="./">Новостная карта</a>
     <a href="../map/">Карта реестра</a>
+    <a href="../graph/">Граф связей</a>
     <a href="../companies.csv">Реестр сил и компаний</a>
     <a href="../OI_5x5.html">ОИ 5×5</a>
     <a href="../data/oi5x5/">Данные ОИ 5×5</a>
@@ -168,6 +169,7 @@
       <h2 id="places-h">Места</h2>
       <ul id="places"></ul>
       </details>
+      <div id="cbr-exp-news"></div>
       <details id="about"><summary>О карте</summary>
       <p class="muted" id="cover"></p>
       <p class="muted">Вторая карта репозитория. Первая — <a href="../map/">карта реестра</a> (организации и компании). Здесь — новости по местам из их ключевых мест; каждая запись подсвечена кодом <a href="../oi-5x5/" target="_blank" rel="noopener">ОИ 5×5</a> (<a href="../OI_5x5.md">пояснение</a>).</p>
@@ -194,6 +196,7 @@
 <script src="contour.js?v=t62"></script>
 <script src="../assets/asof.js?v=t81"></script>
 <script src="explain.js?v=t83"></script>
+<script src="../assets/cbr-export.js?v=t171"></script>
 <script>
 (function(){
 const D = window.NEWS_MAP_DATA, P = D.palette, F = D.fields;
@@ -398,6 +401,30 @@ function renderList(){ cur = st.place==null ? vis : (per[st.place]||[]); shown=0
 function more(){ const ul=document.getElementById("stories"); const part=cur.slice(shown, shown+50); shown+=part.length;
   ul.insertAdjacentHTML("beforeend", part.map(storyHtml).join(""));
   const m=document.getElementById("more"); m.innerHTML = shown<cur.length ? `<button>показать ещё</button>` : ""; if(m.firstChild) m.firstChild.onclick=more; }
+
+/* t171u: выгрузка текущего списка сведений (те же фильтры и выбранное место) в CSV, JSON, GraphML. © 2026 GREEN-CBR. */
+(function(){ const EX=window.CBR_EXPORT; if(!EX) return;
+  const NF=["id","pub","ev","evp","src","url","t","lang","topic","cat","sec","veh","oi0","oi1","oi1at","lift","oi","status","okr","okr_score","okr_label","subj","risks","spheres","places","story","story_current"];
+  function rows(){ const out=[]; cur.forEach(s=>s.items.forEach(x=>{ const cx=x.cx||[];
+      out.push({id:x.id, pub:x.pub, ev:x.ev||"", evp:x.evp||"", src:x.src, url:x.url, t:x.t, lang:x.lang, topic:x.topic||"", cat:x.cat||"", sec:x.sec||"", veh:x.veh||"",
+        oi0:x.oi0, oi1:x.oi1||"", oi1at:x.oi1at||"", lift:x.lift?1:0, oi:x.code, status:x.st,
+        okr:cx[2]!=null?cx[2]:"", okr_score:cx[1]!=null?cx[1]:"", okr_label:cx[2]!=null&&SENTC[cx[2]]?SENTC[cx[2]][1]:"", subj:cx[3]!=null?cx[3]:"",
+        risks:(cx[4]||[]).join("; "), spheres:(cx[0]||[]).map(a=>a[0]+(a[1]?" · "+a[1]:"")).join("; "),
+        places:s.places.map(i=>areas[i]&&areas[i].properties.name).filter(Boolean).join("; "), story:s.head.id, story_current:s.current?1:0}); })); return out; }
+  function fl(){ return {period:[st.d1,st.d2], status:Object.keys(st.stat).filter(k=>st.stat[k]), codes_off:Object.keys(st.codes).filter(k=>!st.codes[k]), topic:st.topic, cat:st.cat, sec:st.sec,
+      sphere:[...st.sph], entity:st.ent!=null&&ENT[st.ent]?ENT[st.ent].name:"", relation_type:st.rtype, relation_min:st.rmin, okr_off:Object.keys(st.sent).filter(k=>!st.sent[k]), subj:st.subj, risks:[...st.risk],
+      query:st.q, only_lift:st.onlylift, only_current:st.onlycur, place:st.place!=null&&areas[st.place]?areas[st.place].properties.name:""}; }
+  function meta(){ return EX.meta("Новостная карта", st.place!=null?"сведения выбранного места по фильтрам":"все сведения по фильтрам", fl(), {news_as_of:D.as_of, oi_as_of_map:D.oi_as_of}); }
+  function graph(){ const r=rows(), nodes={}, edges=[]; r.forEach(x=>{ nodes["m:"+x.id]=Object.assign({kind:"материал", label:x.t},x,{id:"m:"+x.id});
+      (x.places?x.places.split("; "):[]).forEach(pn=>{ if(!pn) return; nodes["p:"+pn]=nodes["p:"+pn]||{id:"p:"+pn, kind:"место", label:pn}; edges.push({id:"mp:"+x.id+":"+pn, s:"m:"+x.id, t:"p:"+pn, type:"место в новости"}); });
+      if(x.story!==x.id) edges.push({id:"ms:"+x.id, s:"m:"+x.id, t:"m:"+x.story, type:"тот же сюжет (дедупликация)"}); });
+    return {nodes:Object.values(nodes), edges:edges.filter(e=>nodes[e.s]&&nodes[e.t])}; }
+  EX.panel(document.getElementById("cbr-exp-news"), "Выгрузка текущего списка:", [
+    ["CSV", ()=>EX.csv("kontur_news_map", NF, rows(), meta())],
+    ["JSON", ()=>EX.json("kontur_news_map", {items:rows()}, meta())],
+    ["GraphML", ()=>{ const g=graph(); EX.graphml("kontur_news_map", g.nodes, g.edges, meta(), ["label","kind"].concat(NF.filter(f=>f!=="id")), ["type"]); }]
+  ], "По текущим фильтрам и выбранному месту. В шапке — срез, время выгрузки и © 2026 GREEN-CBR. GraphML: материалы, места и связи «тот же сюжет».");
+})();
 update();
 window.NEWS_MAP={map};  // для проверки в браузере
 })();

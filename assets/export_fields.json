@@ -1,0 +1,150 @@
+{
+ "_note": "t171u: поля выгрузок CSV/JSON/GraphML со страниц. export_check (export_fields) сверяет их с данными среза. © 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR",
+ "news-map": {
+  "source": "news-map/data.js (NEWS_MAP_DATA.fields) + news-map/contour.js (окрас, субъективность)",
+  "data_fields": [
+   "id",
+   "pub",
+   "ev",
+   "evp",
+   "src",
+   "url",
+   "t",
+   "lang",
+   "topic",
+   "cat",
+   "sec",
+   "veh",
+   "oi0",
+   "oi1",
+   "oi1at",
+   "lift"
+  ],
+  "derived": [
+   "oi",
+   "status",
+   "okr",
+   "okr_score",
+   "okr_label",
+   "subj",
+   "risks",
+   "spheres",
+   "places",
+   "story",
+   "story_current"
+  ]
+ },
+ "register-nodes": {
+  "source": "map/data.js (MAP_DATA.nodes) + map/contour.js (REG_CONTOUR.nodes)",
+  "data_fields": [
+   "id",
+   "kind",
+   "country",
+   "name",
+   "sponsor",
+   "role_focus",
+   "url",
+   "source_url",
+   "customers",
+   "ubo_name",
+   "tier_level",
+   "address"
+  ],
+  "derived": [
+   "src",
+   "materials",
+   "relations"
+  ]
+ },
+ "register-items": {
+  "source": "map/contour.js (REG_CONTOUR.items)",
+  "derived": [
+   "node_id",
+   "node",
+   "item_id",
+   "date",
+   "src",
+   "url",
+   "title",
+   "title_ru",
+   "oi0",
+   "oi1",
+   "oi",
+   "status",
+   "okr",
+   "okr_score",
+   "subj",
+   "spheres",
+   "how",
+   "matched"
+  ]
+ },
+ "register-links": {
+  "source": "map/data.js (MAP_DATA.links) + map/contour.js (REG_CONTOUR.rels)",
+  "derived": [
+   "id",
+   "s",
+   "t",
+   "type",
+   "group",
+   "basis",
+   "url",
+   "date",
+   "n",
+   "okr",
+   "okr_score"
+  ]
+ },
+ "graph-nodes": {
+  "source": "graph/graph_data.js (CBR_GRAPH.nodes)",
+  "data_fields": [
+   "id",
+   "label",
+   "kind",
+   "country",
+   "src",
+   "n",
+   "deg",
+   "url",
+   "role"
+  ]
+ },
+ "graph-edges": {
+  "source": "graph/graph_data.js (CBR_GRAPH.edges)",
+  "data_fields": [
+   "id",
+   "s",
+   "t",
+   "type",
+   "g",
+   "basis",
+   "url",
+   "date",
+   "n",
+   "s2",
+   "s1"
+  ]
+ },
+ "timeline": {
+  "source": "iid/timeline/timeline_data.js (CBR_TIMELINE: сюжеты и события)",
+  "data_fields": [
+   "t",
+   "src",
+   "url",
+   "title",
+   "oi",
+   "oi0",
+   "oi1",
+   "oi1at",
+   "okr",
+   "okr_score",
+   "subj",
+   "via"
+  ],
+  "derived": [
+   "story",
+   "kind",
+   "event"
+  ]
+ }
+}

@@ -114,6 +114,7 @@
     <a href="../iid/">ИИД-100</a>
     <a href="../news-map/">Новостная карта</a>
     <a class="on" href="../map/">Карта реестра</a>
+    <a href="../graph/">Граф связей</a>
     <a href="../companies.csv">Реестр сил и компаний</a>
     <a href="../OI_5x5.html">ОИ 5×5</a>
     <a href="../data/oi5x5/">Данные ОИ 5×5</a>
@@ -137,6 +138,7 @@
       <ul id="chains"></ul>
       <p class="muted">Связи — только с URL источника (<a href="links.json">links.json</a>) и только если оба конца имеют точку; пунктир — внешний узел, которого нет в реестре.</p>
       <details class="cbr-help-inline" id="cbr-legend"><summary>Справка: окрас, субъективность, ОИ 5×5</summary></details>
+      <div id="cbr-exp-reg"></div>
       <h2>Сведения и связи организаций, компаний и фирм</h2>
       <p class="muted">Все разделы и сферы. Сведения — материалы с кодом ОИ 5×5 за все периоды базы (2023–2026), привязанные к узлу движком связей Контура (t167u): официальный домен компании как источник, имя или псевдоним в заголовке или тексте, упоминание контура с тем же именем. Страна и тема — не основание; материал без связи остаётся самостоятельной новостью (<a href="../news-map/">Новостная карта</a>). Порядок — дата, достоверность, значимость. Связи — именованные связи из опубликованных материалов с окрасом, без «совместного упоминания». Узел без подтверждённого или обоснованного признаками места показан с пометкой «без точки» — координаты не выдумываются. Приблизительные точки помечены ≈. Телефоны, e-mail и домашние адреса не публикуются.</p>
       <select class="f" id="fsph"><option value="">Сфера: все</option></select>
@@ -167,6 +169,7 @@
 <script src="contour.js?v=t167"></script>
 <script src="../assets/asof.js?v=t81"></script>
 <script src="../news-map/explain.js?v=t83"></script>
+<script src="../assets/cbr-export.js?v=t171"></script>
 <script>
 (function(){
 const D = window.MAP_DATA;
@@ -433,6 +436,33 @@ unplaced.forEach(n=>{ const li=document.createElement("li");
   const cc=C.nodes[n.id];
   li.innerHTML=`<span class="tag" style="background:${KIND[cat(n)].color}">${esc(KIND[cat(n)].label.split(" ")[0])}</span>${esc(short(n))}${cc?`<br><span class="cnt">сведений ${cc.ni} · связей ${cc.nr}</span>`:""}`; li.title=n.unlocated_reason||"";
   li.onclick=()=>openNode(n); ul.appendChild(li); });
+
+/* t171u: выгрузка среза Реестра (узлы списка по текущим фильтрам, их материалы и связи) в CSV, JSON, GraphML. © 2026 GREEN-CBR. */
+(function(){ const EX=window.CBR_EXPORT; if(!EX) return;
+  const NODEF=["id","kind","country","name","sponsor","role_focus","url","source_url","customers","ubo_name","tier_level","address","src","materials","relations"];
+  const ITF=["node_id","node","item_id","date","src","url","title","title_ru","oi0","oi1","oi","status","okr","okr_score","subj","spheres","how","matched"];
+  const LKF=["id","s","t","type","group","basis","url","date","n","okr","okr_score"];
+  function sel(){ const src=document.getElementById("fsrc").value, sp=curSph(), q=document.getElementById("q").value.trim().toLowerCase();
+    return Object.entries(C.nodes).map(([id,n])=>{ const r=byId[id]; const loc=!!(r&&r.lat!=null); return {id,n,r,loc,ni:nodeItems(id).length,nr:nodeRels(id).length}; })
+      .filter(x=>(x.ni||(!sp&&!factive(FL())&&x.nr)) && (!src || (src==="nopt"?!x.loc:x.n.src===src)) && (!q||x.n.name.toLowerCase().includes(q))); }
+  function data(){ const S=sel(), ids=new Set(S.map(x=>x.id));
+    const nodes=S.map(x=>{ const r=x.r||{}; return {id:x.id, kind:r.kind||x.n.kind, country:r.country||x.n.country, name:x.n.name, sponsor:r.sponsor||"", role_focus:r.role_focus||"", url:r.url||"", source_url:r.source_url||"",
+      customers:r.customers||"", ubo_name:r.ubo_name||"", tier_level:r.tier_level||"", address:r.address||"", src:x.n.src, materials:x.ni, relations:x.nr, label:x.n.name}; });
+    const items=[]; S.forEach(x=>nodeItems(x.id).forEach(([h,how,it,mt])=>{ const code=it[6]||it[5]||"";
+      items.push({node_id:x.id, node:x.n.name, item_id:h, date:it[0], src:it[1], url:it[2], title:it[3], title_ru:it[4]||"", oi0:it[5]||"", oi1:it[6]||"", oi:code, status:st(code),
+        okr:it[8]!=null?it[8]:"", okr_score:it[9]!=null?it[9]:"", subj:it[10]!=null?it[10]:"", spheres:(it[7]||[]).map(a=>a[0]+(a[1]?" · "+a[1]:"")).join("; "), how, matched:mt||""}); }));
+    const links=[]; D.links.forEach((l,i)=>{ if(ids.has(l.from)&&ids.has(l.to)) links.push({id:"reg:"+i, s:l.from, t:l.to, type:l.type, group:"реестр", basis:l.basis||"", url:l.source||"", date:"", n:1, okr:"", okr_score:""}); });
+    C.rels.forEach((r,i)=>{ if(r.a&&r.b&&ids.has(r.a)&&ids.has(r.b)) links.push({id:"ctr:"+i, s:r.a, t:r.b, type:r.t, group:"контур", basis:"цитаты из материалов (контур)", url:(r.ev&&r.ev[0]&&r.ev[0][0])||"", date:r.d||"", n:r.n||0, okr:r.s2!=null?r.s2:"", okr_score:r.s1!=null?r.s1:""}); });
+    return {nodes, items, links}; }
+  function meta(scope){ const f=FL(); return EX.meta("Карта реестра", scope||"узлы списка по текущим фильтрам", Object.assign({}, f, {source:document.getElementById("fsrc").value, query:document.getElementById("q").value.trim()}), {oi_as_of_map:C.oi_as_of, links_version:C.links_version}); }
+  EX.panel(document.getElementById("cbr-exp-reg"), "Выгрузка среза Реестра:", [
+    ["узлы CSV", ()=>EX.csv("kontur_registry_nodes", NODEF, data().nodes, meta())],
+    ["материалы CSV", ()=>EX.csv("kontur_registry_items", ITF, data().items, meta())],
+    ["связи CSV", ()=>EX.csv("kontur_registry_links", LKF, data().links, meta())],
+    ["JSON", ()=>EX.json("kontur_registry", data(), meta())],
+    ["GraphML", ()=>{ const d=data(); EX.graphml("kontur_registry", d.nodes, d.links, meta(), ["label"].concat(NODEF.filter(f=>f!=="id")), LKF.filter(f=>!["id","s","t"].includes(f))); }]
+  ], 'Срез — узлы списка ниже (сфера, источник, поиск, фильтры сведений). Весь реестр: <a href="../graph/registry.graphml">registry.graphml</a>; весь граф — <a href="../graph/">Граф связей</a>. В шапке файла — срез, время выгрузки и © 2026 GREEN-CBR.');
+})();
 })();
 </script>
 </body>
