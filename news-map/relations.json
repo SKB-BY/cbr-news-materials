@@ -5,32 +5,32 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 153,
+"evidence_count": 158,
 "evidence": [
 {
-"url": "https://tass.ru/proisshestviya/28324891",
-"published_at": "2026-11-17T06:39:04Z",
-"quote": "Над Курской областью за сутки сбили 179 беспилотников ВСУ"
+"url": "https://ria.ru/20261117/pvo-2132076426.html",
+"published_at": "2026-11-17T08:59:37Z",
+"quote": "ПВО сбила 2256 дронов ВСУ"
 },
 {
-"url": "https://tass.ru/armiya-i-opk/28324849",
-"published_at": "2026-11-17T06:22:47Z",
-"quote": "Новый удар ВСУ по Крымскому мосту и 1 441 БПЛА."
+"url": "https://tass.ru/armiya-i-opk/28325673",
+"published_at": "2026-11-17T08:52:23Z",
+"quote": "ВС РФ поразили места производства и хранения беспилотников ВСУ"
 },
 {
-"url": "https://lenta.ru/news/2026/11/17/nad-rossiyskim-regionom-sbili-pochti-300-dronov-vsu",
-"published_at": "2026-11-17T05:45:24Z",
-"quote": "Над российским регионом сбили почти 300 дронов ВСУ"
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%81%d0%b0%d1%83-%d0%bc%d1%81%d1%82%d0%b0-%d1%81-%d1%83%d0%bd%d0%b8%d1%87%d1%82%d0%be%d0%b6%d0%b8%d0%bb-%d0%bf%d1%83%d0%bd%d0%ba%d1%82-%d1%83%d0%bf",
+"published_at": "2026-11-17T08:36:31Z",
+"quote": "РАСЧЕТ САУ «МСТА-С» УНИЧТОЖИЛ ПУНКТ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
 },
 {
-"url": "https://lenta.ru/news/2026/11/17/nad-rossiyskim-regionom-sbili-50-dronov-vsu",
-"published_at": "2026-11-17T04:51:41Z",
-"quote": "Над российским регионом сбили 50 дронов ВСУ"
+"url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6%d0%b8-%d1%82%d0%b0%d0%bd%d0%ba%d0%be%d0%b2-%d1%82-90%d0%bc-%d0%bf%d1%80%d0%be%d1%80%d1%8b%d0%b2-%d0%b3%d1%80%d1%83%d0%bf%d0%bf%d0%b8%d1%80%d0%be%d0%b2",
+"published_at": "2026-11-17T08:28:08Z",
+"quote": "ЭКИПАЖИ ТАНКОВ Т-90М «ПРОРЫВ» ГРУППИРОВКИ ВОЙСК «ВОСТОК» УНИЧТОЖИЛИ ПЕРЕДОВЫЕ ПОЗИЦИИ ВСУ В ЗАПОРОЖСКОЙ ОБЛАСТИ"
 },
 {
-"url": "https://tass.ru/armiya-i-opk/28324487",
-"published_at": "2026-11-17T04:31:49Z",
-"quote": "В группировке \"Север\" заявили об уничтожении более 80 БПЛА \"Баба-яга\" ВСУ"
+"url": "https://tvzvezda.ru/news/202611171037-cwod8.html",
+"published_at": "2026-11-17T07:54:13Z",
+"quote": "Минобороны России сообщило об уничтожении передовых позиций ВСУ в Запорожской области."
 }
 ],
 "sentiment": {
@@ -45,8 +45,18 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 42,
+"evidence_count": 44,
 "evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28325673",
+"published_at": "2026-11-17T08:52:23Z",
+"quote": "ВС РФ поразили места производства и хранения беспилотников ВСУ"
+},
+{
+"url": "https://tvzvezda.ru/news/202611171037-cwod8.html",
+"published_at": "2026-11-17T07:54:13Z",
+"quote": "Минобороны России сообщило об уничтожении передовых позиций ВСУ в Запорожской области."
+},
 {
 "url": "https://lenta.ru/news/2026/11/17/nad-rossiyskim-regionom-sbili-pochti-300-dronov-vsu",
 "published_at": "2026-11-17T05:45:24Z",
@@ -61,16 +71,6 @@
 "url": "https://tass.ru/armiya-i-opk/28324245",
 "published_at": "2026-11-17T02:04:33Z",
 "quote": "ВС РФ поразили технику, боекомплект и средства связи ВСУ в Сумской области"
-},
-{
-"url": "https://t.me/mod_russia/69064",
-"published_at": "2026-11-16T15:14:38Z",
-"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по логистическим центрам, объектам портовой и железнодорожной инфраструктуры, задействованным в интересах ВСУ."
-},
-{
-"url": "https://tvzvezda.ru/news/202611161359-H9Y81.html",
-"published_at": "2026-11-16T11:58:15Z",
-"quote": "Минобороны России сообщило об уничтожении сразу нескольких пунктов управления беспилотными летательными аппаратами ВСУ в зоне проведения специальной военной операции."
 }
 ],
 "sentiment": {
@@ -125,8 +125,13 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 28,
+"evidence_count": 29,
 "evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28325673",
+"published_at": "2026-11-17T08:52:23Z",
+"quote": "ВС РФ поразили места производства и хранения беспилотников ВСУ"
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28324245",
 "published_at": "2026-11-17T02:04:33Z",
@@ -146,11 +151,6 @@
 "url": "https://tass.ru/armiya-i-opk/28323119",
 "published_at": "2026-11-16T15:11:46Z",
 "quote": "ВС РФ поразили используемый для хранения БПЛА склад в Киевской области"
-},
-{
-"url": "https://t.me/mod_russia/69060",
-"published_at": "2026-11-16T09:10:56Z",
-"quote": "✈️ Оперативно-тактической авиацией, ударными беспилотными летательными аппаратами, ракетными войсками и артиллерией группировок войск Вооруженных Сил Российской Федерации нанесено поражение объекта..."
 }
 ],
 "sentiment": {
@@ -165,8 +165,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 16,
+"evidence_count": 17,
 "evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28325673",
+"published_at": "2026-11-17T08:52:23Z",
+"quote": "ВС РФ поразили места производства и хранения беспилотников ВСУ"
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28324245",
 "published_at": "2026-11-17T02:04:33Z",
@@ -186,17 +191,12 @@
 "url": "https://tass.ru/armiya-i-opk/28321055",
 "published_at": "2026-11-16T08:52:50Z",
 "quote": "ВС РФ поразили места хранения и запуска беспилотников ВСУ"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28320247",
-"published_at": "2026-11-16T04:31:21Z",
-"quote": "Офицер Карта: ВС РФ сбили более 10 разведывательных дронов ВСУ под Харьковом"
 }
 ],
 "sentiment": {
-"score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -205,8 +205,13 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 13,
+"evidence_count": 14,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611171037-cwod8.html",
+"published_at": "2026-11-17T07:54:13Z",
+"quote": "Минобороны России сообщило об уничтожении передовых позиций ВСУ в Запорожской области."
+},
 {
 "url": "https://tvzvezda.ru/news/202611161359-H9Y81.html",
 "published_at": "2026-11-16T11:58:15Z",
@@ -226,11 +231,6 @@
 "url": "https://tvzvezda.ru/news/202611161138-MvDEo.html",
 "published_at": "2026-11-16T09:52:33Z",
 "quote": "Минобороны России сообщило об уничтожении украинских расчетов беспилотных летательных аппаратов в зоне проведения специальной военной операции."
-},
-{
-"url": "https://vpk.name/news/1171271_vs_rossii_primenili_novyi_bpla_na_dnepropetrovskom_napravlenii.html",
-"published_at": "2026-11-12T21:00:01Z",
-"quote": "ВС РФ применили новый БПЛА-перехватчик \"Сокол-3\" на Днепропетровском направлении Новейший БПЛА-перехватчик самолетного типа \"Сокол-3\" применили военные группировки войск \"Центр\" для уничтожения вражеских воздушных целей на днепропетровском "
 }
 ],
 "sentiment": {
@@ -245,8 +245,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 9,
+"evidence_count": 10,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611171037-cwod8.html",
+"published_at": "2026-11-17T07:54:13Z",
+"quote": "Минобороны России сообщило об уничтожении передовых позиций ВСУ в Запорожской области."
+},
 {
 "url": "https://tvzvezda.ru/news/202611161359-H9Y81.html",
 "published_at": "2026-11-16T11:58:15Z",
@@ -266,11 +271,6 @@
 "url": "https://t.me/uav_tech/36545",
 "published_at": "2026-06-27T11:35:50Z",
 "quote": "Минобороны РФ сообщило о том, что российские БПЛА \"Герань-4 сикер\" уничтожили два истребителя МиГ-29 ВСУ на аэродроме Вознесенск в Николаевской области."
-},
-{
-"url": "https://t.me/news_UAV/5308",
-"published_at": "2026-06-22T10:35:09Z",
-"quote": "ПВО за сутки сбила 734 украинских беспилотника Силы ПВО за сутки уничтожили 734 беспилотника и 12 управляемых авиационных бомб ВСУ, сообщили в Минобороны России."
 }
 ],
 "sentiment": {
@@ -437,6 +437,86 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_2599b96c1524346f",
+"from": "ent_72167ac7999f6b9e",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 6,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d0%be%d0%b0%d0%ba-%d0%bf%d0%b5%d1%80%d0%b5%d0%b4%d0%b0%d0%bb%d0%b0-%d0%bc%d0%b8%d0%bd%d0%be%d0%b1%d0%be%d1%80%d0%be%d0%bd%d1%8b-%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b8-%d0%bf%d0%b0%d1%80%d1%82%d0%b8-2",
+"published_at": "2026-11-17T08:46:35Z",
+"quote": "ОАК ПЕРЕДАЛА МИНОБОРОНЫ РОССИИ ПАРТИЮ ИСТРЕБИТЕЛЕЙ-БОМБАРДИРОВЩИКОВ СУ-34"
+},
+{
+"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
+"published_at": "2026-11-17T06:20:16Z",
+"quote": "Объединенная авиастроительная корпорация (ОАК) изготовила и передала Минобороны России новую партию истребителей-бомбардировщиков Су-34."
+},
+{
+"url": "https://t.me/uav_tech/35911",
+"published_at": "2026-04-15T17:00:12Z",
+"quote": "❗️РИА новости со ссылкой на Минобороны РФ сообщило, что Европа на фоне потерь ВСУ решила нарастить производство и поставки БПЛА Украине для ударов по России."
+},
+{
+"url": "https://t.me/drone_expert_news/5318",
+"published_at": "2026-01-28T18:39:19Z",
+"quote": "🦾 «Ростех» впервые передал Министерству обороны России новейшие мобильные комплексы радиоэлектронной борьбы «Зубр», предназначенные для защиты войск от беспилотников."
+},
+{
+"url": "https://t.me/dronesrussia/26844",
+"published_at": "2026-01-02T11:02:01Z",
+"quote": "Материалы с расшифрованными данными маршрутизации и контроллер украинского БПЛА, пораженного ПВО 29 декабря над Новгородской областью, переданы представителю аппарата военного атташе при посольстве США, сообщило Минобороны РФ."
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_5be9d4c568aaef6c",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_a22db82c40874406",
+"type": "применение",
+"event_date": null,
+"evidence_count": 6,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6%d0%b8-%d1%82%d0%b0%d0%bd%d0%ba%d0%be%d0%b2-%d1%82-90%d0%bc-%d0%bf%d1%80%d0%be%d1%80%d1%8b%d0%b2-%d0%b3%d1%80%d1%83%d0%bf%d0%bf%d0%b8%d1%80%d0%be%d0%b2",
+"published_at": "2026-11-17T08:28:08Z",
+"quote": "ЭКИПАЖИ ТАНКОВ Т-90М «ПРОРЫВ» ГРУППИРОВКИ ВОЙСК «ВОСТОК» УНИЧТОЖИЛИ ПЕРЕДОВЫЕ ПОЗИЦИИ ВСУ В ЗАПОРОЖСКОЙ ОБЛАСТИ"
+},
+{
+"url": "https://tvzvezda.ru/news/202611171037-cwod8.html",
+"published_at": "2026-11-17T07:54:13Z",
+"quote": "Минобороны России сообщило об уничтожении передовых позиций ВСУ в Запорожской области."
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28324239",
+"published_at": "2026-11-17T02:01:11Z",
+"quote": "Танки Т-90М \"Прорыв\" уничтожили передовые позиции ВСУ в Запорожской области"
+},
+{
+"url": "https://ria.ru/20261116/spetsoperatsiya-2131762888.html",
+"published_at": "2026-11-16T02:10:14Z",
+"quote": "ВС России уничтожили пункты управления БПЛА ВСУ в Запорожской области"
+},
+{
+"url": "https://t.me/mod_russia/69043",
+"published_at": "2026-11-15T15:13:54Z",
+"quote": "💥 В результате удара поражен логистический центр в городе Запорожье, используемый ВСУ для хранения военных грузов и грузов двойного назначения."
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 },
 {
@@ -677,46 +757,6 @@
 "score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_2599b96c1524346f",
-"from": "ent_72167ac7999f6b9e",
-"to": "ent_28fea1c77915c37a",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 5,
-"evidence": [
-{
-"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
-"published_at": "2026-11-17T06:20:16Z",
-"quote": "Объединенная авиастроительная корпорация (ОАК) изготовила и передала Минобороны России новую партию истребителей-бомбардировщиков Су-34."
-},
-{
-"url": "https://t.me/uav_tech/35911",
-"published_at": "2026-04-15T17:00:12Z",
-"quote": "❗️РИА новости со ссылкой на Минобороны РФ сообщило, что Европа на фоне потерь ВСУ решила нарастить производство и поставки БПЛА Украине для ударов по России."
-},
-{
-"url": "https://t.me/drone_expert_news/5318",
-"published_at": "2026-01-28T18:39:19Z",
-"quote": "🦾 «Ростех» впервые передал Министерству обороны России новейшие мобильные комплексы радиоэлектронной борьбы «Зубр», предназначенные для защиты войск от беспилотников."
-},
-{
-"url": "https://t.me/dronesrussia/26844",
-"published_at": "2026-01-02T11:02:01Z",
-"quote": "Материалы с расшифрованными данными маршрутизации и контроллер украинского БПЛА, пораженного ПВО 29 декабря над Новгородской областью, переданы представителю аппарата военного атташе при посольстве США, сообщило Минобороны РФ."
-},
-{
-"url": "https://t.me/dronesrussia/26843",
-"published_at": "2026-01-01T19:01:16Z",
-"quote": "Материалы с расшифрованными данными маршрутизации и контроллер украинского БПЛА, пораженного ПВО 29 декабря над Новгородской областью, переданы представителю аппарата военного атташе при посольстве США, сообщило Минобороны РФ."
-}
-],
-"sentiment": {
-"score_pm1": -0.1,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -1040,36 +1080,36 @@
 }
 },
 {
-"id": "rel_5be9d4c568aaef6c",
+"id": "rel_052a9524c0f2eda4",
 "from": "ent_ed88ced226e6c399",
-"to": "ent_a22db82c40874406",
+"to": "ent_e5f190ccc39e3fdd",
 "type": "применение",
 "event_date": null,
 "evidence_count": 4,
 "evidence": [
 {
-"url": "https://tass.ru/armiya-i-opk/28324239",
-"published_at": "2026-11-17T02:01:11Z",
-"quote": "Танки Т-90М \"Прорыв\" уничтожили передовые позиции ВСУ в Запорожской области"
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%81%d0%b0%d1%83-%d0%bc%d1%81%d1%82%d0%b0-%d1%81-%d1%83%d0%bd%d0%b8%d1%87%d1%82%d0%be%d0%b6%d0%b8%d0%bb-%d0%bf%d1%83%d0%bd%d0%ba%d1%82-%d1%83%d0%bf",
+"published_at": "2026-11-17T08:36:31Z",
+"quote": "РАСЧЕТ САУ «МСТА-С» УНИЧТОЖИЛ ПУНКТ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
 },
 {
-"url": "https://ria.ru/20261116/spetsoperatsiya-2131762888.html",
-"published_at": "2026-11-16T02:10:14Z",
-"quote": "ВС России уничтожили пункты управления БПЛА ВСУ в Запорожской области"
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%82%d0%be%d1%81-2-%d1%82%d0%be%d1%81%d0%be%d1%87%d0%ba%d0%b0-%d1%81%d0%be%d0%b5%d0%b4%d0%b8%d0%bd%d0%b5%d0%bd%d0%b8%d1%8f-%d1%80%d1%85%d0%b1%d0%b7",
+"published_at": "2026-11-16T08:59:14Z",
+"quote": "РАСЧЕТ ТОС-2 «ТОСОЧКА» СОЕДИНЕНИЯ РХБЗ ГРУППИРОВКИ ВОЙСК «ЦЕНТР» УНИЧТОЖИЛ РАЙОН СОСРЕДОТОЧЕНИЯ ПУНКТОВ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
 },
 {
-"url": "https://t.me/mod_russia/69043",
-"published_at": "2026-11-15T15:13:54Z",
-"quote": "💥 В результате удара поражен логистический центр в городе Запорожье, используемый ВСУ для хранения военных грузов и грузов двойного назначения."
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d0%b4%d1%80%d0%be%d0%bd%d0%b0-%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%b2%d0%b0%d1%82%d1%87%d0%b8%d0%ba%d0%b0-%d1%81%d0%be%d0%ba%d0%be%d0%bb-%d0%b22-%d0%b7",
+"published_at": "2026-11-16T08:40:21Z",
+"quote": "РАСЧЕТ ДРОНА-ПЕРЕХВАТЧИКА «СОКОЛ-В2» ЗЕНИТНОЙ РАКЕТНОЙ БРИГАДЫ ГРУППИРОВКИ «ЦЕНТР» УНИЧТОЖИЛ ДЕСЯТКИ УДАРНЫХ И РАЗВЕДЫВАТЕЛЬНЫХ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
 },
 {
-"url": "https://t.me/mod_russia/69004",
-"published_at": "2026-11-14T05:02:18Z",
-"quote": "▪️ Кроме того, поражены два железнодорожных локомотива в районе ж/д станции Матвеевка Запорожской области, используемых в интересах перевозки грузов, предназначенных для обеспечения ВСУ."
+"url": "https://t.me/mod_russia/69025",
+"published_at": "2026-11-15T05:42:06Z",
+"quote": "🔥 Кроме того, поражены два железнодорожных локомотива в районе ж/д станции Днепропетровск, используемых в интересах перевозки грузов, предназначенных для обеспечения ВСУ."
 }
 ],
 "sentiment": {
-"score_pm1": -0.2,
+"score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -1461,6 +1501,66 @@
 "url": "https://bmpd.livejournal.com/5009658.html",
 "published_at": "2026-09-24T22:57:12Z",
 "quote": "ВКС России получили первую партию истребителей Су-57 по программе 2026 года"
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6ec6a8a5e30a4937",
+"from": "ent_82d695889d3fa2fa",
+"to": "ent_59965f590d8fcc04",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://topwar.ru/293684-novye-su-34-otpravilis-k-mestu-sluzhby-oak-peredala-vks-ocherednuju-partiju.html",
+"published_at": "2026-11-17T07:57:19Z",
+"quote": "Новые Су-34 отправились к месту службы: ОАК передала ВКС очередную партию"
+},
+{
+"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
+"published_at": "2026-11-17T06:20:16Z",
+"quote": "Новую партию Су-34 передали ВКС России после заводских испытаний"
+},
+{
+"url": "https://bmpd.livejournal.com/5012123.html",
+"published_at": "2026-10-09T22:00:27Z",
+"quote": "ВКС России поставлена вторая в 2026 году партия фронтовых бомбардировщиков Су-34"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_71810bfb904f7bed",
+"from": "ent_72167ac7999f6b9e",
+"to": "ent_59965f590d8fcc04",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d0%be%d0%b0%d0%ba-%d0%bf%d0%b5%d1%80%d0%b5%d0%b4%d0%b0%d0%bb%d0%b0-%d0%bc%d0%b8%d0%bd%d0%be%d0%b1%d0%be%d1%80%d0%be%d0%bd%d1%8b-%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b8-%d0%bf%d0%b0%d1%80%d1%82%d0%b8-2",
+"published_at": "2026-11-17T08:46:35Z",
+"quote": "ОАК ПЕРЕДАЛА МИНОБОРОНЫ РОССИИ ПАРТИЮ ИСТРЕБИТЕЛЕЙ-БОМБАРДИРОВЩИКОВ СУ-34"
+},
+{
+"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
+"published_at": "2026-11-17T06:20:16Z",
+"quote": "Объединенная авиастроительная корпорация (ОАК) изготовила и передала Минобороны России новую партию истребителей-бомбардировщиков Су-34."
+},
+{
+"url": "https://bmpd.livejournal.com/5012123.html",
+"published_at": "2026-10-09T22:00:27Z",
+"quote": "ru/ru/press-center/news/oak-peredala-minoborony-rossii-partiyu-istrebiteley-bombardirovshchikov-su-34\" target=\"_blank\">сообщило,</a> что в рамках гособоронзаказа изготовило и передало Министерству обороны Российской Федерации партию истреби"
 }
 ],
 "sentiment": {
@@ -1887,36 +1987,6 @@
 "score_pm1": -0.6,
 "score_pm2": -2,
 "label": "резко негативный"
-}
-},
-{
-"id": "rel_052a9524c0f2eda4",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_e5f190ccc39e3fdd",
-"type": "применение",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%82%d0%be%d1%81-2-%d1%82%d0%be%d1%81%d0%be%d1%87%d0%ba%d0%b0-%d1%81%d0%be%d0%b5%d0%b4%d0%b8%d0%bd%d0%b5%d0%bd%d0%b8%d1%8f-%d1%80%d1%85%d0%b1%d0%b7",
-"published_at": "2026-11-16T08:59:14Z",
-"quote": "РАСЧЕТ ТОС-2 «ТОСОЧКА» СОЕДИНЕНИЯ РХБЗ ГРУППИРОВКИ ВОЙСК «ЦЕНТР» УНИЧТОЖИЛ РАЙОН СОСРЕДОТОЧЕНИЯ ПУНКТОВ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
-},
-{
-"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d0%b4%d1%80%d0%be%d0%bd%d0%b0-%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%b2%d0%b0%d1%82%d1%87%d0%b8%d0%ba%d0%b0-%d1%81%d0%be%d0%ba%d0%be%d0%bb-%d0%b22-%d0%b7",
-"published_at": "2026-11-16T08:40:21Z",
-"quote": "РАСЧЕТ ДРОНА-ПЕРЕХВАТЧИКА «СОКОЛ-В2» ЗЕНИТНОЙ РАКЕТНОЙ БРИГАДЫ ГРУППИРОВКИ «ЦЕНТР» УНИЧТОЖИЛ ДЕСЯТКИ УДАРНЫХ И РАЗВЕДЫВАТЕЛЬНЫХ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
-},
-{
-"url": "https://t.me/mod_russia/69025",
-"published_at": "2026-11-15T05:42:06Z",
-"quote": "🔥 Кроме того, поражены два железнодорожных локомотива в районе ж/д станции Днепропетровск, используемых в интересах перевозки грузов, предназначенных для обеспечения ВСУ."
-}
-],
-"sentiment": {
-"score_pm1": -0.4,
-"score_pm2": -1,
-"label": "умеренно негативный"
 }
 },
 {
@@ -2611,56 +2681,6 @@
 "url": "https://t.me/uav_tech/36628",
 "published_at": "2026-07-08T14:20:51Z",
 "quote": "Но среди прочего самыми важными заявлениями можно считать утверждение о намерениях передать Украине лицензию на производство зенитных ракет для ЗРК MIM-104 «Patriot», в частности, противобаллистических ракетах PAC-3."
-}
-],
-"sentiment": {
-"score_pm1": 0.1,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_6ec6a8a5e30a4937",
-"from": "ent_82d695889d3fa2fa",
-"to": "ent_59965f590d8fcc04",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
-"published_at": "2026-11-17T06:20:16Z",
-"quote": "Новую партию Су-34 передали ВКС России после заводских испытаний"
-},
-{
-"url": "https://bmpd.livejournal.com/5012123.html",
-"published_at": "2026-10-09T22:00:27Z",
-"quote": "ВКС России поставлена вторая в 2026 году партия фронтовых бомбардировщиков Су-34"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_71810bfb904f7bed",
-"from": "ent_72167ac7999f6b9e",
-"to": "ent_59965f590d8fcc04",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
-"published_at": "2026-11-17T06:20:16Z",
-"quote": "Объединенная авиастроительная корпорация (ОАК) изготовила и передала Минобороны России новую партию истребителей-бомбардировщиков Су-34."
-},
-{
-"url": "https://bmpd.livejournal.com/5012123.html",
-"published_at": "2026-10-09T22:00:27Z",
-"quote": "ru/ru/press-center/news/oak-peredala-minoborony-rossii-partiyu-istrebiteley-bombardirovshchikov-su-34\" target=\"_blank\">сообщило,</a> что в рамках гособоронзаказа изготовило и передало Министерству обороны Российской Федерации партию истреби"
 }
 ],
 "sentiment": {
@@ -3745,6 +3765,31 @@
 }
 },
 {
+"id": "rel_6d32525f784e7f48",
+"from": "ent_a02f859093a4e63a",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611171020-CfnjG.html",
+"published_at": "2026-11-17T07:36:40Z",
+"quote": "За это время завербованные ГУР и СБУ граждане России в контролируемых сотрудниками ФСБ условиях получили более 700 килограммов взрывчатки западного производства, не менее 40 ударных квадрокоптеров и шесть гидроциклов."
+},
+{
+"url": "https://t.me/uav_tech/36435",
+"published_at": "2026-06-15T15:35:17Z",
+"quote": "ТАСС со ссылкой на экс-сотрудника СБУ Прозорова опубликовало информацию о том, что \"львиная доля\" поставок дронов и комплектующих из Европы выполнялась для ВСУ через терминал \"Новой почты\" в Киеве, который был поражен ВС РФ."
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_dda2375b79295faa",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_696b012d13e6ebad",
@@ -4417,6 +4462,81 @@
 "score_pm1": -0.1,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_ccc07d3aaa83e693",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_8f23924900ea30f8",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6%d0%b8-%d1%82%d0%b0%d0%bd%d0%ba%d0%be%d0%b2-%d1%82-90%d0%bc-%d0%bf%d1%80%d0%be%d1%80%d1%8b%d0%b2-%d0%b3%d1%80%d1%83%d0%bf%d0%bf%d0%b8%d1%80%d0%be%d0%b2",
+"published_at": "2026-11-17T08:28:08Z",
+"quote": "ЭКИПАЖИ ТАНКОВ Т-90М «ПРОРЫВ» ГРУППИРОВКИ ВОЙСК «ВОСТОК» УНИЧТОЖИЛИ ПЕРЕДОВЫЕ ПОЗИЦИИ ВСУ В ЗАПОРОЖСКОЙ ОБЛАСТИ"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28324239",
+"published_at": "2026-11-17T02:01:11Z",
+"quote": "Танки Т-90М \"Прорыв\" уничтожили передовые позиции ВСУ в Запорожской области"
+}
+],
+"sentiment": {
+"score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_f858ac090ae5a22d",
+"from": "ent_8f23924900ea30f8",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6%d0%b8-%d1%82%d0%b0%d0%bd%d0%ba%d0%be%d0%b2-%d1%82-90%d0%bc-%d0%bf%d1%80%d0%be%d1%80%d1%8b%d0%b2-%d0%b3%d1%80%d1%83%d0%bf%d0%bf%d0%b8%d1%80%d0%be%d0%b2",
+"published_at": "2026-11-17T08:28:08Z",
+"quote": "ЭКИПАЖИ ТАНКОВ Т-90М «ПРОРЫВ» ГРУППИРОВКИ ВОЙСК «ВОСТОК» УНИЧТОЖИЛИ ПЕРЕДОВЫЕ ПОЗИЦИИ ВСУ В ЗАПОРОЖСКОЙ ОБЛАСТИ"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28324239",
+"published_at": "2026-11-17T02:01:11Z",
+"quote": "Танки Т-90М \"Прорыв\" уничтожили передовые позиции ВСУ в Запорожской области"
+}
+],
+"sentiment": {
+"score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_e67fb9718604469b",
+"from": "ent_8f23924900ea30f8",
+"to": "ent_a22db82c40874406",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6%d0%b8-%d1%82%d0%b0%d0%bd%d0%ba%d0%be%d0%b2-%d1%82-90%d0%bc-%d0%bf%d1%80%d0%be%d1%80%d1%8b%d0%b2-%d0%b3%d1%80%d1%83%d0%bf%d0%bf%d0%b8%d1%80%d0%be%d0%b2",
+"published_at": "2026-11-17T08:28:08Z",
+"quote": "ЭКИПАЖИ ТАНКОВ Т-90М «ПРОРЫВ» ГРУППИРОВКИ ВОЙСК «ВОСТОК» УНИЧТОЖИЛИ ПЕРЕДОВЫЕ ПОЗИЦИИ ВСУ В ЗАПОРОЖСКОЙ ОБЛАСТИ"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28324239",
+"published_at": "2026-11-17T02:01:11Z",
+"quote": "Танки Т-90М \"Прорыв\" уничтожили передовые позиции ВСУ в Запорожской области"
+}
+],
+"sentiment": {
+"score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный"
 }
 },
 {
@@ -13720,26 +13840,6 @@
 }
 },
 {
-"id": "rel_6d32525f784e7f48",
-"from": "ent_a02f859093a4e63a",
-"to": "ent_28fea1c77915c37a",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://t.me/uav_tech/36435",
-"published_at": "2026-06-15T15:35:17Z",
-"quote": "ТАСС со ссылкой на экс-сотрудника СБУ Прозорова опубликовало информацию о том, что \"львиная доля\" поставок дронов и комплектующих из Европы выполнялась для ВСУ через терминал \"Новой почты\" в Киеве, который был поражен ВС РФ."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_846e35855df8e353",
 "from": "ent_72167ac7999f6b9e",
 "to": "ent_c32678e4a0ae4599",
@@ -21080,66 +21180,6 @@
 }
 },
 {
-"id": "rel_ccc07d3aaa83e693",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_8f23924900ea30f8",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://tass.ru/armiya-i-opk/28324239",
-"published_at": "2026-11-17T02:01:11Z",
-"quote": "Танки Т-90М \"Прорыв\" уничтожили передовые позиции ВСУ в Запорожской области"
-}
-],
-"sentiment": {
-"score_pm1": 0.2,
-"score_pm2": 1,
-"label": "умеренно позитивный"
-}
-},
-{
-"id": "rel_f858ac090ae5a22d",
-"from": "ent_8f23924900ea30f8",
-"to": "ent_76aae9f116d88191",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://tass.ru/armiya-i-opk/28324239",
-"published_at": "2026-11-17T02:01:11Z",
-"quote": "Танки Т-90М \"Прорыв\" уничтожили передовые позиции ВСУ в Запорожской области"
-}
-],
-"sentiment": {
-"score_pm1": 0.2,
-"score_pm2": 1,
-"label": "умеренно позитивный"
-}
-},
-{
-"id": "rel_e67fb9718604469b",
-"from": "ent_8f23924900ea30f8",
-"to": "ent_a22db82c40874406",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://tass.ru/armiya-i-opk/28324239",
-"published_at": "2026-11-17T02:01:11Z",
-"quote": "Танки Т-90М \"Прорыв\" уничтожили передовые позиции ВСУ в Запорожской области"
-}
-],
-"sentiment": {
-"score_pm1": 0.2,
-"score_pm2": 1,
-"label": "умеренно позитивный"
-}
-},
-{
 "id": "rel_2a7653e0bc806302",
 "from": "ent_8ee1d29ffcfae48f",
 "to": "ent_ba903dccb0560ddb",
@@ -21237,6 +21277,266 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_3ddffda989e4102b",
+"from": "ent_fa323d4f8a738909",
+"to": "ent_b2b169b36c0f8f49",
+"type": "контракт",
+"event_date": "2026-11-11",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://rdw.com/newsroom/redwire-secures-follow-on-order-from-u-s-army-avcoe-to-support-advanced-soldier-training-on-mission-ready-stalker-uas",
+"published_at": "2026-11-11T12:00:33Z",
+"quote": "(November 11, 2026) – Redwire Corporation (NYSE: RDW), a global leader in space and defense technology solutions, today announced it received a Q3 FY2026 follow on order from the 1st Aviation Brigade, U."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_02b31db8d1c30040",
+"from": "ent_5974a6a80d84fdd2",
+"to": "ent_0fb141156bdfcf75",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://lvteh.lv/news?item=2026-08-27-ltv-hades-gekon-m2-in-the-hunter-counter-drone-trials",
+"published_at": "2026-08-27T00:00:00Z",
+"quote": "LTV: HADES GEKON M2 in the HUNTER counter-drone trials"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_543c9b097590f5c7",
+"from": "ent_5974a6a80d84fdd2",
+"to": "ent_db376d4d7bc4d9da",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://lvteh.lv/news?item=2026-08-10-ltv-panorama-latvian-built-unmanned-platform-for-the-army",
+"published_at": "2026-08-10T00:00:00Z",
+"quote": "Latvian Television's flagship news programme features HADES GEKON M2 — the National Armed Forces delivery contract, a China-free European supply chain, and the ambition of a Baltic national UGV — filmed as LV-TEH and the University of Latvi"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_ee37407ffcbf0f02",
+"from": "ent_5974a6a80d84fdd2",
+"to": "ent_9e51a7ee6340af7b",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://lvteh.lv/news?item=2026-08-10-ltv-panorama-latvian-built-unmanned-platform-for-the-army",
+"published_at": "2026-08-10T00:00:00Z",
+"quote": "Latvian Television's flagship news programme features HADES GEKON M2 — the National Armed Forces delivery contract, a China-free European supply chain, and the ambition of a Baltic national UGV — filmed as LV-TEH and the University of Latvi"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_ee94e9cc30c39e03",
+"from": "ent_7bc34647511f8698",
+"to": "ent_5654b482b0291e6d",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://sphengineering.com/news/drone-echo-sounder-bathymetry-accuracy-lidar-mississippi-state",
+"published_at": "2026-10-02T00:00:00Z",
+"quote": "Mississippi State tested drone bathymetry with a DJI M300 RTK, EchoLogger ECT D052S, SkyHub and UgCS, then drained the pond for LiDAR: 10."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_53f936e651a911a6",
+"from": "ent_b677547c4bb180c5",
+"to": "ent_0da1f8a626082dde",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://belvpo.com/rossiya-zakryla-bresh-v-borbe-s-ukrainskimi-bespilotnikami",
+"published_at": "2026-11-17T08:26:40Z",
+"quote": "Реактивные БПЛА – так называемые дроны-ракеты, или малогабаритные крылатые ракеты (МГКР), – применяются противником с 2024 года, С тех пор выросли и их количество, и номенклатура: к украинским серийным «Пеклу», «Палянице» и «Барсу» недавно "
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_a6327736c98ab19b",
+"from": "ent_28fea1c77915c37a",
+"to": "ent_7c890d4124b478ff",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://belvpo.com/rossiya-zakryla-bresh-v-borbe-s-ukrainskimi-bespilotnikami",
+"published_at": "2026-11-17T08:26:40Z",
+"quote": "Россия в этой гонке снова опередила противника: перехватчик «Сокол-3» уже выпускается серийно, поступает в войска и успешно работает в небе."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_b85dbf07e7be0d77",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_52497b4cf625fb91",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%81%d0%b0%d1%83-%d0%bc%d1%81%d1%82%d0%b0-%d1%81-%d1%83%d0%bd%d0%b8%d1%87%d1%82%d0%be%d0%b6%d0%b8%d0%bb-%d0%bf%d1%83%d0%bd%d0%ba%d1%82-%d1%83%d0%bf",
+"published_at": "2026-11-17T08:36:31Z",
+"quote": "РАСЧЕТ САУ «МСТА-С» УНИЧТОЖИЛ ПУНКТ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_5af5e6e0f57f06d8",
+"from": "ent_52497b4cf625fb91",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%81%d0%b0%d1%83-%d0%bc%d1%81%d1%82%d0%b0-%d1%81-%d1%83%d0%bd%d0%b8%d1%87%d1%82%d0%be%d0%b6%d0%b8%d0%bb-%d0%bf%d1%83%d0%bd%d0%ba%d1%82-%d1%83%d0%bf",
+"published_at": "2026-11-17T08:36:31Z",
+"quote": "РАСЧЕТ САУ «МСТА-С» УНИЧТОЖИЛ ПУНКТ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_58ad9d69e781f301",
+"from": "ent_52497b4cf625fb91",
+"to": "ent_e5f190ccc39e3fdd",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%81%d0%b0%d1%83-%d0%bc%d1%81%d1%82%d0%b0-%d1%81-%d1%83%d0%bd%d0%b8%d1%87%d1%82%d0%be%d0%b6%d0%b8%d0%bb-%d0%bf%d1%83%d0%bd%d0%ba%d1%82-%d1%83%d0%bf",
+"published_at": "2026-11-17T08:36:31Z",
+"quote": "РАСЧЕТ САУ «МСТА-С» УНИЧТОЖИЛ ПУНКТ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_9c319f7e07f81b47",
+"from": "ent_72167ac7999f6b9e",
+"to": "ent_a22db82c40874406",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611171037-cwod8.html",
+"published_at": "2026-11-17T07:54:13Z",
+"quote": "Минобороны России сообщило об уничтожении передовых позиций ВСУ в Запорожской области."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_e24faed487b1b6a2",
+"from": "ent_f7a9f659b73e4140",
+"to": "ent_a02f859093a4e63a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611171020-CfnjG.html",
+"published_at": "2026-11-17T07:36:40Z",
+"quote": "За это время завербованные ГУР и СБУ граждане России в контролируемых сотрудниками ФСБ условиях получили более 700 килограммов взрывчатки западного производства, не менее 40 ударных квадрокоптеров и шесть гидроциклов."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_dd640af17af85f3e",
+"from": "ent_f7a9f659b73e4140",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611171020-CfnjG.html",
+"published_at": "2026-11-17T07:36:40Z",
+"quote": "За это время завербованные ГУР и СБУ граждане России в контролируемых сотрудниками ФСБ условиях получили более 700 килограммов взрывчатки западного производства, не менее 40 ударных квадрокоптеров и шесть гидроциклов."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 }
 ]

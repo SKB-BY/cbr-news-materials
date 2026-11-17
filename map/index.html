@@ -138,8 +138,20 @@
       <p class="muted">Связи — только с URL источника (<a href="links.json">links.json</a>) и только если оба конца имеют точку; пунктир — внешний узел, которого нет в реестре.</p>
       <details class="cbr-help-inline" id="cbr-legend"><summary>Справка: окрас, субъективность, ОИ 5×5</summary></details>
       <h2>Сведения и связи организаций, компаний и фирм</h2>
-      <p class="muted">Все разделы и сферы. Сведения — материалы с кодом ОИ 5×5 с 01.01.2026, где названа организация (упоминание в контуре или точное имя в заголовке); порядок — дата, достоверность, значимость. Связи — именованные связи из опубликованных материалов с окрасом, без «совместного упоминания». Узел без подтверждённого или обоснованного признаками места показан с пометкой «без точки» — координаты не выдумываются. Приблизительные точки помечены ≈. Телефоны, e-mail и домашние адреса не публикуются.</p>
+      <p class="muted">Все разделы и сферы. Сведения — материалы с кодом ОИ 5×5 за все периоды базы (2023–2026), привязанные к узлу движком связей Контура (t167u): официальный домен компании как источник, имя или псевдоним в заголовке или тексте, упоминание контура с тем же именем. Страна и тема — не основание; материал без связи остаётся самостоятельной новостью (<a href="../news-map/">Новостная карта</a>). Порядок — дата, достоверность, значимость. Связи — именованные связи из опубликованных материалов с окрасом, без «совместного упоминания». Узел без подтверждённого или обоснованного признаками места показан с пометкой «без точки» — координаты не выдумываются. Приблизительные точки помечены ≈. Телефоны, e-mail и домашние адреса не публикуются.</p>
       <select class="f" id="fsph"><option value="">Сфера: все</option></select>
+      <!-- t167u: фильтры сведений узла (действуют на список узлов, всплывающие карточки и подсказки) -->
+      <div id="t167f">
+        <select class="f" id="fper"><option value="">Период: все (2023–2026)</option><option value="d7">последние 7 дней</option><option value="d30">последние 30 дней</option><option value="d90">последние 90 дней</option><option value="y2026">2026 год</option><option value="y2025">2025 год</option><option value="y2024">2024 год</option><option value="y2023">2023 год</option></select>
+        <div class="row"><input type="date" class="f" id="fd1" title="с даты (Europe/Minsk)"><input type="date" class="f" id="fd2" title="по дату (Europe/Minsk)"></div>
+        <input type="search" id="fsq" placeholder="Источник: часть имени или домена" list="fsq-list"><datalist id="fsq-list"></datalist>
+        <select class="f" id="frel"><option value="">Достоверность (сведения ОИ): любая</option><option value="1">1 — подтверждено</option><option value="2">2 — вероятно</option><option value="3">3 — возможно</option><option value="4">4 — сомнительно</option><option value="5">5 — маловероятно</option><option value="12">1–2</option><option value="123">1–3</option></select>
+        <select class="f" id="fimp"><option value="">Значимость (источник ОИ): любая</option><option value="А">А</option><option value="Б">Б</option><option value="В">В</option><option value="Г">Г</option><option value="Д">Д</option><option value="АБ">А–Б</option><option value="АБВ">А–В</option></select>
+        <select class="f" id="fokr"><option value="">Окрас: любой</option><option value="-2">−2 красный</option><option value="-1">−1 оранжевый</option><option value="0">0 серый</option><option value="1">+1 светло-зелёный</option><option value="2">+2 ярко-зелёный</option><option value="neg">отрицательный (−2, −1)</option><option value="pos">положительный (+1, +2)</option><option value="none">без оценки окраса</option></select>
+        <select class="f" id="ftyp"><option value="">Тип: любой</option><option value="новость">новость</option><option value="утверждение">утверждение</option><option value="слух">слух</option></select>
+        <select class="f" id="fhow"><option value="">Основание связи: любое</option><option value="источник">источник — сайт компании</option><option value="заголовок">имя в заголовке</option><option value="текст">имя в тексте</option><option value="контур">упоминание контура</option></select>
+        <div class="row"><button type="button" id="freset" class="f" style="width:auto;cursor:pointer">Сбросить фильтры</button><span class="muted" id="fstate"></span></div>
+      </div>
       <select class="f" id="fsrc"><option value="">Узлы: реестр и контур</option><option value="реестр">только реестр</option><option value="контур">только контур (нет в реестре)</option><option value="nopt">только без точки на карте</option></select>
       <div class="muted" id="orgs-h"></div>
       <ul id="orgs"></ul>
@@ -152,7 +164,7 @@
 </div>
 <script src="vendor/leaflet.js?v=t27"></script>
 <script src="data.js?v=t86"></script>
-<script src="contour.js?v=t72"></script>
+<script src="contour.js?v=t167"></script>
 <script src="../assets/asof.js?v=t81"></script>
 <script src="../news-map/explain.js?v=t83"></script>
 <script>
@@ -250,7 +262,7 @@ function card(n){
       +row("Заказчики",esc(n.customers))+row("Источник заказчиков",urls(n.customers_source))
       +row("Владелец / UBO",esc(n.ubo_name))+row("Источник UBO",urls(n.ubo_source))
       +row("Маркеры риска",esc(n.red_flags))+row("Источник маркеров",urls(n.red_flags_source))
-      +row("Tier",esc(n.tier_level))+row("Упоминаний в базе",esc(n.mentions))+"</dl>";
+      +row("Tier",esc(n.tier_level))+row("Сведений (движок связей)",C.nodes[n.id]?String(C.nodes[n.id].ni):"0")+"</dl>";
   }
   if(rel) h+=`<h2>Связи</h2><ul>${rel}</ul>`;
   return h+cardC(n.id)+"</div>";
@@ -270,21 +282,40 @@ function okr(s2,s1,o2){ if(s2==null) return ""; const o=OKR[String(s2)]||["",""]
   return `<span class="${o[1]}"${at}>окрас ${f(s2)}${s1!=null?" ("+f(s1)+")":""}</span>`; }
 function subj(v,h){ return v==null||!CX ? "" : " · "+CX.subjBadge(v,{h}); }
 function curSph(){ return document.getElementById("fsph").value; }
-function nodeItems(id){ const n=C.nodes[id]; if(!n) return []; const sp=curSph();
-  return n.it.map(([h,how])=>[h,how,C.items[h]]).filter(x=>x[2] && (!sp || x[2][7].some(s=>s[0]===sp))); }
+// t167u: фильтры сведений (одни и те же для списка узлов, карточек и подсказок)
+function fv(id){ const e=document.getElementById(id); return e?e.value.trim():""; }
+function dshift(d){ const t=new Date(Date.now()+3*3600e3-d*864e5); return t.toISOString().slice(0,10); }   // Europe/Minsk = UTC+3
+function FL(){ const p=fv("fper"); let d1=fv("fd1"), d2=fv("fd2");
+  if(p.startsWith("d")) d1=d1||dshift(+p.slice(1)); if(p.startsWith("y")){ d1=d1||p.slice(1)+"-01-01"; d2=d2||p.slice(1)+"-12-31"; }
+  return {sp:curSph(), d1, d2, sq:fv("fsq").toLowerCase(), rel:fv("frel"), imp:fv("fimp"), okr:fv("fokr"), typ:fv("ftyp"), how:fv("fhow")}; }
+function pass(f,it,how){ const code=it[6]||it[5]||"";
+  if(f.sp && !it[7].some(s=>s[0]===f.sp)) return false;
+  if(f.d1 && it[0]<f.d1) return false; if(f.d2 && it[0]>f.d2) return false;
+  if(f.sq && !((it[1]||"").toLowerCase().includes(f.sq) || (it[2]||"").toLowerCase().includes(f.sq))) return false;
+  if(f.rel && !f.rel.includes(code.slice(1,2))) return false;
+  if(f.imp && !f.imp.includes(code.slice(0,1))) return false;
+  if(f.okr){ const v=it[8]; if(f.okr==="none"){ if(v!=null) return false; } else if(f.okr==="neg"){ if(!(v<0)) return false; } else if(f.okr==="pos"){ if(!(v>0)) return false; } else if(String(v)!==f.okr) return false; }
+  if(f.typ && st(code)!==f.typ) return false;
+  if(f.how && how!==f.how) return false;
+  return true; }
+function factive(f){ return !!(f.sp||f.d1||f.d2||f.sq||f.rel||f.imp||f.okr||f.typ||f.how); }
+function nodeItems(id){ const n=C.nodes[id]; if(!n) return []; const f=FL();
+  return n.it.map(([h,how,mt])=>[h,how,C.items[h],mt]).filter(x=>x[2] && pass(f,x[2],x[1])); }
 function nodeRels(id){ return C.rels.filter(r=>r.a===id||r.b===id); }
 function nm(id,lab){ if(id){ const r=byId[id]; if(r) return short(r); const c=C.nodes[id]; return c?c.name:id; } return lab?lab[1]:"—"; }
 function itemLi(x){ const [h,how,it]=x, code=it[6]||it[5];
   const sp=it[7].map(s=>(SPHL[s[0]]?s[0]:s[0])+(s[1]?" — "+s[1]:"")).join("; ");
   return `<li><span class="m">${esc(it[0])} · ${esc(it[1])}</span> ${oib(it[5],h,0,it[2])}${it[6]?" → "+oib(it[6],h,1,it[2]):""} <span class="m">${esc(st(code))}</span><br>`
     +`<a href="${esc(it[2])}" target="_blank" rel="noopener">${esc(it[3])}</a>${it[4]?`<br><span class="muted">по-русски: ${esc(it[4])}</span>`:""}`
-    +`<br><span class="m">${sp?"сфера: "+esc(sp)+" · ":""}${okr(it[8],it[9],{h,lvl:"doc"})}${subj(it[10],h)}${how==="заголовок"?" · имя в заголовке":""}</span></li>`; }
+    +`<br><span class="m">${[sp?"сфера: "+esc(sp):"", okr(it[8],it[9],{h,lvl:"doc"})+subj(it[10],h).replace(/^ · /,""), "связь: "+esc(HOWL[how]||how)+(x[3]?" «"+esc(x[3])+"»":"")].filter(Boolean).join(" · ")}</span></li>`; }
+const HOWL={"источник":"сайт компании","заголовок":"имя в заголовке","текст":"имя в тексте","контур":"упоминание контура"};
 function relLi(r){ const ev=r.ev.map(e=>`<a href="${esc(e[0])}" target="_blank" rel="noopener">${esc(e[1].slice(0,10))}</a>${e[2]?": «"+esc(e[2])+"»":""}`).join("<br>");
   return `<li><b>${esc(r.t)}</b>: ${esc(nm(r.a,r.al))} → ${esc(nm(r.b,r.bl))}${r.d?" ("+esc(r.d)+")":""} <span class="m">· материалов ${r.n} · ${okr(r.s2,r.s1,{lvl:"rel",q:(r.ev[0]||[])[2],n:r.ev.length})}</span><br><span class="m">${ev}</span></li>`; }
-function cardC(id){ const n=C.nodes[id]; if(!n) return `<h2>Сведения</h2><p class="muted">Материалов с кодом ОИ 5×5 с 01.01.2026, где названа эта организация, в контуре нет.</p>`;
-  const its=nodeItems(id), rs=nodeRels(id), sp=curSph();
-  let h=`<h2>Сведения (${its.length}${n.ni>n.it.length?" из "+n.ni+", показаны последние "+n.it.length:""})${sp?" · сфера: "+esc(sp):""}</h2>`;
-  h+= its.length?`<ul class="sv">${its.map(itemLi).join("")}</ul>`:`<p class="muted">Нет материалов${sp?" в этой сфере":""}.</p>`;
+function cardC(id){ const n=C.nodes[id]; if(!n) return `<h2>Сведения</h2><p class="muted">Материалов с кодом ОИ 5×5, связанных с этой организацией (имя, псевдоним, сайт компании), в базе нет. Связей нет — значит, их нет.</p>`;
+  const its=nodeItems(id), rs=nodeRels(id), f=FL(), on=factive(f);
+  let h=`<h2>Сведения (${its.length}${on&&its.length!==n.it.length?" из "+n.it.length+" по фильтрам":""})${f.sp?" · сфера: "+esc(f.sp):""}</h2>`;
+  const K=40, li=its.map(itemLi);
+  h+= its.length?`<ul class="sv">${li.slice(0,K).join("")}</ul>`+(li.length>K?`<details><summary class="m" style="cursor:pointer">ещё ${li.length-K}</summary><ul class="sv">${li.slice(K).join("")}</ul></details>`:""):`<p class="muted">Нет материалов${on?" по выбранным фильтрам":""}.</p>`;
   h+=`<h2>Связи из материалов (${rs.length})</h2>`+(rs.length?`<ul class="sv">${rs.map(relLi).join("")}</ul>`:`<p class="muted">Именованных связей нет.</p>`);
   return h; }
 function cardOnly(id){ const n=C.nodes[id]; return `<div class="pp"><h3>${esc(n.name)}</h3><span class="tag" style="background:#d08a1e">из контура · нет в реестре</span> <span class="nopt">без точки</span><dl><dt>Тип</dt><dd>${esc({company:"компания",agency:"организация",program:"программа",research:"НИИ / университет"}[n.kind]||n.kind)}</dd>${n.country?`<dt>Страна</dt><dd>${esc(n.country)}</dd>`:""}<dt>Локация</dt><dd>нет подтверждённого адреса с официальной или реестровой страницы</dd></dl>${cardC(id)}</div>`; }
@@ -378,7 +409,7 @@ function drawOrgs(){ const ol=document.getElementById("orgs"); ol.innerHTML=""; 
   const q=document.getElementById("q").value.trim().toLowerCase();
   const rows=Object.entries(C.nodes).map(([id,n])=>{ const r=byId[id]; const loc=!!(r&&r.lat!=null);
       return {id,n,loc,ni:nodeItems(id).length,nr:nodeRels(id).length}; })
-    .filter(x=>(x.ni||(!sp&&x.nr)) && (!src || (src==="nopt"?!x.loc:x.n.src===src)) && (!q||x.n.name.toLowerCase().includes(q)))
+    .filter(x=>(x.ni||(!sp&&!factive(FL())&&x.nr)) && (!src || (src==="nopt"?!x.loc:x.n.src===src)) && (!q||x.n.name.toLowerCase().includes(q)))
     .sort((a,b)=>(b.ni+b.nr)-(a.ni+a.nr)||a.n.name.localeCompare(b.n.name));
   document.getElementById("orgs-h").textContent=`Узлов со сведениями или связями: ${rows.length}`+(sp?` (сфера: ${sp})`:"");
   rows.forEach(x=>{ const li=document.createElement("li"); const k=x.n.src==="реестр"&&byId[x.id]?cat(byId[x.id]):"external";
@@ -386,8 +417,16 @@ function drawOrgs(){ const ol=document.getElementById("orgs"); ol.innerHTML=""; 
     li.innerHTML=`<span class="tag" style="background:${x.n.src==="реестр"?KIND[k].color:"#d08a1e"}">${x.n.src==="реестр"?esc(KIND[k].label.split(" ")[0]):"контур"}</span>${esc(x.n.name.split(" — ")[0])}${x.loc?(approx?'<span class="nopt">≈</span>':""):'<span class="nopt">без точки</span>'}<br><span class="cnt">сведений ${x.ni} · связей ${x.nr}${x.n.country?" · "+esc(x.n.country):""}${approx?" · "+APPROX_STMT:""}</span>`;
     li.onclick=()=>openAny(x.id); ol.appendChild(li); }); }
 fs.addEventListener("change",()=>{ drawOrgs(); refresh(); }); document.getElementById("fsrc").addEventListener("change",drawOrgs);
+// t167u: фильтры сведений — список узлов, точки, открытая карточка
+{ const srcs={}; Object.values(C.items).forEach(it=>{ srcs[it[1]]=(srcs[it[1]]||0)+1; });
+  const dl=document.getElementById("fsq-list"); Object.entries(srcs).sort((a,b)=>b[1]-a[1]).slice(0,400).forEach(([s])=>{ const o=document.createElement("option"); o.value=s; dl.appendChild(o); });
+  const ids=["fper","fd1","fd2","fsq","frel","fimp","fokr","ftyp","fhow"];
+  const upd=()=>{ const f=FL(); document.getElementById("fstate").textContent=factive(f)?"фильтры включены":""; drawOrgs(); refresh(); if(map._popup&&map._popup.isOpen&&map._popup.isOpen()) map._popup.update(); };
+  ids.forEach(i=>{ const e=document.getElementById(i); e.addEventListener(e.tagName==="INPUT"&&e.type==="search"?"input":"change",upd); });
+  document.getElementById("freset").addEventListener("click",()=>{ ids.forEach(i=>{ document.getElementById(i).value=""; }); fs.value=""; upd(); }); }
 document.getElementById("q").addEventListener("input",drawOrgs);
 drawOrgs();
+{ const m=/^#node=(.+)$/.exec(location.hash||""); if(m){ const id=decodeURIComponent(m[1]); setTimeout(()=>openAny(id),400); } }
 const ul=document.getElementById("unloc");
 document.getElementById("unloc-h").textContent=`Без точки на карте (${unplaced.length})`;
 unplaced.forEach(n=>{ const li=document.createElement("li");

@@ -1,12 +1,12 @@
 # Упомянуто в новостях, но отсутствует в реестре — рабочий список
 
-Построен по живой базе на 17.11.2026 10:15 Europe/Minsk.
+Построен по живой базе на 17.11.2026 12:47 Europe/Minsk.
 
 Рабочий список кандидатов, **не проверенная перепись**. Названия извлечены регулярными выражениями из заголовков и вводных абзацев новостей и сравнены с реестром `companies.csv` (названия, псевдонимы, шаблоны упоминаний). Среди кандидатов есть ложные срабатывания (продукты, ведомства, общие слова). В реестр ничего автоматически не добавляется: строка вносится только после открытия официального сайта и источника.
 
 Российские компании в реестр не вносятся (решение 11.11.2026: «Удали все российские компании»); российские названия в этом списке — только упоминания в ленте, не кандидаты в реестр.
 
-Порог: кандидат встретился минимум в 2 материалах. Кандидатов: 106.
+Порог: кандидат встретился минимум в 2 материалах. Кандидатов: 107.
 
 | Кандидат | Материалов | Примеры (ссылки) |
 |---|---:|---|
@@ -95,6 +95,7 @@
 | GP-Act III Acquisition Corp | 2 | [Dronamics to Go Public on Nasdaq Through Merger](https://dronelife.com/2026/11/04/dronamics-to-go-public-on-nasdaq-through-merger); [Dronamics' Nasdaq SPAC Trust Falls To $30 Million Before Merger Vote](https://dronexl.co/2026/11/16/dronamics-spac-trust-redemptions-black-swan-nasdaq) |
 | INFORM Wales Defence | 2 | [Welsh Defence Industry Priorities to Be Presented to More Than 200 Government and Industry Leaders](https://businessnewswales.com/welsh-defence-industry-priorities-to-be-presented-to-more-than-200-government-and-industry-leaders); [New Media Channel Launches to Spotlight Welsh Defence Industry and Supply Chain Opportunities](https://businessnewswales.com/new-media-channel-launches-to-spotlight-welsh-defence-industry-and-supply-chain-opportunities) |
 | International Development Finance Corporation | 2 | [UForce raises $700 million at a $6 billion valuation to build more drones in Ukraine and abroad](https://defence-industry.eu/uforce-raises-700-million-at-a-6-billion-valuation-to-build-more-drones-in-ukraine-and-abroad); [Defense Business Brief: This Ukraine-founded drone maker is now worth $6 billion. What now?](https://defenseone.com/business/2026/11/defense-business-brief-ukraine-founded-drone-maker-now-worth-6-billion-what-now/417207) |
+| Join Bathy Drone Solutions | 2 | [Multibeam Drone Demo Days in Perth / SPH Engineering](https://sphengineering.com/news/multibeam-drone-demo-days-perth); [Multibeam Drone Demo Days in Brisbane / SPH Engineering](https://sphengineering.com/news/multibeam-drone-demo-days-brisbane) |
 | Kord Technologies | 2 | [U.S. Department of War invites seven teams to live-fire counter-drone laser trials at Dugway that could lead to immediate purchase orders](https://defence-industry.eu/u-s-department-of-war-invites-seven-teams-to-live-fire-counter-drone-laser-trials-at-dugway-that-could-lead-to-immediate-purchase-orders); [Pentagon IDs companies and systems that will participate in high-energy laser ‘shoot-off’ with eye toward quick purchase orders](https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off) |
 | Mexico The Federal Aviation | 2 | [FAA authorises Skyways to fly drones over Gulf of Mexico](https://unmannedairspace.info/uncategorized/faa-authorises-skyways-to-fly-drones-over-gulf-of-mexico); [FAA Authorizes Long-Range Drone Operations Over Gulf of Mexico](https://uasvision.com/2026/11/11/faa-authorizes-long-range-drone-operations-over-gulf-of-mexico) |
 | MQ-58 Valkyrie Drones | 2 | [MQ-58 Valkyrie Drones Now Cost $6M-$8M Each](https://twz.com/air/mq-58-valkyrie-drones-now-cost-6m-8m-each); [MQ-58 Valkyrie Drones Now Cost $6M-$8M Each](https://twz.com/air/mq-58-valkyrie-drones-now-cost-6m-8m-each) |
