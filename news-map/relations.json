@@ -5,8 +5,18 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 147,
+"evidence_count": 149,
 "evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28324487",
+"published_at": "2026-11-17T04:31:49Z",
+"quote": "В группировке \"Север\" заявили об уничтожении более 80 БПЛА \"Баба-яга\" ВСУ"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28324423",
+"published_at": "2026-11-17T04:05:02Z",
+"quote": "В группировке \"Север\" заявили о поражении более 10 пунктов БПЛА ВСУ"
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28324269",
 "published_at": "2026-11-17T02:31:56Z",
@@ -21,16 +31,6 @@
 "url": "https://tass.ru/armiya-i-opk/28324245",
 "published_at": "2026-11-17T02:04:33Z",
 "quote": "ВС РФ поразили технику, боекомплект и средства связи ВСУ в Сумской области"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28324239",
-"published_at": "2026-11-17T02:01:11Z",
-"quote": "Танки Т-90М \"Прорыв\" уничтожили передовые позиции ВСУ в Запорожской области"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28323897",
-"published_at": "2026-11-16T21:01:51Z",
-"quote": "Рядовой Мартынюк на ходу уничтожил три ударных беспилотника ВСУ"
 }
 ],
 "sentiment": {
@@ -21100,6 +21100,26 @@
 ],
 "sentiment": {
 "score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_2a7653e0bc806302",
+"from": "ent_8ee1d29ffcfae48f",
+"to": "ent_ba903dccb0560ddb",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://armyinform.com.ua/2026/11/17/franczuzka-vidpovid-himars-oficzijnyj-paryzh-zamovyv-dlya-svogo-vijska-novitnyu-rszv",
+"published_at": "2026-11-17T04:37:34Z",
+"quote": "Контракт на виробництво та постачання озброєння отримав потужний консорціум європейських оборонних компаній — MBDA та Safran Electronics & Defense, зазначає ІА АрміяInform."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
 "score_pm2": 1,
 "label": "умеренно позитивный"
 }

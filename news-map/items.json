@@ -180946,5 +180946,598 @@
 "subjectivity": 0.1,
 "risk_tags": []
 }
+},
+{
+"dedupe_hash": "5b02deea190ca2c335bb1f7909f1509384e068dfe06f1f7a3bfd319003f9d6fe",
+"url": "https://t.me/news_UAV/5971",
+"published_at": "2026-11-17T04:22:12Z",
+"event_date": "2026-11-17",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "4ccc6cc2a9fcbcb9c60f5a3580771a27fb3322d3dfbab076ea817db22a415f9f",
+"url": "https://aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field?traffic_source=rss",
+"published_at": "2026-11-17T03:12:54Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ea47ab2bf89bfc4d1b0dfbeccdcd5262a64c7933b2b278bc10e5b3e8768fd859",
+"url": "https://tass.ru/armiya-i-opk/28324571",
+"published_at": "2026-11-17T05:23:32Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "f8eadaa95b5ff7b64784a189d71997211313a403f5ad6b646926979f00c626d9",
+"url": "https://tass.ru/armiya-i-opk/28324597",
+"published_at": "2026-11-17T05:07:31Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "808d00640b180da11e0a8cc0663721218513010f8157fc0345a687c05810261c",
+"url": "https://armyinform.com.ua/2026/11/17/okupanty-vtratyly-za-dobu-1620-vijskovyh-dva-tanky-ta-52-artsystemy-genshtab-zsu",
+"published_at": "2026-11-17T05:12:17Z",
+"event_date": "2026-11-17",
+"spheres": [
+{
+"sphere": "бронетехника",
+"subfilter": "танки"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ed1b89c6b4c38e30d2b8471220dd4c65a36a059d84fe4f18099989ef35dd636d",
+"url": "https://tass.ru/armiya-i-opk/28324567",
+"published_at": "2026-11-17T05:02:43Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "20ac9b3ade6da78712dcda2311e1cbc7eb3b9c4ee79a515b4fb1c2aa7e7c2eca",
+"url": "https://armyinform.com.ua/2026/11/17/franczuzka-vidpovid-himars-oficzijnyj-paryzh-zamovyv-dlya-svogo-vijska-novitnyu-rszv",
+"published_at": "2026-11-17T04:37:34Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "артиллерийские системы",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "cf4d3f96aa71637c7eed5c56d589e33ec8a2a558a9f84999ff7370275c184e99",
+"url": "https://tass.ru/proisshestviya/28324507",
+"published_at": "2026-11-17T04:43:53Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ff857402f16b3e29b66356380b172b2f5814f2d9d9ed039bb702152ff7e4d65c",
+"url": "https://tass.ru/armiya-i-opk/28324493",
+"published_at": "2026-11-17T04:34:30Z",
+"event_date": "2026-11-16",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "0a27628177c4cce1523f695a277b278c3ccb298fe1f8d0dedff623532fe5aec5",
+"url": "https://tass.ru/armiya-i-opk/28324487",
+"published_at": "2026-11-17T04:31:49Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "da764eeda7443b238e95ab8f3549974bcd68f47c2d750e93845434e28bb5b917",
+"url": "https://tass.ru/ekonomika/28324481",
+"published_at": "2026-11-17T04:29:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7034e4616e6c13634131165a42086d9a63a1bf2127f2ef73306759afd2118ebf",
+"url": "https://tass.ru/proisshestviya/28324473",
+"published_at": "2026-11-17T04:21:18Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "567acddb34ab3d45f042213361e9ab929dff2f9fd1d09896fc63f5c94a0222bb",
+"url": "https://tass.ru/proisshestviya/28324467",
+"published_at": "2026-11-17T04:18:53Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "cd3ed96a1ca6b462e0356f09a62b2de01ddff8f7558775f530628df2005b5dd4",
+"url": "https://tass.ru/ekonomika/28324463",
+"published_at": "2026-11-17T04:16:36Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b3e0e73e6e76773f8196d98fcb853c13d5d3335f2d8d7c0435e19d862a935619",
+"url": "https://kyivindependent.com/fire-reported-at-major-russian-petrochemical-complex-in-bashkortostan-amid-drone-attack",
+"published_at": "2026-11-17T04:23:49Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d670213385bc2fc377b5776051b06cc9e3c413dd48ad053ca5ab238d3008a646",
+"url": "https://tass.ru/proisshestviya/28324457",
+"published_at": "2026-11-17T04:15:24Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "522be1ad17efa5845bf2f1d5a87b10dba98072b64c96045c0c390805386983c6",
+"url": "https://kyivindependent.com/south-korea-scrambles-fighter-jets-after-russian-military-aircraft-enter-air-defense-zone",
+"published_at": "2026-11-17T03:26:35Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "8ac60b53a6d538c66207ddfbd61775de51e32a66720b961b77773f9a509953dc",
+"url": "https://tass.ru/proisshestviya/28324445",
+"published_at": "2026-11-17T04:12:22Z",
+"event_date": "2026-11-16",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "acbfee34fadd96f7f536ff27de868408b4c508bd3055a508fad716e21f1b4ba8",
+"url": "https://tass.ru/ekonomika/28324437",
+"published_at": "2026-11-17T04:08:24Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6f4d11da16a742e365292362dec0cd50d8b3dd6a8f91103c5135831414adde1b",
+"url": "https://tass.ru/armiya-i-opk/28324423",
+"published_at": "2026-11-17T04:05:02Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "df6cd12c34f66e93d064127a71c8c82532a4e0f0fc2f14d2ff2ee987aec0a439",
+"url": "https://tass.ru/proisshestviya/28324401",
+"published_at": "2026-11-17T03:55:45Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "4ef92225187f7f8ef3e020f4e6c7793ce6e691bedec1f8a9b0aea6fefb49cefd",
+"url": "https://tass.ru/ekonomika/28324393",
+"published_at": "2026-11-17T03:48:29Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "1f3861fd824f0fee4c545542a02c9334508d658d36ca2c331668b51766a95990",
+"url": "https://tass.ru/armiya-i-opk/28324373",
+"published_at": "2026-11-17T03:37:25Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "9fe7c011e52eb91de5e04b2dcdae21f3154e83722d143d96e8547df0f7f373fa",
+"url": "https://ria.ru/20261117/konstantinovka-2132028511.html",
+"published_at": "2026-11-17T05:26:24Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6aa23851431b84048229d535aca4cc54b37770c3640fffe81c4390e4822161ef",
+"url": "https://ria.ru/20261117/moskva-2132027918.html",
+"published_at": "2026-11-17T05:21:10Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b9e7abed2d8058e419b9629a2d0e983325da79b7dd626d82e3aa8909aa4f261d",
+"url": "https://ria.ru/20261117/bashkirija-2132027225.html",
+"published_at": "2026-11-17T05:12:05Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "dfe6dd83998fe04585b3f375dc3e05e24e85aba892ed5fbe804927c2a58bc9f0",
+"url": "https://ria.ru/20261117/oak-2132026914.html",
+"published_at": "2026-11-17T05:07:54Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "dd4284fd1db43dbf3a7bfa63e693110913d2aaeb460359cf13206fbb06efbe80",
+"url": "https://defence24.pl/przemysl/challenger-3-po-pierwszych-testach-pozytywne-wyniki",
+"published_at": "2026-11-17T05:30:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "бронетехника",
+"subfilter": "танки"
+}
+],
+"sentiment": {
+"score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "e10f2b31bbf6e01d1401165d1bde0e497c603306c697f05bec0ccf87b2496aa4",
+"url": "https://defence24.pl/sily-zbrojne/bialorus-przywraca-do-sluzby-stara-artylerie",
+"published_at": "2026-11-17T05:00:02Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "артиллерийские системы",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "51a99feb5a1f52d51515efac1b889e47fe59afdcd268286d5adc4d90ae68e36e",
+"url": "https://defence24.pl/polityka-obronna/samolot-szpiegowski-na-wschodniej-flance-nato-granica-pod-obserwacja",
+"published_at": "2026-11-17T04:45:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c458c4523311b1088702b3d6a1e4c74bce5c9b4484b4ec102ef5ebcdf881a8c3",
+"url": "https://news.by/news/v_mire/sboy-v-aviatsii-ssha-united-airlines-zaderzhala-14-reysov",
+"published_at": "2026-11-17T04:40:49Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
 }
 ]
