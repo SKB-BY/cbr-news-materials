@@ -5,8 +5,23 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 175,
+"evidence_count": 179,
 "evidence": [
+{
+"url": "https://eadaily.com/ru/news/2026/11/17/pererezayut-suhoputnyy-koridor-v-krym-drony-vsu-udarili-po-mostu-na-trasse-r-280",
+"published_at": "2026-11-17T11:46:00Z",
+"quote": "Перерезают сухопутный коридор в Крым: дроны ВСУ ударили по мосту на трассе Р-280: EADaily"
+},
+{
+"url": "https://tvzvezda.ru/news/202611171239-8Q3Hv.html",
+"published_at": "2026-11-17T11:02:02Z",
+"quote": "Мобильные огневые группы уничтожили свыше 10 дронов ВСУ в Херсонской области"
+},
+{
+"url": "https://tvzvezda.ru/news/202611171340-JqJrn.html",
+"published_at": "2026-11-17T10:57:02Z",
+"quote": "Кроме этого, на боевика ВСУ, оказавшегося в зоне поражения, оказывает воздействие резкий перепад давления."
+},
 {
 "url": "https://ria.ru/20261117/pvo-2132076426.html",
 "published_at": "2026-11-17T08:59:37Z",
@@ -16,21 +31,6 @@
 "url": "https://tass.ru/armiya-i-opk/28325673",
 "published_at": "2026-11-17T08:52:23Z",
 "quote": "ВС РФ поразили места производства и хранения беспилотников ВСУ"
-},
-{
-"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%81%d0%b0%d1%83-%d0%bc%d1%81%d1%82%d0%b0-%d1%81-%d1%83%d0%bd%d0%b8%d1%87%d1%82%d0%be%d0%b6%d0%b8%d0%bb-%d0%bf%d1%83%d0%bd%d0%ba%d1%82-%d1%83%d0%bf",
-"published_at": "2026-11-17T08:36:31Z",
-"quote": "РАСЧЕТ САУ «МСТА-С» УНИЧТОЖИЛ ПУНКТ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
-},
-{
-"url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6%d0%b8-%d1%82%d0%b0%d0%bd%d0%ba%d0%be%d0%b2-%d1%82-90%d0%bc-%d0%bf%d1%80%d0%be%d1%80%d1%8b%d0%b2-%d0%b3%d1%80%d1%83%d0%bf%d0%bf%d0%b8%d1%80%d0%be%d0%b2",
-"published_at": "2026-11-17T08:28:08Z",
-"quote": "ЭКИПАЖИ ТАНКОВ Т-90М «ПРОРЫВ» ГРУППИРОВКИ ВОЙСК «ВОСТОК» УНИЧТОЖИЛИ ПЕРЕДОВЫЕ ПОЗИЦИИ ВСУ В ЗАПОРОЖСКОЙ ОБЛАСТИ"
-},
-{
-"url": "https://t.me/nm_dnr/16211",
-"published_at": "2026-11-17T07:59:01Z",
-"quote": "📹 33 мсп уничтожил НРТК и ПУ БЛА ВСУ"
 }
 ],
 "sentiment": {
@@ -205,8 +205,13 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 14,
+"evidence_count": 15,
 "evidence": [
+{
+"url": "https://eadaily.com/ru/news/2026/11/17/pererezayut-suhoputnyy-koridor-v-krym-drony-vsu-udarili-po-mostu-na-trasse-r-280",
+"published_at": "2026-11-17T11:46:00Z",
+"quote": "Освободили Заливное и сбили 9 ракет «Фламинго»: сводка Минобороны России"
+},
 {
 "url": "https://tvzvezda.ru/news/202611171037-cwod8.html",
 "published_at": "2026-11-17T07:54:13Z",
@@ -226,15 +231,10 @@
 "url": "https://t.me/news_UAV/5963",
 "published_at": "2026-11-16T09:53:49Z",
 "quote": "Российская ПВО сбила 2049 дронов ВСУ за сутки Силы ПВО за сутки уничтожили четыре ракеты \"Фламинго\" и 2049 беспилотников ВСУ, сообщило в понедельник Минобороны России."
-},
-{
-"url": "https://tvzvezda.ru/news/202611161138-MvDEo.html",
-"published_at": "2026-11-16T09:52:33Z",
-"quote": "Минобороны России сообщило об уничтожении украинских расчетов беспилотных летательных аппаратов в зоне проведения специальной военной операции."
 }
 ],
 "sentiment": {
-"score_pm1": -0.3,
+"score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -277,6 +277,46 @@
 "score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_2599b96c1524346f",
+"from": "ent_72167ac7999f6b9e",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 7,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d0%be%d0%b0%d0%ba-%d0%bf%d0%b5%d1%80%d0%b5%d0%b4%d0%b0%d0%bb%d0%b0-%d0%bc%d0%b8%d0%bd%d0%be%d0%b1%d0%be%d1%80%d0%be%d0%bd%d1%8b-%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b8-%d0%bf%d0%b0%d1%80%d1%82%d0%b8-2",
+"published_at": "2026-11-17T08:46:35Z",
+"quote": "ОАК ПЕРЕДАЛА МИНОБОРОНЫ РОССИИ ПАРТИЮ ИСТРЕБИТЕЛЕЙ-БОМБАРДИРОВЩИКОВ СУ-34"
+},
+{
+"url": "https://aviation21.ru/tretya-v-2026-godu-partiya-su-34-postupila-v-vks-rossii",
+"published_at": "2026-11-17T08:35:51Z",
+"quote": "Объединённая авиастроительная корпорация (ОАК) передала Министерству обороны России третью в 2026 году партию фронтовых бомбардировщиков Су-34."
+},
+{
+"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
+"published_at": "2026-11-17T06:20:16Z",
+"quote": "Объединенная авиастроительная корпорация (ОАК) изготовила и передала Минобороны России новую партию истребителей-бомбардировщиков Су-34."
+},
+{
+"url": "https://t.me/uav_tech/35911",
+"published_at": "2026-04-15T17:00:12Z",
+"quote": "❗️РИА новости со ссылкой на Минобороны РФ сообщило, что Европа на фоне потерь ВСУ решила нарастить производство и поставки БПЛА Украине для ударов по России."
+},
+{
+"url": "https://t.me/drone_expert_news/5318",
+"published_at": "2026-01-28T18:39:19Z",
+"quote": "🦾 «Ростех» впервые передал Министерству обороны России новейшие мобильные комплексы радиоэлектронной борьбы «Зубр», предназначенные для защиты войск от беспилотников."
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -480,43 +520,43 @@
 }
 },
 {
-"id": "rel_2599b96c1524346f",
-"from": "ent_72167ac7999f6b9e",
-"to": "ent_28fea1c77915c37a",
-"type": "поставка",
+"id": "rel_0f6f97cb3e4cf43d",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_e7e61f26b8fd6566",
+"type": "применение",
 "event_date": null,
 "evidence_count": 6,
 "evidence": [
 {
-"url": "https://bastion-karpenko.ru/%d0%be%d0%b0%d0%ba-%d0%bf%d0%b5%d1%80%d0%b5%d0%b4%d0%b0%d0%bb%d0%b0-%d0%bc%d0%b8%d0%bd%d0%be%d0%b1%d0%be%d1%80%d0%be%d0%bd%d1%8b-%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b8-%d0%bf%d0%b0%d1%80%d1%82%d0%b8-2",
-"published_at": "2026-11-17T08:46:35Z",
-"quote": "ОАК ПЕРЕДАЛА МИНОБОРОНЫ РОССИИ ПАРТИЮ ИСТРЕБИТЕЛЕЙ-БОМБАРДИРОВЩИКОВ СУ-34"
+"url": "https://eadaily.com/ru/news/2026/11/17/pererezayut-suhoputnyy-koridor-v-krym-drony-vsu-udarili-po-mostu-na-trasse-r-280",
+"published_at": "2026-11-17T11:46:00Z",
+"quote": "Перерезают сухопутный коридор в Крым: дроны ВСУ ударили по мосту на трассе Р-280: EADaily"
 },
 {
-"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
-"published_at": "2026-11-17T06:20:16Z",
-"quote": "Объединенная авиастроительная корпорация (ОАК) изготовила и передала Минобороны России новую партию истребителей-бомбардировщиков Су-34."
+"url": "https://tass.ru/armiya-i-opk/28324849",
+"published_at": "2026-11-17T06:22:47Z",
+"quote": "Новый удар ВСУ по Крымскому мосту и 1 441 БПЛА."
 },
 {
-"url": "https://t.me/uav_tech/35911",
-"published_at": "2026-04-15T17:00:12Z",
-"quote": "❗️РИА новости со ссылкой на Минобороны РФ сообщило, что Европа на фоне потерь ВСУ решила нарастить производство и поставки БПЛА Украине для ударов по России."
+"url": "https://lenta.ru/news/2026/11/16/long-noch-vydalas-tyazheloy-vsu-udarili-po-krymskomu-mostu-boevaya-chast-odnogo-iz-dronov-upala-na-arku",
+"published_at": "2026-11-16T08:18:00Z",
+"quote": "ВСУ ударили по Крымскому мосту."
 },
 {
-"url": "https://t.me/drone_expert_news/5318",
-"published_at": "2026-01-28T18:39:19Z",
-"quote": "🦾 «Ростех» впервые передал Министерству обороны России новейшие мобильные комплексы радиоэлектронной борьбы «Зубр», предназначенные для защиты войск от беспилотников."
+"url": "https://vpk.name/news/1172005_ispolzuyut_dannye_ot_ssha_kak_ukraina_gotovila_zvezdnyi_nalet_dronov_na_rossiyu.html",
+"published_at": "2026-11-15T21:00:01Z",
+"quote": "Полковник Ходаренок: цели для массированного удара ВСУ согласовывает Зеленский Силы ПВО за ночь на 13 ноября сбили 1198 украинских беспилотников над 16 областями, Московским регионом, Крымом и Черным морем."
 },
 {
-"url": "https://t.me/dronesrussia/26844",
-"published_at": "2026-01-02T11:02:01Z",
-"quote": "Материалы с расшифрованными данными маршрутизации и контроллер украинского БПЛА, пораженного ПВО 29 декабря над Новгородской областью, переданы представителю аппарата военного атташе при посольстве США, сообщило Минобороны РФ."
+"url": "https://t.me/voron_fpv/5470",
+"published_at": "2026-05-28T08:06:02Z",
+"quote": "Подразделения Военно-воздушных сил ВСУ с использованием ракет воздушного базирования Storm Shadow уничтожили программно-аппаратные комплексы средств автоматизации разведки Военно-воздушных сил РФ в районах Воронежа (Воронежская область, РФ)"
 }
 ],
 "sentiment": {
-"score_pm1": -0.1,
-"score_pm2": 0,
-"label": "нейтральный"
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 },
 {
@@ -640,6 +680,46 @@
 }
 },
 {
+"id": "rel_5e9b6cae48511d8b",
+"from": "ent_c9797c9635450715",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 5,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37537",
+"published_at": "2026-11-17T10:30:18Z",
+"quote": "💭А ночью в западной части Черного моря во время удара по Крыму и мосту летал самолет базовой патрульной авиации Р-8А ВМС США."
+},
+{
+"url": "https://vpk.name/news/1171310_samuyu_dalnoboinuyu_raketu_vms_ssha_zagruzyat_snaryadami_vektrex.html",
+"published_at": "2026-11-12T21:00:01Z",
+"quote": "TWZ: Ракета AIM-174B ВМС США станет носителем планирующих боеприпасов Vektrex Ракета класса «воздух-воздух» AIM-174B, которую используют самолеты Военно-морских сил (ВМС) США, может стать носителем планирующих боеприпасов Vektrex для пораже"
+},
+{
+"url": "https://bmpd.livejournal.com/5010955.html",
+"published_at": "2026-10-04T21:54:25Z",
+"quote": "ВМС США с самого начала указывали, что, в отличие от пилотируемого истребителя завоевания превосходства в воздухе, планируемого к созданию по программе NGAD ВВС США, палубный F/A-XX предназначен для использования в качестве ударного истреби"
+},
+{
+"url": "https://t.me/uav_tech/35633",
+"published_at": "2026-03-25T20:26:06Z",
+"quote": "🔴🔴🔴🔴  Иранская система ПВО сбила еще один истребитель ВМС США F-18E Super Hornet."
+},
+{
+"url": "https://t.me/uav_tech/35375",
+"published_at": "2026-03-04T09:51:56Z",
+"quote": "Центральное командование США (CENTCOM) заявило, что истребитель F-35C ВМС США уничтожил иранский беспилотник, совсем рядом с авианосцем «Авраам Линкольн»."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_a7c54e65ef7435a3",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_61cfa3db2af82321",
@@ -717,46 +797,6 @@
 "score_pm1": 0.1,
 "score_pm2": 0,
 "label": "нейтральный"
-}
-},
-{
-"id": "rel_0f6f97cb3e4cf43d",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_e7e61f26b8fd6566",
-"type": "применение",
-"event_date": null,
-"evidence_count": 5,
-"evidence": [
-{
-"url": "https://tass.ru/armiya-i-opk/28324849",
-"published_at": "2026-11-17T06:22:47Z",
-"quote": "Новый удар ВСУ по Крымскому мосту и 1 441 БПЛА."
-},
-{
-"url": "https://lenta.ru/news/2026/11/16/long-noch-vydalas-tyazheloy-vsu-udarili-po-krymskomu-mostu-boevaya-chast-odnogo-iz-dronov-upala-na-arku",
-"published_at": "2026-11-16T08:18:00Z",
-"quote": "ВСУ ударили по Крымскому мосту."
-},
-{
-"url": "https://vpk.name/news/1172005_ispolzuyut_dannye_ot_ssha_kak_ukraina_gotovila_zvezdnyi_nalet_dronov_na_rossiyu.html",
-"published_at": "2026-11-15T21:00:01Z",
-"quote": "Полковник Ходаренок: цели для массированного удара ВСУ согласовывает Зеленский Силы ПВО за ночь на 13 ноября сбили 1198 украинских беспилотников над 16 областями, Московским регионом, Крымом и Черным морем."
-},
-{
-"url": "https://t.me/voron_fpv/5470",
-"published_at": "2026-05-28T08:06:02Z",
-"quote": "Подразделения Военно-воздушных сил ВСУ с использованием ракет воздушного базирования Storm Shadow уничтожили программно-аппаратные комплексы средств автоматизации разведки Военно-воздушных сил РФ в районах Воронежа (Воронежская область, РФ)"
-},
-{
-"url": "https://t.me/UAVDEV/10688",
-"published_at": "2026-03-11T14:43:59Z",
-"quote": "Дроны ВСУ, не долетевшие третьего дня до Крыма и сбитые ПВО."
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
 }
 },
 {
@@ -905,6 +945,41 @@
 }
 },
 {
+"id": "rel_71810bfb904f7bed",
+"from": "ent_72167ac7999f6b9e",
+"to": "ent_59965f590d8fcc04",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d0%be%d0%b0%d0%ba-%d0%bf%d0%b5%d1%80%d0%b5%d0%b4%d0%b0%d0%bb%d0%b0-%d0%bc%d0%b8%d0%bd%d0%be%d0%b1%d0%be%d1%80%d0%be%d0%bd%d1%8b-%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b8-%d0%bf%d0%b0%d1%80%d1%82%d0%b8-2",
+"published_at": "2026-11-17T08:46:35Z",
+"quote": "ОАК ПЕРЕДАЛА МИНОБОРОНЫ РОССИИ ПАРТИЮ ИСТРЕБИТЕЛЕЙ-БОМБАРДИРОВЩИКОВ СУ-34"
+},
+{
+"url": "https://aviation21.ru/tretya-v-2026-godu-partiya-su-34-postupila-v-vks-rossii",
+"published_at": "2026-11-17T08:35:51Z",
+"quote": "Объединённая авиастроительная корпорация (ОАК) передала Министерству обороны России третью в 2026 году партию фронтовых бомбардировщиков Су-34."
+},
+{
+"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
+"published_at": "2026-11-17T06:20:16Z",
+"quote": "Объединенная авиастроительная корпорация (ОАК) изготовила и передала Минобороны России новую партию истребителей-бомбардировщиков Су-34."
+},
+{
+"url": "https://bmpd.livejournal.com/5012123.html",
+"published_at": "2026-10-09T22:00:27Z",
+"quote": "ru/ru/press-center/news/oak-peredala-minoborony-rossii-partiyu-istrebiteley-bombardirovshchikov-su-34\" target=\"_blank\">сообщило,</a> что в рамках гособоронзаказа изготовило и передало Министерству обороны Российской Федерации партию истреби"
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_07388c3a84cef149",
 "from": "ent_7902a5283b8ea891",
 "to": "ent_b677547c4bb180c5",
@@ -935,41 +1010,6 @@
 ],
 "sentiment": {
 "score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_5e9b6cae48511d8b",
-"from": "ent_c9797c9635450715",
-"to": "ent_b677547c4bb180c5",
-"type": "применение",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://vpk.name/news/1171310_samuyu_dalnoboinuyu_raketu_vms_ssha_zagruzyat_snaryadami_vektrex.html",
-"published_at": "2026-11-12T21:00:01Z",
-"quote": "TWZ: Ракета AIM-174B ВМС США станет носителем планирующих боеприпасов Vektrex Ракета класса «воздух-воздух» AIM-174B, которую используют самолеты Военно-морских сил (ВМС) США, может стать носителем планирующих боеприпасов Vektrex для пораже"
-},
-{
-"url": "https://bmpd.livejournal.com/5010955.html",
-"published_at": "2026-10-04T21:54:25Z",
-"quote": "ВМС США с самого начала указывали, что, в отличие от пилотируемого истребителя завоевания превосходства в воздухе, планируемого к созданию по программе NGAD ВВС США, палубный F/A-XX предназначен для использования в качестве ударного истреби"
-},
-{
-"url": "https://t.me/uav_tech/35633",
-"published_at": "2026-03-25T20:26:06Z",
-"quote": "🔴🔴🔴🔴  Иранская система ПВО сбила еще один истребитель ВМС США F-18E Super Hornet."
-},
-{
-"url": "https://t.me/uav_tech/35375",
-"published_at": "2026-03-04T09:51:56Z",
-"quote": "Центральное командование США (CENTCOM) заявило, что истребитель F-35C ВМС США уничтожил иранский беспилотник, совсем рядом с авианосцем «Авраам Линкольн»."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -1580,36 +1620,6 @@
 }
 },
 {
-"id": "rel_71810bfb904f7bed",
-"from": "ent_72167ac7999f6b9e",
-"to": "ent_59965f590d8fcc04",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://bastion-karpenko.ru/%d0%be%d0%b0%d0%ba-%d0%bf%d0%b5%d1%80%d0%b5%d0%b4%d0%b0%d0%bb%d0%b0-%d0%bc%d0%b8%d0%bd%d0%be%d0%b1%d0%be%d1%80%d0%be%d0%bd%d1%8b-%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b8-%d0%bf%d0%b0%d1%80%d1%82%d0%b8-2",
-"published_at": "2026-11-17T08:46:35Z",
-"quote": "ОАК ПЕРЕДАЛА МИНОБОРОНЫ РОССИИ ПАРТИЮ ИСТРЕБИТЕЛЕЙ-БОМБАРДИРОВЩИКОВ СУ-34"
-},
-{
-"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
-"published_at": "2026-11-17T06:20:16Z",
-"quote": "Объединенная авиастроительная корпорация (ОАК) изготовила и передала Минобороны России новую партию истребителей-бомбардировщиков Су-34."
-},
-{
-"url": "https://bmpd.livejournal.com/5012123.html",
-"published_at": "2026-10-09T22:00:27Z",
-"quote": "ru/ru/press-center/news/oak-peredala-minoborony-rossii-partiyu-istrebiteley-bombardirovshchikov-su-34\" target=\"_blank\">сообщило,</a> что в рамках гособоронзаказа изготовило и передало Министерству обороны Российской Федерации партию истреби"
-}
-],
-"sentiment": {
-"score_pm1": 0.1,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_68b3077c127d4616",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_b677547c4bb180c5",
@@ -1691,6 +1701,36 @@
 "url": "https://theaviationist.com/2026/11/13/b-21-raider-first-weapon-release",
 "published_at": "2026-11-13T15:21:15Z",
 "quote": "As we have reported here at The Aviationist , an undisclosed number of B-21s are in production, with final assembly taking place at Northrop Grumman’s Palmdale, California, facility, the s"
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_f6af66de4c02d6c4",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_7bfad24d9b0db5c3",
+"type": "применение",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://eadaily.com/ru/news/2026/11/17/pererezayut-suhoputnyy-koridor-v-krym-drony-vsu-udarili-po-mostu-na-trasse-r-280",
+"published_at": "2026-11-17T11:46:00Z",
+"quote": "ВСУ предприняли попытку перерезать сухопутный коридор в Крым: сегодня утром, 17 ноября, украинские беспилотники нанесли прицельный удар по мосту через реку Миус на 96—97 километре федеральной трассы Р-280 «Новороссия» в Неклиновском районе "
+},
+{
+"url": "https://defence-ua.com/news/zsu_naroschujut_zastosuvannja_raket_neptun_i_tsogo_razu_vdarili_po_virobnitstvu_droniv-24741.html",
+"published_at": "2026-11-13T16:45:09Z",
+"quote": "ЗСУ нарощують застосування ракет \"Нептун\" і цього разу вдарили по виробництву дронів у Ростові"
+},
+{
+"url": "https://t.me/voron_fpv/5470",
+"published_at": "2026-05-28T08:06:02Z",
+"quote": "Подразделения Военно-воздушных сил ВСУ с использованием ракет воздушного базирования Storm Shadow уничтожили программно-аппаратные комплексы средств автоматизации разведки Военно-воздушных сил РФ в районах Воронежа (Воронежская область, РФ)"
 }
 ],
 "sentiment": {
@@ -1997,6 +2037,36 @@
 "score_pm1": -0.6,
 "score_pm2": -2,
 "label": "резко негативный"
+}
+},
+{
+"id": "rel_c51629eeddb45121",
+"from": "ent_59965f590d8fcc04",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://armyrecognition.com/news/aerospace-news/2026/russia-receives-new-su-34-bombers-to-sustain-strike-operations-in-ukraine-despite-sanctions",
+"published_at": "2026-11-17T10:17:37Z",
+"quote": "Russia Receives New Su-34 Bombers to Sustain Strike Operations in Ukraine Despite Sanctions"
+},
+{
+"url": "https://defence-ua.com/army_and_war/uzhe_5_uspishnih_udariv_krilatimi_raketami_neptun_zsu_za_30_dniv_skilki_su_34_ta_zavodiv_vpk_urazheno-24759.html",
+"published_at": "2026-11-16T11:43:22Z",
+"quote": "Уже 5 успішних ударів крилатими ракетами \"Нептун\" ЗСУ за 30 днів, скільки Су-34 та заводів ВПК уражено"
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6-%d1%81%d0%b2%d0%b5%d1%80%d1%85%d0%b7%d0%b2%d1%83%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d1%8f-%d0%b1",
+"published_at": "2026-11-16T08:27:02Z",
+"quote": "ЭКИПАЖ СВЕРХЗВУКОВОГО ИСТРЕБИТЕЛЯ-БОМБАРДИРОВЩИКА СУ-34 НАНЕС УДАР АВИАЦИОННЫМИ БОМБАМИ С УНИВЕРСАЛЬНЫМ МОДУЛЕМ ПЛАНИРОВАНИЯ И КОРРЕКЦИИ (УМПК) ЭКИПАЖ СВЕРХЗВУКОВОГО ИСТРЕБИТЕЛЯ-БОМБАРДИРОВЩИКА СУ-34 НАНЕС УДАР АВИАЦИОННЫМИ БОМБАМИ С УНИВЕР"
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 },
 {
@@ -2875,31 +2945,6 @@
 }
 },
 {
-"id": "rel_f6af66de4c02d6c4",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_7bfad24d9b0db5c3",
-"type": "применение",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://defence-ua.com/news/zsu_naroschujut_zastosuvannja_raket_neptun_i_tsogo_razu_vdarili_po_virobnitstvu_droniv-24741.html",
-"published_at": "2026-11-13T16:45:09Z",
-"quote": "ЗСУ нарощують застосування ракет \"Нептун\" і цього разу вдарили по виробництву дронів у Ростові"
-},
-{
-"url": "https://t.me/voron_fpv/5470",
-"published_at": "2026-05-28T08:06:02Z",
-"quote": "Подразделения Военно-воздушных сил ВСУ с использованием ракет воздушного базирования Storm Shadow уничтожили программно-аппаратные комплексы средств автоматизации разведки Военно-воздушных сил РФ в районах Воронежа (Воронежская область, РФ)"
-}
-],
-"sentiment": {
-"score_pm1": 0.1,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_3db818e6fd02b06a",
 "from": "ent_7902a5283b8ea891",
 "to": "ent_b677547c4bb180c5",
@@ -3675,6 +3720,31 @@
 }
 },
 {
+"id": "rel_aec10cea9f75dd3f",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_c32678e4a0ae4599",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://warfiles.ru/274008-poka-pvo-kieva-vysmatrivala-ballistiku-gerani-udarili-po-tylu-vsu.html",
+"published_at": "2026-11-16T18:43:24Z",
+"quote": "Пока ПВО Киева высматривала «баллистику», «Герани» ударили по тылу ВСУ"
+},
+{
+"url": "https://t.me/news_UAV/5318",
+"published_at": "2026-06-23T17:10:59Z",
+"quote": "Президент отметил, что ситуация для киевского режима на фронте стремительно ухудшается, поэтому ВСУ наносит удары по гражданским объектам, пытается создать проблемы с обеспечением энергоресурсами и повлиять на туристический сезон в России."
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_e0c0d5e31d5e3cfc",
 "from": "ent_d380c846b4a97fed",
 "to": "ent_42945ce6b8f796c3",
@@ -4300,31 +4370,6 @@
 }
 },
 {
-"id": "rel_c51629eeddb45121",
-"from": "ent_59965f590d8fcc04",
-"to": "ent_76aae9f116d88191",
-"type": "применение",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://defence-ua.com/army_and_war/uzhe_5_uspishnih_udariv_krilatimi_raketami_neptun_zsu_za_30_dniv_skilki_su_34_ta_zavodiv_vpk_urazheno-24759.html",
-"published_at": "2026-11-16T11:43:22Z",
-"quote": "Уже 5 успішних ударів крилатими ракетами \"Нептун\" ЗСУ за 30 днів, скільки Су-34 та заводів ВПК уражено"
-},
-{
-"url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6-%d1%81%d0%b2%d0%b5%d1%80%d1%85%d0%b7%d0%b2%d1%83%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d1%8f-%d0%b1",
-"published_at": "2026-11-16T08:27:02Z",
-"quote": "ЭКИПАЖ СВЕРХЗВУКОВОГО ИСТРЕБИТЕЛЯ-БОМБАРДИРОВЩИКА СУ-34 НАНЕС УДАР АВИАЦИОННЫМИ БОМБАМИ С УНИВЕРСАЛЬНЫМ МОДУЛЕМ ПЛАНИРОВАНИЯ И КОРРЕКЦИИ (УМПК) ЭКИПАЖ СВЕРХЗВУКОВОГО ИСТРЕБИТЕЛЯ-БОМБАРДИРОВЩИКА СУ-34 НАНЕС УДАР АВИАЦИОННЫМИ БОМБАМИ С УНИВЕР"
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_61f3b373a5d2df6f",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_8a1fb18f6e513bb6",
@@ -4547,6 +4592,56 @@
 "score_pm1": 0.2,
 "score_pm2": 1,
 "label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_54e46087dc278c4b",
+"from": "ent_858ba2a76617df8c",
+"to": "ent_9645ce799b9cf1d7",
+"type": "участие в программе",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://unmannedairspace.info/counter-uas-systems-and-policies/seven-industry-partners-selected-for-dod-jiatf-401-directed-energy-evaluation",
+"published_at": "2026-11-17T09:21:19Z",
+"quote": "Following a review of 13 technical white paper submissions, the US defence department’s Office of Research and Engineering and the Joint Interagency Task Force 401 (JIATF 401) have invited seven industry partners to participate in Phase II "
+},
+{
+"url": "https://uasvision.com/2026/11/17/pentagon-invites-seven-industry-teams-to-phase-ii-directed-energy-shoot-off",
+"published_at": "2026-11-17T06:50:29Z",
+"quote": "Following a comprehensive competitive review of 13 technical white paper submissions, the Department of War’s Office of Research and Engineering (R&E) and Joint Interagency Task Force 401 (JIATF 401) leadership announced that seven industry"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_31dd6347d00bef05",
+"from": "ent_59965f590d8fcc04",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://armyrecognition.com/news/aerospace-news/2026/russia-receives-new-su-34-bombers-to-sustain-strike-operations-in-ukraine-despite-sanctions",
+"published_at": "2026-11-17T10:17:37Z",
+"quote": "Russia Receives New Su-34 Bombers to Sustain Strike Operations in Ukraine Despite Sanctions"
+},
+{
+"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
+"published_at": "2026-11-17T06:20:16Z",
+"quote": "«Этот самолет сочетает в себе возможности истребителя и бомбардировщика и может наносить удары по наземным, надводным и воздушным целям, в том числе в сложных метеоусловиях и при активном противодействии ПВО», - рассказал командир экипажа С"
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 },
 {
@@ -13670,26 +13765,6 @@
 }
 },
 {
-"id": "rel_aec10cea9f75dd3f",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_c32678e4a0ae4599",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://t.me/news_UAV/5318",
-"published_at": "2026-06-23T17:10:59Z",
-"quote": "Президент отметил, что ситуация для киевского режима на фронте стремительно ухудшается, поэтому ВСУ наносит удары по гражданским объектам, пытается создать проблемы с обеспечением энергоресурсами и повлиять на туристический сезон в России."
-}
-],
-"sentiment": {
-"score_pm1": -0.5,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_f322deee4ac9edaf",
 "from": "ent_b10e2516a7c333b3",
 "to": "ent_c654ae66633a6d19",
@@ -21210,26 +21285,6 @@
 }
 },
 {
-"id": "rel_54e46087dc278c4b",
-"from": "ent_858ba2a76617df8c",
-"to": "ent_9645ce799b9cf1d7",
-"type": "участие в программе",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://uasvision.com/2026/11/17/pentagon-invites-seven-industry-teams-to-phase-ii-directed-energy-shoot-off",
-"published_at": "2026-11-17T06:50:29Z",
-"quote": "Following a comprehensive competitive review of 13 technical white paper submissions, the Department of War’s Office of Research and Engineering (R&E) and Joint Interagency Task Force 401 (JIATF 401) leadership announced that seven industry"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_285005d29e607d21",
 "from": "ent_e075b2ff37cd5b37",
 "to": "ent_7c4278bb1c2365e3",
@@ -21253,26 +21308,6 @@
 "id": "rel_badab50000da57ae",
 "from": "ent_82d695889d3fa2fa",
 "to": "ent_59965f590d8fcc04",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
-"published_at": "2026-11-17T06:20:16Z",
-"quote": "«Этот самолет сочетает в себе возможности истребителя и бомбардировщика и может наносить удары по наземным, надводным и воздушным целям, в том числе в сложных метеоусловиях и при активном противодействии ПВО», - рассказал командир экипажа С"
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_31dd6347d00bef05",
-"from": "ent_59965f590d8fcc04",
-"to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
 "evidence_count": 1,
@@ -21727,6 +21762,446 @@
 "score_pm1": -0.5,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_47b10aaf518ae2fe",
+"from": "ent_c9797c9635450715",
+"to": "ent_4018d1bb0230fed7",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/uav_tech/37537",
+"published_at": "2026-11-17T10:30:18Z",
+"quote": "💭А ночью в западной части Черного моря во время удара по Крыму и мосту летал самолет базовой патрульной авиации Р-8А ВМС США."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_4d5746ce9a6005c5",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_faa48148dfaf9eed",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://unmannedairspace.info/counter-uas-systems-and-policies/seven-industry-partners-selected-for-dod-jiatf-401-directed-energy-evaluation",
+"published_at": "2026-11-17T09:21:19Z",
+"quote": "For more information US Department of Defense Image: West Desert Test Center at Dugway proving Ground (US Army photo by Becki Bryant) The post Seven industry partners selected for DoD JIATF 401 directed energy evaluation first appeared on U"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_2ddea0ad5966783d",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_cf397e362a4204ee",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://unmannedairspace.info/counter-uas-systems-and-policies/seven-industry-partners-selected-for-dod-jiatf-401-directed-energy-evaluation",
+"published_at": "2026-11-17T09:21:19Z",
+"quote": "For more information US Department of Defense Image: West Desert Test Center at Dugway proving Ground (US Army photo by Becki Bryant) The post Seven industry partners selected for DoD JIATF 401 directed energy evaluation first appeared on U"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_60169c56cc030db4",
+"from": "ent_fa323d4f8a738909",
+"to": "ent_faa48148dfaf9eed",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://unmannedairspace.info/counter-uas-systems-and-policies/seven-industry-partners-selected-for-dod-jiatf-401-directed-energy-evaluation",
+"published_at": "2026-11-17T09:21:19Z",
+"quote": "For more information US Department of Defense Image: West Desert Test Center at Dugway proving Ground (US Army photo by Becki Bryant) The post Seven industry partners selected for DoD JIATF 401 directed energy evaluation first appeared on U"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_25ee52a6669dcee8",
+"from": "ent_fa323d4f8a738909",
+"to": "ent_cf397e362a4204ee",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://unmannedairspace.info/counter-uas-systems-and-policies/seven-industry-partners-selected-for-dod-jiatf-401-directed-energy-evaluation",
+"published_at": "2026-11-17T09:21:19Z",
+"quote": "For more information US Department of Defense Image: West Desert Test Center at Dugway proving Ground (US Army photo by Becki Bryant) The post Seven industry partners selected for DoD JIATF 401 directed energy evaluation first appeared on U"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c6ae6c69fb8f8b87",
+"from": "ent_3c32a4d4c79b3edf",
+"to": "ent_28fea1c77915c37a",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/russia-deploys-tu-95ms-bombers-to-vietnam",
+"published_at": "2026-11-17T09:37:06Z",
+"quote": "Russia deploys Tu-95MS bombers to Vietnam"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_3b138247cd961bec",
+"from": "ent_76aae9f116d88191",
+"to": "ent_f4de600127d3237b",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://belta.by/world/view/shvetsija-postavit-ukraine-pervye-istrebiteli-gripen-v-nachale-2027-goda-811246-2026",
+"published_at": "2026-11-17T10:38:06Z",
+"quote": "Швеция поставит Украине первые истребители Gripen в начале 2027 года"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_865dc1c5184d3142",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_aabf628900541628",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611171239-8Q3Hv.html",
+"published_at": "2026-11-17T11:02:02Z",
+"quote": "Мобильные огневые группы уничтожили свыше 10 дронов ВСУ в Херсонской области"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_9cff0b46b9c9f0ab",
+"from": "ent_d7ece2b6601279cc",
+"to": "ent_3c32a4d4c79b3edf",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aviation21.ru/tu-95-63-goda-ot-sozdaniya-prototipa-do-pervogo-boevogo-primeneniya",
+"published_at": "2026-11-16T15:35:22Z",
+"quote": "В массированном ударе участвовали Ту-160, Ту-95МС и Ту-22М3."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_c0457f0a03fbe47c",
+"from": "ent_d7ece2b6601279cc",
+"to": "ent_b64acc881f448ed5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aviation21.ru/tu-95-63-goda-ot-sozdaniya-prototipa-do-pervogo-boevogo-primeneniya",
+"published_at": "2026-11-16T15:35:22Z",
+"quote": "В массированном ударе участвовали Ту-160, Ту-95МС и Ту-22М3."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_84d12a011e4cc51d",
+"from": "ent_3c32a4d4c79b3edf",
+"to": "ent_b64acc881f448ed5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aviation21.ru/tu-95-63-goda-ot-sozdaniya-prototipa-do-pervogo-boevogo-primeneniya",
+"published_at": "2026-11-16T15:35:22Z",
+"quote": "В массированном ударе участвовали Ту-160, Ту-95МС и Ту-22М3."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_2bdbe247ce741551",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_b5f76dc0ce128813",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://warfiles.ru/274009-sau-bogdana-dlja-vsu-teper-budut-sobirat-v-polshe.html",
+"published_at": "2026-11-16T21:09:05Z",
+"quote": "Самоходные артиллерийские установки для ВСУ 2С22 \"Богдана\" и их буксируемые версии теперь будут выпускать в Польше."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_5714d89c0d94772b",
+"from": "ent_724e0fe25819bf9e",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://rg.ru/2026/11/17/abrams-humvee-i-tos-1a-solncepek-vmeste-gromili-bandy-boevikov.html",
+"published_at": "2026-11-17T10:41:02Z",
+"quote": "Российские тяжелые огнеметные системы ТОС-1А \"Солнцепек\" активно экспортировались и применялись в боевых действиях в составе иностранных армий."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c4278934d59c8724",
+"from": "ent_88b9583e076cfd82",
+"to": "ent_7166debf233e3abf",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://c4defence.com/en/otokar-4x4-armoured-vehicle",
+"published_at": "2026-11-16T10:25:04Z",
+"quote": "Otokar, TSK için 4×4 Zırhlı Araç Üretecek Otokar to Produce 4×4 Armored Vehicles for Turkish Armed Forces Savunma Sanayii Başkanlığı ile imzalanan sözleşme kapsamında araçların 2028 yılı sonuna kadar Kara Kuvvetleri Komutanlığına teslim edi"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_7d13de124dd45cf9",
+"from": "ent_7253ed019bbb7421",
+"to": "ent_b232eefe72a1cd09",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://c4defence.com/en/mavic-alternative-drones",
+"published_at": "2026-11-16T07:44:01Z",
+"quote": "Brave1 continues its efforts to advance Ukrainian defence technologies, aiming to accelerate the transition of UAV systems that meet operational requirements from testing to the contracting stage and provide military units with solutions ca"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_c94512aa432f457b",
+"from": "ent_bdb69d4afa6f96ff",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://kyivpost.com/post/90199",
+"published_at": "2026-11-16T06:54:44Z",
+"quote": "Crimean Bridge Shut After Ukrainian Strike as Russia Claims Record 1,336 Drones Downed"
+}
+],
+"sentiment": {
+"score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_2538370ec9d4d019",
+"from": "ent_bdb69d4afa6f96ff",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://kyivpost.com/post/90199",
+"published_at": "2026-11-16T06:54:44Z",
+"quote": "Crimean Bridge Shut After Ukrainian Strike as Russia Claims Record 1,336 Drones Downed"
+}
+],
+"sentiment": {
+"score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_080d5febbcd12b9b",
+"from": "ent_bdb69d4afa6f96ff",
+"to": "ent_e7e61f26b8fd6566",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://kyivpost.com/post/90199",
+"published_at": "2026-11-16T06:54:44Z",
+"quote": "Crimean Bridge Shut After Ukrainian Strike as Russia Claims Record 1,336 Drones Downed"
+}
+],
+"sentiment": {
+"score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_4a2965a365a1811d",
+"from": "ent_0546ee04135a5fb6",
+"to": "ent_4382237214ff7a25",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://kyivpost.com/post/90184",
+"published_at": "2026-11-15T14:51:00Z",
+"quote": "Estonia Foils GRU-Ordered Sabotage Attack on Drone Maker Threod Systems"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_978d09db20287f90",
+"from": "ent_0546ee04135a5fb6",
+"to": "ent_e4e2df975bde8376",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://kyivpost.com/post/90184",
+"published_at": "2026-11-15T14:51:00Z",
+"quote": "Estonia Foils GRU-Ordered Sabotage Attack on Drone Maker Threod Systems"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_8e6e2d25a4254511",
+"from": "ent_4382237214ff7a25",
+"to": "ent_e4e2df975bde8376",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://kyivpost.com/post/90184",
+"published_at": "2026-11-15T14:51:00Z",
+"quote": "Estonia Foils GRU-Ordered Sabotage Attack on Drone Maker Threod Systems"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_bcc9273183096246",
+"from": "ent_fb9d115f2c2a9a7b",
+"to": "ent_382bc265ebab3a18",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dprte.co.uk/2026/11/17/59825",
+"published_at": "2026-11-17T08:51:00Z",
+"quote": "For the UK Defence Supply Chain"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 }
 ]
