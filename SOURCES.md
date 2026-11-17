@@ -484,6 +484,8 @@
 
 ## Сбор браузером с бокса (t146u, 16.11.2026; правила обновлены 16.11.2026 — t149s777, t150u)
 
+**17.11.2026 (t169u):** браузер бокса восстановлен после пересоздания бокса. 21 источник, который открывается с сервера, перенесён в Docker `cbr-browser` на сервере. На боксе остались источники, которые с сервера не открываются, и 8 новых сайтов. Подробно — раздел «Перенос браузера бокса в Docker сервера и восстановление бокса» ниже.
+
 Источники, которые не отдают страницы сборщику сервера (HTTP 403, сетевой отказ), собираются с бокса — отдельной машины проекта с другим сетевым выходом. Доступ честный: защиту не обходим.
 
 - **Кто запрашивает.** Настоящий браузер Chrome без окна (Playwright) с честной подписью: `HeadlessChrome/<версия>` и метка `KONTUR-I-OSINT-BY/1.0 (+ссылка на эту страницу; public news monitoring; low-rate)`. Для лент RSS и простых страниц браузер не запускается: запрос идёт с той же меткой.
@@ -1064,6 +1066,8 @@
 
 ### 2. Открываются, даты есть, по ключам «Контура» за 7 дней — 0 — 27
 
+**17.11.2026 (t169u): все 27 подключены** — браузер в Docker, только материалы по ключам «Контура». Результаты — в разделе «Перенос браузера бокса в Docker…» ниже.
+
 | источник | результат | данные |
 |---|---|---|
 | `honvedelem.hu` | браузер в Docker, HTTP 200 | даты есть; проба 8 статей: с датой 8, за 7 дн. 8, по ключам 0 |
@@ -1145,6 +1149,8 @@
 
 ### 6. С сервера нет связи, с бокса открывается (блокировка на сетевом пути сервера) — 8
 
+**17.11.2026 (t169u): подключены на браузере бокса** (решение GREEN).
+
 | источник | результат | данные |
 |---|---|---|
 | `news.err.ee` | сервер: сброс TLS; бокс: 200 |  |
@@ -1190,3 +1196,217 @@
 | `tg:NATOinRussian` | t.me/s → 302 | публичного превью нет |
 
 Подключённые собираются браузером в Docker (`/data/setup/cbr-browser-docker`, cron 01:35, 03:35, 05:35, 07:35, 11:35, 13:35, 17:35, 21:35, 23:35 Europe/Minsk, вне окон сводки): ≤1 листинг и ≤6 статей на источник за проход, дедлайн 780 с; во входящие сбора попадают только материалы по ключам «Контура», дальше — обычный путь (классификатор, сфера, контур, ОИ 5×5, перевод, шлюз). Новых языков нет (en, pl, ru уже в переводе и словарях).
+
+## Перенос браузера бокса в Docker сервера и восстановление бокса (17.11.2026, t169u)
+
+Решение GREEN t168s938: все источники браузера бокса (`/opt/cbr-browse`; после пересоздания бокса 17.11 в 09:20 сбор не работал) перенести в Docker `cbr-browser` на сервере; 8 сайтов, недоступных с сервера, оставить на боксе; 27 источников группы 2 (см. ниже, раздел t168u) подключить с фильтром по ключам «Контура». Правила те же: честный UA браузера + метка `KONTUR-I-OSINT-BY/1.0`, без обхода капчи, Cloudflare и WAF, пауза ≥10 с к одному сайту, ≤1 листинг на источник за проход, robots.txt — рекомендация.
+
+**Проба перед переносом (17.11.2026, 15:11–16:00 Минск, по 1 листингу).** Из 137 включённых источников бокса с сервера открываются только **21**. Остальные с сервера получают 403/страницу проверки (76), сетевую ошибку или сброс TLS (33) или другое (7) — это и было причиной их выноса на бокс. Перенос их в Docker означал бы потерю источников. Поэтому в Docker перенесены 21, а остальные **116** остаются на восстановленном браузере бокса вместе с 8 сайтами. Это отклонение от формулировки «всё в Docker» вынесено на решение GREEN.
+
+| где | источников | как |
+|---|---|---|
+| Docker `cbr-browser` на сервере, `cbrb.py` | 4 (группа 1) + 27 (группа 2) | проход в :35 нечётных часов, вне окон сводки; во входящие — только материалы по ключам «Контура» (`to_inbox.py`) |
+| Docker `cbr-browser` на сервере, `legacy/browse_collect.py` | 21 | тот же сборщик, что был на боксе (те же id, RSS/HTTP/браузер, ротация ведомств, iid_only); выход — во входящие, отбор по ключам и сфере — в обычном цикле |
+| бокс, `/opt/cbr-browse` (песочница bwrap, пользователь `cbrbrowse`) | 8 + 116 | за 15–40 мин до цикла сервера; передача JSONL с проверкой sha256 |
+
+**Устойчивость к пересозданию бокса.** Код, список и колёса Playwright (с SHA256) лежат в `/workspace/cbr-big/box-browser/` и в постоянном хранилище бота. `check.sh` проверяет пользователя, `/opt/cbr-browse`, venv, Chrome и совпадение файлов; при расхождении запускает `install.sh`. Проверку вызывает `browse-ensure.sh` (сторож опросчика ОИ, раз в 2 мин). Восстановление — `RESTORE.md` в хранилище. Секретов нет.
+
+**Исправления сборщиков (17.11.2026).** После страницы проверки (Cloudflare «Один момент…») браузер мог бесконечно ждать заголовок страницы, а следующая навигация — прерываться. Теперь перед каждой страницей открывается пустая вкладка `about:blank`, на источник/страницу есть жёсткий предел времени (пауза Crawl-delay не считается), при зависании проход завершается, а остаток идёт первым в следующем проходе. Лента `mosr.sk` отдаёт ссылки без домена — домен берётся из адреса ленты.
+
+### Docker: 21 источник бывшего браузера бокса
+
+| источник | вид | первый проход 17.11 16:03–16:16 |
+|---|---|---|
+| `faa.gov` | http | ссылок 13, открыто/взято 4 |
+| `israeldefense.co.il` | browser | ссылок 24, открыто/взято 4 |
+| `ztem.by` | browser | ссылок 3, открыто/взято 3 |
+| `niievm.by` | browser | ссылок 14, открыто/взято 4 |
+| `missiledefenseadvocacy.org` | rss | ссылок 10, открыто/взято 10 |
+| `vpk.gov.by` | http | ссылок 17, открыто/взято 5 |
+| `fedscoop.com` | rss | ссылок 10, открыто/взято 10 |
+| `en.interfax.com.ua` | rss | ссылок 25, открыто/взято 25 |
+| `knack.be` | rss | ссылок 50, открыто/взято 15 |
+| `humanite.fr` | rss | ссылок 20, открыто/взято 15 |
+| `ilfattoquotidiano.it` | rss | ссылок 25, открыто/взято 15 |
+| `mixnews.lv` | rss | ссылок 100, открыто/взято 15 |
+| `samnytt.se` | rss | ссылок 10, открыто/взято 10 |
+| `cz-interior-mv` | browser | в ротации ведомств — в следующем проходе |
+| `cz-interior-mvcr` | browser | в ротации ведомств — в следующем проходе |
+| `cz-police-policie` | browser | в ротации ведомств — в следующем проходе |
+| `cz-police-policie-2` | browser | ссылок 0, открыто/взято 0 |
+| `cz-emergencies-hzscr` | browser | ссылок 0, открыто/взято 0 |
+| `ee-police-politsei` | browser | в ротации ведомств — в следующем проходе |
+| `ee-emergencies-rescue` | browser | в ротации ведомств — в следующем проходе |
+| `kg-tax-sti` | browser | в ротации ведомств — в следующем проходе |
+
+Первый проход: 135 материалов во входящие (`legacy-20261117T130435Z.jsonl`), разбор — в цикле 18:00.
+
+### Бокс: 8 сайтов без связи с сервера (решение GREEN)
+
+| источник | как | проба бокса 17.11 15:14 / цикл 16:00 |
+|---|---|---|
+| `news.err.ee` | листинг главной, общая лента — только по ключам | 124 ссылки; цикл 16:00: 6 статей, вне ключей/сферы |
+| `lrt.lt` | листинг /en/news-in-english, общая лента — по ключам | 25 ссылок; цикл 16:00: вставлен 1 |
+| `unian.net` | листинг /war | 19 ссылок; цикл 16:00: вставлено 3 |
+| `focus.ua` | листинг /voennye-novosti | 29 ссылок; цикл 16:00: 6 статей, вне ключей/сферы |
+| `mosr.sk` | RSS /data/rss/aktuality.xml (ссылки без домена — исправлено) | 30 материалов; цикл 16:00: 10, вне ключей/сферы |
+| `militairespectator.nl` | листинг главной (/nieuws, /artikelen) | 16 ссылок; цикл 16:00: 6, вне ключей/сферы |
+| `defensehere.com` | листинг /en/ | с бокса тоже страница проверки (HTTP 202) / ошибка TLS — не обходится; одна попытка в 24 ч |
+| `space24.pl` | листинг главной | 111 ссылок; цикл 16:00: 6, вне ключей/сферы |
+
+### Бокс: 116 источников, которые с сервера не открываются
+
+| источник | вид | с сервера (Docker, 17.11) | с бокса (17.11) |
+|---|---|---|---|
+| `unwave.com.ua` | browser | HTTP 403 «Attention Required! / Cloudflare» | HTTP 403 «Один момент…» |
+| `nspa.nato.int` | browser | HTTP 403 «Один момент…» | HTTP 403 «Один момент…» |
+| `aeronautics-sys.com` | browser | HTTP 403 «Attention Required! / Cloudflare» | страница проверки / зависание |
+| `mod.gov.ua` | browser | HTTP 403 «Access denied / mod.gov.ua used Cloudflare to rest» | страница проверки / зависание |
+| `militarnyi.com` | browser | HTTP 403 «Attention Required! / Cloudflare» | HTTP 200 |
+| `news.uscg.mil` | browser | HTTP 403 «Access Denied» | HTTP 403 «Access Denied» |
+| `thebulletin.org` | browser | HTTP 403 «Один момент…» | HTTP 200 |
+| `govconwire.com` | browser | HTTP 403 «Error 403 Forbidden» | HTTP 403 «Error 403 Forbidden» |
+| `investor.avinc.com` | browser | HTTP 403 «Access Denied» | HTTP 403 «Access Denied» |
+| `ir.kratosdefense.com` | browser | HTTP 403 «Access Denied» | HTTP 403 «Access Denied» |
+| `defenseadvancement.com` | browser | HTTP 403 «Access Restricted» | HTTP 403 «Один момент…» |
+| `brave1.gov.ua` | browser | HTTP 403 «Attention Required! / Cloudflare» | HTTP 200 |
+| `darpa.mil` | rss | HTTP 403 | HTTP 200 |
+| `occrp.org` | rss | сетевая ошибка (URLError) | HTTP 200 |
+| `pravda.com.ua-eng` | rss | сетевая ошибка (URLError) | HTTP 200 |
+| `kam.lt` | rss | HTTP 403 | HTTP 403 |
+| `kariuomene.lt` | rss | HTTP 403 | HTTP 403 |
+| `mod.mil.gr` | rss | HTTP 403 | HTTP 403 |
+| `mod.gov.cy` | rss | сетевая ошибка (URLError) | HTTP 403 |
+| `afm.gov.mt` | rss | HTTP 403 | HTTP 403 |
+| `kaitseministeerium.ee` | rss | HTTP 403 | HTTP 200 |
+| `mil.ee` | rss | HTTP 403 | HTTP 200 |
+| `kurier.at` | rss | HTTP 403 | HTTP 200 |
+| `kohajone.com` | rss | HTTP 403 | HTTP 200 |
+| `rfi.fr` | rss | сетевая ошибка (URLError) | HTTP 200 |
+| `delfi.lv` | rss | сетевая ошибка (URLError) | HTTP 200 |
+| `tvnet.lv` | rss | сетевая ошибка (URLError) | HTTP 200 |
+| `jauns.lv` | rss | сетевая ошибка (URLError) | HTTP 200 |
+| `lsm.lv` | rss | сетевая ошибка (URLError) | HTTP 200 |
+| `la.lv` | rss | сетевая ошибка (URLError) | HTTP 200 |
+| `apollo.lv` | rss | сетевая ошибка (URLError) | HTTP 200 |
+| `time.mk` | rss | HTTP 403 | HTTP 200 |
+| `gazetawroclawska.pl` | rss | HTTP 403 | HTTP 200 |
+| `dziennikzachodni.pl` | rss | HTTP 403 | HTTP 200 |
+| `libertatea.ro` | rss | HTTP 429 | HTTP 200 |
+| `thedetail.tv` | rss | HTTP 403 | HTTP 200 |
+| `delo.si` | rss | сетевая ошибка (URLError) | HTTP 200 |
+| `444.hu` | rss | HTTP 403 | HTTP 200 |
+| `источник «только для расчёта ИИД-100»` | rss | сетевая ошибка (URLError) | HTTP 200 |
+| `cy-customs-mof` | rss | сетевая ошибка (URLError) | HTTP 200 |
+| `ee-interior-siseministeerium` | rss | HTTP 403 | HTTP 200 |
+| `ee-tax_customs-emta` | rss | HTTP 403 | HTTP 200 |
+| `fr-police-eurogendfor` | rss | HTTP 403 | HTTP 200 |
+| `be-police-police` | browser | HTTP 403 «Politie - Police - Polizei: Maintenance» | страница проверки / зависание |
+| `be-police-politie` | browser | HTTP 403 «Politie - Police - Polizei: Maintenance» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `be-police-polizei` | browser | HTTP 403 «Politie - Police - Polizei: Maintenance» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `bg-interior-mvr` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `bg-border-mvr` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `cy-interior-cy` | browser | сетевая ошибка (Error) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `cy-interior-moi` | browser | сетевая ошибка (TimeoutError) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `cy-police-police` | browser | сетевая ошибка (Error) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `cy-emergencies-moi` | browser | сетевая ошибка (Error) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `cy-defence-cy` | browser | сетевая ошибка (Error) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `ee-security-kapo` | browser | HTTP 403 «Attention Required! / Cloudflare» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `es-interior-interior` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `es-border-guardiacivil` | browser | HTTP 403 «Access Denied» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `fi-interior-intermin` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `fi-police-poliisi` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `fi-border-raja` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `fi-customs-tulli` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `fi-emergencies-pelastustoimi` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `fi-security-supo` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `fi-defence-defmin` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `fr-interior-interieur` | browser | HTTP 403 «Attention Required! / Cloudflare» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `fr-police-defense` | browser | сетевая ошибка (Error) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `fr-police-esan` | browser | сетевая ошибка (Error) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `fr-police-gendarmerie` | browser | HTTP 403 «Attention Required! / Cloudflare» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `fr-police-police-nationale` | browser | HTTP 403 «Attention Required! / Cloudflare» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `fr-emergencies-interieur` | browser | HTTP 403 «Attention Required! / Cloudflare» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `fr-emergencies-securite-civile` | browser | HTTP 403 «Attention Required! / Cloudflare» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `fr-security-dgsi` | browser | HTTP 403 «Attention Required! / Cloudflare» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `gr-interior-minocp` | browser | HTTP 403 «Access Denied» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `gr-interior-ypes` | browser | сетевая ошибка (Error) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `gr-police-astynomia` | browser | HTTP 403 «Access Denied» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `gr-border-hcg` | browser | HTTP 403 «Access Denied» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `gr-tax_customs-aade` | browser | HTTP 403 «Access Denied» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `gr-emergencies-civilprotection` | browser | HTTP 403 «Access Denied» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `hr-interior-mup` | browser | сетевая ошибка (TimeoutError) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `hr-interior-mup-2` | browser | сетевая ошибка (TimeoutError) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `hr-police-policija` | browser | сетевая ошибка (TimeoutError) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `hr-tax-porezna-uprava` | browser | сетевая ошибка (Error) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `hr-customs-carina` | browser | сетевая ошибка (TimeoutError) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `hr-emergencies-civilna-zastita` | browser | сетевая ошибка (TimeoutError) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `ie-interior-ie` | browser | HTTP 403 «ERROR: The request could not be satisfied» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `ie-emergencies-emergencyplanning` | browser | HTTP 403 «ERROR: The request could not be satisfied» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `ie-emergencies-ie` | browser | HTTP 403 «ERROR: The request could not be satisfied» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `ie-defence-ie` | browser | HTTP 403 «ERROR: The request could not be satisfied» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `it-police-carabinieri` | browser | сетевая ошибка (TimeoutError) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `it-tax-agenziaentrate` | browser | HTTP 403 «Access Denied» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `it-customs-exdogana` | browser | HTTP 520 «exdogana.it / 520: Web server is returning an unkn» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `lt-interior-vrm` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `lt-police-policija` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `lt-border-vsat` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `lt-tax-vmi` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `lt-customs-lrmuitine` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `lt-emergencies-pagd` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `lt-prosecutor-prokuraturos` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `mt-interior-homeaffairs` | browser | HTTP 403 «Attention Required! / Cloudflare» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `mt-police-pulizija` | browser | HTTP 403 «Attention Required! / Cloudflare» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `mt-tax-cfr` | browser | HTTP 403 «Attention Required! / Cloudflare» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `mt-customs-customs` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `pt-police-amn` | browser | сетевая ошибка (TimeoutError) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `pt-security-sied` | browser | сетевая ошибка (Error) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `ro-customs-customs` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `ro-security-dgpi` | browser | HTTP 403 «DGPI» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `ro-security-spp` | browser | сетевая ошибка (TimeoutError) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `ro-prosecutor-dna` | browser | HTTP 403 | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `si-police-policija` | browser | сетевая ошибка (TimeoutError) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `sk-tax_customs-financnasprava` | browser | сетевая ошибка (TimeoutError) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `bg-emergencies-gdpbzn` | browser | страница не отдала содержимое (зависание) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `kg-security-gknb` | browser | страница не отдала содержимое (зависание) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `md-tax-sfs` | browser | HTTP 403 «Один момент…» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `md-customs-customs` | browser | не проверен (проход остановлен) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `ru-interior----` | browser | HTTP 403 «МВД России» | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `tj-border-sarhad` | browser | не проверен (проход остановлен) | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+| `frankenburg.tech-news` | rss | HTTP 503 | работал с бокса до 17.11 09:20; повторная проба — в проходе бокса |
+
+### Группа 2 (27): подключены 17.11.2026 с фильтром по ключам «Контура»
+
+Браузер в Docker (`cbrb.py`), до 4 новых статей за проход, честная очерёдность (кто дольше не обходился — первым). Во входящие попадают только материалы по ключам «Контура».
+
+| источник | листинг | проходы 15:46 и 16:03: статей / по ключам | состояние |
+|---|---|---|---|
+| `honvedelem.hu` | https://honvedelem.hu/ | 8 / 0 | работает |
+| `ccdcoe.org` | https://ccdcoe.org/news/ | 8 / 0 | работает |
+| `aviation-report.com` | https://www.aviation-report.com/feed/ | 8 / 0 | работает |
+| `forsvarsmakten.se` | https://www.forsvarsmakten.se/aktuellt/nyheter/ | 7 / 0 | работает |
+| `forsvaret.dk` | https://www.forsvaret.dk/da/nyheder/ | 4 / 0 | ошибка 2-го прохода: HTTP -1  Error: Page.goto: net::ERR_ABORTED at https://www.forsvaret.d |
+| `fmn.dk` | https://www.fmn.dk/da/nyheder/ | 7 / 0 | работает |
+| `mil.be` | https://www.mil.be/nl/news/ | 4 / 0 | работает (во 2-м проходе — в очереди) |
+| `defensie.nl` | https://www.defensie.nl/ | 4 / 0 | работает (во 2-м проходе — в очереди) |
+| `hybridcoe.fi` | https://www.hybridcoe.fi/all-content/?_type=hcoe20_news | 4 / 0 | работает (во 2-м проходе — в очереди) |
+| `portaledifesa.it` | https://www.rid.it/ | 4 / 0 | работает (во 2-м проходе — в очереди) |
+| `kongsberg.com` | https://www.kongsberg.com/ | 1 / 0 | работает (во 2-м проходе — в очереди) |
+| `securitymagazin.cz` | https://www.securitymagazin.cz/ | 4 / 1 | работает |
+| `flugrevue.de` | https://www.flugrevue.de/ | 3 / 0 | работает |
+| `defense.gouvernement.lu` | https://defense.gouvernement.lu/fr.html | 3 / 0 | работает |
+| `officerstidningen.se` | https://officerstidningen.se/feed/ | 4 / 0 | работает |
+| `atalayar.com` | https://www.atalayar.com/rss/ | 4 / 0 | работает |
+| `areion24.news` | https://www.areion24.news/ | 4 / 0 | работает |
+| `theatrum-belli.com` | https://theatrum-belli.com/feed/ | 0 / 0 | ошибка 2-го прохода: HTTP -1  Error: Page.goto: net::ERR_ABORTED at https://theatrum-belli. |
+| `reportdifesa.it` | https://www.reportdifesa.it/feed/ | 0 / 0 | листинг открыт, новых статей не найдено |
+| `obris.org` | https://obris.org/ | 3 / 0 | работает |
+| `hellasjournal.com` | https://hellasjournal.com/feed/ | 4 / 0 | работает |
+| `thinkdefence.co.uk` | https://www.thinkdefence.co.uk/ | 4 / 0 | работает |
+| `airbus.com` | https://www.airbus.com/en/newsroom | 0 / 0 | ошибка 2-го прохода: HTTP -1  Error: Page.goto: net::ERR_ABORTED at https://www.airbus.com/ |
+| `ruaviation.com` | https://www.ruaviation.com/news/?h | 0 / 0 | ошибка 2-го прохода: HTTP -1  Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.ru |
+| `ecfr.eu` | https://ecfr.eu/publications/ | 0 / 0 | ошибка 2-го прохода: HTTP -1  Error: Page.goto: Navigation to "https://ecfr.eu/publications |
+| `iss.europa.eu` | https://www.iss.europa.eu/publications | 0 / 0 | ошибка 2-го прохода: HTTP -1  Error: Page.goto: Navigation to "https://www.iss.europa.eu/pu |
+| `rheinmetall.com` | https://www.rheinmetall.com/en/media/news-watch | 0 / 0 | ошибка 2-го прохода: HTTP -1  Error: Page.goto: Navigation to "https://www.rheinmetall.com/ |
+
+Итог двух проходов: 21 из 27 открылись, 92 статьи, по ключам «Контура» — 1 (`securitymagazin.cz`: «Ukrajinský Leopard přežil zásahy 45 UAV…»). Каскад ошибок навигации (ecfr.eu, iss.europa.eu, rheinmetall.com и др.) исправлен в 16:19, проверка — в проходе 17:35.

@@ -5,8 +5,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 179,
+"evidence_count": 181,
 "evidence": [
+{
+"url": "https://warfiles.ru/274021-taktika-istoschenija-nashej-sistemy-pvo-k-sozhaleniju-srabotala.html",
+"published_at": "2026-11-17T12:36:41Z",
+"quote": "1441 беспилотник и ракеты ВСУ ударили по России."
+},
 {
 "url": "https://eadaily.com/ru/news/2026/11/17/pererezayut-suhoputnyy-koridor-v-krym-drony-vsu-udarili-po-mostu-na-trasse-r-280",
 "published_at": "2026-11-17T11:46:00Z",
@@ -26,11 +31,6 @@
 "url": "https://ria.ru/20261117/pvo-2132076426.html",
 "published_at": "2026-11-17T08:59:37Z",
 "quote": "ПВО сбила 2256 дронов ВСУ"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28325673",
-"published_at": "2026-11-17T08:52:23Z",
-"quote": "ВС РФ поразили места производства и хранения беспилотников ВСУ"
 }
 ],
 "sentiment": {
@@ -45,12 +45,22 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 49,
+"evidence_count": 51,
 "evidence": [
+{
+"url": "https://warfiles.ru/274021-taktika-istoschenija-nashej-sistemy-pvo-k-sozhaleniju-srabotala.html",
+"published_at": "2026-11-17T12:36:41Z",
+"quote": "1441 беспилотник и ракеты ВСУ ударили по России."
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28325673",
 "published_at": "2026-11-17T08:52:23Z",
 "quote": "ВС РФ поразили места производства и хранения беспилотников ВСУ"
+},
+{
+"url": "https://onalert.gr/kosmos/gefyra-kerts-oukranika-drones-kai-flamingo-gkremisan-to-kamari-tou-poutin-pou-syndeei-ti-rosia-me-tin-krimaia/834031",
+"published_at": "2026-11-17T08:40:42Z",
+"quote": "Grateful to the Security Service of Ukraine, all units of Ukraine’s Defense Forces involved, Ukraine’s Minister of Defense, the Commander-in-Chief of the Armed Forces of Ukraine and the General Staff, and all our weapons manufacturers for a"
 },
 {
 "url": "https://tvzvezda.ru/news/202611171037-cwod8.html",
@@ -61,16 +71,6 @@
 "url": "https://t.me/nm_dnr/16210",
 "published_at": "2026-11-17T06:04:49Z",
 "quote": "Ликвидация вражеских БЛА снижает угрозу для российских военнослужащих и ограничивает возможности ВСУ по ведению разведки и нанесению ударов."
-},
-{
-"url": "https://lenta.ru/news/2026/11/17/nad-rossiyskim-regionom-sbili-pochti-300-dronov-vsu",
-"published_at": "2026-11-17T05:45:24Z",
-"quote": "Над российским регионом сбили почти 300 дронов ВСУ"
-},
-{
-"url": "https://lenta.ru/news/2026/11/17/nad-rossiyskim-regionom-sbili-50-dronov-vsu",
-"published_at": "2026-11-17T04:51:41Z",
-"quote": "Над российским регионом сбили 50 дронов ВСУ"
 }
 ],
 "sentiment": {
@@ -3186,6 +3186,31 @@
 "url": "https://t.me/uav_tech/36679",
 "published_at": "2026-07-15T12:55:33Z",
 "quote": "Но, хотя современные F-16 Block 70/72 с ракетами AIM-120D или AIM-260, потенциально могли бы представлять серьёзную угрозу российским самолетам, доставшиеся Киеву F-16 оказались сильно устаревшими образцами периода Холодной войны, которые с"
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_01c8625369840a0f",
+"from": "ent_28fea1c77915c37a",
+"to": "ent_340314be7304a427",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/serbia-mig-29-crash-belgrade-pilot-killed",
+"published_at": "2026-11-17T11:36:30Z",
+"quote": "The country reinforced its aging fighter fleet with aircraft supplied by Russia in 2017 and Belarus, whose four MiG-29s were formally transferred in 2019 and delivered after overhaul and modernization in June 2021."
+},
+{
+"url": "https://twz.com/air/l-39ng-skyfox-jets-could-give-ukraine-a-critical-new-russian-drone-hunting-capability",
+"published_at": "2026-11-12T19:13:31Z",
+"quote": "Its F-16s, along with the country’s remaining MiG-29 Fulcrums , Su-27 Flankers , and French-supplied Mirage 2000s , are needed for a much wider range of tasks, including counter-air operations, air-to-ground strikes, and intercepting more c"
 }
 ],
 "sentiment": {
@@ -10628,26 +10653,6 @@
 "id": "rel_129b0987dd0a4157",
 "from": "ent_28fea1c77915c37a",
 "to": "ent_e80672ff28a0aa12",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://twz.com/air/l-39ng-skyfox-jets-could-give-ukraine-a-critical-new-russian-drone-hunting-capability",
-"published_at": "2026-11-12T19:13:31Z",
-"quote": "Its F-16s, along with the country’s remaining MiG-29 Fulcrums , Su-27 Flankers , and French-supplied Mirage 2000s , are needed for a much wider range of tasks, including counter-air operations, air-to-ground strikes, and intercepting more c"
-}
-],
-"sentiment": {
-"score_pm1": -0.5,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_01c8625369840a0f",
-"from": "ent_28fea1c77915c37a",
-"to": "ent_340314be7304a427",
 "type": "поставка",
 "event_date": null,
 "evidence_count": 1,
@@ -22202,6 +22207,266 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_34934766ed2c1c24",
+"from": "ent_e901196e4ace4a2e",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/russia-gets-third-batch-of-new-su-34-bombers-this-year",
+"published_at": "2026-11-17T11:50:45Z",
+"quote": "Russia’s state defense conglomerate Rostec said Tuesday it has delivered another batch of Su-34 fighter-bombers to the Russian Aerospace Forces, the third such handover it has announced this year."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_fad40e24ed12c372",
+"from": "ent_e901196e4ace4a2e",
+"to": "ent_59965f590d8fcc04",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/russia-gets-third-batch-of-new-su-34-bombers-this-year",
+"published_at": "2026-11-17T11:50:45Z",
+"quote": "Russia’s state defense conglomerate Rostec said Tuesday it has delivered another batch of Su-34 fighter-bombers to the Russian Aerospace Forces, the third such handover it has announced this year."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_889c5b7c175cffb5",
+"from": "ent_3fbad649a9f64883",
+"to": "ent_7bfad24d9b0db5c3",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://armyinform.com.ua/2026/11/17/ppo-zneshkodyla-ponad-200-bpla-try-kerovani-aviaczijni-rakety-ta-try-banderoli",
+"published_at": "2026-11-17T11:41:48Z",
+"quote": "Агресор завдав ударів: балістичними ракетами «Іскандер-М»/«Циркон»/С-400 із Брянської, Воронезької, Курської та Ростовської обл."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_edcbd7f0fa205f12",
+"from": "ent_43252652072753d2",
+"to": "ent_31ef4260f26fefa5",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence24.com/defence-policy/slovakia-is-interested-in-polands-anti-drone-system-lithuania-wants-the-barracuda-500",
+"published_at": "2026-11-17T12:50:02Z",
+"quote": "Lithuania has expressed interest in acquiring Barracuda-500 missiles, which will be produced in Poland."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_40372c409c8afb48",
+"from": "ent_9e51a7ee6340af7b",
+"to": "ent_31ef4260f26fefa5",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence24.com/defence-policy/slovakia-is-interested-in-polands-anti-drone-system-lithuania-wants-the-barracuda-500",
+"published_at": "2026-11-17T12:50:02Z",
+"quote": "Lithuania has expressed interest in acquiring Barracuda-500 missiles, which will be produced in Poland."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c9322fbac2916057",
+"from": "ent_9e17bf96d4b332eb",
+"to": "ent_ec4e2055e4827849",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/australian-army-receives-seventh-and-eighth-ah-64e-apaches-as-tiger-replacement",
+"published_at": "2026-11-17T11:58:58Z",
+"quote": "The Australian Army has taken delivery of its seventh and eighth AH-64E Apache attack helicopters, bringing its fleet to a quarter of the 29 aircraft it expects to operate by 2029."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_fb5dd33fc993f243",
+"from": "ent_bd84f4b50b17b685",
+"to": "ent_340314be7304a427",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/serbia-mig-29-crash-belgrade-pilot-killed",
+"published_at": "2026-11-17T11:36:30Z",
+"quote": "The country reinforced its aging fighter fleet with aircraft supplied by Russia in 2017 and Belarus, whose four MiG-29s were formally transferred in 2019 and delivered after overhaul and modernization in June 2021."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_95a154fefba4ff71",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_86a408b5b14fa5a6",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-network.com/northrop-grumman-milliardenauftrag-pac-3-mse",
+"published_at": "2026-11-17T12:01:27Z",
+"quote": "Das Team von Northrop Grumman im Rocket Center in West Virginia führt einen statischen Test eines PAC-3-MSE-Feststoffraketenmotors durch."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_89fe4f1ecb099a60",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_ff878af017a8077e",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://unian.net/war/rakety-dlya-patriot-germaniya-obyavila-o-zakupke-boepripasov-13562400.html",
+"published_at": "2026-11-17T10:52:00Z",
+"quote": "Германия также поставляет Украине новые радары воздушного наблюдения, боеприпасы для истребителей F-16 и беспилотники."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_ff09bd6c59617ad9",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_2ea283e971c4fe16",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://unian.net/war/rakety-dlya-patriot-germaniya-obyavila-o-zakupke-boepripasov-13562400.html",
+"published_at": "2026-11-17T10:52:00Z",
+"quote": "Кроме того, он сообщил, что Германия готовит интеграцию ракет IRIS-T в системы противовоздушной обороны NASAMS, поставляемые из Норвегии в Украину, – эта работа уже ведется."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_34f0a25a053f0801",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_df912e0929fe5a8d",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://unian.net/war/rakety-dlya-patriot-germaniya-obyavila-o-zakupke-boepripasov-13562400.html",
+"published_at": "2026-11-17T10:52:00Z",
+"quote": "Кроме того, он сообщил, что Германия готовит интеграцию ракет IRIS-T в системы противовоздушной обороны NASAMS, поставляемые из Норвегии в Украину, – эта работа уже ведется."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_18e9ca46f00cbf06",
+"from": "ent_4530f008d0cdc124",
+"to": "ent_d5b517870d653757",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://eadaily.com/ru/news/2026/11/17/voennyy-ekspert-postavil-tochku-v-spore-o-reb-ili-pvo-sposobnyh-perehvatit-oreshnik",
+"published_at": "2026-11-17T15:31:00Z",
+"quote": "Военный эксперт поставил точку в споре о РЭБ или ПВО, способных перехватить «Орешник» Сегодня 15:31 Удар ракетой комплекса «Орешник» в Львовской области."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_aa8b6c606742919b",
+"from": "ent_d5b517870d653757",
+"to": "ent_4530f008d0cdc124",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://eadaily.com/ru/news/2026/11/17/voennyy-ekspert-postavil-tochku-v-spore-o-reb-ili-pvo-sposobnyh-perehvatit-oreshnik",
+"published_at": "2026-11-17T15:31:00Z",
+"quote": "Удар ракетой комплекса «Орешник» в Львовской области."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 }
 ]
