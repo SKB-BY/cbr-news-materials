@@ -5,8 +5,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 181,
+"evidence_count": 182,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/20261117163-H2yDW.html",
+"published_at": "2026-11-17T13:12:14Z",
+"quote": "Дроноводы группировки «Центр» уничтожили беспилотники ВСУ в воздухе и на земле"
+},
 {
 "url": "https://warfiles.ru/274021-taktika-istoschenija-nashej-sistemy-pvo-k-sozhaleniju-srabotala.html",
 "published_at": "2026-11-17T12:36:41Z",
@@ -26,11 +31,6 @@
 "url": "https://tvzvezda.ru/news/202611171340-JqJrn.html",
 "published_at": "2026-11-17T10:57:02Z",
 "quote": "Кроме этого, на боевика ВСУ, оказавшегося в зоне поражения, оказывает воздействие резкий перепад давления."
-},
-{
-"url": "https://ria.ru/20261117/pvo-2132076426.html",
-"published_at": "2026-11-17T08:59:37Z",
-"quote": "ПВО сбила 2256 дронов ВСУ"
 }
 ],
 "sentiment": {
@@ -125,8 +125,13 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 29,
+"evidence_count": 30,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611171617-25byW.html",
+"published_at": "2026-11-17T14:06:35Z",
+"quote": "Военные инженеры ВС РФ уничтожили Bradley на сброшенных с дронов минах"
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28325673",
 "published_at": "2026-11-17T08:52:23Z",
@@ -146,11 +151,6 @@
 "url": "https://t.me/mod_russia/69064",
 "published_at": "2026-11-16T15:14:38Z",
 "quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по логистическим центрам, объектам портовой и железнодорожной инфраструктуры, задействов..."
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28323119",
-"published_at": "2026-11-16T15:11:46Z",
-"quote": "ВС РФ поразили используемый для хранения БПЛА склад в Киевской области"
 }
 ],
 "sentiment": {
@@ -840,6 +840,121 @@
 }
 },
 {
+"id": "rel_052a9524c0f2eda4",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_e5f190ccc39e3fdd",
+"type": "применение",
+"event_date": null,
+"evidence_count": 5,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/20261117163-H2yDW.html",
+"published_at": "2026-11-17T13:12:14Z",
+"quote": "Ранее ведомство сообщило, что расчеты того же 78-го полка уничтожили семь антенн-ретрансляторов связи ВСУ на Днепропетровском направлении."
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%81%d0%b0%d1%83-%d0%bc%d1%81%d1%82%d0%b0-%d1%81-%d1%83%d0%bd%d0%b8%d1%87%d1%82%d0%be%d0%b6%d0%b8%d0%bb-%d0%bf%d1%83%d0%bd%d0%ba%d1%82-%d1%83%d0%bf",
+"published_at": "2026-11-17T08:36:31Z",
+"quote": "РАСЧЕТ САУ «МСТА-С» УНИЧТОЖИЛ ПУНКТ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%82%d0%be%d1%81-2-%d1%82%d0%be%d1%81%d0%be%d1%87%d0%ba%d0%b0-%d1%81%d0%be%d0%b5%d0%b4%d0%b8%d0%bd%d0%b5%d0%bd%d0%b8%d1%8f-%d1%80%d1%85%d0%b1%d0%b7",
+"published_at": "2026-11-16T08:59:14Z",
+"quote": "РАСЧЕТ ТОС-2 «ТОСОЧКА» СОЕДИНЕНИЯ РХБЗ ГРУППИРОВКИ ВОЙСК «ЦЕНТР» УНИЧТОЖИЛ РАЙОН СОСРЕДОТОЧЕНИЯ ПУНКТОВ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d0%b4%d1%80%d0%be%d0%bd%d0%b0-%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%b2%d0%b0%d1%82%d1%87%d0%b8%d0%ba%d0%b0-%d1%81%d0%be%d0%ba%d0%be%d0%bb-%d0%b22-%d0%b7",
+"published_at": "2026-11-16T08:40:21Z",
+"quote": "РАСЧЕТ ДРОНА-ПЕРЕХВАТЧИКА «СОКОЛ-В2» ЗЕНИТНОЙ РАКЕТНОЙ БРИГАДЫ ГРУППИРОВКИ «ЦЕНТР» УНИЧТОЖИЛ ДЕСЯТКИ УДАРНЫХ И РАЗВЕДЫВАТЕЛЬНЫХ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+},
+{
+"url": "https://t.me/mod_russia/69025",
+"published_at": "2026-11-15T05:42:06Z",
+"quote": "🔥 Кроме того, поражены два железнодорожных локомотива в районе ж/д станции Днепропетровск, используемых в интересах перевозки грузов, предназначенных для обеспечения ВСУ."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_e3954abeb6713184",
+"from": "ent_d380c846b4a97fed",
+"to": "ent_82e26e90a014009e",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 5,
+"evidence": [
+{
+"url": "https://c4defence.com/en/f-15ex-eagle-ii-kadena-air-base",
+"published_at": "2026-11-17T13:21:59Z",
+"quote": "F-15EX Eagle II aircraft have arrived at Kadena Air Base in Japan for permanent deployment for the first time."
+},
+{
+"url": "https://airandspaceforces.com/kadena-first-permanent-f-15ex-arrives",
+"published_at": "2026-11-16T20:00:01Z",
+"quote": "A new Eagle is in the nest on Okinawa, Japan—the 18th Wing at Kadena Air Base received its first permanently stationed F-15EX Eagle II on Nov."
+},
+{
+"url": "https://airforce-technology.com/news/usaf-f-15ex-kadena",
+"published_at": "2026-11-16T16:26:04Z",
+"quote": "US Air Force permanently deploys F-15EX jets to Kadena Air Base in Japan"
+},
+{
+"url": "https://theaviationist.com/2026/11/15/kadena-welcomes-its-first-f-15ex-eagle-ii-fighters",
+"published_at": "2026-11-15T12:14:40Z",
+"quote": "Air Force F-15EX Eagle II fighters jets permanently stationed at Kadena Air Base , Japan, arrived at their new home on Nov."
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%81%d1%88%d0%b0-%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%81%d1%82%d0%b8%d0%bb%d0%b8-%d0%b2-%d1%8f%d0%bf%d0%be%d0%bd%d0%b8%d0%b8-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d0%b8-f-15ex",
+"published_at": "2026-11-15T10:21:45Z",
+"quote": "США РАЗМЕСТИЛИ В ЯПОНИИ ИСТРЕБИТЕЛИ F-15EX Модернизированные истребители F-15EX были размещены на базе американских ВВС Кадена на южном японском острове Окинава."
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_af9c3dd12649a73d",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_76aae9f116d88191",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://dsm.forecastinternational.com/2026/11/17/natos-40-billion-counter-drone-imperative/?utm_source=rss&utm_medium=rss&utm_campaign=natos-40-billion-counter-drone-imperative&utm_source=rss&utm_medium=rss&utm_campaign=natos-40-billion-counter-drone-imperative",
+"published_at": "2026-11-17T14:00:23Z",
+"quote": "Systems chosen, including fixed and mobile solutions, were selected based on experience gained through NATO, national innovation activities, and exercises, and all have been deployed in allied countries and in Ukraine."
+},
+{
+"url": "https://theaviationist.com/2026/11/10/raf-mildenhall-security-threat-dispersal",
+"published_at": "2026-11-10T15:30:54Z",
+"quote": "The Combat Sent has been forward deployed to Mildenhall to take part in intelligence gathering sorties along NATO’s eastern flank, where Russian radar systems are in near constant use due to the war in Ukraine."
+},
+{
+"url": "https://dronexl.co/2026/11/09/nato-counter-drone-catalog-alta-ares-six-of-16-lots",
+"published_at": "2026-11-09T10:21:00Z",
+"quote": "int/newsroom/news/nato-accelerates-procurement-for-counterdrone-solutions\">NCIA’s announcement</a> says every selected system has already been deployed in Allied countries and in Ukraine."
+},
+{
+"url": "https://dronelife.com/2026/10/28/nato-drone-procurement-sky-watch-rq35-heidrun",
+"published_at": "2026-10-28T13:06:13Z",
+"quote": "Sky-Watch’s RQ-35 Heidrun, deployed in Ukraine and other conflict zones, is now available to participating NATO nations through a streamlined procurement framework."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_3dc69122575c150b",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_14d1757585b55c53",
@@ -1120,6 +1235,41 @@
 }
 },
 {
+"id": "rel_dcb709c6b181932d",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_d54ac6fc23eb6450",
+"type": "применение",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://defence-blog.com/drones-have-hit-15-ships-in-natos-black-sea-waters-since-october",
+"published_at": "2026-11-17T14:47:23Z",
+"quote": "Russian drones have now struck 15 merchant ships in the Black Sea off NATO members Romania and Bulgaria since Oct."
+},
+{
+"url": "https://dsm.forecastinternational.com/2026/11/17/natos-40-billion-counter-drone-imperative/?utm_source=rss&utm_medium=rss&utm_campaign=natos-40-billion-counter-drone-imperative&utm_source=rss&utm_medium=rss&utm_campaign=natos-40-billion-counter-drone-imperative",
+"published_at": "2026-11-17T14:00:23Z",
+"quote": "In August, a NATO-led, Spanish F-18 shot down a drone that had entered Romanian airspace."
+},
+{
+"url": "https://ru.euronews.com/2026/08/16/nato-dron-romania",
+"published_at": "2026-08-16T08:09:49Z",
+"quote": "Испанский истребитель F-18 НАТО сбил дрон над Румынией у границы с Молдавией"
+},
+{
+"url": "https://t.me/uav_tech/36271",
+"published_at": "2026-05-27T16:02:07Z",
+"quote": "изоляцией района боевых действий, с соответствующим ультиматумом, а потом, если он в течение 24 часов не принимается (а он не принимается), ядерными ударами ТЯО по тем объектам инфраструктуры НАТО в Европе (Германии, Польше, Румынии, Чехии,"
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_2bcc88cf443447c9",
 "from": "ent_f7a9f659b73e4140",
 "to": "ent_76aae9f116d88191",
@@ -1187,76 +1337,6 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_052a9524c0f2eda4",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_e5f190ccc39e3fdd",
-"type": "применение",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%81%d0%b0%d1%83-%d0%bc%d1%81%d1%82%d0%b0-%d1%81-%d1%83%d0%bd%d0%b8%d1%87%d1%82%d0%be%d0%b6%d0%b8%d0%bb-%d0%bf%d1%83%d0%bd%d0%ba%d1%82-%d1%83%d0%bf",
-"published_at": "2026-11-17T08:36:31Z",
-"quote": "РАСЧЕТ САУ «МСТА-С» УНИЧТОЖИЛ ПУНКТ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
-},
-{
-"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%82%d0%be%d1%81-2-%d1%82%d0%be%d1%81%d0%be%d1%87%d0%ba%d0%b0-%d1%81%d0%be%d0%b5%d0%b4%d0%b8%d0%bd%d0%b5%d0%bd%d0%b8%d1%8f-%d1%80%d1%85%d0%b1%d0%b7",
-"published_at": "2026-11-16T08:59:14Z",
-"quote": "РАСЧЕТ ТОС-2 «ТОСОЧКА» СОЕДИНЕНИЯ РХБЗ ГРУППИРОВКИ ВОЙСК «ЦЕНТР» УНИЧТОЖИЛ РАЙОН СОСРЕДОТОЧЕНИЯ ПУНКТОВ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
-},
-{
-"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d0%b4%d1%80%d0%be%d0%bd%d0%b0-%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%b2%d0%b0%d1%82%d1%87%d0%b8%d0%ba%d0%b0-%d1%81%d0%be%d0%ba%d0%be%d0%bb-%d0%b22-%d0%b7",
-"published_at": "2026-11-16T08:40:21Z",
-"quote": "РАСЧЕТ ДРОНА-ПЕРЕХВАТЧИКА «СОКОЛ-В2» ЗЕНИТНОЙ РАКЕТНОЙ БРИГАДЫ ГРУППИРОВКИ «ЦЕНТР» УНИЧТОЖИЛ ДЕСЯТКИ УДАРНЫХ И РАЗВЕДЫВАТЕЛЬНЫХ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
-},
-{
-"url": "https://t.me/mod_russia/69025",
-"published_at": "2026-11-15T05:42:06Z",
-"quote": "🔥 Кроме того, поражены два железнодорожных локомотива в районе ж/д станции Днепропетровск, используемых в интересах перевозки грузов, предназначенных для обеспечения ВСУ."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_e3954abeb6713184",
-"from": "ent_d380c846b4a97fed",
-"to": "ent_82e26e90a014009e",
-"type": "дислокация",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://airandspaceforces.com/kadena-first-permanent-f-15ex-arrives",
-"published_at": "2026-11-16T20:00:01Z",
-"quote": "A new Eagle is in the nest on Okinawa, Japan—the 18th Wing at Kadena Air Base received its first permanently stationed F-15EX Eagle II on Nov."
-},
-{
-"url": "https://airforce-technology.com/news/usaf-f-15ex-kadena",
-"published_at": "2026-11-16T16:26:04Z",
-"quote": "US Air Force permanently deploys F-15EX jets to Kadena Air Base in Japan"
-},
-{
-"url": "https://theaviationist.com/2026/11/15/kadena-welcomes-its-first-f-15ex-eagle-ii-fighters",
-"published_at": "2026-11-15T12:14:40Z",
-"quote": "Air Force F-15EX Eagle II fighters jets permanently stationed at Kadena Air Base , Japan, arrived at their new home on Nov."
-},
-{
-"url": "https://bastion-karpenko.ru/%d1%81%d1%88%d0%b0-%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%81%d1%82%d0%b8%d0%bb%d0%b8-%d0%b2-%d1%8f%d0%bf%d0%be%d0%bd%d0%b8%d0%b8-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d0%b8-f-15ex",
-"published_at": "2026-11-15T10:21:45Z",
-"quote": "США РАЗМЕСТИЛИ В ЯПОНИИ ИСТРЕБИТЕЛИ F-15EX Модернизированные истребители F-15EX были размещены на базе американских ВВС Кадена на южном японском острове Окинава."
-}
-],
-"sentiment": {
-"score_pm1": 0.1,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -1341,36 +1421,6 @@
 "url": "https://dronexl.co/2026/11/08/skydio-controller-2-ships-395-grams-heavier",
 "published_at": "2026-11-08T23:55:00Z",
 "quote": "webp\" alt=\"Operator in an orange high-visibility shirt holding a Skydio Controller 2 with its sun hood open, showing a map and drone video on the screen\" /></p> <p>Skydio’s Controller 2, a new handheld controller for its X10, X10D and R10 d"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_af9c3dd12649a73d",
-"from": "ent_cd3c86a3a1af0b40",
-"to": "ent_76aae9f116d88191",
-"type": "дислокация",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://theaviationist.com/2026/11/10/raf-mildenhall-security-threat-dispersal",
-"published_at": "2026-11-10T15:30:54Z",
-"quote": "The Combat Sent has been forward deployed to Mildenhall to take part in intelligence gathering sorties along NATO’s eastern flank, where Russian radar systems are in near constant use due to the war in Ukraine."
-},
-{
-"url": "https://dronexl.co/2026/11/09/nato-counter-drone-catalog-alta-ares-six-of-16-lots",
-"published_at": "2026-11-09T10:21:00Z",
-"quote": "int/newsroom/news/nato-accelerates-procurement-for-counterdrone-solutions\">NCIA’s announcement</a> says every selected system has already been deployed in Allied countries and in Ukraine."
-},
-{
-"url": "https://dronelife.com/2026/10/28/nato-drone-procurement-sky-watch-rq35-heidrun",
-"published_at": "2026-10-28T13:06:13Z",
-"quote": "Sky-Watch’s RQ-35 Heidrun, deployed in Ukraine and other conflict zones, is now available to participating NATO nations through a streamlined procurement framework."
 }
 ],
 "sentiment": {
@@ -2545,6 +2595,31 @@
 }
 },
 {
+"id": "rel_58fef7162b6e3a35",
+"from": "ent_a9338747cf31985c",
+"to": "ent_605d5251eb35436f",
+"type": "должность",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://kyivpost.com/post/90370",
+"published_at": "2026-11-17T13:43:54Z",
+"quote": "Germany has pledged $300 million to buy US weaponry for Ukraine through NATO’s Prioritized Ukraine Requirements List (PURL), German Defense Minister Boris Pistorius said on Tuesday."
+},
+{
+"url": "https://defensenews.com/global/europe/2026/10/30/from-tanks-to-space-norway-and-germany-forge-ahead-with-hansa-defense-pact",
+"published_at": "2026-10-30T15:58:31Z",
+"quote": "German Defense Minister Boris Pistorius said the aircraft would operate from Norwegian and Icelandic air bases for this mission, Defense News previously reported ."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_b975c88ee3978ff8",
 "from": "ent_7c6e825e936897ed",
 "to": "ent_ff878af017a8077e",
@@ -3245,6 +3320,31 @@
 }
 },
 {
+"id": "rel_7e2053db5973af56",
+"from": "ent_f1c6d57cb1dda813",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://dsm.forecastinternational.com/2026/11/17/natos-40-billion-counter-drone-imperative/?utm_source=rss&utm_medium=rss&utm_campaign=natos-40-billion-counter-drone-imperative&utm_source=rss&utm_medium=rss&utm_campaign=natos-40-billion-counter-drone-imperative",
+"published_at": "2026-11-17T14:00:23Z",
+"quote": "Not long after an Italian Air Force Eurofighter shot down a drone over Latvia, in August, the Italian government formally requested thousands of U."
+},
+{
+"url": "https://t.me/uav_tech/37188",
+"published_at": "2026-09-20T13:04:49Z",
+"quote": "В марте на используемой США авиабазе Али аль-Салем в Кувейте иранскими ударами были поражены два итальянских  Eurofighter Typhoon."
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_6016e2a42f368bee",
 "from": "ent_cd3c86a3a1af0b40",
 "to": "ent_9e51a7ee6340af7b",
@@ -3390,31 +3490,6 @@
 ],
 "sentiment": {
 "score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_dcb709c6b181932d",
-"from": "ent_cd3c86a3a1af0b40",
-"to": "ent_d54ac6fc23eb6450",
-"type": "применение",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://ru.euronews.com/2026/08/16/nato-dron-romania",
-"published_at": "2026-08-16T08:09:49Z",
-"quote": "Испанский истребитель F-18 НАТО сбил дрон над Румынией у границы с Молдавией"
-},
-{
-"url": "https://t.me/uav_tech/36271",
-"published_at": "2026-05-27T16:02:07Z",
-"quote": "изоляцией района боевых действий, с соответствующим ультиматумом, а потом, если он в течение 24 часов не принимается (а он не принимается), ядерными ударами ТЯО по тем объектам инфраструктуры НАТО в Европе (Германии, Польше, Румынии, Чехии,"
-}
-],
-"sentiment": {
-"score_pm1": -0.1,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -4345,6 +4420,31 @@
 }
 },
 {
+"id": "rel_996d72d67f7c5fee",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_b677547c4bb180c5",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://c4defence.com/en/f-15ex-eagle-ii-kadena-air-base",
+"published_at": "2026-11-17T13:21:59Z",
+"quote": "The deployment of the aircraft expands the base’s ability to conduct counterair operations while strengthening the operational capabilities of forward-deployed U."
+},
+{
+"url": "https://theaviationist.com/2026/11/15/kadena-welcomes-its-first-f-15ex-eagle-ii-fighters",
+"published_at": "2026-11-15T12:14:40Z",
+"quote": "The first permanently stationed U."
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_392ab80f6ee66acb",
 "from": "ent_e66a2be7fe38d473",
 "to": "ent_0a0009fc82d3fadc",
@@ -4520,6 +4620,31 @@
 }
 },
 {
+"id": "rel_be181dc7e34feec6",
+"from": "ent_b677547c4bb180c5",
+"to": "ent_86a408b5b14fa5a6",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://t.me/sbbytoday_by/202010",
+"published_at": "2026-11-17T14:43:55Z",
+"quote": "🏗Трамп заявил о строительстве более 20 заводов по производству Patriot, THAAD и Tomahawk Американский лидер отметил, что странам, которые заказывают американские вооружения, «приходится ждать слишком долго» их поставок."
+},
+{
+"url": "https://defence-blog.com/northrop-gets-1-6b-order-for-patriot-pac-3-rocket-motors",
+"published_at": "2026-11-16T17:46:40Z",
+"quote": "6 billion order to build more rocket motors for the PAC-3 MSE, the Patriot interceptor at the heart of U."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
 "id": "rel_4a8082603ee4132a",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_4596fd0f95231b61",
@@ -4667,6 +4792,31 @@
 "score_pm1": -0.4,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_5714d89c0d94772b",
+"from": "ent_724e0fe25819bf9e",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://warfiles.ru/274024-abrams-humvee-i-tos-1a-solncepek-vmeste-gromili-bandy-boevikov.html",
+"published_at": "2026-11-17T14:31:50Z",
+"quote": "Российские тяжелые огнеметные системы ТОС-1А \"Солнцепек\" активно экспортировались и применялись в боевых действиях в составе иностранных армий."
+},
+{
+"url": "https://rg.ru/2026/11/17/abrams-humvee-i-tos-1a-solncepek-vmeste-gromili-bandy-boevikov.html",
+"published_at": "2026-11-17T10:41:02Z",
+"quote": "Российские тяжелые огнеметные системы ТОС-1А \"Солнцепек\" активно экспортировались и применялись в боевых действиях в составе иностранных армий."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -6781,26 +6931,6 @@
 "url": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program",
 "published_at": "2026-10-05T21:51:21Z",
 "quote": "AeroVironment, Epirus, Kord and Boeing were selected for JIATF-401’s pilot program."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_58fef7162b6e3a35",
-"from": "ent_a9338747cf31985c",
-"to": "ent_605d5251eb35436f",
-"type": "должность",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://defensenews.com/global/europe/2026/10/30/from-tanks-to-space-norway-and-germany-forge-ahead-with-hansa-defense-pact",
-"published_at": "2026-10-30T15:58:31Z",
-"quote": "German Defense Minister Boris Pistorius said the aircraft would operate from Norwegian and Icelandic air bases for this mission, Defense News previously reported ."
 }
 ],
 "sentiment": {
@@ -11101,26 +11231,6 @@
 "url": "https://t.me/uav_tech/37188",
 "published_at": "2026-09-20T13:04:49Z",
 "quote": "Как выяснилось из заявления министра обороны Италии Гвидо Крозетто, в ходе ударов ракет и дронов-камикадзе сил \"Ансар Аллах\" (хуситов) поздно вечером в четверг по саудовской авиабазе в районе Эт-Таифа (авиабаза Король Фахд, расположена в аэ"
-}
-],
-"sentiment": {
-"score_pm1": -0.5,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_7e2053db5973af56",
-"from": "ent_f1c6d57cb1dda813",
-"to": "ent_b677547c4bb180c5",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://t.me/uav_tech/37188",
-"published_at": "2026-09-20T13:04:49Z",
-"quote": "В марте на используемой США авиабазе Али аль-Салем в Кувейте иранскими ударами были поражены два итальянских  Eurofighter Typhoon."
 }
 ],
 "sentiment": {
@@ -18730,26 +18840,6 @@
 }
 },
 {
-"id": "rel_996d72d67f7c5fee",
-"from": "ent_7902a5283b8ea891",
-"to": "ent_b677547c4bb180c5",
-"type": "дислокация",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://theaviationist.com/2026/11/15/kadena-welcomes-its-first-f-15ex-eagle-ii-fighters",
-"published_at": "2026-11-15T12:14:40Z",
-"quote": "The first permanently stationed U."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_c26fc231823e061b",
 "from": "ent_82e26e90a014009e",
 "to": "ent_d380c846b4a97fed",
@@ -20347,26 +20437,6 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_be181dc7e34feec6",
-"from": "ent_b677547c4bb180c5",
-"to": "ent_86a408b5b14fa5a6",
-"type": "контракт",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://defence-blog.com/northrop-gets-1-6b-order-for-patriot-pac-3-rocket-motors",
-"published_at": "2026-11-16T17:46:40Z",
-"quote": "6 billion order to build more rocket motors for the PAC-3 MSE, the Patriot interceptor at the heart of U."
-}
-],
-"sentiment": {
-"score_pm1": 0.3,
-"score_pm2": 1,
-"label": "умеренно позитивный"
 }
 },
 {
@@ -22010,26 +22080,6 @@
 }
 },
 {
-"id": "rel_5714d89c0d94772b",
-"from": "ent_724e0fe25819bf9e",
-"to": "ent_28fea1c77915c37a",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://rg.ru/2026/11/17/abrams-humvee-i-tos-1a-solncepek-vmeste-gromili-bandy-boevikov.html",
-"published_at": "2026-11-17T10:41:02Z",
-"quote": "Российские тяжелые огнеметные системы ТОС-1А \"Солнцепек\" активно экспортировались и применялись в боевых действиях в составе иностранных армий."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_c4278934d59c8724",
 "from": "ent_88b9583e076cfd82",
 "to": "ent_7166debf233e3abf",
@@ -22461,6 +22511,726 @@
 "url": "https://eadaily.com/ru/news/2026/11/17/voennyy-ekspert-postavil-tochku-v-spore-o-reb-ili-pvo-sposobnyh-perehvatit-oreshnik",
 "published_at": "2026-11-17T15:31:00Z",
 "quote": "Удар ракетой комплекса «Орешник» в Львовской области."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_8e14104e41e11063",
+"from": "ent_decd5af73998422a",
+"to": "ent_382bc265ebab3a18",
+"type": "применение",
+"event_date": "2026-11-17",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/uvision-highlights-stand-off-interdiction-role-for-hero-120-air-launched-effects",
+"published_at": "2026-11-17T14:16:05Z",
+"quote": "November 17, 2026, London, UK – Uvision a global leader in smart integrated systems and loitering munitions, is highlighting an operational concept that adds precision strike capabilities to existing utility helicopters through its HERO-120"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_8e15b7ad3d1c592e",
+"from": "ent_decd5af73998422a",
+"to": "ent_9507678c3635d317",
+"type": "применение",
+"event_date": "2026-11-17",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/uvision-highlights-stand-off-interdiction-role-for-hero-120-air-launched-effects",
+"published_at": "2026-11-17T14:16:05Z",
+"quote": "November 17, 2026, London, UK – Uvision a global leader in smart integrated systems and loitering munitions, is highlighting an operational concept that adds precision strike capabilities to existing utility helicopters through its HERO-120"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_2ebca956fcb7c886",
+"from": "ent_24a2356d38455241",
+"to": "ent_4998994bac99149c",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/uvision-highlights-stand-off-interdiction-role-for-hero-120-air-launched-effects",
+"published_at": "2026-11-17T14:16:05Z",
+"quote": "Ran Gozali, CEO of Uvision."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_de44cafc64aa9c03",
+"from": "ent_4998994bac99149c",
+"to": "ent_fa323d4f8a738909",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/uvision-highlights-stand-off-interdiction-role-for-hero-120-air-launched-effects",
+"published_at": "2026-11-17T14:16:05Z",
+"quote": "In 2023, Uvision’s US subsidiary and Axxeum demonstrated a HERO-120 launch from a Bell 412EP helicopter during the US Army’s EDGE event, including transfers of control between airborne and ground operators."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_b970a9a224866836",
+"from": "ent_4998994bac99149c",
+"to": "ent_decd5af73998422a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/uvision-highlights-stand-off-interdiction-role-for-hero-120-air-launched-effects",
+"published_at": "2026-11-17T14:16:05Z",
+"quote": "In 2023, Uvision’s US subsidiary and Axxeum demonstrated a HERO-120 launch from a Bell 412EP helicopter during the US Army’s EDGE event, including transfers of control between airborne and ground operators."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_25cbf3a487ded77b",
+"from": "ent_4998994bac99149c",
+"to": "ent_ec59c6eceb79528b",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/uvision-highlights-stand-off-interdiction-role-for-hero-120-air-launched-effects",
+"published_at": "2026-11-17T14:16:05Z",
+"quote": "In 2023, Uvision’s US subsidiary and Axxeum demonstrated a HERO-120 launch from a Bell 412EP helicopter during the US Army’s EDGE event, including transfers of control between airborne and ground operators."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_bb2b467ae285f085",
+"from": "ent_fa323d4f8a738909",
+"to": "ent_decd5af73998422a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/uvision-highlights-stand-off-interdiction-role-for-hero-120-air-launched-effects",
+"published_at": "2026-11-17T14:16:05Z",
+"quote": "In 2023, Uvision’s US subsidiary and Axxeum demonstrated a HERO-120 launch from a Bell 412EP helicopter during the US Army’s EDGE event, including transfers of control between airborne and ground operators."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_0074fb49edd0cb27",
+"from": "ent_fa323d4f8a738909",
+"to": "ent_ec59c6eceb79528b",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/uvision-highlights-stand-off-interdiction-role-for-hero-120-air-launched-effects",
+"published_at": "2026-11-17T14:16:05Z",
+"quote": "In 2023, Uvision’s US subsidiary and Axxeum demonstrated a HERO-120 launch from a Bell 412EP helicopter during the US Army’s EDGE event, including transfers of control between airborne and ground operators."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_ac250fe78f83a1af",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_4018d1bb0230fed7",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/drones-have-hit-15-ships-in-natos-black-sea-waters-since-october",
+"published_at": "2026-11-17T14:47:23Z",
+"quote": "Russian drones have now struck 15 merchant ships in the Black Sea off NATO members Romania and Bulgaria since Oct."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6e19bfad6aebe1d1",
+"from": "ent_decd5af73998422a",
+"to": "ent_422593a4ae9bc429",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/israeli-firm-offers-drone-strike-kit-for-utility-helicopters",
+"published_at": "2026-11-17T14:15:21Z",
+"quote": "Israeli loitering munition maker Uvision wants to put its HERO-120 on ordinary utility helicopters, giving transport aircraft a way to launch precision strikes from a safe distance, the company said in a release Tuesday."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c76982831eb4a8c4",
+"from": "ent_108f5c34b430d90e",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://belvpo.com/samolet-nato-kruzhit-nad-latviej-u-graniczy-s-rossiej",
+"published_at": "2026-11-17T13:51:52Z",
+"quote": "Самолет НАТО типа Airbus A330-243MRTT, принадлежащий ВВС Нидерландов, около часа кружит над юго-восточной частью Латвии, неподалеку от границы с Россией, следует из полетных данных, которые изучило РИА Новости Согласно полетным данным, в 13"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_f5dfe90d44a1edf9",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_ebf464bdd886fa6c",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dsm.forecastinternational.com/2026/11/17/natos-40-billion-counter-drone-imperative/?utm_source=rss&utm_medium=rss&utm_campaign=natos-40-billion-counter-drone-imperative&utm_source=rss&utm_medium=rss&utm_campaign=natos-40-billion-counter-drone-imperative",
+"published_at": "2026-11-17T14:00:23Z",
+"quote": "In August, a NATO-led, Spanish F-18 shot down a drone that had entered Romanian airspace."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_e8d0521ae729284b",
+"from": "ent_ebf464bdd886fa6c",
+"to": "ent_d54ac6fc23eb6450",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dsm.forecastinternational.com/2026/11/17/natos-40-billion-counter-drone-imperative/?utm_source=rss&utm_medium=rss&utm_campaign=natos-40-billion-counter-drone-imperative&utm_source=rss&utm_medium=rss&utm_campaign=natos-40-billion-counter-drone-imperative",
+"published_at": "2026-11-17T14:00:23Z",
+"quote": "In August, a NATO-led, Spanish F-18 shot down a drone that had entered Romanian airspace."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_c58121db388e05bb",
+"from": "ent_f1c6d57cb1dda813",
+"to": "ent_9e51a7ee6340af7b",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dsm.forecastinternational.com/2026/11/17/natos-40-billion-counter-drone-imperative/?utm_source=rss&utm_medium=rss&utm_campaign=natos-40-billion-counter-drone-imperative&utm_source=rss&utm_medium=rss&utm_campaign=natos-40-billion-counter-drone-imperative",
+"published_at": "2026-11-17T14:00:23Z",
+"quote": "Not long after an Italian Air Force Eurofighter shot down a drone over Latvia, in August, the Italian government formally requested thousands of U."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_c59aca7bd43f7164",
+"from": "ent_8332b7d97e7f954d",
+"to": "ent_71f26e3e27ae9229",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dsm.forecastinternational.com/2026/11/17/natos-40-billion-counter-drone-imperative/?utm_source=rss&utm_medium=rss&utm_campaign=natos-40-billion-counter-drone-imperative&utm_source=rss&utm_medium=rss&utm_campaign=natos-40-billion-counter-drone-imperative",
+"published_at": "2026-11-17T14:00:23Z",
+"quote": "Citing Defense Minister Martin Herem, the high speed aircraft were seen as the most effective way to shoot them down."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_468c0980e1bf8f90",
+"from": "ent_e66a2be7fe38d473",
+"to": "ent_fe2c9fcedebf155a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611171617-25byW.html",
+"published_at": "2026-11-17T14:06:35Z",
+"quote": "Военные инженеры ВС РФ уничтожили Bradley на сброшенных с дронов минах"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_5cfcaff064b8635b",
+"from": "ent_fe2c9fcedebf155a",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611171617-25byW.html",
+"published_at": "2026-11-17T14:06:35Z",
+"quote": "Военные инженеры ВС РФ уничтожили Bradley на сброшенных с дронов минах"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_008a6828deeb0afd",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_fe2c9fcedebf155a",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611171617-25byW.html",
+"published_at": "2026-11-17T14:06:35Z",
+"quote": "«На счету операторов батальона числится множество уничтоженной и выведенной из строя военной техники ВСУ, в том числе боевые машины пехоты Bradley американского производства», - говорится в сообщении."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_fb88b145a8d9a585",
+"from": "ent_a9338747cf31985c",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://kyivpost.com/post/90370",
+"published_at": "2026-11-17T13:43:54Z",
+"quote": "Germany has pledged $300 million to buy US weaponry for Ukraine through NATO’s Prioritized Ukraine Requirements List (PURL), German Defense Minister Boris Pistorius said on Tuesday."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_246074d3b5819d76",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_7c4278bb1c2365e3",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://c4defence.com/en/hms-prince-of-wales-tu-95-2",
+"published_at": "2026-11-17T14:36:40Z",
+"quote": "During NATO’s Neptune Strike 26-4 exercise, F-35Bs launched from HMS Prince of Wales to intercept a Russian Tu-95 Bear bomber."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_70ba3215aaf02b98",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_3c32a4d4c79b3edf",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://c4defence.com/en/hms-prince-of-wales-tu-95-2",
+"published_at": "2026-11-17T14:36:40Z",
+"quote": "During NATO’s Neptune Strike 26-4 exercise, F-35Bs launched from HMS Prince of Wales to intercept a Russian Tu-95 Bear bomber."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_1ee0b0528675b862",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_ba9afbec1f963810",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://c4defence.com/en/hms-prince-of-wales-tu-95-2",
+"published_at": "2026-11-17T14:36:40Z",
+"quote": "During NATO’s Neptune Strike 26-4 exercise, F-35Bs launched from HMS Prince of Wales to intercept a Russian Tu-95 Bear bomber."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_0cd3a8fac819919b",
+"from": "ent_7c4278bb1c2365e3",
+"to": "ent_3c32a4d4c79b3edf",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://c4defence.com/en/hms-prince-of-wales-tu-95-2",
+"published_at": "2026-11-17T14:36:40Z",
+"quote": "During NATO’s Neptune Strike 26-4 exercise, F-35Bs launched from HMS Prince of Wales to intercept a Russian Tu-95 Bear bomber."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_ceda911cb4c756c2",
+"from": "ent_7c4278bb1c2365e3",
+"to": "ent_ba9afbec1f963810",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://c4defence.com/en/hms-prince-of-wales-tu-95-2",
+"published_at": "2026-11-17T14:36:40Z",
+"quote": "During NATO’s Neptune Strike 26-4 exercise, F-35Bs launched from HMS Prince of Wales to intercept a Russian Tu-95 Bear bomber."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_4cc67cc51eebd408",
+"from": "ent_3c32a4d4c79b3edf",
+"to": "ent_ba9afbec1f963810",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://c4defence.com/en/hms-prince-of-wales-tu-95-2",
+"published_at": "2026-11-17T14:36:40Z",
+"quote": "During NATO’s Neptune Strike 26-4 exercise, F-35Bs launched from HMS Prince of Wales to intercept a Russian Tu-95 Bear bomber."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_882762872b70b951",
+"from": "ent_ba9afbec1f963810",
+"to": "ent_382bc265ebab3a18",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://c4defence.com/en/hms-prince-of-wales-tu-95-2",
+"published_at": "2026-11-17T14:36:40Z",
+"quote": "Photo: Royal Navy A total of 20 warships and 40 aircraft from 17 countries participated in Neptune Strike 26-4."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_376d563dce8709cd",
+"from": "ent_d380c846b4a97fed",
+"to": "ent_3e1d6ae060a5d7af",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://c4defence.com/en/f-15ex-eagle-ii-kadena-air-base",
+"published_at": "2026-11-17T13:21:59Z",
+"quote": "F-15EX Electronic Warfare and Strike Capabilities The F-15EX Eagle II brings new capabilities to fighter operations at Kadena with its advanced avionics, modernized electronic warfare capabilities, and increased weapons-carrying capacity."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e6a3903ceaa1fd4d",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_bd84f4b50b17b685",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/sbbytoday_by/201999",
+"published_at": "2026-11-17T13:05:26Z",
+"quote": "Кто и зачем размещает танки НАТО у границ Беларуси"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_8286328bc2a113ee",
+"from": "ent_b677547c4bb180c5",
+"to": "ent_0dd93c1cbb5c85fa",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/sbbytoday_by/202010",
+"published_at": "2026-11-17T14:43:55Z",
+"quote": "🏗Трамп заявил о строительстве более 20 заводов по производству Patriot, THAAD и Tomahawk Американский лидер отметил, что странам, которые заказывают американские вооружения, «приходится ждать слишком долго» их поставок."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_175bcbbd5ff43019",
+"from": "ent_b810574b1983c142",
+"to": "ent_76aae9f116d88191",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://portalobronny.se.pl/wydarzenia/european-defence-group-zapowiada-gieldowa-ofensywe-trzy-debiuty-i-strategiczny-sojusz-z-ukrainskim-producentem-dronow-aa-hqq5-hoHy-mA5K.html",
+"published_at": "2026-11-17T14:55:00Z",
+"quote": "Inwestycja ta wpisuje się w strategiczny cel European Defence Group i Military Group, który polega na transferze sprawdzonych w warunkach bojowych innowacji z Ukrainy i ich skalowaniu przy wykorzystaniu polskich możliwości przemysłowych."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_d00aca5e372eb335",
+"from": "ent_a602b940e57b26e0",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://en.interfax.com.ua/news/general/1237822.html",
+"published_at": "2026-11-17T12:00:55Z",
+"quote": "Over 200 enemy drones, three missiles, three Banderol (Dan-T) UAVs shot down over Ukraine since yesterday evening; hits recorded at 44 locations – Air Force"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_d037bf0e6b6ec8f7",
+"from": "ent_286ac1a705054b05",
+"to": "ent_df912e0929fe5a8d",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72876",
+"published_at": "2026-11-17T00:00:00Z",
+"quote": "According to a report by World Defense News, the NASAMS system is produced jointly by Norway's Kongsberg and the American company Raytheon."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_16dd038d57566761",
+"from": "ent_82e7db2d9eb367cd",
+"to": "ent_df912e0929fe5a8d",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72876",
+"published_at": "2026-11-17T00:00:00Z",
+"quote": "According to a report by World Defense News, the NASAMS system is produced jointly by Norway's Kongsberg and the American company Raytheon."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_4c951a3320f9d3e4",
+"from": "ent_e009989bf4dd0d69",
+"to": "ent_df912e0929fe5a8d",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72876",
+"published_at": "2026-11-17T00:00:00Z",
+"quote": "According to a report by World Defense News, the NASAMS system is produced jointly by Norway's Kongsberg and the American company Raytheon."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_ed05fb65d18ab36d",
+"from": "ent_ac7bda7536b13c9b",
+"to": "ent_d849423390b0c6c9",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72876",
+"published_at": "2026-11-17T00:00:00Z",
+"quote": "Meanwhile, the Skyranger 30 system, manufactured by Rheinmetall, is designed to provide short-range protection primarily against unmanned aerial vehicles and drones."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e0fc9824830ba4f5",
+"from": "ent_7bc34647511f8698",
+"to": "ent_db376d4d7bc4d9da",
+"type": "опровержение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72875",
+"published_at": "2026-11-17T00:00:00Z",
+"quote": "Drone giant DJI has repeatedly denied that its products can be used to harvest data for the Chinese government, arguing that its platforms are not designed for clandestine intelligence gathering and pose no risk to users."
 }
 ],
 "sentiment": {
