@@ -180621,5 +180621,330 @@
 "subjectivity": 0.1,
 "risk_tags": []
 }
+},
+{
+"dedupe_hash": "195416bfd070ea609e9f7d15bc955eed3f05c235869510519a53991a3885963c",
+"url": "https://dronexl.co/2026/11/16/houston-counter-drone-policy-part-124-jammers-radar",
+"published_at": "2026-11-17T01:35:00Z",
+"event_date": "2026-11-04",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "59ed6990c2e418502be253b642ca788f390daaa012998eafcbfc142353c1b407",
+"url": "https://dronexl.co/2026/11/16/dji-mandamus-petition-fcc-ninth-circuit-reply-dismiss",
+"published_at": "2026-11-17T00:59:00Z",
+"event_date": "2026-11-02",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": [
+"Legal",
+"Regulatory"
+]
+}
+},
+{
+"dedupe_hash": "a083660c8d6d966bd4de403b6d33d03158c767794567939d1a523aa2a52514f1",
+"url": "https://tass.ru/armiya-i-opk/28324269",
+"published_at": "2026-11-17T02:31:56Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b89f549e1b0b7af3c411eae8ef493dd007c1cff4555afce20db098742b2dd0d8",
+"url": "https://tass.ru/armiya-i-opk/28324245",
+"published_at": "2026-11-17T02:04:33Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "средства связи и коммуникаций",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7dc7c0b992cd98f5baa30be6c6c9be904bf8afd8da4a5ddfa537df84b71dfa22",
+"url": "https://tass.ru/armiya-i-opk/28324239",
+"published_at": "2026-11-17T02:01:11Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "бронетехника",
+"subfilter": "танки"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "44bebcf3640442e16cda442e6b9126a721852e4fad1088f13a0949276a5110e9",
+"url": "https://tass.ru/armiya-i-opk/28324229",
+"published_at": "2026-11-17T02:00:45Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "161404258acef08d361296e7a98c12a2d576492f35d492b7eb7be8762057d832",
+"url": "https://tass.ru/mezhdunarodnaya-panorama/28324201",
+"published_at": "2026-11-17T01:36:10Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "5277b40a83bd6a8e4fc5d7a9d6686c337ca6045cfa5691599b7cd24db38cf3ae",
+"url": "https://tass.ru/mezhdunarodnaya-panorama/28324199",
+"published_at": "2026-11-17T01:35:15Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7e83d83f8a430542b6be89fba60a023d309d79173e42bf29189cabe777fae199",
+"url": "https://tass.ru/proisshestviya/28324191",
+"published_at": "2026-11-17T01:18:02Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "23271d65bf9ecc5a3d39bf81be3b62ab1931c435ce897697debe4f6aa7fa9622",
+"url": "https://tass.ru/ekonomika/28324185",
+"published_at": "2026-11-17T01:11:15Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "64e6846319a252f34a9df8857ca9feffc685ae6a7dd92b1a4e9252b03dc56b01",
+"url": "https://ria.ru/20261117/svo-2132010783.html",
+"published_at": "2026-11-17T02:10:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "5433aab56dea9b741a168855de05a42b0b5c5b1be4ef377f475e14685b5f5bc4",
+"url": "https://ria.ru/20261117/vrachi-2132010556.html",
+"published_at": "2026-11-17T02:07:33Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "362141a32ab533aa6ce58725ab6d5b29785ebdbdb256dcb723edab1a1b851cc1",
+"url": "https://aerotime.aero/articles/united-airlines-outage-flight-delays-aircraft-weight-data",
+"published_at": "2026-11-17T00:58:35Z",
+"event_date": "2026-11-16",
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ddfa3dffcfbee6b278f8b1f201224ec76a4a577f1fa2d60a0d79a9adf3e14d65",
+"url": "https://fakti.bg/world/1101637-93-drona-sa-unishtojeni-pri-nova-ataka-sreshtu-moskva",
+"published_at": "2026-11-17T01:58:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.8,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "40cc65e6606f0ac88543bf461cc286f11d66e696a1a6e672ccaf166d3ca7d7b1",
+"url": "https://ladepeche.fr/2026/11/16/un-enjeu-majeur-pour-lindustrie-de-defense-francaise-qui-va-sauver-le-dernier-fabricant-francais-de-corps-dobus-13655206.php",
+"published_at": "2026-11-16T16:01:03Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "95bee35b895a31b6861186015dcb99067c580515841e2f2409c39fc263ab1961",
+"url": "https://ria.ru/20261117/ssha-2132010406.html",
+"published_at": "2026-11-17T02:06:05Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.7,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "76e21615a478c63d00623e03d6636f5c3ee3bcb311226f8077aabd59148f76dc",
+"url": "https://stiripesurse.ro/pescari-ecuador-trump-proces-atac-drone-americane_3937403",
+"published_at": "2026-11-17T03:00:34Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
 }
 ]

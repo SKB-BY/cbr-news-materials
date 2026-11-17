@@ -13,9 +13,9 @@
 "рф"
 ],
 "country": "Россия",
-"items": 1752,
+"items": 1756,
 "first_seen": "2026-11-12T13:36:02Z",
-"last_seen": "2026-11-17T01:01:45Z"
+"last_seen": "2026-11-17T03:01:56Z"
 },
 {
 "id": "ent_b677547c4bb180c5",
@@ -36,9 +36,9 @@
 "американским"
 ],
 "country": "США",
-"items": 1155,
+"items": 1157,
 "first_seen": "2026-11-12T13:36:03Z",
-"last_seen": "2026-11-17T01:01:41Z"
+"last_seen": "2026-11-17T03:01:56Z"
 },
 {
 "id": "ent_76aae9f116d88191",
@@ -59,9 +59,9 @@
 "ukrainische"
 ],
 "country": "Украина",
-"items": 1132,
+"items": 1137,
 "first_seen": "2026-11-12T13:36:02Z",
-"last_seen": "2026-11-17T01:03:52Z"
+"last_seen": "2026-11-17T03:02:01Z"
 },
 {
 "id": "ent_7bc34647511f8698",
@@ -71,9 +71,9 @@
 "DJI"
 ],
 "country": "Китай",
-"items": 614,
+"items": 615,
 "first_seen": "2026-11-12T13:36:03Z",
-"last_seen": "2026-11-17T01:01:45Z"
+"last_seen": "2026-11-17T03:01:38Z"
 },
 {
 "id": "ent_db376d4d7bc4d9da",
@@ -128,9 +128,9 @@
 "ЗСУ"
 ],
 "country": null,
-"items": 400,
+"items": 405,
 "first_seen": "2026-11-12T13:36:13Z",
-"last_seen": "2026-11-17T01:01:45Z"
+"last_seen": "2026-11-17T03:02:01Z"
 },
 {
 "id": "ent_5ef06d4929a4484b",
@@ -151,9 +151,9 @@
 "Москвы"
 ],
 "country": null,
-"items": 299,
+"items": 300,
 "first_seen": "2026-11-12T13:36:02Z",
-"last_seen": "2026-11-17T01:04:24Z"
+"last_seen": "2026-11-17T03:03:59Z"
 },
 {
 "id": "ent_382bc265ebab3a18",
@@ -389,9 +389,9 @@
 "Курскую"
 ],
 "country": null,
-"items": 179,
+"items": 180,
 "first_seen": "2026-11-12T13:36:03Z",
-"last_seen": "2026-11-16T19:15:15Z"
+"last_seen": "2026-11-17T03:01:55Z"
 },
 {
 "id": "ent_f2dcf230404a0bff",
@@ -532,9 +532,9 @@
 "Пентагону"
 ],
 "country": null,
-"items": 135,
+"items": 136,
 "first_seen": "2026-11-12T13:36:11Z",
-"last_seen": "2026-11-16T23:02:28Z"
+"last_seen": "2026-11-17T03:01:38Z"
 },
 {
 "id": "ent_f4c52f72b16f8fc3",
@@ -629,9 +629,9 @@
 "ВС РФ"
 ],
 "country": null,
-"items": 109,
+"items": 111,
 "first_seen": "2026-11-12T13:36:08Z",
-"last_seen": "2026-11-16T19:15:02Z"
+"last_seen": "2026-11-17T03:01:55Z"
 },
 {
 "id": "ent_72167ac7999f6b9e",
@@ -668,9 +668,9 @@
 "Япония"
 ],
 "country": "Япония",
-"items": 93,
+"items": 94,
 "first_seen": "2026-11-12T13:36:06Z",
-"last_seen": "2026-11-17T01:01:37Z"
+"last_seen": "2026-11-17T03:01:56Z"
 },
 {
 "id": "ent_7902a5283b8ea891",
@@ -716,9 +716,9 @@
 "Вашингтону"
 ],
 "country": null,
-"items": 87,
+"items": 88,
 "first_seen": "2026-11-12T13:36:04Z",
-"last_seen": "2026-11-17T01:04:26Z"
+"last_seen": "2026-11-17T03:01:38Z"
 },
 {
 "id": "ent_ef0cfce175421f33",
@@ -854,6 +854,27 @@
 "last_seen": "2026-11-16T15:31:59Z"
 },
 {
+"id": "ent_e741f5958b08543d",
+"type": "локация",
+"name": "Южная Корея",
+"aliases": [
+"rok",
+"South Korea",
+"Республика Корея",
+"Республике Корея",
+"Республики Корея",
+"Республикой Корея",
+"Республику Корея",
+"Южная Коре",
+"Южная Корея",
+"Южной Коре"
+],
+"country": "Южная Корея",
+"items": 62,
+"first_seen": "2026-11-12T13:36:06Z",
+"last_seen": "2026-11-17T03:01:56Z"
+},
+{
 "id": "ent_16ae998a15fd862f",
 "type": "локация",
 "name": "Тегеран",
@@ -870,26 +891,6 @@
 "items": 61,
 "first_seen": "2026-11-12T13:36:20Z",
 "last_seen": "2026-11-16T21:11:20Z"
-},
-{
-"id": "ent_e741f5958b08543d",
-"type": "локация",
-"name": "Южная Корея",
-"aliases": [
-"rok",
-"South Korea",
-"Республике Корея",
-"Республики Корея",
-"Республикой Корея",
-"Республику Корея",
-"Южная Коре",
-"Южная Корея",
-"Южной Коре"
-],
-"country": "Южная Корея",
-"items": 61,
-"first_seen": "2026-11-12T13:36:06Z",
-"last_seen": "2026-11-16T19:08:37Z"
 },
 {
 "id": "ent_cbecc516f76ba895",
@@ -959,9 +960,9 @@
 "Запоріж"
 ],
 "country": null,
-"items": 56,
+"items": 57,
 "first_seen": "2026-11-12T13:36:26Z",
-"last_seen": "2026-11-16T23:01:52Z"
+"last_seen": "2026-11-17T03:01:55Z"
 },
 {
 "id": "ent_f0b2f8109fce6ff2",
@@ -1655,6 +1656,23 @@
 "last_seen": "2026-11-16T13:02:49Z"
 },
 {
+"id": "ent_4dd10f19e652ad7c",
+"type": "локация",
+"name": "Сумская обл.",
+"aliases": [
+"Sumy",
+"суммы обл",
+"Сумская обл.",
+"Сумской",
+"Сумской обл",
+"сумском"
+],
+"country": null,
+"items": 20,
+"first_seen": "2026-11-15T08:19:26Z",
+"last_seen": "2026-11-17T03:01:55Z"
+},
+{
 "id": "ent_82d695889d3fa2fa",
 "type": "организация",
 "name": "ВКС России",
@@ -1736,23 +1754,6 @@
 "items": 19,
 "first_seen": "2026-11-12T13:36:13Z",
 "last_seen": "2026-11-16T23:02:11Z"
-},
-{
-"id": "ent_4dd10f19e652ad7c",
-"type": "локация",
-"name": "Сумская обл.",
-"aliases": [
-"Sumy",
-"суммы обл",
-"Сумская обл.",
-"Сумской",
-"Сумской обл",
-"сумском"
-],
-"country": null,
-"items": 19,
-"first_seen": "2026-11-15T08:19:26Z",
-"last_seen": "2026-11-16T23:01:52Z"
 },
 {
 "id": "ent_9645ce799b9cf1d7",
@@ -5511,6 +5512,20 @@
 "last_seen": "2026-11-12T15:17:51Z"
 },
 {
+"id": "ent_8f23924900ea30f8",
+"type": "изделие",
+"name": "Т-90",
+"aliases": [
+"T-90M",
+"Т-90",
+"Т-90М"
+],
+"country": null,
+"items": 3,
+"first_seen": "2026-11-15T08:23:01Z",
+"last_seen": "2026-11-17T03:01:55Z"
+},
+{
 "id": "ent_3c32a4d4c79b3edf",
 "type": "изделие",
 "name": "Ту-95",
@@ -7972,20 +7987,6 @@
 "items": 2,
 "first_seen": "2026-11-15T08:23:49Z",
 "last_seen": "2026-11-15T08:25:46Z"
-},
-{
-"id": "ent_8f23924900ea30f8",
-"type": "изделие",
-"name": "Т-90",
-"aliases": [
-"T-90M",
-"Т-90",
-"Т-90М"
-],
-"country": null,
-"items": 2,
-"first_seen": "2026-11-15T08:23:01Z",
-"last_seen": "2026-11-16T13:02:56Z"
 },
 {
 "id": "ent_740f46e4ee27b6b6",
@@ -11684,6 +11685,18 @@
 "last_seen": "2026-11-16T09:09:20Z"
 },
 {
+"id": "ent_aa0b1cebd3ff4f95",
+"type": "изделие",
+"name": "CFR Part 124",
+"aliases": [
+"CFR Part 124"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-17T03:01:38Z",
+"last_seen": "2026-11-17T03:01:38Z"
+},
+{
 "id": "ent_75f42299d841c376",
 "type": "изделие",
 "name": "CHA-250",
@@ -13314,6 +13327,18 @@
 "items": 1,
 "first_seen": "2026-11-15T08:24:33Z",
 "last_seen": "2026-11-15T08:24:33Z"
+},
+{
+"id": "ent_076168a059eed0a2",
+"type": "изделие",
+"name": "FCC 48",
+"aliases": [
+"FCC 48"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-17T03:01:38Z",
+"last_seen": "2026-11-17T03:01:38Z"
 },
 {
 "id": "ent_a4c1b5b9e909a177",
@@ -27524,6 +27549,18 @@
 "last_seen": "2026-11-12T13:36:16Z"
 },
 {
+"id": "ent_652ee3dc7ed303e7",
+"type": "персона",
+"name": "Elizabeth Prelogar",
+"aliases": [
+"Elizabeth Prelogar"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-17T03:01:38Z",
+"last_seen": "2026-11-17T03:01:38Z"
+},
+{
 "id": "ent_54db9f8932190fae",
 "type": "персона",
 "name": "Elon Musk",
@@ -28232,6 +28269,18 @@
 "last_seen": "2026-11-15T08:19:31Z"
 },
 {
+"id": "ent_ac7b5d7bfc4ed8a8",
+"type": "персона",
+"name": "Marshall White",
+"aliases": [
+"Marshall White"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-17T03:01:38Z",
+"last_seen": "2026-11-17T03:01:38Z"
+},
+{
 "id": "ent_fb9771433aff5d6a",
 "type": "персона",
 "name": "Martin Schelleis",
@@ -28698,6 +28747,18 @@
 "items": 1,
 "first_seen": "2026-11-15T08:19:33Z",
 "last_seen": "2026-11-15T08:19:33Z"
+},
+{
+"id": "ent_95383f8a36f4df99",
+"type": "персона",
+"name": "Scott Kirby",
+"aliases": [
+"Scott Kirby"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-17T03:02:22Z",
+"last_seen": "2026-11-17T03:02:22Z"
 },
 {
 "id": "ent_ddd7128f4a16c29f",

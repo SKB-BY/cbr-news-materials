@@ -5,32 +5,32 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 143,
+"evidence_count": 147,
 "evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28324269",
+"published_at": "2026-11-17T02:31:56Z",
+"quote": "Бойцы \"Севера\" за неделю уничтожили над Курской областью 10 дронов ВСУ"
+},
+{
+"url": "https://ria.ru/20261117/svo-2132010783.html",
+"published_at": "2026-11-17T02:10:01Z",
+"quote": "Дроны \"Запада\" уничтожили опорник ВСУ на Краснолиманском направлении"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28324245",
+"published_at": "2026-11-17T02:04:33Z",
+"quote": "ВС РФ поразили технику, боекомплект и средства связи ВСУ в Сумской области"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28324239",
+"published_at": "2026-11-17T02:01:11Z",
+"quote": "Танки Т-90М \"Прорыв\" уничтожили передовые позиции ВСУ в Запорожской области"
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28323897",
 "published_at": "2026-11-16T21:01:51Z",
 "quote": "Рядовой Мартынюк на ходу уничтожил три ударных беспилотника ВСУ"
-},
-{
-"url": "https://vpk.name/news/1172474_vsu_stavyat_rekord_za_rekordom_po_chislu_primenyaemyh_bpla_prichiny_i_faktory.html",
-"published_at": "2026-11-16T21:00:01Z",
-"quote": "ВСУ ставят рекорд за рекордом по числу применяемых БПЛА: причины и факторы"
-},
-{
-"url": "https://lenta.ru/news/2026/11/16/pochti-20-dronov-vsu-sbili-na-podlete-k-moskve",
-"published_at": "2026-11-16T17:17:00Z",
-"quote": "Почти 20 дронов ВСУ сбили на подлете к Москве"
-},
-{
-"url": "https://tvzvezda.ru/news/202611161821-ILkjP.html",
-"published_at": "2026-11-16T15:41:22Z",
-"quote": "Ранее операторы FPV-дронов Испытательного центра перспективных беспилотных технологий «Рубикон» нанесли серию ударов по военной технике и позициям ВСУ в зоне специальной военной операции."
-},
-{
-"url": "https://t.me/mod_russia/69064",
-"published_at": "2026-11-16T15:14:38Z",
-"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по логистическим центрам, объектам портовой и железнодорожной инфраструктуры, задействованным в интересах ВСУ."
 }
 ],
 "sentiment": {
@@ -45,8 +45,13 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 39,
+"evidence_count": 40,
 "evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28324245",
+"published_at": "2026-11-17T02:04:33Z",
+"quote": "ВС РФ поразили технику, боекомплект и средства связи ВСУ в Сумской области"
+},
 {
 "url": "https://t.me/mod_russia/69064",
 "published_at": "2026-11-16T15:14:38Z",
@@ -66,11 +71,6 @@
 "url": "https://t.me/mod_russia/69060",
 "published_at": "2026-11-16T09:10:56Z",
 "quote": "✈️ Оперативно-тактической авиацией, ударными беспилотными летательными аппаратами, ракетными войсками и артиллерией группировок войск Вооруженных Сил Российской Федерации нанесено поражение объектам энергетической, транспортной инфраструкту"
-},
-{
-"url": "https://ria.ru/20261116/pvo-2131817638.html",
-"published_at": "2026-11-16T08:53:38Z",
-"quote": "Российская ПВО сбила 2049 дронов ВСУ за сутки"
 }
 ],
 "sentiment": {
@@ -125,8 +125,18 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 26,
+"evidence_count": 28,
 "evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28324245",
+"published_at": "2026-11-17T02:04:33Z",
+"quote": "ВС РФ поразили технику, боекомплект и средства связи ВСУ в Сумской области"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28324239",
+"published_at": "2026-11-17T02:01:11Z",
+"quote": "Удары ВС РФ нарушили планы противника по наращиванию резервов на этом участке фронта"
+},
 {
 "url": "https://t.me/mod_russia/69064",
 "published_at": "2026-11-16T15:14:38Z",
@@ -141,16 +151,6 @@
 "url": "https://t.me/mod_russia/69060",
 "published_at": "2026-11-16T09:10:56Z",
 "quote": "✈️ Оперативно-тактической авиацией, ударными беспилотными летательными аппаратами, ракетными войсками и артиллерией группировок войск Вооруженных Сил Российской Федерации нанесено поражение объекта..."
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28321073",
-"published_at": "2026-11-16T08:53:55Z",
-"quote": "ВС РФ с начала СВО сбили свыше 290 тыс."
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28321055",
-"published_at": "2026-11-16T08:52:50Z",
-"quote": "ВС РФ поразили места хранения и запуска беспилотников ВСУ"
 }
 ],
 "sentiment": {
@@ -165,8 +165,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 15,
+"evidence_count": 16,
 "evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28324245",
+"published_at": "2026-11-17T02:04:33Z",
+"quote": "ВС РФ поразили технику, боекомплект и средства связи ВСУ в Сумской области"
+},
 {
 "url": "https://t.me/mod_russia/69064",
 "published_at": "2026-11-16T15:14:38Z",
@@ -186,11 +191,6 @@
 "url": "https://tass.ru/armiya-i-opk/28320247",
 "published_at": "2026-11-16T04:31:21Z",
 "quote": "Офицер Карта: ВС РФ сбили более 10 разведывательных дронов ВСУ под Харьковом"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28320143",
-"published_at": "2026-11-16T03:30:34Z",
-"quote": "Комвзвода Спец: ВС РФ сбили свыше 15 дронов \"Баба-яга\" ВСУ под Харьковом"
 }
 ],
 "sentiment": {
@@ -785,6 +785,41 @@
 }
 },
 {
+"id": "rel_ae6f9762c3b8e832",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_4dd10f19e652ad7c",
+"type": "применение",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28324245",
+"published_at": "2026-11-17T02:04:33Z",
+"quote": "ВС РФ поразили технику, боекомплект и средства связи ВСУ в Сумской области"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28318733",
+"published_at": "2026-11-15T04:32:10Z",
+"quote": "Комвзвода Степ: ВС РФ поразили пункт управления БПЛА ВСУ на сумском направлении"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28318669",
+"published_at": "2026-11-15T03:31:16Z",
+"quote": "Комроты Кот: ВС РФ за неделю уничтожили 10 НРТК ВСУ на сумском направлении"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28317297",
+"published_at": "2026-11-14T03:32:09Z",
+"quote": "БПЛА \"Севера\" за неделю уничтожили девять гексакоптеров ВСУ в Сумской области"
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_6d0a9ce7c79afa84",
 "from": "ent_cd3c86a3a1af0b40",
 "to": "ent_b677547c4bb180c5",
@@ -955,6 +990,41 @@
 ],
 "sentiment": {
 "score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_5be9d4c568aaef6c",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_a22db82c40874406",
+"type": "применение",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28324239",
+"published_at": "2026-11-17T02:01:11Z",
+"quote": "Танки Т-90М \"Прорыв\" уничтожили передовые позиции ВСУ в Запорожской области"
+},
+{
+"url": "https://ria.ru/20261116/spetsoperatsiya-2131762888.html",
+"published_at": "2026-11-16T02:10:14Z",
+"quote": "ВС России уничтожили пункты управления БПЛА ВСУ в Запорожской области"
+},
+{
+"url": "https://t.me/mod_russia/69043",
+"published_at": "2026-11-15T15:13:54Z",
+"quote": "💥 В результате удара поражен логистический центр в городе Запорожье, используемый ВСУ для хранения военных грузов и грузов двойного назначения."
+},
+{
+"url": "https://t.me/mod_russia/69004",
+"published_at": "2026-11-14T05:02:18Z",
+"quote": "▪️ Кроме того, поражены два железнодорожных локомотива в районе ж/д станции Матвеевка Запорожской области, используемых в интересах перевозки грузов, предназначенных для обеспечения ВСУ."
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -1445,13 +1515,18 @@
 }
 },
 {
-"id": "rel_ae6f9762c3b8e832",
-"from": "ent_ed88ced226e6c399",
+"id": "rel_9f5e427bc9fff196",
+"from": "ent_e66a2be7fe38d473",
 "to": "ent_4dd10f19e652ad7c",
 "type": "применение",
 "event_date": null,
 "evidence_count": 3,
 "evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28324245",
+"published_at": "2026-11-17T02:04:33Z",
+"quote": "ВС РФ поразили технику, боекомплект и средства связи ВСУ в Сумской области"
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28318733",
 "published_at": "2026-11-15T04:32:10Z",
@@ -1461,17 +1536,12 @@
 "url": "https://tass.ru/armiya-i-opk/28318669",
 "published_at": "2026-11-15T03:31:16Z",
 "quote": "Комроты Кот: ВС РФ за неделю уничтожили 10 НРТК ВСУ на сумском направлении"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28317297",
-"published_at": "2026-11-14T03:32:09Z",
-"quote": "БПЛА \"Севера\" за неделю уничтожили девять гексакоптеров ВСУ в Сумской области"
 }
 ],
 "sentiment": {
-"score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -1796,36 +1866,6 @@
 "url": "https://t.me/mod_russia/69025",
 "published_at": "2026-11-15T05:42:06Z",
 "quote": "🔥 Кроме того, поражены два железнодорожных локомотива в районе ж/д станции Днепропетровск, используемых в интересах перевозки грузов, предназначенных для обеспечения ВСУ."
-}
-],
-"sentiment": {
-"score_pm1": -0.4,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_5be9d4c568aaef6c",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_a22db82c40874406",
-"type": "применение",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://ria.ru/20261116/spetsoperatsiya-2131762888.html",
-"published_at": "2026-11-16T02:10:14Z",
-"quote": "ВС России уничтожили пункты управления БПЛА ВСУ в Запорожской области"
-},
-{
-"url": "https://t.me/mod_russia/69043",
-"published_at": "2026-11-15T15:13:54Z",
-"quote": "💥 В результате удара поражен логистический центр в городе Запорожье, используемый ВСУ для хранения военных грузов и грузов двойного назначения."
-},
-{
-"url": "https://t.me/mod_russia/69004",
-"published_at": "2026-11-14T05:02:18Z",
-"quote": "▪️ Кроме того, поражены два железнодорожных локомотива в районе ж/д станции Матвеевка Запорожской области, используемых в интересах перевозки грузов, предназначенных для обеспечения ВСУ."
 }
 ],
 "sentiment": {
@@ -2826,31 +2866,6 @@
 "url": "https://armyrecognition.com/news/aerospace-news/2026/u-s-b-21-raider-demonstrates-strike-capability-as-future-backbone-of-u-s-air-force-bomber-fleet",
 "published_at": "2026-11-13T16:52:18Z",
 "quote": "B-21 Raider Demonstrates Strike Capability as Future Backbone of U."
-}
-],
-"sentiment": {
-"score_pm1": -0.1,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_9f5e427bc9fff196",
-"from": "ent_e66a2be7fe38d473",
-"to": "ent_4dd10f19e652ad7c",
-"type": "применение",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://tass.ru/armiya-i-opk/28318733",
-"published_at": "2026-11-15T04:32:10Z",
-"quote": "Комвзвода Степ: ВС РФ поразили пункт управления БПЛА ВСУ на сумском направлении"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28318669",
-"published_at": "2026-11-15T03:31:16Z",
-"quote": "Комроты Кот: ВС РФ за неделю уничтожили 10 НРТК ВСУ на сумском направлении"
 }
 ],
 "sentiment": {
@@ -20987,6 +21002,106 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_2a32b2635d09acca",
+"from": "ent_7bc34647511f8698",
+"to": "ent_652ee3dc7ed303e7",
+"type": "судебный спор",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/16/dji-mandamus-petition-fcc-ninth-circuit-reply-dismiss",
+"published_at": "2026-11-17T00:59:00Z",
+"quote": "DJI’s lawyers at Cooley, among them former US Solicitor General Elizabeth Prelogar, maintain that the court has jurisdiction and could decide the merits now."
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_4a8082603ee4132a",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_4596fd0f95231b61",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28324269",
+"published_at": "2026-11-17T02:31:56Z",
+"quote": "Бойцы \"Севера\" за неделю уничтожили над Курской областью 10 дронов ВСУ"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_ccc07d3aaa83e693",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_8f23924900ea30f8",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28324239",
+"published_at": "2026-11-17T02:01:11Z",
+"quote": "Танки Т-90М \"Прорыв\" уничтожили передовые позиции ВСУ в Запорожской области"
+}
+],
+"sentiment": {
+"score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_f858ac090ae5a22d",
+"from": "ent_8f23924900ea30f8",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28324239",
+"published_at": "2026-11-17T02:01:11Z",
+"quote": "Танки Т-90М \"Прорыв\" уничтожили передовые позиции ВСУ в Запорожской области"
+}
+],
+"sentiment": {
+"score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_e67fb9718604469b",
+"from": "ent_8f23924900ea30f8",
+"to": "ent_a22db82c40874406",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28324239",
+"published_at": "2026-11-17T02:01:11Z",
+"quote": "Танки Т-90М \"Прорыв\" уничтожили передовые позиции ВСУ в Запорожской области"
+}
+],
+"sentiment": {
+"score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный"
 }
 }
 ]
