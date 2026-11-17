@@ -1296,7 +1296,7 @@
 | `thedetail.tv` | rss | HTTP 403 | HTTP 200 |
 | `delo.si` | rss | сетевая ошибка (URLError) | HTTP 200 |
 | `444.hu` | rss | HTTP 403 | HTTP 200 |
-| `источник «только для расчёта ИИД-100»` | rss | сетевая ошибка (URLError) | HTTP 200 |
+| источник группы «только для расчёта ИИД-100» (имя не публикуется) | rss | сетевая ошибка (URLError) | HTTP 200 |
 | `cy-customs-mof` | rss | сетевая ошибка (URLError) | HTTP 200 |
 | `ee-interior-siseministeerium` | rss | HTTP 403 | HTTP 200 |
 | `ee-tax_customs-emta` | rss | HTTP 403 | HTTP 200 |
