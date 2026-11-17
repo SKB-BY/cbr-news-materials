@@ -5,32 +5,32 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 149,
+"evidence_count": 153,
 "evidence": [
+{
+"url": "https://tass.ru/proisshestviya/28324891",
+"published_at": "2026-11-17T06:39:04Z",
+"quote": "Над Курской областью за сутки сбили 179 беспилотников ВСУ"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28324849",
+"published_at": "2026-11-17T06:22:47Z",
+"quote": "Новый удар ВСУ по Крымскому мосту и 1 441 БПЛА."
+},
+{
+"url": "https://lenta.ru/news/2026/11/17/nad-rossiyskim-regionom-sbili-pochti-300-dronov-vsu",
+"published_at": "2026-11-17T05:45:24Z",
+"quote": "Над российским регионом сбили почти 300 дронов ВСУ"
+},
+{
+"url": "https://lenta.ru/news/2026/11/17/nad-rossiyskim-regionom-sbili-50-dronov-vsu",
+"published_at": "2026-11-17T04:51:41Z",
+"quote": "Над российским регионом сбили 50 дронов ВСУ"
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28324487",
 "published_at": "2026-11-17T04:31:49Z",
 "quote": "В группировке \"Север\" заявили об уничтожении более 80 БПЛА \"Баба-яга\" ВСУ"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28324423",
-"published_at": "2026-11-17T04:05:02Z",
-"quote": "В группировке \"Север\" заявили о поражении более 10 пунктов БПЛА ВСУ"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28324269",
-"published_at": "2026-11-17T02:31:56Z",
-"quote": "Бойцы \"Севера\" за неделю уничтожили над Курской областью 10 дронов ВСУ"
-},
-{
-"url": "https://ria.ru/20261117/svo-2132010783.html",
-"published_at": "2026-11-17T02:10:01Z",
-"quote": "Дроны \"Запада\" уничтожили опорник ВСУ на Краснолиманском направлении"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28324245",
-"published_at": "2026-11-17T02:04:33Z",
-"quote": "ВС РФ поразили технику, боекомплект и средства связи ВСУ в Сумской области"
 }
 ],
 "sentiment": {
@@ -45,8 +45,18 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 40,
+"evidence_count": 42,
 "evidence": [
+{
+"url": "https://lenta.ru/news/2026/11/17/nad-rossiyskim-regionom-sbili-pochti-300-dronov-vsu",
+"published_at": "2026-11-17T05:45:24Z",
+"quote": "Над российским регионом сбили почти 300 дронов ВСУ"
+},
+{
+"url": "https://lenta.ru/news/2026/11/17/nad-rossiyskim-regionom-sbili-50-dronov-vsu",
+"published_at": "2026-11-17T04:51:41Z",
+"quote": "Над российским регионом сбили 50 дронов ВСУ"
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28324245",
 "published_at": "2026-11-17T02:04:33Z",
@@ -61,16 +71,6 @@
 "url": "https://tvzvezda.ru/news/202611161359-H9Y81.html",
 "published_at": "2026-11-16T11:58:15Z",
 "quote": "Минобороны России сообщило об уничтожении сразу нескольких пунктов управления беспилотными летательными аппаратами ВСУ в зоне проведения специальной военной операции."
-},
-{
-"url": "https://t.me/news_UAV/5963",
-"published_at": "2026-11-16T09:53:49Z",
-"quote": "Российская ПВО сбила 2049 дронов ВСУ за сутки"
-},
-{
-"url": "https://t.me/mod_russia/69060",
-"published_at": "2026-11-16T09:10:56Z",
-"quote": "✈️ Оперативно-тактической авиацией, ударными беспилотными летательными аппаратами, ракетными войсками и артиллерией группировок войск Вооруженных Сил Российской Федерации нанесено поражение объектам энергетической, транспортной инфраструкту"
 }
 ],
 "sentiment": {
@@ -640,6 +640,86 @@
 }
 },
 {
+"id": "rel_0f6f97cb3e4cf43d",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_e7e61f26b8fd6566",
+"type": "применение",
+"event_date": null,
+"evidence_count": 5,
+"evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28324849",
+"published_at": "2026-11-17T06:22:47Z",
+"quote": "Новый удар ВСУ по Крымскому мосту и 1 441 БПЛА."
+},
+{
+"url": "https://lenta.ru/news/2026/11/16/long-noch-vydalas-tyazheloy-vsu-udarili-po-krymskomu-mostu-boevaya-chast-odnogo-iz-dronov-upala-na-arku",
+"published_at": "2026-11-16T08:18:00Z",
+"quote": "ВСУ ударили по Крымскому мосту."
+},
+{
+"url": "https://vpk.name/news/1172005_ispolzuyut_dannye_ot_ssha_kak_ukraina_gotovila_zvezdnyi_nalet_dronov_na_rossiyu.html",
+"published_at": "2026-11-15T21:00:01Z",
+"quote": "Полковник Ходаренок: цели для массированного удара ВСУ согласовывает Зеленский Силы ПВО за ночь на 13 ноября сбили 1198 украинских беспилотников над 16 областями, Московским регионом, Крымом и Черным морем."
+},
+{
+"url": "https://t.me/voron_fpv/5470",
+"published_at": "2026-05-28T08:06:02Z",
+"quote": "Подразделения Военно-воздушных сил ВСУ с использованием ракет воздушного базирования Storm Shadow уничтожили программно-аппаратные комплексы средств автоматизации разведки Военно-воздушных сил РФ в районах Воронежа (Воронежская область, РФ)"
+},
+{
+"url": "https://t.me/UAVDEV/10688",
+"published_at": "2026-03-11T14:43:59Z",
+"quote": "Дроны ВСУ, не долетевшие третьего дня до Крыма и сбитые ПВО."
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_2599b96c1524346f",
+"from": "ent_72167ac7999f6b9e",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 5,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
+"published_at": "2026-11-17T06:20:16Z",
+"quote": "Объединенная авиастроительная корпорация (ОАК) изготовила и передала Минобороны России новую партию истребителей-бомбардировщиков Су-34."
+},
+{
+"url": "https://t.me/uav_tech/35911",
+"published_at": "2026-04-15T17:00:12Z",
+"quote": "❗️РИА новости со ссылкой на Минобороны РФ сообщило, что Европа на фоне потерь ВСУ решила нарастить производство и поставки БПЛА Украине для ударов по России."
+},
+{
+"url": "https://t.me/drone_expert_news/5318",
+"published_at": "2026-01-28T18:39:19Z",
+"quote": "🦾 «Ростех» впервые передал Министерству обороны России новейшие мобильные комплексы радиоэлектронной борьбы «Зубр», предназначенные для защиты войск от беспилотников."
+},
+{
+"url": "https://t.me/dronesrussia/26844",
+"published_at": "2026-01-02T11:02:01Z",
+"quote": "Материалы с расшифрованными данными маршрутизации и контроллер украинского БПЛА, пораженного ПВО 29 декабря над Новгородской областью, переданы представителю аппарата военного атташе при посольстве США, сообщило Минобороны РФ."
+},
+{
+"url": "https://t.me/dronesrussia/26843",
+"published_at": "2026-01-01T19:01:16Z",
+"quote": "Материалы с расшифрованными данными маршрутизации и контроллер украинского БПЛА, пораженного ПВО 29 декабря над Новгородской областью, переданы представителю аппарата военного атташе при посольстве США, сообщило Минобороны РФ."
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_11886a2f765e7808",
 "from": "ent_7c4278bb1c2365e3",
 "to": "ent_42945ce6b8f796c3",
@@ -675,6 +755,41 @@
 ],
 "sentiment": {
 "score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_8c70b2130f458527",
+"from": "ent_82d695889d3fa2fa",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
+"published_at": "2026-11-17T06:20:16Z",
+"quote": "«Этот самолет сочетает в себе возможности истребителя и бомбардировщика и может наносить удары по наземным, надводным и воздушным целям, в том числе в сложных метеоусловиях и при активном противодействии ПВО», - рассказал командир экипажа С"
+},
+{
+"url": "https://t.me/uav_tech/37415",
+"published_at": "2026-10-31T11:39:45Z",
+"quote": "Хохлы постоянно ноют, что ВКС РФ наносит удары по гражданским зданиям, хотя в большинстве случаев такие повреждения возникают в результате криворукой работы украинской ПВО над жилыми кварталами."
+},
+{
+"url": "https://t.me/uav_tech/37136",
+"published_at": "2026-09-14T07:57:41Z",
+"quote": "На начальном этапе войны противник уже использовал ПТРК \"Стугна\" для поражения зависших в воздухе вертолетов Ка-52 ВКС России, но тогда для этой цели применялись обычные противотанковые ракеты."
+},
+{
+"url": "https://t.me/uav_tech/36261",
+"published_at": "2026-05-26T12:30:57Z",
+"quote": "📹⚡️Кадры из кабины «охотника за дронами» Ка-52 Опубликованы кадры объективного контроля из кабины ударного вертолета Ка-52 ВКС России, демонстрирующие перехват украинского дрона-камикадзе."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -887,76 +1002,6 @@
 "score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_0f6f97cb3e4cf43d",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_e7e61f26b8fd6566",
-"type": "применение",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://lenta.ru/news/2026/11/16/long-noch-vydalas-tyazheloy-vsu-udarili-po-krymskomu-mostu-boevaya-chast-odnogo-iz-dronov-upala-na-arku",
-"published_at": "2026-11-16T08:18:00Z",
-"quote": "ВСУ ударили по Крымскому мосту."
-},
-{
-"url": "https://vpk.name/news/1172005_ispolzuyut_dannye_ot_ssha_kak_ukraina_gotovila_zvezdnyi_nalet_dronov_na_rossiyu.html",
-"published_at": "2026-11-15T21:00:01Z",
-"quote": "Полковник Ходаренок: цели для массированного удара ВСУ согласовывает Зеленский Силы ПВО за ночь на 13 ноября сбили 1198 украинских беспилотников над 16 областями, Московским регионом, Крымом и Черным морем."
-},
-{
-"url": "https://t.me/voron_fpv/5470",
-"published_at": "2026-05-28T08:06:02Z",
-"quote": "Подразделения Военно-воздушных сил ВСУ с использованием ракет воздушного базирования Storm Shadow уничтожили программно-аппаратные комплексы средств автоматизации разведки Военно-воздушных сил РФ в районах Воронежа (Воронежская область, РФ)"
-},
-{
-"url": "https://t.me/UAVDEV/10688",
-"published_at": "2026-03-11T14:43:59Z",
-"quote": "Дроны ВСУ, не долетевшие третьего дня до Крыма и сбитые ПВО."
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_2599b96c1524346f",
-"from": "ent_72167ac7999f6b9e",
-"to": "ent_28fea1c77915c37a",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://t.me/uav_tech/35911",
-"published_at": "2026-04-15T17:00:12Z",
-"quote": "❗️РИА новости со ссылкой на Минобороны РФ сообщило, что Европа на фоне потерь ВСУ решила нарастить производство и поставки БПЛА Украине для ударов по России."
-},
-{
-"url": "https://t.me/drone_expert_news/5318",
-"published_at": "2026-01-28T18:39:19Z",
-"quote": "🦾 «Ростех» впервые передал Министерству обороны России новейшие мобильные комплексы радиоэлектронной борьбы «Зубр», предназначенные для защиты войск от беспилотников."
-},
-{
-"url": "https://t.me/dronesrussia/26844",
-"published_at": "2026-01-02T11:02:01Z",
-"quote": "Материалы с расшифрованными данными маршрутизации и контроллер украинского БПЛА, пораженного ПВО 29 декабря над Новгородской областью, переданы представителю аппарата военного атташе при посольстве США, сообщило Минобороны РФ."
-},
-{
-"url": "https://t.me/dronesrussia/26843",
-"published_at": "2026-01-01T19:01:16Z",
-"quote": "Материалы с расшифрованными данными маршрутизации и контроллер украинского БПЛА, пораженного ПВО 29 декабря над Новгородской областью, переданы представителю аппарата военного атташе при посольстве США, сообщило Минобороны РФ."
-}
-],
-"sentiment": {
-"score_pm1": -0.1,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -1275,36 +1320,6 @@
 }
 },
 {
-"id": "rel_8c70b2130f458527",
-"from": "ent_82d695889d3fa2fa",
-"to": "ent_28fea1c77915c37a",
-"type": "применение",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://t.me/uav_tech/37415",
-"published_at": "2026-10-31T11:39:45Z",
-"quote": "Хохлы постоянно ноют, что ВКС РФ наносит удары по гражданским зданиям, хотя в большинстве случаев такие повреждения возникают в результате криворукой работы украинской ПВО над жилыми кварталами."
-},
-{
-"url": "https://t.me/uav_tech/37136",
-"published_at": "2026-09-14T07:57:41Z",
-"quote": "На начальном этапе войны противник уже использовал ПТРК \"Стугна\" для поражения зависших в воздухе вертолетов Ка-52 ВКС России, но тогда для этой цели применялись обычные противотанковые ракеты."
-},
-{
-"url": "https://t.me/uav_tech/36261",
-"published_at": "2026-05-26T12:30:57Z",
-"quote": "📹⚡️Кадры из кабины «охотника за дронами» Ка-52 Опубликованы кадры объективного контроля из кабины ударного вертолета Ка-52 ВКС России, демонстрирующие перехват украинского дрона-камикадзе."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_1111cdc4a691a8d1",
 "from": "ent_cd3c86a3a1af0b40",
 "to": "ent_d54ac6fc23eb6450",
@@ -1420,6 +1435,36 @@
 ],
 "sentiment": {
 "score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_1dbc206839b46242",
+"from": "ent_82d695889d3fa2fa",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
+"published_at": "2026-11-17T06:20:16Z",
+"quote": "Новую партию Су-34 передали ВКС России после заводских испытаний"
+},
+{
+"url": "https://bmpd.livejournal.com/5012123.html",
+"published_at": "2026-10-09T22:00:27Z",
+"quote": "ВКС России поставлена вторая в 2026 году партия фронтовых бомбардировщиков Су-34"
+},
+{
+"url": "https://bmpd.livejournal.com/5009658.html",
+"published_at": "2026-09-24T22:57:12Z",
+"quote": "ВКС России получили первую партию истребителей Су-57 по программе 2026 года"
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -2575,22 +2620,47 @@
 }
 },
 {
-"id": "rel_1dbc206839b46242",
+"id": "rel_6ec6a8a5e30a4937",
 "from": "ent_82d695889d3fa2fa",
-"to": "ent_28fea1c77915c37a",
+"to": "ent_59965f590d8fcc04",
 "type": "поставка",
 "event_date": null,
 "evidence_count": 2,
 "evidence": [
 {
+"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
+"published_at": "2026-11-17T06:20:16Z",
+"quote": "Новую партию Су-34 передали ВКС России после заводских испытаний"
+},
+{
 "url": "https://bmpd.livejournal.com/5012123.html",
 "published_at": "2026-10-09T22:00:27Z",
 "quote": "ВКС России поставлена вторая в 2026 году партия фронтовых бомбардировщиков Су-34"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
 },
 {
-"url": "https://bmpd.livejournal.com/5009658.html",
-"published_at": "2026-09-24T22:57:12Z",
-"quote": "ВКС России получили первую партию истребителей Су-57 по программе 2026 года"
+"id": "rel_71810bfb904f7bed",
+"from": "ent_72167ac7999f6b9e",
+"to": "ent_59965f590d8fcc04",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
+"published_at": "2026-11-17T06:20:16Z",
+"quote": "Объединенная авиастроительная корпорация (ОАК) изготовила и передала Минобороны России новую партию истребителей-бомбардировщиков Су-34."
+},
+{
+"url": "https://bmpd.livejournal.com/5012123.html",
+"published_at": "2026-10-09T22:00:27Z",
+"quote": "ru/ru/press-center/news/oak-peredala-minoborony-rossii-partiyu-istrebiteley-bombardirovshchikov-su-34\" target=\"_blank\">сообщило,</a> что в рамках гособоронзаказа изготовило и передало Министерству обороны Российской Федерации партию истреби"
 }
 ],
 "sentiment": {
@@ -4316,6 +4386,31 @@
 "url": "https://defence-blog.com/ukraines-envoy-disputes-pentagon-on-starshield-speed-limits",
 "published_at": "2026-11-16T18:36:24Z",
 "quote": "Ukraine’s top diplomat in Washington says SpaceX’s Starshield satellite service is still being throttled in Russian-occupied parts of Ukraine for a seventh straight day, and he flatly disputed reports that the Pentagon has denied any restri"
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_4a8082603ee4132a",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_4596fd0f95231b61",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://tass.ru/proisshestviya/28324891",
+"published_at": "2026-11-17T06:39:04Z",
+"quote": "Над Курской областью за сутки сбили 179 беспилотников ВСУ"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28324269",
+"published_at": "2026-11-17T02:31:56Z",
+"quote": "Бойцы \"Севера\" за неделю уничтожили над Курской областью 10 дронов ВСУ"
 }
 ],
 "sentiment": {
@@ -8000,46 +8095,6 @@
 ],
 "sentiment": {
 "score_pm1": 0.5,
-"score_pm2": 1,
-"label": "умеренно позитивный"
-}
-},
-{
-"id": "rel_6ec6a8a5e30a4937",
-"from": "ent_82d695889d3fa2fa",
-"to": "ent_59965f590d8fcc04",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://bmpd.livejournal.com/5012123.html",
-"published_at": "2026-10-09T22:00:27Z",
-"quote": "ВКС России поставлена вторая в 2026 году партия фронтовых бомбардировщиков Су-34"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_71810bfb904f7bed",
-"from": "ent_72167ac7999f6b9e",
-"to": "ent_59965f590d8fcc04",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://bmpd.livejournal.com/5012123.html",
-"published_at": "2026-10-09T22:00:27Z",
-"quote": "ru/ru/press-center/news/oak-peredala-minoborony-rossii-partiyu-istrebiteley-bombardirovshchikov-su-34\" target=\"_blank\">сообщило,</a> что в рамках гособоронзаказа изготовило и передало Министерству обороны Российской Федерации партию истреби"
-}
-],
-"sentiment": {
-"score_pm1": 0.3,
 "score_pm2": 1,
 "label": "умеренно позитивный"
 }
@@ -21025,26 +21080,6 @@
 }
 },
 {
-"id": "rel_4a8082603ee4132a",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_4596fd0f95231b61",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://tass.ru/armiya-i-opk/28324269",
-"published_at": "2026-11-17T02:31:56Z",
-"quote": "Бойцы \"Севера\" за неделю уничтожили над Курской областью 10 дронов ВСУ"
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_ccc07d3aaa83e693",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_8f23924900ea30f8",
@@ -21122,6 +21157,86 @@
 "score_pm1": 0.3,
 "score_pm2": 1,
 "label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_54e46087dc278c4b",
+"from": "ent_858ba2a76617df8c",
+"to": "ent_9645ce799b9cf1d7",
+"type": "участие в программе",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://uasvision.com/2026/11/17/pentagon-invites-seven-industry-teams-to-phase-ii-directed-energy-shoot-off",
+"published_at": "2026-11-17T06:50:29Z",
+"quote": "Following a comprehensive competitive review of 13 technical white paper submissions, the Department of War’s Office of Research and Engineering (R&E) and Joint Interagency Task Force 401 (JIATF 401) leadership announced that seven industry"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_285005d29e607d21",
+"from": "ent_e075b2ff37cd5b37",
+"to": "ent_7c4278bb1c2365e3",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://uasvision.com/2026/11/17/strike-drones-launched-from-british-aircraft-carrier-for-the-first-time",
+"published_at": "2026-11-17T06:30:22Z",
+"quote": "In landmark North Atlantic trials, which took place in mid-October, British made Nyan Maritime one-way strike drones, manufactured in Wiltshire by Callen-Lenz, took off from HMS Queen Elizabeth’s flight deck, demonstrating how autonomous st"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_badab50000da57ae",
+"from": "ent_82d695889d3fa2fa",
+"to": "ent_59965f590d8fcc04",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
+"published_at": "2026-11-17T06:20:16Z",
+"quote": "«Этот самолет сочетает в себе возможности истребителя и бомбардировщика и может наносить удары по наземным, надводным и воздушным целям, в том числе в сложных метеоусловиях и при активном противодействии ПВО», - рассказал командир экипажа С"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_31dd6347d00bef05",
+"from": "ent_59965f590d8fcc04",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
+"published_at": "2026-11-17T06:20:16Z",
+"quote": "«Этот самолет сочетает в себе возможности истребителя и бомбардировщика и может наносить удары по наземным, надводным и воздушным целям, в том числе в сложных метеоусловиях и при активном противодействии ПВО», - рассказал командир экипажа С"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 }
 ]
