@@ -2,7 +2,7 @@
 
 Правило (с 13.11.2026, t79u/t80u): точка ставится по официально опубликованному адресу штаб-квартиры или (минимум) городу / району / штату — поле location_precision «точно». Если официального адреса нет, допустима приблизительная точка по косвенным признакам (официальный пресс-релиз или страница контактов, вакансии, выставка, город в реестре, даталайн новости, место исполнения контракта) — «приблизительно». У каждой приблизительной точки в location_basis в начале стоит формулировка «Местоположение не официальное, установлено по признакам», затем перечень признаков (URL, цитата, дата проверки). Нет признака — точки нет (список ниже). Столица или центр страны без признака не ставятся. Юридический адрес подписывается «юридический адрес», не как завод. Домашние адреса не публикуются. Российских юрлиц в реестре нет. Источник и дата — в [locations.csv](locations.csv).
 
-Размещено: адрес (улица) — 157, город — 53, район / область — 1, штат — 0; точно — 206, приблизительно — 5; без точки — 26.
+Размещено: адрес (улица) — 159, город — 64, район / область — 2, штат — 0; точно — 220, приблизительно — 5; без точки — 42.
 
 | id | Название | Тип | Причина |
 |---|---|---|---|
@@ -23,6 +23,31 @@
 | unite-brave-nato | UNITE – Brave NATO | program | совместная программа НАТО и Украины; одной локации нет |
 | bravetech-eu | BraveTech EU | program | совместная инициатива ЕС и Украины; одной локации нет |
 | x-irgc-asf | Аэрокосмические силы КСИР (IRGC ASF) | внешний узел | военная структура (Аэрокосмические силы КСИР); официального опубликованного адреса нет |
+| defsecintel | DefSecIntel | company | точка на карте не ставится: подтверждён только город Tallinn (schema.org на сайте); улица из перечня GREEN (Tähetorni tn 21h) — не подтверждено на официальном сайте 16.11.2026 (/contact — HTTP 404) |
+| lendurai | Lendurai OÜ | company | точка на карте не ставится: подтверждена только страна (Registered in Estonia, реестр 16918651); улица из перечня GREEN (Mäealuse tn 2/4) — не подтверждено на официальном сайте 16.11.2026 (/contact и /about — HTTP 404) |
+| edge-autonomy | Edge Autonomy (бывш. UAV Factory) | company | точка на карте не ставится: адрес не подтверждён (площадка Redwire в Риге — отдельный узел redwire-riga) |
+| origin-robotics | Origin Robotics | company | точка на карте не ставится: адрес не подтверждён |
+| eraser | ERASER (SIA) | company | точка на карте не ставится: адрес не подтверждён |
+| brasa-defence | Brasa Defence Systems | company | точка на карте не ставится: адрес не подтверждён |
+| lv-teh | LV-TEH (SIA) | company | точка на карте не ставится: подтверждена только страна |
+| natrix | Natrix | company | точка на карте не ставится: адрес не подтверждён |
+| octopus-isr | Octopus ISR Systems | company | точка на карте не ставится: адрес не подтверждён (площадка Redwire в Риге — узел redwire-riga) |
+| monopulse | Monopulse (MNP technologijos) | company | точка на карте не ставится: адрес не подтверждён |
+| ostara | Ostara, UAB | company | точка на карте не ставится: адрес не подтверждён |
+| airvolve | Airvolve, UAB | company | точка на карте не ставится: адрес не подтверждён |
+| baltic-viper | Baltic Viper (Dangolakis, UAB — по перечню GREEN) | company | точка на карте не ставится: адрес не подтверждён |
+| rsi-europe | RSI Europe, UAB | company | точка на карте не ставится: адрес не подтверждён |
+| uds-lt | Unmanned Defense Systems (UDS), UAB | company | точка на карте не ставится: адрес не подтверждён |
+| luna-robotics | Luna Robotics, UAB | company | точка на карте не ставится: адрес не подтверждён |
+| dronmoto | DronMoto Systems, UAB | company | точка на карте не ставится: адрес не подтверждён |
+| it-logika-dbox | IT logika, UAB (DBOX) | company | точка на карте не ставится: адрес не подтверждён |
+| elarion | Elarionas, UAB (Elarion) | company | точка на карте не ставится: адрес не подтверждён |
+| tigbis | TIGBIS, UAB | company | точка на карте не ставится: адрес не подтверждён |
+| height-technologies | HEIGHT Technologies | company | точка на карте не ставится: адрес не подтверждён |
+| pdkinematics | PDKINEMATICS | company | точка на карте не ставится: адрес не подтверждён |
+| broswarm | Broswarm | company | точка на карте не ставится: адрес не подтверждён |
+| myresearch | MyResearch, UAB | company | точка на карте не ставится: адрес не подтверждён |
+| aerodiagnostika | Aerodiagnostika | company | точка на карте не ставится: адрес не подтверждён |
 
 Связи, которые не рисуются на карте (один из концов без точки; перечислены в боковой панели):
 
@@ -40,12 +65,3 @@
 - unite-brave-nato → brave1 (structure): с украинской стороны программу координирует Brave1, первый конкурс со стороны НАТО ведёт NCIA (МО Украины)
 - bravetech-eu → brave1 (structure): BraveTech EU связывает платформу Brave1 Минцифры с European Defence Fund и EUDIS (Еврокомиссия, 11.07.2025)
 - eda → bravetech-eu (partner): DefTech Forges — конкурсы в рамках BraveTech EU: финансирует Еврокомиссия, поддерживают Brave1 и EDA; победители смогут продолжить испытания с EDA (Brave1, 12.08.2026)
-| defsecintel | DefSecIntel | company | точка на карте не ставится: подтверждён только город Tallinn (schema.org на сайте); улица из перечня GREEN (Tähetorni tn 21h) — не подтверждено на официальном сайте 16.11.2026 (/contact — HTTP 404) |
-| lendurai | Lendurai OÜ | company | точка на карте не ставится: подтверждена только страна (Registered in Estonia, реестр 16918651); улица из перечня GREEN (Mäealuse tn 2/4) — не подтверждено на официальном сайте 16.11.2026 (/contact и /about — HTTP 404) |
-| edge-autonomy | Edge Autonomy (бывш. UAV Factory) | company | точка на карте не ставится: адрес не подтверждён (площадка Redwire в Риге — отдельный узел redwire-riga) |
-| origin-robotics | Origin Robotics | company | точка на карте не ставится: адрес не подтверждён |
-| eraser | ERASER (SIA) | company | точка на карте не ставится: адрес не подтверждён |
-| brasa-defence | Brasa Defence Systems | company | точка на карте не ставится: адрес не подтверждён |
-| lv-teh | LV-TEH (SIA) | company | точка на карте не ставится: подтверждена только страна |
-| natrix | Natrix | company | точка на карте не ставится: адрес не подтверждён |
-| octopus-isr | Octopus ISR Systems | company | точка на карте не ставится: адрес не подтверждён (площадка Redwire в Риге — узел redwire-riga) |
