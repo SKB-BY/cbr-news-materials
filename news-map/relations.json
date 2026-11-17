@@ -5,8 +5,18 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 141,
+"evidence_count": 143,
 "evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28323897",
+"published_at": "2026-11-16T21:01:51Z",
+"quote": "Рядовой Мартынюк на ходу уничтожил три ударных беспилотника ВСУ"
+},
+{
+"url": "https://vpk.name/news/1172474_vsu_stavyat_rekord_za_rekordom_po_chislu_primenyaemyh_bpla_prichiny_i_faktory.html",
+"published_at": "2026-11-16T21:00:01Z",
+"quote": "ВСУ ставят рекорд за рекордом по числу применяемых БПЛА: причины и факторы"
+},
 {
 "url": "https://lenta.ru/news/2026/11/16/pochti-20-dronov-vsu-sbili-na-podlete-k-moskve",
 "published_at": "2026-11-16T17:17:00Z",
@@ -21,16 +31,6 @@
 "url": "https://t.me/mod_russia/69064",
 "published_at": "2026-11-16T15:14:38Z",
 "quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по логистическим центрам, объектам портовой и железнодорожной инфраструктуры, задействованным в интересах ВСУ."
-},
-{
-"url": "https://tass.ru/proisshestviya/28323007",
-"published_at": "2026-11-16T14:48:24Z",
-"quote": "В Брянской области из-за удара дрона ВСУ погиб мужчина"
-},
-{
-"url": "https://topwar.ru/293651-vsu-stavjat-rekord-za-rekordom-po-chislu-primenjaemyh-bpla-prichiny-i-faktory.html",
-"published_at": "2026-11-16T13:19:36Z",
-"quote": "ВСУ ставят рекорд за рекордом по числу применяемых БПЛА: причины и факторы"
 }
 ],
 "sentiment": {
@@ -85,8 +85,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "поставка",
 "event_date": null,
-"evidence_count": 30,
+"evidence_count": 31,
 "evidence": [
+{
+"url": "https://vpk.name/news/1172391_adapter_ne_toi_sistemy_zenitnye_tanki_skyranger_35_stali_problemnymi_dlya_vsu.html",
+"published_at": "2026-11-16T21:00:01Z",
+"quote": "Данный комплекс прошёл «обкатку» в рядах ВСУ – задолго до того, как в сентябре 2026 года была официально признана его передача."
+},
 {
 "url": "https://tvzvezda.ru/news/202611161255-jCl4d.html",
 "published_at": "2026-11-16T10:04:04Z",
@@ -106,11 +111,6 @@
 "url": "https://defence-ua.com/army_and_war/italija_peredala_zsu_kolisni_tanki_b1_centauro_a_teper_stavit_mangali_proti_droniv_na_ti_mashini_jaki_lishilisja-24742.html",
 "published_at": "2026-11-14T06:43:34Z",
 "quote": "Італія передала ЗСУ колісні танки B1 Centauro, а тепер ставить \"мангали\" проти дронів на ті машини, які лишилися"
-},
-{
-"url": "https://vpk.name/news/1171198_stali_izvestny_rossiiskie_perehvatchiki_rzhavyh_kinzhalov_vsu.html",
-"published_at": "2026-11-11T21:00:01Z",
-"quote": "Эксперт Кнутов: Ракеты Rusty Dagger могут перехватывать российские системы ПВО Крылатые ракеты Rusty Dagger («Ржавый кинжал»), которые США поставили Вооруженным силам Украины (ВСУ), могут перехватывать российские системы противовоздушной об"
 }
 ],
 "sentiment": {
@@ -320,6 +320,46 @@
 }
 },
 {
+"id": "rel_96cf90f7abd2f7ff",
+"from": "ent_14d1757585b55c53",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 6,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/16/starshield-cap-occupied-ukraine-spacex-technical-zelensky-substations",
+"published_at": "2026-11-16T21:33:00Z",
+"quote": "co/2026/01/31/spacex-starlink-speed-limit-russian-drones/\">cut Starlink on terminals moving faster than about 47 to 56 mph</a> (75 to 90 km/h) to stop Russian strike drones, and terminals registered to Ukrainian brigades could have the limi"
+},
+{
+"url": "https://t.me/uav_tech/37441",
+"published_at": "2026-11-02T18:33:37Z",
+"quote": "На фоне увеличения ударов вглубь России Украина в 2026-м потратила на Starlink вдвое больше, чем за четыре предыдущих года, выяснил RT."
+},
+{
+"url": "https://t.me/uav_tech/35578",
+"published_at": "2026-03-20T10:10:55Z",
+"quote": "Да и добавим тем, что зенитные дроны сейчас — один из перспективных способов защиты собственных ЗРК, которые с появлением дронов-камикадзе с терминалами «Starlink» превратились из охотников за воздушными целями в зарубки на пульте управлени"
+},
+{
+"url": "https://t.me/zadrony/1673",
+"published_at": "2026-02-03T14:24:47Z",
+"quote": "⚡️ «Шахеды» с ручным управлением — новый этап  По данным эксперта по БПЛА Сергея «Флэш» Бескрестнова, ВС РФ впервые применили ударные дроны типа «Шахед» с ручным управлением через Starlink."
+},
+{
+"url": "https://t.me/uav_tech/35013",
+"published_at": "2026-02-01T09:15:34Z",
+"quote": "С увеличением применения терминалов «Starlink» на российских БПЛА возросло и количество болезненных поражений техники и объектов ВСУ в глубине Украины, что вызвало поросячий визг на всех уровнях, который в том числе и был адресован Илону Ма"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_367661821a6ffa05",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_28fea1c77915c37a",
@@ -360,37 +400,77 @@
 }
 },
 {
-"id": "rel_96cf90f7abd2f7ff",
-"from": "ent_14d1757585b55c53",
+"id": "rel_a8181e25bbfc2c7b",
+"from": "ent_f2dcf230404a0bff",
 "to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 6,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172472_horoshuyu_kartinku_s_kamer_rossiiskih_dronov_svyazali_s_rassvetom.html",
+"published_at": "2026-11-16T21:00:01Z",
+"quote": "Повышение качества изображения на российских «Геранях» связали со спутниками «Рассвет» Качество изображения, которое передают с камер российских дронов семейства «Герань», могло улучшиться из-за использования спутниковой системы связи «Расс"
+},
+{
+"url": "https://vpk.name/news/1171485_rossiiskie_gerani_s_rassvetom_peredadut_video_operatoru.html",
+"published_at": "2026-11-12T21:00:01Z",
+"quote": "Российские «Герани-2» с терминалами спутниковой связи «Рассвет» передадут видео оператору Российские дроны-камикадзе «Герань-2» после оснащения терминалами спутниковой системы связи «Рассвет» смогут передавать оператору видео в режиме реаль"
+},
+{
+"url": "https://twz.com/air/l-39ng-skyfox-jets-could-give-ukraine-a-critical-new-russian-drone-hunting-capability",
+"published_at": "2026-11-12T19:13:31Z",
+"quote": "The Czech Republic could supply Ukraine with up to 16 Aero L-39NG Skyfox aircraft, potentially giving Kyiv another option for countering Russia’s Shahed-type attack drones ."
+},
+{
+"url": "https://t.me/zadrony/2007",
+"published_at": "2026-09-21T19:56:57Z",
+"quote": "⚡️ От Shahed до «Герани-5»: как менялся российский дрон В 2022 году Россия получила иранские Shahed-131 и Shahed-136 — будущие «Герань-1» и «Герань-2»."
+},
+{
+"url": "https://t.me/uav_tech/37135",
+"published_at": "2026-09-14T06:31:38Z",
+"quote": "🇮🇷 #Иран По сообщению Financial Times, новые российские беспилотники моделей \"Герань-4\" и \"Герань-5\" настолько хороши, что Иран в этом году запросил у России поставку этих беспилотников, чтобы испо..."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_b32b662b140fae74",
+"from": "ent_14d1757585b55c53",
+"to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
 "evidence_count": 5,
 "evidence": [
+{
+"url": "https://dronexl.co/2026/11/16/starshield-cap-occupied-ukraine-spacex-technical-zelensky-substations",
+"published_at": "2026-11-16T21:33:00Z",
+"quote": "co/2026/01/31/spacex-starlink-speed-limit-russian-drones/\">cut Starlink on terminals moving faster than about 47 to 56 mph</a> (75 to 90 km/h) to stop Russian strike drones, and terminals registered to Ukrainian brigades could have the limi"
+},
 {
 "url": "https://t.me/uav_tech/37441",
 "published_at": "2026-11-02T18:33:37Z",
 "quote": "На фоне увеличения ударов вглубь России Украина в 2026-м потратила на Starlink вдвое больше, чем за четыре предыдущих года, выяснил RT."
 },
 {
-"url": "https://t.me/uav_tech/35578",
-"published_at": "2026-03-20T10:10:55Z",
-"quote": "Да и добавим тем, что зенитные дроны сейчас — один из перспективных способов защиты собственных ЗРК, которые с появлением дронов-камикадзе с терминалами «Starlink» превратились из охотников за воздушными целями в зарубки на пульте управлени"
+"url": "https://c4isrnet.com/unmanned/2026/09/30/ukraines-former-defense-minister-launches-manhattan-project-for-killer-robots",
+"published_at": "2026-09-30T08:29:57Z",
+"quote": "But most of the futuristic robot designs featured in Fedorov’s video, humanoids included, are not yet used in combat in Ukraine today, and the ground robots that are in use almost always have a human operator at the controls, usually over S"
 },
 {
-"url": "https://t.me/zadrony/1673",
-"published_at": "2026-02-03T14:24:47Z",
-"quote": "⚡️ «Шахеды» с ручным управлением — новый этап  По данным эксперта по БПЛА Сергея «Флэш» Бескрестнова, ВС РФ впервые применили ударные дроны типа «Шахед» с ручным управлением через Starlink."
+"url": "https://t.me/UAVDEV/10214",
+"published_at": "2026-02-02T03:32:26Z",
+"quote": "В общем вне зависимости от того, как получится в итоге со старлинком, высокоточные удары по тылам ВСУ есть как и чем организовывать."
 },
 {
 "url": "https://t.me/uav_tech/35013",
 "published_at": "2026-02-01T09:15:34Z",
 "quote": "С увеличением применения терминалов «Starlink» на российских БПЛА возросло и количество болезненных поражений техники и объектов ВСУ в глубине Украины, что вызвало поросячий визг на всех уровнях, который в том числе и был адресован Илону Ма"
-},
-{
-"url": "https://t.me/zadrony/1658",
-"published_at": "2026-01-26T12:35:55Z",
-"quote": "⚡️ «Шахеды» могут перейти на Starlink  Российские военные в ближайшее время могут получить возможность управлять ударными БПЛА типа «Шахед» через спутниковую связь Starlink, считает эксперт по дрон..."
 }
 ],
 "sentiment": {
@@ -520,41 +600,41 @@
 }
 },
 {
-"id": "rel_a8181e25bbfc2c7b",
-"from": "ent_f2dcf230404a0bff",
-"to": "ent_28fea1c77915c37a",
-"type": "поставка",
+"id": "rel_f3c6524622ea9804",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_48a4e1e33ddc917b",
+"type": "испытание",
 "event_date": null,
 "evidence_count": 5,
 "evidence": [
 {
-"url": "https://vpk.name/news/1171485_rossiiskie_gerani_s_rassvetom_peredadut_video_operatoru.html",
-"published_at": "2026-11-12T21:00:01Z",
-"quote": "Российские «Герани-2» с терминалами спутниковой связи «Рассвет» передадут видео оператору Российские дроны-камикадзе «Герань-2» после оснащения терминалами спутниковой системы связи «Рассвет» смогут передавать оператору видео в режиме реаль"
+"url": "https://vpk.name/news/1172310_vvs_ssha_vpervye_proveli_ispytaniya_po_sbrosu_vooruzheniya_s_bombardirovshika_b-21_raider.html",
+"published_at": "2026-11-16T21:00:01Z",
+"quote": "ВВС США впервые провели испытания по сбросу вооружения с бомбардировщика B-21 Raider"
 },
 {
-"url": "https://twz.com/air/l-39ng-skyfox-jets-could-give-ukraine-a-critical-new-russian-drone-hunting-capability",
-"published_at": "2026-11-12T19:13:31Z",
-"quote": "The Czech Republic could supply Ukraine with up to 16 Aero L-39NG Skyfox aircraft, potentially giving Kyiv another option for countering Russia’s Shahed-type attack drones ."
+"url": "https://airforce-technology.com/news/usaf-b-21-raider-2",
+"published_at": "2026-11-16T17:05:18Z",
+"quote": "US Air Force B-21 Raider completes first weapons release test"
 },
 {
-"url": "https://t.me/zadrony/2007",
-"published_at": "2026-09-21T19:56:57Z",
-"quote": "⚡️ От Shahed до «Герани-5»: как менялся российский дрон В 2022 году Россия получила иранские Shahed-131 и Shahed-136 — будущие «Герань-1» и «Герань-2»."
+"url": "https://israeldefense.co.il/en/node/72858",
+"published_at": "2026-11-16T00:00:00Z",
+"quote": "sharing US Air Force Validates B-21 Raider as Weapons Platform The stealth bomber completed a successful weapons release test in California ahead of its planned fielding at Ellsworth AFB next year."
 },
 {
-"url": "https://t.me/uav_tech/37135",
-"published_at": "2026-09-14T06:31:38Z",
-"quote": "🇮🇷 #Иран По сообщению Financial Times, новые российские беспилотники моделей \"Герань-4\" и \"Герань-5\" настолько хороши, что Иран в этом году запросил у России поставку этих беспилотников, чтобы испо..."
+"url": "https://vpk.name/news/1172002_vvs_ssha_ispytali_sbros_vooruzheniya_s_noveishego_bombardirovshika_b-21_raider.html",
+"published_at": "2026-11-15T21:00:01Z",
+"quote": "ВВС США испытали сброс вооружения с новейшего бомбардировщика B-21 Raider"
 },
 {
-"url": "https://t.me/uav_tech/37002",
-"published_at": "2026-08-28T07:33:43Z",
-"quote": "Александр Зимовский: \"Китай стал ключевым звеном в производстве иранских дронов Shahed, изменивших ход войны Иранский ударный беспилотник Shahed (российское название — «Герань») стал одним из самых революционных и дешёвых видов оружия совре"
+"url": "https://belvpo.com/vvs-ssha-proveli-ispytanie-po-sbrosu-vooruzheniya-s-b-21-raider",
+"published_at": "2026-11-13T18:45:45Z",
+"quote": "ВВС США провели испытание по сбросу вооружения с B-21 Raider"
 }
 ],
 "sentiment": {
-"score_pm1": 0.0,
+"score_pm1": 0.1,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -597,41 +677,6 @@
 "score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_b32b662b140fae74",
-"from": "ent_14d1757585b55c53",
-"to": "ent_76aae9f116d88191",
-"type": "применение",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://t.me/uav_tech/37441",
-"published_at": "2026-11-02T18:33:37Z",
-"quote": "На фоне увеличения ударов вглубь России Украина в 2026-м потратила на Starlink вдвое больше, чем за четыре предыдущих года, выяснил RT."
-},
-{
-"url": "https://c4isrnet.com/unmanned/2026/09/30/ukraines-former-defense-minister-launches-manhattan-project-for-killer-robots",
-"published_at": "2026-09-30T08:29:57Z",
-"quote": "But most of the futuristic robot designs featured in Fedorov’s video, humanoids included, are not yet used in combat in Ukraine today, and the ground robots that are in use almost always have a human operator at the controls, usually over S"
-},
-{
-"url": "https://t.me/UAVDEV/10214",
-"published_at": "2026-02-02T03:32:26Z",
-"quote": "В общем вне зависимости от того, как получится в итоге со старлинком, высокоточные удары по тылам ВСУ есть как и чем организовывать."
-},
-{
-"url": "https://t.me/uav_tech/35013",
-"published_at": "2026-02-01T09:15:34Z",
-"quote": "С увеличением применения терминалов «Starlink» на российских БПЛА возросло и количество болезненных поражений техники и объектов ВСУ в глубине Украины, что вызвало поросячий визг на всех уровнях, который в том числе и был адресован Илону Ма"
-}
-],
-"sentiment": {
-"score_pm1": -0.1,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -737,41 +782,6 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_f3c6524622ea9804",
-"from": "ent_7902a5283b8ea891",
-"to": "ent_48a4e1e33ddc917b",
-"type": "испытание",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://airforce-technology.com/news/usaf-b-21-raider-2",
-"published_at": "2026-11-16T17:05:18Z",
-"quote": "US Air Force B-21 Raider completes first weapons release test"
-},
-{
-"url": "https://israeldefense.co.il/en/node/72858",
-"published_at": "2026-11-16T00:00:00Z",
-"quote": "sharing US Air Force Validates B-21 Raider as Weapons Platform The stealth bomber completed a successful weapons release test in California ahead of its planned fielding at Ellsworth AFB next year."
-},
-{
-"url": "https://vpk.name/news/1172002_vvs_ssha_ispytali_sbros_vooruzheniya_s_noveishego_bombardirovshika_b-21_raider.html",
-"published_at": "2026-11-15T21:00:01Z",
-"quote": "ВВС США испытали сброс вооружения с новейшего бомбардировщика B-21 Raider"
-},
-{
-"url": "https://belvpo.com/vvs-ssha-proveli-ispytanie-po-sbrosu-vooruzheniya-s-b-21-raider",
-"published_at": "2026-11-13T18:45:45Z",
-"quote": "ВВС США провели испытание по сбросу вооружения с B-21 Raider"
-}
-],
-"sentiment": {
-"score_pm1": 0.1,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -2325,6 +2335,31 @@
 }
 },
 {
+"id": "rel_5832e273e6c238ea",
+"from": "ent_4cd59525919863d6",
+"to": "ent_b0bba4c8f275ffd0",
+"type": "должность",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/16/us-five-year-nonbinding-autonomous-weapons-geneva",
+"published_at": "2026-11-16T22:09:00Z",
+"quote": "In June, President Trump gave the Pentagon 90 days to rewrite its own autonomous weapons directive, and in September Defense Secretary Pete Hegseth ordered a <a href=\"https://dronexl."
+},
+{
+"url": "https://c4isrnet.com/battlefield-tech/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says",
+"published_at": "2026-10-14T22:06:56Z",
+"quote": "Defense Secretary Pete Hegseth addressed AUSA attendees at the Project Agincourt panel on Wednesday, sharing that the Pentagon is requesting roughly $50 billion in reconciliation funding to support the push to scale autonomous and robotic s"
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_f9d262e55cd0b860",
 "from": "ent_cc536968c15118bb",
 "to": "ent_801f9ef8848ff36b",
@@ -2666,6 +2701,31 @@
 "url": "https://theaviationist.com/2026/11/13/b-21-raider-first-weapon-release",
 "published_at": "2026-11-13T15:21:15Z",
 "quote": "unrivaled deterrence,” said Tom Jones, corporate vice president and president of Northrop Grumman Aeronautics Systems."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_129acc6d555235de",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_48a4e1e33ddc917b",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172310_vvs_ssha_vpervye_proveli_ispytaniya_po_sbrosu_vooruzheniya_s_bombardirovshika_b-21_raider.html",
+"published_at": "2026-11-16T21:00:01Z",
+"quote": "ВВС США впервые выполнили испытательный сброс вооружения с малозаметного стратегического бомбардировщика B-21 Raider разработки Northrop Grumman, о чем ВВС и компания-разработчик сообщили 13 ноября."
+},
+{
+"url": "https://theaviationist.com/2026/11/13/b-21-raider-first-weapon-release",
+"published_at": "2026-11-13T15:21:15Z",
+"quote": "” Northrop Grumman also highlighted the aircraft’s payload flexibility, explaining that the B-21 has been designed to accommodate different weapon loadouts depending on mission requirements, while its open-architecture design will allow add"
 }
 ],
 "sentiment": {
@@ -4220,6 +4280,31 @@
 ],
 "sentiment": {
 "score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_dac2665caa8ab53c",
+"from": "ent_c4d02534cbe847ba",
+"to": "ent_ea737724a72411d4",
+"type": "опровержение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/16/starshield-cap-occupied-ukraine-spacex-technical-zelensky-substations",
+"published_at": "2026-11-16T21:33:00Z",
+"quote": "co/2026/11/12/zelensky-starshield-100-mph-cap-returns-spacex-denies/\">Zelensky said it was back and SpaceX called his account false</a>."
+},
+{
+"url": "https://defence-blog.com/ukraines-envoy-disputes-pentagon-on-starshield-speed-limits",
+"published_at": "2026-11-16T18:36:24Z",
+"quote": "Ukraine’s top diplomat in Washington says SpaceX’s Starshield satellite service is still being throttled in Russian-occupied parts of Ukraine for a seventh straight day, and he flatly disputed reports that the Pentagon has denied any restri"
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -6676,26 +6761,6 @@
 "url": "https://defensenews.com/global/asia-pacific/2026/10/02/taiwans-first-two-f-16v-fighter-jets-arrive-to-bolster-defenses-against-china",
 "published_at": "2026-10-02T14:15:53Z",
 "quote": "TAITUNG, Taiwan — The first two of a batch of 66 new F-16V Block 70 fighter jets ordered in 2019 arrived in Taiwan on Friday after months of delays, helping to strengthen an air force that has to scramble almost daily to shadow China’s mili"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_5832e273e6c238ea",
-"from": "ent_4cd59525919863d6",
-"to": "ent_b0bba4c8f275ffd0",
-"type": "должность",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://c4isrnet.com/battlefield-tech/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says",
-"published_at": "2026-10-14T22:06:56Z",
-"quote": "Defense Secretary Pete Hegseth addressed AUSA attendees at the Project Agincourt panel on Wednesday, sharing that the Pentagon is requesting roughly $50 billion in reconciliation funding to support the push to scale autonomous and robotic s"
 }
 ],
 "sentiment": {
@@ -9196,26 +9261,6 @@
 "url": "https://theaviationist.com/2026/11/13/b-21-raider-first-weapon-release",
 "published_at": "2026-11-13T15:21:15Z",
 "quote": "Air Force publicly acknowledged that the B-21 Raider had conducted aerial refueling from a KC-135 as part of its ongoing test and evaluation program, jointly conducted with Northrop Grumman, at Edwards AFB, California."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_129acc6d555235de",
-"from": "ent_868a15ba4aeb446a",
-"to": "ent_48a4e1e33ddc917b",
-"type": "разработка",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://theaviationist.com/2026/11/13/b-21-raider-first-weapon-release",
-"published_at": "2026-11-13T15:21:15Z",
-"quote": "” Northrop Grumman also highlighted the aircraft’s payload flexibility, explaining that the B-21 has been designed to accommodate different weapon loadouts depending on mission requirements, while its open-architecture design will allow add"
 }
 ],
 "sentiment": {
@@ -20045,26 +20090,6 @@
 }
 },
 {
-"id": "rel_dac2665caa8ab53c",
-"from": "ent_c4d02534cbe847ba",
-"to": "ent_ea737724a72411d4",
-"type": "опровержение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://defence-blog.com/ukraines-envoy-disputes-pentagon-on-starshield-speed-limits",
-"published_at": "2026-11-16T18:36:24Z",
-"quote": "Ukraine’s top diplomat in Washington says SpaceX’s Starshield satellite service is still being throttled in Russian-occupied parts of Ukraine for a seventh straight day, and he flatly disputed reports that the Pentagon has denied any restri"
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_be181dc7e34feec6",
 "from": "ent_b677547c4bb180c5",
 "to": "ent_86a408b5b14fa5a6",
@@ -20756,6 +20781,206 @@
 "url": "https://airandspaceforces.com/kadena-first-permanent-f-15ex-arrives",
 "published_at": "2026-11-16T20:00:01Z",
 "quote": "have filled the tactical fighter need with a mix of F-35 Lightning IIs, F-22 Raptors, F-16 Fighting Falcons, F-15E Strike Eagles, and F-15C/D Eagles."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_4e5058e9f2c1b96f",
+"from": "ent_9e791ff88745b910",
+"to": "ent_f2dcf230404a0bff",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/16/starshield-cap-occupied-ukraine-spacex-technical-zelensky-substations",
+"published_at": "2026-11-16T21:33:00Z",
+"quote": "webp\" alt=\"Flat white Starshield satellite terminal on a black hard case beside a tan Humvee draped in camouflage netting on gravel ground\" /></p> <p>Ukrainian President Volodymyr Zelensky said Sunday, November 15, that Russian Shaheds are "
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_383da5a0df6b37f7",
+"from": "ent_9e791ff88745b910",
+"to": "ent_c4d02534cbe847ba",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/16/starshield-cap-occupied-ukraine-spacex-technical-zelensky-substations",
+"published_at": "2026-11-16T21:33:00Z",
+"quote": "webp\" alt=\"Flat white Starshield satellite terminal on a black hard case beside a tan Humvee draped in camouflage netting on gravel ground\" /></p> <p>Ukrainian President Volodymyr Zelensky said Sunday, November 15, that Russian Shaheds are "
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_90819fbb795a47ca",
+"from": "ent_f2dcf230404a0bff",
+"to": "ent_ea737724a72411d4",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/16/starshield-cap-occupied-ukraine-spacex-technical-zelensky-substations",
+"published_at": "2026-11-16T21:33:00Z",
+"quote": "”</strong></p> <p>Zelensky said on October 28 that a European country had paid for 2,000 Bars drones and that one destroyed a Shahed in testing before Starshield stopped working during October’s cap, according to <a href=\"https://militarnyi"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_0523e96aa30f3620",
+"from": "ent_42945ce6b8f796c3",
+"to": "ent_8a35c22819ef8fe7",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/16/b-2-footage-the-watch",
+"published_at": "2026-11-16T22:24:55Z",
+"quote": "The B-2 has long been the asset of choice for the bunker buster mission (for instance, using the GBU-57 Massive Ordnance Penetrator during the air strikes on Iran or Yemen), thanks to its ability to penetrate heavily defended airspace and d"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_562b7e1b9cbc695f",
+"from": "ent_f4c52f72b16f8fc3",
+"to": "ent_8a35c22819ef8fe7",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/16/b-2-footage-the-watch",
+"published_at": "2026-11-16T22:24:55Z",
+"quote": "The B-2 has long been the asset of choice for the bunker buster mission (for instance, using the GBU-57 Massive Ordnance Penetrator during the air strikes on Iran or Yemen), thanks to its ability to penetrate heavily defended airspace and d"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_213132bd6351e9df",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_48a4e1e33ddc917b",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172310_vvs_ssha_vpervye_proveli_ispytaniya_po_sbrosu_vooruzheniya_s_bombardirovshika_b-21_raider.html",
+"published_at": "2026-11-16T21:00:01Z",
+"quote": "ВВС США впервые выполнили испытательный сброс вооружения с малозаметного стратегического бомбардировщика B-21 Raider разработки Northrop Grumman, о чем ВВС и компания-разработчик сообщили 13 ноября."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c1d2b5d92a707cac",
+"from": "ent_e50e9b8e1c289c1d",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172309_elbit_systems_postavit_rszo_puls_nenazvannoi_strane_nato.html",
+"published_at": "2026-11-16T21:00:01Z",
+"quote": "Elbit Systems поставит РСЗО PULS неназванной стране НАТО"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_b6c02345620ba945",
+"from": "ent_d902053287bd6e57",
+"to": "ent_9e51a7ee6340af7b",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172475_kaz_mangalu_ne_pomeha_nemeckii_tank_leopard_2a7_osnastili_reshetchatoi_zashitoi.html",
+"published_at": "2026-11-16T21:00:01Z",
+"quote": "На фотографиях, опубликованных на этой неделе, немецкие солдаты из 45-й танковой бригады, дислоцированной на постоянной основе в Литве, запечатлены за работой над сооружением самодельного «мангала» на танке Leopard 2A7A1."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_614a2ac6a42b511b",
+"from": "ent_cc536968c15118bb",
+"to": "ent_86a408b5b14fa5a6",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defensedaily.com/northrop-grumman-nabs-1-6-billion-lockheed-martin-order-for-pac-3-mse-propulsion/weapons",
+"published_at": "2026-11-16T21:27:40Z",
+"quote": "6 Billion Lockheed Martin Order For PAC-3 MSE Propulsion"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_3f5baa30317c548e",
+"from": "ent_1db814fd656b8d86",
+"to": "ent_4018d1bb0230fed7",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://fakti.bg/bulgaria/1101564-morak-ruski-dron-udari-koraba-betul-8-krai-balgaria",
+"published_at": "2026-11-16T21:06:11Z",
+"quote": "Товарният кораб BETUL 8 е бил ударен от два морски дрона в българската изключителна икономическа зона на Черно море, преобърнал се е и е потънал."
 }
 ],
 "sentiment": {
