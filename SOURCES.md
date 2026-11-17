@@ -348,6 +348,63 @@
 |---|---|---|---|---|---|---|
 | Эстония (t163u, 16.11.2026) | 13 | 13 (10 новых + DJI, sUAS News, Army Technology — ранее) | 0 | 9 | 5 новых (THREOD, DefSecIntel, Meridein, Cybernetica + офис Тарту, Lendurai); Milrem (+6 офисов с сайта) и Frankenburg обновлены | 2 (DefSecIntel — только город, Lendurai — только страна) |
 | Латвия (t164u, 17.11.2026) | 8 | 8 | 0 | 15 | 14 новых; Aerones обновлена | 7 (Edge Autonomy, Origin Robotics, ERASER, Brasa Defence Systems, LV-TEH, Natrix, Octopus ISR) |
+| Литва (t167u, 17.11.2026) | 7 сайтов | 6 | 1 (dbox.lt — нет раздела новостей) | 18 | 18 новых | 16 (точка только у Granta Autonomy и Loveta / Dronai.lt) |
+| Иран (t167u, 17.11.2026) | 9 лент | 8 | 1 (farsnews.ir — только JS) | 12 | 12 новых | 0 (точки по городу) |
+| Telegram (t167u, 17.11.2026) | 13 каналов | 12 (3 — ранее) | 1 (hs_reb — не обновляется) | — | — | — |
+
+## Подключённые 17.11.2026 (t167u, перечень GREEN «Линки3»: Литва, Иран, Telegram)
+
+Проверено 17.11.2026, Europe/Minsk, тем же клиентом (честная метка `CBRNewsAggregator/1.0`), с сервера сбора и с бокса; без VPN, без обхода защит, robots.txt — не чаще одного запроса за цикл. Общие ленты — только материалы по ключам «Контура» (strict). Пробный сбор во временную базу 17.11.2026 13:20 (сайты — с 01.01.2026; Telegram — с 10.11.2026); «найдено / записано» — по пробе, живая база пополняется обычным циклом. Язык fa (персидский): Argos fa→en установлен, fa добавлен в определение языка, перевод (fa→en→ru), фильтр «Контура» (персидские ключи: پهپاد, پدافند هوایی, جنگ الکترونیک и др.) и словари ИИД ([iid/IID_DICTIONARIES.md](iid/IID_DICTIONARIES.md)).
+
+### Литва — сайты
+
+| источник | тип / метод | язык | статус | проверка 17.11.2026 | проба: найдено / записано |
+|---|---|---|---|---|---|
+| RSI Europe — News (`rsieu.com/feed/`) | RSS | en | подключён | HTTP 200, 10 записей; robots не закрывает | 10 / 3 |
+| Granta Autonomy — Newsroom (`grantaautonomy.com/feed/`) | RSS | en | подключён | HTTP 200, 10 записей, лента редкая (последняя 09.05.2025) | 10 / 0 (вне окна 2026) |
+| Airvolve — Resources (`airvolve.aero/blog-feed.xml`) | RSS (Wix) | en | подключён | HTTP 200, 2 записи (последняя 25.11.2025) | 2 / 0 (вне окна 2026) |
+| HEIGHT Technologies — News (`heighttechnologies.com/category/news/feed/`) | RSS | en | подключён | HTTP 200, 7 записей (последняя 18.02.2026); TLS апекс-домена нестабилен | 7 / 0 (вне ключей) |
+| Unmanned Defense Systems — News (`udefenses.com/news`) | HTML-листинг + статья | en | подключён | RSS нет (404); 6 ссылок без дат, дата — из строки пресс-релиза («KYIV, Ukraine — 2026 October 6»); без даты не записывается | 6 / 1 |
+| parsers.vc — News (`parsers.vc/news-all/`) | HTML-листинг (карточки с `<time datetime>`) | en | подключён | RSS нет (404); карточки листинга, только по ключам | 20 / 1 |
+| dbox.lt | — | — | не подключён | HTTP 200, но раздела новостей нет (`/news`, `/feed/`, `/rss` — 404) | — |
+
+### Иран — ленты
+
+| источник | тип / метод | язык | статус | проверка 17.11.2026 | проба: найдено / записано |
+|---|---|---|---|---|---|
+| Mehr News (`en.mehrnews.com/rss`) | RSS | en | подключён | HTTP 200, 30 записей; общая лента — strict | 30 / 3 |
+| Tehran Times (`tehrantimes.com/rss`) | RSS | en | подключён | HTTP 200, 30 записей; strict | 30 / 0 |
+| IRNA (рус.) (`ru.irna.ir/rss`) | RSS | ru | подключён | HTTP 200, 30 записей; strict | 30 / 1 |
+| ABNA (`en.abna24.com/rss`) | RSS | en | подключён | HTTP 200, 30 записей (`/feed/` — 404); strict | 30 / 0 |
+| Shargh Daily (`sharghdaily.com/feeds/`) | RSS | fa | подключён | HTTP 200, 30 записей; strict | 30 / 0 |
+| Khabar Online (`khabaronline.ir/rss`) | RSS | fa | подключён | HTTP 200, 30 записей; strict | 30 / 1 |
+| Hamshahri Online (`hamshahrionline.ir/rss`) | RSS | fa | подключён | HTTP 200, 30 записей (`/feed/` — 404); strict | 30 / 1 |
+| Mashregh News (`mashreghnews.ir/rss`) | RSS | fa | подключён | HTTP 200, 30 записей; strict | 30 / 0 |
+| Fars News (`farsnews.ir/showcase`) | — | fa | не подключён | одностраничное приложение: в HTML нет даты и текста, `/rss` и `/feed/` отдают HTML-оболочку; без исполнения JS собрать нельзя | — |
+
+### Telegram (только `t.me/s/<канал>`, без API)
+
+Проверка по спискам экстремистских материалов и формирований РБ (Мининформ — .doc и веб-перечень по 17.11.2026; МВД — перечень формирований, xlsx): ни один из 13 каналов не найден ни по имени, ни по названию — режим «только ИИД» не нужен.
+
+| канал | статус | проба с 10.11.2026: найдено / записано |
+|---|---|---|
+| Belarus_VPO | подключён | 174 / 9 |
+| texBPLA | подключён | 32 / 13 |
+| airsitrep | подключён | 63 / 0 (вне ключей) |
+| dronesrussia | был подключён ранее | 18 / 2 |
+| budni_manipulyatora | подключён | 18 / 0 |
+| rtechnocom | подключён | 20 / 0 |
+| rusengineer | подключён | 18 / 2 |
+| nm_dnr | подключён | 40 / 14 |
+| kcpn2014 | был в списке ранее | 0 — публичного предпросмотра нет |
+| y_everyday | подключён | 20 / 0 (последний пост 13.09.2026) |
+| bayraktar1070 | подключён | 33 / 0 |
+| modmilby | был подключён ранее | 37 / 3 |
+| hs_reb | не подключён | последний пост 23.09.2026 — канал не обновляется |
+
+### Перечень GREEN «Литва» и «Иран» — компании (17.11.2026)
+
+Новые карточки в [companies.csv](companies.csv) и на [карте реестра](map/). Литва (18; только официальные сайты): адрес подтверждён и стоит точка — Granta Autonomy (Mokslininkų g. 2, Vilnius), Loveta / Dronai.lt (Mindaugo g. 16, Vilnius); профиль подтверждён, адрес — не подтверждено: Monopulse, Airvolve, Baltic Viper, RSI Europe, UDS, Luna Robotics, IT logika (DBOX), HEIGHT Technologies, PDKINEMATICS, Broswarm; сайт не открылся или без текста — не подтверждено: Ostara, DronMoto, Elarionas, TIGBIS, MyResearch, Aerodiagnostika. Иран (12): статус и адреса по санкционным спискам — HESA (OFAC SDN #11195), Qods Aviation Industries (#16418), Baharestan Kish (#39036, UK IRN0224), Shakad Sanat Asmari (ЕС, Регламент 2024/1971; UK IRN0225), Sarmad Electronic Sepahan (#45696, UK IRN0207), Kimia Part Sivan / KIPAS (#33575), Fateh Aseman Sharif (#48682), Bonyan Danesh Shargh (#48730, UK IRN0210), Oje Parvaz Mado Nafar (#33594), Kavan Electronics Behrad (#46913); по официальным сайтам — Avatdrone (Шираз), Tonb Software Development (Тегеран, Shahrak-e Gharb). Точки иранских компаний — по городу из санкционной записи или сайта. Узлы без точки и причины — в [map/UNLOCATED.md](map/UNLOCATED.md).
 
 ## Подключённые 17.11.2026 (поиск источников проекта «Контур»)
 

@@ -5,7 +5,7 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 158,
+"evidence_count": 175,
 "evidence": [
 {
 "url": "https://ria.ru/20261117/pvo-2132076426.html",
@@ -28,9 +28,9 @@
 "quote": "ЭКИПАЖИ ТАНКОВ Т-90М «ПРОРЫВ» ГРУППИРОВКИ ВОЙСК «ВОСТОК» УНИЧТОЖИЛИ ПЕРЕДОВЫЕ ПОЗИЦИИ ВСУ В ЗАПОРОЖСКОЙ ОБЛАСТИ"
 },
 {
-"url": "https://tvzvezda.ru/news/202611171037-cwod8.html",
-"published_at": "2026-11-17T07:54:13Z",
-"quote": "Минобороны России сообщило об уничтожении передовых позиций ВСУ в Запорожской области."
+"url": "https://t.me/nm_dnr/16211",
+"published_at": "2026-11-17T07:59:01Z",
+"quote": "📹 33 мсп уничтожил НРТК и ПУ БЛА ВСУ"
 }
 ],
 "sentiment": {
@@ -45,7 +45,7 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 44,
+"evidence_count": 49,
 "evidence": [
 {
 "url": "https://tass.ru/armiya-i-opk/28325673",
@@ -58,6 +58,11 @@
 "quote": "Минобороны России сообщило об уничтожении передовых позиций ВСУ в Запорожской области."
 },
 {
+"url": "https://t.me/nm_dnr/16210",
+"published_at": "2026-11-17T06:04:49Z",
+"quote": "Ликвидация вражеских БЛА снижает угрозу для российских военнослужащих и ограничивает возможности ВСУ по ведению разведки и нанесению ударов."
+},
+{
 "url": "https://lenta.ru/news/2026/11/17/nad-rossiyskim-regionom-sbili-pochti-300-dronov-vsu",
 "published_at": "2026-11-17T05:45:24Z",
 "quote": "Над российским регионом сбили почти 300 дронов ВСУ"
@@ -66,11 +71,6 @@
 "url": "https://lenta.ru/news/2026/11/17/nad-rossiyskim-regionom-sbili-50-dronov-vsu",
 "published_at": "2026-11-17T04:51:41Z",
 "quote": "Над российским регионом сбили 50 дронов ВСУ"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28324245",
-"published_at": "2026-11-17T02:04:33Z",
-"quote": "ВС РФ поразили технику, боекомплект и средства связи ВСУ в Сумской области"
 }
 ],
 "sentiment": {
@@ -360,6 +360,46 @@
 }
 },
 {
+"id": "rel_b32b662b140fae74",
+"from": "ent_14d1757585b55c53",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 6,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/16/starshield-cap-occupied-ukraine-spacex-technical-zelensky-substations",
+"published_at": "2026-11-16T21:33:00Z",
+"quote": "co/2026/01/31/spacex-starlink-speed-limit-russian-drones/\">cut Starlink on terminals moving faster than about 47 to 56 mph</a> (75 to 90 km/h) to stop Russian strike drones, and terminals registered to Ukrainian brigades could have the limi"
+},
+{
+"url": "https://t.me/nm_dnr/16203",
+"published_at": "2026-11-14T07:59:01Z",
+"quote": "📹 Операторы 8 армии уничтожили ПУ БЛА, антенны связи и Starlink ВСУ"
+},
+{
+"url": "https://t.me/uav_tech/37441",
+"published_at": "2026-11-02T18:33:37Z",
+"quote": "На фоне увеличения ударов вглубь России Украина в 2026-м потратила на Starlink вдвое больше, чем за четыре предыдущих года, выяснил RT."
+},
+{
+"url": "https://c4isrnet.com/unmanned/2026/09/30/ukraines-former-defense-minister-launches-manhattan-project-for-killer-robots",
+"published_at": "2026-09-30T08:29:57Z",
+"quote": "But most of the futuristic robot designs featured in Fedorov’s video, humanoids included, are not yet used in combat in Ukraine today, and the ground robots that are in use almost always have a human operator at the controls, usually over S"
+},
+{
+"url": "https://t.me/UAVDEV/10214",
+"published_at": "2026-02-02T03:32:26Z",
+"quote": "В общем вне зависимости от того, как получится в итоге со старлинком, высокоточные удары по тылам ВСУ есть как и чем организовывать."
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_367661821a6ffa05",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_28fea1c77915c37a",
@@ -511,46 +551,6 @@
 "url": "https://t.me/mod_russia/69043",
 "published_at": "2026-11-15T15:13:54Z",
 "quote": "💥 В результате удара поражен логистический центр в городе Запорожье, используемый ВСУ для хранения военных грузов и грузов двойного назначения."
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_b32b662b140fae74",
-"from": "ent_14d1757585b55c53",
-"to": "ent_76aae9f116d88191",
-"type": "применение",
-"event_date": null,
-"evidence_count": 5,
-"evidence": [
-{
-"url": "https://dronexl.co/2026/11/16/starshield-cap-occupied-ukraine-spacex-technical-zelensky-substations",
-"published_at": "2026-11-16T21:33:00Z",
-"quote": "co/2026/01/31/spacex-starlink-speed-limit-russian-drones/\">cut Starlink on terminals moving faster than about 47 to 56 mph</a> (75 to 90 km/h) to stop Russian strike drones, and terminals registered to Ukrainian brigades could have the limi"
-},
-{
-"url": "https://t.me/uav_tech/37441",
-"published_at": "2026-11-02T18:33:37Z",
-"quote": "На фоне увеличения ударов вглубь России Украина в 2026-м потратила на Starlink вдвое больше, чем за четыре предыдущих года, выяснил RT."
-},
-{
-"url": "https://c4isrnet.com/unmanned/2026/09/30/ukraines-former-defense-minister-launches-manhattan-project-for-killer-robots",
-"published_at": "2026-09-30T08:29:57Z",
-"quote": "But most of the futuristic robot designs featured in Fedorov’s video, humanoids included, are not yet used in combat in Ukraine today, and the ground robots that are in use almost always have a human operator at the controls, usually over S"
-},
-{
-"url": "https://t.me/UAVDEV/10214",
-"published_at": "2026-02-02T03:32:26Z",
-"quote": "В общем вне зависимости от того, как получится в итоге со старлинком, высокоточные удары по тылам ВСУ есть как и чем организовывать."
-},
-{
-"url": "https://t.me/uav_tech/35013",
-"published_at": "2026-02-01T09:15:34Z",
-"quote": "С увеличением применения терминалов «Starlink» на российских БПЛА возросло и количество болезненных поражений техники и объектов ВСУ в глубине Украины, что вызвало поросячий визг на всех уровнях, который в том числе и был адресован Илону Ма"
 }
 ],
 "sentiment": {
@@ -800,6 +800,41 @@
 }
 },
 {
+"id": "rel_3dc69122575c150b",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_14d1757585b55c53",
+"type": "применение",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://t.me/nm_dnr/16203",
+"published_at": "2026-11-14T07:59:01Z",
+"quote": "📹 Операторы 8 армии уничтожили ПУ БЛА, антенны связи и Starlink ВСУ"
+},
+{
+"url": "https://t.me/uav_tech/37441",
+"published_at": "2026-11-02T18:33:37Z",
+"quote": "Ранее Илон Маск подчёркивал: ВСУ нарушили условия использования Starlink, применив систему для ударов дронами с целью убийства людей."
+},
+{
+"url": "https://t.me/UAVDEV/10214",
+"published_at": "2026-02-02T03:32:26Z",
+"quote": "В общем вне зависимости от того, как получится в итоге со старлинком, высокоточные удары по тылам ВСУ есть как и чем организовывать."
+},
+{
+"url": "https://t.me/uav_tech/35013",
+"published_at": "2026-02-01T09:15:34Z",
+"quote": "С увеличением применения терминалов «Starlink» на российских БПЛА возросло и количество болезненных поражений техники и объектов ВСУ в глубине Украины, что вызвало поросячий визг на всех уровнях, который в том числе и был адресован Илону Ма"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_8c70b2130f458527",
 "from": "ent_82d695889d3fa2fa",
 "to": "ent_28fea1c77915c37a",
@@ -966,6 +1001,41 @@
 "url": "https://tass.ru/armiya-i-opk/28317297",
 "published_at": "2026-11-14T03:32:09Z",
 "quote": "БПЛА \"Севера\" за неделю уничтожили девять гексакоптеров ВСУ в Сумской области"
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e7233eb5bd07e2d3",
+"from": "ent_7c890d4124b478ff",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://t.me/texBPLA/4150",
+"published_at": "2026-11-14T06:25:20Z",
+"quote": "В России представили новую версию беспилотника-перехватчика \"Сокол-3\", предназначенного для борьбы с воздушными целями, в том числе высокоскоростными ударными БПЛА."
+},
+{
+"url": "https://vpk.name/news/1171300_minoborony_soobshilo_o_primenenii_novogo_drona-perehvatchika_sokol-3_v_zone_svo.html",
+"published_at": "2026-11-12T21:00:01Z",
+"quote": "ВС России применили новейший дрон-перехватчик «Сокол-3» в зоне СВО Российские военнослужащие использовали новейший беспилотник-перехватчик «Сокол-3» на днепропетровском направлении зоны специальной военной операции."
+},
+{
+"url": "https://vpk.name/news/1171271_vs_rossii_primenili_novyi_bpla_na_dnepropetrovskom_napravlenii.html",
+"published_at": "2026-11-12T21:00:01Z",
+"quote": "ВС РФ применили новый БПЛА-перехватчик \"Сокол-3\" на Днепропетровском направлении Новейший БПЛА-перехватчик самолетного типа \"Сокол-3\" применили военные группировки войск \"Центр\" для уничтожения вражеских воздушных целей на днепропетровском "
+},
+{
+"url": "https://vpk.name/news/1171483_armiya_rossii_primenila_novye_sokoly-3_protiv_dronov_vsu.html",
+"published_at": "2026-11-12T21:00:01Z",
+"quote": "Минобороны России: Новые дроны-перехватчики «Сокол-3» применили против БПЛА ВСУ Военнослужащие армии России применили новые дроны-перехватчики «Сокол-3» против скоростных беспилотных летательных аппаратов (БПЛА) ВСУ."
 }
 ],
 "sentiment": {
@@ -1330,36 +1400,6 @@
 }
 },
 {
-"id": "rel_3dc69122575c150b",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_14d1757585b55c53",
-"type": "применение",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://t.me/uav_tech/37441",
-"published_at": "2026-11-02T18:33:37Z",
-"quote": "Ранее Илон Маск подчёркивал: ВСУ нарушили условия использования Starlink, применив систему для ударов дронами с целью убийства людей."
-},
-{
-"url": "https://t.me/UAVDEV/10214",
-"published_at": "2026-02-02T03:32:26Z",
-"quote": "В общем вне зависимости от того, как получится в итоге со старлинком, высокоточные удары по тылам ВСУ есть как и чем организовывать."
-},
-{
-"url": "https://t.me/uav_tech/35013",
-"published_at": "2026-02-01T09:15:34Z",
-"quote": "С увеличением применения терминалов «Starlink» на российских БПЛА возросло и количество болезненных поражений техники и объектов ВСУ в глубине Украины, что вызвало поросячий визг на всех уровнях, который в том числе и был адресован Илону Ма"
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_1111cdc4a691a8d1",
 "from": "ent_cd3c86a3a1af0b40",
 "to": "ent_d54ac6fc23eb6450",
@@ -1681,36 +1721,6 @@
 "url": "https://tass.ru/armiya-i-opk/28318669",
 "published_at": "2026-11-15T03:31:16Z",
 "quote": "Комроты Кот: ВС РФ за неделю уничтожили 10 НРТК ВСУ на сумском направлении"
-}
-],
-"sentiment": {
-"score_pm1": -0.1,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_e7233eb5bd07e2d3",
-"from": "ent_7c890d4124b478ff",
-"to": "ent_28fea1c77915c37a",
-"type": "применение",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://vpk.name/news/1171300_minoborony_soobshilo_o_primenenii_novogo_drona-perehvatchika_sokol-3_v_zone_svo.html",
-"published_at": "2026-11-12T21:00:01Z",
-"quote": "ВС России применили новейший дрон-перехватчик «Сокол-3» в зоне СВО Российские военнослужащие использовали новейший беспилотник-перехватчик «Сокол-3» на днепропетровском направлении зоны специальной военной операции."
-},
-{
-"url": "https://vpk.name/news/1171271_vs_rossii_primenili_novyi_bpla_na_dnepropetrovskom_napravlenii.html",
-"published_at": "2026-11-12T21:00:01Z",
-"quote": "ВС РФ применили новый БПЛА-перехватчик \"Сокол-3\" на Днепропетровском направлении Новейший БПЛА-перехватчик самолетного типа \"Сокол-3\" применили военные группировки войск \"Центр\" для уничтожения вражеских воздушных целей на днепропетровском "
-},
-{
-"url": "https://vpk.name/news/1171483_armiya_rossii_primenila_novye_sokoly-3_protiv_dronov_vsu.html",
-"published_at": "2026-11-12T21:00:01Z",
-"quote": "Минобороны России: Новые дроны-перехватчики «Сокол-3» применили против БПЛА ВСУ Военнослужащие армии России применили новые дроны-перехватчики «Сокол-3» против скоростных беспилотных летательных аппаратов (БПЛА) ВСУ."
 }
 ],
 "sentiment": {
@@ -21537,6 +21547,186 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_51a31926dffe91fb",
+"from": "ent_c4455f3c7a880565",
+"to": "ent_c4e880f0217814db",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://rsieu.com/built-for-the-drone-era-how-the-rsi-esad-l1-makes-fpv-strike-systems-safer-and-more-effective/?utm_source=rss&utm_medium=rss&utm_campaign=built-for-the-drone-era-how-the-rsi-esad-l1-makes-fpv-strike-systems-safer-and-more-effective",
+"published_at": "2026-09-11T12:48:38Z",
+"quote": "RSI Europe’s answer is the RSI ESAD-L1, a low-voltage electronic safe-and-arm device built specifically for drone-delivered munitions."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_3ca71879839d3095",
+"from": "ent_c4455f3c7a880565",
+"to": "ent_82b2a228509a4d47",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://rsieu.com/built-for-the-drone-era-how-the-rsi-esad-l1-makes-fpv-strike-systems-safer-and-more-effective/?utm_source=rss&utm_medium=rss&utm_campaign=built-for-the-drone-era-how-the-rsi-esad-l1-makes-fpv-strike-systems-safer-and-more-effective",
+"published_at": "2026-09-11T12:48:38Z",
+"quote": "The first engineering response RSI Europe’s initial answer was the RISE-1 cRX, a compact electronic initiator designed for drone use."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_215e0063763961c3",
+"from": "ent_9601aa8f82a1ccf7",
+"to": "ent_c4455f3c7a880565",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://rsieu.com/rsi-europe-signs-memorandum-of-understanding-with-ukraines-the-fourth-law-to-produce-thousands-of-drones/?utm_source=rss&utm_medium=rss&utm_campaign=rsi-europe-signs-memorandum-of-understanding-with-ukraines-the-fourth-law-to-produce-thousands-of-drones",
+"published_at": "2026-06-19T04:19:47Z",
+"quote": "The memorandum was signed by RSI Europe co-founder and CEO Tomas Milašauskas and The Fourth Law Director of UAS Unit Yaroslav Tkachuk."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_f7e543b705ba98fa",
+"from": "ent_2c9d8879868ae3bd",
+"to": "ent_c4455f3c7a880565",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://rsieu.com/rsi-europe-signs-memorandum-of-understanding-with-ukraines-the-fourth-law-to-produce-thousands-of-drones/?utm_source=rss&utm_medium=rss&utm_campaign=rsi-europe-signs-memorandum-of-understanding-with-ukraines-the-fourth-law-to-produce-thousands-of-drones",
+"published_at": "2026-06-19T04:19:47Z",
+"quote": "The memorandum was signed by RSI Europe co-founder and CEO Tomas Milašauskas and The Fourth Law Director of UAS Unit Yaroslav Tkachuk."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_899f8ed0103dfe91",
+"from": "ent_87bda01cb232b0dc",
+"to": "ent_7081167608de28e9",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://udefenses.com/news/uds-launches-operations-in-ukraine",
+"published_at": "2026-10-06T00:00:00Z",
+"quote": "Unmanned Defense Systems - UDS Launches Operations in Ukraine --> About us Products Cases Soon News Career Projects Contact us About us Products Cases Soon News Career Projects Contact us Hardware SOftware Forecaster Hauler Avenger 5 In dev"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_02992d9aed729cae",
+"from": "ent_87bda01cb232b0dc",
+"to": "ent_0c6ccc0cbe74ca26",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://udefenses.com/news/uds-launches-operations-in-ukraine",
+"published_at": "2026-10-06T00:00:00Z",
+"quote": "Unmanned Defense Systems - UDS Launches Operations in Ukraine --> About us Products Cases Soon News Career Projects Contact us About us Products Cases Soon News Career Projects Contact us Hardware SOftware Forecaster Hauler Avenger 5 In dev"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_22ddcd818bbb3f58",
+"from": "ent_0c6ccc0cbe74ca26",
+"to": "ent_dca6fb997c75de0e",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://udefenses.com/news/uds-launches-operations-in-ukraine",
+"published_at": "2026-10-06T00:00:00Z",
+"quote": "UDS mission systems combine FORECASTER, an ISTAR UAV platform; AVENGER 5, a precision strike UAV; HAULER, a multi-payload UAV; and SWARM C2, a command-and-control software platform  in an open, interoperable ecosystem designed to integrate "
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_e1798f5579187356",
+"from": "ent_f2dcf230404a0bff",
+"to": "ent_4f5f567bd0083d33",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/texBPLA/4128",
+"published_at": "2026-11-10T14:17:01Z",
+"quote": "Американская компания B&M Defense провела испытания на Украине беспилотника-перехватчика AA Lancer 7, предназначенного для уничтожения ударных БПЛА типа Shahed (\"Герань\")."
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_2e250ef32517ff2b",
+"from": "ent_3f3833ab63f7faa2",
+"to": "ent_4f5f567bd0083d33",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/texBPLA/4128",
+"published_at": "2026-11-10T14:17:01Z",
+"quote": "Американская компания B&M Defense провела испытания на Украине беспилотника-перехватчика AA Lancer 7, предназначенного для уничтожения ударных БПЛА типа Shahed (\"Герань\")."
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 }
 ]

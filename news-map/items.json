@@ -1441,28 +1441,6 @@
 }
 },
 {
-"dedupe_hash": "b06b928aff2d19116f3c0cc401f9b3ff590b8b874d6c99c127bb5510e3c49c32",
-"url": "https://t.me/dronesrussia/26960",
-"published_at": "2026-11-11T10:22:30Z",
-"event_date": null,
-"spheres": [
-{
-"sphere": "БПЛА",
-"subfilter": null
-}
-],
-"sentiment": {
-"score_pm1": -0.9,
-"score_pm2": -2,
-"label": "резко негативный",
-"subjectivity": 0.1,
-"risk_tags": [
-"Legal",
-"Reputational"
-]
-}
-},
-{
 "dedupe_hash": "d9844a8d5d5a94412a808f6e4096232183c523ac7a2acb5c35c6b36091b23a19",
 "url": "https://t.me/operativnoZSU/225862",
 "published_at": "2026-11-11T10:01:32Z",
@@ -29028,25 +29006,6 @@
 "score_pm2": -1,
 "label": "умеренно негативный",
 "subjectivity": 0.1,
-"risk_tags": []
-}
-},
-{
-"dedupe_hash": "6bde78d636248d4c2c5c99d502525f22fb0a9f1163111c1dc85ca333fe22556e",
-"url": "https://t.me/modmilby/60221",
-"published_at": "2026-11-14T07:01:02Z",
-"event_date": null,
-"spheres": [
-{
-"sphere": "БПЛА",
-"subfilter": null
-}
-],
-"sentiment": {
-"score_pm1": -0.5,
-"score_pm2": -1,
-"label": "умеренно негативный",
-"subjectivity": 0.2,
 "risk_tags": []
 }
 },
@@ -163111,25 +163070,6 @@
 }
 },
 {
-"dedupe_hash": "66e807d552e51f5f4d02730c4916713c485af55acfb65027e6f07a1a686e762e",
-"url": "https://t.me/dronesrussia/26961",
-"published_at": "2026-11-16T07:10:26Z",
-"event_date": null,
-"spheres": [
-{
-"sphere": "БПЛА",
-"subfilter": null
-}
-],
-"sentiment": {
-"score_pm1": 0.5,
-"score_pm2": 1,
-"label": "умеренно позитивный",
-"subjectivity": 0.2,
-"risk_tags": []
-}
-},
-{
 "dedupe_hash": "0bb81846b80b7e0ff888c40a95b9c53484ce5ae00e3af431aae3e61cb27bb063",
 "url": "https://belta.by/society/view/vsego-lish-igrushka-pravoohraniteli-napomnili-pravila-ispolzovanija-bespilotnikov-i-lazernyh-ukazok-811024-2026",
 "published_at": "2026-11-16T08:30:52Z",
@@ -170668,44 +170608,6 @@
 "score_pm2": -1,
 "label": "умеренно негативный",
 "subjectivity": 0.1,
-"risk_tags": []
-}
-},
-{
-"dedupe_hash": "c991843d508e8ae16076371a075772651130d549276b9d338e04269cd1e47eae",
-"url": "https://t.me/modmilby/60234",
-"published_at": "2026-11-16T04:00:34Z",
-"event_date": null,
-"spheres": [
-{
-"sphere": "БПЛА",
-"subfilter": null
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный",
-"subjectivity": 0.1,
-"risk_tags": []
-}
-},
-{
-"dedupe_hash": "12cc5435fbd2bc42919a302af2bb2c4f49217988b39596f3ffe219599dc5f871",
-"url": "https://t.me/modmilby/60236",
-"published_at": "2026-11-16T07:30:30Z",
-"event_date": "2026-11-16",
-"spheres": [
-{
-"sphere": "БПЛА",
-"subfilter": null
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный",
-"subjectivity": 0.2,
 "risk_tags": []
 }
 },
@@ -186361,6 +186263,1348 @@
 "score_pm2": -1,
 "label": "умеренно негативный",
 "subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "5e77ac1f628057da023956ccd361ef84584b6979e16c2a479b5386b787c3004a",
+"url": "https://rsieu.com/built-for-the-drone-era-how-the-rsi-esad-l1-makes-fpv-strike-systems-safer-and-more-effective/?utm_source=rss&utm_medium=rss&utm_campaign=built-for-the-drone-era-how-the-rsi-esad-l1-makes-fpv-strike-systems-safer-and-more-effective",
+"published_at": "2026-09-11T12:48:38Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "3563d6358e83d6b4011ab0b459d5563a0c3f2533aa0cb59e0322681a1d812c83",
+"url": "https://rsieu.com/rsi-europe-signs-memorandum-of-understanding-with-ukraines-the-fourth-law-to-produce-thousands-of-drones/?utm_source=rss&utm_medium=rss&utm_campaign=rsi-europe-signs-memorandum-of-understanding-with-ukraines-the-fourth-law-to-produce-thousands-of-drones",
+"published_at": "2026-06-19T04:19:47Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d00022de4abe738de1acc1fd21cf4a48f12a2de3809008d3ed022958f41b5650",
+"url": "https://rsieu.com/waiting-drones-a-new-logic-of-battlefield-ambush-systems/?utm_source=rss&utm_medium=rss&utm_campaign=waiting-drones-a-new-logic-of-battlefield-ambush-systems",
+"published_at": "2026-03-25T09:40:15Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d92929a264fa3381dca6c1f7dcd5e64eeee18f9517cc8a65ef5e39388c3e31c1",
+"url": "https://en.mehrnews.com/news/249464/Drone-attack-hits-anti-Iran-group-base-in-Iraq-s-Kurdistan",
+"published_at": "2026-11-17T04:07:33Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "70ea07e07cc3e76a95a723f99d4df82dbe2e9a9a49ab81b93df2455715c79fa7",
+"url": "https://en.mehrnews.com/news/249462/IRGC-captures-ninth-U-S-MQM-170-drone-over-Qeshm",
+"published_at": "2026-11-17T03:39:14Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "289d892747ddb5452d3f3bdf69c400c8e699264f134416ab7ebd04861193fc87",
+"url": "https://en.mehrnews.com/news/249461/Iranian-Army-shoots-down-MQ-1-drone-over-Strait-of-Hormuz",
+"published_at": "2026-11-16T19:05:18Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6b81a89cb9ce7026e9b91da5006bf4bf520f9c2bca611eac598290b1b419f9ca",
+"url": "https://ru.irna.ir/news/86323469/%D0%9A%D0%A1%D0%98%D0%A0-%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B8%D0%BB-%D0%BE-%D0%BF%D0%B5%D1%80%D0%B5%D1%85%D0%B2%D0%B0%D1%82%D0%B5-%D0%B0%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%B1%D0%B5%D1%81%D0%BF%D0%B8%D0%BB%D0%BE%D1%82%D0%BD%D0%B8%D0%BA%D0%B0-MQM-170-%D0%B2",
+"published_at": "2026-11-16T10:23:06Z",
+"event_date": "2026-11-16",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "9019684ce8c2cd13aba15fc67e6cf6654ccfd5d5b15ef610533c83d0b5100ee6",
+"url": "https://khabaronline.ir/news/2303328/%D9%BE%D9%87%D9%BE%D8%A7%D8%AF%D9%87%D8%A7%DB%8C-%D8%B1%D9%87%DA%AF%DB%8C%D8%B1-%D8%B1%D9%88%D8%B3%DB%8C-%D9%BE%D9%87%D9%BE%D8%A7%D8%AF%D9%87%D8%A7%DB%8C-%D8%A7%D9%88%DA%A9%D8%B1%D8%A7%DB%8C%D9%86%DB%8C-%D8%B1%D8%A7-%D8%B3%D8%B1%D9%86%DA%AF%D9%88%D9%86-%DA%A9%D8%B1%D8%AF%D9%86%D8%AF-%D9%81%DB%8C%D9%84%D9%85",
+"published_at": "2026-11-17T09:45:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "24a4a18cf83a8ddbdfae772cbd22711e47148f076916c110d405d5a09bfca40b",
+"url": "https://hamshahrionline.ir/news/1087048/%D9%BE%D8%B1%D9%88%D8%A7%D8%B2-%D8%AC%D9%86%DA%AF%D9%86%D8%AF%D9%87-%D9%87%D8%A7%DB%8C-%D8%A7%D9%81-%DB%B1%DB%B6-%D9%BE%D8%B3-%D8%A7%D8%B2-%D8%B4%D9%86%D8%A7%D8%B3%D8%A7%DB%8C%DB%8C-%DB%B1%DB%B1-%D9%BE%D9%87%D9%BE%D8%A7%D8%AF-%D8%AF%D8%B1-%D9%85%D8%B1%D8%B2",
+"published_at": "2026-11-17T09:49:51Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ffadc44e9ef4705b32bba009c5abd6da9ed985f70de97c5d45ecbf78c29b15c9",
+"url": "https://parsers.vc/news/261115-valkyrie-dynamics-raises-1m-for-all-weather",
+"published_at": "2026-11-15T21:41:05Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "778d2041c0371c7eda1696722c0014e6848a31c1733189d35b446192a5dbaee3",
+"url": "https://udefenses.com/news/uds-launches-operations-in-ukraine",
+"published_at": "2026-10-06T00:00:00Z",
+"event_date": "2026-10-06",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "0cef15b89705f816fe8058032967ba1433a6a8867227dff2f6fd80d65aabfbe2",
+"url": "https://t.me/Belarus_VPO/90031",
+"published_at": "2026-11-09T19:21:55Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "eb1fdb05f58b12acb8a79f672733902bcdd4a5ae10543f2e361b80270715d488",
+"url": "https://t.me/Belarus_VPO/90002",
+"published_at": "2026-11-08T20:17:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "372b303380d589dcc653ffeca133652eaab6a6d120ac79dc0bf0b9014db6ada6",
+"url": "https://t.me/Belarus_VPO/89996",
+"published_at": "2026-11-08T16:48:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "средства связи и коммуникаций",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "212788ec162bc94427210b5f2d63ced23b544611bd6fcbaa773869b690f4947c",
+"url": "https://t.me/Belarus_VPO/89923",
+"published_at": "2026-11-06T09:37:57Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "e3b5ec43d31dbf62eacc0a67e65bc0a67dd512dd3eab7ca3c9065808a8d354e5",
+"url": "https://t.me/Belarus_VPO/89909",
+"published_at": "2026-11-05T18:15:58Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6e17ea42f319239579c18ea54d2f7b04275b657ca436095b81b3848596ebf113",
+"url": "https://t.me/Belarus_VPO/89889",
+"published_at": "2026-11-05T08:37:45Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "146a8a1e3a73db8f9f7982778dbfbb812d53212548d6ee7bfb92c6743c9f4819",
+"url": "https://t.me/Belarus_VPO/89873",
+"published_at": "2026-11-04T17:53:45Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "a589116a8f4b6cd0a0da0d5b84e0f0ac2b67fd1333e60a768e95f183d2e79fb4",
+"url": "https://t.me/Belarus_VPO/89842",
+"published_at": "2026-11-03T18:52:44Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "e8ea2c3ef6719e97ed06ce0312a6b631f811e15befba9d5ea05e08aa903dffe0",
+"url": "https://t.me/Belarus_VPO/89774",
+"published_at": "2026-11-01T12:37:02Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "8c430845b7f55b66c2abefff86c9efd5b515d37d3b902458d88e0bde2842ce8a",
+"url": "https://t.me/Belarus_VPO/89784",
+"published_at": "2026-11-01T18:42:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "a5cdcd2e003394866d18ca7c6de396cb3fab74cb3dcfa6000ee5cbe198e8ccf2",
+"url": "https://t.me/Belarus_VPO/89759",
+"published_at": "2026-10-31T21:33:06Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "fcd3d4687e26e7e5917280c38d47eb416737bf82bd3e0fbfc75b81ba47e6fe11",
+"url": "https://t.me/Belarus_VPO/89771",
+"published_at": "2026-11-01T10:02:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "766a705911240d2c091ee5a796b3e6067224aa91396ff28470dc8d2762acdbd6",
+"url": "https://t.me/Belarus_VPO/89740",
+"published_at": "2026-10-31T14:19:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d8aa892e9f9bb29a921be554f3808cf5d972f99a70675ed39895eacc494e0474",
+"url": "https://t.me/Belarus_VPO/89681",
+"published_at": "2026-10-29T19:24:02Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "35d454e42da19bff051a428396044a5be627bc6724e86447e2ffb4ed6f6b4bf6",
+"url": "https://t.me/Belarus_VPO/89665",
+"published_at": "2026-10-29T09:14:02Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "91469054908d19fa4de571c1ae6ed3b259e6b7c7e55c76a262d9074f5827eb78",
+"url": "https://t.me/Belarus_VPO/90196",
+"published_at": "2026-11-15T17:02:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "db56e97267560e7ff227b14398e71a37fa45ee46c19139e685caf720b8c5a51d",
+"url": "https://t.me/Belarus_VPO/90171",
+"published_at": "2026-11-14T18:20:15Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "46145c33f7aee38e08d00529e016a043941352bb1028bbcb52b33ac2a0b54fc3",
+"url": "https://t.me/Belarus_VPO/90155",
+"published_at": "2026-11-14T04:34:44Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.7,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.2,
+"risk_tags": [
+"Reputational"
+]
+}
+},
+{
+"dedupe_hash": "9d9b4afc32cd95dc37b75340d86afb9140b4cc01d1a12f4a93648abd78598451",
+"url": "https://t.me/Belarus_VPO/90118",
+"published_at": "2026-11-12T20:17:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "0b5946d8e4cf35f8ed2cd046f9a2187675c0d82c3a180cf5666aaf9f492d0f07",
+"url": "https://t.me/Belarus_VPO/90081",
+"published_at": "2026-11-11T16:46:49Z",
+"event_date": "2026-11-11",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "59d1f5dfd5328e0656efe8375183dde409d062b51b2bfec00bc4bf7a8f239b54",
+"url": "https://t.me/Belarus_VPO/90085",
+"published_at": "2026-11-11T18:05:49Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": [
+"Regulatory"
+]
+}
+},
+{
+"dedupe_hash": "c3f42b8b16cd823e1c8b156c5259f57929a4ae22aa6cbb4d51d58e47485e2bea",
+"url": "https://t.me/Belarus_VPO/90088",
+"published_at": "2026-11-11T20:11:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "56f8dd9d1543a4a49db78c36f4de187e863dd156efa053cf9842a38bac5ae299",
+"url": "https://t.me/Belarus_VPO/90052",
+"published_at": "2026-11-10T15:23:54Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ff3c44258e32cb6e4d3185b8066fede89a3df16d7188e4defe4681da29d8443f",
+"url": "https://t.me/Belarus_VPO/90055",
+"published_at": "2026-11-10T16:05:48Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ba78705f01de910fb66f7be7d158b13d678cd0f8007b3726c67f1e2510c7e6d4",
+"url": "https://t.me/texBPLA/4149",
+"published_at": "2026-11-13T08:15:27Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6889597ed5a1a119289fd7cae9cf989ffea5a12606112772fbf23edc935cd69a",
+"url": "https://t.me/texBPLA/4150",
+"published_at": "2026-11-14T06:25:20Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "41cc3038ca59e42d87edc543d6f57c1bf25e6b76f1101538ac6e4dd76757a798",
+"url": "https://t.me/texBPLA/4153",
+"published_at": "2026-11-14T15:36:46Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b85653ad459671062eb48fd3d3f486ba48cfae2ab80453b3365e89d34f7c5557",
+"url": "https://t.me/texBPLA/4166",
+"published_at": "2026-11-17T06:02:21Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d3917f80b2e2c74bd106c50448927e206e7825fb3a44791354bc694c390ecb9e",
+"url": "https://t.me/texBPLA/4128",
+"published_at": "2026-11-10T14:17:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "8f0fbc3b420c461c0e48905af238d6ffea4eca3a536255aa00df2444b1e42d50",
+"url": "https://t.me/texBPLA/4131",
+"published_at": "2026-11-10T18:22:04Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "63d3846c33728922085c4aaaf5fea3758644f33f9831c1f3c64098be055311fe",
+"url": "https://t.me/texBPLA/4132",
+"published_at": "2026-11-11T05:17:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6996f01d388ad4e33b6a581db738665e06923f31e338606ebe4b4d27dafb021e",
+"url": "https://t.me/texBPLA/4136",
+"published_at": "2026-11-11T06:15:20Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "22439ee0782f56be4e6ee0117294f6f266eef3e8c7368dd0dc623ab3fb994ca5",
+"url": "https://t.me/texBPLA/4141",
+"published_at": "2026-11-11T15:35:19Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "168165e5dc71c0a958e395761b160e084f0e01811078ac013f829f031016a486",
+"url": "https://t.me/texBPLA/4146",
+"published_at": "2026-11-12T09:47:29Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "98e5f7624feafa16464af50573159074cd97d98abe54eda6f85def9eaadf96c0",
+"url": "https://t.me/texBPLA/4147",
+"published_at": "2026-11-13T05:02:30Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "2f179db74a5f3106250f97fd5d2ae89ccc506ad885169190179951a2e38f6568",
+"url": "https://t.me/texBPLA/4125",
+"published_at": "2026-11-10T07:00:50Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "25dea4a4ad681ccf0abb28a4d413709a3f2de92f37f078f5175e618ee6cb001a",
+"url": "https://t.me/texBPLA/4126",
+"published_at": "2026-11-10T11:25:54Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b06b928aff2d19116f3c0cc401f9b3ff590b8b874d6c99c127bb5510e3c49c32",
+"url": "https://t.me/dronesrussia/26960",
+"published_at": "2026-11-11T10:22:30Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.9,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": [
+"Legal",
+"Reputational"
+]
+}
+},
+{
+"dedupe_hash": "66e807d552e51f5f4d02730c4916713c485af55acfb65027e6f07a1a686e762e",
+"url": "https://t.me/dronesrussia/26961",
+"published_at": "2026-11-16T07:10:26Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ebbaf175b5bb21e19d95f3ea0cec0ef38e562f4d82b35e75360b13ef0a8c4df6",
+"url": "https://t.me/rusengineer/10800",
+"published_at": "2026-11-13T04:09:02Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "eed6ddde1df617e10937ff67596bee13f0b61906b7c3d551a773ffa1c43ac98c",
+"url": "https://t.me/rusengineer/10812",
+"published_at": "2026-11-17T06:10:12Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "98b3b767480bf5c64c9fc8789b1b13d27a17524014bb503b56c6ae79a925115d",
+"url": "https://t.me/nm_dnr/16193",
+"published_at": "2026-11-11T06:02:16Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d99d9e09b6b793df74972aee382810a606e4b64d417540e984fecb1693a3bdac",
+"url": "https://t.me/nm_dnr/16195",
+"published_at": "2026-11-11T13:02:49Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "caf5e2af21136c0ad4b36f1da4d52e882a8398273e11a1316a36058a7b8f40e5",
+"url": "https://t.me/nm_dnr/16197",
+"published_at": "2026-11-12T10:01:16Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "46a89c6c995f9c75c3b5b0e72fccb7a117e7e3b55fe2234b245214bff00af6b4",
+"url": "https://t.me/nm_dnr/16199",
+"published_at": "2026-11-13T06:02:36Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "a15da6ed620696f46c8c6ac97dac4020cab5b3aa1ed6e271e454e2a5903573ec",
+"url": "https://t.me/nm_dnr/16201",
+"published_at": "2026-11-13T12:59:18Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6c4d9e9f2a36e15d88ab314e88b1a17714bcf01d7e346694820a9d7b7feedffc",
+"url": "https://t.me/nm_dnr/16203",
+"published_at": "2026-11-14T07:59:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "средства связи и коммуникаций",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "55b79fed9188ca43c3c6813381888d18a0cd0e81bb86cb03339a560841c6d81c",
+"url": "https://t.me/nm_dnr/16204",
+"published_at": "2026-11-14T10:01:50Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "eef60d09cc26887138240cf1926a3d03efd41843122e2b8c11bcb6e5eb96a7ed",
+"url": "https://t.me/nm_dnr/16205",
+"published_at": "2026-11-15T06:04:52Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "52a3b7e5a820f837a7c7990202aa5a28cd7388e6d7aae81befef2e386c4a3860",
+"url": "https://t.me/nm_dnr/16206",
+"published_at": "2026-11-15T07:59:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "4c31e191d820a9946ceaccc30f22a7cc68115f2d4fb09e49bbf3ec701a74cd26",
+"url": "https://t.me/nm_dnr/16207",
+"published_at": "2026-11-15T12:59:18Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d673896546e234001befa61fb33f5681a5eaed4b279055a2f1e16ce3e250247e",
+"url": "https://t.me/nm_dnr/16209",
+"published_at": "2026-11-16T10:03:05Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "36a259ef827ed155c28c40218a794b4e0c29d29dc1968f8ec65bd93f025a83cd",
+"url": "https://t.me/nm_dnr/16210",
+"published_at": "2026-11-17T06:04:49Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "fde527279d4e3133dd0c8226201eb1c7597ea804d127fb7db0b5b4422b3c4e41",
+"url": "https://t.me/nm_dnr/16211",
+"published_at": "2026-11-17T07:59:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "07737a86d1d6f45e5759c28dae42ec6437c7792a0e0296b68b8f2cd8d974d475",
+"url": "https://t.me/nm_dnr/16190",
+"published_at": "2026-11-10T08:01:11Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c991843d508e8ae16076371a075772651130d549276b9d338e04269cd1e47eae",
+"url": "https://t.me/modmilby/60234",
+"published_at": "2026-11-16T04:00:34Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "12cc5435fbd2bc42919a302af2bb2c4f49217988b39596f3ffe219599dc5f871",
+"url": "https://t.me/modmilby/60236",
+"published_at": "2026-11-16T07:30:30Z",
+"event_date": "2026-11-16",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6bde78d636248d4c2c5c99d502525f22fb0a9f1163111c1dc85ca333fe22556e",
+"url": "https://t.me/modmilby/60221",
+"published_at": "2026-11-14T07:01:02Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.2,
 "risk_tags": []
 }
 }
