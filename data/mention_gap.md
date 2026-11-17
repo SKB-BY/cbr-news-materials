@@ -1,12 +1,12 @@
 # Упомянуто в новостях, но отсутствует в реестре — рабочий список
 
-Построен по живой базе на 17.11.2026 22:36 Europe/Minsk.
+Построен по живой базе на 18.11.2026 00:17 Europe/Minsk.
 
 Рабочий список кандидатов, **не проверенная перепись**. Названия извлечены регулярными выражениями из заголовков и вводных абзацев новостей и сравнены с реестром `companies.csv` (названия, псевдонимы, шаблоны упоминаний). Среди кандидатов есть ложные срабатывания (продукты, ведомства, общие слова). В реестр ничего автоматически не добавляется: строка вносится только после открытия официального сайта и источника.
 
 Российские компании в реестр не вносятся (решение 11.11.2026: «Удали все российские компании»); российские названия в этом списке — только упоминания в ленте, не кандидаты в реестр.
 
-Порог: кандидат встретился минимум в 2 материалах. Кандидатов: 120.
+Порог: кандидат встретился минимум в 2 материалах. Кандидатов: 119.
 
 | Кандидат | Материалов | Примеры (ссылки) |
 |---|---:|---|
@@ -40,7 +40,6 @@
 | DOT-Chain Defence | 3 | [Украинские каналы пишут, что местный маркетплейс оборонных закупок DOT-Chain Defence начал выдавать подразделениям не только дроны, но и бое](https://t.me/uav_tech/36276); [«Рой.Маркет» выходит из пилота и открывается для сторонних селлеров](https://t.me/news_UAV/5548); [✅ Понад 1,5 млн дронів та інших технічних засобів поставлено війську через DOT-Chain Defence з моменту запуску цифрової системи у липні 2025](https://t.me/ministry_of_defense_ua/16545) |
 | MSI-Defence Systems | 3 | [Safran and MSI-Defence Systems Sign a Franco-British Collaboration on Counter-Drone Turret Systems](https://uasvision.com/2026/11/11/safran-and-msi-defence-systems-sign-a-franco-british-collaboration-on-counter-drone-turret-systems); [Safran and MSI to collaborate on C-UAS for naval and land systems](https://unmannedairspace.info/counter-uas-systems-and-policies/safran-and-msi-to-collaborate-on-c-uas-for-naval-and-land-systems); [Safran and MSI-Defence Systems Sign a Franco-British Collaboration on Counter-Drone Turret Systems](https://uasvision.com/2026/11/11/safran-and-msi-defence-systems-sign-a-franco-british-collaboration-on-counter-drone-turret-systems) |
 | Valkyrie Dynamics | 3 | [Valkyrie Dynamics raises €1M for a miniature radar seeker that lets interceptor drones hunt in any weather](https://suasnews.com/2026/11/valkyrie-dynamics-raises-e1m-for-a-miniature-radar-seeker-that-lets-interceptor-drones-hunt-in-any-weather); [Valkyrie Dynamics raises €1M for a miniature radar seeker that lets interceptor drones hunt in any weather](https://edrmagazine.eu/valkyrie-dynamics-raises-e1m-for-a-miniature-radar-seeker-that-lets-interceptor-drones-hunt-in-any-weather); [Valkyrie Dynamics Raises €1M for All-Weather Drone Radar Interceptors](https://parsers.vc/news/261115-valkyrie-dynamics-raises-1m-for-all-weather) |
-| Транспорт будущего | 3 | [Группа ЭФКО пыталась построить производство дронов в ОАЭ через близкую к ней инвесткомпанию. Как развивалось это направление?](https://t.me/UAVDEV/12413); [Запреты, дроны, Starlink: разбор на злобу дня](https://t.me/UAVDEV/11406); [Запреты, дроны, Starlink: разбор на злобу дня](https://t.me/news_UAV/5104) |
 | Beijing Ribri Technology | 3 | [В Китае показали новую систему борьбы с БПЛА от компании Beijing Ribri Technology. Акустические датчики обнаруживают дроны по характерному з](https://t.me/skyindustry/3277); [В Китае создали новую систему борьбы с БПЛА, сообщила компания Beijing Ribri Technology, разработавшая ее.](https://t.me/germesfpv/2946); [Китай показал мобильную систему обнаружения БЛА для защиты нефтегазовых объектов, решение которое очень интересно примерить на белорусские р](https://t.me/Drones_Belarus/298) |
 | Neros Technologies | 3 | [🇺🇸 FPV-беспилотники. Крупные участники рынка. США](https://t.me/proUAV/2012); [🇺🇸  Геополитика и летающие беспилотники. США](https://t.me/proUAV/1976); [Neros, Perennial Autonomy lead in Pentagon’s drone competition](https://c4isrnet.com/battlefield-tech/2026/10/01/neros-perennial-autonomy-lead-in-pentagons-drone-competition) |
 | Nordic Air Defence | 3 | [🇺🇸 🇦🇪 Дроны-перехватчики. Тренды. США. ОАЭ](https://t.me/proUAV/2030); [Шведская компания Nordic Air Defence впервые публично испытала дрон-перехватчик K100XR. Аппарат предназначен для борьбы с барражирующими бое](https://t.me/UAVDEV/12094); [🦾 Шведский стартап представил дрон-перехватчик K100XR для экономичного сбития БПЛА.](https://t.me/drone_expert_news/5569) |

@@ -5,8 +5,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 185,
+"evidence_count": 186,
 "evidence": [
+{
+"url": "https://tass.ru/proisshestviya/28328067",
+"published_at": "2026-11-17T19:48:45Z",
+"quote": "В Белгородской области из-за удара дрона ВСУ по машине погиб человек"
+},
 {
 "url": "https://belvpo.com/v-pentagone-vyskazalis-ob-udarah-vsu-vglub-rossii",
 "published_at": "2026-11-17T18:37:10Z",
@@ -26,11 +31,6 @@
 "url": "https://tvzvezda.ru/news/20261117163-H2yDW.html",
 "published_at": "2026-11-17T13:12:14Z",
 "quote": "Дроноводы группировки «Центр» уничтожили беспилотники ВСУ в воздухе и на земле"
-},
-{
-"url": "https://warfiles.ru/274021-taktika-istoschenija-nashej-sistemy-pvo-k-sozhaleniju-srabotala.html",
-"published_at": "2026-11-17T12:36:41Z",
-"quote": "1441 беспилотник и ракеты ВСУ ударили по России."
 }
 ],
 "sentiment": {
@@ -1305,6 +1305,41 @@
 }
 },
 {
+"id": "rel_45e8ee5eb18d7389",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_934031688aa80182",
+"type": "применение",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://tass.ru/proisshestviya/28328067",
+"published_at": "2026-11-17T19:48:45Z",
+"quote": "В Белгородской области из-за удара дрона ВСУ по машине погиб человек"
+},
+{
+"url": "https://tass.ru/proisshestviya/28321835",
+"published_at": "2026-11-16T11:04:42Z",
+"quote": "В Белгороде при ударе беспилотника ВСУ пострадали два человека"
+},
+{
+"url": "https://ria.ru/20261116/belgorodskaya-oblast-2131792901.html",
+"published_at": "2026-11-16T07:10:01Z",
+"quote": "В Белгородской области при ударе дрона ВСУ пострадал мужчина"
+},
+{
+"url": "https://t.me/news_UAV/5103",
+"published_at": "2026-05-17T05:27:25Z",
+"quote": "🔜Водитель грузовика погиб от удара дрона ВСУ в селе Нежеголь в Белгородской области, сообщает оперштаб региона."
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_06ad2a70453c15a6",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_b677547c4bb180c5",
@@ -2002,36 +2037,6 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
-}
-},
-{
-"id": "rel_45e8ee5eb18d7389",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_934031688aa80182",
-"type": "применение",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://tass.ru/proisshestviya/28321835",
-"published_at": "2026-11-16T11:04:42Z",
-"quote": "В Белгороде при ударе беспилотника ВСУ пострадали два человека"
-},
-{
-"url": "https://ria.ru/20261116/belgorodskaya-oblast-2131792901.html",
-"published_at": "2026-11-16T07:10:01Z",
-"quote": "В Белгородской области при ударе дрона ВСУ пострадал мужчина"
-},
-{
-"url": "https://t.me/news_UAV/5103",
-"published_at": "2026-05-17T05:27:25Z",
-"quote": "🔜Водитель грузовика погиб от удара дрона ВСУ в селе Нежеголь в Белгородской области, сообщает оперштаб региона."
-}
-],
-"sentiment": {
-"score_pm1": -0.4,
-"score_pm2": -1,
-"label": "умеренно негативный"
 }
 },
 {
@@ -23897,6 +23902,166 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_9ec4c273c54f1d78",
+"from": "ent_8e986690ae1ced80",
+"to": "ent_bfe1a5bf0e0a39b9",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/hanwha-completes-chunmoo-missile-test-campaign-at-sea-to-develop-strike-capabilities-for-crewed-and-uncrewed-vessels",
+"published_at": "2026-11-17T20:35:16Z",
+"quote": "Navy’s call to produce and field modern strike capabilities from a maritime platform,” said Kevin Schoonover, executive vice president for missiles at Hanwha Defense USA."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_5c27ad0a779eea70",
+"from": "ent_8e986690ae1ced80",
+"to": "ent_f3d3d600ae9493a3",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/hanwha-completes-chunmoo-missile-test-campaign-at-sea-to-develop-strike-capabilities-for-crewed-and-uncrewed-vessels",
+"published_at": "2026-11-17T20:35:16Z",
+"quote": "Navy’s call to produce and field modern strike capabilities from a maritime platform,” said Kevin Schoonover, executive vice president for missiles at Hanwha Defense USA."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_7ef519ed778fad01",
+"from": "ent_bfe1a5bf0e0a39b9",
+"to": "ent_f3d3d600ae9493a3",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/hanwha-completes-chunmoo-missile-test-campaign-at-sea-to-develop-strike-capabilities-for-crewed-and-uncrewed-vessels",
+"published_at": "2026-11-17T20:35:16Z",
+"quote": "Hanwha Defense USA is a subsidiary of South Korea’s Hanwha Aerospace."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_7b66c54ec53db7c4",
+"from": "ent_cf1c718559f0825f",
+"to": "ent_868a15ba4aeb446a",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/northrop-grumman-says-bushmaster-cannon-defeated-multiple-drones-in-live-fire-test-using-m-ace-and-proximity-ammunition",
+"published_at": "2026-11-17T20:19:50Z",
+"quote": "“By integrating these proven capabilities, we’re delivering an effective, scalable counter-drone solution that warfighters are using today,” said Dave Fine, Northrop Grumman’s vice president for armament systems."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_cc7163b7171331f7",
+"from": "ent_868a15ba4aeb446a",
+"to": "ent_3ccdd1377cf91b5a",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/northrop-grumman-says-bushmaster-cannon-defeated-multiple-drones-in-live-fire-test-using-m-ace-and-proximity-ammunition",
+"published_at": "2026-11-17T20:19:50Z",
+"quote": "The guns and ammunition form part of Northrop Grumman’s Raid Defense Solutions portfolio, which covers counter-drone and air defense capabilities."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_3711e960013a96b6",
+"from": "ent_54a6fa8993794d9e",
+"to": "ent_b7a9e44391955e4e",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/17/b-1b-new-external-pylons-critical-design-review",
+"published_at": "2026-11-17T20:36:58Z",
+"quote": "” In the past, Boeing said its idea was to shift hypersonic weapons’ testing from the B-52 to the B-1 using the new pylon."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_5a2b487f4cf5aa8d",
+"from": "ent_cc536968c15118bb",
+"to": "ent_fb0b3a50ec318c7c",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/17/b-1b-new-external-pylons-critical-design-review",
+"published_at": "2026-11-17T20:36:58Z",
+"quote": "Air Force has announced in October 2026 that it awarded Lockheed Martin a $694 million contract to begin production of the AGM-183A Air-Launched Rapid Response Weapon (ARRW), after initially looking to cancel the program in 2023."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_d6ad693d966c642f",
+"from": "ent_cc536968c15118bb",
+"to": "ent_a7da95cc28799332",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/17/b-1b-new-external-pylons-critical-design-review",
+"published_at": "2026-11-17T20:36:58Z",
+"quote": "Air Force has announced in October 2026 that it awarded Lockheed Martin a $694 million contract to begin production of the AGM-183A Air-Launched Rapid Response Weapon (ARRW), after initially looking to cancel the program in 2023."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
 }
 }
 ]

@@ -2,14 +2,14 @@
 "meta": {
 "version": "t171u-graph-1",
 "links_version": "t167u-links-2",
-"oi_as_of": "2026-11-17T22:11:58+03:00",
-"built_at": "2026-11-17T22:38:56+03:00",
+"oi_as_of": "2026-11-18T00:12:29+03:00",
+"built_at": "2026-11-18T00:20:30+03:00",
 "copyright": "© 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR",
 "rule": "t167u: связь только при реальной связи (основание с URL); совместные упоминания не включены",
 "counts": {
-"nodes": 2082,
-"edges": 2081,
-"persons": 62,
+"nodes": 2091,
+"edges": 2086,
+"persons": 64,
 "darpa_programs": 779
 }
 },
@@ -368,7 +368,7 @@
 "kind": "agency",
 "country": "Беларусь",
 "src": "реестр",
-"n": 30,
+"n": 31,
 "url": "",
 "role": "",
 "reg": false,
@@ -440,7 +440,7 @@
 "kind": "company",
 "country": "США",
 "src": "реестр",
-"n": 192,
+"n": 193,
 "url": "https://www.boeing.com/defense",
 "role": "прайм: авиация, БЛА (MQ-25)",
 "reg": true,
@@ -452,7 +452,7 @@
 "kind": "company",
 "country": "США",
 "src": "реестр",
-"n": 69,
+"n": 71,
 "url": "https://brincdrones.com/",
 "role": "тактические малые БЛА для городских условий и спецподразделений",
 "reg": true,
@@ -668,11 +668,11 @@
 "kind": "company",
 "country": "США",
 "src": "реестр",
-"n": 150,
+"n": 152,
 "url": "https://www.northropgrumman.com/",
 "role": "прайм: БЛА, C-UAS, космос, навигация",
 "reg": true,
-"deg": 43
+"deg": 45
 },
 {
 "id": "palantir",
@@ -788,7 +788,7 @@
 "kind": "company",
 "country": "Франция/Германия/Испания",
 "src": "реестр",
-"n": 230,
+"n": 231,
 "url": "https://www.airbus.com/en/products-services/defence",
 "role": "прайм: авиация, БЛА, космос",
 "reg": true,
@@ -932,7 +932,7 @@
 "kind": "company",
 "country": "Италия",
 "src": "реестр",
-"n": 153,
+"n": 154,
 "url": "https://www.leonardo.com/",
 "role": "прайм: авиация, электроника, БЛА",
 "reg": true,
@@ -1400,7 +1400,7 @@
 "kind": "company",
 "country": "Китай",
 "src": "реестр",
-"n": 628,
+"n": 629,
 "url": "https://www.autelrobotics.com/",
 "role": "гражданские БЛА",
 "reg": true,
@@ -1424,7 +1424,7 @@
 "kind": "company",
 "country": "Китай",
 "src": "реестр",
-"n": 3702,
+"n": 3704,
 "url": "https://www.dji.com/",
 "role": "гражданские БЛА (массово применяются в армиях)",
 "reg": true,
@@ -1436,7 +1436,7 @@
 "kind": "company",
 "country": "Израиль",
 "src": "реестр",
-"n": 109,
+"n": 110,
 "url": "https://elbitsystems.com/",
 "role": "БЛА, РЭБ, C-UAS",
 "reg": true,
@@ -1784,7 +1784,7 @@
 "kind": "program",
 "country": "Великобритания/Италия/Япония",
 "src": "реестр",
-"n": 8,
+"n": 9,
 "url": "https://www.gov.uk/government/publications/convention-on-the-establishment-of-the-global-combat-air-programme-gcap-international-government-organisation",
 "role": "программа истребителя следующего поколения и связанной «системы систем» (в т.ч. связка с беспилотными ведомыми / CCA). Отдельного общего сайта программы на проверке 11.11.2026 не открылось; официальный источник — договор на GOV.UK.",
 "reg": true,
@@ -3663,6 +3663,18 @@
 "deg": 0
 },
 {
+"id": "c:ent_cccc32936f8ef22e",
+"label": "Dominion Dynamics",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 0
+},
+{
 "id": "c:ent_03a53622e9dcb143",
 "label": "DOT-Chain Defence",
 "kind": "company",
@@ -4320,7 +4332,19 @@
 "url": "",
 "role": "",
 "reg": false,
-"deg": 0
+"deg": 2
+},
+{
+"id": "c:ent_f3d3d600ae9493a3",
+"label": "Hanwha Defense",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 0,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 2
 },
 {
 "id": "c:ent_45d3c16a384ac094",
@@ -5739,6 +5763,18 @@
 "deg": 0
 },
 {
+"id": "c:ent_00740304930946ee",
+"label": "Police Purchased Israeli Anti-Drone Systems",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 0
+},
+{
 "id": "c:ent_9663c2809c345939",
 "label": "Positive Technologies",
 "kind": "company",
@@ -5816,11 +5852,23 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 1,
+"n": 2,
 "url": "",
 "role": "",
 "reg": false,
 "deg": 0
+},
+{
+"id": "c:ent_3ccdd1377cf91b5a",
+"label": "Raid Defense",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 0,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 1
 },
 {
 "id": "c:ent_1d9da8c11eb4d96b",
@@ -6077,6 +6125,18 @@
 {
 "id": "c:ent_16146931b47033b8",
 "label": "Saronic Technologies",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 0
+},
+{
+"id": "c:ent_7737de488688e273",
+"label": "Says Defense",
 "kind": "company",
 "country": "",
 "src": "контур",
@@ -6344,7 +6404,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 43,
+"n": 45,
 "url": "",
 "role": "",
 "reg": false,
@@ -6800,11 +6860,23 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 1,
+"n": 2,
 "url": "",
 "role": "",
 "reg": false,
 "deg": 2
+},
+{
+"id": "c:ent_c67459bab0d7b89b",
+"label": "Ukraine Defense Contact Group",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 0
 },
 {
 "id": "c:ent_b232eefe72a1cd09",
@@ -7083,6 +7155,18 @@
 "deg": 1
 },
 {
+"id": "c:ent_ce9956f8ff5b9eb0",
+"label": "Western Air Defense",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 0
+},
+{
 "id": "c:ent_ce30eca6badf0fed",
 "label": "World Defence",
 "kind": "company",
@@ -7208,7 +7292,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 3,
+"n": 4,
 "url": "",
 "role": "",
 "reg": false,
@@ -8720,7 +8804,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 97,
+"n": 99,
 "url": "",
 "role": "",
 "reg": false,
@@ -8732,7 +8816,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 96,
+"n": 97,
 "url": "",
 "role": "",
 "reg": false,
@@ -8744,7 +8828,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 16,
+"n": 17,
 "url": "",
 "role": "",
 "reg": false,
@@ -8780,7 +8864,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 117,
+"n": 118,
 "url": "",
 "role": "",
 "reg": false,
@@ -8792,7 +8876,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 454,
+"n": 457,
 "url": "",
 "role": "",
 "reg": false,
@@ -8828,7 +8912,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 37,
+"n": 39,
 "url": "",
 "role": "",
 "reg": false,
@@ -8852,7 +8936,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 115,
+"n": 117,
 "url": "",
 "role": "",
 "reg": false,
@@ -8876,7 +8960,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 258,
+"n": 264,
 "url": "",
 "role": "",
 "reg": false,
@@ -8900,7 +8984,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 142,
+"n": 143,
 "url": "",
 "role": "",
 "reg": false,
@@ -10724,7 +10808,7 @@
 "kind": "company",
 "country": "Франция",
 "src": "реестр",
-"n": 14,
+"n": 15,
 "url": "https://www.dassault-aviation.com/",
 "role": "авиация: боевые самолёты Rafale",
 "reg": true,
@@ -25776,6 +25860,30 @@
 "role": "",
 "reg": false,
 "deg": 1
+},
+{
+"id": "person:ent_8e986690ae1ced80",
+"label": "Kevin Schoonover",
+"kind": "person",
+"country": "",
+"src": "контур (персона)",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 2
+},
+{
+"id": "person:ent_cf1c718559f0825f",
+"label": "Dave Fine",
+"kind": "person",
+"country": "",
+"src": "контур (персона)",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 1
 }
 ],
 "edges": [
@@ -26902,7 +27010,7 @@
 "n": 1
 },
 {
-"id": "ctr:30",
+"id": "ctr:31",
 "s": "c:ent_ed88ced226e6c399",
 "t": "c:ent_e66a2be7fe38d473",
 "type": "судебный спор",
@@ -29338,6 +29446,46 @@
 "https://belvpo.com/samolet-nato-kruzhit-nad-latviej-u-graniczy-s-rossiej",
 "2026-11-17 16:51",
 "Самолет НАТО типа Airbus A330-243MRTT, принадлежащий ВВС Нидерландов, около часа кружит над юго-восточной частью Латвии, неподалеку от границы с Россией, следует из полетных данных, которые изучило РИА Новости Согласно полетным данным, в 13"
+]
+]
+},
+{
+"id": "ctr:769",
+"s": "c:ent_bfe1a5bf0e0a39b9",
+"t": "c:ent_f3d3d600ae9493a3",
+"type": "принадлежность",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://defence-industry.eu/hanwha-completes-chunmoo-missile-test-campaign-at-sea-to-develop-strike-capabilities-for-crewed-and-uncrewed-vessels",
+"date": "",
+"n": 1,
+"s2": 0,
+"s1": 0.0,
+"ev": [
+[
+"https://defence-industry.eu/hanwha-completes-chunmoo-missile-test-campaign-at-sea-to-develop-strike-capabilities-for-crewed-and-uncrewed-vessels",
+"2026-11-17 23:35",
+"Hanwha Defense USA is a subsidiary of South Korea’s Hanwha Aerospace."
+]
+]
+},
+{
+"id": "ctr:771",
+"s": "northrop",
+"t": "c:ent_3ccdd1377cf91b5a",
+"type": "принадлежность",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://defence-industry.eu/northrop-grumman-says-bushmaster-cannon-defeated-multiple-drones-in-live-fire-test-using-m-ace-and-proximity-ammunition",
+"date": "",
+"n": 1,
+"s2": 0,
+"s1": 0.0,
+"ev": [
+[
+"https://defence-industry.eu/northrop-grumman-says-bushmaster-cannon-defeated-multiple-drones-in-live-fire-test-using-m-ace-and-proximity-ammunition",
+"2026-11-17 23:19",
+"The guns and ammunition form part of Northrop Grumman’s Raid Defense Solutions portfolio, which covers counter-drone and air defense capabilities."
 ]
 ]
 },
@@ -50725,6 +50873,66 @@
 "https://kyivpost.com/post/90393",
 "2026-11-17 16:51",
 "UK Defense Secretary Wes Streeting announced on Tuesday, Nov."
+]
+]
+},
+{
+"id": "per:rel_9ec4c273c54f1d78",
+"s": "person:ent_8e986690ae1ced80",
+"t": "c:ent_bfe1a5bf0e0a39b9",
+"type": "должность",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://defence-industry.eu/hanwha-completes-chunmoo-missile-test-campaign-at-sea-to-develop-strike-capabilities-for-crewed-and-uncrewed-vessels",
+"date": "",
+"n": 1,
+"s2": -1,
+"s1": -0.3,
+"ev": [
+[
+"https://defence-industry.eu/hanwha-completes-chunmoo-missile-test-campaign-at-sea-to-develop-strike-capabilities-for-crewed-and-uncrewed-vessels",
+"2026-11-17 20:35",
+"Navy’s call to produce and field modern strike capabilities from a maritime platform,” said Kevin Schoonover, executive vice president for missiles at Hanwha Defense USA."
+]
+]
+},
+{
+"id": "per:rel_5c27ad0a779eea70",
+"s": "person:ent_8e986690ae1ced80",
+"t": "c:ent_f3d3d600ae9493a3",
+"type": "должность",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://defence-industry.eu/hanwha-completes-chunmoo-missile-test-campaign-at-sea-to-develop-strike-capabilities-for-crewed-and-uncrewed-vessels",
+"date": "",
+"n": 1,
+"s2": -1,
+"s1": -0.3,
+"ev": [
+[
+"https://defence-industry.eu/hanwha-completes-chunmoo-missile-test-campaign-at-sea-to-develop-strike-capabilities-for-crewed-and-uncrewed-vessels",
+"2026-11-17 20:35",
+"Navy’s call to produce and field modern strike capabilities from a maritime platform,” said Kevin Schoonover, executive vice president for missiles at Hanwha Defense USA."
+]
+]
+},
+{
+"id": "per:rel_7b66c54ec53db7c4",
+"s": "person:ent_cf1c718559f0825f",
+"t": "northrop",
+"type": "должность",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://defence-industry.eu/northrop-grumman-says-bushmaster-cannon-defeated-multiple-drones-in-live-fire-test-using-m-ace-and-proximity-ammunition",
+"date": "",
+"n": 1,
+"s2": 1,
+"s1": 0.3,
+"ev": [
+[
+"https://defence-industry.eu/northrop-grumman-says-bushmaster-cannon-defeated-multiple-drones-in-live-fire-test-using-m-ace-and-proximity-ammunition",
+"2026-11-17 20:19",
+"“By integrating these proven capabilities, we’re delivering an effective, scalable counter-drone solution that warfighters are using today,” said Dave Fine, Northrop Grumman’s vice president for armament systems."
 ]
 ]
 }
