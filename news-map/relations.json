@@ -5,8 +5,18 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 183,
+"evidence_count": 185,
 "evidence": [
+{
+"url": "https://belvpo.com/v-pentagone-vyskazalis-ob-udarah-vsu-vglub-rossii",
+"published_at": "2026-11-17T18:37:10Z",
+"quote": "В Пентагоне высказались об ударах ВСУ вглубь России"
+},
+{
+"url": "https://topwar.ru/293725-udar-gerani-po-nemeckoj-zsu-gepard-1a2-v-portu-odessy-popal-v-kadr.html",
+"published_at": "2026-11-17T16:56:10Z",
+"quote": "Удар «Герани» по немецкой ЗСУ Gepard 1A2 в порту Одессы попал в кадр"
+},
 {
 "url": "https://tvzvezda.ru/news/20261117180-dRDAq.html",
 "published_at": "2026-11-17T15:08:18Z",
@@ -21,16 +31,6 @@
 "url": "https://warfiles.ru/274021-taktika-istoschenija-nashej-sistemy-pvo-k-sozhaleniju-srabotala.html",
 "published_at": "2026-11-17T12:36:41Z",
 "quote": "1441 беспилотник и ракеты ВСУ ударили по России."
-},
-{
-"url": "https://eadaily.com/ru/news/2026/11/17/pererezayut-suhoputnyy-koridor-v-krym-drony-vsu-udarili-po-mostu-na-trasse-r-280",
-"published_at": "2026-11-17T11:46:00Z",
-"quote": "Перерезают сухопутный коридор в Крым: дроны ВСУ ударили по мосту на трассе Р-280: EADaily"
-},
-{
-"url": "https://tvzvezda.ru/news/202611171239-8Q3Hv.html",
-"published_at": "2026-11-17T11:02:02Z",
-"quote": "Мобильные огневые группы уничтожили свыше 10 дронов ВСУ в Херсонской области"
 }
 ],
 "sentiment": {
@@ -45,8 +45,13 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 52,
+"evidence_count": 53,
 "evidence": [
+{
+"url": "https://belvpo.com/v-pentagone-vyskazalis-ob-udarah-vsu-vglub-rossii",
+"published_at": "2026-11-17T18:37:10Z",
+"quote": "В Пентагоне высказались об ударах ВСУ вглубь России"
+},
 {
 "url": "https://tvzvezda.ru/news/20261117180-dRDAq.html",
 "published_at": "2026-11-17T15:08:18Z",
@@ -66,11 +71,6 @@
 "url": "https://onalert.gr/kosmos/gefyra-kerts-oukranika-drones-kai-flamingo-gkremisan-to-kamari-tou-poutin-pou-syndeei-ti-rosia-me-tin-krimaia/834031",
 "published_at": "2026-11-17T08:40:42Z",
 "quote": "Grateful to the Security Service of Ukraine, all units of Ukraine’s Defense Forces involved, Ukraine’s Minister of Defense, the Commander-in-Chief of the Armed Forces of Ukraine and the General Staff, and all our weapons manufacturers for a"
-},
-{
-"url": "https://tvzvezda.ru/news/202611171037-cwod8.html",
-"published_at": "2026-11-17T07:54:13Z",
-"quote": "Минобороны России сообщило об уничтожении передовых позиций ВСУ в Запорожской области."
 }
 ],
 "sentiment": {
@@ -600,6 +600,46 @@
 }
 },
 {
+"id": "rel_e3954abeb6713184",
+"from": "ent_d380c846b4a97fed",
+"to": "ent_82e26e90a014009e",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 6,
+"evidence": [
+{
+"url": "https://c4defence.com/en/f-15ex-eagle-ii-kadena-air-base",
+"published_at": "2026-11-17T13:21:59Z",
+"quote": "F-15EX Eagle II aircraft have arrived at Kadena Air Base in Japan for permanent deployment for the first time."
+},
+{
+"url": "https://israeldefense.co.il/en/node/72913",
+"published_at": "2026-11-17T00:00:00Z",
+"quote": "US Air Force Deploys First F-15EX Fighters to Kadena Base in Japan"
+},
+{
+"url": "https://airandspaceforces.com/kadena-first-permanent-f-15ex-arrives",
+"published_at": "2026-11-16T20:00:01Z",
+"quote": "A new Eagle is in the nest on Okinawa, Japan—the 18th Wing at Kadena Air Base received its first permanently stationed F-15EX Eagle II on Nov."
+},
+{
+"url": "https://airforce-technology.com/news/usaf-f-15ex-kadena",
+"published_at": "2026-11-16T16:26:04Z",
+"quote": "US Air Force permanently deploys F-15EX jets to Kadena Air Base in Japan"
+},
+{
+"url": "https://theaviationist.com/2026/11/15/kadena-welcomes-its-first-f-15ex-eagle-ii-fighters",
+"published_at": "2026-11-15T12:14:40Z",
+"quote": "Air Force F-15EX Eagle II fighters jets permanently stationed at Kadena Air Base , Japan, arrived at their new home on Nov."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_94a004dd432484e5",
 "from": "ent_cd3c86a3a1af0b40",
 "to": "ent_28fea1c77915c37a",
@@ -877,46 +917,6 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_e3954abeb6713184",
-"from": "ent_d380c846b4a97fed",
-"to": "ent_82e26e90a014009e",
-"type": "дислокация",
-"event_date": null,
-"evidence_count": 5,
-"evidence": [
-{
-"url": "https://c4defence.com/en/f-15ex-eagle-ii-kadena-air-base",
-"published_at": "2026-11-17T13:21:59Z",
-"quote": "F-15EX Eagle II aircraft have arrived at Kadena Air Base in Japan for permanent deployment for the first time."
-},
-{
-"url": "https://airandspaceforces.com/kadena-first-permanent-f-15ex-arrives",
-"published_at": "2026-11-16T20:00:01Z",
-"quote": "A new Eagle is in the nest on Okinawa, Japan—the 18th Wing at Kadena Air Base received its first permanently stationed F-15EX Eagle II on Nov."
-},
-{
-"url": "https://airforce-technology.com/news/usaf-f-15ex-kadena",
-"published_at": "2026-11-16T16:26:04Z",
-"quote": "US Air Force permanently deploys F-15EX jets to Kadena Air Base in Japan"
-},
-{
-"url": "https://theaviationist.com/2026/11/15/kadena-welcomes-its-first-f-15ex-eagle-ii-fighters",
-"published_at": "2026-11-15T12:14:40Z",
-"quote": "Air Force F-15EX Eagle II fighters jets permanently stationed at Kadena Air Base , Japan, arrived at their new home on Nov."
-},
-{
-"url": "https://bastion-karpenko.ru/%d1%81%d1%88%d0%b0-%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%81%d1%82%d0%b8%d0%bb%d0%b8-%d0%b2-%d1%8f%d0%bf%d0%be%d0%bd%d0%b8%d0%b8-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d0%b8-f-15ex",
-"published_at": "2026-11-15T10:21:45Z",
-"quote": "США РАЗМЕСТИЛИ В ЯПОНИИ ИСТРЕБИТЕЛИ F-15EX Модернизированные истребители F-15EX были размещены на базе американских ВВС Кадена на южном японском острове Окинава."
-}
-],
-"sentiment": {
-"score_pm1": 0.1,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -1305,6 +1305,41 @@
 }
 },
 {
+"id": "rel_06ad2a70453c15a6",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://belvpo.com/v-pentagone-vyskazalis-ob-udarah-vsu-vglub-rossii",
+"published_at": "2026-11-17T18:37:10Z",
+"quote": "В Пентагоне высказались об ударах ВСУ вглубь России"
+},
+{
+"url": "https://t.me/uav_tech/35958",
+"published_at": "2026-04-21T09:00:29Z",
+"quote": "Американская компания AeroVironment раскрыла характеристики новейшего многоцелевого беспилотника Mayhem 10, созданного на основе применяемого ВСУ Switchblade."
+},
+{
+"url": "https://t.me/uav_tech/35484",
+"published_at": "2026-03-10T19:53:50Z",
+"quote": "Ракетный удар ВСУ по Брянску, нанесённый с использованием британских крылатых ракет Storm Shadow, не мог быть осуществлён без предоставления украинской стороне разведданных со стороны Соединённых Штатов (Великобритания сама не смогла бы это"
+},
+{
+"url": "https://t.me/uav_tech/35441",
+"published_at": "2026-03-08T14:08:21Z",
+"quote": "Согласитесь, странные вопли, ведь Трамп публично сообщал, что спутники США помимо связи для НАТОвской ЧВК «ВСУ» также дают разведданные в режиме реального времени и целеуказание для ударов по Русской армии."
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_795a2febfc5b43c6",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_e66a2be7fe38d473",
@@ -1427,6 +1462,36 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_6d86617406752333",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://belvpo.com/v-pentagone-vyskazalis-ob-udarah-vsu-vglub-rossii",
+"published_at": "2026-11-17T18:37:10Z",
+"quote": "В Пентагоне высказались об ударах ВСУ вглубь России"
+},
+{
+"url": "https://nypost.com/2026/11/16/us-news/pentagon-ignored-warnings-before-iran-drone-killed-6-us-service-members-in-kuwait-whistleblower-claims",
+"published_at": "2026-11-16T12:05:27Z",
+"quote": "Stephen Ramsbottom claims the Pentagon ignored warnings before an Iranian drone strike killed six US service members in Kuwait."
+},
+{
+"url": "https://breakingdefense.com/2026/11/allen-control-systems-launches-new-division-to-develop-counter-drone-lasers",
+"published_at": "2026-11-10T20:56:37Z",
+"quote": "The announcement comes amid the Pentagon’s growing interest in laser weapons, which use concentrated beams of energy to heat and destroy targets."
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 },
 {
@@ -1850,6 +1915,36 @@
 }
 },
 {
+"id": "rel_2ec954c0ab6a224a",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_76aae9f116d88191",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://tass.ru/mezhdunarodnaya-panorama/28327715",
+"published_at": "2026-11-17T17:03:17Z",
+"quote": "Владимир Зеленский заявил об этом, выступая в режиме видеоконференции на заседании контактной группы по поставкам оружия на Украину в штаб-квартире НАТО в Брюсселе"
+},
+{
+"url": "https://aerotime.aero/articles/estonia-russia-gru-arson-drone-maker-threod",
+"published_at": "2026-11-16T15:18:48Z",
+"quote": "According to the company, it has delivered its equipment to 27 countries, including 14 NATO members and Ukraine."
+},
+{
+"url": "https://t.me/uav_tech/36694",
+"published_at": "2026-07-18T12:52:40Z",
+"quote": "❗️Кадыров призвал Путина начать военные действия против стран НАТО Глава Чечни заявил, что России следует «открыть огонь» по государствам, которые поставляют Украине оружие и разведданные."
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_88963183ebd8a576",
 "from": "ent_9ab08c2213ed942f",
 "to": "ent_b677547c4bb180c5",
@@ -1940,33 +2035,33 @@
 }
 },
 {
-"id": "rel_06ad2a70453c15a6",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_b677547c4bb180c5",
+"id": "rel_b6d89c0b49d2e82c",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
 "evidence_count": 3,
 "evidence": [
 {
-"url": "https://t.me/uav_tech/35958",
-"published_at": "2026-04-21T09:00:29Z",
-"quote": "Американская компания AeroVironment раскрыла характеристики новейшего многоцелевого беспилотника Mayhem 10, созданного на основе применяемого ВСУ Switchblade."
+"url": "https://belvpo.com/v-pentagone-vyskazalis-ob-udarah-vsu-vglub-rossii",
+"published_at": "2026-11-17T18:37:10Z",
+"quote": "В Пентагоне высказались об ударах ВСУ вглубь России"
 },
 {
-"url": "https://t.me/uav_tech/35484",
-"published_at": "2026-03-10T19:53:50Z",
-"quote": "Ракетный удар ВСУ по Брянску, нанесённый с использованием британских крылатых ракет Storm Shadow, не мог быть осуществлён без предоставления украинской стороне разведданных со стороны Соединённых Штатов (Великобритания сама не смогла бы это"
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "Army Photo) Palantir’s Maven Smart System has been widely used by Ukraine in its fight against Russia while the Pentagon has adopted it as its core military software and has used it in its war with Iran this year."
 },
 {
-"url": "https://t.me/uav_tech/35441",
-"published_at": "2026-03-08T14:08:21Z",
-"quote": "Согласитесь, странные вопли, ведь Трамп публично сообщал, что спутники США помимо связи для НАТОвской ЧВК «ВСУ» также дают разведданные в режиме реального времени и целеуказание для ударов по Русской армии."
+"url": "https://t.me/quadro_news/5109",
+"published_at": "2026-04-24T11:00:18Z",
+"quote": "Ещё в 2024 году такие комплексы отправили для тестирования на Украину — и, по данным Пентагона, они сбили уже более 1."
 }
 ],
 "sentiment": {
-"score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -2217,31 +2312,6 @@
 "score_pm1": 0.3,
 "score_pm2": 1,
 "label": "умеренно позитивный"
-}
-},
-{
-"id": "rel_6d86617406752333",
-"from": "ent_b0bba4c8f275ffd0",
-"to": "ent_b677547c4bb180c5",
-"type": "применение",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://nypost.com/2026/11/16/us-news/pentagon-ignored-warnings-before-iran-drone-killed-6-us-service-members-in-kuwait-whistleblower-claims",
-"published_at": "2026-11-16T12:05:27Z",
-"quote": "Stephen Ramsbottom claims the Pentagon ignored warnings before an Iranian drone strike killed six US service members in Kuwait."
-},
-{
-"url": "https://breakingdefense.com/2026/11/allen-control-systems-launches-new-division-to-develop-counter-drone-lasers",
-"published_at": "2026-11-10T20:56:37Z",
-"quote": "The announcement comes amid the Pentagon’s growing interest in laser weapons, which use concentrated beams of energy to heat and destroy targets."
-}
-],
-"sentiment": {
-"score_pm1": -0.4,
-"score_pm2": -1,
-"label": "умеренно негативный"
 }
 },
 {
@@ -3245,6 +3315,31 @@
 }
 },
 {
+"id": "rel_ed70178a7bef62e3",
+"from": "ent_f2dcf230404a0bff",
+"to": "ent_76aae9f116d88191",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://defence-ua.com/news/jaki_1000_raket_proti_reaktivnih_droniv_jak_ot_geran_4_mozhe_peredati_ukrajini_velika_britanija_i_koli_tse_bude-24773.html",
+"published_at": "2026-11-17T16:43:11Z",
+"quote": "Які 1000 ракет проти реактивних дронів, як от \"Герань-4\", може передати Україні Велика Британія і коли це буде"
+},
+{
+"url": "https://twz.com/air/l-39ng-skyfox-jets-could-give-ukraine-a-critical-new-russian-drone-hunting-capability",
+"published_at": "2026-11-12T19:13:31Z",
+"quote": "The Czech Republic could supply Ukraine with up to 16 Aero L-39NG Skyfox aircraft, potentially giving Kyiv another option for countering Russia’s Shahed-type attack drones ."
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_c731774b9c2fdb02",
 "from": "ent_28fea1c77915c37a",
 "to": "ent_ff878af017a8077e",
@@ -3745,31 +3840,6 @@
 }
 },
 {
-"id": "rel_2ec954c0ab6a224a",
-"from": "ent_cd3c86a3a1af0b40",
-"to": "ent_76aae9f116d88191",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://aerotime.aero/articles/estonia-russia-gru-arson-drone-maker-threod",
-"published_at": "2026-11-16T15:18:48Z",
-"quote": "According to the company, it has delivered its equipment to 27 countries, including 14 NATO members and Ukraine."
-},
-{
-"url": "https://t.me/uav_tech/36694",
-"published_at": "2026-07-18T12:52:40Z",
-"quote": "❗️Кадыров призвал Путина начать военные действия против стран НАТО Глава Чечни заявил, что России следует «открыть огонь» по государствам, которые поставляют Украине оружие и разведданные."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_4089f2773a1b863a",
 "from": "ent_340314be7304a427",
 "to": "ent_28fea1c77915c37a",
@@ -4120,31 +4190,6 @@
 }
 },
 {
-"id": "rel_b6d89c0b49d2e82c",
-"from": "ent_b0bba4c8f275ffd0",
-"to": "ent_76aae9f116d88191",
-"type": "применение",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
-"published_at": "2026-11-16T18:00:00Z",
-"quote": "Army Photo) Palantir’s Maven Smart System has been widely used by Ukraine in its fight against Russia while the Pentagon has adopted it as its core military software and has used it in its war with Iran this year."
-},
-{
-"url": "https://t.me/quadro_news/5109",
-"published_at": "2026-04-24T11:00:18Z",
-"quote": "Ещё в 2024 году такие комплексы отправили для тестирования на Украину — и, по данным Пентагона, они сбили уже более 1."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_c859abc9fe3e53fc",
 "from": "ent_4ad1ffa14b3997a7",
 "to": "ent_42945ce6b8f796c3",
@@ -4420,6 +4465,31 @@
 }
 },
 {
+"id": "rel_9e363114949dde1f",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_eb8cb296fc293dc4",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://topwar.ru/293725-udar-gerani-po-nemeckoj-zsu-gepard-1a2-v-portu-odessy-popal-v-kadr.html",
+"published_at": "2026-11-17T16:56:10Z",
+"quote": "Удар «Герани» по немецкой ЗСУ Gepard 1A2 в порту Одессы попал в кадр"
+},
+{
+"url": "https://t.me/mod_russia/68995",
+"published_at": "2026-11-13T15:22:04Z",
+"quote": "▪️ Кроме того, на переходе морем поражено морское судно типа «сухогруз», доставлявшее в порт Черноморск военные грузы, и два железнодорожных локомотива в районе ж/д станции Сербка Одесской области, используемых в интересах перевозки грузов,"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_996d72d67f7c5fee",
 "from": "ent_7902a5283b8ea891",
 "to": "ent_b677547c4bb180c5",
@@ -4590,6 +4660,56 @@
 ],
 "sentiment": {
 "score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_429782e0c62e9f38",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_82e26e90a014009e",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72913",
+"published_at": "2026-11-17T00:00:00Z",
+"quote": "US Air Force Deploys First F-15EX Fighters to Kadena Base in Japan"
+},
+{
+"url": "https://airforce-technology.com/news/usaf-f-15ex-kadena",
+"published_at": "2026-11-16T16:26:04Z",
+"quote": "US Air Force permanently deploys F-15EX jets to Kadena Air Base in Japan"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_d906b879443ce7a0",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://belvpo.com/v-pentagone-vyskazalis-ob-udarah-vsu-vglub-rossii",
+"published_at": "2026-11-17T18:37:10Z",
+"quote": "В Пентагоне высказались об ударах ВСУ вглубь России"
+},
+{
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "Army Photo) Palantir’s Maven Smart System has been widely used by Ukraine in its fight against Russia while the Pentagon has adopted it as its core military software and has used it in its war with Iran this year."
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -10657,26 +10777,6 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
-}
-},
-{
-"id": "rel_ed70178a7bef62e3",
-"from": "ent_f2dcf230404a0bff",
-"to": "ent_76aae9f116d88191",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://twz.com/air/l-39ng-skyfox-jets-could-give-ukraine-a-critical-new-russian-drone-hunting-capability",
-"published_at": "2026-11-12T19:13:31Z",
-"quote": "The Czech Republic could supply Ukraine with up to 16 Aero L-39NG Skyfox aircraft, potentially giving Kyiv another option for countering Russia’s Shahed-type attack drones ."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
 }
 },
 {
@@ -18620,26 +18720,6 @@
 }
 },
 {
-"id": "rel_9e363114949dde1f",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_eb8cb296fc293dc4",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://t.me/mod_russia/68995",
-"published_at": "2026-11-13T15:22:04Z",
-"quote": "▪️ Кроме того, на переходе морем поражено морское судно типа «сухогруз», доставлявшее в порт Черноморск военные грузы, и два железнодорожных локомотива в районе ж/д станции Сербка Одесской области, используемых в интересах перевозки грузов,"
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_e25015b17624c985",
 "from": "ent_3605db4374744812",
 "to": "ent_82e26e90a014009e",
@@ -20037,46 +20117,6 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_429782e0c62e9f38",
-"from": "ent_7902a5283b8ea891",
-"to": "ent_82e26e90a014009e",
-"type": "дислокация",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://airforce-technology.com/news/usaf-f-15ex-kadena",
-"published_at": "2026-11-16T16:26:04Z",
-"quote": "US Air Force permanently deploys F-15EX jets to Kadena Air Base in Japan"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_d906b879443ce7a0",
-"from": "ent_b0bba4c8f275ffd0",
-"to": "ent_28fea1c77915c37a",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
-"published_at": "2026-11-16T18:00:00Z",
-"quote": "Army Photo) Palantir’s Maven Smart System has been widely used by Ukraine in its fight against Russia while the Pentagon has adopted it as its core military software and has used it in its war with Iran this year."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -23557,6 +23597,306 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_7b3a7ccc520052a7",
+"from": "ent_fa323d4f8a738909",
+"to": "ent_86a408b5b14fa5a6",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://army-technology.com/news/northrop-grumman-pac3-missile",
+"published_at": "2026-11-17T17:12:56Z",
+"quote": "6bn contract to increase its production of solid rocket motors and related components for the US Army’s Patriot Advanced Capability-3 (PAC-3) Missile Segment Enhancement (MSE) programme."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_a950fbf52090def1",
+"from": "ent_fa323d4f8a738909",
+"to": "ent_1b0aa19df5f246b7",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://army-technology.com/news/northrop-grumman-pac3-missile",
+"published_at": "2026-11-17T17:12:56Z",
+"quote": "6bn contract to increase its production of solid rocket motors and related components for the US Army’s Patriot Advanced Capability-3 (PAC-3) Missile Segment Enhancement (MSE) programme."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_ea597731a78f0ea8",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_f205950f5e419e80",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://topwar.ru/293725-udar-gerani-po-nemeckoj-zsu-gepard-1a2-v-portu-odessy-popal-v-kadr.html",
+"published_at": "2026-11-17T16:56:10Z",
+"quote": "Удар «Герани» по немецкой ЗСУ Gepard 1A2 в порту Одессы попал в кадр"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_d087e935b7253998",
+"from": "ent_f205950f5e419e80",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://topwar.ru/293725-udar-gerani-po-nemeckoj-zsu-gepard-1a2-v-portu-odessy-popal-v-kadr.html",
+"published_at": "2026-11-17T16:56:10Z",
+"quote": "Удар «Герани» по немецкой ЗСУ Gepard 1A2 в порту Одессы попал в кадр"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_2ed752fe9935619a",
+"from": "ent_f205950f5e419e80",
+"to": "ent_eb8cb296fc293dc4",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://topwar.ru/293725-udar-gerani-po-nemeckoj-zsu-gepard-1a2-v-portu-odessy-popal-v-kadr.html",
+"published_at": "2026-11-17T16:56:10Z",
+"quote": "Удар «Герани» по немецкой ЗСУ Gepard 1A2 в порту Одессы попал в кадр"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_3dd7ee50c0a2d27a",
+"from": "ent_f2dcf230404a0bff",
+"to": "ent_382bc265ebab3a18",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-ua.com/news/jaki_1000_raket_proti_reaktivnih_droniv_jak_ot_geran_4_mozhe_peredati_ukrajini_velika_britanija_i_koli_tse_bude-24773.html",
+"published_at": "2026-11-17T16:43:11Z",
+"quote": "Які 1000 ракет проти реактивних дронів, як от \"Герань-4\", може передати Україні Велика Британія і коли це буде"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c32abccf414eb033",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_ce24835bf268b31a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tass.ru/mezhdunarodnaya-panorama/28327715",
+"published_at": "2026-11-17T17:03:17Z",
+"quote": "Владимир Зеленский заявил об этом, выступая в режиме видеоконференции на заседании контактной группы по поставкам оружия на Украину в штаб-квартире НАТО в Брюсселе"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_d09ae7c132adb3ea",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_bd84f4b50b17b685",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://belvpo.com/v-pentagone-vyskazalis-ob-udarah-vsu-vglub-rossii",
+"published_at": "2026-11-17T18:37:10Z",
+"quote": "ru Чтобы оперативно получать информацию, подписывайтесь на наш телеграм БелВПО Сообщение В Пентагоне высказались об ударах ВСУ вглубь России появились сначала на БЕЛОРУССКОЕ ВОЕННО-ПОЛИТИЧЕСКОЕ ОБОЗРЕНИЕ ."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_20a7bbcb945b055a",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_bd84f4b50b17b685",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://belvpo.com/v-pentagone-vyskazalis-ob-udarah-vsu-vglub-rossii",
+"published_at": "2026-11-17T18:37:10Z",
+"quote": "ru Чтобы оперативно получать информацию, подписывайтесь на наш телеграм БелВПО Сообщение В Пентагоне высказались об ударах ВСУ вглубь России появились сначала на БЕЛОРУССКОЕ ВОЕННО-ПОЛИТИЧЕСКОЕ ОБОЗРЕНИЕ ."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_afb6ffa627550edd",
+"from": "ent_d2e22355d8368901",
+"to": "ent_9a78ce074ce78826",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://kyivpost.com/post/90393",
+"published_at": "2026-11-17T16:51:01Z",
+"quote": "UK Defense Secretary Wes Streeting announced on Tuesday, Nov."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_5ecc52398cdeb671",
+"from": "ent_28fea1c77915c37a",
+"to": "ent_cbbe2d12dc101143",
+"type": "санкции",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://cyprus-mail.com/2026/11/17/moldovan-president-says-russian-drone-flew-over-capital",
+"published_at": "2026-11-17T17:21:13Z",
+"quote": "Moldovan President Maia Sandu said on Tuesday that a Russian drone flew over the capital Chisinau and pledged to press for further sanctions on Moscow."
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный"
+}
+},
+{
+"id": "rel_8e424ece95fb9c68",
+"from": "ent_d54ac6fc23eb6450",
+"to": "ent_cbbe2d12dc101143",
+"type": "санкции",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://cyprus-mail.com/2026/11/17/moldovan-president-says-russian-drone-flew-over-capital",
+"published_at": "2026-11-17T17:21:13Z",
+"quote": "Moldovan President Maia Sandu said on Tuesday that a Russian drone flew over the capital Chisinau and pledged to press for further sanctions on Moscow."
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный"
+}
+},
+{
+"id": "rel_2db4ff65352cc692",
+"from": "ent_5ef06d4929a4484b",
+"to": "ent_cbbe2d12dc101143",
+"type": "санкции",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://cyprus-mail.com/2026/11/17/moldovan-president-says-russian-drone-flew-over-capital",
+"published_at": "2026-11-17T17:21:13Z",
+"quote": "Moldovan President Maia Sandu said on Tuesday that a Russian drone flew over the capital Chisinau and pledged to press for further sanctions on Moscow."
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный"
+}
+},
+{
+"id": "rel_7cbb337a788ba10a",
+"from": "ent_4e0c6cf635e7e735",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://focus.ua/voennye-novosti/775070-dron-rf-v-nebe-nad-kishinevom-moldova-ogranichila-polety-fokus",
+"published_at": "2026-11-17T15:58:51Z",
+"quote": "По данным Digi24, ударный беспилотник типа \"Герань-2\" дважды входил в воздушное пространство Молдовы на фоне массированных атак РФ по Украине."
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_1d7b2f061f7c120e",
+"from": "ent_04ebaf6c069b2edb",
+"to": "ent_82e26e90a014009e",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72913",
+"published_at": "2026-11-17T00:00:00Z",
+"quote": "US Air Force Deploys First F-15EX Fighters to Kadena Base in Japan"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 }
 ]
