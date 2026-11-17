@@ -5,8 +5,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 182,
+"evidence_count": 183,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/20261117180-dRDAq.html",
+"published_at": "2026-11-17T15:08:18Z",
+"quote": "Дроны «Оса» группировки «Запад» уничтожили опорный пункт и технику ВСУ"
+},
 {
 "url": "https://tvzvezda.ru/news/20261117163-H2yDW.html",
 "published_at": "2026-11-17T13:12:14Z",
@@ -26,11 +31,6 @@
 "url": "https://tvzvezda.ru/news/202611171239-8Q3Hv.html",
 "published_at": "2026-11-17T11:02:02Z",
 "quote": "Мобильные огневые группы уничтожили свыше 10 дронов ВСУ в Херсонской области"
-},
-{
-"url": "https://tvzvezda.ru/news/202611171340-JqJrn.html",
-"published_at": "2026-11-17T10:57:02Z",
-"quote": "Кроме этого, на боевика ВСУ, оказавшегося в зоне поражения, оказывает воздействие резкий перепад давления."
 }
 ],
 "sentiment": {
@@ -45,8 +45,13 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 51,
+"evidence_count": 52,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/20261117180-dRDAq.html",
+"published_at": "2026-11-17T15:08:18Z",
+"quote": "Российские военнослужащие уничтожили опорный пункт, ударный беспилотник R-18 и наземный робототехнический комплекс ВСУ на Краснолиманском направлении."
+},
 {
 "url": "https://warfiles.ru/274021-taktika-istoschenija-nashej-sistemy-pvo-k-sozhaleniju-srabotala.html",
 "published_at": "2026-11-17T12:36:41Z",
@@ -66,11 +71,6 @@
 "url": "https://tvzvezda.ru/news/202611171037-cwod8.html",
 "published_at": "2026-11-17T07:54:13Z",
 "quote": "Минобороны России сообщило об уничтожении передовых позиций ВСУ в Запорожской области."
-},
-{
-"url": "https://t.me/nm_dnr/16210",
-"published_at": "2026-11-17T06:04:49Z",
-"quote": "Ликвидация вражеских БЛА снижает угрозу для российских военнослужащих и ограничивает возможности ВСУ по ведению разведки и нанесению ударов."
 }
 ],
 "sentiment": {
@@ -205,8 +205,13 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 15,
+"evidence_count": 16,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611171746-Nx5he.html",
+"published_at": "2026-11-17T15:04:37Z",
+"quote": "Минобороны России сообщило об уничтожении украинских пунктов управления беспилотными летательными аппаратами в зоне проведения специальной военной операции."
+},
 {
 "url": "https://eadaily.com/ru/news/2026/11/17/pererezayut-suhoputnyy-koridor-v-krym-drony-vsu-udarili-po-mostu-na-trasse-r-280",
 "published_at": "2026-11-17T11:46:00Z",
@@ -226,11 +231,6 @@
 "url": "https://tvzvezda.ru/news/20261116147-MPv9x.html",
 "published_at": "2026-11-16T11:11:23Z",
 "quote": "Минобороны России сообщило об отражении наиболее массированного в истории украинского удара."
-},
-{
-"url": "https://t.me/news_UAV/5963",
-"published_at": "2026-11-16T09:53:49Z",
-"quote": "Российская ПВО сбила 2049 дронов ВСУ за сутки Силы ПВО за сутки уничтожили четыре ракеты \"Фламинго\" и 2049 беспилотников ВСУ, сообщило в понедельник Минобороны России."
 }
 ],
 "sentiment": {
@@ -245,8 +245,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 10,
+"evidence_count": 11,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611171855-vik3X.html",
+"published_at": "2026-11-17T15:57:47Z",
+"quote": "Минобороны России сообщило о нанесении огневого поражения четырем электроподстанциям на Украине."
+},
 {
 "url": "https://tvzvezda.ru/news/202611171037-cwod8.html",
 "published_at": "2026-11-17T07:54:13Z",
@@ -266,11 +271,6 @@
 "url": "https://vpk.name/news/1171483_armiya_rossii_primenila_novye_sokoly-3_protiv_dronov_vsu.html",
 "published_at": "2026-11-12T21:00:01Z",
 "quote": "Минобороны России: Новые дроны-перехватчики «Сокол-3» применили против БПЛА ВСУ Военнослужащие армии России применили новые дроны-перехватчики «Сокол-3» против скоростных беспилотных летательных аппаратов (БПЛА) ВСУ."
-},
-{
-"url": "https://t.me/uav_tech/36545",
-"published_at": "2026-06-27T11:35:50Z",
-"quote": "Минобороны РФ сообщило о том, что российские БПЛА \"Герань-4 сикер\" уничтожили два истребителя МиГ-29 ВСУ на аэродроме Вознесенск в Николаевской области."
 }
 ],
 "sentiment": {
@@ -23231,6 +23231,326 @@
 "url": "https://israeldefense.co.il/en/node/72875",
 "published_at": "2026-11-17T00:00:00Z",
 "quote": "Drone giant DJI has repeatedly denied that its products can be used to harvest data for the Chinese government, arguing that its platforms are not designed for clandestine intelligence gathering and pose no risk to users."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_fda868e147da90aa",
+"from": "ent_b677547c4bb180c5",
+"to": "ent_0dd93c1cbb5c85fa",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://topwar.ru/293721-v-ssha-zapustjat-22-novyh-zavoda-po-proizvodstvu-patriot-thaad-i-tomahawk.html",
+"published_at": "2026-11-17T16:06:01Z",
+"quote": "В США запустят 22 новых завода по производству Patriot, THAAD и Tomahawk"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_41f5c3bbc77af469",
+"from": "ent_d2e22355d8368901",
+"to": "ent_5eb0925226aeee8a",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/sweden-and-uk-team-up-to-arm-ukrianian-gripen-jets",
+"published_at": "2026-11-17T15:44:13Z",
+"quote": "Swedish Defense Minister Pål Jonson, British Defence Secretary Wes Streeting and Ukrainian Defense Minister Yevhenii Khmara signed a letter of […"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_a4ec376e3a40da75",
+"from": "ent_d2e22355d8368901",
+"to": "ent_c752f04aec800c63",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/sweden-and-uk-team-up-to-arm-ukrianian-gripen-jets",
+"published_at": "2026-11-17T15:44:13Z",
+"quote": "Swedish Defense Minister Pål Jonson, British Defence Secretary Wes Streeting and Ukrainian Defense Minister Yevhenii Khmara signed a letter of […"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_66ee93a2bb252933",
+"from": "ent_d2e22355d8368901",
+"to": "ent_5669a8e8ecd11cb5",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/sweden-and-uk-team-up-to-arm-ukrianian-gripen-jets",
+"published_at": "2026-11-17T15:44:13Z",
+"quote": "Swedish Defense Minister Pål Jonson, British Defence Secretary Wes Streeting and Ukrainian Defense Minister Yevhenii Khmara signed a letter of […"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_cacb1b74ec28b11f",
+"from": "ent_d50f3758938bf1ae",
+"to": "ent_5eb0925226aeee8a",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/sweden-and-uk-team-up-to-arm-ukrianian-gripen-jets",
+"published_at": "2026-11-17T15:44:13Z",
+"quote": "Swedish Defense Minister Pål Jonson, British Defence Secretary Wes Streeting and Ukrainian Defense Minister Yevhenii Khmara signed a letter of […"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_261d1e8a0991fad9",
+"from": "ent_d50f3758938bf1ae",
+"to": "ent_c752f04aec800c63",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/sweden-and-uk-team-up-to-arm-ukrianian-gripen-jets",
+"published_at": "2026-11-17T15:44:13Z",
+"quote": "Swedish Defense Minister Pål Jonson, British Defence Secretary Wes Streeting and Ukrainian Defense Minister Yevhenii Khmara signed a letter of […"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_d5ef07e076ee5fa0",
+"from": "ent_d50f3758938bf1ae",
+"to": "ent_5669a8e8ecd11cb5",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/sweden-and-uk-team-up-to-arm-ukrianian-gripen-jets",
+"published_at": "2026-11-17T15:44:13Z",
+"quote": "Swedish Defense Minister Pål Jonson, British Defence Secretary Wes Streeting and Ukrainian Defense Minister Yevhenii Khmara signed a letter of […"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_187e9d54267b7820",
+"from": "ent_d54ac6fc23eb6450",
+"to": "ent_3c74ee76fae8e179",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/romania-first-modernized-iar-99-trainers-f-16",
+"published_at": "2026-11-17T15:40:47Z",
+"quote": "Romania’s Ministry of National Defense (MApN) has accepted the first two of 10 IAR-99 SM jet trainers modernized by state-owned aircraft manufacturer Avioane Craiova."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_56c1a56a4b028bf6",
+"from": "ent_d54ac6fc23eb6450",
+"to": "ent_3c74ee76fae8e179",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/romania-first-modernized-iar-99-trainers-f-16",
+"published_at": "2026-11-17T15:40:47Z",
+"quote": "IAR-99 modernization program faces delivery delays A Romanian Air Force IAR-99 Șoim jet trainer at the Avioane Craiova factory."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c21729fa75cc4351",
+"from": "ent_e50e9b8e1c289c1d",
+"to": "ent_422593a4ae9bc429",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/romania-first-modernized-iar-99-trainers-f-16",
+"published_at": "2026-11-17T15:40:47Z",
+"quote": "The company contracted Israel’s Elbit Systems to supply avionics for the modernization program."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_1e9f58bf57e2e987",
+"from": "ent_d54ac6fc23eb6450",
+"to": "ent_ff878af017a8077e",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/romania-first-modernized-iar-99-trainers-f-16",
+"published_at": "2026-11-17T15:40:47Z",
+"quote": "In November 2025, the Netherlands formally transferred 18 F-16s used at the European F-16 Training Center in Fetești to Romania."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_71f96c564702841b",
+"from": "ent_e51a00b959bdebc5",
+"to": "ent_8fb86f78250fd022",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://kyivpost.com/post/90386",
+"published_at": "2026-11-17T16:01:00Z",
+"quote": "The Netherlands, Norway, the European Union and Finland have pledged €70 million ($77 million ) to support humanitarian demining in Ukraine, Prime Minister Serhii Koretskiy said on Tuesday."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_0b9419e5f911878f",
+"from": "ent_78f1ace85264a541",
+"to": "ent_f4de600127d3237b",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://rg.ru/2026/11/17/shvedy-ispytali-istrebitel-gripen-e-pod-upravleniem-iskusstvennogo-intellekta.html",
+"published_at": "2026-11-17T15:19:01Z",
+"quote": "Компания Saab сообщила об испытаниях истребителя Gripen E, в ходе которых управление самолетом передали собственному ИИ-агенту."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_544a7e75b58a8ede",
+"from": "ent_76aae9f116d88191",
+"to": "ent_14d1757585b55c53",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://focus.ua/voennye-novosti/775063-tramp-sdelal-putinu-kak-minimum-10-podarkov-v-hode-voyny-protiv-ukrainy-bloomberg",
+"published_at": "2026-11-17T14:51:31Z",
+"quote": "Среди \"подарков\", которые США сделали Путину в ходе войны против Украины, — прекращение военной и иной помощи Украине, приостановка передачи разведданных, ограничение скорости работы Starlink и прочее."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_04750b45d306dcbb",
+"from": "ent_b677547c4bb180c5",
+"to": "ent_14d1757585b55c53",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://focus.ua/voennye-novosti/775063-tramp-sdelal-putinu-kak-minimum-10-podarkov-v-hode-voyny-protiv-ukrainy-bloomberg",
+"published_at": "2026-11-17T14:51:31Z",
+"quote": "Среди \"подарков\", которые США сделали Путину в ходе войны против Украины, — прекращение военной и иной помощи Украине, приостановка передачи разведданных, ограничение скорости работы Starlink и прочее."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_3e1f386c45870c66",
+"from": "ent_a02f859093a4e63a",
+"to": "ent_e7e61f26b8fd6566",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://unian.net/war/pvo-dlya-ukrainy-kogda-mozhet-zarabotat-evropeyskaya-sistema-freyya-13562784.html",
+"published_at": "2026-11-17T14:24:15Z",
+"quote": "Новые кадры удара по Крымскому мосту: СБУ впервые показала момент разрушения"
 }
 ],
 "sentiment": {

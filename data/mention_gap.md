@@ -1,12 +1,12 @@
 # Упомянуто в новостях, но отсутствует в реестре — рабочий список
 
-Построен по живой базе на 17.11.2026 18:28 Europe/Minsk.
+Построен по живой базе на 17.11.2026 19:40 Europe/Minsk.
 
 Рабочий список кандидатов, **не проверенная перепись**. Названия извлечены регулярными выражениями из заголовков и вводных абзацев новостей и сравнены с реестром `companies.csv` (названия, псевдонимы, шаблоны упоминаний). Среди кандидатов есть ложные срабатывания (продукты, ведомства, общие слова). В реестр ничего автоматически не добавляется: строка вносится только после открытия официального сайта и источника.
 
 Российские компании в реестр не вносятся (решение 11.11.2026: «Удали все российские компании»); российские названия в этом списке — только упоминания в ленте, не кандидаты в реестр.
 
-Порог: кандидат встретился минимум в 2 материалах. Кандидатов: 118.
+Порог: кандидат встретился минимум в 2 материалах. Кандидатов: 119.
 
 | Кандидат | Материалов | Примеры (ссылки) |
 |---|---:|---|
@@ -92,6 +92,7 @@
 | Aerodata AG | 2 | [Germany's AeroForce X Drone Makes First Flight With A Pilot On Board](https://dronexl.co/2026/11/16/aerodata-aeroforce-x-first-flight-pilot-on-board-strausberg); [Aerodata flies what it calls Germany’s first long-endurance drone](https://defence-blog.com/aerodata-flies-what-it-calls-germanys-first-long-endurance-drone) |
 | ANRA Technologies | 2 | [Единая система для коммерческих дронов](https://t.me/skyindustry/3185); [ANRA Advances NATO-Tested Counter-Drone Technology With UTM Airspace Data](https://dronelife.com/2026/10/28/anra-advances-nato-tested-counter-drone-technology-with-utm-airspace-data) |
 | Archer AI | 2 | [🇺🇸 FPV-беспилотники. Крупные участники рынка. США](https://t.me/proUAV/2012); [Neros, Perennial Autonomy lead in Pentagon’s drone competition](https://c4isrnet.com/battlefield-tech/2026/10/01/neros-perennial-autonomy-lead-in-pentagons-drone-competition) |
+| Avioane Craiova SA | 2 | [Primele două avioane IAR-99 SM modernizate au fost recepționate de MApN. Aeronavele vor pregăti piloții pentru F-16](https://mediafax.ro/social/primele-doua-avioane-iar-99-sm-modernizate-au-fost-receptionate-de-mapn-aeronavele-vor-pregati-pilotii-pentru-f-16-23844127); [Romania receives first two modernized IAR-99 jet trainers for F-16 pilots](https://aerotime.aero/articles/romania-first-modernized-iar-99-trainers-f-16) |
 | Consumer Drones | 2 | [Апгрейдимся вовремя 😎](https://t.me/FPV_vyZOV/5727); [Рубрика: Новое по пятницам! 🤙](https://t.me/FPV_vyZOV/5732) |
 | Drone Security Industry | 2 | [DHS Secretary Markwayne Mullin Calls for More Affordable, Effective Counter-Drone Technology](https://dronelife.com/2026/11/09/mullin-affordable-counter-drone-technology); [Ondas Field-Proven Aerial Security Portfolio Aims to Support $250 Million FEMA Counter-Drone Grant Program](https://uasvision.com/2026/11/02/ondas-field-proven-aerial-security-portfolio-aims-to-support-250-million-fema-counter-drone-grant-program) |
 | DUALEE | 2 | [Beretta’s New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret](https://twz.com/land/berettas-new-counter-drone-system-packs-eight-benelli-m4-shotguns-onto-a-remote-turret); [Dualee LIVET M4 przeciw dronom](https://zbiam.pl/dualee-livet-m4-przeciw-dronom) |
