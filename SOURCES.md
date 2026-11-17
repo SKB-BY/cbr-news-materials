@@ -1379,34 +1379,40 @@
 
 Браузер в Docker (`cbrb.py`), до 4 новых статей за проход, честная очерёдность (кто дольше не обходился — первым). Во входящие попадают только материалы по ключам «Контура».
 
-| источник | листинг | проходы 15:46 и 16:03: статей / по ключам | состояние |
-|---|---|---|---|
-| `honvedelem.hu` | https://honvedelem.hu/ | 8 / 0 | работает |
-| `ccdcoe.org` | https://ccdcoe.org/news/ | 8 / 0 | работает |
-| `aviation-report.com` | https://www.aviation-report.com/feed/ | 8 / 0 | работает |
-| `forsvarsmakten.se` | https://www.forsvarsmakten.se/aktuellt/nyheter/ | 7 / 0 | работает |
-| `forsvaret.dk` | https://www.forsvaret.dk/da/nyheder/ | 4 / 0 | ошибка 2-го прохода: HTTP -1  Error: Page.goto: net::ERR_ABORTED at https://www.forsvaret.d |
-| `fmn.dk` | https://www.fmn.dk/da/nyheder/ | 7 / 0 | работает |
-| `mil.be` | https://www.mil.be/nl/news/ | 4 / 0 | работает (во 2-м проходе — в очереди) |
-| `defensie.nl` | https://www.defensie.nl/ | 4 / 0 | работает (во 2-м проходе — в очереди) |
-| `hybridcoe.fi` | https://www.hybridcoe.fi/all-content/?_type=hcoe20_news | 4 / 0 | работает (во 2-м проходе — в очереди) |
-| `portaledifesa.it` | https://www.rid.it/ | 4 / 0 | работает (во 2-м проходе — в очереди) |
-| `kongsberg.com` | https://www.kongsberg.com/ | 1 / 0 | работает (во 2-м проходе — в очереди) |
-| `securitymagazin.cz` | https://www.securitymagazin.cz/ | 4 / 1 | работает |
-| `flugrevue.de` | https://www.flugrevue.de/ | 3 / 0 | работает |
-| `defense.gouvernement.lu` | https://defense.gouvernement.lu/fr.html | 3 / 0 | работает |
-| `officerstidningen.se` | https://officerstidningen.se/feed/ | 4 / 0 | работает |
-| `atalayar.com` | https://www.atalayar.com/rss/ | 4 / 0 | работает |
-| `areion24.news` | https://www.areion24.news/ | 4 / 0 | работает |
-| `theatrum-belli.com` | https://theatrum-belli.com/feed/ | 0 / 0 | ошибка 2-го прохода: HTTP -1  Error: Page.goto: net::ERR_ABORTED at https://theatrum-belli. |
-| `reportdifesa.it` | https://www.reportdifesa.it/feed/ | 0 / 0 | листинг открыт, новых статей не найдено |
-| `obris.org` | https://obris.org/ | 3 / 0 | работает |
-| `hellasjournal.com` | https://hellasjournal.com/feed/ | 4 / 0 | работает |
-| `thinkdefence.co.uk` | https://www.thinkdefence.co.uk/ | 4 / 0 | работает |
-| `airbus.com` | https://www.airbus.com/en/newsroom | 0 / 0 | ошибка 2-го прохода: HTTP -1  Error: Page.goto: net::ERR_ABORTED at https://www.airbus.com/ |
-| `ruaviation.com` | https://www.ruaviation.com/news/?h | 0 / 0 | ошибка 2-го прохода: HTTP -1  Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.ru |
-| `ecfr.eu` | https://ecfr.eu/publications/ | 0 / 0 | ошибка 2-го прохода: HTTP -1  Error: Page.goto: Navigation to "https://ecfr.eu/publications |
-| `iss.europa.eu` | https://www.iss.europa.eu/publications | 0 / 0 | ошибка 2-го прохода: HTTP -1  Error: Page.goto: Navigation to "https://www.iss.europa.eu/pu |
-| `rheinmetall.com` | https://www.rheinmetall.com/en/media/news-watch | 0 / 0 | ошибка 2-го прохода: HTTP -1  Error: Page.goto: Navigation to "https://www.rheinmetall.com/ |
+| источник | листинг | статей за 3 прохода (15:46, 16:03, 17:35) | по ключам | состояние |
+|---|---|---|---|---|
+| `honvedelem.hu` | https://honvedelem.hu/ | 8 | 0 | работает (в проходе 17:35 — в очереди) |
+| `ccdcoe.org` | https://ccdcoe.org/news/ | 8 | 0 | работает (в проходе 17:35 — в очереди) |
+| `aviation-report.com` | https://www.aviation-report.com/feed/ | 8 | 0 | работает (в проходе 17:35 — в очереди) |
+| `forsvarsmakten.se` | https://www.forsvarsmakten.se/aktuellt/nyheter/ | 7 | 0 | работает (в проходе 17:35 — в очереди) |
+| `forsvaret.dk` | https://www.forsvaret.dk/da/nyheder/ | 4 | 0 | работает (в проходе 17:35 — в очереди) |
+| `fmn.dk` | https://www.fmn.dk/da/nyheder/ | 7 | 0 | работает (в проходе 17:35 — в очереди) |
+| `mil.be` | https://www.mil.be/nl/news/ | 8 | 0 | работает |
+| `defensie.nl` | https://www.defensie.nl/ | 8 | 0 | работает |
+| `hybridcoe.fi` | https://www.hybridcoe.fi/all-content/?_type=hcoe20_news | 8 | 0 | работает |
+| `portaledifesa.it` | https://www.rid.it/ | 8 | 0 | работает |
+| `kongsberg.com` | https://www.kongsberg.com/ | 5 | 0 | работает |
+| `securitymagazin.cz` | https://www.securitymagazin.cz/ | 8 | 1 | работает |
+| `flugrevue.de` | https://www.flugrevue.de/ | 7 | 0 | работает |
+| `defense.gouvernement.lu` | https://defense.gouvernement.lu/fr.html | 4 | 0 | работает |
+| `officerstidningen.se` | https://officerstidningen.se/feed/ | 8 | 0 | работает |
+| `atalayar.com` | https://www.atalayar.com/rss/ | 8 | 0 | работает |
+| `areion24.news` | https://www.areion24.news/ | 8 | 0 | работает |
+| `theatrum-belli.com` | https://theatrum-belli.com/feed/ | 4 | 0 | работает |
+| `reportdifesa.it` | https://www.reportdifesa.it/feed/ | 4 | 0 | работает |
+| `obris.org` | https://obris.org/ | 7 | 0 | работает |
+| `hellasjournal.com` | https://hellasjournal.com/feed/ | 8 | 0 | работает |
+| `thinkdefence.co.uk` | https://www.thinkdefence.co.uk/ | 8 | 0 | работает |
+| `airbus.com` | https://www.airbus.com/en/newsroom | 0 | 0 | листинг открывается, ссылки на материалы не найдены |
+| `ruaviation.com` | https://www.ruaviation.com/news/?h | 4 | 0 | работает |
+| `ecfr.eu` | https://ecfr.eu/publications/ | 4 | 0 | работает |
+| `iss.europa.eu` | https://www.iss.europa.eu/publications | 4 | 0 | работает |
+| `rheinmetall.com` | https://www.rheinmetall.com/en/media/news-watch | 4 | 0 | работает |
 
-Итог двух проходов: 21 из 27 открылись, 92 статьи, по ключам «Контура» — 1 (`securitymagazin.cz`: «Ukrajinský Leopard přežil zásahy 45 UAV…»). Каскад ошибок навигации (ecfr.eu, iss.europa.eu, rheinmetall.com и др.) исправлен в 16:19, проверка — в проходе 17:35.
+Итог: открываются 26 из 27 (`airbus.com` — список без ссылок на материалы, `reportdifesa.it` — материалы со 2-го прохода), всего 169 статей, по ключам «Контура» — 1 (`securitymagazin.cz`: «Ukrajinský Leopard přežil zásahy 45 UAV…»; вставлен в цикле 18:00). Для остальных 26 за 7 дней тем «Контура» нет — как и в пробе t168u. Каскад ошибок навигации (ecfr.eu, iss.europa.eu, rheinmetall.com и др.) исправлен в 16:19 — в проходе 17:35 они открылись.
+
+### Первый реальный цикл (17.11.2026 18:00, Europe/Minsk)
+
+Разбор входящих 18:08: 5 файлов. Вставлено **13** материалов: Docker `cbrb` — `securitymagazin.cz` 1, `portalobronny.se.pl` 2; Docker legacy — `en.interfax.com.ua` 5, `israeldefense.co.il` 3, `vpk.gov.by` 1, `ee-emergencies-rescue` 1. С бокса — 46 в отдельную таблицу «только для расчёта ИИД-100» (не публикуются). Остальное — вне ключей или сферы (353). Выгрузка 18:18, проверка среза 18:21 — все проверки пройдены. До этого цикл 16:00 вставил 6 материалов с бокса и из Docker (`unian.net` 3, `lrt.lt` 1).
+
+**Очерёдность на боксе.** 8 сайтов GREEN идут в начале каждого прохода (`priority`), остальные 116 — по давности последней попытки.
