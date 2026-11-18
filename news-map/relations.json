@@ -5,8 +5,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 212,
+"evidence_count": 214,
 "evidence": [
+{
+"url": "https://t.me/Belarus_VPO/90285",
+"published_at": "2026-11-18T19:41:54Z",
+"quote": "Кроме того, расчёты БПЛА активно работают по вражеским беспилотникам: обнаруживают и уничтожают дроны ВСУ, очищая небо над участком фронта."
+},
 {
 "url": "https://ria.ru/20261118/dron-2132499814.html",
 "published_at": "2026-11-18T17:20:36Z",
@@ -26,11 +31,6 @@
 "url": "https://tvzvezda.ru/news/202611181711-Zn9Fk.html",
 "published_at": "2026-11-18T14:40:02Z",
 "quote": "Артиллерия группировки «Восток» уничтожила блиндажи и огневые точки ВСУ"
-},
-{
-"url": "https://tvzvezda.ru/news/202611181526-v2hSJ.html",
-"published_at": "2026-11-18T12:29:14Z",
-"quote": "Российские военнослужащие уничтожили укрепленный опорный пункт ВСУ, состоявший из нескольких блиндажей и огневых позиций, на Днепропетровском направлении."
 }
 ],
 "sentiment": {
@@ -280,6 +280,46 @@
 }
 },
 {
+"id": "rel_36dc9b13ddf1a45c",
+"from": "ent_76aae9f116d88191",
+"to": "ent_ff878af017a8077e",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 10,
+"evidence": [
+{
+"url": "https://rg.ru/2026/11/18/portugaliia-otkazalas-peredat-ukraine-dopolnitelnye-istrebiteli-f-16.html",
+"published_at": "2026-11-18T20:07:11Z",
+"quote": "Португалия отказалась передать Украине дополнительные истребители F-16"
+},
+{
+"url": "https://t.me/belta_telegramm/404350",
+"published_at": "2026-11-18T16:33:58Z",
+"quote": "Португалия отказалась передавать Украине истребители F-16"
+},
+{
+"url": "https://topwar.ru/293779-portugalija-snova-otkazala-ukraine-reshiv-ne-peredavat-istrebiteli-f-16.html",
+"published_at": "2026-11-18T16:15:05Z",
+"quote": "Португалия снова отказала Украине, решив не передавать истребители F-16"
+},
+{
+"url": "https://belta.by/world/view/portugalija-otkazalas-peredavat-ukraine-istrebiteli-f-16-811499-2026",
+"published_at": "2026-11-18T16:08:51Z",
+"quote": "Португалия отказалась передавать Украине истребители F-16"
+},
+{
+"url": "https://t.me/newsby_btrc/209938",
+"published_at": "2026-11-18T16:06:01Z",
+"quote": "Португалия отказалась передавать Украине истребители F-16, об этом сообщил министр иностранных дел страны Паулу Ранжел"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_b32b662b140fae74",
 "from": "ent_14d1757585b55c53",
 "to": "ent_76aae9f116d88191",
@@ -311,46 +351,6 @@
 "url": "https://t.me/nm_dnr/16203",
 "published_at": "2026-11-14T07:59:01Z",
 "quote": "📹 Операторы 8 армии уничтожили ПУ БЛА, антенны связи и Starlink ВСУ"
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_36dc9b13ddf1a45c",
-"from": "ent_76aae9f116d88191",
-"to": "ent_ff878af017a8077e",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 9,
-"evidence": [
-{
-"url": "https://t.me/belta_telegramm/404350",
-"published_at": "2026-11-18T16:33:58Z",
-"quote": "Португалия отказалась передавать Украине истребители F-16"
-},
-{
-"url": "https://topwar.ru/293779-portugalija-snova-otkazala-ukraine-reshiv-ne-peredavat-istrebiteli-f-16.html",
-"published_at": "2026-11-18T16:15:05Z",
-"quote": "Португалия снова отказала Украине, решив не передавать истребители F-16"
-},
-{
-"url": "https://belta.by/world/view/portugalija-otkazalas-peredavat-ukraine-istrebiteli-f-16-811499-2026",
-"published_at": "2026-11-18T16:08:51Z",
-"quote": "Португалия отказалась передавать Украине истребители F-16"
-},
-{
-"url": "https://t.me/newsby_btrc/209938",
-"published_at": "2026-11-18T16:06:01Z",
-"quote": "Португалия отказалась передавать Украине истребители F-16, об этом сообщил министр иностранных дел страны Паулу Ранжел"
-},
-{
-"url": "https://kyivpost.com/post/90515",
-"published_at": "2026-11-18T16:00:07Z",
-"quote": "Portugal Rules Out F-16 Transfers to Ukraine, Offers Pilot Training and Aid"
 }
 ],
 "sentiment": {
@@ -4527,6 +4527,31 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_bb8a644d8dc152ef",
+"from": "ent_85a81afee9e48a7e",
+"to": "ent_b677547c4bb180c5",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://t.me/Belarus_VPO/90281",
+"published_at": "2026-11-18T16:51:54Z",
+"quote": "AeroVironment получила заказ в интересах ВС США на 186 млн долл."
+},
+{
+"url": "https://t.me/xronikabpla/10134",
+"published_at": "2026-07-06T20:24:59Z",
+"quote": "Объединённая межведомственная тактическая группа 401 Минобороны США  (JIATF 401) заключила с AeroVironment контракт на поставку средств противодействия БПЛА для нужд национальных вооружённых сил."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
 }
 },
 {
@@ -14227,26 +14252,6 @@
 "score_pm1": -0.5,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_bb8a644d8dc152ef",
-"from": "ent_85a81afee9e48a7e",
-"to": "ent_b677547c4bb180c5",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://t.me/xronikabpla/10134",
-"published_at": "2026-07-06T20:24:59Z",
-"quote": "Объединённая межведомственная тактическая группа 401 Минобороны США  (JIATF 401) заключила с AeroVironment контракт на поставку средств противодействия БПЛА для нужд национальных вооружённых сил."
-}
-],
-"sentiment": {
-"score_pm1": 0.5,
-"score_pm2": 1,
-"label": "умеренно позитивный"
 }
 },
 {
@@ -27307,6 +27312,86 @@
 "score_pm1": 0.3,
 "score_pm2": 1,
 "label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_b5b44ce4517084a3",
+"from": "ent_54a6fa8993794d9e",
+"to": "ent_382bc265ebab3a18",
+"type": "поставка",
+"event_date": "2026-11-13",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/18/new-raf-chinook-first-flight",
+"published_at": "2026-11-18T19:21:33Z",
+"quote": "— Boeing UK (@BoeingUK) November 13, 2026 The final configuration and paint scheme of the aircraft may be adapted before or after delivery to the Royal Air Force, but at present the aircraft carries the distinctive matte black livery favour"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_abb29c95f98a6c7c",
+"from": "ent_54a6fa8993794d9e",
+"to": "ent_92cf2b0152922fbb",
+"type": "поставка",
+"event_date": "2026-11-13",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://theaviationist.com/2026/11/18/new-raf-chinook-first-flight",
+"published_at": "2026-11-18T19:21:33Z",
+"quote": "— Boeing UK (@BoeingUK) November 13, 2026 The final configuration and paint scheme of the aircraft may be adapted before or after delivery to the Royal Air Force, but at present the aircraft carries the distinctive matte black livery favour"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_673c113f4c3111be",
+"from": "ent_d5b517870d653757",
+"to": "ent_bd84f4b50b17b685",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://lenta.ru/news/2026/11/18/mid-belorussii-nazval-prichinu-razmescheniya-oreshnika",
+"published_at": "2026-11-18T20:38:10Z",
+"quote": "МИД Белоруссии назвал причину размещения «Орешника»"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_13270dc3def785e5",
+"from": "ent_5974c1995a8d0de7",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/sbbytoday_by/202118",
+"published_at": "2026-11-18T19:35:46Z",
+"quote": "🔥Армения не собирается присоединяться к НАТО, заявил премьер-министр Никол Пашинян"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 }
 ]

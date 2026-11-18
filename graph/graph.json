@@ -2,14 +2,14 @@
 "meta": {
 "version": "t171u-graph-1",
 "links_version": "t167u-links-2",
-"oi_as_of": "2026-11-18T22:11:49+03:00",
-"built_at": "2026-11-18T22:20:52+03:00",
+"oi_as_of": "2026-11-19T00:34:16+03:00",
+"built_at": "2026-11-19T00:49:13+03:00",
 "copyright": "© 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR",
 "rule": "t167u: связь только при реальной связи (основание с URL); совместные упоминания не включены",
 "counts": {
-"nodes": 2127,
-"edges": 2112,
-"persons": 68,
+"nodes": 2128,
+"edges": 2113,
+"persons": 69,
 "darpa_programs": 779
 }
 },
@@ -1940,7 +1940,7 @@
 "kind": "company",
 "country": "Латвия",
 "src": "реестр",
-"n": 86,
+"n": 85,
 "url": "https://www.sphengineering.com/",
 "role": "ПО для БЛА (UgCS) и интеграция сенсоров (георадар, магнитометр, эхолот и др.) (по сайту компании)",
 "reg": true,
@@ -9336,7 +9336,7 @@
 "url": "",
 "role": "",
 "reg": false,
-"deg": 24
+"deg": 25
 },
 {
 "id": "c:ent_90af3d5c75658635",
@@ -25555,7 +25555,7 @@
 "kind": "person",
 "country": "",
 "src": "контур (персона)",
-"n": 14,
+"n": 15,
 "url": "",
 "role": "",
 "reg": false,
@@ -26308,6 +26308,18 @@
 {
 "id": "person:ent_fc4f7f16cc822050",
 "label": "Alex Fink",
+"kind": "person",
+"country": "",
+"src": "контур (персона)",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 1
+},
+{
+"id": "person:ent_5974c1995a8d0de7",
+"label": "Никол Пашинян",
 "kind": "person",
 "country": "",
 "src": "контур (персона)",
@@ -27682,7 +27694,7 @@
 ]
 },
 {
-"id": "ctr:119",
+"id": "ctr:120",
 "s": "dji",
 "t": "autel",
 "type": "подтверждение",
@@ -27707,7 +27719,7 @@
 ]
 },
 {
-"id": "ctr:135",
+"id": "ctr:136",
 "s": "c:ent_858ba2a76617df8c",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "участие в программе",
@@ -27732,7 +27744,7 @@
 ]
 },
 {
-"id": "ctr:146",
+"id": "ctr:147",
 "s": "dji",
 "t": "c:ent_7af60e51312772aa",
 "type": "контракт",
@@ -27752,7 +27764,7 @@
 ]
 },
 {
-"id": "ctr:150",
+"id": "ctr:151",
 "s": "dji",
 "t": "c:ent_9356a3211e4bbc88",
 "type": "контракт",
@@ -27772,7 +27784,7 @@
 ]
 },
 {
-"id": "ctr:151",
+"id": "ctr:152",
 "s": "c:ent_7af60e51312772aa",
 "t": "c:ent_9356a3211e4bbc88",
 "type": "контракт",
@@ -27792,7 +27804,7 @@
 ]
 },
 {
-"id": "ctr:160",
+"id": "ctr:161",
 "s": "l3harris",
 "t": "leidos",
 "type": "контракт",
@@ -27812,29 +27824,9 @@
 ]
 },
 {
-"id": "ctr:161",
-"s": "l3harris",
-"t": "leonardo",
-"type": "контракт",
-"g": "контур",
-"basis": "цитаты из материалов (контур)",
-"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
-"date": "",
-"n": 1,
-"s2": 1,
-"s1": 0.3,
-"ev": [
-[
-"https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
-"2026-11-11 02:43",
-"” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
-]
-]
-},
-{
 "id": "ctr:162",
 "s": "l3harris",
-"t": "c:ent_d33305be0f474b61",
+"t": "leonardo",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -27854,7 +27846,7 @@
 {
 "id": "ctr:163",
 "s": "l3harris",
-"t": "c:ent_b9f675a508d4b13c",
+"t": "c:ent_d33305be0f474b61",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -27873,8 +27865,8 @@
 },
 {
 "id": "ctr:164",
-"s": "leidos",
-"t": "leonardo",
+"s": "l3harris",
+"t": "c:ent_b9f675a508d4b13c",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -27894,7 +27886,7 @@
 {
 "id": "ctr:165",
 "s": "leidos",
-"t": "c:ent_d33305be0f474b61",
+"t": "leonardo",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -27914,7 +27906,7 @@
 {
 "id": "ctr:166",
 "s": "leidos",
-"t": "c:ent_b9f675a508d4b13c",
+"t": "c:ent_d33305be0f474b61",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -27933,8 +27925,8 @@
 },
 {
 "id": "ctr:167",
-"s": "leonardo",
-"t": "c:ent_d33305be0f474b61",
+"s": "leidos",
+"t": "c:ent_b9f675a508d4b13c",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -27954,7 +27946,7 @@
 {
 "id": "ctr:168",
 "s": "leonardo",
-"t": "c:ent_b9f675a508d4b13c",
+"t": "c:ent_d33305be0f474b61",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -27973,6 +27965,26 @@
 },
 {
 "id": "ctr:169",
+"s": "leonardo",
+"t": "c:ent_b9f675a508d4b13c",
+"type": "контракт",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"date": "",
+"n": 1,
+"s2": 1,
+"s1": 0.3,
+"ev": [
+[
+"https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"2026-11-11 02:43",
+"” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
+]
+]
+},
+{
+"id": "ctr:170",
 "s": "c:ent_d33305be0f474b61",
 "t": "c:ent_b9f675a508d4b13c",
 "type": "контракт",
@@ -27992,7 +28004,7 @@
 ]
 },
 {
-"id": "ctr:173",
+"id": "ctr:174",
 "s": "rtx",
 "t": "kongsberg",
 "type": "принадлежность",
@@ -28012,7 +28024,7 @@
 ]
 },
 {
-"id": "ctr:176",
+"id": "ctr:177",
 "s": "c:ent_cd3c86a3a1af0b40",
 "t": "c:ent_766676b165f94672",
 "type": "принадлежность",
@@ -28032,7 +28044,7 @@
 ]
 },
 {
-"id": "ctr:179",
+"id": "ctr:180",
 "s": "ga-asi",
 "t": "anduril",
 "type": "контракт",
@@ -28052,7 +28064,7 @@
 ]
 },
 {
-"id": "ctr:186",
+"id": "ctr:187",
 "s": "c:ent_f7a9f659b73e4140",
 "t": "shahed",
 "type": "санкции",
@@ -28072,7 +28084,7 @@
 ]
 },
 {
-"id": "ctr:192",
+"id": "ctr:193",
 "s": "c:ent_0c7791d169d924d7",
 "t": "c:ent_ed88ced226e6c399",
 "type": "поставка",
@@ -28092,7 +28104,7 @@
 ]
 },
 {
-"id": "ctr:209",
+"id": "ctr:210",
 "s": "leonardo",
 "t": "baykar",
 "type": "подтверждение",
@@ -28112,7 +28124,7 @@
 ]
 },
 {
-"id": "ctr:210",
+"id": "ctr:211",
 "s": "leonardo",
 "t": "c:ent_d9bfb74312e4d072",
 "type": "подтверждение",
@@ -28132,7 +28144,7 @@
 ]
 },
 {
-"id": "ctr:213",
+"id": "ctr:214",
 "s": "baykar",
 "t": "c:ent_d9bfb74312e4d072",
 "type": "подтверждение",
@@ -28152,7 +28164,7 @@
 ]
 },
 {
-"id": "ctr:221",
+"id": "ctr:222",
 "s": "rtx",
 "t": "c:ent_fa323d4f8a738909",
 "type": "контракт",
@@ -28172,28 +28184,8 @@
 ]
 },
 {
-"id": "ctr:228",
-"s": "boeing",
-"t": "c:ent_9645ce799b9cf1d7",
-"type": "участие в программе",
-"g": "контур",
-"basis": "цитаты из материалов (контур)",
-"url": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program",
-"date": "",
-"n": 1,
-"s2": 0,
-"s1": 0.0,
-"ev": [
-[
-"https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program",
-"2026-10-06 00:51",
-"AeroVironment, Epirus, Kord and Boeing were selected for JIATF-401’s pilot program."
-]
-]
-},
-{
 "id": "ctr:229",
-"s": "aerovironment",
+"s": "boeing",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "участие в программе",
 "g": "контур",
@@ -28213,6 +28205,26 @@
 },
 {
 "id": "ctr:230",
+"s": "aerovironment",
+"t": "c:ent_9645ce799b9cf1d7",
+"type": "участие в программе",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program",
+"date": "",
+"n": 1,
+"s2": 0,
+"s1": 0.0,
+"ev": [
+[
+"https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program",
+"2026-10-06 00:51",
+"AeroVironment, Epirus, Kord and Boeing were selected for JIATF-401’s pilot program."
+]
+]
+},
+{
+"id": "ctr:231",
 "s": "epirus",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "участие в программе",
@@ -28232,7 +28244,7 @@
 ]
 },
 {
-"id": "ctr:240",
+"id": "ctr:241",
 "s": "palantir",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -28252,7 +28264,7 @@
 ]
 },
 {
-"id": "ctr:243",
+"id": "ctr:244",
 "s": "c:ent_89f73c39ec19ab56",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -28272,7 +28284,7 @@
 ]
 },
 {
-"id": "ctr:267",
+"id": "ctr:268",
 "s": "c:ent_ed78412afb1afa65",
 "t": "c:ent_2a8c6aa1b2cdb6ad",
 "type": "принадлежность",
@@ -28292,7 +28304,7 @@
 ]
 },
 {
-"id": "ctr:268",
+"id": "ctr:269",
 "s": "c:ent_ed78412afb1afa65",
 "t": "c:ent_4d325a4683a443c7",
 "type": "контракт",
@@ -28312,7 +28324,7 @@
 ]
 },
 {
-"id": "ctr:274",
+"id": "ctr:275",
 "s": "rtx",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -28332,7 +28344,7 @@
 ]
 },
 {
-"id": "ctr:275",
+"id": "ctr:276",
 "s": "kongsberg",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -28352,7 +28364,7 @@
 ]
 },
 {
-"id": "ctr:293",
+"id": "ctr:294",
 "s": "lockheed",
 "t": "c:ent_3a4f8a243d6bec16",
 "type": "контракт",
@@ -28372,7 +28384,7 @@
 ]
 },
 {
-"id": "ctr:295",
+"id": "ctr:296",
 "s": "boeing",
 "t": "c:ent_c9797c9635450715",
 "type": "контракт",
@@ -28392,7 +28404,7 @@
 ]
 },
 {
-"id": "ctr:304",
+"id": "ctr:305",
 "s": "lockheed",
 "t": "c:ent_7902a5283b8ea891",
 "type": "контракт",
@@ -28412,7 +28424,7 @@
 ]
 },
 {
-"id": "ctr:331",
+"id": "ctr:332",
 "s": "northrop",
 "t": "c:ent_7902a5283b8ea891",
 "type": "подтверждение",
@@ -28432,7 +28444,7 @@
 ]
 },
 {
-"id": "ctr:349",
+"id": "ctr:350",
 "s": "leidos",
 "t": "bae",
 "type": "контракт",
@@ -28452,7 +28464,7 @@
 ]
 },
 {
-"id": "ctr:362",
+"id": "ctr:363",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_470885ea93d65177",
 "type": "контракт",
@@ -28472,7 +28484,7 @@
 ]
 },
 {
-"id": "ctr:374",
+"id": "ctr:375",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "контракт",
@@ -28492,7 +28504,7 @@
 ]
 },
 {
-"id": "ctr:385",
+"id": "ctr:386",
 "s": "c:ent_ed88ced226e6c399",
 "t": "c:ent_7af60e51312772aa",
 "type": "подтверждение",
@@ -28512,7 +28524,7 @@
 ]
 },
 {
-"id": "ctr:390",
+"id": "ctr:391",
 "s": "c:ent_cd3c86a3a1af0b40",
 "t": "c:ent_819600c55241241c",
 "type": "принадлежность",
@@ -28532,7 +28544,7 @@
 ]
 },
 {
-"id": "ctr:394",
+"id": "ctr:395",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_8badfe3d72e8864a",
 "type": "контракт",
@@ -28552,7 +28564,7 @@
 ]
 },
 {
-"id": "ctr:396",
+"id": "ctr:397",
 "s": "teledyne-flir",
 "t": "c:ent_2abb6a5383b94ad4",
 "type": "принадлежность",
@@ -28572,7 +28584,7 @@
 ]
 },
 {
-"id": "ctr:403",
+"id": "ctr:404",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_7902a5283b8ea891",
 "type": "контракт",
@@ -28592,7 +28604,7 @@
 ]
 },
 {
-"id": "ctr:417",
+"id": "ctr:418",
 "s": "brave1",
 "t": "c:ent_03a53622e9dcb143",
 "type": "контракт",
@@ -28612,7 +28624,7 @@
 ]
 },
 {
-"id": "ctr:425",
+"id": "ctr:426",
 "s": "kratos",
 "t": "c:ent_36bf4065a839253e",
 "type": "контракт",
@@ -51940,6 +51952,26 @@
 "https://israeldefense.co.il/en/node/72972",
 "2026-11-18 00:00",
 "Alex Fink, president of Swarmer and CEO of its U."
+]
+]
+},
+{
+"id": "per:rel_13270dc3def785e5",
+"s": "person:ent_5974c1995a8d0de7",
+"t": "c:ent_cd3c86a3a1af0b40",
+"type": "должность",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://t.me/sbbytoday_by/202118",
+"date": "",
+"n": 1,
+"s2": 0,
+"s1": 0.0,
+"ev": [
+[
+"https://t.me/sbbytoday_by/202118",
+"2026-11-18 19:35",
+"🔥Армения не собирается присоединяться к НАТО, заявил премьер-министр Никол Пашинян"
 ]
 ]
 }
