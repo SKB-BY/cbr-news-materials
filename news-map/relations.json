@@ -5,12 +5,22 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 204,
+"evidence_count": 206,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611181711-Zn9Fk.html",
+"published_at": "2026-11-18T14:40:02Z",
+"quote": "Артиллерия группировки «Восток» уничтожила блиндажи и огневые точки ВСУ"
+},
 {
 "url": "https://tvzvezda.ru/news/202611181526-v2hSJ.html",
 "published_at": "2026-11-18T12:29:14Z",
 "quote": "Российские военнослужащие уничтожили укрепленный опорный пункт ВСУ, состоявший из нескольких блиндажей и огневых позиций, на Днепропетровском направлении."
+},
+{
+"url": "https://unian.net/war/vsu-nanesli-udar-po-mostu-cherez-severskiy-donec-i-povredili-tri-rossiyskih-samoleta-13563708.html",
+"published_at": "2026-11-18T12:02:00Z",
+"quote": "Три самолета и мост через Северский Донец: Генштаб сообщил о новых ударах ВСУ по врагу"
 },
 {
 "url": "https://tvzvezda.ru/news/202611181441-hWkVY.html",
@@ -21,16 +31,6 @@
 "url": "https://tvzvezda.ru/news/202611181350-tplUI.html",
 "published_at": "2026-11-18T10:54:14Z",
 "quote": "Российские перехватчики сбили дроны ВСУ на Краснолиманском направлении"
-},
-{
-"url": "https://belvpo.com/ekzistenczialnyj-vopros",
-"published_at": "2026-11-18T10:14:52Z",
-"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
-},
-{
-"url": "https://tvzvezda.ru/news/202611181252-WUyzT.html",
-"published_at": "2026-11-18T10:07:44Z",
-"quote": "Российские дроны уничтожили HMMWV и автомобили ВСУ в Сумской области"
 }
 ],
 "sentiment": {
@@ -165,8 +165,13 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 19,
+"evidence_count": 20,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611181711-Zn9Fk.html",
+"published_at": "2026-11-18T14:40:02Z",
+"quote": "По данным Минобороны России, расчеты 152-миллиметровых гаубиц «Мста-Б» уничтожили несколько опорных пунктов вместе с находившимися там украинскими военнослужащими."
+},
 {
 "url": "https://tvzvezda.ru/news/20261118143-B56cs.html",
 "published_at": "2026-11-18T12:49:05Z",
@@ -186,11 +191,6 @@
 "url": "https://tvzvezda.ru/news/202611171746-Nx5he.html",
 "published_at": "2026-11-17T15:04:37Z",
 "quote": "Минобороны России сообщило об уничтожении украинских пунктов управления беспилотными летательными аппаратами в зоне проведения специальной военной операции."
-},
-{
-"url": "https://eadaily.com/ru/news/2026/11/17/pererezayut-suhoputnyy-koridor-v-krym-drony-vsu-udarili-po-mostu-na-trasse-r-280",
-"published_at": "2026-11-17T11:46:00Z",
-"quote": "Освободили Заливное и сбили 9 ракет «Фламинго»: сводка Минобороны России"
 }
 ],
 "sentiment": {
@@ -520,6 +520,46 @@
 }
 },
 {
+"id": "rel_5be9d4c568aaef6c",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_a22db82c40874406",
+"type": "применение",
+"event_date": null,
+"evidence_count": 7,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611181711-Zn9Fk.html",
+"published_at": "2026-11-18T14:40:02Z",
+"quote": "Артиллеристы группировки войск «Восток» нанесли удары по укрепленным позициям ВСУ в Запорожской области."
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6%d0%b8-%d1%82%d0%b0%d0%bd%d0%ba%d0%be%d0%b2-%d1%82-90%d0%bc-%d0%bf%d1%80%d0%be%d1%80%d1%8b%d0%b2-%d0%b3%d1%80%d1%83%d0%bf%d0%bf%d0%b8%d1%80%d0%be%d0%b2",
+"published_at": "2026-11-17T08:28:08Z",
+"quote": "ЭКИПАЖИ ТАНКОВ Т-90М «ПРОРЫВ» ГРУППИРОВКИ ВОЙСК «ВОСТОК» УНИЧТОЖИЛИ ПЕРЕДОВЫЕ ПОЗИЦИИ ВСУ В ЗАПОРОЖСКОЙ ОБЛАСТИ"
+},
+{
+"url": "https://tvzvezda.ru/news/202611171037-cwod8.html",
+"published_at": "2026-11-17T07:54:13Z",
+"quote": "Минобороны России сообщило об уничтожении передовых позиций ВСУ в Запорожской области."
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28324239",
+"published_at": "2026-11-17T02:01:11Z",
+"quote": "Танки Т-90М \"Прорыв\" уничтожили передовые позиции ВСУ в Запорожской области"
+},
+{
+"url": "https://ria.ru/20261116/spetsoperatsiya-2131762888.html",
+"published_at": "2026-11-16T02:10:14Z",
+"quote": "ВС России уничтожили пункты управления БПЛА ВСУ в Запорожской области"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_96cf90f7abd2f7ff",
 "from": "ent_14d1757585b55c53",
 "to": "ent_28fea1c77915c37a",
@@ -795,46 +835,6 @@
 ],
 "sentiment": {
 "score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_5be9d4c568aaef6c",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_a22db82c40874406",
-"type": "применение",
-"event_date": null,
-"evidence_count": 6,
-"evidence": [
-{
-"url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6%d0%b8-%d1%82%d0%b0%d0%bd%d0%ba%d0%be%d0%b2-%d1%82-90%d0%bc-%d0%bf%d1%80%d0%be%d1%80%d1%8b%d0%b2-%d0%b3%d1%80%d1%83%d0%bf%d0%bf%d0%b8%d1%80%d0%be%d0%b2",
-"published_at": "2026-11-17T08:28:08Z",
-"quote": "ЭКИПАЖИ ТАНКОВ Т-90М «ПРОРЫВ» ГРУППИРОВКИ ВОЙСК «ВОСТОК» УНИЧТОЖИЛИ ПЕРЕДОВЫЕ ПОЗИЦИИ ВСУ В ЗАПОРОЖСКОЙ ОБЛАСТИ"
-},
-{
-"url": "https://tvzvezda.ru/news/202611171037-cwod8.html",
-"published_at": "2026-11-17T07:54:13Z",
-"quote": "Минобороны России сообщило об уничтожении передовых позиций ВСУ в Запорожской области."
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28324239",
-"published_at": "2026-11-17T02:01:11Z",
-"quote": "Танки Т-90М \"Прорыв\" уничтожили передовые позиции ВСУ в Запорожской области"
-},
-{
-"url": "https://ria.ru/20261116/spetsoperatsiya-2131762888.html",
-"published_at": "2026-11-16T02:10:14Z",
-"quote": "ВС России уничтожили пункты управления БПЛА ВСУ в Запорожской области"
-},
-{
-"url": "https://t.me/mod_russia/69043",
-"published_at": "2026-11-15T15:13:54Z",
-"quote": "💥 В результате удара поражен логистический центр в городе Запорожье, используемый ВСУ для хранения военных грузов и грузов двойного назначения."
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -1350,6 +1350,41 @@
 }
 },
 {
+"id": "rel_92960be3fd9513cb",
+"from": "ent_d2e22355d8368901",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "должность",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/uk-to-send-ukraine-more-than-a-thousand-air-defence-missiles",
+"published_at": "2026-11-18T12:00:39Z",
+"quote": "Wes Streeting, the Defence Secretary, announced the package as he co-chaired the 37th meeting of the Ukraine Defence Contact Group at NATO Headquarters in Brussels with German Defence Minister Boris Pistorius."
+},
+{
+"url": "https://unmannedairspace.info/latest-news-and-information/uk-to-supply-ukraine-with-more-than-1000-air-defence-missiles-to-counter-russian-drones",
+"published_at": "2026-11-18T11:18:32Z",
+"quote": "UK Defence Secretary Wes Streeting announced the package while co-chairing the 37th meeting of the Ukraine Defence Contact Group at NATO headquarters in Brussels."
+},
+{
+"url": "https://dprte.co.uk/2026/11/18/army-orders-hundreds-more-drones-and-electronic-warfare-systems-in-25-million-upgrade",
+"published_at": "2026-11-18T09:04:00Z",
+"quote": "The Defence Secretary Wes Streeting MP stated that the investment would “increase our deterrence on NATO’s front line, with our troops in Estonia being kitted out with the latest drones and capabilities."
+},
+{
+"url": "https://defence-industry.eu/royal-navy-says-its-first-autonomous-squadron-will-deploy-uncrewed-boats-alongside-warships",
+"published_at": "2026-11-09T09:00:37Z",
+"quote": "” Defence Secretary Wes Streeting said the investment would put autonomous technology in sailors’ hands to help protect Britain and its NATO allies."
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_e8e6e2acf2c100a2",
 "from": "ent_b0bba4c8f275ffd0",
 "to": "ent_b677547c4bb180c5",
@@ -1790,36 +1825,6 @@
 }
 },
 {
-"id": "rel_92960be3fd9513cb",
-"from": "ent_d2e22355d8368901",
-"to": "ent_cd3c86a3a1af0b40",
-"type": "должность",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://ukdefencejournal.org.uk/uk-to-send-ukraine-more-than-a-thousand-air-defence-missiles",
-"published_at": "2026-11-18T12:00:39Z",
-"quote": "Wes Streeting, the Defence Secretary, announced the package as he co-chaired the 37th meeting of the Ukraine Defence Contact Group at NATO Headquarters in Brussels with German Defence Minister Boris Pistorius."
-},
-{
-"url": "https://unmannedairspace.info/latest-news-and-information/uk-to-supply-ukraine-with-more-than-1000-air-defence-missiles-to-counter-russian-drones",
-"published_at": "2026-11-18T11:18:32Z",
-"quote": "UK Defence Secretary Wes Streeting announced the package while co-chairing the 37th meeting of the Ukraine Defence Contact Group at NATO headquarters in Brussels."
-},
-{
-"url": "https://defence-industry.eu/royal-navy-says-its-first-autonomous-squadron-will-deploy-uncrewed-boats-alongside-warships",
-"published_at": "2026-11-09T09:00:37Z",
-"quote": "” Defence Secretary Wes Streeting said the investment would put autonomous technology in sailors’ hands to help protect Britain and its NATO allies."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_b89c6656a257979e",
 "from": "ent_15f8eb5484169610",
 "to": "ent_85a81afee9e48a7e",
@@ -2030,6 +2035,36 @@
 }
 },
 {
+"id": "rel_5832e273e6c238ea",
+"from": "ent_4cd59525919863d6",
+"to": "ent_b0bba4c8f275ffd0",
+"type": "должность",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/french-fabric-bottleneck-patriot-missile-production-wsj",
+"published_at": "2026-11-18T12:48:41Z",
+"quote": "Defense Secretary Pete Hegseth at the PAC‑3 seeker factory in Huntsville, Alabama (Credit: Boeing) The Pentagon wants to increase PAC-3 MSE output as quickly as possible after months of heavy interceptor consumption and growing demand from "
+},
+{
+"url": "https://dronexl.co/2026/11/16/us-five-year-nonbinding-autonomous-weapons-geneva",
+"published_at": "2026-11-16T22:09:00Z",
+"quote": "In June, President Trump gave the Pentagon 90 days to rewrite its own autonomous weapons directive, and in September Defense Secretary Pete Hegseth ordered a <a href=\"https://dronexl."
+},
+{
+"url": "https://c4isrnet.com/battlefield-tech/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says",
+"published_at": "2026-10-14T22:06:56Z",
+"quote": "Defense Secretary Pete Hegseth addressed AUSA attendees at the Project Agincourt panel on Wednesday, sharing that the Pentagon is requesting roughly $50 billion in reconciliation funding to support the push to scale autonomous and robotic s"
+}
+],
+"sentiment": {
+"score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
 "id": "rel_3d12f6183620f8b4",
 "from": "ent_ebcab0b315957eba",
 "to": "ent_868a15ba4aeb446a",
@@ -2141,6 +2176,36 @@
 "url": "https://t.me/uav_tech/36905",
 "published_at": "2026-08-17T16:44:30Z",
 "quote": "Сейчас ВСУ активно используют американские БПЛА Hornet, Турция собирается передать незалежной 100 тыс."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_36dc9b13ddf1a45c",
+"from": "ent_76aae9f116d88191",
+"to": "ent_ff878af017a8077e",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://pravda.com.ua/eng/news/2026/11/18/8063455",
+"published_at": "2026-11-18T13:17:00Z",
+"quote": "Portugal refuses to transfer F-16 fighter jets to Ukraine, but will assist with pilot training"
+},
+{
+"url": "https://tass.ru/mezhdunarodnaya-panorama/28317771",
+"published_at": "2026-11-14T09:48:10Z",
+"quote": "Зеленский: переданные Украине F-16 постоянно находятся в ремонте"
+},
+{
+"url": "https://theaviationist.com/2026/11/12/ukraine-eyes-up-to-16-l-39ng-skyfox-trainers",
+"published_at": "2026-11-12T22:08:40Z",
+"quote": "However, should the latter be delivered, it would provide Ukraine with an aircraft capable of intercepting slower attack without having to commit frontline fighters such as the F-16."
 }
 ],
 "sentiment": {
@@ -3255,31 +3320,6 @@
 }
 },
 {
-"id": "rel_5832e273e6c238ea",
-"from": "ent_4cd59525919863d6",
-"to": "ent_b0bba4c8f275ffd0",
-"type": "должность",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://dronexl.co/2026/11/16/us-five-year-nonbinding-autonomous-weapons-geneva",
-"published_at": "2026-11-16T22:09:00Z",
-"quote": "In June, President Trump gave the Pentagon 90 days to rewrite its own autonomous weapons directive, and in September Defense Secretary Pete Hegseth ordered a <a href=\"https://dronexl."
-},
-{
-"url": "https://c4isrnet.com/battlefield-tech/2026/10/14/pentagon-needs-50b-for-mass-drone-production-hegseth-says",
-"published_at": "2026-10-14T22:06:56Z",
-"quote": "Defense Secretary Pete Hegseth addressed AUSA attendees at the Project Agincourt panel on Wednesday, sharing that the Pentagon is requesting roughly $50 billion in reconciliation funding to support the push to scale autonomous and robotic s"
-}
-],
-"sentiment": {
-"score_pm1": 0.1,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_f9d262e55cd0b860",
 "from": "ent_cc536968c15118bb",
 "to": "ent_801f9ef8848ff36b",
@@ -3527,31 +3567,6 @@
 "score_pm1": 0.4,
 "score_pm2": 1,
 "label": "умеренно позитивный"
-}
-},
-{
-"id": "rel_36dc9b13ddf1a45c",
-"from": "ent_76aae9f116d88191",
-"to": "ent_ff878af017a8077e",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://tass.ru/mezhdunarodnaya-panorama/28317771",
-"published_at": "2026-11-14T09:48:10Z",
-"quote": "Зеленский: переданные Украине F-16 постоянно находятся в ремонте"
-},
-{
-"url": "https://theaviationist.com/2026/11/12/ukraine-eyes-up-to-16-l-39ng-skyfox-trainers",
-"published_at": "2026-11-12T22:08:40Z",
-"quote": "However, should the latter be delivered, it would provide Ukraine with an aircraft capable of intercepting slower attack without having to commit frontline fighters such as the F-16."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -4630,6 +4645,31 @@
 }
 },
 {
+"id": "rel_013b420cf019dfc7",
+"from": "ent_cc536968c15118bb",
+"to": "ent_7c4278bb1c2365e3",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://c4defence.com/en/f-35-simulator-fa-18-joint-training",
+"published_at": "2026-11-18T14:44:26Z",
+"quote": "Highlighting the importance of connecting live aircraft, high-fidelity simulators, and virtual adversaries, Ken Garrett, Lockheed Martin’s Vice President of F-35 Training and Logistics, stated that this integration contributes to creating m"
+},
+{
+"url": "https://t.me/news_UAV/5161",
+"published_at": "2026-05-28T04:05:12Z",
+"quote": "Компания General Atomics Aeronautical Systems, Объединенный программный офис F-35, 309-я группа разработки программного обеспечения, 461-я летно-испытательная эскадрилья, 370-я летно-испытательная эскадрилья, Lockheed Martin и Autonodyne не"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_b086ccc7ca692918",
 "from": "ent_fa323d4f8a738909",
 "to": "ent_1441a3cab717dab5",
@@ -5552,6 +5592,31 @@
 "score_pm1": 0.2,
 "score_pm2": 1,
 "label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_c08c6761dca5b5fa",
+"from": "ent_a02f859093a4e63a",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72956",
+"published_at": "2026-11-18T00:00:00Z",
+"quote": "The Ukrainian General Staff and the Security Service of Ukraine (SBU) collaborated closely throughout the prolonged preparations, planning, and intelligence collection, coordinating thoroughly to ensure the success of the complex strike."
+},
+{
+"url": "https://pravda.com.ua/eng/news/2026/11/17/8063357",
+"published_at": "2026-11-17T21:27:00Z",
+"quote": "It involved Rocket Fo rces, elite drone operators from the 7th Deep Strike Centre, known as Magyar's Birds, the 1st Separate Centre of Unmanned Systems, the Security Service of Ukraine, the Ukrainian Navy and units from the Special Operatio"
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -15251,26 +15316,6 @@
 "url": "https://t.me/news_UAV/5161",
 "published_at": "2026-05-28T04:05:12Z",
 "quote": "F-35 управляет дроном General Atomics в ходе испытаний на автономность CCA Компания General Atomics Aeronautical Systems, Объединенный программный офис F-35, 309-я группа разработки программного обеспечения, 461-я летно-испытательная эскадр"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_013b420cf019dfc7",
-"from": "ent_cc536968c15118bb",
-"to": "ent_7c4278bb1c2365e3",
-"type": "испытание",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://t.me/news_UAV/5161",
-"published_at": "2026-05-28T04:05:12Z",
-"quote": "Компания General Atomics Aeronautical Systems, Объединенный программный офис F-35, 309-я группа разработки программного обеспечения, 461-я летно-испытательная эскадрилья, 370-я летно-испытательная эскадрилья, Lockheed Martin и Autonodyne не"
 }
 ],
 "sentiment": {
@@ -25560,26 +25605,6 @@
 }
 },
 {
-"id": "rel_c08c6761dca5b5fa",
-"from": "ent_a02f859093a4e63a",
-"to": "ent_76aae9f116d88191",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://pravda.com.ua/eng/news/2026/11/17/8063357",
-"published_at": "2026-11-17T21:27:00Z",
-"quote": "It involved Rocket Fo rces, elite drone operators from the 7th Deep Strike Centre, known as Magyar's Birds, the 1st Separate Centre of Unmanned Systems, the Security Service of Ukraine, the Ukrainian Navy and units from the Special Operatio"
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_191d0f16f9b15729",
 "from": "ent_76aae9f116d88191",
 "to": "ent_2ea283e971c4fe16",
@@ -26277,6 +26302,546 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_261085bcdee82939",
+"from": "ent_2cb07d7590c83651",
+"to": "ent_c6093f8bc53a576b",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/nato-counter-drone-marketplace-offers-24-hour-contracts",
+"published_at": "2026-11-18T14:15:56Z",
+"quote": "” NATO responded by setting up DIANA, the Defence Innovation Accelerator for the North Atlantic, to help dual-use firms enter the defence market, and 24 allies then created the NATO Innovation Fund to back companies that might not win a con"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_0159d153bd693e18",
+"from": "ent_2cb07d7590c83651",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/nato-counter-drone-marketplace-offers-24-hour-contracts",
+"published_at": "2026-11-18T14:15:56Z",
+"quote": "” NATO responded by setting up DIANA, the Defence Innovation Accelerator for the North Atlantic, to help dual-use firms enter the defence market, and 24 allies then created the NATO Innovation Fund to back companies that might not win a con"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_d8affa7f2e084355",
+"from": "ent_2cb07d7590c83651",
+"to": "ent_8190100893b6fa8b",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/nato-counter-drone-marketplace-offers-24-hour-contracts",
+"published_at": "2026-11-18T14:15:56Z",
+"quote": "” NATO responded by setting up DIANA, the Defence Innovation Accelerator for the North Atlantic, to help dual-use firms enter the defence market, and 24 allies then created the NATO Innovation Fund to back companies that might not win a con"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_8ce4cd17b5f56b62",
+"from": "ent_c6093f8bc53a576b",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/nato-counter-drone-marketplace-offers-24-hour-contracts",
+"published_at": "2026-11-18T14:15:56Z",
+"quote": "” NATO responded by setting up DIANA, the Defence Innovation Accelerator for the North Atlantic, to help dual-use firms enter the defence market, and 24 allies then created the NATO Innovation Fund to back companies that might not win a con"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_8ea832b8e2f23c23",
+"from": "ent_c6093f8bc53a576b",
+"to": "ent_8190100893b6fa8b",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/nato-counter-drone-marketplace-offers-24-hour-contracts",
+"published_at": "2026-11-18T14:15:56Z",
+"quote": "” NATO responded by setting up DIANA, the Defence Innovation Accelerator for the North Atlantic, to help dual-use firms enter the defence market, and 24 allies then created the NATO Innovation Fund to back companies that might not win a con"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_b985227aac2f6ee5",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_8190100893b6fa8b",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/nato-counter-drone-marketplace-offers-24-hour-contracts",
+"published_at": "2026-11-18T14:15:56Z",
+"quote": "” NATO responded by setting up DIANA, the Defence Innovation Accelerator for the North Atlantic, to help dual-use firms enter the defence market, and 24 allies then created the NATO Innovation Fund to back companies that might not win a con"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_864800eead95a06f",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_fb9d115f2c2a9a7b",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/nato-counter-drone-marketplace-offers-24-hour-contracts",
+"published_at": "2026-11-18T14:15:56Z",
+"quote": "The post NATO counter-drone marketplace offers 24-hour contracts first appeared on UK Defence Journal ."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_8e690fab707670f2",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_86a408b5b14fa5a6",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/french-fabric-bottleneck-patriot-missile-production-wsj",
+"published_at": "2026-11-18T12:48:41Z",
+"quote": "A little-known French-made fabric has become a potential stumbling block in the Pentagon’s plans to ramp up Patriot missile production, according to an investigation by the Wall Street Journal ."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_41cddc05adb184ea",
+"from": "ent_62d384bf1ab7b5bf",
+"to": "ent_86a408b5b14fa5a6",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/french-fabric-bottleneck-patriot-missile-production-wsj",
+"published_at": "2026-11-18T12:48:41Z",
+"quote": "The material, known as Raycarb C2B, is a carbonized rayon fabric used in the rocket motor of the PAC-3 Missile Segment Enhancement (MSE) interceptor."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6db303a68ec77e46",
+"from": "ent_a6df7175414b7cd4",
+"to": "ent_23beb5469f7e95d7",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/french-fabric-bottleneck-patriot-missile-production-wsj",
+"published_at": "2026-11-18T12:48:41Z",
+"quote": "How French rocket technology became critical to US missiles ArianeGroup’s manufacturing facility in Le Haillan, near Bordeaux, produces rocket motor nozzles for European launchers, including Ariane 6."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_9bb5508715f0f169",
+"from": "ent_c9797c9635450715",
+"to": "ent_62d384bf1ab7b5bf",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/french-fabric-bottleneck-patriot-missile-production-wsj",
+"published_at": "2026-11-18T12:48:41Z",
+"quote": "According to Park Aerospace’s product documentation, Raycarb C2B has also been used in the US Navy’s Standard Missile-3 (SM-3), an interceptor designed to destroy ballistic missiles outside the atmosphere."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_11accb444e37b1bb",
+"from": "ent_c9797c9635450715",
+"to": "ent_41c57708cc93a040",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/french-fabric-bottleneck-patriot-missile-production-wsj",
+"published_at": "2026-11-18T12:48:41Z",
+"quote": "According to Park Aerospace’s product documentation, Raycarb C2B has also been used in the US Navy’s Standard Missile-3 (SM-3), an interceptor designed to destroy ballistic missiles outside the atmosphere."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_64e83f4ff60c4313",
+"from": "ent_bbf58dbdc2bf7219",
+"to": "ent_62d384bf1ab7b5bf",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/french-fabric-bottleneck-patriot-missile-production-wsj",
+"published_at": "2026-11-18T12:48:41Z",
+"quote": "According to Park Aerospace’s product documentation, Raycarb C2B has also been used in the US Navy’s Standard Missile-3 (SM-3), an interceptor designed to destroy ballistic missiles outside the atmosphere."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_98e17e047bca350a",
+"from": "ent_bbf58dbdc2bf7219",
+"to": "ent_41c57708cc93a040",
+"type": "разработка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/french-fabric-bottleneck-patriot-missile-production-wsj",
+"published_at": "2026-11-18T12:48:41Z",
+"quote": "According to Park Aerospace’s product documentation, Raycarb C2B has also been used in the US Navy’s Standard Missile-3 (SM-3), an interceptor designed to destroy ballistic missiles outside the atmosphere."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_0e242ac497533e67",
+"from": "ent_a6df7175414b7cd4",
+"to": "ent_86a408b5b14fa5a6",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/french-fabric-bottleneck-patriot-missile-production-wsj",
+"published_at": "2026-11-18T12:48:41Z",
+"quote": "That will not be enough, according to Shore, who warned during Park’s October earnings call that the French expansion alone could not support the planned increase in PAC-3 MSE production to 2,000 missiles a year."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_a7c95b50a54b1767",
+"from": "ent_4cd59525919863d6",
+"to": "ent_54a6fa8993794d9e",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/french-fabric-bottleneck-patriot-missile-production-wsj",
+"published_at": "2026-11-18T12:48:41Z",
+"quote": "Defense Secretary Pete Hegseth at the PAC‑3 seeker factory in Huntsville, Alabama (Credit: Boeing) The Pentagon wants to increase PAC-3 MSE output as quickly as possible after months of heavy interceptor consumption and growing demand from "
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_4db7f8d608e7d9ee",
+"from": "ent_cc536968c15118bb",
+"to": "ent_fa323d4f8a738909",
+"type": "контракт",
+"event_date": "2026-07-29",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://aerotime.aero/articles/french-fabric-bottleneck-patriot-missile-production-wsj",
+"published_at": "2026-11-18T12:48:41Z",
+"quote": "On July 29, 2026, the US Army awarded Lockheed Martin a seven-year undefinitized contract modification worth $53."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_0696c36dbed4214c",
+"from": "ent_340314be7304a427",
+"to": "ent_e7e61f26b8fd6566",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/milinfolive/183275",
+"published_at": "2026-11-16T20:51:36Z",
+"quote": "Момент удара украинского дрона-камикадзе по истребителю МиГ-29 на территории аэродрома Бельбек в Крыму."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_a9168a0142ff4c5d",
+"from": "ent_28fea1c77915c37a",
+"to": "ent_a09662c0e1885a5c",
+"type": "санкции",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/rybar/84770",
+"published_at": "2026-11-18T14:32:58Z",
+"quote": "Сегодня в МИД послу РФ Олегу Озерову вручили ноту протеста, а президент Майя Санду мгновенно назвала БЛА «российскими» и пообещала добиваться новых антироссийских санкций."
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный"
+}
+},
+{
+"id": "rel_2bc581cfd42f04f0",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_4bac84856123c79a",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/newsby_btrc/209928",
+"published_at": "2026-11-18T13:09:01Z",
+"quote": "Пентагон запустил баллистическую ракету Minuteman III Командование глобальных ударов ВВС США отчиталось об испытательном пуске межконтинентальной баллистической ракеты Minuteman III."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_f459f435c5419d96",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_4bac84856123c79a",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/newsby_btrc/209928",
+"published_at": "2026-11-18T13:09:01Z",
+"quote": "Пентагон запустил баллистическую ракету Minuteman III Командование глобальных ударов ВВС США отчиталось об испытательном пуске межконтинентальной баллистической ракеты Minuteman III."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_1e3fd056b43fa7d7",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_4bac84856123c79a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/newsby_btrc/209928",
+"published_at": "2026-11-18T13:09:01Z",
+"quote": "Командование глобальных ударов ВВС США отчиталось об испытательном пуске межконтинентальной баллистической ракеты Minuteman III."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_9f760cd6962f1488",
+"from": "ent_37889e4a6168ddd9",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://pravda.com.ua/eng/news/2026/11/18/8063455",
+"published_at": "2026-11-18T13:17:00Z",
+"quote": "Politico reported that the Portuguese foreign ministry sharply criticised NATO Secretary General Mark Rutte after he said that Lisbon views the threat from Russia as distant and not particularly significant."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_f598e5e67a5231ea",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_9e51a7ee6340af7b",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://forsvaret.dk/da/nyheder/2026/kampbataljonen-uddanner-sig-i-bekampelse-af-droner",
+"published_at": "2026-11-18T00:00:00Z",
+"quote": "Den danske kampbataljon i Letland har i den seneste uge deltaget i øvelsen Resolute Reforger, hvor NATOs Multinational Brigade Latvia har trænet deployering af militære enheder."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_487fb830b5193111",
+"from": "ent_e50e9b8e1c289c1d",
+"to": "ent_461f895cd3ecdc32",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72964",
+"published_at": "2026-11-18T00:00:00Z",
+"quote": "Elbit to Supply German Military with Artillery Fire-Finding Systems"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_66197f7350589d7e",
+"from": "ent_3464f349579b9835",
+"to": "ent_461f895cd3ecdc32",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72964",
+"published_at": "2026-11-18T00:00:00Z",
+"quote": "Elbit to Supply German Military with Artillery Fire-Finding Systems"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_b4bf8565a5b7ce66",
+"from": "ent_e50e9b8e1c289c1d",
+"to": "ent_3464f349579b9835",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72964",
+"published_at": "2026-11-18T00:00:00Z",
+"quote": "sharing Elbit to Supply German Military with Artillery Fire-Finding Systems The German subsidiary was selected to deliver passive localization systems, with the contract value and specific product kept classified for security reasons."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
 }
 }
 ]
