@@ -1,12 +1,12 @@
 # Упомянуто в новостях, но отсутствует в реестре — рабочий список
 
-Построен по живой базе на 18.11.2026 03:46 Europe/Minsk.
+Построен по живой базе на 18.11.2026 04:16 Europe/Minsk.
 
 Рабочий список кандидатов, **не проверенная перепись**. Названия извлечены регулярными выражениями из заголовков и вводных абзацев новостей и сравнены с реестром `companies.csv` (названия, псевдонимы, шаблоны упоминаний). Среди кандидатов есть ложные срабатывания (продукты, ведомства, общие слова). В реестр ничего автоматически не добавляется: строка вносится только после открытия официального сайта и источника.
 
 Российские компании в реестр не вносятся (решение 11.11.2026: «Удали все российские компании»); российские названия в этом списке — только упоминания в ленте, не кандидаты в реестр.
 
-Порог: кандидат встретился минимум в 2 материалах. Кандидатов: 119.
+Порог: кандидат встретился минимум в 2 материалах. Кандидатов: 120.
 
 | Кандидат | Материалов | Примеры (ссылки) |
 |---|---:|---|
@@ -117,6 +117,7 @@
 | Sustainment LLC | 2 | [🇺🇸🔓США пытаются повысить защиту от дронов сухопутных войск](https://t.me/uav_tech/36874); [🇺🇸🔓США пытаются повысить защиту от дронов сухопутных войск](https://t.me/germesfpv/2945) |
 | Texas Tech | 2 | [U.S. Department of War picks Nokia Federal to test how 5G and 6G can detect and track drones](https://defence-industry.eu/u-s-department-of-war-picks-nokia-federal-to-test-how-5g-and-6g-can-detect-and-track-drones); [Nokia Federal to support US 5G/6G drone detection project](https://unmannedairspace.info/counter-uas-systems-and-policies/nokia-federal-to-support-us-5g-6g-drone-detection-project) |
 | Uncrewed Vehicle Systems | 2 | [Brett Feddersen to lead AUVSI](https://unmannedairspace.info/latest-news-and-information/brett-feddersen-to-lead-auvsi); [AUVSI Hands CEO Job To Counter-Drone Executive Brett Feddersen](https://dronexl.co/2026/11/10/auvsi-brett-feddersen-ceo-d-fend-counter-drone) |
+| United Aircraft Corporation | 2 | [Russia gets third batch of new Su-34 bombers this year](https://defence-blog.com/russia-gets-third-batch-of-new-su-34-bombers-this-year); [Yak-130M aircraft could be vessel for loitering munitions - RUSSIAN AVIATION](https://ruaviation.com/news/2026/9/28/20861) |
 | Unitree Robotics | 2 | [🤖 Китай представил робота-телохранителя: UNITREE H2-X!](https://t.me/bpla_drone/1667); [Китай притормаживает выход роботов на биржу](https://t.me/news_UAV/5756) |
 | UVL Robotics | 2 | [🇷🇺 Ритейл. Склады. Беспилотники и инвентаризация. Россия](https://t.me/proUAV/1967); [Дроны в российском ритейле: как беспилотники меняют складскую инвентаризацию](https://t.me/uav_tech/36577) |
 | WinnyLab LLC | 2 | [📝Перехватчики для ВСУ📝](https://t.me/uav_tech/36243); [Компания Terra Drone приступает к опытно-промышленной эксплуатации беспилотника-перехватчика Terra A2 в Украине](https://t.me/news_UAV/5121) |

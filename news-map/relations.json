@@ -5020,6 +5020,31 @@
 }
 },
 {
+"id": "rel_3b138247cd961bec",
+"from": "ent_76aae9f116d88191",
+"to": "ent_f4de600127d3237b",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://mod.gov.ua/news/rakety-meteor-ta-obladnannia-gripen-dlia-ukrainy-zmozhut-otrymaty-kompleksnyi-paket-ozbroiennia-za-pidtrymky-shvetsii-ta-velykoi-brytanii",
+"published_at": "2026-11-17T15:10:47Z",
+"quote": "Поставки ракет та обладнання планують синхронізувати з надходженням Gripen до Повітряних Сил України"
+},
+{
+"url": "https://belta.by/world/view/shvetsija-postavit-ukraine-pervye-istrebiteli-gripen-v-nachale-2027-goda-811246-2026",
+"published_at": "2026-11-17T10:38:06Z",
+"quote": "Швеция поставит Украине первые истребители Gripen в начале 2027 года"
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_2bdbe247ce741551",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_b5f76dc0ce128813",
@@ -22086,26 +22111,6 @@
 "url": "https://defence-blog.com/russia-deploys-tu-95ms-bombers-to-vietnam",
 "published_at": "2026-11-17T09:37:06Z",
 "quote": "Russia deploys Tu-95MS bombers to Vietnam"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_3b138247cd961bec",
-"from": "ent_76aae9f116d88191",
-"to": "ent_f4de600127d3237b",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://belta.by/world/view/shvetsija-postavit-ukraine-pervye-istrebiteli-gripen-v-nachale-2027-goda-811246-2026",
-"published_at": "2026-11-17T10:38:06Z",
-"quote": "Швеция поставит Украине первые истребители Gripen в начале 2027 года"
 }
 ],
 "sentiment": {
