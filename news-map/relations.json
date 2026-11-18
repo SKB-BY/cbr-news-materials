@@ -5,8 +5,18 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 186,
+"evidence_count": 188,
 "evidence": [
+{
+"url": "https://rg.ru/2026/11/18/reg-dnr/devochka-iz-konstantinovki-rasskazala-kak-boec-rf-cenoj-svoej-zhizni-spas-ee.html",
+"published_at": "2026-11-17T21:20:03Z",
+"quote": "Боец РФ ценой своей жизни спас девочку в Константиновке от удара дрона ВСУ"
+},
+{
+"url": "https://vpk.name/news/1172832_shveciya_i_britaniya_dogovorilis_snabzhat_boepripasami_ukrainskie_gripen.html",
+"published_at": "2026-11-17T21:00:01Z",
+"quote": "ВС России нанесли удары по мостам в Киеве Швеция, Британия и Украина подписали декларацию о намерениях по сотрудничеству в сфере снабжения ВСУ боеприпасами и материалами для истребителей JAS Gripen."
+},
 {
 "url": "https://tass.ru/proisshestviya/28328067",
 "published_at": "2026-11-17T19:48:45Z",
@@ -21,16 +31,6 @@
 "url": "https://topwar.ru/293725-udar-gerani-po-nemeckoj-zsu-gepard-1a2-v-portu-odessy-popal-v-kadr.html",
 "published_at": "2026-11-17T16:56:10Z",
 "quote": "Удар «Герани» по немецкой ЗСУ Gepard 1A2 в порту Одессы попал в кадр"
-},
-{
-"url": "https://tvzvezda.ru/news/20261117180-dRDAq.html",
-"published_at": "2026-11-17T15:08:18Z",
-"quote": "Дроны «Оса» группировки «Запад» уничтожили опорный пункт и технику ВСУ"
-},
-{
-"url": "https://tvzvezda.ru/news/20261117163-H2yDW.html",
-"published_at": "2026-11-17T13:12:14Z",
-"quote": "Дроноводы группировки «Центр» уничтожили беспилотники ВСУ в воздухе и на земле"
 }
 ],
 "sentiment": {
@@ -45,8 +45,18 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 53,
+"evidence_count": 55,
 "evidence": [
+{
+"url": "https://rg.ru/2026/11/18/reg-dnr/devochka-iz-konstantinovki-rasskazala-kak-boec-rf-cenoj-svoej-zhizni-spas-ee.html",
+"published_at": "2026-11-17T21:20:03Z",
+"quote": "Боец РФ ценой своей жизни спас девочку в Константиновке от удара дрона ВСУ"
+},
+{
+"url": "https://vpk.name/news/1172832_shveciya_i_britaniya_dogovorilis_snabzhat_boepripasami_ukrainskie_gripen.html",
+"published_at": "2026-11-17T21:00:01Z",
+"quote": "ВС России нанесли удары по мостам в Киеве Швеция, Британия и Украина подписали декларацию о намерениях по сотрудничеству в сфере снабжения ВСУ боеприпасами и материалами для истребителей JAS Gripen."
+},
 {
 "url": "https://belvpo.com/v-pentagone-vyskazalis-ob-udarah-vsu-vglub-rossii",
 "published_at": "2026-11-17T18:37:10Z",
@@ -61,16 +71,6 @@
 "url": "https://warfiles.ru/274021-taktika-istoschenija-nashej-sistemy-pvo-k-sozhaleniju-srabotala.html",
 "published_at": "2026-11-17T12:36:41Z",
 "quote": "1441 беспилотник и ракеты ВСУ ударили по России."
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28325673",
-"published_at": "2026-11-17T08:52:23Z",
-"quote": "ВС РФ поразили места производства и хранения беспилотников ВСУ"
-},
-{
-"url": "https://onalert.gr/kosmos/gefyra-kerts-oukranika-drones-kai-flamingo-gkremisan-to-kamari-tou-poutin-pou-syndeei-ti-rosia-me-tin-krimaia/834031",
-"published_at": "2026-11-17T08:40:42Z",
-"quote": "Grateful to the Security Service of Ukraine, all units of Ukraine’s Defense Forces involved, Ukraine’s Minister of Defense, the Commander-in-Chief of the Armed Forces of Ukraine and the General Staff, and all our weapons manufacturers for a"
 }
 ],
 "sentiment": {
@@ -285,8 +285,13 @@
 "to": "ent_28fea1c77915c37a",
 "type": "поставка",
 "event_date": null,
-"evidence_count": 7,
+"evidence_count": 8,
 "evidence": [
+{
+"url": "https://vpk.name/news/1172705_minoborony_rossii_poluchilo_novuyu_partiyu_istrebitelei_su-34.html",
+"published_at": "2026-11-17T21:00:01Z",
+"quote": "Минобороны России получило новую партию истребителей Су-34"
+},
 {
 "url": "https://bastion-karpenko.ru/%d0%be%d0%b0%d0%ba-%d0%bf%d0%b5%d1%80%d0%b5%d0%b4%d0%b0%d0%bb%d0%b0-%d0%bc%d0%b8%d0%bd%d0%be%d0%b1%d0%be%d1%80%d0%be%d0%bd%d1%8b-%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b8-%d0%bf%d0%b0%d1%80%d1%82%d0%b8-2",
 "published_at": "2026-11-17T08:46:35Z",
@@ -306,17 +311,52 @@
 "url": "https://t.me/uav_tech/35911",
 "published_at": "2026-04-15T17:00:12Z",
 "quote": "❗️РИА новости со ссылкой на Минобороны РФ сообщило, что Европа на фоне потерь ВСУ решила нарастить производство и поставки БПЛА Украине для ударов по России."
-},
-{
-"url": "https://t.me/drone_expert_news/5318",
-"published_at": "2026-01-28T18:39:19Z",
-"quote": "🦾 «Ростех» впервые передал Министерству обороны России новейшие мобильные комплексы радиоэлектронной борьбы «Зубр», предназначенные для защиты войск от беспилотников."
 }
 ],
 "sentiment": {
-"score_pm1": -0.1,
+"score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_b32b662b140fae74",
+"from": "ent_14d1757585b55c53",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 7,
+"evidence": [
+{
+"url": "https://unian.net/war/udar-po-krymskomu-mostu-proshel-bez-starlink-s-pomoshchyu-unikalnoy-sisteme-svyazi-the-times-13563102.html",
+"published_at": "2026-11-17T19:18:00Z",
+"quote": "ИНФОРМАЦИОННОЕ АГЕНТСТВО Главная Война Украина Политика Экономика Мир Экология Регионы Спорт Наука Техно и связь Лайт Оружие Происшествия Здоровье Туризм Интересности Погода Видео с YouTube Статьи Интервью Мнения Лонгриды Архив Вакансии Кон"
+},
+{
+"url": "https://dronexl.co/2026/11/16/starshield-cap-occupied-ukraine-spacex-technical-zelensky-substations",
+"published_at": "2026-11-16T21:33:00Z",
+"quote": "co/2026/01/31/spacex-starlink-speed-limit-russian-drones/\">cut Starlink on terminals moving faster than about 47 to 56 mph</a> (75 to 90 km/h) to stop Russian strike drones, and terminals registered to Ukrainian brigades could have the limi"
+},
+{
+"url": "https://t.me/nm_dnr/16203",
+"published_at": "2026-11-14T07:59:01Z",
+"quote": "📹 Операторы 8 армии уничтожили ПУ БЛА, антенны связи и Starlink ВСУ"
+},
+{
+"url": "https://t.me/uav_tech/37441",
+"published_at": "2026-11-02T18:33:37Z",
+"quote": "На фоне увеличения ударов вглубь России Украина в 2026-м потратила на Starlink вдвое больше, чем за четыре предыдущих года, выяснил RT."
+},
+{
+"url": "https://c4isrnet.com/unmanned/2026/09/30/ukraines-former-defense-minister-launches-manhattan-project-for-killer-robots",
+"published_at": "2026-09-30T08:29:57Z",
+"quote": "But most of the futuristic robot designs featured in Fedorov’s video, humanoids included, are not yet used in combat in Ukraine today, and the ground robots that are in use almost always have a human operator at the controls, usually over S"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 },
 {
@@ -400,37 +440,37 @@
 }
 },
 {
-"id": "rel_b32b662b140fae74",
-"from": "ent_14d1757585b55c53",
-"to": "ent_76aae9f116d88191",
+"id": "rel_5e9b6cae48511d8b",
+"from": "ent_c9797c9635450715",
+"to": "ent_b677547c4bb180c5",
 "type": "применение",
 "event_date": null,
 "evidence_count": 6,
 "evidence": [
 {
-"url": "https://dronexl.co/2026/11/16/starshield-cap-occupied-ukraine-spacex-technical-zelensky-substations",
-"published_at": "2026-11-16T21:33:00Z",
-"quote": "co/2026/01/31/spacex-starlink-speed-limit-russian-drones/\">cut Starlink on terminals moving faster than about 47 to 56 mph</a> (75 to 90 km/h) to stop Russian strike drones, and terminals registered to Ukrainian brigades could have the limi"
+"url": "https://belvpo.com/voennye-ssha-ispolzovali-prosrochennye-boepripasy-v-hode-konflikta-s-iranom",
+"published_at": "2026-11-17T22:54:50Z",
+"quote": "Американские военные в ходе операции против Ирана применяли боеприпасы с истекшим сроком годности после их повторной сертификации, заявил исполняющий обязанности министра ВМС США Хунг Као на слушаниях в комитете сената по делам вооруженных "
 },
 {
-"url": "https://t.me/nm_dnr/16203",
-"published_at": "2026-11-14T07:59:01Z",
-"quote": "📹 Операторы 8 армии уничтожили ПУ БЛА, антенны связи и Starlink ВСУ"
+"url": "https://t.me/uav_tech/37537",
+"published_at": "2026-11-17T10:30:18Z",
+"quote": "💭А ночью в западной части Черного моря во время удара по Крыму и мосту летал самолет базовой патрульной авиации Р-8А ВМС США."
 },
 {
-"url": "https://t.me/uav_tech/37441",
-"published_at": "2026-11-02T18:33:37Z",
-"quote": "На фоне увеличения ударов вглубь России Украина в 2026-м потратила на Starlink вдвое больше, чем за четыре предыдущих года, выяснил RT."
+"url": "https://vpk.name/news/1171310_samuyu_dalnoboinuyu_raketu_vms_ssha_zagruzyat_snaryadami_vektrex.html",
+"published_at": "2026-11-12T21:00:01Z",
+"quote": "TWZ: Ракета AIM-174B ВМС США станет носителем планирующих боеприпасов Vektrex Ракета класса «воздух-воздух» AIM-174B, которую используют самолеты Военно-морских сил (ВМС) США, может стать носителем планирующих боеприпасов Vektrex для пораже"
 },
 {
-"url": "https://c4isrnet.com/unmanned/2026/09/30/ukraines-former-defense-minister-launches-manhattan-project-for-killer-robots",
-"published_at": "2026-09-30T08:29:57Z",
-"quote": "But most of the futuristic robot designs featured in Fedorov’s video, humanoids included, are not yet used in combat in Ukraine today, and the ground robots that are in use almost always have a human operator at the controls, usually over S"
+"url": "https://bmpd.livejournal.com/5010955.html",
+"published_at": "2026-10-04T21:54:25Z",
+"quote": "ВМС США с самого начала указывали, что, в отличие от пилотируемого истребителя завоевания превосходства в воздухе, планируемого к созданию по программе NGAD ВВС США, палубный F/A-XX предназначен для использования в качестве ударного истреби"
 },
 {
-"url": "https://t.me/UAVDEV/10214",
-"published_at": "2026-02-02T03:32:26Z",
-"quote": "В общем вне зависимости от того, как получится в итоге со старлинком, высокоточные удары по тылам ВСУ есть как и чем организовывать."
+"url": "https://t.me/uav_tech/35633",
+"published_at": "2026-03-25T20:26:06Z",
+"quote": "🔴🔴🔴🔴  Иранская система ПВО сбила еще один истребитель ВМС США F-18E Super Hornet."
 }
 ],
 "sentiment": {
@@ -720,43 +760,43 @@
 }
 },
 {
-"id": "rel_5e9b6cae48511d8b",
-"from": "ent_c9797c9635450715",
-"to": "ent_b677547c4bb180c5",
-"type": "применение",
+"id": "rel_71810bfb904f7bed",
+"from": "ent_72167ac7999f6b9e",
+"to": "ent_59965f590d8fcc04",
+"type": "поставка",
 "event_date": null,
 "evidence_count": 5,
 "evidence": [
 {
-"url": "https://t.me/uav_tech/37537",
-"published_at": "2026-11-17T10:30:18Z",
-"quote": "💭А ночью в западной части Черного моря во время удара по Крыму и мосту летал самолет базовой патрульной авиации Р-8А ВМС США."
+"url": "https://vpk.name/news/1172705_minoborony_rossii_poluchilo_novuyu_partiyu_istrebitelei_su-34.html",
+"published_at": "2026-11-17T21:00:01Z",
+"quote": "Минобороны России получило новую партию истребителей Су-34"
 },
 {
-"url": "https://vpk.name/news/1171310_samuyu_dalnoboinuyu_raketu_vms_ssha_zagruzyat_snaryadami_vektrex.html",
-"published_at": "2026-11-12T21:00:01Z",
-"quote": "TWZ: Ракета AIM-174B ВМС США станет носителем планирующих боеприпасов Vektrex Ракета класса «воздух-воздух» AIM-174B, которую используют самолеты Военно-морских сил (ВМС) США, может стать носителем планирующих боеприпасов Vektrex для пораже"
+"url": "https://bastion-karpenko.ru/%d0%be%d0%b0%d0%ba-%d0%bf%d0%b5%d1%80%d0%b5%d0%b4%d0%b0%d0%bb%d0%b0-%d0%bc%d0%b8%d0%bd%d0%be%d0%b1%d0%be%d1%80%d0%be%d0%bd%d1%8b-%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b8-%d0%bf%d0%b0%d1%80%d1%82%d0%b8-2",
+"published_at": "2026-11-17T08:46:35Z",
+"quote": "ОАК ПЕРЕДАЛА МИНОБОРОНЫ РОССИИ ПАРТИЮ ИСТРЕБИТЕЛЕЙ-БОМБАРДИРОВЩИКОВ СУ-34"
 },
 {
-"url": "https://bmpd.livejournal.com/5010955.html",
-"published_at": "2026-10-04T21:54:25Z",
-"quote": "ВМС США с самого начала указывали, что, в отличие от пилотируемого истребителя завоевания превосходства в воздухе, планируемого к созданию по программе NGAD ВВС США, палубный F/A-XX предназначен для использования в качестве ударного истреби"
+"url": "https://aviation21.ru/tretya-v-2026-godu-partiya-su-34-postupila-v-vks-rossii",
+"published_at": "2026-11-17T08:35:51Z",
+"quote": "Объединённая авиастроительная корпорация (ОАК) передала Министерству обороны России третью в 2026 году партию фронтовых бомбардировщиков Су-34."
 },
 {
-"url": "https://t.me/uav_tech/35633",
-"published_at": "2026-03-25T20:26:06Z",
-"quote": "🔴🔴🔴🔴  Иранская система ПВО сбила еще один истребитель ВМС США F-18E Super Hornet."
+"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
+"published_at": "2026-11-17T06:20:16Z",
+"quote": "Объединенная авиастроительная корпорация (ОАК) изготовила и передала Минобороны России новую партию истребителей-бомбардировщиков Су-34."
 },
 {
-"url": "https://t.me/uav_tech/35375",
-"published_at": "2026-03-04T09:51:56Z",
-"quote": "Центральное командование США (CENTCOM) заявило, что истребитель F-35C ВМС США уничтожил иранский беспилотник, совсем рядом с авианосцем «Авраам Линкольн»."
+"url": "https://bmpd.livejournal.com/5012123.html",
+"published_at": "2026-10-09T22:00:27Z",
+"quote": "ru/ru/press-center/news/oak-peredala-minoborony-rossii-partiyu-istrebiteley-bombardirovshchikov-su-34\" target=\"_blank\">сообщило,</a> что в рамках гособоронзаказа изготовило и передало Министерству обороны Российской Федерации партию истреби"
 }
 ],
 "sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -1051,41 +1091,6 @@
 "url": "https://t.me/quadro_news/4942",
 "published_at": "2026-03-09T15:32:30Z",
 "quote": "Сыновья Трампа скупают украинские дроны для поставок в Пентагон"
-}
-],
-"sentiment": {
-"score_pm1": 0.1,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_71810bfb904f7bed",
-"from": "ent_72167ac7999f6b9e",
-"to": "ent_59965f590d8fcc04",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://bastion-karpenko.ru/%d0%be%d0%b0%d0%ba-%d0%bf%d0%b5%d1%80%d0%b5%d0%b4%d0%b0%d0%bb%d0%b0-%d0%bc%d0%b8%d0%bd%d0%be%d0%b1%d0%be%d1%80%d0%be%d0%bd%d1%8b-%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b8-%d0%bf%d0%b0%d1%80%d1%82%d0%b8-2",
-"published_at": "2026-11-17T08:46:35Z",
-"quote": "ОАК ПЕРЕДАЛА МИНОБОРОНЫ РОССИИ ПАРТИЮ ИСТРЕБИТЕЛЕЙ-БОМБАРДИРОВЩИКОВ СУ-34"
-},
-{
-"url": "https://aviation21.ru/tretya-v-2026-godu-partiya-su-34-postupila-v-vks-rossii",
-"published_at": "2026-11-17T08:35:51Z",
-"quote": "Объединённая авиастроительная корпорация (ОАК) передала Министерству обороны России третью в 2026 году партию фронтовых бомбардировщиков Су-34."
-},
-{
-"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
-"published_at": "2026-11-17T06:20:16Z",
-"quote": "Объединенная авиастроительная корпорация (ОАК) изготовила и передала Минобороны России новую партию истребителей-бомбардировщиков Су-34."
-},
-{
-"url": "https://bmpd.livejournal.com/5012123.html",
-"published_at": "2026-10-09T22:00:27Z",
-"quote": "ru/ru/press-center/news/oak-peredala-minoborony-rossii-partiyu-istrebiteley-bombardirovshchikov-su-34\" target=\"_blank\">сообщило,</a> что в рамках гособоронзаказа изготовило и передало Министерству обороны Российской Федерации партию истреби"
 }
 ],
 "sentiment": {
@@ -1950,6 +1955,36 @@
 }
 },
 {
+"id": "rel_c3517b3988abd035",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_382bc265ebab3a18",
+"type": "применение",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172832_shveciya_i_britaniya_dogovorilis_snabzhat_boepripasami_ukrainskie_gripen.html",
+"published_at": "2026-11-17T21:00:01Z",
+"quote": "ВС России нанесли удары по мостам в Киеве Швеция, Британия и Украина подписали декларацию о намерениях по сотрудничеству в сфере снабжения ВСУ боеприпасами и материалами для истребителей JAS Gripen."
+},
+{
+"url": "https://t.me/uav_tech/36785",
+"published_at": "2026-07-30T17:22:57Z",
+"quote": "ВС РФ ударили по штабу морских операций ВСУ с британскими офицерами"
+},
+{
+"url": "https://t.me/uav_tech/35484",
+"published_at": "2026-03-10T19:53:50Z",
+"quote": "Ракетный удар ВСУ по Брянску, нанесённый с использованием британских крылатых ракет Storm Shadow, не мог быть осуществлён без предоставления украинской стороне разведданных со стороны Соединённых Ш..."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_2ec954c0ab6a224a",
 "from": "ent_cd3c86a3a1af0b40",
 "to": "ent_76aae9f116d88191",
@@ -2005,6 +2040,66 @@
 ],
 "sentiment": {
 "score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_aec10cea9f75dd3f",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_c32678e4a0ae4599",
+"type": "применение",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172832_shveciya_i_britaniya_dogovorilis_snabzhat_boepripasami_ukrainskie_gripen.html",
+"published_at": "2026-11-17T21:00:01Z",
+"quote": "ВС России нанесли удары по мостам в Киеве Швеция, Британия и Украина подписали декларацию о намерениях по сотрудничеству в сфере снабжения ВСУ боеприпасами и материалами для истребителей JAS Gripen."
+},
+{
+"url": "https://warfiles.ru/274008-poka-pvo-kieva-vysmatrivala-ballistiku-gerani-udarili-po-tylu-vsu.html",
+"published_at": "2026-11-16T18:43:24Z",
+"quote": "Пока ПВО Киева высматривала «баллистику», «Герани» ударили по тылу ВСУ"
+},
+{
+"url": "https://t.me/news_UAV/5318",
+"published_at": "2026-06-23T17:10:59Z",
+"quote": "Президент отметил, что ситуация для киевского режима на фронте стремительно ухудшается, поэтому ВСУ наносит удары по гражданским объектам, пытается создать проблемы с обеспечением энергоресурсами и повлиять на туристический сезон в России."
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_9bf393cadc73ba10",
+"from": "ent_14d1757585b55c53",
+"to": "ent_e7e61f26b8fd6566",
+"type": "применение",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://unian.net/war/udar-po-krymskomu-mostu-proshel-bez-starlink-s-pomoshchyu-unikalnoy-sisteme-svyazi-the-times-13563102.html",
+"published_at": "2026-11-17T19:18:00Z",
+"quote": "Удар по Крымскому мосту прошел без Starlink, с помощью уникальной системы связи, - The Times"
+},
+{
+"url": "https://t.me/uav_tech/36489",
+"published_at": "2026-06-21T11:38:35Z",
+"quote": "📝Бездействие наказуемо📝 о «Старлинках» и мнимых надеждах на США На фоне очередного удара по Крыму, который привел к новому этапу блокады полуострова, любопытно выглядят заголовки СМИ всё о том же «Духе Анкориджа» и упований на то, что в США"
+},
+{
+"url": "https://t.me/uav_tech/35578",
+"published_at": "2026-03-20T10:10:55Z",
+"quote": "Да и добавим тем, что зенитные дроны сейчас — один из перспективных способов защиты собственных ЗРК, которые с появлением дронов-камикадзе с терминалами «Starlink» превратились из охотников за воздушными целями в зарубки на пульте управлени"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -2211,6 +2306,36 @@
 "url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6-%d1%81%d0%b2%d0%b5%d1%80%d1%85%d0%b7%d0%b2%d1%83%d0%ba%d0%be%d0%b2%d0%be%d0%b3%d0%be-%d0%b8%d1%81%d1%82%d1%80%d0%b5%d0%b1%d0%b8%d1%82%d0%b5%d0%bb%d1%8f-%d0%b1",
 "published_at": "2026-11-16T08:27:02Z",
 "quote": "ЭКИПАЖ СВЕРХЗВУКОВОГО ИСТРЕБИТЕЛЯ-БОМБАРДИРОВЩИКА СУ-34 НАНЕС УДАР АВИАЦИОННЫМИ БОМБАМИ С УНИВЕРСАЛЬНЫМ МОДУЛЕМ ПЛАНИРОВАНИЯ И КОРРЕКЦИИ (УМПК) ЭКИПАЖ СВЕРХЗВУКОВОГО ИСТРЕБИТЕЛЯ-БОМБАРДИРОВЩИКА СУ-34 НАНЕС УДАР АВИАЦИОННЫМИ БОМБАМИ С УНИВЕР"
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_61f3b373a5d2df6f",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_8a1fb18f6e513bb6",
+"type": "применение",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://rg.ru/2026/11/18/reg-dnr/devochka-iz-konstantinovki-rasskazala-kak-boec-rf-cenoj-svoej-zhizni-spas-ee.html",
+"published_at": "2026-11-17T21:20:03Z",
+"quote": "Боец РФ ценой своей жизни спас девочку в Константиновке от удара дрона ВСУ"
+},
+{
+"url": "https://belvpo.com/vsu-poteryali-do-330-voennyh-i-tank-v-zone-dejstvij-czentra-za-sutki",
+"published_at": "2026-11-16T09:13:45Z",
+"quote": "Нанесли поражение живой силе и технике трех механизированных, штурмовой бригад, штурмового полка ВСУ, двух бригад морской пехоты и двух бригад нацгвардии в районах населенных пунктов Новосергеевка, Криворожье, Курицыно, Сергеевка, Львовка, "
+},
+{
+"url": "https://t.me/RosgvardOfficial/15781",
+"published_at": "2026-11-16T06:01:01Z",
+"quote": "В ЛНР спецназ Росгвардии уничтожил ударные беспилотники ВСУ 😎В ходе выполнения боевой задачи на территории Луганской Народной Республики сотрудники СОБР своевременно обнаружили БПЛА, летевший в их сторону."
 }
 ],
 "sentiment": {
@@ -3045,6 +3170,31 @@
 }
 },
 {
+"id": "rel_1d9d7bf647921150",
+"from": "ent_9e51a7ee6340af7b",
+"to": "ent_875f89720c603994",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172631_vs_litvy_poluchili_vtoruyu_partiyu_vertoletov_uh-60m_black_hawk.html",
+"published_at": "2026-11-17T21:00:01Z",
+"quote": "ВС Литвы получили вторую партию вертолетов UH-60M Black Hawk"
+},
+{
+"url": "https://vpk.name/news/1171292_vvs_latvii_poluchili_chetvertyi_vertolet_uh-60m_black_hawk.html",
+"published_at": "2026-11-12T21:00:01Z",
+"quote": "ВВС Латвии получили четвертый вертолет UH-60M Black Hawk"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
 "id": "rel_34182952eea15b35",
 "from": "ent_ebcab0b315957eba",
 "to": "ent_b691d0e0b13535db",
@@ -3770,31 +3920,6 @@
 }
 },
 {
-"id": "rel_c3517b3988abd035",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_382bc265ebab3a18",
-"type": "применение",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://t.me/uav_tech/36785",
-"published_at": "2026-07-30T17:22:57Z",
-"quote": "ВС РФ ударили по штабу морских операций ВСУ с британскими офицерами"
-},
-{
-"url": "https://t.me/uav_tech/35484",
-"published_at": "2026-03-10T19:53:50Z",
-"quote": "Ракетный удар ВСУ по Брянску, нанесённый с использованием британских крылатых ракет Storm Shadow, не мог быть осуществлён без предоставления украинской стороне разведданных со стороны Соединённых Ш..."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_a984115b0e706255",
 "from": "ent_ff878af017a8077e",
 "to": "ent_d54ac6fc23eb6450",
@@ -3895,31 +4020,6 @@
 }
 },
 {
-"id": "rel_aec10cea9f75dd3f",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_c32678e4a0ae4599",
-"type": "применение",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://warfiles.ru/274008-poka-pvo-kieva-vysmatrivala-ballistiku-gerani-udarili-po-tylu-vsu.html",
-"published_at": "2026-11-16T18:43:24Z",
-"quote": "Пока ПВО Киева высматривала «баллистику», «Герани» ударили по тылу ВСУ"
-},
-{
-"url": "https://t.me/news_UAV/5318",
-"published_at": "2026-06-23T17:10:59Z",
-"quote": "Президент отметил, что ситуация для киевского режима на фронте стремительно ухудшается, поэтому ВСУ наносит удары по гражданским объектам, пытается создать проблемы с обеспечением энергоресурсами и повлиять на туристический сезон в России."
-}
-],
-"sentiment": {
-"score_pm1": -0.4,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_e0c0d5e31d5e3cfc",
 "from": "ent_d380c846b4a97fed",
 "to": "ent_42945ce6b8f796c3",
@@ -3940,31 +4040,6 @@
 ],
 "sentiment": {
 "score_pm1": -0.4,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_9bf393cadc73ba10",
-"from": "ent_14d1757585b55c53",
-"to": "ent_e7e61f26b8fd6566",
-"type": "применение",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://t.me/uav_tech/36489",
-"published_at": "2026-06-21T11:38:35Z",
-"quote": "📝Бездействие наказуемо📝 о «Старлинках» и мнимых надеждах на США На фоне очередного удара по Крыму, который привел к новому этапу блокады полуострова, любопытно выглядят заголовки СМИ всё о том же «Духе Анкориджа» и упований на то, что в США"
-},
-{
-"url": "https://t.me/uav_tech/35578",
-"published_at": "2026-03-20T10:10:55Z",
-"quote": "Да и добавим тем, что зенитные дроны сейчас — один из перспективных способов защиты собственных ЗРК, которые с появлением дронов-камикадзе с терминалами «Starlink» превратились из охотников за воздушными целями в зарубки на пульте управлени"
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -4445,6 +4520,31 @@
 }
 },
 {
+"id": "rel_6317181db75b379e",
+"from": "ent_b677547c4bb180c5",
+"to": "ent_86a408b5b14fa5a6",
+"type": "производство",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172827_v_ssha_zapustyat_22_novyh_zavoda_po_proizvodstvu_patriot_thaad_i_tomahawk.html",
+"published_at": "2026-11-17T21:00:01Z",
+"quote": "Трамп заявил о начале строительства в США более 22 новых предприятий по производству ЗУР для ЗРК Patriot и систем ПРО THAAD, а также крылатых ракет большой дальности Tomahawk."
+},
+{
+"url": "https://t.me/FPV_vyZOV/5017",
+"published_at": "2026-02-22T09:38:32Z",
+"quote": "Один массированный удар может израсходовать месячный объем производства ракет PAC-3 в США."
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_0b376f3a4550f79f",
 "from": "ent_72167ac7999f6b9e",
 "to": "ent_b677547c4bb180c5",
@@ -4570,31 +4670,6 @@
 }
 },
 {
-"id": "rel_61f3b373a5d2df6f",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_8a1fb18f6e513bb6",
-"type": "применение",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://belvpo.com/vsu-poteryali-do-330-voennyh-i-tank-v-zone-dejstvij-czentra-za-sutki",
-"published_at": "2026-11-16T09:13:45Z",
-"quote": "Нанесли поражение живой силе и технике трех механизированных, штурмовой бригад, штурмового полка ВСУ, двух бригад морской пехоты и двух бригад нацгвардии в районах населенных пунктов Новосергеевка, Криворожье, Курицыно, Сергеевка, Львовка, "
-},
-{
-"url": "https://t.me/RosgvardOfficial/15781",
-"published_at": "2026-11-16T06:01:01Z",
-"quote": "В ЛНР спецназ Росгвардии уничтожил ударные беспилотники ВСУ 😎В ходе выполнения боевой задачи на территории Луганской Народной Республики сотрудники СОБР своевременно обнаружили БПЛА, летевший в их сторону."
-}
-],
-"sentiment": {
-"score_pm1": -0.4,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_39afbfb4accaa021",
 "from": "ent_b0bba4c8f275ffd0",
 "to": "ent_42945ce6b8f796c3",
@@ -4615,6 +4690,31 @@
 ],
 "sentiment": {
 "score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_05fbf29fdc58ad89",
+"from": "ent_ea737724a72411d4",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://unian.net/war/udar-po-krymskomu-mostu-proshel-bez-starlink-s-pomoshchyu-unikalnoy-sisteme-svyazi-the-times-13563102.html",
+"published_at": "2026-11-17T19:18:00Z",
+"quote": "Эта операция также доказала, что Украина больше не нуждается в сетях Starlink и Starshield Илона Маска для проведения ударных миссий, пишет The Times."
+},
+{
+"url": "https://france24.com/en/video/20261116-russia-says-intercepted-over-1-300-ukrainian-drones-in-a-major-attack",
+"published_at": "2026-11-16T14:00:25Z",
+"quote": "Russia, meanwhile, has battered Ukrainian civilian areas with relentless strikes that seek to choke the economy and break public morale, in attacks President Volodymyr Zelensky said were made possible ⁠partly due to restrictions on Ukraine'"
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -4920,6 +5020,31 @@
 }
 },
 {
+"id": "rel_2bdbe247ce741551",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_b5f76dc0ce128813",
+"type": "производство",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172792_sau_bogdana_dlya_vsu_teper_budut_sobirat_v_polshe.html",
+"published_at": "2026-11-17T21:00:01Z",
+"quote": "Самоходные артиллерийские установки для ВСУ 2С22 \"Богдана\" и их буксируемые версии теперь будут выпускать в Польше."
+},
+{
+"url": "https://warfiles.ru/274009-sau-bogdana-dlja-vsu-teper-budut-sobirat-v-polshe.html",
+"published_at": "2026-11-16T21:09:05Z",
+"quote": "Самоходные артиллерийские установки для ВСУ 2С22 \"Богдана\" и их буксируемые версии теперь будут выпускать в Польше."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_5714d89c0d94772b",
 "from": "ent_724e0fe25819bf9e",
 "to": "ent_28fea1c77915c37a",
@@ -4936,6 +5061,31 @@
 "url": "https://rg.ru/2026/11/17/abrams-humvee-i-tos-1a-solncepek-vmeste-gromili-bandy-boevikov.html",
 "published_at": "2026-11-17T10:41:02Z",
 "quote": "Российские тяжелые огнеметные системы ТОС-1А \"Солнцепек\" активно экспортировались и применялись в боевых действиях в составе иностранных армий."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_fda868e147da90aa",
+"from": "ent_b677547c4bb180c5",
+"to": "ent_0dd93c1cbb5c85fa",
+"type": "производство",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172827_v_ssha_zapustyat_22_novyh_zavoda_po_proizvodstvu_patriot_thaad_i_tomahawk.html",
+"published_at": "2026-11-17T21:00:01Z",
+"quote": "В США запустят 22 новых завода по производству Patriot, THAAD и Tomahawk"
+},
+{
+"url": "https://topwar.ru/293721-v-ssha-zapustjat-22-novyh-zavoda-po-proizvodstvu-patriot-thaad-i-tomahawk.html",
+"published_at": "2026-11-17T16:06:01Z",
+"quote": "В США запустят 22 новых завода по производству Patriot, THAAD и Tomahawk"
 }
 ],
 "sentiment": {
@@ -9622,26 +9772,6 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
-}
-},
-{
-"id": "rel_1d9d7bf647921150",
-"from": "ent_9e51a7ee6340af7b",
-"to": "ent_875f89720c603994",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://vpk.name/news/1171292_vvs_latvii_poluchili_chetvertyi_vertolet_uh-60m_black_hawk.html",
-"published_at": "2026-11-12T21:00:01Z",
-"quote": "ВВС Латвии получили четвертый вертолет UH-60M Black Hawk"
-}
-],
-"sentiment": {
-"score_pm1": 0.3,
-"score_pm2": 1,
-"label": "умеренно позитивный"
 }
 },
 {
@@ -17645,26 +17775,6 @@
 }
 },
 {
-"id": "rel_6317181db75b379e",
-"from": "ent_b677547c4bb180c5",
-"to": "ent_86a408b5b14fa5a6",
-"type": "производство",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://t.me/FPV_vyZOV/5017",
-"published_at": "2026-02-22T09:38:32Z",
-"quote": "Один массированный удар может израсходовать месячный объем производства ракет PAC-3 в США."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_bf11bd3c594bb8bc",
 "from": "ent_f6b98833dbf5d877",
 "to": "ent_8dd3df0c38241ed6",
@@ -19885,26 +19995,6 @@
 }
 },
 {
-"id": "rel_05fbf29fdc58ad89",
-"from": "ent_ea737724a72411d4",
-"to": "ent_76aae9f116d88191",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://france24.com/en/video/20261116-russia-says-intercepted-over-1-300-ukrainian-drones-in-a-major-attack",
-"published_at": "2026-11-16T14:00:25Z",
-"quote": "Russia, meanwhile, has battered Ukrainian civilian areas with relentless strikes that seek to choke the economy and break public morale, in attacks President Volodymyr Zelensky said were made possible ⁠partly due to restrictions on Ukraine'"
-}
-],
-"sentiment": {
-"score_pm1": -0.5,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_0ac053088127711b",
 "from": "ent_f534fbe20a2a74ea",
 "to": "ent_0619abbd484d84b2",
@@ -22105,26 +22195,6 @@
 }
 },
 {
-"id": "rel_2bdbe247ce741551",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_b5f76dc0ce128813",
-"type": "производство",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://warfiles.ru/274009-sau-bogdana-dlja-vsu-teper-budut-sobirat-v-polshe.html",
-"published_at": "2026-11-16T21:09:05Z",
-"quote": "Самоходные артиллерийские установки для ВСУ 2С22 \"Богдана\" и их буксируемые версии теперь будут выпускать в Польше."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_c4278934d59c8724",
 "from": "ent_88b9583e076cfd82",
 "to": "ent_7166debf233e3abf",
@@ -23285,26 +23355,6 @@
 }
 },
 {
-"id": "rel_fda868e147da90aa",
-"from": "ent_b677547c4bb180c5",
-"to": "ent_0dd93c1cbb5c85fa",
-"type": "производство",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://topwar.ru/293721-v-ssha-zapustjat-22-novyh-zavoda-po-proizvodstvu-patriot-thaad-i-tomahawk.html",
-"published_at": "2026-11-17T16:06:01Z",
-"quote": "В США запустят 22 новых завода по производству Patriot, THAAD и Tomahawk"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_41f5c3bbc77af469",
 "from": "ent_d2e22355d8368901",
 "to": "ent_5eb0925226aeee8a",
@@ -24062,6 +24112,906 @@
 "score_pm1": 0.3,
 "score_pm2": 1,
 "label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_4ce43147bcd42720",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_cf802caa8624c0c4",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_2ed287c8709c3061",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_f71a056c8b9e5af3",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_2fb0877ff4f90b72",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_8842036e2525f67a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_f4c915c5eb1c74b8",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_9ce6918d3019bfdb",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_01ce15b5c5ec548e",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_e186791b9c6de413",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_dc12a12614131e35",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_800f10bda4aa7386",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_2f6efbf1c44a029f",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_62ced3b8dfb36770",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_0370ad88884fd215",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_2e41bd19c9544f13",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_201950710ab9cc8f",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_543c1b449e2da65b",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_84bf50f3e19c2691",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_4ac006e0fe593e35",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_bf6eb078ed1ca4e1",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_e87f621f7b6036e3",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_297467519379e512",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_d7101df66664498c",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_78fa503912f1d0b3",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_e6bd48303e9dd90a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_c4768588c989adc7",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_d45f6e70f720f3e3",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_330768d30691ad51",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_b442a3366f7b754d",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_e5dcb0d38cdf5d00",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_2dd1e866546d59a0",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_21c2f91d9b62ade9",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_7a88562c128ea9cf",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_eee6288016b4cd25",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_6279f63520a7c7ca",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_702d5a475d1139b6",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_12c520b35222024f",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_735d75a7787023a0",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_7531221afd238146",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_4791a72380b97617",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_d93948ab86199d90",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_8845a7fe7988d8dd",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_55f88016a994d535",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_ca23f1a76cc0856c",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_f5c874b97afa1015",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_257fe8a7cc3dd36e",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_a0f3d90a190ab77b",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_c43b3bb929624340",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_854e93e54b9d2768",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_621a09a8c7fb0d0e",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_0517c9b99d5a88fa",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_c1188faa9fb9b104",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_c75228e938b1ae10",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_9ca4a6e0565ad461",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_57ecdd239425044a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_b7c8b92e28504fae",
+"from": "ent_461f895cd3ecdc32",
+"to": "ent_7ecc58416f511648",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Rotational Units at Kadena Unit Home Base Aircraft 525th Fighter Squadron, 3rd Wing Joint Base Elmendorf-Richardson, Alaska F-22 Raptor 480th Fighter Squadron, 52nd Fighter Wing Spangdahlem Air Base, Germany F-16 Fighting Falcon 355th Fight"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_ec6a63e2a7820bfc",
+"from": "ent_54a6fa8993794d9e",
+"to": "ent_d380c846b4a97fed",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "15 delivery of the first combat-coded F-15EX to Kadena came about six months later than planned due to a late 2025 strike at the Boeing plant that makes the aircraft."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_fc593cc1e489068f",
+"from": "ent_54a6fa8993794d9e",
+"to": "ent_d380c846b4a97fed",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Boeing spokesman Josh Roth told Air & Space Forces Magazine that the company is working closely with USAF and the Pentagon to “ramp up F-15EX production."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_69c4652ed0c0643c",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_d380c846b4a97fed",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Boeing spokesman Josh Roth told Air & Space Forces Magazine that the company is working closely with USAF and the Pentagon to “ramp up F-15EX production."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_ef7b6aaa9b64f01f",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_d380c846b4a97fed",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations",
+"published_at": "2026-11-17T22:20:34Z",
+"quote": "Boeing spokesman Josh Roth told Air & Space Forces Magazine that the company is working closely with USAF and the Pentagon to “ramp up F-15EX production."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_b6638794d6af293d",
+"from": "ent_382bc265ebab3a18",
+"to": "ent_f4de600127d3237b",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172832_shveciya_i_britaniya_dogovorilis_snabzhat_boepripasami_ukrainskie_gripen.html",
+"published_at": "2026-11-17T21:00:01Z",
+"quote": "Швеция и Британия договорились снабжать боеприпасами украинские Gripen"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_253a4d4d0861aa3c",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_f4de600127d3237b",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172832_shveciya_i_britaniya_dogovorilis_snabzhat_boepripasami_ukrainskie_gripen.html",
+"published_at": "2026-11-17T21:00:01Z",
+"quote": "ВС России нанесли удары по мостам в Киеве Швеция, Британия и Украина подписали декларацию о намерениях по сотрудничеству в сфере снабжения ВСУ боеприпасами и материалами для истребителей JAS Gripen."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_63423a60824605ff",
+"from": "ent_f4de600127d3237b",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172832_shveciya_i_britaniya_dogovorilis_snabzhat_boepripasami_ukrainskie_gripen.html",
+"published_at": "2026-11-17T21:00:01Z",
+"quote": "ВС России нанесли удары по мостам в Киеве Швеция, Британия и Украина подписали декларацию о намерениях по сотрудничеству в сфере снабжения ВСУ боеприпасами и материалами для истребителей JAS Gripen."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_004069cc81ad7c8e",
+"from": "ent_f4de600127d3237b",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172832_shveciya_i_britaniya_dogovorilis_snabzhat_boepripasami_ukrainskie_gripen.html",
+"published_at": "2026-11-17T21:00:01Z",
+"quote": "ВС России нанесли удары по мостам в Киеве Швеция, Британия и Украина подписали декларацию о намерениях по сотрудничеству в сфере снабжения ВСУ боеприпасами и материалами для истребителей JAS Gripen."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_0c1ed13974c50325",
+"from": "ent_f4de600127d3237b",
+"to": "ent_382bc265ebab3a18",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172832_shveciya_i_britaniya_dogovorilis_snabzhat_boepripasami_ukrainskie_gripen.html",
+"published_at": "2026-11-17T21:00:01Z",
+"quote": "ВС России нанесли удары по мостам в Киеве Швеция, Британия и Украина подписали декларацию о намерениях по сотрудничеству в сфере снабжения ВСУ боеприпасами и материалами для истребителей JAS Gripen."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_5afd695a37f91e28",
+"from": "ent_f4de600127d3237b",
+"to": "ent_c32678e4a0ae4599",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1172832_shveciya_i_britaniya_dogovorilis_snabzhat_boepripasami_ukrainskie_gripen.html",
+"published_at": "2026-11-17T21:00:01Z",
+"quote": "ВС России нанесли удары по мостам в Киеве Швеция, Британия и Украина подписали декларацию о намерениях по сотрудничеству в сфере снабжения ВСУ боеприпасами и материалами для истребителей JAS Gripen."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_804432ce86ac03f9",
+"from": "ent_28fea1c77915c37a",
+"to": "ent_2ea283e971c4fe16",
+"type": "поставка",
+"event_date": "2026-11-17",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://focus.ua/voennye-novosti/775091-zasedanie-v-ramshtayne-kakuyu-pomoshch-okazhut-shveciya-velikobritaniya-i-germaniya",
+"published_at": "2026-11-17T20:37:32Z",
+"quote": "ВОЕННЫЙ ФОКУС РОССИЙСКО-УКРАИНСКАЯ ВОЙНА Ракеты IRIS-T \"скрестят\" с NASAMS и передадут радары для \"Фрейи\": итоги \"Рамштайна-37\" Дарья Бережная 17."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_b453b828c722110a",
+"from": "ent_28fea1c77915c37a",
+"to": "ent_df912e0929fe5a8d",
+"type": "поставка",
+"event_date": "2026-11-17",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://focus.ua/voennye-novosti/775091-zasedanie-v-ramshtayne-kakuyu-pomoshch-okazhut-shveciya-velikobritaniya-i-germaniya",
+"published_at": "2026-11-17T20:37:32Z",
+"quote": "ВОЕННЫЙ ФОКУС РОССИЙСКО-УКРАИНСКАЯ ВОЙНА Ракеты IRIS-T \"скрестят\" с NASAMS и передадут радары для \"Фрейи\": итоги \"Рамштайна-37\" Дарья Бережная 17."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_b4fb95247f405aa5",
+"from": "ent_28fea1c77915c37a",
+"to": "ent_15eb02fb74bfef8c",
+"type": "поставка",
+"event_date": "2026-11-17",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://focus.ua/voennye-novosti/775091-zasedanie-v-ramshtayne-kakuyu-pomoshch-okazhut-shveciya-velikobritaniya-i-germaniya",
+"published_at": "2026-11-17T20:37:32Z",
+"quote": "ВОЕННЫЙ ФОКУС РОССИЙСКО-УКРАИНСКАЯ ВОЙНА Ракеты IRIS-T \"скрестят\" с NASAMS и передадут радары для \"Фрейи\": итоги \"Рамштайна-37\" Дарья Бережная 17."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e7fd5942f2403396",
+"from": "ent_0c36b0d6c4e30d69",
+"to": "ent_2ea283e971c4fe16",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://focus.ua/voennye-novosti/775091-zasedanie-v-ramshtayne-kakuyu-pomoshch-okazhut-shveciya-velikobritaniya-i-germaniya",
+"published_at": "2026-11-17T20:37:32Z",
+"quote": "В частности, Берлин продолжит программы поставок управляемых ракет для Patriot, а также систем IRIS-T и боеприпасов к ним."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_8ce93377b6096661",
+"from": "ent_14d1757585b55c53",
+"to": "ent_ea737724a72411d4",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://unian.net/war/udar-po-krymskomu-mostu-proshel-bez-starlink-s-pomoshchyu-unikalnoy-sisteme-svyazi-the-times-13563102.html",
+"published_at": "2026-11-17T19:18:00Z",
+"quote": "Эта операция также доказала, что Украина больше не нуждается в сетях Starlink и Starshield Илона Маска для проведения ударных миссий, пишет The Times."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_ed4ad3a9bc3fd6bd",
+"from": "ent_2b28066d104b43a2",
+"to": "ent_7c3ac01f682b610d",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ruaviation.com/news/2026/9/28/20865",
+"published_at": null,
+"quote": "The Yak-130M combat training aircraft can be equipped with four gun mounts, which will double the probability of destroying enemy drones, Alexander Guskov, a test pilot at PJSC Yakovlev, said."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 }
 ]
