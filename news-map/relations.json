@@ -5,12 +5,22 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 207,
+"evidence_count": 212,
 "evidence": [
+{
+"url": "https://ria.ru/20261118/dron-2132499814.html",
+"published_at": "2026-11-18T17:20:36Z",
+"quote": "Российская ПВО за день уничтожила 51 дрон ВСУ"
+},
 {
 "url": "https://tvzvezda.ru/news/202611181827-5XzzJ.html",
 "published_at": "2026-11-18T15:33:01Z",
 "quote": "БПЛА группировки «Юг» поразили два пункта управления дронами ВСУ"
+},
+{
+"url": "https://t.me/mod_russia/69121",
+"published_at": "2026-11-18T15:13:08Z",
+"quote": "❗️ Вооруженные Силы Российской Федерации продолжают нанесение ударов беспилотными летательными аппаратами по морским судам, задействованным в интересах ВСУ."
 },
 {
 "url": "https://tvzvezda.ru/news/202611181711-Zn9Fk.html",
@@ -21,16 +31,6 @@
 "url": "https://tvzvezda.ru/news/202611181526-v2hSJ.html",
 "published_at": "2026-11-18T12:29:14Z",
 "quote": "Российские военнослужащие уничтожили укрепленный опорный пункт ВСУ, состоявший из нескольких блиндажей и огневых позиций, на Днепропетровском направлении."
-},
-{
-"url": "https://unian.net/war/vsu-nanesli-udar-po-mostu-cherez-severskiy-donec-i-povredili-tri-rossiyskih-samoleta-13563708.html",
-"published_at": "2026-11-18T12:02:00Z",
-"quote": "Три самолета и мост через Северский Донец: Генштаб сообщил о новых ударах ВСУ по врагу"
-},
-{
-"url": "https://tvzvezda.ru/news/202611181441-hWkVY.html",
-"published_at": "2026-11-18T11:27:30Z",
-"quote": "Морпехи уничтожили бронемашину и военный робот ВСУ в районе Белозерского"
 }
 ],
 "sentiment": {
@@ -45,12 +45,22 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 61,
+"evidence_count": 64,
 "evidence": [
+{
+"url": "https://ria.ru/20261118/dron-2132499814.html",
+"published_at": "2026-11-18T17:20:36Z",
+"quote": "Российская ПВО за день уничтожила 51 дрон ВСУ"
+},
 {
 "url": "https://tvzvezda.ru/news/202611181812-Dibgz.html",
 "published_at": "2026-11-18T15:18:38Z",
 "quote": "В российском оборонном ведомстве отметили, что огневое поражение беспилотниками сухогруза - это продолжение ударов дронами по морским судам, которые выполняют рейсы в интересах боевиков ВСУ."
+},
+{
+"url": "https://t.me/mod_russia/69121",
+"published_at": "2026-11-18T15:13:08Z",
+"quote": "❗️ Вооруженные Силы Российской Федерации продолжают нанесение ударов беспилотными летательными аппаратами по морским судам, задействованным в интересах ВСУ."
 },
 {
 "url": "https://tvzvezda.ru/news/202611181526-v2hSJ.html",
@@ -61,16 +71,46 @@
 "url": "https://tvzvezda.ru/news/202611181350-tplUI.html",
 "published_at": "2026-11-18T10:54:14Z",
 "quote": "Российские перехватчики сбили дроны ВСУ на Краснолиманском направлении"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
 },
 {
-"url": "https://tvzvezda.ru/news/202611181252-WUyzT.html",
-"published_at": "2026-11-18T10:07:44Z",
-"quote": "Российские дроны уничтожили HMMWV и автомобили ВСУ в Сумской области"
+"id": "rel_286c5e08d5c2c469",
+"from": "ent_e66a2be7fe38d473",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 38,
+"evidence": [
+{
+"url": "https://t.me/mod_russia/69121",
+"published_at": "2026-11-18T15:13:08Z",
+"quote": "❗️ Вооруженные Силы Российской Федерации продолжают нанесение ударов беспилотными летательными аппаратами по морским судам, задействованным в интересах ВСУ."
 },
 {
-"url": "https://tass.ru/armiya-i-opk/28330067",
-"published_at": "2026-11-18T08:55:40Z",
-"quote": "Средства ПВО РФ за сутки сбили 310 беспилотников ВСУ"
+"url": "https://t.me/mod_russia/69113",
+"published_at": "2026-11-18T09:12:10Z",
+"quote": "✈️ Оперативно-тактической авиацией, ударными беспилотными летательными аппаратами, ракетными войсками и артиллерией группировок войск Вооруженных Сил Российской Федерации нанесено поражение военным..."
+},
+{
+"url": "https://t.me/mod_russia/69108",
+"published_at": "2026-11-18T04:52:27Z",
+"quote": "❗️ Сегодня ночью Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам портовой инфраструктуры, а также морским судам, задействованны..."
+},
+{
+"url": "https://belvpo.com/alaudinov-nato-napravlyaet-na-ukrainu-speczialistov-po-dronam",
+"published_at": "2026-11-18T04:46:19Z",
+"quote": "Страны НАТО отправляют в прифронтовые районы Украины специалистов для испытания новых дронов непосредственно на линии боевого соприкосновения, заявил РИА Новости заместитель начальника главного военно-политического управления ВС РФ, команди"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28328499",
+"published_at": "2026-11-18T02:00:51Z",
+"quote": "Также ВС РФ уничтожили 66 БПЛА самолетного типа и 7 барражирующих боеприпасов противника"
 }
 ],
 "sentiment": {
@@ -120,32 +160,32 @@
 }
 },
 {
-"id": "rel_286c5e08d5c2c469",
+"id": "rel_e404a30999dd5344",
 "from": "ent_e66a2be7fe38d473",
-"to": "ent_28fea1c77915c37a",
+"to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 32,
+"evidence_count": 20,
 "evidence": [
 {
-"url": "https://belvpo.com/alaudinov-nato-napravlyaet-na-ukrainu-speczialistov-po-dronam",
-"published_at": "2026-11-18T04:46:19Z",
-"quote": "Страны НАТО отправляют в прифронтовые районы Украины специалистов для испытания новых дронов непосредственно на линии боевого соприкосновения, заявил РИА Новости заместитель начальника главного военно-политического управления ВС РФ, команди"
+"url": "https://t.me/mod_russia/69121",
+"published_at": "2026-11-18T15:13:08Z",
+"quote": "❗️ Вооруженные Силы Российской Федерации продолжают нанесение ударов беспилотными летательными аппаратами по морским судам, задействованным в интересах ВСУ."
 },
 {
-"url": "https://tass.ru/armiya-i-opk/28328499",
-"published_at": "2026-11-18T02:00:51Z",
-"quote": "Также ВС РФ уничтожили 66 БПЛА самолетного типа и 7 барражирующих боеприпасов противника"
-},
-{
-"url": "https://tvzvezda.ru/news/202611171617-25byW.html",
-"published_at": "2026-11-17T14:06:35Z",
-"quote": "Военные инженеры ВС РФ уничтожили Bradley на сброшенных с дронов минах"
+"url": "https://t.me/mod_russia/69113",
+"published_at": "2026-11-18T09:12:10Z",
+"quote": "✈️ Оперативно-тактической авиацией, ударными беспилотными летательными аппаратами, ракетными войсками и артиллерией группировок войск Вооруженных Сил Российской Федерации нанесено поражение военным аэродромам, объектам энергетической, транс"
 },
 {
 "url": "https://tass.ru/armiya-i-opk/28325673",
 "published_at": "2026-11-17T08:52:23Z",
 "quote": "ВС РФ поразили места производства и хранения беспилотников ВСУ"
+},
+{
+"url": "https://t.me/mod_russia/69077",
+"published_at": "2026-11-17T07:04:26Z",
+"quote": "❗️ Сегодня ночью Вооруженными Силами Российской Федерации нанесен массированный удар высокоточным оружием наземного и воздушного базирования, беспилотными летательными аппаратами по предприятиям военно-промышленного комплекса Украины и объе"
 },
 {
 "url": "https://tass.ru/armiya-i-opk/28324245",
@@ -197,46 +237,6 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_e404a30999dd5344",
-"from": "ent_e66a2be7fe38d473",
-"to": "ent_76aae9f116d88191",
-"type": "применение",
-"event_date": null,
-"evidence_count": 17,
-"evidence": [
-{
-"url": "https://tass.ru/armiya-i-opk/28325673",
-"published_at": "2026-11-17T08:52:23Z",
-"quote": "ВС РФ поразили места производства и хранения беспилотников ВСУ"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28324245",
-"published_at": "2026-11-17T02:04:33Z",
-"quote": "ВС РФ поразили технику, боекомплект и средства связи ВСУ в Сумской области"
-},
-{
-"url": "https://t.me/mod_russia/69064",
-"published_at": "2026-11-16T15:14:38Z",
-"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по логистическим центрам, объектам портовой и железнодорожной инфраструктуры, задействованным в интересах ВСУ."
-},
-{
-"url": "https://t.me/mod_russia/69060",
-"published_at": "2026-11-16T09:10:56Z",
-"quote": "✈️ Оперативно-тактической авиацией, ударными беспилотными летательными аппаратами, ракетными войсками и артиллерией группировок войск Вооруженных Сил Российской Федерации нанесено поражение объектам энергетической, транспортной инфраструкту"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28321055",
-"published_at": "2026-11-16T08:52:50Z",
-"quote": "ВС РФ поразили места хранения и запуска беспилотников ВСУ"
-}
-],
-"sentiment": {
-"score_pm1": -0.1,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -320,6 +320,86 @@
 }
 },
 {
+"id": "rel_36dc9b13ddf1a45c",
+"from": "ent_76aae9f116d88191",
+"to": "ent_ff878af017a8077e",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 9,
+"evidence": [
+{
+"url": "https://t.me/belta_telegramm/404350",
+"published_at": "2026-11-18T16:33:58Z",
+"quote": "Португалия отказалась передавать Украине истребители F-16"
+},
+{
+"url": "https://topwar.ru/293779-portugalija-snova-otkazala-ukraine-reshiv-ne-peredavat-istrebiteli-f-16.html",
+"published_at": "2026-11-18T16:15:05Z",
+"quote": "Португалия снова отказала Украине, решив не передавать истребители F-16"
+},
+{
+"url": "https://belta.by/world/view/portugalija-otkazalas-peredavat-ukraine-istrebiteli-f-16-811499-2026",
+"published_at": "2026-11-18T16:08:51Z",
+"quote": "Португалия отказалась передавать Украине истребители F-16"
+},
+{
+"url": "https://t.me/newsby_btrc/209938",
+"published_at": "2026-11-18T16:06:01Z",
+"quote": "Португалия отказалась передавать Украине истребители F-16, об этом сообщил министр иностранных дел страны Паулу Ранжел"
+},
+{
+"url": "https://kyivpost.com/post/90515",
+"published_at": "2026-11-18T16:00:07Z",
+"quote": "Portugal Rules Out F-16 Transfers to Ukraine, Offers Pilot Training and Aid"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_052a9524c0f2eda4",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_e5f190ccc39e3fdd",
+"type": "применение",
+"event_date": null,
+"evidence_count": 9,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611181827-5XzzJ.html",
+"published_at": "2026-11-18T15:33:01Z",
+"quote": "Ранее Минобороны показало кадры уничтожения антенн-ретрансляторов и пункта управления БПЛА ВСУ на Днепропетровском направлении."
+},
+{
+"url": "https://tvzvezda.ru/news/202611181526-v2hSJ.html",
+"published_at": "2026-11-18T12:29:14Z",
+"quote": "Российские военнослужащие уничтожили укрепленный опорный пункт ВСУ, состоявший из нескольких блиндажей и огневых позиций, на Днепропетровском направлении."
+},
+{
+"url": "https://t.me/mod_russia/69090",
+"published_at": "2026-11-17T15:48:22Z",
+"quote": "▪️ Кроме того, поражены три электроподстанции ПС-330 в городах Ровно и Грабов Ровенской области, Каменское Днепропетровской области, а также электроподстанция ПС-110 в городе Черновцы Черновицкой области, обеспечивающие распределение электр"
+},
+{
+"url": "https://tvzvezda.ru/news/20261117163-H2yDW.html",
+"published_at": "2026-11-17T13:12:14Z",
+"quote": "Ранее ведомство сообщило, что расчеты того же 78-го полка уничтожили семь антенн-ретрансляторов связи ВСУ на Днепропетровском направлении."
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%81%d0%b0%d1%83-%d0%bc%d1%81%d1%82%d0%b0-%d1%81-%d1%83%d0%bd%d0%b8%d1%87%d1%82%d0%be%d0%b6%d0%b8%d0%bb-%d0%bf%d1%83%d0%bd%d0%ba%d1%82-%d1%83%d0%bf",
+"published_at": "2026-11-17T08:36:31Z",
+"quote": "РАСЧЕТ САУ «МСТА-С» УНИЧТОЖИЛ ПУНКТ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_10779e8458274135",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_0a0009fc82d3fadc",
@@ -357,46 +437,6 @@
 "score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_36dc9b13ddf1a45c",
-"from": "ent_76aae9f116d88191",
-"to": "ent_ff878af017a8077e",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 8,
-"evidence": [
-{
-"url": "https://topwar.ru/293779-portugalija-snova-otkazala-ukraine-reshiv-ne-peredavat-istrebiteli-f-16.html",
-"published_at": "2026-11-18T16:15:05Z",
-"quote": "Португалия снова отказала Украине, решив не передавать истребители F-16"
-},
-{
-"url": "https://belta.by/world/view/portugalija-otkazalas-peredavat-ukraine-istrebiteli-f-16-811499-2026",
-"published_at": "2026-11-18T16:08:51Z",
-"quote": "Португалия отказалась передавать Украине истребители F-16"
-},
-{
-"url": "https://t.me/newsby_btrc/209938",
-"published_at": "2026-11-18T16:06:01Z",
-"quote": "Португалия отказалась передавать Украине истребители F-16, об этом сообщил министр иностранных дел страны Паулу Ранжел"
-},
-{
-"url": "https://kyivpost.com/post/90515",
-"published_at": "2026-11-18T16:00:07Z",
-"quote": "Portugal Rules Out F-16 Transfers to Ukraine, Offers Pilot Training and Aid"
-},
-{
-"url": "https://t.me/sbbytoday_by/202101",
-"published_at": "2026-11-18T15:15:58Z",
-"quote": "⚡️Португалия отказалась передавать Украине истребители F-16, об этом сообщил министр иностранных дел страны Паулу Ранжел"
-}
-],
-"sentiment": {
-"score_pm1": -0.1,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -480,6 +520,46 @@
 }
 },
 {
+"id": "rel_5be9d4c568aaef6c",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_a22db82c40874406",
+"type": "применение",
+"event_date": null,
+"evidence_count": 8,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611181711-Zn9Fk.html",
+"published_at": "2026-11-18T14:40:02Z",
+"quote": "Артиллеристы группировки войск «Восток» нанесли удары по укрепленным позициям ВСУ в Запорожской области."
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6%d0%b8-%d1%82%d0%b0%d0%bd%d0%ba%d0%be%d0%b2-%d1%82-90%d0%bc-%d0%bf%d1%80%d0%be%d1%80%d1%8b%d0%b2-%d0%b3%d1%80%d1%83%d0%bf%d0%bf%d0%b8%d1%80%d0%be%d0%b2",
+"published_at": "2026-11-17T08:28:08Z",
+"quote": "ЭКИПАЖИ ТАНКОВ Т-90М «ПРОРЫВ» ГРУППИРОВКИ ВОЙСК «ВОСТОК» УНИЧТОЖИЛИ ПЕРЕДОВЫЕ ПОЗИЦИИ ВСУ В ЗАПОРОЖСКОЙ ОБЛАСТИ"
+},
+{
+"url": "https://tvzvezda.ru/news/202611171037-cwod8.html",
+"published_at": "2026-11-17T07:54:13Z",
+"quote": "Минобороны России сообщило об уничтожении передовых позиций ВСУ в Запорожской области."
+},
+{
+"url": "https://t.me/mod_russia/69073",
+"published_at": "2026-11-17T05:09:23Z",
+"quote": "💥 В результате удара  поражены предприятия военно-промышленного комплекса Украины, задействованные в производстве крылатых ракет, БПЛА большой и средней дальности, объекты транспортной инфраструктуры в городах Киев, Запорожье, в Черкасской "
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28324239",
+"published_at": "2026-11-17T02:01:11Z",
+"quote": "Танки Т-90М \"Прорыв\" уничтожили передовые позиции ВСУ в Запорожской области"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_94a004dd432484e5",
 "from": "ent_cd3c86a3a1af0b40",
 "to": "ent_28fea1c77915c37a",
@@ -560,37 +640,37 @@
 }
 },
 {
-"id": "rel_052a9524c0f2eda4",
+"id": "rel_795a2febfc5b43c6",
 "from": "ent_ed88ced226e6c399",
-"to": "ent_e5f190ccc39e3fdd",
-"type": "применение",
+"to": "ent_e66a2be7fe38d473",
+"type": "судебный спор",
 "event_date": null,
 "evidence_count": 7,
 "evidence": [
 {
-"url": "https://tvzvezda.ru/news/202611181827-5XzzJ.html",
-"published_at": "2026-11-18T15:33:01Z",
-"quote": "Ранее Минобороны показало кадры уничтожения антенн-ретрансляторов и пункта управления БПЛА ВСУ на Днепропетровском направлении."
+"url": "https://t.me/mod_russia/69121",
+"published_at": "2026-11-18T15:13:08Z",
+"quote": "❗️ Вооруженные Силы Российской Федерации продолжают нанесение ударов беспилотными летательными аппаратами по морским судам, задействованным в интересах ВСУ."
 },
 {
-"url": "https://tvzvezda.ru/news/202611181526-v2hSJ.html",
-"published_at": "2026-11-18T12:29:14Z",
-"quote": "Российские военнослужащие уничтожили укрепленный опорный пункт ВСУ, состоявший из нескольких блиндажей и огневых позиций, на Днепропетровском направлении."
+"url": "https://t.me/mod_russia/69108",
+"published_at": "2026-11-18T04:52:27Z",
+"quote": "❗️ Сегодня ночью Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам портовой инфраструктуры, а также морским судам, задействованным в интересах обеспечения ВСУ."
 },
 {
-"url": "https://tvzvezda.ru/news/20261117163-H2yDW.html",
-"published_at": "2026-11-17T13:12:14Z",
-"quote": "Ранее ведомство сообщило, что расчеты того же 78-го полка уничтожили семь антенн-ретрансляторов связи ВСУ на Днепропетровском направлении."
+"url": "https://t.me/mod_russia/69090",
+"published_at": "2026-11-17T15:48:22Z",
+"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по объектам портовой и железнодорожной инфраструктуры, а также морским судам, задействованным в интересах ВСУ."
 },
 {
-"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%81%d0%b0%d1%83-%d0%bc%d1%81%d1%82%d0%b0-%d1%81-%d1%83%d0%bd%d0%b8%d1%87%d1%82%d0%be%d0%b6%d0%b8%d0%bb-%d0%bf%d1%83%d0%bd%d0%ba%d1%82-%d1%83%d0%bf",
-"published_at": "2026-11-17T08:36:31Z",
-"quote": "РАСЧЕТ САУ «МСТА-С» УНИЧТОЖИЛ ПУНКТ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+"url": "https://t.me/mod_russia/69055",
+"published_at": "2026-11-16T06:01:05Z",
+"quote": "❗️ Сегодня ночью Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам портовой и железнодорожной инфраструктуры, а также морским судам, задействованным в интересах обеспечения"
 },
 {
-"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%82%d0%be%d1%81-2-%d1%82%d0%be%d1%81%d0%be%d1%87%d0%ba%d0%b0-%d1%81%d0%be%d0%b5%d0%b4%d0%b8%d0%bd%d0%b5%d0%bd%d0%b8%d1%8f-%d1%80%d1%85%d0%b1%d0%b7",
-"published_at": "2026-11-16T08:59:14Z",
-"quote": "РАСЧЕТ ТОС-2 «ТОСОЧКА» СОЕДИНЕНИЯ РХБЗ ГРУППИРОВКИ ВОЙСК «ЦЕНТР» УНИЧТОЖИЛ РАЙОН СОСРЕДОТОЧЕНИЯ ПУНКТОВ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+"url": "https://t.me/mod_russia/69043",
+"published_at": "2026-11-15T15:13:54Z",
+"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по логистическим центрам Украины, объектам портовой инфраструктуры и морским судам, задействованным в интересах ВСУ."
 }
 ],
 "sentiment": {
@@ -600,41 +680,41 @@
 }
 },
 {
-"id": "rel_5be9d4c568aaef6c",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_a22db82c40874406",
+"id": "rel_6d86617406752333",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_b677547c4bb180c5",
 "type": "применение",
 "event_date": null,
-"evidence_count": 7,
+"evidence_count": 6,
 "evidence": [
 {
-"url": "https://tvzvezda.ru/news/202611181711-Zn9Fk.html",
-"published_at": "2026-11-18T14:40:02Z",
-"quote": "Артиллеристы группировки войск «Восток» нанесли удары по укрепленным позициям ВСУ в Запорожской области."
+"url": "https://foxnews.com/politics/16-ecuadorian-fishermen-sue-us-government-allege-drone-attack-destroyed-boat-galapagos",
+"published_at": "2026-11-18T18:14:57Z",
+"quote": "com/politics/dem-senator-accuses-pentagon-murder-boat-strikes-targeting-drug-traffickers\" target=\"_blank\" rel=\"noopener noreferrer\">the Trump administration’s broader campaign</a> against vessels suspected of drug trafficking."
 },
 {
-"url": "https://bastion-karpenko.ru/%d1%8d%d0%ba%d0%b8%d0%bf%d0%b0%d0%b6%d0%b8-%d1%82%d0%b0%d0%bd%d0%ba%d0%be%d0%b2-%d1%82-90%d0%bc-%d0%bf%d1%80%d0%be%d1%80%d1%8b%d0%b2-%d0%b3%d1%80%d1%83%d0%bf%d0%bf%d0%b8%d1%80%d0%be%d0%b2",
-"published_at": "2026-11-17T08:28:08Z",
-"quote": "ЭКИПАЖИ ТАНКОВ Т-90М «ПРОРЫВ» ГРУППИРОВКИ ВОЙСК «ВОСТОК» УНИЧТОЖИЛИ ПЕРЕДОВЫЕ ПОЗИЦИИ ВСУ В ЗАПОРОЖСКОЙ ОБЛАСТИ"
+"url": "https://dronelife.com/2026/11/18/pentagon-counter-drone-laser-competition",
+"published_at": "2026-11-18T17:05:20Z",
+"quote": "The Pentagon has selected seven companies to demonstrate high-energy laser weapons designed to destroy hostile drones."
 },
 {
-"url": "https://tvzvezda.ru/news/202611171037-cwod8.html",
-"published_at": "2026-11-17T07:54:13Z",
-"quote": "Минобороны России сообщило об уничтожении передовых позиций ВСУ в Запорожской области."
+"url": "https://t.me/newsby_btrc/209899",
+"published_at": "2026-11-18T07:12:01Z",
+"quote": "В Пентагоне раскритиковали дальнобойные удары Украины по России"
 },
 {
-"url": "https://tass.ru/armiya-i-opk/28324239",
-"published_at": "2026-11-17T02:01:11Z",
-"quote": "Танки Т-90М \"Прорыв\" уничтожили передовые позиции ВСУ в Запорожской области"
+"url": "https://belvpo.com/v-pentagone-vyskazalis-ob-udarah-vsu-vglub-rossii",
+"published_at": "2026-11-17T18:37:10Z",
+"quote": "В Пентагоне высказались об ударах ВСУ вглубь России"
 },
 {
-"url": "https://ria.ru/20261116/spetsoperatsiya-2131762888.html",
-"published_at": "2026-11-16T02:10:14Z",
-"quote": "ВС России уничтожили пункты управления БПЛА ВСУ в Запорожской области"
+"url": "https://nypost.com/2026/11/16/us-news/pentagon-ignored-warnings-before-iran-drone-killed-6-us-service-members-in-kuwait-whistleblower-claims",
+"published_at": "2026-11-16T12:05:27Z",
+"quote": "Stephen Ramsbottom claims the Pentagon ignored warnings before an Iranian drone strike killed six US service members in Kuwait."
 }
 ],
 "sentiment": {
-"score_pm1": -0.2,
+"score_pm1": -0.4,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -1280,6 +1360,46 @@
 }
 },
 {
+"id": "rel_aec10cea9f75dd3f",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_c32678e4a0ae4599",
+"type": "применение",
+"event_date": null,
+"evidence_count": 5,
+"evidence": [
+{
+"url": "https://eadaily.com/ru/news/2026/11/18/nalet-184-dronov-na-krym-i-kuban-i-udar-po-suhogruzu-nochnaya-svodka-minoborony",
+"published_at": "2026-11-18T09:28:00Z",
+"quote": "Следует отметить, что на фоне вчерашней атаки на Крымский мост реакция Москвы оказалась максимально сдержанной — вместо ожидаемого сокрушительного удара возмездия по центрам принятия решений в Киеве российское командование ограничилось план"
+},
+{
+"url": "https://vpk.name/news/1172832_shveciya_i_britaniya_dogovorilis_snabzhat_boepripasami_ukrainskie_gripen.html",
+"published_at": "2026-11-17T21:00:01Z",
+"quote": "ВС России нанесли удары по мостам в Киеве Швеция, Британия и Украина подписали декларацию о намерениях по сотрудничеству в сфере снабжения ВСУ боеприпасами и материалами для истребителей JAS Gripen."
+},
+{
+"url": "https://t.me/mod_russia/69073",
+"published_at": "2026-11-17T05:09:23Z",
+"quote": "💥 В результате удара  поражены предприятия военно-промышленного комплекса Украины, задействованные в производстве крылатых ракет, БПЛА большой и средней дальности, объекты транспортной инфраструктуры в городах Киев, Запорожье, в Черкасской "
+},
+{
+"url": "https://warfiles.ru/274008-poka-pvo-kieva-vysmatrivala-ballistiku-gerani-udarili-po-tylu-vsu.html",
+"published_at": "2026-11-16T18:43:24Z",
+"quote": "Пока ПВО Киева высматривала «баллистику», «Герани» ударили по тылу ВСУ"
+},
+{
+"url": "https://t.me/news_UAV/5318",
+"published_at": "2026-06-23T17:10:59Z",
+"quote": "Президент отметил, что ситуация для киевского режима на фронте стремительно ухудшается, поэтому ВСУ наносит удары по гражданским объектам, пытается создать проблемы с обеспечением энергоресурсами и повлиять на туристический сезон в России."
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_11886a2f765e7808",
 "from": "ent_7c4278bb1c2365e3",
 "to": "ent_42945ce6b8f796c3",
@@ -1360,38 +1480,38 @@
 }
 },
 {
-"id": "rel_6d86617406752333",
-"from": "ent_b0bba4c8f275ffd0",
-"to": "ent_b677547c4bb180c5",
-"type": "применение",
+"id": "rel_78016c356543d94a",
+"from": "ent_3d66be6936f89f7f",
+"to": "ent_cd75b7acacf53304",
+"type": "должность",
 "event_date": null,
 "evidence_count": 4,
 "evidence": [
 {
-"url": "https://t.me/newsby_btrc/209899",
-"published_at": "2026-11-18T07:12:01Z",
-"quote": "В Пентагоне раскритиковали дальнобойные удары Украины по России"
+"url": "https://dronexl.co/2026/11/18/putnam-sheriff-dfr-drones-312000-legislature-skydio",
+"published_at": "2026-11-18T16:50:00Z",
+"quote": "co/2026/04/22/skydio-ceo-ramapo-police-dfr-rockland/\">Skydio CEO Adam Bry attended a Ramapo police DFR demo</a> for the county’s town supervisors this spring."
 },
 {
-"url": "https://belvpo.com/v-pentagone-vyskazalis-ob-udarah-vsu-vglub-rossii",
-"published_at": "2026-11-17T18:37:10Z",
-"quote": "В Пентагоне высказались об ударах ВСУ вглубь России"
+"url": "https://dronexl.co/2026/11/12/luis-figueiredo-skydio-outsell-dji-guest-post",
+"published_at": "2026-11-12T18:07:00Z",
+"quote": "</p> <p>On Tuesday DroneXL reported that Skydio CEO Adam Bry <a href=\"https://dronexl."
 },
 {
-"url": "https://nypost.com/2026/11/16/us-news/pentagon-ignored-warnings-before-iran-drone-killed-6-us-service-members-in-kuwait-whistleblower-claims",
-"published_at": "2026-11-16T12:05:27Z",
-"quote": "Stephen Ramsbottom claims the Pentagon ignored warnings before an Iranian drone strike killed six US service members in Kuwait."
+"url": "https://dronexl.co/2026/11/10/skydio-adam-bry-outsell-dji-us-relentless-interview",
+"published_at": "2026-11-11T03:05:00Z",
+"quote": "Skydio CEO Adam Bry Says Skydio Will Outsell DJI in the US This Year"
 },
 {
-"url": "https://breakingdefense.com/2026/11/allen-control-systems-launches-new-division-to-develop-counter-drone-lasers",
-"published_at": "2026-11-10T20:56:37Z",
-"quote": "The announcement comes amid the Pentagon’s growing interest in laser weapons, which use concentrated beams of energy to heat and destroy targets."
+"url": "https://dronexl.co/2026/11/08/skydio-controller-2-ships-395-grams-heavier",
+"published_at": "2026-11-08T23:55:00Z",
+"quote": "webp\" alt=\"Operator in an orange high-visibility shirt holding a Skydio Controller 2 with its sun hood open, showing a map and drone video on the screen\" /></p> <p>Skydio’s Controller 2, a new handheld controller for its X10, X10D and R10 d"
 }
 ],
 "sentiment": {
-"score_pm1": -0.4,
-"score_pm2": -1,
-"label": "умеренно негативный"
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -1605,41 +1725,6 @@
 }
 },
 {
-"id": "rel_aec10cea9f75dd3f",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_c32678e4a0ae4599",
-"type": "применение",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://eadaily.com/ru/news/2026/11/18/nalet-184-dronov-na-krym-i-kuban-i-udar-po-suhogruzu-nochnaya-svodka-minoborony",
-"published_at": "2026-11-18T09:28:00Z",
-"quote": "Следует отметить, что на фоне вчерашней атаки на Крымский мост реакция Москвы оказалась максимально сдержанной — вместо ожидаемого сокрушительного удара возмездия по центрам принятия решений в Киеве российское командование ограничилось план"
-},
-{
-"url": "https://vpk.name/news/1172832_shveciya_i_britaniya_dogovorilis_snabzhat_boepripasami_ukrainskie_gripen.html",
-"published_at": "2026-11-17T21:00:01Z",
-"quote": "ВС России нанесли удары по мостам в Киеве Швеция, Британия и Украина подписали декларацию о намерениях по сотрудничеству в сфере снабжения ВСУ боеприпасами и материалами для истребителей JAS Gripen."
-},
-{
-"url": "https://warfiles.ru/274008-poka-pvo-kieva-vysmatrivala-ballistiku-gerani-udarili-po-tylu-vsu.html",
-"published_at": "2026-11-16T18:43:24Z",
-"quote": "Пока ПВО Киева высматривала «баллистику», «Герани» ударили по тылу ВСУ"
-},
-{
-"url": "https://t.me/news_UAV/5318",
-"published_at": "2026-06-23T17:10:59Z",
-"quote": "Президент отметил, что ситуация для киевского режима на фронте стремительно ухудшается, поэтому ВСУ наносит удары по гражданским объектам, пытается создать проблемы с обеспечением энергоресурсами и повлиять на туристический сезон в России."
-}
-],
-"sentiment": {
-"score_pm1": -0.4,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_45e8ee5eb18d7389",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_934031688aa80182",
@@ -1705,41 +1790,6 @@
 ],
 "sentiment": {
 "score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_795a2febfc5b43c6",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_e66a2be7fe38d473",
-"type": "судебный спор",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://t.me/mod_russia/69055",
-"published_at": "2026-11-16T06:01:05Z",
-"quote": "❗️ Сегодня ночью Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам портовой и железнодорожной инфраструктуры, а также морским судам, задействованным в интересах обеспечения"
-},
-{
-"url": "https://t.me/mod_russia/69043",
-"published_at": "2026-11-15T15:13:54Z",
-"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по логистическим центрам Украины, объектам портовой инфраструктуры и морским судам, задействованным в интересах ВСУ."
-},
-{
-"url": "https://t.me/mod_russia/69025",
-"published_at": "2026-11-15T05:42:06Z",
-"quote": "❗️ Сегодня ночью Вооруженными Силами Российской Федерации продолжено нанесение ударов беспилотными летательными аппаратами по объектам энергетики, портовой и железнодорожной инфраструктуры, а также морским судам, задействованным в интересах"
-},
-{
-"url": "https://t.me/mod_russia/69016",
-"published_at": "2026-11-14T15:58:35Z",
-"quote": "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по объектам портовой инфраструктуры и морским судам, задействованным в интересах ВСУ."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -1831,36 +1881,6 @@
 "url": "https://dronexl.co/2026/11/09/shield-ai-echodyne-5-3-billion-counter-drone-radar",
 "published_at": "2026-11-10T00:27:00Z",
 "quote": "CEO Eben Frankenberg will report directly to Shield AI CEO Gary Steele and keep responsibility for Echodyne’s products and its customers."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_78016c356543d94a",
-"from": "ent_3d66be6936f89f7f",
-"to": "ent_cd75b7acacf53304",
-"type": "должность",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://dronexl.co/2026/11/12/luis-figueiredo-skydio-outsell-dji-guest-post",
-"published_at": "2026-11-12T18:07:00Z",
-"quote": "</p> <p>On Tuesday DroneXL reported that Skydio CEO Adam Bry <a href=\"https://dronexl."
-},
-{
-"url": "https://dronexl.co/2026/11/10/skydio-adam-bry-outsell-dji-us-relentless-interview",
-"published_at": "2026-11-11T03:05:00Z",
-"quote": "Skydio CEO Adam Bry Says Skydio Will Outsell DJI in the US This Year"
-},
-{
-"url": "https://dronexl.co/2026/11/08/skydio-controller-2-ships-395-grams-heavier",
-"published_at": "2026-11-08T23:55:00Z",
-"quote": "webp\" alt=\"Operator in an orange high-visibility shirt holding a Skydio Controller 2 with its sun hood open, showing a map and drone video on the screen\" /></p> <p>Skydio’s Controller 2, a new handheld controller for its X10, X10D and R10 d"
 }
 ],
 "sentiment": {
@@ -3480,6 +3500,31 @@
 ],
 "sentiment": {
 "score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_ff714d058751cb54",
+"from": "ent_c4d02534cbe847ba",
+"to": "ent_ea737724a72411d4",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://insidegnss.com/eutelsat-network-solutions-adds-alternative-pnt-to-60-million-plus-space-force-leo-award",
+"published_at": "2026-11-18T17:23:11Z",
+"quote": "An earlier Warrior Plans task order went to SpaceX for Starshield services."
+},
+{
+"url": "https://overtdefense.com/2026/11/12/ukraine-says-starshield-drone-speed-limits-have-returned",
+"published_at": "2026-11-12T14:00:03Z",
+"quote": "After the end of the October disruption, SpaceX CEO Elon Musk accused Ukraine of having “violated Starlink terms of service” by using civilian Starlink terminals in drones, but insisted that the Starshield disruption had been ordered by the"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -5235,6 +5280,31 @@
 }
 },
 {
+"id": "rel_42c54454f11a9339",
+"from": "ent_b5f76dc0ce128813",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://unian.net/war/krymskiy-most-razrushen-blagodarya-novym-letayushchim-modemam-kotorye-primenila-ukraina-ft-13564113.html",
+"published_at": "2026-11-18T16:53:43Z",
+"quote": "Операция на Керченском мосту, пишут авторы со ссылкой на украинского военного блогера Богдана Мирошникова, открывает окно в недалекое будущее, в котором \"большинство украинских беспилотников средней дальности будут использовать ту же технол"
+},
+{
+"url": "https://tvzvezda.ru/news/202611161821-ILkjP.html",
+"published_at": "2026-11-16T15:41:22Z",
+"quote": "Российские дроны уничтожили гаубицы М777 и «Богдана» в Запорожской области"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_429782e0c62e9f38",
 "from": "ent_7902a5283b8ea891",
 "to": "ent_82e26e90a014009e",
@@ -5701,6 +5771,31 @@
 "url": "https://unmannedairspace.info/latest-news-and-information/uk-to-supply-ukraine-with-more-than-1000-air-defence-missiles-to-counter-russian-drones",
 "published_at": "2026-11-18T11:18:32Z",
 "quote": "UK Defence Secretary Wes Streeting announced the package while co-chairing the 37th meeting of the Ukraine Defence Contact Group at NATO headquarters in Brussels."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_f598e5e67a5231ea",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_9e51a7ee6340af7b",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://news.err.ee/1610199109/estonian-drone-teams-sharpen-tactics-with-french-belgian-allies-in-poland",
+"published_at": "2026-11-18T12:01:00Z",
+"quote": "France also contributes to the NATO deployment in Estonia itself."
+},
+{
+"url": "https://forsvaret.dk/da/nyheder/2026/kampbataljonen-uddanner-sig-i-bekampelse-af-droner",
+"published_at": "2026-11-18T00:00:00Z",
+"quote": "Den danske kampbataljon i Letland har i den seneste uge deltaget i øvelsen Resolute Reforger, hvor NATOs Multinational Brigade Latvia har trænet deployering af militære enheder."
 }
 ],
 "sentiment": {
@@ -9138,26 +9233,6 @@
 "id": "rel_6616e69bcf13a620",
 "from": "ent_c4d02534cbe847ba",
 "to": "ent_14d1757585b55c53",
-"type": "контракт",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://overtdefense.com/2026/11/12/ukraine-says-starshield-drone-speed-limits-have-returned",
-"published_at": "2026-11-12T14:00:03Z",
-"quote": "After the end of the October disruption, SpaceX CEO Elon Musk accused Ukraine of having “violated Starlink terms of service” by using civilian Starlink terminals in drones, but insisted that the Starshield disruption had been ordered by the"
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_ff714d058751cb54",
-"from": "ent_c4d02534cbe847ba",
-"to": "ent_ea737724a72411d4",
 "type": "контракт",
 "event_date": null,
 "evidence_count": 1,
@@ -20595,26 +20670,6 @@
 }
 },
 {
-"id": "rel_42c54454f11a9339",
-"from": "ent_b5f76dc0ce128813",
-"to": "ent_28fea1c77915c37a",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://tvzvezda.ru/news/202611161821-ILkjP.html",
-"published_at": "2026-11-16T15:41:22Z",
-"quote": "Российские дроны уничтожили гаубицы М777 и «Богдана» в Запорожской области"
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_094e2d50bb5a8f9f",
 "from": "ent_b5f76dc0ce128813",
 "to": "ent_a22db82c40874406",
@@ -26815,26 +26870,6 @@
 }
 },
 {
-"id": "rel_f598e5e67a5231ea",
-"from": "ent_cd3c86a3a1af0b40",
-"to": "ent_9e51a7ee6340af7b",
-"type": "дислокация",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://forsvaret.dk/da/nyheder/2026/kampbataljonen-uddanner-sig-i-bekampelse-af-droner",
-"published_at": "2026-11-18T00:00:00Z",
-"quote": "Den danske kampbataljon i Letland har i den seneste uge deltaget i øvelsen Resolute Reforger, hvor NATOs Multinational Brigade Latvia har trænet deployering af militære enheder."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_487fb830b5193111",
 "from": "ent_e50e9b8e1c289c1d",
 "to": "ent_461f895cd3ecdc32",
@@ -26972,6 +27007,306 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_db986c71f1d23c67",
+"from": "ent_3a39305e851ed0fe",
+"to": "ent_8fac30031d3429f8",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronelife.com/2026/11/18/red-cat-2026-revenue-forecast-defense-contracts",
+"published_at": "2026-11-18T17:29:04Z",
+"quote": "Red Cat Holdings has withdrawn its full-year 2026 revenue forecast, citing slower-than-expected defense funding and contract awards."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_ceee5f3f419a02f0",
+"from": "ent_7253ed019bbb7421",
+"to": "ent_76aae9f116d88191",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/18/ukraine-brave1-tests-nine-dji-mavic-replacements-60-minutes",
+"published_at": "2026-11-18T18:28:00Z",
+"quote": "webp\" alt=\"Open-frame quadcopter with a gimbal camera under its body and a green battery pack on top, flying against a grey sky\" /></p> <p>Ukraine’s defense-tech cluster <strong>Brave1</strong> and the Ministry of Defense have tested Mavic-"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_30b202d1d429306b",
+"from": "ent_bf76140e590eb4ac",
+"to": "ent_4dc00dc3afa34b01",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d0%ba%d0%be%d0%bc%d0%bf%d0%b0%d0%bd%d0%b8%d1%8f-schiebel-%d0%bf%d1%80%d0%be%d0%b4%d0%b5%d0%bc%d0%be%d0%bd%d1%81%d1%82%d1%80%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bb%d0%b0-%d0%b1%d0%b5%d1%81%d0%bf%d0%b8",
+"published_at": "2026-11-18T16:56:20Z",
+"quote": "КОМПАНИЯ SCHIEBEL ПРОДЕМОНСТРИРОВАЛА БЕСПИЛОТНЫЙ ВЕРТОЛЕТ CAMCOPTER S-100 В КАЧЕСТВЕ МАТКИ ДЛЯ НЕБОЛЬШИХ ДРОНОВ КОМПАНИЯ SCHIEBEL ПРОДЕМОНСТРИРОВАЛА БЕСПИЛОТНЫЙ ВЕРТОЛЕТ CAMCOPTER S-100 В КАЧЕСТВЕ МАТКИ ДЛЯ НЕБОЛЬШИХ ДРОНОВ Австрийская комп"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_f6d1d2e83bd70e7b",
+"from": "ent_28fea1c77915c37a",
+"to": "ent_800a92f4d8c294e4",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d0%b2%d0%b2%d1%81-%d0%bc%d0%b0%d0%bb%d0%b8-%d0%bf%d0%be%d0%bb%d1%83%d1%87%d0%b8%d0%bb%d0%b8-%d0%bd%d0%be%d0%b2%d1%83%d1%8e-%d0%bf%d0%b0%d1%80%d1%82%d0%b8%d1%8e-%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b9",
+"published_at": "2026-11-18T16:36:18Z",
+"quote": "ВВС Мали получили новую партию российской авиационной техники: четыре ударных вертолёта Ми-24, два вертолёта Ми-8 и военно-транспортный самолёт Ил-76."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_7e11586c249af680",
+"from": "ent_28fea1c77915c37a",
+"to": "ent_589cb8c768d0ac02",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d0%b2%d0%b2%d1%81-%d0%bc%d0%b0%d0%bb%d0%b8-%d0%bf%d0%be%d0%bb%d1%83%d1%87%d0%b8%d0%bb%d0%b8-%d0%bd%d0%be%d0%b2%d1%83%d1%8e-%d0%bf%d0%b0%d1%80%d1%82%d0%b8%d1%8e-%d1%80%d0%be%d1%81%d1%81%d0%b8%d0%b9",
+"published_at": "2026-11-18T16:36:18Z",
+"quote": "ВВС Мали получили новую партию российской авиационной техники: четыре ударных вертолёта Ми-24, два вертолёта Ми-8 и военно-транспортный самолёт Ил-76."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_0e3dcada989370e3",
+"from": "ent_bf76140e590eb4ac",
+"to": "ent_4dc00dc3afa34b01",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronewatch.eu/schiebel-turns-its-camcopter-s-100-into-a-flying-drone-carrier/?utm_source=rss&utm_medium=rss&utm_campaign=schiebel-turns-its-camcopter-s-100-into-a-flying-drone-carrier",
+"published_at": "2026-11-18T16:57:12Z",
+"quote": "Austrian drone manufacturer Schiebel has now demonstrated a similar capability with its CAMCOPTER S-100, using the larger unmanned helicopter as an airborne launch platform and communications relay for a smaller drone."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_7c140bffd2314160",
+"from": "ent_fc4f7f16cc822050",
+"to": "ent_0d9e062c59b5ed72",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72972",
+"published_at": "2026-11-18T00:00:00Z",
+"quote": "Alex Fink, president of Swarmer and CEO of its U."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_59f7458d32347f2b",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_e02038d40eff00ac",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72971",
+"published_at": "2026-11-18T00:00:00Z",
+"quote": "sharing Pentagon Selects Seven Laser Systems for Counter-Drone Live-Fire Trials The live-fire demonstration at Dugway Proving Ground in Utah aims to evaluate non-kinetic interception capabilities and lead directly to rapid procurement order"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_587987f5f6c9fc66",
+"from": "ent_cc536968c15118bb",
+"to": "ent_1e93cabae4a2c8b7",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72971",
+"published_at": "2026-11-18T00:00:00Z",
+"quote": "According to a report by DefenseScoop, the companies and systems selected to take part in the second phase of the live-target directed-energy shoot-off include the Bullfrog HEL by Allen Control Systems, the Archimedes system by Aurelius Sys"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_2f69ffc846062a20",
+"from": "ent_85a81afee9e48a7e",
+"to": "ent_1e93cabae4a2c8b7",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72971",
+"published_at": "2026-11-18T00:00:00Z",
+"quote": "According to a report by DefenseScoop, the companies and systems selected to take part in the second phase of the live-target directed-energy shoot-off include the Bullfrog HEL by Allen Control Systems, the Archimedes system by Aurelius Sys"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e19b864bc24081e6",
+"from": "ent_6eec13693e0c7343",
+"to": "ent_1e93cabae4a2c8b7",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72971",
+"published_at": "2026-11-18T00:00:00Z",
+"quote": "According to a report by DefenseScoop, the companies and systems selected to take part in the second phase of the live-target directed-energy shoot-off include the Bullfrog HEL by Allen Control Systems, the Archimedes system by Aurelius Sys"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_4665c103f88077de",
+"from": "ent_1b51d8528a19c285",
+"to": "ent_1e93cabae4a2c8b7",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72971",
+"published_at": "2026-11-18T00:00:00Z",
+"quote": "According to a report by DefenseScoop, the companies and systems selected to take part in the second phase of the live-target directed-energy shoot-off include the Bullfrog HEL by Allen Control Systems, the Archimedes system by Aurelius Sys"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_d2056f1a60f25be2",
+"from": "ent_0a42b13c39536e51",
+"to": "ent_1e93cabae4a2c8b7",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72971",
+"published_at": "2026-11-18T00:00:00Z",
+"quote": "According to a report by DefenseScoop, the companies and systems selected to take part in the second phase of the live-target directed-energy shoot-off include the Bullfrog HEL by Allen Control Systems, the Archimedes system by Aurelius Sys"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c57888efcdd1ad8d",
+"from": "ent_5c9f10c24f38507c",
+"to": "ent_1e93cabae4a2c8b7",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72971",
+"published_at": "2026-11-18T00:00:00Z",
+"quote": "According to a report by DefenseScoop, the companies and systems selected to take part in the second phase of the live-target directed-energy shoot-off include the Bullfrog HEL by Allen Control Systems, the Archimedes system by Aurelius Sys"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_a00d5754b3b9d7bb",
+"from": "ent_85a81afee9e48a7e",
+"to": "ent_ed5d1fdb0737b3c6",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72971",
+"published_at": "2026-11-18T00:00:00Z",
+"quote": "history, with AeroVironment stating it expects to deliver dozens of LOCUST X3 laser weapon systems to the Army over the coming years under the deal."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
 }
 }
 ]
