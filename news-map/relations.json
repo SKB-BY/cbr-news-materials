@@ -5,32 +5,32 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 198,
+"evidence_count": 204,
 "evidence": [
 {
-"url": "https://eadaily.com/ru/news/2026/11/18/kiev-dobivaet-npz-oblomki-dronov-podozhgli-dva-krupneyshih-predpriyatiya-na-kubani",
-"published_at": "2026-11-18T09:46:00Z",
-"quote": "com ВСУ ночь на 18 ноября массированно атаковали Северский район Краснодарского края, где второй раз с начала ноября под удар попали два крупных нефтеперерабатывающих завода (НПЗ) — Афипский и Ильский."
+"url": "https://tvzvezda.ru/news/202611181526-v2hSJ.html",
+"published_at": "2026-11-18T12:29:14Z",
+"quote": "Российские военнослужащие уничтожили укрепленный опорный пункт ВСУ, состоявший из нескольких блиндажей и огневых позиций, на Днепропетровском направлении."
 },
 {
-"url": "https://eadaily.com/ru/news/2026/11/18/nalet-184-dronov-na-krym-i-kuban-i-udar-po-suhogruzu-nochnaya-svodka-minoborony",
-"published_at": "2026-11-18T09:28:00Z",
-"quote": "В свою очередь, российские войска минувшей ночью продолжили методичную морскую блокаду логистики ВСУ: беспилотники поразили объекты портовой инфраструктуры в дунайском порту Измаил, где разгружались и хранились военные грузы, а также нанесл"
+"url": "https://tvzvezda.ru/news/202611181441-hWkVY.html",
+"published_at": "2026-11-18T11:27:30Z",
+"quote": "Морпехи уничтожили бронемашину и военный робот ВСУ в районе Белозерского"
 },
 {
-"url": "https://tass.ru/armiya-i-opk/28330067",
-"published_at": "2026-11-18T08:55:40Z",
-"quote": "Средства ПВО РФ за сутки сбили 310 беспилотников ВСУ"
+"url": "https://tvzvezda.ru/news/202611181350-tplUI.html",
+"published_at": "2026-11-18T10:54:14Z",
+"quote": "Российские перехватчики сбили дроны ВСУ на Краснолиманском направлении"
 },
 {
-"url": "https://tvzvezda.ru/news/20261118118-2DHFf.html",
-"published_at": "2026-11-18T08:37:28Z",
-"quote": "Минобороны России сообщило об уничтожении боевиков ВСУ на Краснолиманском направлении."
+"url": "https://belvpo.com/ekzistenczialnyj-vopros",
+"published_at": "2026-11-18T10:14:52Z",
+"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
 },
 {
-"url": "https://rg.ru/2026/11/18/podzemnyj-shtab-tankovogo-batalona-vsu-unichtozhen-metkim-udarom.html",
-"published_at": "2026-11-18T07:08:13Z",
-"quote": "Подземный штаб танкового батальона ВСУ уничтожен метким ударом"
+"url": "https://tvzvezda.ru/news/202611181252-WUyzT.html",
+"published_at": "2026-11-18T10:07:44Z",
+"quote": "Российские дроны уничтожили HMMWV и автомобили ВСУ в Сумской области"
 }
 ],
 "sentiment": {
@@ -45,8 +45,23 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 57,
+"evidence_count": 60,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611181526-v2hSJ.html",
+"published_at": "2026-11-18T12:29:14Z",
+"quote": "Российские военнослужащие уничтожили укрепленный опорный пункт ВСУ, состоявший из нескольких блиндажей и огневых позиций, на Днепропетровском направлении."
+},
+{
+"url": "https://tvzvezda.ru/news/202611181350-tplUI.html",
+"published_at": "2026-11-18T10:54:14Z",
+"quote": "Российские перехватчики сбили дроны ВСУ на Краснолиманском направлении"
+},
+{
+"url": "https://tvzvezda.ru/news/202611181252-WUyzT.html",
+"published_at": "2026-11-18T10:07:44Z",
+"quote": "Российские дроны уничтожили HMMWV и автомобили ВСУ в Сумской области"
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28330067",
 "published_at": "2026-11-18T08:55:40Z",
@@ -56,27 +71,52 @@
 "url": "https://tvzvezda.ru/news/20261118118-2DHFf.html",
 "published_at": "2026-11-18T08:37:28Z",
 "quote": "Минобороны России сообщило об уничтожении боевиков ВСУ на Краснолиманском направлении."
-},
-{
-"url": "https://rg.ru/2026/11/18/reg-dnr/devochka-iz-konstantinovki-rasskazala-kak-boec-rf-cenoj-svoej-zhizni-spas-ee.html",
-"published_at": "2026-11-17T21:20:03Z",
-"quote": "Боец РФ ценой своей жизни спас девочку в Константиновке от удара дрона ВСУ"
-},
-{
-"url": "https://vpk.name/news/1172832_shveciya_i_britaniya_dogovorilis_snabzhat_boepripasami_ukrainskie_gripen.html",
-"published_at": "2026-11-17T21:00:01Z",
-"quote": "ВС России нанесли удары по мостам в Киеве Швеция, Британия и Украина подписали декларацию о намерениях по сотрудничеству в сфере снабжения ВСУ боеприпасами и материалами для истребителей JAS Gripen."
-},
-{
-"url": "https://belvpo.com/v-pentagone-vyskazalis-ob-udarah-vsu-vglub-rossii",
-"published_at": "2026-11-17T18:37:10Z",
-"quote": "В Пентагоне высказались об ударах ВСУ вглубь России"
 }
 ],
 "sentiment": {
 "score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_e1c52a5b186cf847",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_76aae9f116d88191",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 32,
+"evidence": [
+{
+"url": "https://t.me/sledcom_press/33243",
+"published_at": "2026-11-18T11:33:18Z",
+"quote": "🟦По данным оперативного штаба,  в Краснодарском крае  при атаке БПЛА ВСУ ранения получили четыре мирных жителя."
+},
+{
+"url": "https://vpk.name/news/1172391_adapter_ne_toi_sistemy_zenitnye_tanki_skyranger_35_stali_problemnymi_dlya_vsu.html",
+"published_at": "2026-11-16T21:00:01Z",
+"quote": "Данный комплекс прошёл «обкатку» в рядах ВСУ – задолго до того, как в сентябре 2026 года была официально признана его передача."
+},
+{
+"url": "https://tvzvezda.ru/news/202611161255-jCl4d.html",
+"published_at": "2026-11-16T10:04:04Z",
+"quote": "Кроме того, беспилотники круглосуточно наблюдают за обстановкой вдоль линии боевого соприкосновения, выявляют позиции ВСУ и передают их координаты для нанесения ударов."
+},
+{
+"url": "https://defence-ua.com/news/po_skyranger_35_na_leopard_1_jaki_peredavali_zsu_stala_vidoma_tsikava_detal_pro_pogon_pid_bashtu_i_trivozhnij_signal_zaodno-24755.html",
+"published_at": "2026-11-15T15:38:23Z",
+"quote": "По Skyranger 35 на Leopard 1, які передавали ЗСУ, стала відома цікава деталь про погон під башту і тривожний сигнал заодно"
+},
+{
+"url": "https://ria.ru/20261115/melitopol-2131679015.html",
+"published_at": "2026-11-15T11:01:20Z",
+"quote": "В Мелитополе жилые дома получили повреждения при атаке БПЛА ВСУ"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -120,53 +160,18 @@
 }
 },
 {
-"id": "rel_e1c52a5b186cf847",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_76aae9f116d88191",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 31,
-"evidence": [
-{
-"url": "https://vpk.name/news/1172391_adapter_ne_toi_sistemy_zenitnye_tanki_skyranger_35_stali_problemnymi_dlya_vsu.html",
-"published_at": "2026-11-16T21:00:01Z",
-"quote": "Данный комплекс прошёл «обкатку» в рядах ВСУ – задолго до того, как в сентябре 2026 года была официально признана его передача."
-},
-{
-"url": "https://tvzvezda.ru/news/202611161255-jCl4d.html",
-"published_at": "2026-11-16T10:04:04Z",
-"quote": "Кроме того, беспилотники круглосуточно наблюдают за обстановкой вдоль линии боевого соприкосновения, выявляют позиции ВСУ и передают их координаты для нанесения ударов."
-},
-{
-"url": "https://defence-ua.com/news/po_skyranger_35_na_leopard_1_jaki_peredavali_zsu_stala_vidoma_tsikava_detal_pro_pogon_pid_bashtu_i_trivozhnij_signal_zaodno-24755.html",
-"published_at": "2026-11-15T15:38:23Z",
-"quote": "По Skyranger 35 на Leopard 1, які передавали ЗСУ, стала відома цікава деталь про погон під башту і тривожний сигнал заодно"
-},
-{
-"url": "https://ria.ru/20261115/melitopol-2131679015.html",
-"published_at": "2026-11-15T11:01:20Z",
-"quote": "В Мелитополе жилые дома получили повреждения при атаке БПЛА ВСУ"
-},
-{
-"url": "https://defence-ua.com/army_and_war/italija_peredala_zsu_kolisni_tanki_b1_centauro_a_teper_stavit_mangali_proti_droniv_na_ti_mashini_jaki_lishilisja-24742.html",
-"published_at": "2026-11-14T06:43:34Z",
-"quote": "Італія передала ЗСУ колісні танки B1 Centauro, а тепер ставить \"мангали\" проти дронів на ті машини, які лишилися"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_c474f78c59715bdf",
 "from": "ent_72167ac7999f6b9e",
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 18,
+"evidence_count": 19,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/20261118143-B56cs.html",
+"published_at": "2026-11-18T12:49:05Z",
+"quote": "Минобороны России сообщило об уничтожении украинских дроноводов в зоне проведения специальной военной операции."
+},
 {
 "url": "https://tvzvezda.ru/news/20261118118-2DHFf.html",
 "published_at": "2026-11-18T08:37:28Z",
@@ -186,15 +191,10 @@
 "url": "https://eadaily.com/ru/news/2026/11/17/pererezayut-suhoputnyy-koridor-v-krym-drony-vsu-udarili-po-mostu-na-trasse-r-280",
 "published_at": "2026-11-17T11:46:00Z",
 "quote": "Освободили Заливное и сбили 9 ракет «Фламинго»: сводка Минобороны России"
-},
-{
-"url": "https://tvzvezda.ru/news/202611171037-cwod8.html",
-"published_at": "2026-11-17T07:54:13Z",
-"quote": "Минобороны России сообщило об уничтожении передовых позиций ВСУ в Запорожской области."
 }
 ],
 "sentiment": {
-"score_pm1": -0.2,
+"score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -280,6 +280,46 @@
 }
 },
 {
+"id": "rel_b32b662b140fae74",
+"from": "ent_14d1757585b55c53",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 9,
+"evidence": [
+{
+"url": "https://belvpo.com/ekzistenczialnyj-vopros",
+"published_at": "2026-11-18T10:14:52Z",
+"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
+},
+{
+"url": "https://pravda.com.ua/eng/news/2026/11/17/8063357",
+"published_at": "2026-11-17T21:27:00Z",
+"quote": "The Times: Ukraine used its own system rather than Starlink in Crimean Bridge attack – video"
+},
+{
+"url": "https://unian.net/war/udar-po-krymskomu-mostu-proshel-bez-starlink-s-pomoshchyu-unikalnoy-sisteme-svyazi-the-times-13563102.html",
+"published_at": "2026-11-17T19:18:00Z",
+"quote": "ИНФОРМАЦИОННОЕ АГЕНТСТВО Главная Война Украина Политика Экономика Мир Экология Регионы Спорт Наука Техно и связь Лайт Оружие Происшествия Здоровье Туризм Интересности Погода Видео с YouTube Статьи Интервью Мнения Лонгриды Архив Вакансии Кон"
+},
+{
+"url": "https://dronexl.co/2026/11/16/starshield-cap-occupied-ukraine-spacex-technical-zelensky-substations",
+"published_at": "2026-11-16T21:33:00Z",
+"quote": "co/2026/01/31/spacex-starlink-speed-limit-russian-drones/\">cut Starlink on terminals moving faster than about 47 to 56 mph</a> (75 to 90 km/h) to stop Russian strike drones, and terminals registered to Ukrainian brigades could have the limi"
+},
+{
+"url": "https://t.me/nm_dnr/16203",
+"published_at": "2026-11-14T07:59:01Z",
+"quote": "📹 Операторы 8 армии уничтожили ПУ БЛА, антенны связи и Starlink ВСУ"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_10779e8458274135",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_0a0009fc82d3fadc",
@@ -320,41 +360,41 @@
 }
 },
 {
-"id": "rel_b32b662b140fae74",
-"from": "ent_14d1757585b55c53",
-"to": "ent_76aae9f116d88191",
+"id": "rel_0f6f97cb3e4cf43d",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_e7e61f26b8fd6566",
 "type": "применение",
 "event_date": null,
 "evidence_count": 8,
 "evidence": [
 {
-"url": "https://pravda.com.ua/eng/news/2026/11/17/8063357",
-"published_at": "2026-11-17T21:27:00Z",
-"quote": "The Times: Ukraine used its own system rather than Starlink in Crimean Bridge attack – video"
+"url": "https://belvpo.com/ekzistenczialnyj-vopros",
+"published_at": "2026-11-18T10:14:52Z",
+"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
 },
 {
-"url": "https://unian.net/war/udar-po-krymskomu-mostu-proshel-bez-starlink-s-pomoshchyu-unikalnoy-sisteme-svyazi-the-times-13563102.html",
-"published_at": "2026-11-17T19:18:00Z",
-"quote": "ИНФОРМАЦИОННОЕ АГЕНТСТВО Главная Война Украина Политика Экономика Мир Экология Регионы Спорт Наука Техно и связь Лайт Оружие Происшествия Здоровье Туризм Интересности Погода Видео с YouTube Статьи Интервью Мнения Лонгриды Архив Вакансии Кон"
+"url": "https://eadaily.com/ru/news/2026/11/18/nalet-184-dronov-na-krym-i-kuban-i-udar-po-suhogruzu-nochnaya-svodka-minoborony",
+"published_at": "2026-11-18T09:28:00Z",
+"quote": "Следует отметить, что на фоне вчерашней атаки на Крымский мост реакция Москвы оказалась максимально сдержанной — вместо ожидаемого сокрушительного удара возмездия по центрам принятия решений в Киеве российское командование ограничилось план"
 },
 {
-"url": "https://dronexl.co/2026/11/16/starshield-cap-occupied-ukraine-spacex-technical-zelensky-substations",
-"published_at": "2026-11-16T21:33:00Z",
-"quote": "co/2026/01/31/spacex-starlink-speed-limit-russian-drones/\">cut Starlink on terminals moving faster than about 47 to 56 mph</a> (75 to 90 km/h) to stop Russian strike drones, and terminals registered to Ukrainian brigades could have the limi"
+"url": "https://eadaily.com/ru/news/2026/11/17/pererezayut-suhoputnyy-koridor-v-krym-drony-vsu-udarili-po-mostu-na-trasse-r-280",
+"published_at": "2026-11-17T11:46:00Z",
+"quote": "Перерезают сухопутный коридор в Крым: дроны ВСУ ударили по мосту на трассе Р-280: EADaily"
 },
 {
-"url": "https://t.me/nm_dnr/16203",
-"published_at": "2026-11-14T07:59:01Z",
-"quote": "📹 Операторы 8 армии уничтожили ПУ БЛА, антенны связи и Starlink ВСУ"
+"url": "https://tass.ru/armiya-i-opk/28324849",
+"published_at": "2026-11-17T06:22:47Z",
+"quote": "Новый удар ВСУ по Крымскому мосту и 1 441 БПЛА."
 },
 {
-"url": "https://t.me/uav_tech/37441",
-"published_at": "2026-11-02T18:33:37Z",
-"quote": "На фоне увеличения ударов вглубь России Украина в 2026-м потратила на Starlink вдвое больше, чем за четыре предыдущих года, выяснил RT."
+"url": "https://lenta.ru/news/2026/11/16/long-noch-vydalas-tyazheloy-vsu-udarili-po-krymskomu-mostu-boevaya-chast-odnogo-iz-dronov-upala-na-arku",
+"published_at": "2026-11-16T08:18:00Z",
+"quote": "ВСУ ударили по Крымскому мосту."
 }
 ],
 "sentiment": {
-"score_pm1": -0.2,
+"score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -440,43 +480,43 @@
 }
 },
 {
-"id": "rel_0f6f97cb3e4cf43d",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_e7e61f26b8fd6566",
-"type": "применение",
+"id": "rel_a8181e25bbfc2c7b",
+"from": "ent_f2dcf230404a0bff",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
 "event_date": null,
 "evidence_count": 7,
 "evidence": [
 {
-"url": "https://eadaily.com/ru/news/2026/11/18/nalet-184-dronov-na-krym-i-kuban-i-udar-po-suhogruzu-nochnaya-svodka-minoborony",
-"published_at": "2026-11-18T09:28:00Z",
-"quote": "Следует отметить, что на фоне вчерашней атаки на Крымский мост реакция Москвы оказалась максимально сдержанной — вместо ожидаемого сокрушительного удара возмездия по центрам принятия решений в Киеве российское командование ограничилось план"
+"url": "https://ukdefencejournal.org.uk/uk-to-send-ukraine-more-than-a-thousand-air-defence-missiles",
+"published_at": "2026-11-18T12:00:39Z",
+"quote": "The ministry said the systems have proven effective against the Iranian-designed, jet-powered Shahed drones Russia is using to strike Ukrainian cities and infrastructure, and that deliveries to Ukraine’s armed forces will begin from mid-Dec"
 },
 {
-"url": "https://eadaily.com/ru/news/2026/11/17/pererezayut-suhoputnyy-koridor-v-krym-drony-vsu-udarili-po-mostu-na-trasse-r-280",
-"published_at": "2026-11-17T11:46:00Z",
-"quote": "Перерезают сухопутный коридор в Крым: дроны ВСУ ударили по мосту на трассе Р-280: EADaily"
+"url": "https://vpk.name/news/1172472_horoshuyu_kartinku_s_kamer_rossiiskih_dronov_svyazali_s_rassvetom.html",
+"published_at": "2026-11-16T21:00:01Z",
+"quote": "Повышение качества изображения на российских «Геранях» связали со спутниками «Рассвет» Качество изображения, которое передают с камер российских дронов семейства «Герань», могло улучшиться из-за использования спутниковой системы связи «Расс"
 },
 {
-"url": "https://tass.ru/armiya-i-opk/28324849",
-"published_at": "2026-11-17T06:22:47Z",
-"quote": "Новый удар ВСУ по Крымскому мосту и 1 441 БПЛА."
+"url": "https://vpk.name/news/1171485_rossiiskie_gerani_s_rassvetom_peredadut_video_operatoru.html",
+"published_at": "2026-11-12T21:00:01Z",
+"quote": "Российские «Герани-2» с терминалами спутниковой связи «Рассвет» передадут видео оператору Российские дроны-камикадзе «Герань-2» после оснащения терминалами спутниковой системы связи «Рассвет» смогут передавать оператору видео в режиме реаль"
 },
 {
-"url": "https://lenta.ru/news/2026/11/16/long-noch-vydalas-tyazheloy-vsu-udarili-po-krymskomu-mostu-boevaya-chast-odnogo-iz-dronov-upala-na-arku",
-"published_at": "2026-11-16T08:18:00Z",
-"quote": "ВСУ ударили по Крымскому мосту."
+"url": "https://twz.com/air/l-39ng-skyfox-jets-could-give-ukraine-a-critical-new-russian-drone-hunting-capability",
+"published_at": "2026-11-12T19:13:31Z",
+"quote": "The Czech Republic could supply Ukraine with up to 16 Aero L-39NG Skyfox aircraft, potentially giving Kyiv another option for countering Russia’s Shahed-type attack drones ."
 },
 {
-"url": "https://vpk.name/news/1172005_ispolzuyut_dannye_ot_ssha_kak_ukraina_gotovila_zvezdnyi_nalet_dronov_na_rossiyu.html",
-"published_at": "2026-11-15T21:00:01Z",
-"quote": "Полковник Ходаренок: цели для массированного удара ВСУ согласовывает Зеленский Силы ПВО за ночь на 13 ноября сбили 1198 украинских беспилотников над 16 областями, Московским регионом, Крымом и Черным морем."
+"url": "https://t.me/zadrony/2007",
+"published_at": "2026-09-21T19:56:57Z",
+"quote": "⚡️ От Shahed до «Герани-5»: как менялся российский дрон В 2022 году Россия получила иранские Shahed-131 и Shahed-136 — будущие «Герань-1» и «Герань-2»."
 }
 ],
 "sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -600,43 +640,163 @@
 }
 },
 {
-"id": "rel_a8181e25bbfc2c7b",
-"from": "ent_f2dcf230404a0bff",
-"to": "ent_28fea1c77915c37a",
-"type": "поставка",
+"id": "rel_f3c6524622ea9804",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_48a4e1e33ddc917b",
+"type": "испытание",
 "event_date": null,
 "evidence_count": 6,
 "evidence": [
 {
-"url": "https://vpk.name/news/1172472_horoshuyu_kartinku_s_kamer_rossiiskih_dronov_svyazali_s_rassvetom.html",
+"url": "https://c4defence.com/en/b-21-weapons-release-test-completed",
+"published_at": "2026-11-18T10:56:33Z",
+"quote": "The US Air Force completed the B-21 weapon release test with the B-21 Raider bomber."
+},
+{
+"url": "https://vpk.name/news/1172310_vvs_ssha_vpervye_proveli_ispytaniya_po_sbrosu_vooruzheniya_s_bombardirovshika_b-21_raider.html",
 "published_at": "2026-11-16T21:00:01Z",
-"quote": "Повышение качества изображения на российских «Геранях» связали со спутниками «Рассвет» Качество изображения, которое передают с камер российских дронов семейства «Герань», могло улучшиться из-за использования спутниковой системы связи «Расс"
+"quote": "ВВС США впервые провели испытания по сбросу вооружения с бомбардировщика B-21 Raider"
 },
 {
-"url": "https://vpk.name/news/1171485_rossiiskie_gerani_s_rassvetom_peredadut_video_operatoru.html",
-"published_at": "2026-11-12T21:00:01Z",
-"quote": "Российские «Герани-2» с терминалами спутниковой связи «Рассвет» передадут видео оператору Российские дроны-камикадзе «Герань-2» после оснащения терминалами спутниковой системы связи «Рассвет» смогут передавать оператору видео в режиме реаль"
+"url": "https://airforce-technology.com/news/usaf-b-21-raider-2",
+"published_at": "2026-11-16T17:05:18Z",
+"quote": "US Air Force B-21 Raider completes first weapons release test"
 },
 {
-"url": "https://twz.com/air/l-39ng-skyfox-jets-could-give-ukraine-a-critical-new-russian-drone-hunting-capability",
-"published_at": "2026-11-12T19:13:31Z",
-"quote": "The Czech Republic could supply Ukraine with up to 16 Aero L-39NG Skyfox aircraft, potentially giving Kyiv another option for countering Russia’s Shahed-type attack drones ."
+"url": "https://israeldefense.co.il/en/node/72858",
+"published_at": "2026-11-16T00:00:00Z",
+"quote": "sharing US Air Force Validates B-21 Raider as Weapons Platform The stealth bomber completed a successful weapons release test in California ahead of its planned fielding at Ellsworth AFB next year."
 },
 {
-"url": "https://t.me/zadrony/2007",
-"published_at": "2026-09-21T19:56:57Z",
-"quote": "⚡️ От Shahed до «Герани-5»: как менялся российский дрон В 2022 году Россия получила иранские Shahed-131 и Shahed-136 — будущие «Герань-1» и «Герань-2»."
-},
-{
-"url": "https://t.me/uav_tech/37135",
-"published_at": "2026-09-14T06:31:38Z",
-"quote": "🇮🇷 #Иран По сообщению Financial Times, новые российские беспилотники моделей \"Герань-4\" и \"Герань-5\" настолько хороши, что Иран в этом году запросил у России поставку этих беспилотников, чтобы испо..."
+"url": "https://vpk.name/news/1172002_vvs_ssha_ispytali_sbros_vooruzheniya_s_noveishego_bombardirovshika_b-21_raider.html",
+"published_at": "2026-11-15T21:00:01Z",
+"quote": "ВВС США испытали сброс вооружения с новейшего бомбардировщика B-21 Raider"
 }
 ],
 "sentiment": {
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_9bf393cadc73ba10",
+"from": "ent_14d1757585b55c53",
+"to": "ent_e7e61f26b8fd6566",
+"type": "применение",
+"event_date": null,
+"evidence_count": 6,
+"evidence": [
+{
+"url": "https://belvpo.com/ekzistenczialnyj-vopros",
+"published_at": "2026-11-18T10:14:52Z",
+"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
+},
+{
+"url": "https://t.me/UAVDEV/13350",
+"published_at": "2026-11-18T04:28:26Z",
+"quote": "Удары по Крымскому мосту провели без использования Starlink и Starshield."
+},
+{
+"url": "https://pravda.com.ua/eng/news/2026/11/17/8063357",
+"published_at": "2026-11-17T21:27:00Z",
+"quote": "The Times: Ukraine used its own system rather than Starlink in Crimean Bridge attack – video"
+},
+{
+"url": "https://unian.net/war/udar-po-krymskomu-mostu-proshel-bez-starlink-s-pomoshchyu-unikalnoy-sisteme-svyazi-the-times-13563102.html",
+"published_at": "2026-11-17T19:18:00Z",
+"quote": "Удар по Крымскому мосту прошел без Starlink, с помощью уникальной системы связи, - The Times"
+},
+{
+"url": "https://t.me/uav_tech/36489",
+"published_at": "2026-06-21T11:38:35Z",
+"quote": "📝Бездействие наказуемо📝 о «Старлинках» и мнимых надеждах на США На фоне очередного удара по Крыму, который привел к новому этапу блокады полуострова, любопытно выглядят заголовки СМИ всё о том же «Духе Анкориджа» и упований на то, что в США"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_06ad2a70453c15a6",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 6,
+"evidence": [
+{
+"url": "https://belvpo.com/ekzistenczialnyj-vopros",
+"published_at": "2026-11-18T10:14:52Z",
+"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
+},
+{
+"url": "https://tvzvezda.ru/news/202611181252-WUyzT.html",
+"published_at": "2026-11-18T10:07:44Z",
+"quote": "Операторы ударных беспилотников группировки войск «Север» уничтожили американскую бронемашину HMMWV , автомобили повышенной проходимости и военнослужащих ВСУ в Сумской области."
+},
+{
+"url": "https://belvpo.com/v-pentagone-vyskazalis-ob-udarah-vsu-vglub-rossii",
+"published_at": "2026-11-17T18:37:10Z",
+"quote": "В Пентагоне высказались об ударах ВСУ вглубь России"
+},
+{
+"url": "https://t.me/uav_tech/35958",
+"published_at": "2026-04-21T09:00:29Z",
+"quote": "Американская компания AeroVironment раскрыла характеристики новейшего многоцелевого беспилотника Mayhem 10, созданного на основе применяемого ВСУ Switchblade."
+},
+{
+"url": "https://t.me/uav_tech/35484",
+"published_at": "2026-03-10T19:53:50Z",
+"quote": "Ракетный удар ВСУ по Брянску, нанесённый с использованием британских крылатых ракет Storm Shadow, не мог быть осуществлён без предоставления украинской стороне разведданных со стороны Соединённых Штатов (Великобритания сама не смогла бы это"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_052a9524c0f2eda4",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_e5f190ccc39e3fdd",
+"type": "применение",
+"event_date": null,
+"evidence_count": 6,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611181526-v2hSJ.html",
+"published_at": "2026-11-18T12:29:14Z",
+"quote": "Российские военнослужащие уничтожили укрепленный опорный пункт ВСУ, состоявший из нескольких блиндажей и огневых позиций, на Днепропетровском направлении."
+},
+{
+"url": "https://tvzvezda.ru/news/20261117163-H2yDW.html",
+"published_at": "2026-11-17T13:12:14Z",
+"quote": "Ранее ведомство сообщило, что расчеты того же 78-го полка уничтожили семь антенн-ретрансляторов связи ВСУ на Днепропетровском направлении."
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%81%d0%b0%d1%83-%d0%bc%d1%81%d1%82%d0%b0-%d1%81-%d1%83%d0%bd%d0%b8%d1%87%d1%82%d0%be%d0%b6%d0%b8%d0%bb-%d0%bf%d1%83%d0%bd%d0%ba%d1%82-%d1%83%d0%bf",
+"published_at": "2026-11-17T08:36:31Z",
+"quote": "РАСЧЕТ САУ «МСТА-С» УНИЧТОЖИЛ ПУНКТ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%82%d0%be%d1%81-2-%d1%82%d0%be%d1%81%d0%be%d1%87%d0%ba%d0%b0-%d1%81%d0%be%d0%b5%d0%b4%d0%b8%d0%bd%d0%b5%d0%bd%d0%b8%d1%8f-%d1%80%d1%85%d0%b1%d0%b7",
+"published_at": "2026-11-16T08:59:14Z",
+"quote": "РАСЧЕТ ТОС-2 «ТОСОЧКА» СОЕДИНЕНИЯ РХБЗ ГРУППИРОВКИ ВОЙСК «ЦЕНТР» УНИЧТОЖИЛ РАЙОН СОСРЕДОТОЧЕНИЯ ПУНКТОВ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d0%b4%d1%80%d0%be%d0%bd%d0%b0-%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%b2%d0%b0%d1%82%d1%87%d0%b8%d0%ba%d0%b0-%d1%81%d0%be%d0%ba%d0%be%d0%bb-%d0%b22-%d0%b7",
+"published_at": "2026-11-16T08:40:21Z",
+"quote": "РАСЧЕТ ДРОНА-ПЕРЕХВАТЧИКА «СОКОЛ-В2» ЗЕНИТНОЙ РАКЕТНОЙ БРИГАДЫ ГРУППИРОВКИ «ЦЕНТР» УНИЧТОЖИЛ ДЕСЯТКИ УДАРНЫХ И РАЗВЕДЫВАТЕЛЬНЫХ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 },
 {
@@ -717,6 +877,46 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_3dc69122575c150b",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_14d1757585b55c53",
+"type": "применение",
+"event_date": null,
+"evidence_count": 5,
+"evidence": [
+{
+"url": "https://belvpo.com/ekzistenczialnyj-vopros",
+"published_at": "2026-11-18T10:14:52Z",
+"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
+},
+{
+"url": "https://t.me/nm_dnr/16203",
+"published_at": "2026-11-14T07:59:01Z",
+"quote": "📹 Операторы 8 армии уничтожили ПУ БЛА, антенны связи и Starlink ВСУ"
+},
+{
+"url": "https://t.me/uav_tech/37441",
+"published_at": "2026-11-02T18:33:37Z",
+"quote": "Ранее Илон Маск подчёркивал: ВСУ нарушили условия использования Starlink, применив систему для ударов дронами с целью убийства людей."
+},
+{
+"url": "https://t.me/UAVDEV/10214",
+"published_at": "2026-02-02T03:32:26Z",
+"quote": "В общем вне зависимости от того, как получится в итоге со старлинком, высокоточные удары по тылам ВСУ есть как и чем организовывать."
+},
+{
+"url": "https://t.me/uav_tech/35013",
+"published_at": "2026-02-01T09:15:34Z",
+"quote": "С увеличением применения терминалов «Starlink» на российских БПЛА возросло и количество болезненных поражений техники и объектов ВСУ в глубине Украины, что вызвало поросячий визг на всех уровнях, который в том числе и был адресован Илону Ма"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 },
 {
@@ -920,43 +1120,43 @@
 }
 },
 {
-"id": "rel_f3c6524622ea9804",
-"from": "ent_7902a5283b8ea891",
-"to": "ent_48a4e1e33ddc917b",
-"type": "испытание",
+"id": "rel_ae6f9762c3b8e832",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_4dd10f19e652ad7c",
+"type": "применение",
 "event_date": null,
 "evidence_count": 5,
 "evidence": [
 {
-"url": "https://vpk.name/news/1172310_vvs_ssha_vpervye_proveli_ispytaniya_po_sbrosu_vooruzheniya_s_bombardirovshika_b-21_raider.html",
-"published_at": "2026-11-16T21:00:01Z",
-"quote": "ВВС США впервые провели испытания по сбросу вооружения с бомбардировщика B-21 Raider"
+"url": "https://tvzvezda.ru/news/202611181252-WUyzT.html",
+"published_at": "2026-11-18T10:07:44Z",
+"quote": "Российские дроны уничтожили HMMWV и автомобили ВСУ в Сумской области"
 },
 {
-"url": "https://airforce-technology.com/news/usaf-b-21-raider-2",
-"published_at": "2026-11-16T17:05:18Z",
-"quote": "US Air Force B-21 Raider completes first weapons release test"
+"url": "https://tass.ru/armiya-i-opk/28324245",
+"published_at": "2026-11-17T02:04:33Z",
+"quote": "ВС РФ поразили технику, боекомплект и средства связи ВСУ в Сумской области"
 },
 {
-"url": "https://israeldefense.co.il/en/node/72858",
-"published_at": "2026-11-16T00:00:00Z",
-"quote": "sharing US Air Force Validates B-21 Raider as Weapons Platform The stealth bomber completed a successful weapons release test in California ahead of its planned fielding at Ellsworth AFB next year."
+"url": "https://tass.ru/armiya-i-opk/28318733",
+"published_at": "2026-11-15T04:32:10Z",
+"quote": "Комвзвода Степ: ВС РФ поразили пункт управления БПЛА ВСУ на сумском направлении"
 },
 {
-"url": "https://vpk.name/news/1172002_vvs_ssha_ispytali_sbros_vooruzheniya_s_noveishego_bombardirovshika_b-21_raider.html",
-"published_at": "2026-11-15T21:00:01Z",
-"quote": "ВВС США испытали сброс вооружения с новейшего бомбардировщика B-21 Raider"
+"url": "https://tass.ru/armiya-i-opk/28318669",
+"published_at": "2026-11-15T03:31:16Z",
+"quote": "Комроты Кот: ВС РФ за неделю уничтожили 10 НРТК ВСУ на сумском направлении"
 },
 {
-"url": "https://belvpo.com/vvs-ssha-proveli-ispytanie-po-sbrosu-vooruzheniya-s-b-21-raider",
-"published_at": "2026-11-13T18:45:45Z",
-"quote": "ВВС США провели испытание по сбросу вооружения с B-21 Raider"
+"url": "https://tass.ru/armiya-i-opk/28317297",
+"published_at": "2026-11-14T03:32:09Z",
+"quote": "БПЛА \"Севера\" за неделю уничтожили девять гексакоптеров ВСУ в Сумской области"
 }
 ],
 "sentiment": {
-"score_pm1": 0.1,
-"score_pm2": 0,
-"label": "нейтральный"
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 },
 {
@@ -995,46 +1195,6 @@
 ],
 "sentiment": {
 "score_pm1": -0.4,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_9bf393cadc73ba10",
-"from": "ent_14d1757585b55c53",
-"to": "ent_e7e61f26b8fd6566",
-"type": "применение",
-"event_date": null,
-"evidence_count": 5,
-"evidence": [
-{
-"url": "https://t.me/UAVDEV/13350",
-"published_at": "2026-11-18T04:28:26Z",
-"quote": "Удары по Крымскому мосту провели без использования Starlink и Starshield."
-},
-{
-"url": "https://pravda.com.ua/eng/news/2026/11/17/8063357",
-"published_at": "2026-11-17T21:27:00Z",
-"quote": "The Times: Ukraine used its own system rather than Starlink in Crimean Bridge attack – video"
-},
-{
-"url": "https://unian.net/war/udar-po-krymskomu-mostu-proshel-bez-starlink-s-pomoshchyu-unikalnoy-sisteme-svyazi-the-times-13563102.html",
-"published_at": "2026-11-17T19:18:00Z",
-"quote": "Удар по Крымскому мосту прошел без Starlink, с помощью уникальной системы связи, - The Times"
-},
-{
-"url": "https://t.me/uav_tech/36489",
-"published_at": "2026-06-21T11:38:35Z",
-"quote": "📝Бездействие наказуемо📝 о «Старлинках» и мнимых надеждах на США На фоне очередного удара по Крыму, который привел к новому этапу блокады полуострова, любопытно выглядят заголовки СМИ всё о том же «Духе Анкориджа» и упований на то, что в США"
-},
-{
-"url": "https://t.me/uav_tech/35578",
-"published_at": "2026-03-20T10:10:55Z",
-"quote": "Да и добавим тем, что зенитные дроны сейчас — один из перспективных способов защиты собственных ЗРК, которые с появлением дронов-камикадзе с терминалами «Starlink» превратились из охотников за воздушными целями в зарубки на пульте управлени"
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -1080,37 +1240,37 @@
 }
 },
 {
-"id": "rel_052a9524c0f2eda4",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_e5f190ccc39e3fdd",
+"id": "rel_8ce93377b6096661",
+"from": "ent_14d1757585b55c53",
+"to": "ent_ea737724a72411d4",
 "type": "применение",
 "event_date": null,
 "evidence_count": 5,
 "evidence": [
 {
-"url": "https://tvzvezda.ru/news/20261117163-H2yDW.html",
-"published_at": "2026-11-17T13:12:14Z",
-"quote": "Ранее ведомство сообщило, что расчеты того же 78-го полка уничтожили семь антенн-ретрансляторов связи ВСУ на Днепропетровском направлении."
+"url": "https://belvpo.com/ekzistenczialnyj-vopros",
+"published_at": "2026-11-18T10:14:52Z",
+"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
 },
 {
-"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%81%d0%b0%d1%83-%d0%bc%d1%81%d1%82%d0%b0-%d1%81-%d1%83%d0%bd%d0%b8%d1%87%d1%82%d0%be%d0%b6%d0%b8%d0%bb-%d0%bf%d1%83%d0%bd%d0%ba%d1%82-%d1%83%d0%bf",
-"published_at": "2026-11-17T08:36:31Z",
-"quote": "РАСЧЕТ САУ «МСТА-С» УНИЧТОЖИЛ ПУНКТ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+"url": "https://t.me/UAVDEV/13350",
+"published_at": "2026-11-18T04:28:26Z",
+"quote": "Удары по Крымскому мосту провели без использования Starlink и Starshield."
 },
 {
-"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%82%d0%be%d1%81-2-%d1%82%d0%be%d1%81%d0%be%d1%87%d0%ba%d0%b0-%d1%81%d0%be%d0%b5%d0%b4%d0%b8%d0%bd%d0%b5%d0%bd%d0%b8%d1%8f-%d1%80%d1%85%d0%b1%d0%b7",
-"published_at": "2026-11-16T08:59:14Z",
-"quote": "РАСЧЕТ ТОС-2 «ТОСОЧКА» СОЕДИНЕНИЯ РХБЗ ГРУППИРОВКИ ВОЙСК «ЦЕНТР» УНИЧТОЖИЛ РАЙОН СОСРЕДОТОЧЕНИЯ ПУНКТОВ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+"url": "https://pravda.com.ua/eng/news/2026/11/17/8063357",
+"published_at": "2026-11-17T21:27:00Z",
+"quote": "Ukraine did not rely on Starlink or Starshield during its attack on the Crimean Bridge on 17 November, but used its own satellite system instead ."
 },
 {
-"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d0%b4%d1%80%d0%be%d0%bd%d0%b0-%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%b2%d0%b0%d1%82%d1%87%d0%b8%d0%ba%d0%b0-%d1%81%d0%be%d0%ba%d0%be%d0%bb-%d0%b22-%d0%b7",
-"published_at": "2026-11-16T08:40:21Z",
-"quote": "РАСЧЕТ ДРОНА-ПЕРЕХВАТЧИКА «СОКОЛ-В2» ЗЕНИТНОЙ РАКЕТНОЙ БРИГАДЫ ГРУППИРОВКИ «ЦЕНТР» УНИЧТОЖИЛ ДЕСЯТКИ УДАРНЫХ И РАЗВЕДЫВАТЕЛЬНЫХ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+"url": "https://unian.net/war/udar-po-krymskomu-mostu-proshel-bez-starlink-s-pomoshchyu-unikalnoy-sisteme-svyazi-the-times-13563102.html",
+"published_at": "2026-11-17T19:18:00Z",
+"quote": "Эта операция также доказала, что Украина больше не нуждается в сетях Starlink и Starshield Илона Маска для проведения ударных миссий, пишет The Times."
 },
 {
-"url": "https://t.me/mod_russia/69025",
-"published_at": "2026-11-15T05:42:06Z",
-"quote": "🔥 Кроме того, поражены два железнодорожных локомотива в районе ж/д станции Днепропетровск, используемых в интересах перевозки грузов, предназначенных для обеспечения ВСУ."
+"url": "https://t.me/milinfolive/183341",
+"published_at": "2026-11-17T18:29:45Z",
+"quote": "Видно, что удары наносятся крайне точно, что вновь говорит о применении управляемых средств поражения через Starlink (Starshield) или аналогичные системы.…"
 }
 ],
 "sentiment": {
@@ -1190,41 +1350,6 @@
 }
 },
 {
-"id": "rel_3dc69122575c150b",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_14d1757585b55c53",
-"type": "применение",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://t.me/nm_dnr/16203",
-"published_at": "2026-11-14T07:59:01Z",
-"quote": "📹 Операторы 8 армии уничтожили ПУ БЛА, антенны связи и Starlink ВСУ"
-},
-{
-"url": "https://t.me/uav_tech/37441",
-"published_at": "2026-11-02T18:33:37Z",
-"quote": "Ранее Илон Маск подчёркивал: ВСУ нарушили условия использования Starlink, применив систему для ударов дронами с целью убийства людей."
-},
-{
-"url": "https://t.me/UAVDEV/10214",
-"published_at": "2026-02-02T03:32:26Z",
-"quote": "В общем вне зависимости от того, как получится в итоге со старлинком, высокоточные удары по тылам ВСУ есть как и чем организовывать."
-},
-{
-"url": "https://t.me/uav_tech/35013",
-"published_at": "2026-02-01T09:15:34Z",
-"quote": "С увеличением применения терминалов «Starlink» на российских БПЛА возросло и количество болезненных поражений техники и объектов ВСУ в глубине Украины, что вызвало поросячий визг на всех уровнях, который в том числе и был адресован Илону Ма"
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_e8e6e2acf2c100a2",
 "from": "ent_b0bba4c8f275ffd0",
 "to": "ent_b677547c4bb180c5",
@@ -1260,41 +1385,6 @@
 }
 },
 {
-"id": "rel_ae6f9762c3b8e832",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_4dd10f19e652ad7c",
-"type": "применение",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://tass.ru/armiya-i-opk/28324245",
-"published_at": "2026-11-17T02:04:33Z",
-"quote": "ВС РФ поразили технику, боекомплект и средства связи ВСУ в Сумской области"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28318733",
-"published_at": "2026-11-15T04:32:10Z",
-"quote": "Комвзвода Степ: ВС РФ поразили пункт управления БПЛА ВСУ на сумском направлении"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28318669",
-"published_at": "2026-11-15T03:31:16Z",
-"quote": "Комроты Кот: ВС РФ за неделю уничтожили 10 НРТК ВСУ на сумском направлении"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28317297",
-"published_at": "2026-11-14T03:32:09Z",
-"quote": "БПЛА \"Севера\" за неделю уничтожили девять гексакоптеров ВСУ в Сумской области"
-}
-],
-"sentiment": {
-"score_pm1": -0.1,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_e7233eb5bd07e2d3",
 "from": "ent_7c890d4124b478ff",
 "to": "ent_28fea1c77915c37a",
@@ -1325,6 +1415,41 @@
 ],
 "sentiment": {
 "score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6e10df7181f19bce",
+"from": "ent_f2dcf230404a0bff",
+"to": "ent_42945ce6b8f796c3",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/uk-to-send-ukraine-more-than-a-thousand-air-defence-missiles",
+"published_at": "2026-11-18T12:00:39Z",
+"quote": "The ministry said the systems have proven effective against the Iranian-designed, jet-powered Shahed drones Russia is using to strike Ukrainian cities and infrastructure, and that deliveries to Ukraine’s armed forces will begin from mid-Dec"
+},
+{
+"url": "https://t.me/zadrony/2007",
+"published_at": "2026-09-21T19:56:57Z",
+"quote": "⚡️ От Shahed до «Герани-5»: как менялся российский дрон В 2022 году Россия получила иранские Shahed-131 и Shahed-136 — будущие «Герань-1» и «Герань-2»."
+},
+{
+"url": "https://t.me/uav_tech/37135",
+"published_at": "2026-09-14T06:31:38Z",
+"quote": "🇮🇷 #Иран По сообщению Financial Times, новые российские беспилотники моделей \"Герань-4\" и \"Герань-5\" настолько хороши, что Иран в этом году запросил у России поставку этих беспилотников, чтобы испо..."
+},
+{
+"url": "https://t.me/uav_tech/37002",
+"published_at": "2026-08-28T07:33:43Z",
+"quote": "Александр Зимовский: \"Китай стал ключевым звеном в производстве иранских дронов Shahed, изменивших ход войны Иранский ударный беспилотник Shahed (российское название — «Герань») стал одним из самых революционных и дешёвых видов оружия совре"
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -1505,41 +1630,6 @@
 }
 },
 {
-"id": "rel_06ad2a70453c15a6",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_b677547c4bb180c5",
-"type": "применение",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://belvpo.com/v-pentagone-vyskazalis-ob-udarah-vsu-vglub-rossii",
-"published_at": "2026-11-17T18:37:10Z",
-"quote": "В Пентагоне высказались об ударах ВСУ вглубь России"
-},
-{
-"url": "https://t.me/uav_tech/35958",
-"published_at": "2026-04-21T09:00:29Z",
-"quote": "Американская компания AeroVironment раскрыла характеристики новейшего многоцелевого беспилотника Mayhem 10, созданного на основе применяемого ВСУ Switchblade."
-},
-{
-"url": "https://t.me/uav_tech/35484",
-"published_at": "2026-03-10T19:53:50Z",
-"quote": "Ракетный удар ВСУ по Брянску, нанесённый с использованием британских крылатых ракет Storm Shadow, не мог быть осуществлён без предоставления украинской стороне разведданных со стороны Соединённых Штатов (Великобритания сама не смогла бы это"
-},
-{
-"url": "https://t.me/uav_tech/35441",
-"published_at": "2026-03-08T14:08:21Z",
-"quote": "Согласитесь, странные вопли, ведь Трамп публично сообщал, что спутники США помимо связи для НАТОвской ЧВК «ВСУ» также дают разведданные в режиме реального времени и целеуказание для ударов по Русской армии."
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_795a2febfc5b43c6",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_e66a2be7fe38d473",
@@ -1575,17 +1665,17 @@
 }
 },
 {
-"id": "rel_8ce93377b6096661",
-"from": "ent_14d1757585b55c53",
-"to": "ent_ea737724a72411d4",
+"id": "rel_05fbf29fdc58ad89",
+"from": "ent_ea737724a72411d4",
+"to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
 "evidence_count": 4,
 "evidence": [
 {
-"url": "https://t.me/UAVDEV/13350",
-"published_at": "2026-11-18T04:28:26Z",
-"quote": "Удары по Крымскому мосту провели без использования Starlink и Starshield."
+"url": "https://belvpo.com/ekzistenczialnyj-vopros",
+"published_at": "2026-11-18T10:14:52Z",
+"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
 },
 {
 "url": "https://pravda.com.ua/eng/news/2026/11/17/8063357",
@@ -1598,9 +1688,9 @@
 "quote": "Эта операция также доказала, что Украина больше не нуждается в сетях Starlink и Starshield Илона Маска для проведения ударных миссий, пишет The Times."
 },
 {
-"url": "https://t.me/milinfolive/183341",
-"published_at": "2026-11-17T18:29:45Z",
-"quote": "Видно, что удары наносятся крайне точно, что вновь говорит о применении управляемых средств поражения через Starlink (Starshield) или аналогичные системы.…"
+"url": "https://france24.com/en/video/20261116-russia-says-intercepted-over-1-300-ukrainian-drones-in-a-major-attack",
+"published_at": "2026-11-16T14:00:25Z",
+"quote": "Russia, meanwhile, has battered Ukrainian civilian areas with relentless strikes that seek to choke the economy and break public morale, in attacks President Volodymyr Zelensky said were made possible ⁠partly due to restrictions on Ukraine'"
 }
 ],
 "sentiment": {
@@ -1700,6 +1790,36 @@
 }
 },
 {
+"id": "rel_92960be3fd9513cb",
+"from": "ent_d2e22355d8368901",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "должность",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/uk-to-send-ukraine-more-than-a-thousand-air-defence-missiles",
+"published_at": "2026-11-18T12:00:39Z",
+"quote": "Wes Streeting, the Defence Secretary, announced the package as he co-chaired the 37th meeting of the Ukraine Defence Contact Group at NATO Headquarters in Brussels with German Defence Minister Boris Pistorius."
+},
+{
+"url": "https://unmannedairspace.info/latest-news-and-information/uk-to-supply-ukraine-with-more-than-1000-air-defence-missiles-to-counter-russian-drones",
+"published_at": "2026-11-18T11:18:32Z",
+"quote": "UK Defence Secretary Wes Streeting announced the package while co-chairing the 37th meeting of the Ukraine Defence Contact Group at NATO headquarters in Brussels."
+},
+{
+"url": "https://defence-industry.eu/royal-navy-says-its-first-autonomous-squadron-will-deploy-uncrewed-boats-alongside-warships",
+"published_at": "2026-11-09T09:00:37Z",
+"quote": "” Defence Secretary Wes Streeting said the investment would put autonomous technology in sailors’ hands to help protect Britain and its NATO allies."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_b89c6656a257979e",
 "from": "ent_15f8eb5484169610",
 "to": "ent_85a81afee9e48a7e",
@@ -1727,6 +1847,36 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_73679d0dfe29d7fd",
+"from": "ent_14d1757585b55c53",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://belvpo.com/ekzistenczialnyj-vopros",
+"published_at": "2026-11-18T10:14:52Z",
+"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
+},
+{
+"url": "https://t.me/uav_tech/37475",
+"published_at": "2026-11-07T05:51:56Z",
+"quote": "Кулуарные ограничения работы Starlink со стороны США привели к прямо противоположному результату: Трамп банально потерял рычаг контроля над дальнобойными ударами Киева."
+},
+{
+"url": "https://t.me/uav_tech/36489",
+"published_at": "2026-06-21T11:38:35Z",
+"quote": "📝Бездействие наказуемо📝 о «Старлинках» и мнимых надеждах на США На фоне очередного удара по Крыму, который привел к новому этапу блокады полуострова, любопытно выглядят заголовки СМИ всё о том же «Духе Анкориджа» и упований на то, что в США"
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 },
 {
@@ -2150,31 +2300,31 @@
 }
 },
 {
-"id": "rel_6e10df7181f19bce",
+"id": "rel_ed70178a7bef62e3",
 "from": "ent_f2dcf230404a0bff",
-"to": "ent_42945ce6b8f796c3",
+"to": "ent_76aae9f116d88191",
 "type": "поставка",
 "event_date": null,
 "evidence_count": 3,
 "evidence": [
 {
-"url": "https://t.me/zadrony/2007",
-"published_at": "2026-09-21T19:56:57Z",
-"quote": "⚡️ От Shahed до «Герани-5»: как менялся российский дрон В 2022 году Россия получила иранские Shahed-131 и Shahed-136 — будущие «Герань-1» и «Герань-2»."
+"url": "https://ukdefencejournal.org.uk/uk-to-send-ukraine-more-than-a-thousand-air-defence-missiles",
+"published_at": "2026-11-18T12:00:39Z",
+"quote": "The ministry said the systems have proven effective against the Iranian-designed, jet-powered Shahed drones Russia is using to strike Ukrainian cities and infrastructure, and that deliveries to Ukraine’s armed forces will begin from mid-Dec"
 },
 {
-"url": "https://t.me/uav_tech/37135",
-"published_at": "2026-09-14T06:31:38Z",
-"quote": "🇮🇷 #Иран По сообщению Financial Times, новые российские беспилотники моделей \"Герань-4\" и \"Герань-5\" настолько хороши, что Иран в этом году запросил у России поставку этих беспилотников, чтобы испо..."
+"url": "https://defence-ua.com/news/jaki_1000_raket_proti_reaktivnih_droniv_jak_ot_geran_4_mozhe_peredati_ukrajini_velika_britanija_i_koli_tse_bude-24773.html",
+"published_at": "2026-11-17T16:43:11Z",
+"quote": "Які 1000 ракет проти реактивних дронів, як от \"Герань-4\", може передати Україні Велика Британія і коли це буде"
 },
 {
-"url": "https://t.me/uav_tech/37002",
-"published_at": "2026-08-28T07:33:43Z",
-"quote": "Александр Зимовский: \"Китай стал ключевым звеном в производстве иранских дронов Shahed, изменивших ход войны Иранский ударный беспилотник Shahed (российское название — «Герань») стал одним из самых революционных и дешёвых видов оружия совре"
+"url": "https://twz.com/air/l-39ng-skyfox-jets-could-give-ukraine-a-critical-new-russian-drone-hunting-capability",
+"published_at": "2026-11-12T19:13:31Z",
+"quote": "The Czech Republic could supply Ukraine with up to 16 Aero L-39NG Skyfox aircraft, potentially giving Kyiv another option for countering Russia’s Shahed-type attack drones ."
 }
 ],
 "sentiment": {
-"score_pm1": 0.1,
+"score_pm1": -0.1,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -2540,36 +2690,6 @@
 }
 },
 {
-"id": "rel_05fbf29fdc58ad89",
-"from": "ent_ea737724a72411d4",
-"to": "ent_76aae9f116d88191",
-"type": "применение",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://pravda.com.ua/eng/news/2026/11/17/8063357",
-"published_at": "2026-11-17T21:27:00Z",
-"quote": "Ukraine did not rely on Starlink or Starshield during its attack on the Crimean Bridge on 17 November, but used its own satellite system instead ."
-},
-{
-"url": "https://unian.net/war/udar-po-krymskomu-mostu-proshel-bez-starlink-s-pomoshchyu-unikalnoy-sisteme-svyazi-the-times-13563102.html",
-"published_at": "2026-11-17T19:18:00Z",
-"quote": "Эта операция также доказала, что Украина больше не нуждается в сетях Starlink и Starshield Илона Маска для проведения ударных миссий, пишет The Times."
-},
-{
-"url": "https://france24.com/en/video/20261116-russia-says-intercepted-over-1-300-ukrainian-drones-in-a-major-attack",
-"published_at": "2026-11-16T14:00:25Z",
-"quote": "Russia, meanwhile, has battered Ukrainian civilian areas with relentless strikes that seek to choke the economy and break public morale, in attacks President Volodymyr Zelensky said were made possible ⁠partly due to restrictions on Ukraine'"
-}
-],
-"sentiment": {
-"score_pm1": -0.4,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_d906b879443ce7a0",
 "from": "ent_b0bba4c8f275ffd0",
 "to": "ent_28fea1c77915c37a",
@@ -2591,6 +2711,66 @@
 "url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
 "published_at": "2026-11-16T18:00:00Z",
 "quote": "Army Photo) Palantir’s Maven Smart System has been widely used by Ukraine in its fight against Russia while the Pentagon has adopted it as its core military software and has used it in its war with Iran this year."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_3b138247cd961bec",
+"from": "ent_76aae9f116d88191",
+"to": "ent_f4de600127d3237b",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://news.by/news/v_mire/shvetsiya-peredast-ukraine-shest-istrebiteley-gripen",
+"published_at": "2026-11-18T10:10:25Z",
+"quote": "Швеция передаст Украине шесть истребителей Gripen"
+},
+{
+"url": "https://mod.gov.ua/news/rakety-meteor-ta-obladnannia-gripen-dlia-ukrainy-zmozhut-otrymaty-kompleksnyi-paket-ozbroiennia-za-pidtrymky-shvetsii-ta-velykoi-brytanii",
+"published_at": "2026-11-17T15:10:47Z",
+"quote": "Поставки ракет та обладнання планують синхронізувати з надходженням Gripen до Повітряних Сил України"
+},
+{
+"url": "https://belta.by/world/view/shvetsija-postavit-ukraine-pervye-istrebiteli-gripen-v-nachale-2027-goda-811246-2026",
+"published_at": "2026-11-17T10:38:06Z",
+"quote": "Швеция поставит Украине первые истребители Gripen в начале 2027 года"
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_3e38accebcd804c9",
+"from": "ent_ea737724a72411d4",
+"to": "ent_e7e61f26b8fd6566",
+"type": "применение",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://belvpo.com/ekzistenczialnyj-vopros",
+"published_at": "2026-11-18T10:14:52Z",
+"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
+},
+{
+"url": "https://t.me/UAVDEV/13350",
+"published_at": "2026-11-18T04:28:26Z",
+"quote": "Удары по Крымскому мосту провели без использования Starlink и Starshield."
+},
+{
+"url": "https://pravda.com.ua/eng/news/2026/11/17/8063357",
+"published_at": "2026-11-17T21:27:00Z",
+"quote": "Ukraine did not rely on Starlink or Starshield during its attack on the Crimean Bridge on 17 November, but used its own satellite system instead ."
 }
 ],
 "sentiment": {
@@ -2725,28 +2905,28 @@
 }
 },
 {
-"id": "rel_73679d0dfe29d7fd",
-"from": "ent_14d1757585b55c53",
-"to": "ent_b677547c4bb180c5",
-"type": "применение",
+"id": "rel_5e36c222946a5c9b",
+"from": "ent_e9549e1a12518b22",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "контракт",
 "event_date": null,
 "evidence_count": 2,
 "evidence": [
 {
-"url": "https://t.me/uav_tech/37475",
-"published_at": "2026-11-07T05:51:56Z",
-"quote": "Кулуарные ограничения работы Starlink со стороны США привели к прямо противоположному результату: Трамп банально потерял рычаг контроля над дальнобойными ударами Киева."
+"url": "https://overtdefense.com/2026/11/18/nato-procurement-agency-orders-shield-v-bat-drones-for-greek-forces",
+"published_at": "2026-11-18T13:00:35Z",
+"quote": "The NATO Support and Procurement Agency (NSPA) has ordered more Shield V-BAT vertical-takeoff-and-landing drones for the Hellenic Army and Navy."
 },
 {
-"url": "https://t.me/uav_tech/36489",
-"published_at": "2026-06-21T11:38:35Z",
-"quote": "📝Бездействие наказуемо📝 о «Старлинках» и мнимых надеждах на США На фоне очередного удара по Крыму, который привел к новому этапу блокады полуострова, любопытно выглядят заголовки СМИ всё о том же «Духе Анкориджа» и упований на то, что в США"
+"url": "https://dronexl.co/2026/11/09/nato-counter-drone-catalog-alta-ares-six-of-16-lots",
+"published_at": "2026-11-09T10:21:00Z",
+"quote": "The notice also left man-portable and wearable systems to a separate NATO Support and Procurement Agency contract and required bidders to hold NATO Restricted security clearances."
 }
 ],
 "sentiment": {
-"score_pm1": -0.4,
-"score_pm2": -1,
-"label": "умеренно негативный"
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
 }
 },
 {
@@ -3525,6 +3705,31 @@
 }
 },
 {
+"id": "rel_c6cd6f443b30ce18",
+"from": "ent_7902a5283b8ea891",
+"to": "ent_48a4e1e33ddc917b",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://c4defence.com/en/b-21-weapons-release-test-completed",
+"published_at": "2026-11-18T10:56:33Z",
+"quote": "US Air Force Chief of Staff General Ken Wilsbach stated that the weapon release test demonstrated progress in the B-21 program, emphasizing their goal of building a bomber fleet capable of providing joint forces with reliable, penetrating s"
+},
+{
+"url": "https://armyrecognition.com/news/aerospace-news/2026/u-s-b-21-raider-demonstrates-strike-capability-as-future-backbone-of-u-s-air-force-bomber-fleet",
+"published_at": "2026-11-13T16:52:18Z",
+"quote": "B-21 Raider Demonstrates Strike Capability as Future Backbone of U."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_de9d0b32dd538502",
 "from": "ent_48a4e1e33ddc917b",
 "to": "ent_b677547c4bb180c5",
@@ -3545,6 +3750,31 @@
 ],
 "sentiment": {
 "score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_8f7b49f450779540",
+"from": "ent_d2e22355d8368901",
+"to": "ent_fb9d115f2c2a9a7b",
+"type": "должность",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://unmannedairspace.info/latest-news-and-information/uk-to-supply-ukraine-with-more-than-1000-air-defence-missiles-to-counter-russian-drones",
+"published_at": "2026-11-18T11:18:32Z",
+"quote": "UK Defence Secretary Wes Streeting announced the package while co-chairing the 37th meeting of the Ukraine Defence Contact Group at NATO headquarters in Brussels."
+},
+{
+"url": "https://dronexl.co/2026/11/12/uforce-700-million-6-billion-uk-us-government-funds",
+"published_at": "2026-11-13T03:09:00Z",
+"quote": "The same day, UK Defence Secretary Wes Streeting piloted a UFORCE <strong>MV7</strong> from the aircraft carrier HMS Prince of Wales in Oslo while the boat sailed more than 1,500 miles (2,400 kilometers) away, near Portugal."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -3666,31 +3896,6 @@
 "url": "https://vpk.name/news/1171271_vs_rossii_primenili_novyi_bpla_na_dnepropetrovskom_napravlenii.html",
 "published_at": "2026-11-12T21:00:01Z",
 "quote": "ВС РФ применили новый БПЛА-перехватчик \"Сокол-3\" на Днепропетровском направлении Новейший БПЛА-перехватчик самолетного типа \"Сокол-3\" применили военные группировки войск \"Центр\" для уничтожения вражеских воздушных целей на днепропетровском "
-}
-],
-"sentiment": {
-"score_pm1": -0.1,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_ed70178a7bef62e3",
-"from": "ent_f2dcf230404a0bff",
-"to": "ent_76aae9f116d88191",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://defence-ua.com/news/jaki_1000_raket_proti_reaktivnih_droniv_jak_ot_geran_4_mozhe_peredati_ukrajini_velika_britanija_i_koli_tse_bude-24773.html",
-"published_at": "2026-11-17T16:43:11Z",
-"quote": "Які 1000 ракет проти реактивних дронів, як от \"Герань-4\", може передати Україні Велика Британія і коли це буде"
-},
-{
-"url": "https://twz.com/air/l-39ng-skyfox-jets-could-give-ukraine-a-critical-new-russian-drone-hunting-capability",
-"published_at": "2026-11-12T19:13:31Z",
-"quote": "The Czech Republic could supply Ukraine with up to 16 Aero L-39NG Skyfox aircraft, potentially giving Kyiv another option for countering Russia’s Shahed-type attack drones ."
 }
 ],
 "sentiment": {
@@ -5175,31 +5380,6 @@
 }
 },
 {
-"id": "rel_3b138247cd961bec",
-"from": "ent_76aae9f116d88191",
-"to": "ent_f4de600127d3237b",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://mod.gov.ua/news/rakety-meteor-ta-obladnannia-gripen-dlia-ukrainy-zmozhut-otrymaty-kompleksnyi-paket-ozbroiennia-za-pidtrymky-shvetsii-ta-velykoi-brytanii",
-"published_at": "2026-11-17T15:10:47Z",
-"quote": "Поставки ракет та обладнання планують синхронізувати з надходженням Gripen до Повітряних Сил України"
-},
-{
-"url": "https://belta.by/world/view/shvetsija-postavit-ukraine-pervye-istrebiteli-gripen-v-nachale-2027-goda-811246-2026",
-"published_at": "2026-11-17T10:38:06Z",
-"quote": "Швеция поставит Украине первые истребители Gripen в начале 2027 года"
-}
-],
-"sentiment": {
-"score_pm1": 0.1,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_2bdbe247ce741551",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_b5f76dc0ce128813",
@@ -5250,6 +5430,31 @@
 }
 },
 {
+"id": "rel_fb88b145a8d9a585",
+"from": "ent_a9338747cf31985c",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "должность",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/uk-to-send-ukraine-more-than-a-thousand-air-defence-missiles",
+"published_at": "2026-11-18T12:00:39Z",
+"quote": "Wes Streeting, the Defence Secretary, announced the package as he co-chaired the 37th meeting of the Ukraine Defence Contact Group at NATO Headquarters in Brussels with German Defence Minister Boris Pistorius."
+},
+{
+"url": "https://kyivpost.com/post/90370",
+"published_at": "2026-11-17T13:43:54Z",
+"quote": "Germany has pledged $300 million to buy US weaponry for Ukraine through NATO’s Prioritized Ukraine Requirements List (PURL), German Defense Minister Boris Pistorius said on Tuesday."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_fda868e147da90aa",
 "from": "ent_b677547c4bb180c5",
 "to": "ent_0dd93c1cbb5c85fa",
@@ -5275,28 +5480,28 @@
 }
 },
 {
-"id": "rel_3e38accebcd804c9",
-"from": "ent_ea737724a72411d4",
-"to": "ent_e7e61f26b8fd6566",
+"id": "rel_484d8bb3076ebde9",
+"from": "ent_d5b517870d653757",
+"to": "ent_c32678e4a0ae4599",
 "type": "применение",
 "event_date": null,
 "evidence_count": 2,
 "evidence": [
 {
-"url": "https://t.me/UAVDEV/13350",
-"published_at": "2026-11-18T04:28:26Z",
-"quote": "Удары по Крымскому мосту провели без использования Starlink и Starshield."
+"url": "https://lenta.ru/news/2026/11/18/v-rossii-prizvali-otvetit-na-obstrel-krasnodara-udarom-oreshnika-po-kievu",
+"published_at": "2026-11-18T11:25:00Z",
+"quote": "В России призвали ответить на обстрел Краснодара ударом «Орешника» по Киеву"
 },
 {
-"url": "https://pravda.com.ua/eng/news/2026/11/17/8063357",
-"published_at": "2026-11-17T21:27:00Z",
-"quote": "Ukraine did not rely on Starlink or Starshield during its attack on the Crimean Bridge on 17 November, but used its own satellite system instead ."
+"url": "https://topwar.ru/293732-oreshnik-ne-primenjalsja-kiev-hochet-chtoby-putina-v-knr-otgovorili-ot-otvetki.html",
+"published_at": "2026-11-18T03:14:15Z",
+"quote": "«Орешник» не применялся: Киев хочет, чтобы Путина в КНР отговорили от «ответки»"
 }
 ],
 "sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -5347,6 +5552,31 @@
 "score_pm1": 0.2,
 "score_pm2": 1,
 "label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_2089db0c37853742",
+"from": "ent_d2e22355d8368901",
+"to": "ent_407685cfaf1bc78b",
+"type": "должность",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/uk-to-send-ukraine-more-than-a-thousand-air-defence-missiles",
+"published_at": "2026-11-18T12:00:39Z",
+"quote": "Wes Streeting, the Defence Secretary, announced the package as he co-chaired the 37th meeting of the Ukraine Defence Contact Group at NATO Headquarters in Brussels with German Defence Minister Boris Pistorius."
+},
+{
+"url": "https://unmannedairspace.info/latest-news-and-information/uk-to-supply-ukraine-with-more-than-1000-air-defence-missiles-to-counter-russian-drones",
+"published_at": "2026-11-18T11:18:32Z",
+"quote": "UK Defence Secretary Wes Streeting announced the package while co-chairing the 37th meeting of the Ukraine Defence Contact Group at NATO headquarters in Brussels."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -6307,46 +6537,6 @@
 "score_pm1": -0.6,
 "score_pm2": -2,
 "label": "резко негативный"
-}
-},
-{
-"id": "rel_5e36c222946a5c9b",
-"from": "ent_e9549e1a12518b22",
-"to": "ent_cd3c86a3a1af0b40",
-"type": "контракт",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://dronexl.co/2026/11/09/nato-counter-drone-catalog-alta-ares-six-of-16-lots",
-"published_at": "2026-11-09T10:21:00Z",
-"quote": "The notice also left man-portable and wearable systems to a separate NATO Support and Procurement Agency contract and required bidders to hold NATO Restricted security clearances."
-}
-],
-"sentiment": {
-"score_pm1": 0.3,
-"score_pm2": 1,
-"label": "умеренно позитивный"
-}
-},
-{
-"id": "rel_92960be3fd9513cb",
-"from": "ent_d2e22355d8368901",
-"to": "ent_cd3c86a3a1af0b40",
-"type": "должность",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://defence-industry.eu/royal-navy-says-its-first-autonomous-squadron-will-deploy-uncrewed-boats-alongside-warships",
-"published_at": "2026-11-09T09:00:37Z",
-"quote": "” Defence Secretary Wes Streeting said the investment would put autonomous technology in sailors’ hands to help protect Britain and its NATO allies."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -10450,26 +10640,6 @@
 }
 },
 {
-"id": "rel_c6cd6f443b30ce18",
-"from": "ent_7902a5283b8ea891",
-"to": "ent_48a4e1e33ddc917b",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://armyrecognition.com/news/aerospace-news/2026/u-s-b-21-raider-demonstrates-strike-capability-as-future-backbone-of-u-s-air-force-bomber-fleet",
-"published_at": "2026-11-13T16:52:18Z",
-"quote": "B-21 Raider Demonstrates Strike Capability as Future Backbone of U."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_0a352d652ec30406",
 "from": "ent_7902a5283b8ea891",
 "to": "ent_48a4e1e33ddc917b",
@@ -10761,26 +10931,6 @@
 "url": "https://dronexl.co/2026/11/12/uforce-700-million-6-billion-uk-us-government-funds",
 "published_at": "2026-11-13T03:09:00Z",
 "quote": "</p><p>Retired US Army General Christopher Cavoli, NATO’s Supreme Allied Commander Europe until July 2025 and now a partner at Valor, joins the UFORCE board."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_8f7b49f450779540",
-"from": "ent_d2e22355d8368901",
-"to": "ent_fb9d115f2c2a9a7b",
-"type": "должность",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://dronexl.co/2026/11/12/uforce-700-million-6-billion-uk-us-government-funds",
-"published_at": "2026-11-13T03:09:00Z",
-"quote": "The same day, UK Defence Secretary Wes Streeting piloted a UFORCE <strong>MV7</strong> from the aircraft carrier HMS Prince of Wales in Oslo while the boat sailed more than 1,500 miles (2,400 kilometers) away, near Portugal."
 }
 ],
 "sentiment": {
@@ -23190,26 +23340,6 @@
 }
 },
 {
-"id": "rel_fb88b145a8d9a585",
-"from": "ent_a9338747cf31985c",
-"to": "ent_cd3c86a3a1af0b40",
-"type": "должность",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://kyivpost.com/post/90370",
-"published_at": "2026-11-17T13:43:54Z",
-"quote": "Germany has pledged $300 million to buy US weaponry for Ukraine through NATO’s Prioritized Ukraine Requirements List (PURL), German Defense Minister Boris Pistorius said on Tuesday."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_246074d3b5819d76",
 "from": "ent_cd3c86a3a1af0b40",
 "to": "ent_7c4278bb1c2365e3",
@@ -25250,26 +25380,6 @@
 }
 },
 {
-"id": "rel_484d8bb3076ebde9",
-"from": "ent_d5b517870d653757",
-"to": "ent_c32678e4a0ae4599",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://topwar.ru/293732-oreshnik-ne-primenjalsja-kiev-hochet-chtoby-putina-v-knr-otgovorili-ot-otvetki.html",
-"published_at": "2026-11-18T03:14:15Z",
-"quote": "«Орешник» не применялся: Киев хочет, чтобы Путина в КНР отговорили от «ответки»"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_eb47e09c2cfde17b",
 "from": "ent_72167ac7999f6b9e",
 "to": "ent_ed88ced226e6c399",
@@ -25827,6 +25937,346 @@
 "score_pm1": 0.3,
 "score_pm2": 1,
 "label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_0b4ef75a872f7172",
+"from": "ent_43252652072753d2",
+"to": "ent_c0ea40aef1dbd7d8",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/austrian-firm-schiebel-tests-s-100-as-drone-carrier",
+"published_at": "2026-11-18T09:15:04Z",
+"quote": "The proof-of-concept test was run in Austria with OSIRIS Poland, which supplied the small drone, an HSCD-1 High-Speed […"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e85ea840b79c51b4",
+"from": "ent_ea737724a72411d4",
+"to": "ent_c4d02534cbe847ba",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/nato-flags-untrusted-vendors-in-new-communications-strategy",
+"published_at": "2026-11-18T11:11:30Z",
+"quote": "Luke Pollard, Minister for Defence Readiness and Industry, told MPs this week that the use of SpaceX’s Starshield by Britain’s forces is part of a satellite communications strategy “avoiding over-reliance on any single provider” , according"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_dbdc820f9a9d0ccd",
+"from": "ent_fc563973a037d517",
+"to": "ent_1687b68e60ee2b45",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://asianmilitaryreview.com/2026/11/terra-drone-set-to-deliver-300-modular-uavs-to-atla-for-training-purposes-nsbt",
+"published_at": "2026-11-18T10:04:52Z",
+"quote": "Earlier this month, Terra Drone Corporation announced the completion of the firm’s manufacture and inspection of 300 units of its “Terra D1” modular unmanned aerial vehicle (UAV), which have been ordered by the Japanese Ministry of Defense’"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_9f926588566c7034",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_441208781c9d6d36",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611181252-WUyzT.html",
+"published_at": "2026-11-18T10:07:44Z",
+"quote": "Российские дроны уничтожили HMMWV и автомобили ВСУ в Сумской области"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_c9de70d9e6752f8e",
+"from": "ent_441208781c9d6d36",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611181252-WUyzT.html",
+"published_at": "2026-11-18T10:07:44Z",
+"quote": "Российские дроны уничтожили HMMWV и автомобили ВСУ в Сумской области"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_bed0fa3b06f86651",
+"from": "ent_441208781c9d6d36",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611181252-WUyzT.html",
+"published_at": "2026-11-18T10:07:44Z",
+"quote": "Российские дроны уничтожили HMMWV и автомобили ВСУ в Сумской области"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_1c558a700a038ccf",
+"from": "ent_441208781c9d6d36",
+"to": "ent_4dd10f19e652ad7c",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611181252-WUyzT.html",
+"published_at": "2026-11-18T10:07:44Z",
+"quote": "Российские дроны уничтожили HMMWV и автомобили ВСУ в Сумской области"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_8f9178a211ae2f32",
+"from": "ent_441208781c9d6d36",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611181252-WUyzT.html",
+"published_at": "2026-11-18T10:07:44Z",
+"quote": "Операторы ударных беспилотников группировки войск «Север» уничтожили американскую бронемашину HMMWV , автомобили повышенной проходимости и военнослужащих ВСУ в Сумской области."
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_99f91b30fd9447e2",
+"from": "ent_c5e28a19c1c30cf4",
+"to": "ent_469aac1a6973d563",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/18/red-cat-withdraws-2026-revenue-target-gauntlet-ii",
+"published_at": "2026-11-18T11:29:00Z",
+"quote": "co/2025/11/05/apium-swarm-robotics-joins-red-cat-futures-initiative/\">Futures Initiative</a>, moved on to Swarm Forge Crucible 4 as part of Anduril’s team."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_9ee7e84dec4f0892",
+"from": "ent_790379f08804de02",
+"to": "ent_3a39305e851ed0fe",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/18/red-cat-withdraws-2026-revenue-target-gauntlet-ii",
+"published_at": "2026-11-18T11:29:00Z",
+"quote": "Mitch McDonald, Red Cat’s Divisional CEO of UAS Operations, told me in August that Japan had become the second-largest customer for <strong>Hellcat</strong>, the export version of Black Widow."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_f5053b109cbc5351",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_d8a707bdf6697026",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://overtdefense.com/2026/11/18/nato-procurement-agency-orders-shield-v-bat-drones-for-greek-forces",
+"published_at": "2026-11-18T13:00:35Z",
+"quote": "The post NATO Procurement Agency Orders Shield V-BAT Drones for Greek Forces appeared first on Overt Defense ."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_9db526f75a24658a",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_ea737724a72411d4",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://belvpo.com/ekzistenczialnyj-vopros",
+"published_at": "2026-11-18T10:14:52Z",
+"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_4428ed101c465e16",
+"from": "ent_ea737724a72411d4",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://belvpo.com/ekzistenczialnyj-vopros",
+"published_at": "2026-11-18T10:14:52Z",
+"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_586a7e746deec0d8",
+"from": "ent_a9338747cf31985c",
+"to": "ent_407685cfaf1bc78b",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/uk-to-send-ukraine-more-than-a-thousand-air-defence-missiles",
+"published_at": "2026-11-18T12:00:39Z",
+"quote": "Wes Streeting, the Defence Secretary, announced the package as he co-chaired the 37th meeting of the Ukraine Defence Contact Group at NATO Headquarters in Brussels with German Defence Minister Boris Pistorius."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6f3fc8b64f360212",
+"from": "ent_a9338747cf31985c",
+"to": "ent_db7b443c5e0335a0",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/uk-to-send-ukraine-more-than-a-thousand-air-defence-missiles",
+"published_at": "2026-11-18T12:00:39Z",
+"quote": "Wes Streeting, the Defence Secretary, announced the package as he co-chaired the 37th meeting of the Ukraine Defence Contact Group at NATO Headquarters in Brussels with German Defence Minister Boris Pistorius."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_51eaf75aa4195f7c",
+"from": "ent_d2e22355d8368901",
+"to": "ent_db7b443c5e0335a0",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/uk-to-send-ukraine-more-than-a-thousand-air-defence-missiles",
+"published_at": "2026-11-18T12:00:39Z",
+"quote": "Wes Streeting, the Defence Secretary, announced the package as he co-chaired the 37th meeting of the Ukraine Defence Contact Group at NATO Headquarters in Brussels with German Defence Minister Boris Pistorius."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_12c680426b73a506",
+"from": "ent_d5b517870d653757",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://lenta.ru/news/2026/11/18/v-rossii-prizvali-otvetit-na-obstrel-krasnodara-udarom-oreshnika-po-kievu",
+"published_at": "2026-11-18T11:25:00Z",
+"quote": "В России призвали ответить на обстрел Краснодара ударом «Орешника» по Киеву"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 }
 ]
