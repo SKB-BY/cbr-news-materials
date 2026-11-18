@@ -1,12 +1,12 @@
 # Упомянуто в новостях, но отсутствует в реестре — рабочий список
 
-Построен по живой базе на 18.11.2026 08:43 Europe/Minsk.
+Построен по живой базе на 18.11.2026 10:16 Europe/Minsk.
 
 Рабочий список кандидатов, **не проверенная перепись**. Названия извлечены регулярными выражениями из заголовков и вводных абзацев новостей и сравнены с реестром `companies.csv` (названия, псевдонимы, шаблоны упоминаний). Среди кандидатов есть ложные срабатывания (продукты, ведомства, общие слова). В реестр ничего автоматически не добавляется: строка вносится только после открытия официального сайта и источника.
 
 Российские компании в реестр не вносятся (решение 11.11.2026: «Удали все российские компании»); российские названия в этом списке — только упоминания в ленте, не кандидаты в реестр.
 
-Порог: кандидат встретился минимум в 2 материалах. Кандидатов: 120.
+Порог: кандидат встретился минимум в 2 материалах. Кандидатов: 122.
 
 | Кандидат | Материалов | Примеры (ссылки) |
 |---|---:|---|
@@ -102,6 +102,7 @@
 | GE Aerospace | 2 | [🇺🇸 Формуляр на американскую военно-промышленную компанию Shield AI Inc.](https://t.me/uav_tech/37129); [Shield unveils first X-BAT combat drone prototype with test flight planned for 2026](https://defence-industry.eu/shield-unveils-first-x-bat-combat-drone-prototype-with-test-flight-planned-for-2026) |
 | Germany’s CONDOR Group | 2 | [CONDOR Group acquires HHLA Sky to expand automated drone operations](https://unmannedairspace.info/uncategorized/condor-group-acquires-hhla-sky-to-expand-automated-drone-operations); [Condor Group acquires HHLA Sky as Hamburg port operator exits drone business](https://dronewatch.eu/condor-group-acquires-hhla-sky-as-hamburg-port-operator-exits-drone-business/?utm_source=rss&utm_medium=rss&utm_campaign=condor-group-acquires-hhla-sky-as-hamburg-port-operator-exits-drone-business) |
 | GP-Act III Acquisition Corp | 2 | [Dronamics to Go Public on Nasdaq Through Merger](https://dronelife.com/2026/11/04/dronamics-to-go-public-on-nasdaq-through-merger); [Dronamics' Nasdaq SPAC Trust Falls To $30 Million Before Merger Vote](https://dronexl.co/2026/11/16/dronamics-spac-trust-redemptions-black-swan-nasdaq) |
+| HD Hyundai Heavy Industries | 2 | [HD Hyundai and Anduril launch a co-developed USV](https://asianmilitaryreview.com/2026/11/hd-hyundai-and-anduril-launch-a-co-developed-usv-foc); [Amerykańsko–koreański bezzałogowiec nawodny zwodowany](https://zbiam.pl/amerykansko-koreanski-bezzalogowiec-nawodny-zwodowany) |
 | Hermeus Corporation | 2 | [Northrop Grumman and Hermeus Team to Advance Reusable, Unmanned High-Mach Platforms](https://uasvision.com/2026/11/16/northrop-grumman-and-hermeus-team-to-advance-reusable-unmanned-high-mach-platforms); [Hermeus Partners with Northrop Grumman for Quarterhorse Autonomous Aircraft Initiative](https://c4defence.com/en/hermeus-quarterhorse-northrop-grumman-2) |
 | INFORM Wales Defence | 2 | [Welsh Defence Industry Priorities to Be Presented to More Than 200 Government and Industry Leaders](https://businessnewswales.com/welsh-defence-industry-priorities-to-be-presented-to-more-than-200-government-and-industry-leaders); [New Media Channel Launches to Spotlight Welsh Defence Industry and Supply Chain Opportunities](https://businessnewswales.com/new-media-channel-launches-to-spotlight-welsh-defence-industry-and-supply-chain-opportunities) |
 | International Development Finance Corporation | 2 | [UForce raises $700 million at a $6 billion valuation to build more drones in Ukraine and abroad](https://defence-industry.eu/uforce-raises-700-million-at-a-6-billion-valuation-to-build-more-drones-in-ukraine-and-abroad); [Defense Business Brief: This Ukraine-founded drone maker is now worth $6 billion. What now?](https://defenseone.com/business/2026/11/defense-business-brief-ukraine-founded-drone-maker-now-worth-6-billion-what-now/417207) |
@@ -119,6 +120,7 @@
 | Uncrewed Vehicle Systems | 2 | [Brett Feddersen to lead AUVSI](https://unmannedairspace.info/latest-news-and-information/brett-feddersen-to-lead-auvsi); [AUVSI Hands CEO Job To Counter-Drone Executive Brett Feddersen](https://dronexl.co/2026/11/10/auvsi-brett-feddersen-ceo-d-fend-counter-drone) |
 | United Aircraft Corporation | 2 | [Russia gets third batch of new Su-34 bombers this year](https://defence-blog.com/russia-gets-third-batch-of-new-su-34-bombers-this-year); [Yak-130M aircraft could be vessel for loitering munitions - RUSSIAN AVIATION](https://ruaviation.com/news/2026/9/28/20861) |
 | Unitree Robotics | 2 | [🤖 Китай представил робота-телохранителя: UNITREE H2-X!](https://t.me/bpla_drone/1667); [Китай притормаживает выход роботов на биржу](https://t.me/news_UAV/5756) |
+| Unmanned Aerial Systems | 2 | [The TOPASE Project: Trustworthy PNT for Unmanned Aerial Systems](https://insidegnss.com/the-topase-project-trustworthy-pnt-for-unmanned-aerial-systems); [US Army Tests Drone-Dropped Mortars](https://uasvision.com/2026/11/18/us-army-tests-drone-dropped-mortars) |
 | UVL Robotics | 2 | [🇷🇺 Ритейл. Склады. Беспилотники и инвентаризация. Россия](https://t.me/proUAV/1967); [Дроны в российском ритейле: как беспилотники меняют складскую инвентаризацию](https://t.me/uav_tech/36577) |
 | WinnyLab LLC | 2 | [📝Перехватчики для ВСУ📝](https://t.me/uav_tech/36243); [Компания Terra Drone приступает к опытно-промышленной эксплуатации беспилотника-перехватчика Terra A2 в Украине](https://t.me/news_UAV/5121) |
 | Авиационные технологии и комплексы | 2 | [🚁 В Калужской области построят российско-белорусский завод по производству агродронов](https://t.me/uav_tech/37311); [🇧🇾🇷🇺Белорусы построят в России завод агродронов](https://t.me/Drones_Belarus/297) |

@@ -5,8 +5,18 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 191,
+"evidence_count": 193,
 "evidence": [
+{
+"url": "https://ria.ru/20261118/dobropole-2132267165.html",
+"published_at": "2026-11-18T05:41:49Z",
+"quote": "Операторы БПЛА уничтожили бетонную позицию с боевиками ВСУ в Доброполье"
+},
+{
+"url": "https://rosguard.gov.ru/News/Article/rosgvardejcy-sorvali-dostavku-boepripasov-i-sredstv-svyazi-k-poziciyam-vsu-na-xarkovskom-napravlenii-video",
+"published_at": "2026-11-18T05:00:00Z",
+"quote": "Расчет ударного FPV-дрона точно навел беспилотник на транспорт ВСУ и поразил его прямым попаданием."
+},
 {
 "url": "https://tvzvezda.ru/news/20261118740-Os5WE.html",
 "published_at": "2026-11-18T04:59:37Z",
@@ -21,16 +31,6 @@
 "url": "https://tass.ru/armiya-i-opk/28328531",
 "published_at": "2026-11-18T02:05:55Z",
 "quote": "Артиллеристы \"Севера\" уничтожил пункты управления БПЛА и технику ВСУ"
-},
-{
-"url": "https://rg.ru/2026/11/18/reg-dnr/devochka-iz-konstantinovki-rasskazala-kak-boec-rf-cenoj-svoej-zhizni-spas-ee.html",
-"published_at": "2026-11-17T21:20:03Z",
-"quote": "Боец РФ ценой своей жизни спас девочку в Константиновке от удара дрона ВСУ"
-},
-{
-"url": "https://vpk.name/news/1172832_shveciya_i_britaniya_dogovorilis_snabzhat_boepripasami_ukrainskie_gripen.html",
-"published_at": "2026-11-17T21:00:01Z",
-"quote": "ВС России нанесли удары по мостам в Киеве Швеция, Британия и Украина подписали декларацию о намерениях по сотрудничеству в сфере снабжения ВСУ боеприпасами и материалами для истребителей JAS Gripen."
 }
 ],
 "sentiment": {
@@ -25151,6 +25151,26 @@
 "url": "https://tvzvezda.ru/news/2026111884-lcKKf.html",
 "published_at": "2026-11-18T05:17:41Z",
 "quote": "Российские военнослужащие продолжили нанесение ударов дронами по портовой инфраструктуре Украины и морским судам, задействованным в интересах ВСУ, сообщило Минобороны РФ."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_0b958eedafb82c36",
+"from": "ent_fd1eae5aac940b39",
+"to": "ent_e5f190ccc39e3fdd",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://kyivpost.com/post/90422",
+"published_at": "2026-11-18T05:48:06Z",
+"quote": "Russian Drone Strikes on Dnipro Injure Six, Including 15-Year-Old Boy"
 }
 ],
 "sentiment": {
