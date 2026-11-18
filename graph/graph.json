@@ -2,13 +2,13 @@
 "meta": {
 "version": "t171u-graph-1",
 "links_version": "t167u-links-2",
-"oi_as_of": "2026-11-18T06:10:47+03:00",
-"built_at": "2026-11-18T06:18:59+03:00",
+"oi_as_of": "2026-11-18T08:41:41+03:00",
+"built_at": "2026-11-18T08:46:34+03:00",
 "copyright": "© 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR",
 "rule": "t167u: связь только при реальной связи (основание с URL); совместные упоминания не включены",
 "counts": {
 "nodes": 2094,
-"edges": 2086,
+"edges": 2087,
 "persons": 64,
 "darpa_programs": 779
 }
@@ -8916,7 +8916,7 @@
 "url": "",
 "role": "",
 "reg": false,
-"deg": 9
+"deg": 10
 },
 {
 "id": "c:ent_09ef8b4336d31ca0",
@@ -8976,7 +8976,7 @@
 "url": "",
 "role": "",
 "reg": false,
-"deg": 1
+"deg": 2
 },
 {
 "id": "c:ent_0c7791d169d924d7",
@@ -29522,6 +29522,26 @@
 "https://defence-industry.eu/northrop-grumman-says-bushmaster-cannon-defeated-multiple-drones-in-live-fire-test-using-m-ace-and-proximity-ammunition",
 "2026-11-17 23:19",
 "The guns and ammunition form part of Northrop Grumman’s Raid Defense Solutions portfolio, which covers counter-drone and air defense capabilities."
+]
+]
+},
+{
+"id": "ctr:782",
+"s": "c:ent_72167ac7999f6b9e",
+"t": "c:ent_ed88ced226e6c399",
+"type": "судебный спор",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://tvzvezda.ru/news/2026111884-lcKKf.html",
+"date": "",
+"n": 1,
+"s2": -1,
+"s1": -0.3,
+"ev": [
+[
+"https://tvzvezda.ru/news/2026111884-lcKKf.html",
+"2026-11-18 08:17",
+"Российские военнослужащие продолжили нанесение ударов дронами по портовой инфраструктуре Украины и морским судам, задействованным в интересах ВСУ, сообщило Минобороны РФ."
 ]
 ]
 },
