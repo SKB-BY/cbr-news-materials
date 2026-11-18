@@ -5,8 +5,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 206,
+"evidence_count": 207,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611181827-5XzzJ.html",
+"published_at": "2026-11-18T15:33:01Z",
+"quote": "БПЛА группировки «Юг» поразили два пункта управления дронами ВСУ"
+},
 {
 "url": "https://tvzvezda.ru/news/202611181711-Zn9Fk.html",
 "published_at": "2026-11-18T14:40:02Z",
@@ -26,11 +31,6 @@
 "url": "https://tvzvezda.ru/news/202611181441-hWkVY.html",
 "published_at": "2026-11-18T11:27:30Z",
 "quote": "Морпехи уничтожили бронемашину и военный робот ВСУ в районе Белозерского"
-},
-{
-"url": "https://tvzvezda.ru/news/202611181350-tplUI.html",
-"published_at": "2026-11-18T10:54:14Z",
-"quote": "Российские перехватчики сбили дроны ВСУ на Краснолиманском направлении"
 }
 ],
 "sentiment": {
@@ -45,8 +45,13 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 60,
+"evidence_count": 61,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611181812-Dibgz.html",
+"published_at": "2026-11-18T15:18:38Z",
+"quote": "В российском оборонном ведомстве отметили, что огневое поражение беспилотниками сухогруза - это продолжение ударов дронами по морским судам, которые выполняют рейсы в интересах боевиков ВСУ."
+},
 {
 "url": "https://tvzvezda.ru/news/202611181526-v2hSJ.html",
 "published_at": "2026-11-18T12:29:14Z",
@@ -66,11 +71,6 @@
 "url": "https://tass.ru/armiya-i-opk/28330067",
 "published_at": "2026-11-18T08:55:40Z",
 "quote": "Средства ПВО РФ за сутки сбили 310 беспилотников ВСУ"
-},
-{
-"url": "https://tvzvezda.ru/news/20261118118-2DHFf.html",
-"published_at": "2026-11-18T08:37:28Z",
-"quote": "Минобороны России сообщило об уничтожении боевиков ВСУ на Краснолиманском направлении."
 }
 ],
 "sentiment": {
@@ -360,6 +360,46 @@
 }
 },
 {
+"id": "rel_36dc9b13ddf1a45c",
+"from": "ent_76aae9f116d88191",
+"to": "ent_ff878af017a8077e",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 8,
+"evidence": [
+{
+"url": "https://topwar.ru/293779-portugalija-snova-otkazala-ukraine-reshiv-ne-peredavat-istrebiteli-f-16.html",
+"published_at": "2026-11-18T16:15:05Z",
+"quote": "Португалия снова отказала Украине, решив не передавать истребители F-16"
+},
+{
+"url": "https://belta.by/world/view/portugalija-otkazalas-peredavat-ukraine-istrebiteli-f-16-811499-2026",
+"published_at": "2026-11-18T16:08:51Z",
+"quote": "Португалия отказалась передавать Украине истребители F-16"
+},
+{
+"url": "https://t.me/newsby_btrc/209938",
+"published_at": "2026-11-18T16:06:01Z",
+"quote": "Португалия отказалась передавать Украине истребители F-16, об этом сообщил министр иностранных дел страны Паулу Ранжел"
+},
+{
+"url": "https://kyivpost.com/post/90515",
+"published_at": "2026-11-18T16:00:07Z",
+"quote": "Portugal Rules Out F-16 Transfers to Ukraine, Offers Pilot Training and Aid"
+},
+{
+"url": "https://t.me/sbbytoday_by/202101",
+"published_at": "2026-11-18T15:15:58Z",
+"quote": "⚡️Португалия отказалась передавать Украине истребители F-16, об этом сообщил министр иностранных дел страны Паулу Ранжел"
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_0f6f97cb3e4cf43d",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_e7e61f26b8fd6566",
@@ -517,6 +557,46 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_052a9524c0f2eda4",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_e5f190ccc39e3fdd",
+"type": "применение",
+"event_date": null,
+"evidence_count": 7,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611181827-5XzzJ.html",
+"published_at": "2026-11-18T15:33:01Z",
+"quote": "Ранее Минобороны показало кадры уничтожения антенн-ретрансляторов и пункта управления БПЛА ВСУ на Днепропетровском направлении."
+},
+{
+"url": "https://tvzvezda.ru/news/202611181526-v2hSJ.html",
+"published_at": "2026-11-18T12:29:14Z",
+"quote": "Российские военнослужащие уничтожили укрепленный опорный пункт ВСУ, состоявший из нескольких блиндажей и огневых позиций, на Днепропетровском направлении."
+},
+{
+"url": "https://tvzvezda.ru/news/20261117163-H2yDW.html",
+"published_at": "2026-11-17T13:12:14Z",
+"quote": "Ранее ведомство сообщило, что расчеты того же 78-го полка уничтожили семь антенн-ретрансляторов связи ВСУ на Днепропетровском направлении."
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%81%d0%b0%d1%83-%d0%bc%d1%81%d1%82%d0%b0-%d1%81-%d1%83%d0%bd%d0%b8%d1%87%d1%82%d0%be%d0%b6%d0%b8%d0%bb-%d0%bf%d1%83%d0%bd%d0%ba%d1%82-%d1%83%d0%bf",
+"published_at": "2026-11-17T08:36:31Z",
+"quote": "РАСЧЕТ САУ «МСТА-С» УНИЧТОЖИЛ ПУНКТ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+},
+{
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%82%d0%be%d1%81-2-%d1%82%d0%be%d1%81%d0%be%d1%87%d0%ba%d0%b0-%d1%81%d0%be%d0%b5%d0%b4%d0%b8%d0%bd%d0%b5%d0%bd%d0%b8%d1%8f-%d1%80%d1%85%d0%b1%d0%b7",
+"published_at": "2026-11-16T08:59:14Z",
+"quote": "РАСЧЕТ ТОС-2 «ТОСОЧКА» СОЕДИНЕНИЯ РХБЗ ГРУППИРОВКИ ВОЙСК «ЦЕНТР» УНИЧТОЖИЛ РАЙОН СОСРЕДОТОЧЕНИЯ ПУНКТОВ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 },
 {
@@ -800,46 +880,6 @@
 }
 },
 {
-"id": "rel_052a9524c0f2eda4",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_e5f190ccc39e3fdd",
-"type": "применение",
-"event_date": null,
-"evidence_count": 6,
-"evidence": [
-{
-"url": "https://tvzvezda.ru/news/202611181526-v2hSJ.html",
-"published_at": "2026-11-18T12:29:14Z",
-"quote": "Российские военнослужащие уничтожили укрепленный опорный пункт ВСУ, состоявший из нескольких блиндажей и огневых позиций, на Днепропетровском направлении."
-},
-{
-"url": "https://tvzvezda.ru/news/20261117163-H2yDW.html",
-"published_at": "2026-11-17T13:12:14Z",
-"quote": "Ранее ведомство сообщило, что расчеты того же 78-го полка уничтожили семь антенн-ретрансляторов связи ВСУ на Днепропетровском направлении."
-},
-{
-"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%81%d0%b0%d1%83-%d0%bc%d1%81%d1%82%d0%b0-%d1%81-%d1%83%d0%bd%d0%b8%d1%87%d1%82%d0%be%d0%b6%d0%b8%d0%bb-%d0%bf%d1%83%d0%bd%d0%ba%d1%82-%d1%83%d0%bf",
-"published_at": "2026-11-17T08:36:31Z",
-"quote": "РАСЧЕТ САУ «МСТА-С» УНИЧТОЖИЛ ПУНКТ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
-},
-{
-"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%82%d0%be%d1%81-2-%d1%82%d0%be%d1%81%d0%be%d1%87%d0%ba%d0%b0-%d1%81%d0%be%d0%b5%d0%b4%d0%b8%d0%bd%d0%b5%d0%bd%d0%b8%d1%8f-%d1%80%d1%85%d0%b1%d0%b7",
-"published_at": "2026-11-16T08:59:14Z",
-"quote": "РАСЧЕТ ТОС-2 «ТОСОЧКА» СОЕДИНЕНИЯ РХБЗ ГРУППИРОВКИ ВОЙСК «ЦЕНТР» УНИЧТОЖИЛ РАЙОН СОСРЕДОТОЧЕНИЯ ПУНКТОВ УПРАВЛЕНИЯ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
-},
-{
-"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d0%b4%d1%80%d0%be%d0%bd%d0%b0-%d0%bf%d0%b5%d1%80%d0%b5%d1%85%d0%b2%d0%b0%d1%82%d1%87%d0%b8%d0%ba%d0%b0-%d1%81%d0%be%d0%ba%d0%be%d0%bb-%d0%b22-%d0%b7",
-"published_at": "2026-11-16T08:40:21Z",
-"quote": "РАСЧЕТ ДРОНА-ПЕРЕХВАТЧИКА «СОКОЛ-В2» ЗЕНИТНОЙ РАКЕТНОЙ БРИГАДЫ ГРУППИРОВКИ «ЦЕНТР» УНИЧТОЖИЛ ДЕСЯТКИ УДАРНЫХ И РАЗВЕДЫВАТЕЛЬНЫХ БПЛА ВСУ НА ДНЕПРОПЕТРОВСКОМ НАПРАВЛЕНИИ"
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_e3954abeb6713184",
 "from": "ent_d380c846b4a97fed",
 "to": "ent_82e26e90a014009e",
@@ -997,6 +1037,46 @@
 "score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_e8e6e2acf2c100a2",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_b677547c4bb180c5",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 5,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/18/lantronix-blue-uas-supply-chain-98-percent-out-of-china",
+"published_at": "2026-11-18T15:40:00Z",
+"quote": "com/chinas-drone-export-rules-complicate-the-pentagons-supply-chain\">Military."
+},
+{
+"url": "https://theaviationist.com/2026/11/10/pentagon-cannot-account-f-35-spare-parts",
+"published_at": "2026-11-10T19:40:01Z",
+"quote": "Pentagon cannot reconcile F-35 inventory records One of the most significant problems identified by GAO is the lack of effective reconciliation between the different inventories and property management systems used throughout the F-35 suppl"
+},
+{
+"url": "https://warontherocks.com/cogs-of-war/the-record-budgets-and-missing-suppliers-shaping-americas-munitions-ramp",
+"published_at": "2026-11-09T09:00:45Z",
+"quote": "The Pentagon is sending a record demand signal for munitions, but turning it into deliveries depends on suppliers several tiers below the primes, many of which disappeared over the last two decades."
+},
+{
+"url": "https://t.me/uav_tech/36543",
+"published_at": "2026-06-27T08:28:42Z",
+"quote": "Если завтра перекроют поставки вольфрама или начнётся кризис на Тайване, Пентагон будет точно знать, какой завод способен за сутки перестроиться на нужный режим, а какому потребуется месяц."
+},
+{
+"url": "https://t.me/quadro_news/4942",
+"published_at": "2026-03-09T15:32:30Z",
+"quote": "Сыновья Трампа скупают украинские дроны для поставок в Пентагон"
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -1376,41 +1456,6 @@
 "url": "https://defence-industry.eu/royal-navy-says-its-first-autonomous-squadron-will-deploy-uncrewed-boats-alongside-warships",
 "published_at": "2026-11-09T09:00:37Z",
 "quote": "” Defence Secretary Wes Streeting said the investment would put autonomous technology in sailors’ hands to help protect Britain and its NATO allies."
-}
-],
-"sentiment": {
-"score_pm1": 0.1,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_e8e6e2acf2c100a2",
-"from": "ent_b0bba4c8f275ffd0",
-"to": "ent_b677547c4bb180c5",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://theaviationist.com/2026/11/10/pentagon-cannot-account-f-35-spare-parts",
-"published_at": "2026-11-10T19:40:01Z",
-"quote": "Pentagon cannot reconcile F-35 inventory records One of the most significant problems identified by GAO is the lack of effective reconciliation between the different inventories and property management systems used throughout the F-35 suppl"
-},
-{
-"url": "https://warontherocks.com/cogs-of-war/the-record-budgets-and-missing-suppliers-shaping-americas-munitions-ramp",
-"published_at": "2026-11-09T09:00:45Z",
-"quote": "The Pentagon is sending a record demand signal for munitions, but turning it into deliveries depends on suppliers several tiers below the primes, many of which disappeared over the last two decades."
-},
-{
-"url": "https://t.me/uav_tech/36543",
-"published_at": "2026-06-27T08:28:42Z",
-"quote": "Если завтра перекроют поставки вольфрама или начнётся кризис на Тайване, Пентагон будет точно знать, какой завод способен за сутки перестроиться на нужный режим, а какому потребуется месяц."
-},
-{
-"url": "https://t.me/quadro_news/4942",
-"published_at": "2026-03-09T15:32:30Z",
-"quote": "Сыновья Трампа скупают украинские дроны для поставок в Пентагон"
 }
 ],
 "sentiment": {
@@ -2176,36 +2221,6 @@
 "url": "https://t.me/uav_tech/36905",
 "published_at": "2026-08-17T16:44:30Z",
 "quote": "Сейчас ВСУ активно используют американские БПЛА Hornet, Турция собирается передать незалежной 100 тыс."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_36dc9b13ddf1a45c",
-"from": "ent_76aae9f116d88191",
-"to": "ent_ff878af017a8077e",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://pravda.com.ua/eng/news/2026/11/18/8063455",
-"published_at": "2026-11-18T13:17:00Z",
-"quote": "Portugal refuses to transfer F-16 fighter jets to Ukraine, but will assist with pilot training"
-},
-{
-"url": "https://tass.ru/mezhdunarodnaya-panorama/28317771",
-"published_at": "2026-11-14T09:48:10Z",
-"quote": "Зеленский: переданные Украине F-16 постоянно находятся в ремонте"
-},
-{
-"url": "https://theaviationist.com/2026/11/12/ukraine-eyes-up-to-16-l-39ng-skyfox-trainers",
-"published_at": "2026-11-12T22:08:40Z",
-"quote": "However, should the latter be delivered, it would provide Ukraine with an aircraft capable of intercepting slower attack without having to commit frontline fighters such as the F-16."
 }
 ],
 "sentiment": {
@@ -5195,6 +5210,31 @@
 }
 },
 {
+"id": "rel_22188d712582301e",
+"from": "ent_e66a2be7fe38d473",
+"to": "ent_c32678e4a0ae4599",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://focus.ua/voennye-novosti/775186-obstrel-kieva-dron-rf-vrezalsya-v-11-y-etazh-zhilogo-kompleksa-novopecherskie-lipki",
+"published_at": "2026-11-18T14:44:49Z",
+"quote": "Днём 18 ноября ВС РФ нанесли удар реактивными дронами по Киеву, и обломки БПЛА упали в Печерском районе столицы, сообщил журналист Андрей Смолий в Telegram-канале."
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28323119",
+"published_at": "2026-11-16T15:11:46Z",
+"quote": "ВС РФ поразили используемый для хранения БПЛА склад в Киевской области"
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_429782e0c62e9f38",
 "from": "ent_7902a5283b8ea891",
 "to": "ent_82e26e90a014009e",
@@ -5545,6 +5585,31 @@
 }
 },
 {
+"id": "rel_1f4bd183448b42be",
+"from": "ent_76aae9f116d88191",
+"to": "ent_ff878af017a8077e",
+"type": "производство",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://armyinform.com.ua/2026/11/18/boyeprypasy-dlya-f-16-rakety-drony-ukrayinskogo-vyrobnycztva-pidsumky-37-go-ramshtajnu",
+"published_at": "2026-11-18T07:13:57Z",
+"quote": "Боєприпаси для F-16, ракети, дрони українського виробництва: підсумки 37-го «Рамштайну»"
+},
+{
+"url": "https://mod.gov.ua/news/vneski-u-zahist-neba-cherez-purl-droni-ukrayinskogo-virobnicztva-boyepripasi-ta-raketi-pidsumki-37-go-ramshtajnu",
+"published_at": "2026-11-18T06:33:18Z",
+"quote": "Кошти будуть спрямовані на закупівлю ударних безпілотників (зокрема українського виробництва), боєприпасів для літаків F-16, а також українських дронів-перехоплювачів і реалізацію ініціативи PURL."
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_6c25960affba6281",
 "from": "ent_1af8e80224936974",
 "to": "ent_407685cfaf1bc78b",
@@ -5636,6 +5701,31 @@
 "url": "https://unmannedairspace.info/latest-news-and-information/uk-to-supply-ukraine-with-more-than-1000-air-defence-missiles-to-counter-russian-drones",
 "published_at": "2026-11-18T11:18:32Z",
 "quote": "UK Defence Secretary Wes Streeting announced the package while co-chairing the 37th meeting of the Ukraine Defence Contact Group at NATO headquarters in Brussels."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_2d3362d8ae050235",
+"from": "ent_8fb86f78250fd022",
+"to": "ent_76aae9f116d88191",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://belta.by/world/view/v-es-nadejutsja-postavit-ukraine-do-20-mln-dronov-v-2027-godu-evrokomissar-po-oborone-811483-2026",
+"published_at": "2026-11-18T18:01:30Z",
+"quote": "Евросоюз планирует поставить Украине в 2027 году до 20 млн дронов всех типов."
+},
+{
+"url": "https://belvpo.com/v-es-nadeyutsya-postavit-ukraine-do-20-mln-dronov-v-2027-godu-evrokomissar-po-oborone",
+"published_at": "2026-11-18T15:34:23Z",
+"quote": "Евросоюз планирует поставить Украине в 2027 году до 20 млн дронов всех типов."
 }
 ],
 "sentiment": {
@@ -20505,26 +20595,6 @@
 }
 },
 {
-"id": "rel_22188d712582301e",
-"from": "ent_e66a2be7fe38d473",
-"to": "ent_c32678e4a0ae4599",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://tass.ru/armiya-i-opk/28323119",
-"published_at": "2026-11-16T15:11:46Z",
-"quote": "ВС РФ поразили используемый для хранения БПЛА склад в Киевской области"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_42c54454f11a9339",
 "from": "ent_b5f76dc0ce128813",
 "to": "ent_28fea1c77915c37a",
@@ -25465,26 +25535,6 @@
 }
 },
 {
-"id": "rel_1f4bd183448b42be",
-"from": "ent_76aae9f116d88191",
-"to": "ent_ff878af017a8077e",
-"type": "производство",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://armyinform.com.ua/2026/11/18/boyeprypasy-dlya-f-16-rakety-drony-ukrayinskogo-vyrobnycztva-pidsumky-37-go-ramshtajnu",
-"published_at": "2026-11-18T07:13:57Z",
-"quote": "Боєприпаси для F-16, ракети, дрони українського виробництва: підсумки 37-го «Рамштайну»"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_e767a16e2c8a8c94",
 "from": "ent_cd3c86a3a1af0b40",
 "to": "ent_b5f76dc0ce128813",
@@ -26842,6 +26892,86 @@
 "score_pm1": 0.5,
 "score_pm2": 1,
 "label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_cfca2a29b2f244b8",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_db376d4d7bc4d9da",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/18/lantronix-blue-uas-supply-chain-98-percent-out-of-china",
+"published_at": "2026-11-18T15:40:00Z",
+"quote": "com/chinas-drone-export-rules-complicate-the-pentagons-supply-chain\">Military."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_93a1914e6ad8660c",
+"from": "ent_a0fb46147608ec52",
+"to": "ent_e50e9b8e1c289c1d",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://edrmagazine.eu/euronaval-2026-elbit-systems-details-its-engagement-into-underwater-unmanned-vehicles-and-counter-unmanned-systems",
+"published_at": "2026-11-18T15:34:49Z",
+"quote": "While increasing its footprint in unmanned systems, going subsea, Elbit Systems does not forget the other side of the coin, how to counter them, as Ariel, Senior Vice President Naval EW, ISR A/C and SIGMABIT Business Line explained."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_ec5f4fa609fee23e",
+"from": "ent_72167ac7999f6b9e",
+"to": "ent_eb8cb296fc293dc4",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611181812-Dibgz.html",
+"published_at": "2026-11-18T15:18:38Z",
+"quote": "Минобороны России сообщило о нанесении огневого поражения сухогрузу, который шел в Одессу."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_9006c3a032c696ee",
+"from": "ent_76aae9f116d88191",
+"to": "ent_4e8b0957dfb1b5ec",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://kyivpost.com/post/90515",
+"published_at": "2026-11-18T16:00:07Z",
+"quote": "Portugal Rules Out F-16 Transfers to Ukraine, Offers Pilot Training and Aid"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 }
 ]
