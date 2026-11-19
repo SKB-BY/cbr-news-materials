@@ -240,6 +240,46 @@
 }
 },
 {
+"id": "rel_36dc9b13ddf1a45c",
+"from": "ent_76aae9f116d88191",
+"to": "ent_ff878af017a8077e",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 12,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/20261119015-fA7SA.html",
+"published_at": "2026-11-18T21:27:14Z",
+"quote": "Португалия отказалась передавать Украине F-16"
+},
+{
+"url": "https://vpk.name/news/1173075_portugaliya_snova_otkazala_ukraine_reshiv_ne_peredavat_istrebiteli_f-16.html",
+"published_at": "2026-11-18T21:00:01Z",
+"quote": "Португалия снова отказала Украине, решив не передавать истребители F-16"
+},
+{
+"url": "https://rg.ru/2026/11/18/portugaliia-otkazalas-peredat-ukraine-dopolnitelnye-istrebiteli-f-16.html",
+"published_at": "2026-11-18T20:07:11Z",
+"quote": "Португалия отказалась передать Украине дополнительные истребители F-16"
+},
+{
+"url": "https://t.me/belta_telegramm/404350",
+"published_at": "2026-11-18T16:33:58Z",
+"quote": "Португалия отказалась передавать Украине истребители F-16"
+},
+{
+"url": "https://topwar.ru/293779-portugalija-snova-otkazala-ukraine-reshiv-ne-peredavat-istrebiteli-f-16.html",
+"published_at": "2026-11-18T16:15:05Z",
+"quote": "Португалия снова отказала Украине, решив не передавать истребители F-16"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_96dc9e95a2eed3e0",
 "from": "ent_72167ac7999f6b9e",
 "to": "ent_76aae9f116d88191",
@@ -271,46 +311,6 @@
 "url": "https://t.me/news_UAV/5963",
 "published_at": "2026-11-16T09:53:49Z",
 "quote": "Российская ПВО сбила 2049 дронов ВСУ за сутки Силы ПВО за сутки уничтожили четыре ракеты \"Фламинго\" и 2049 беспилотников ВСУ, сообщило в понедельник Минобороны России."
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_36dc9b13ddf1a45c",
-"from": "ent_76aae9f116d88191",
-"to": "ent_ff878af017a8077e",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 11,
-"evidence": [
-{
-"url": "https://vpk.name/news/1173075_portugaliya_snova_otkazala_ukraine_reshiv_ne_peredavat_istrebiteli_f-16.html",
-"published_at": "2026-11-18T21:00:01Z",
-"quote": "Португалия снова отказала Украине, решив не передавать истребители F-16"
-},
-{
-"url": "https://rg.ru/2026/11/18/portugaliia-otkazalas-peredat-ukraine-dopolnitelnye-istrebiteli-f-16.html",
-"published_at": "2026-11-18T20:07:11Z",
-"quote": "Португалия отказалась передать Украине дополнительные истребители F-16"
-},
-{
-"url": "https://t.me/belta_telegramm/404350",
-"published_at": "2026-11-18T16:33:58Z",
-"quote": "Португалия отказалась передавать Украине истребители F-16"
-},
-{
-"url": "https://topwar.ru/293779-portugalija-snova-otkazala-ukraine-reshiv-ne-peredavat-istrebiteli-f-16.html",
-"published_at": "2026-11-18T16:15:05Z",
-"quote": "Португалия снова отказала Украине, решив не передавать истребители F-16"
-},
-{
-"url": "https://belta.by/world/view/portugalija-otkazalas-peredavat-ukraine-istrebiteli-f-16-811499-2026",
-"published_at": "2026-11-18T16:08:51Z",
-"quote": "Португалия отказалась передавать Украине истребители F-16"
 }
 ],
 "sentiment": {
@@ -800,6 +800,46 @@
 }
 },
 {
+"id": "rel_8c70b2130f458527",
+"from": "ent_82d695889d3fa2fa",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 6,
+"evidence": [
+{
+"url": "https://t.me/bayraktar1070/8399",
+"published_at": "2026-11-18T15:45:46Z",
+"quote": "🤟 Так сейчас выглядит \"фортеция\" Дружковка, видео снял российский военный с дрона-камикадзе, корректировавший удар ВКС РФ, видео Telegram-канала \"Центр «Рубикон»\"."
+},
+{
+"url": "https://tvzvezda.ru/news/202611181019-nGVFL.html",
+"published_at": "2026-11-18T07:36:04Z",
+"quote": "Отмечено, что экипажи вертолетов ВКС России наносили удары по наземным целям."
+},
+{
+"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
+"published_at": "2026-11-17T06:20:16Z",
+"quote": "«Этот самолет сочетает в себе возможности истребителя и бомбардировщика и может наносить удары по наземным, надводным и воздушным целям, в том числе в сложных метеоусловиях и при активном противодействии ПВО», - рассказал командир экипажа С"
+},
+{
+"url": "https://t.me/uav_tech/37415",
+"published_at": "2026-10-31T11:39:45Z",
+"quote": "Хохлы постоянно ноют, что ВКС РФ наносит удары по гражданским зданиям, хотя в большинстве случаев такие повреждения возникают в результате криворукой работы украинской ПВО над жилыми кварталами."
+},
+{
+"url": "https://t.me/uav_tech/37136",
+"published_at": "2026-09-14T07:57:41Z",
+"quote": "На начальном этапе войны противник уже использовал ПТРК \"Стугна\" для поражения зависших в воздухе вертолетов Ка-52 ВКС России, но тогда для этой цели применялись обычные противотанковые ракеты."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_5e9b6cae48511d8b",
 "from": "ent_c9797c9635450715",
 "to": "ent_b677547c4bb180c5",
@@ -1075,46 +1115,6 @@
 ],
 "sentiment": {
 "score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_8c70b2130f458527",
-"from": "ent_82d695889d3fa2fa",
-"to": "ent_28fea1c77915c37a",
-"type": "применение",
-"event_date": null,
-"evidence_count": 5,
-"evidence": [
-{
-"url": "https://tvzvezda.ru/news/202611181019-nGVFL.html",
-"published_at": "2026-11-18T07:36:04Z",
-"quote": "Отмечено, что экипажи вертолетов ВКС России наносили удары по наземным целям."
-},
-{
-"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
-"published_at": "2026-11-17T06:20:16Z",
-"quote": "«Этот самолет сочетает в себе возможности истребителя и бомбардировщика и может наносить удары по наземным, надводным и воздушным целям, в том числе в сложных метеоусловиях и при активном противодействии ПВО», - рассказал командир экипажа С"
-},
-{
-"url": "https://t.me/uav_tech/37415",
-"published_at": "2026-10-31T11:39:45Z",
-"quote": "Хохлы постоянно ноют, что ВКС РФ наносит удары по гражданским зданиям, хотя в большинстве случаев такие повреждения возникают в результате криворукой работы украинской ПВО над жилыми кварталами."
-},
-{
-"url": "https://t.me/uav_tech/37136",
-"published_at": "2026-09-14T07:57:41Z",
-"quote": "На начальном этапе войны противник уже использовал ПТРК \"Стугна\" для поражения зависших в воздухе вертолетов Ка-52 ВКС России, но тогда для этой цели применялись обычные противотанковые ракеты."
-},
-{
-"url": "https://t.me/uav_tech/36261",
-"published_at": "2026-05-26T12:30:57Z",
-"quote": "📹⚡️Кадры из кабины «охотника за дронами» Ка-52 Опубликованы кадры объективного контроля из кабины ударного вертолета Ка-52 ВКС России, демонстрирующие перехват украинского дрона-камикадзе."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -27461,6 +27461,26 @@
 "url": "https://vpk.name/news/1173025_rumyniya_oshtrafovala_rheinmetall_za_narushenie_srokov_postavki_sistem_pvo.html",
 "published_at": "2026-11-18T21:00:01Z",
 "quote": "Румыния оштрафовала Rheinmetall за нарушение сроков поставки систем ПВО"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_33ef4226e29a4fdb",
+"from": "ent_907c97c4addb9c0d",
+"to": "ent_470885ea93d65177",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/18/fcc-drone-vote-aura-450-mhz-400-foot-coverage-optional",
+"published_at": "2026-11-18T23:05:00Z",
+"quote": "Eastern on an “Unleashing American Drone Dominance” order that would let <strong>AURA Network Systems</strong> convert its site-based 450 MHz licenses, spread over 54 sites, into one nationwide license for drone control links and general av"
 }
 ],
 "sentiment": {

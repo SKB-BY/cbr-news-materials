@@ -215617,5 +215617,407 @@
 "subjectivity": 0.1,
 "risk_tags": []
 }
+},
+{
+"dedupe_hash": "dd11266213deb29e47ef70123c463a068237a3af98266b88b7d35f2e842a76ef",
+"url": "https://dronexl.co/2026/11/18/fcc-drone-vote-aura-450-mhz-400-foot-coverage-optional",
+"published_at": "2026-11-18T23:05:00Z",
+"event_date": "2026-10-29",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": [
+"Regulatory"
+]
+}
+},
+{
+"dedupe_hash": "476e23ec7e10ba2a570291ba4b9a8190e6845472e5ef30539e02ac1ed125efda",
+"url": "https://tass.ru/mezhdunarodnaya-panorama/28332681",
+"published_at": "2026-11-19T00:34:23Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "03cd2c223847900c30c7b3d20bc17f8843f3bd8aa6e5a0072fca075962daa1f3",
+"url": "https://tass.ru/mezhdunarodnaya-panorama/28332625",
+"published_at": "2026-11-18T23:47:19Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "средства связи и коммуникаций",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6fc0f6e1af178dfea7dfd16b7f5868ff1f231f65aba6dd3394d46b63a88be5d8",
+"url": "https://tass.ru/mezhdunarodnaya-panorama/28332623",
+"published_at": "2026-11-18T23:44:14Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "средства связи и коммуникаций",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "15310bbe032c765be2584d1134a9da022e9bfcb9d634d03bbd8e9d372c3981c0",
+"url": "https://ria.ru/20261119/mask-2132534474.html",
+"published_at": "2026-11-19T00:42:51Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "средства связи и коммуникаций",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "bc529bfd69a5b980c38ed3da5aa9d026477a1cab320baf70f986d4675b2a612f",
+"url": "https://ria.ru/20261119/oruzhie-2132534064.html",
+"published_at": "2026-11-19T00:40:42Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "артиллерийские системы",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "1982d258e4009a8a616a26582b68f45f9d69d5fc36eddeae65141fe225990478",
+"url": "https://ria.ru/20261119/mask-2132533240.html",
+"published_at": "2026-11-19T00:26:07Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "средства связи и коммуникаций",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "3a478859584b7cb03a572f5a7cb03a5ebf0c4be35d1bce660f074045c982982a",
+"url": "https://ria.ru/20261119/mask-2132533049.html",
+"published_at": "2026-11-19T00:24:22Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "средства связи и коммуникаций",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "e1ab0c147017aad891cab0c024c8305bd37cf8b38af4acf67cf7555bf0e0e928",
+"url": "https://defensa.com/otan-y-europa/espectacular-f-16-belga-celebra-85-anos-creacion-350-escuadron1",
+"published_at": "2026-11-19T00:30:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "f5a06b256ce84484b239899dadb82959d44c17b7fb6413f776eace7a4d35a22f",
+"url": "https://defensa.com/otan-y-europa/bulgaria-confirma-intencion-adquirir-57-obuses-caesar-francia",
+"published_at": "2026-11-19T00:10:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "артиллерийские системы",
+"subfilter": null
+},
+{
+"sphere": "бронетехника",
+"subfilter": "САУ и ПТ САУ"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ed8da8c865ff333445f8678a3ccee8f6ffc3cd747dfdd0b033d74bfa8f020052",
+"url": "https://tvzvezda.ru/news/20261119321-AOmKz.html",
+"published_at": "2026-11-19T00:31:05Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "средства связи и коммуникаций",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "5cd9284b2c0d3ca28934cb923005b8344195b74cd4934bb20cc3348c9270195a",
+"url": "https://tvzvezda.ru/news/20261119036-89Ag7.html",
+"published_at": "2026-11-18T21:46:24Z",
+"event_date": "2026-11-18",
+"spheres": [
+{
+"sphere": "артиллерийские системы",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": [
+"Financial"
+]
+}
+},
+{
+"dedupe_hash": "bad1425301b89049db7a4584da1326dfd1340675a6545c05eaab964fd92ca054",
+"url": "https://rg.ru/2026/11/19/britaniia-peredast-kievu-bolee-tysiachi-bpla-dlia-udarov-vglub-rossii.html",
+"published_at": "2026-11-19T00:41:06Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "20c8712d2ce8516c59d55d200ab0fc52c7ac528c4120e87ed3e8e694f7d5b38f",
+"url": "https://tvzvezda.ru/news/20261119015-fA7SA.html",
+"published_at": "2026-11-18T21:27:14Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "dc5be46406ff0e86e7979c74a20b1a556b6dc6dcd88168331489e8f4fce5807d",
+"url": "https://rg.ru/2026/11/19/on-lzhet-mask-oproverg-zaiavleniia-zelenskogo-o-starshield-na-ukraine.html",
+"published_at": "2026-11-18T23:56:43Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "средства связи и коммуникаций",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ecda7c7b35dc874c0672b9df2983b3655b97cf0222efa0fc695ed98259487406",
+"url": "https://cyprusnews.eu/taneagr-kosmos/mia-anasa-apo-to-metopo-dimosiografos-tou-bbc-bike-se-agogo-pou-zoun-epi-7-mines-oukranoi-stratiotes-ta-drones-den-petane-edo",
+"published_at": "2026-11-18T20:24:21Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c7c3d74132636afff88b6a401b2b5aae3f57d0bc2b2843ff6038336d6aa5808e",
+"url": "https://ria.ru/20261119/bpla-2132535835.html",
+"published_at": "2026-11-19T01:01:32Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "5238fa32278e38ed0d3ad129350abdb0ba4df5a25b49d9c6efa7fd718c5e3165",
+"url": "https://adevarul.ro/stiri-externe/rusia/razboiul-dronelor-dintre-rusia-si-ucraina-intra-2572616.html",
+"published_at": "2026-11-19T00:30:25Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.7,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "9c448ca6b674acded4a071c52635246cf5b793abd9b2f279d797d78b879addcf",
+"url": "https://yenisafak.com/yazarlar/ibrahim-karagul/20-yil-onceki-bir-suikast-neden-bugune-tasindi-isaret-mi-mesaj-mi-tehdit-misavunma-sanayiinin-onculeri-ozel-koruma-altina-alinmali-konvansiyonel-koruma-yetmez-istihbarat-ve-emniyette-sadece-bu-amaca-yonelik-ozel-birimler-kurulmali-4874149",
+"published_at": "2026-11-19T01:00:00Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d55bfe45b27df6af6b91899feb820b7c43ec7aa721696fe57128a5fe8581e37c",
+"url": "https://t.me/bayraktar1070/8399",
+"published_at": "2026-11-18T15:45:46Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "0f6534c7b2742b58b4720044465b0d42555320c3563a8566e9d54d8fb535d3c2",
+"url": "https://t.me/bayraktar1070/8402",
+"published_at": "2026-11-18T20:47:02Z",
+"event_date": "2026-11-17",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
 }
 ]
