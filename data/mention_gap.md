@@ -1,12 +1,12 @@
 # Упомянуто в новостях, но отсутствует в реестре — рабочий список
 
-Построен по живой базе на 19.11.2026 04:14 Europe/Minsk.
+Построен по живой базе на 19.11.2026 06:37 Europe/Minsk.
 
 Рабочий список кандидатов, **не проверенная перепись**. Названия извлечены регулярными выражениями из заголовков и вводных абзацев новостей и сравнены с реестром `companies.csv` (названия, псевдонимы, шаблоны упоминаний). Среди кандидатов есть ложные срабатывания (продукты, ведомства, общие слова). В реестр ничего автоматически не добавляется: строка вносится только после открытия официального сайта и источника.
 
 Российские компании в реестр не вносятся (решение 11.11.2026: «Удали все российские компании»); российские названия в этом списке — только упоминания в ленте, не кандидаты в реестр.
 
-Порог: кандидат встретился минимум в 2 материалах. Кандидатов: 139.
+Порог: кандидат встретился минимум в 2 материалах. Кандидатов: 140.
 
 | Кандидат | Материалов | Примеры (ссылки) |
 |---|---:|---|
@@ -96,6 +96,7 @@
 | Полёт | 2 | [Компактные средства перехвата дронов от  НПО «Полёт» 🚁](https://t.me/uav_tech/36544); [🦾 В России разработали двойной сеткомет «Дуплет» для борьбы с двумя дронами одновременно.](https://t.me/drone_expert_news/5535) |
 | Стратос | 2 | [Завершаем серию постов с прошедшего вебинара «БАС И ЭРА-ГЛОНАСС: НОВЫЕ ПРАВИЛА ПОЛЁТОВ С 1 ОКТЯБРЯ 2026 ГОДА» записью выступления Гусейнова ](https://t.me/news_UAV/5918); [🚀 ВОПРОСЫ И ПРЯМЫЕ ОТВЕТЫ АО «ГЛОНАСС». ИТОГИ ВЕБИНАРА «БАС И ЭРА-ГЛОНАСС: НОВЫЕ ПРАВИЛА ПОЛЁТОВ С 1 ОКТЯБРЯ 2026 ГОДА»](https://t.me/news_UAV/5884) |
 | Aerodata AG | 2 | [Germany's AeroForce X Drone Makes First Flight With A Pilot On Board](https://dronexl.co/2026/11/16/aerodata-aeroforce-x-first-flight-pilot-on-board-strausberg); [Aerodata flies what it calls Germany’s first long-endurance drone](https://defence-blog.com/aerodata-flies-what-it-calls-germanys-first-long-endurance-drone) |
+| Airforce Technology | 2 | [South Korea Unveils LOWUS Stealth Wingman Drone for KF-21 Fighter](https://israeldefense.co.il/en/node/72920); [South Korea Prepares New LOWUS Stealth Wingman to Escort KF-21 Fighters](https://israeldefense.co.il/en/node/72939) |
 | ANRA Technologies | 2 | [Единая система для коммерческих дронов](https://t.me/skyindustry/3185); [ANRA Advances NATO-Tested Counter-Drone Technology With UTM Airspace Data](https://dronelife.com/2026/10/28/anra-advances-nato-tested-counter-drone-technology-with-utm-airspace-data) |
 | Archer AI | 2 | [🇺🇸 FPV-беспилотники. Крупные участники рынка. США](https://t.me/proUAV/2012); [Neros, Perennial Autonomy lead in Pentagon’s drone competition](https://c4isrnet.com/battlefield-tech/2026/10/01/neros-perennial-autonomy-lead-in-pentagons-drone-competition) |
 | Avioane Craiova SA | 2 | [Primele două avioane IAR-99 SM modernizate au fost recepționate de MApN. Aeronavele vor pregăti piloții pentru F-16](https://mediafax.ro/social/primele-doua-avioane-iar-99-sm-modernizate-au-fost-receptionate-de-mapn-aeronavele-vor-pregati-pilotii-pentru-f-16-23844127); [Romania receives first two modernized IAR-99 jet trainers for F-16 pilots](https://aerotime.aero/articles/romania-first-modernized-iar-99-trainers-f-16) |

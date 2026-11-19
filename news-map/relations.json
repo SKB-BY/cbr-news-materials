@@ -5,32 +5,32 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 216,
+"evidence_count": 221,
 "evidence": [
 {
-"url": "https://t.me/Belarus_VPO/90285",
-"published_at": "2026-11-18T19:41:54Z",
-"quote": "Кроме того, расчёты БПЛА активно работают по вражеским беспилотникам: обнаруживают и уничтожают дроны ВСУ, очищая небо над участком фронта."
+"url": "https://ria.ru/20261119/spetsoperatsiya-2132545036.html",
+"published_at": "2026-11-19T02:47:27Z",
+"quote": "Дроноводы \"Востока\" уничтожили станции Starlink ВСУ"
 },
 {
-"url": "https://ria.ru/20261118/dron-2132499814.html",
-"published_at": "2026-11-18T17:20:36Z",
-"quote": "Российская ПВО за день уничтожила 51 дрон ВСУ"
+"url": "https://ria.ru/20261119/spetsoperatsiya-2132542806.html",
+"published_at": "2026-11-19T02:16:41Z",
+"quote": "Дроноводы \"Центра\" уничтожили более 20 тяжелых дронов ВСУ"
 },
 {
-"url": "https://tvzvezda.ru/news/202611181827-5XzzJ.html",
-"published_at": "2026-11-18T15:33:01Z",
-"quote": "БПЛА группировки «Юг» поразили два пункта управления дронами ВСУ"
+"url": "https://tass.ru/armiya-i-opk/28332813",
+"published_at": "2026-11-19T02:02:09Z",
+"quote": "Артиллеристы группировки \"Север\" поразили позиции ВСУ из РСЗО \"Ураган\""
 },
 {
-"url": "https://t.me/mod_russia/69121",
-"published_at": "2026-11-18T15:13:08Z",
-"quote": "❗️ Вооруженные Силы Российской Федерации продолжают нанесение ударов беспилотными летательными аппаратами по морским судам, задействованным в интересах ВСУ."
+"url": "https://tass.ru/armiya-i-opk/28332803",
+"published_at": "2026-11-19T02:01:05Z",
+"quote": "Группировка \"Запад\" уничтожила 113 тяжелых мультикоптеров ВСУ за сутки"
 },
 {
-"url": "https://tvzvezda.ru/news/202611181711-Zn9Fk.html",
-"published_at": "2026-11-18T14:40:02Z",
-"quote": "Артиллерия группировки «Восток» уничтожила блиндажи и огневые точки ВСУ"
+"url": "https://tass.ru/armiya-i-opk/28332799",
+"published_at": "2026-11-19T02:00:58Z",
+"quote": "Расчет РСЗО \"Град\" уничтожил пункты управления дронами ВСУ в Сумской области"
 }
 ],
 "sentiment": {
@@ -325,8 +325,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 10,
+"evidence_count": 11,
 "evidence": [
+{
+"url": "https://ria.ru/20261119/spetsoperatsiya-2132545036.html",
+"published_at": "2026-11-19T02:47:27Z",
+"quote": "Дроноводы \"Востока\" уничтожили станции Starlink ВСУ"
+},
 {
 "url": "https://focus.ua/voennye-novosti/775227-udar-po-krymskomu-mostu-letayushchie-modemy-vsu-zamenili-starlink-podrobnosti",
 "published_at": "2026-11-18T20:46:47Z",
@@ -346,11 +351,6 @@
 "url": "https://unian.net/war/udar-po-krymskomu-mostu-proshel-bez-starlink-s-pomoshchyu-unikalnoy-sisteme-svyazi-the-times-13563102.html",
 "published_at": "2026-11-17T19:18:00Z",
 "quote": "ИНФОРМАЦИОННОЕ АГЕНТСТВО Главная Война Украина Политика Экономика Мир Экология Регионы Спорт Наука Техно и связь Лайт Оружие Происшествия Здоровье Туризм Интересности Погода Видео с YouTube Статьи Интервью Мнения Лонгриды Архив Вакансии Кон"
-},
-{
-"url": "https://dronexl.co/2026/11/16/starshield-cap-occupied-ukraine-spacex-technical-zelensky-substations",
-"published_at": "2026-11-16T21:33:00Z",
-"quote": "co/2026/01/31/spacex-starlink-speed-limit-russian-drones/\">cut Starlink on terminals moving faster than about 47 to 56 mph</a> (75 to 90 km/h) to stop Russian strike drones, and terminals registered to Ukrainian brigades could have the limi"
 }
 ],
 "sentiment": {
@@ -800,6 +800,46 @@
 }
 },
 {
+"id": "rel_3dc69122575c150b",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_14d1757585b55c53",
+"type": "применение",
+"event_date": null,
+"evidence_count": 6,
+"evidence": [
+{
+"url": "https://ria.ru/20261119/spetsoperatsiya-2132545036.html",
+"published_at": "2026-11-19T02:47:27Z",
+"quote": "Дроноводы \"Востока\" уничтожили станции Starlink ВСУ"
+},
+{
+"url": "https://belvpo.com/ekzistenczialnyj-vopros",
+"published_at": "2026-11-18T10:14:52Z",
+"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
+},
+{
+"url": "https://t.me/nm_dnr/16203",
+"published_at": "2026-11-14T07:59:01Z",
+"quote": "📹 Операторы 8 армии уничтожили ПУ БЛА, антенны связи и Starlink ВСУ"
+},
+{
+"url": "https://t.me/uav_tech/37441",
+"published_at": "2026-11-02T18:33:37Z",
+"quote": "Ранее Илон Маск подчёркивал: ВСУ нарушили условия использования Starlink, применив систему для ударов дронами с целью убийства людей."
+},
+{
+"url": "https://t.me/UAVDEV/10214",
+"published_at": "2026-02-02T03:32:26Z",
+"quote": "В общем вне зависимости от того, как получится в итоге со старлинком, высокоточные удары по тылам ВСУ есть как и чем организовывать."
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_8c70b2130f458527",
 "from": "ent_82d695889d3fa2fa",
 "to": "ent_28fea1c77915c37a",
@@ -960,6 +1000,46 @@
 }
 },
 {
+"id": "rel_ae6f9762c3b8e832",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_4dd10f19e652ad7c",
+"type": "применение",
+"event_date": null,
+"evidence_count": 6,
+"evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28332799",
+"published_at": "2026-11-19T02:00:58Z",
+"quote": "Расчет РСЗО \"Град\" уничтожил пункты управления дронами ВСУ в Сумской области"
+},
+{
+"url": "https://tvzvezda.ru/news/202611181252-WUyzT.html",
+"published_at": "2026-11-18T10:07:44Z",
+"quote": "Российские дроны уничтожили HMMWV и автомобили ВСУ в Сумской области"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28324245",
+"published_at": "2026-11-17T02:04:33Z",
+"quote": "ВС РФ поразили технику, боекомплект и средства связи ВСУ в Сумской области"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28318733",
+"published_at": "2026-11-15T04:32:10Z",
+"quote": "Комвзвода Степ: ВС РФ поразили пункт управления БПЛА ВСУ на сумском направлении"
+},
+{
+"url": "https://tass.ru/armiya-i-opk/28318669",
+"published_at": "2026-11-15T03:31:16Z",
+"quote": "Комроты Кот: ВС РФ за неделю уничтожили 10 НРТК ВСУ на сумском направлении"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_06ad2a70453c15a6",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_b677547c4bb180c5",
@@ -1075,46 +1155,6 @@
 ],
 "sentiment": {
 "score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_3dc69122575c150b",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_14d1757585b55c53",
-"type": "применение",
-"event_date": null,
-"evidence_count": 5,
-"evidence": [
-{
-"url": "https://belvpo.com/ekzistenczialnyj-vopros",
-"published_at": "2026-11-18T10:14:52Z",
-"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
-},
-{
-"url": "https://t.me/nm_dnr/16203",
-"published_at": "2026-11-14T07:59:01Z",
-"quote": "📹 Операторы 8 армии уничтожили ПУ БЛА, антенны связи и Starlink ВСУ"
-},
-{
-"url": "https://t.me/uav_tech/37441",
-"published_at": "2026-11-02T18:33:37Z",
-"quote": "Ранее Илон Маск подчёркивал: ВСУ нарушили условия использования Starlink, применив систему для ударов дронами с целью убийства людей."
-},
-{
-"url": "https://t.me/UAVDEV/10214",
-"published_at": "2026-02-02T03:32:26Z",
-"quote": "В общем вне зависимости от того, как получится в итоге со старлинком, высокоточные удары по тылам ВСУ есть как и чем организовывать."
-},
-{
-"url": "https://t.me/uav_tech/35013",
-"published_at": "2026-02-01T09:15:34Z",
-"quote": "С увеличением применения терминалов «Starlink» на российских БПЛА возросло и количество болезненных поражений техники и объектов ВСУ в глубине Украины, что вызвало поросячий визг на всех уровнях, который в том числе и был адресован Илону Ма"
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -1315,46 +1355,6 @@
 ],
 "sentiment": {
 "score_pm1": -0.4,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_ae6f9762c3b8e832",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_4dd10f19e652ad7c",
-"type": "применение",
-"event_date": null,
-"evidence_count": 5,
-"evidence": [
-{
-"url": "https://tvzvezda.ru/news/202611181252-WUyzT.html",
-"published_at": "2026-11-18T10:07:44Z",
-"quote": "Российские дроны уничтожили HMMWV и автомобили ВСУ в Сумской области"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28324245",
-"published_at": "2026-11-17T02:04:33Z",
-"quote": "ВС РФ поразили технику, боекомплект и средства связи ВСУ в Сумской области"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28318733",
-"published_at": "2026-11-15T04:32:10Z",
-"quote": "Комвзвода Степ: ВС РФ поразили пункт управления БПЛА ВСУ на сумском направлении"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28318669",
-"published_at": "2026-11-15T03:31:16Z",
-"quote": "Комроты Кот: ВС РФ за неделю уничтожили 10 НРТК ВСУ на сумском направлении"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28317297",
-"published_at": "2026-11-14T03:32:09Z",
-"quote": "БПЛА \"Севера\" за неделю уничтожили девять гексакоптеров ВСУ в Сумской области"
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
