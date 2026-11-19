@@ -2,14 +2,14 @@
 "meta": {
 "version": "t171u-graph-1",
 "links_version": "t167u-links-2",
-"oi_as_of": "2026-11-19T08:38:55+03:00",
-"built_at": "2026-11-19T08:44:27+03:00",
+"oi_as_of": "2026-11-19T11:16:49+03:00",
+"built_at": "2026-11-19T11:32:00+03:00",
 "copyright": "© 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR",
 "rule": "t167u: связь только при реальной связи (основание с URL); совместные упоминания не включены",
 "counts": {
-"nodes": 2145,
-"edges": 2114,
-"persons": 69,
+"nodes": 2149,
+"edges": 2115,
+"persons": 70,
 "darpa_programs": 779
 }
 },
@@ -368,7 +368,7 @@
 "kind": "agency",
 "country": "Беларусь",
 "src": "реестр",
-"n": 38,
+"n": 42,
 "url": "",
 "role": "",
 "reg": false,
@@ -740,7 +740,7 @@
 "kind": "company",
 "country": "США/Украина",
 "src": "реестр",
-"n": 9,
+"n": 10,
 "url": "https://investors.swarmer.com/",
 "role": "ПО автономии и роевого управления беспилотниками (по сайту: HQ — Остин, Техас; операции и команды в Украине, Польше, Эстонии). Series A $15 млн (09.2025; Broadband Capital Investments, R-G.AI, D3 Ventures, Green Flag Ventures, Radius Capital, Network VC). IPO: 13.03.2026 — цена размещения 3 000 000 акций по $5,00; торги на Nasdaq Capital Market с 17.03.2026, тикер SWMR (релиз компании; проспект 424B4 от 16.03.2026). Swarmer, Inc. зарегистрирована в штате Делавэр 15.05.2023; неисполнительный председатель совета — Erik Prince (424B4). По сайту: ПО позволяет «one operator to manage hundreds of autonomous systems»; первое боевое применение — 04.2024. В списке Resilience Media «100 Startups to Watch in 2026» (по Минцифры)",
 "reg": true,
@@ -800,7 +800,7 @@
 "kind": "company",
 "country": "Великобритания",
 "src": "реестр",
-"n": 152,
+"n": 154,
 "url": "https://www.baesystems.com/",
 "role": "прайм; БЛА (в т.ч. через Callen-Lenz), РЭБ",
 "reg": true,
@@ -860,7 +860,7 @@
 "kind": "company",
 "country": "Германия",
 "src": "реестр",
-"n": 47,
+"n": 48,
 "url": "https://www.hensoldt.net/",
 "role": "сенсоры, радары, C-UAS; Украина: заказ более чем на €340 млн — радары TRML-4D и SPEXER 2000 3D MkIII для ПВО Украины (Hensoldt, 24.07.2025)",
 "reg": true,
@@ -884,7 +884,7 @@
 "kind": "company",
 "country": "Франция/Германия",
 "src": "реестр",
-"n": 22,
+"n": 23,
 "url": "https://www.knds.com/",
 "role": "бронетехника, артиллерия",
 "reg": true,
@@ -980,7 +980,7 @@
 "kind": "company",
 "country": "Эстония",
 "src": "реестр",
-"n": 45,
+"n": 46,
 "url": "https://milremrobotics.com/",
 "role": "наземные роботизированные комплексы (THeMIS)",
 "reg": true,
@@ -1244,7 +1244,7 @@
 "kind": "company",
 "country": "Швеция",
 "src": "реестр",
-"n": 86,
+"n": 87,
 "url": "https://www.saab.com/",
 "role": "прайм: ПВО, радары, C-UAS",
 "reg": true,
@@ -1412,7 +1412,7 @@
 "kind": "company",
 "country": "Турция",
 "src": "реестр",
-"n": 425,
+"n": 426,
 "url": "https://baykartech.com/",
 "role": "ударные БЛА (Bayraktar TB2, Akıncı)",
 "reg": true,
@@ -1460,7 +1460,7 @@
 "kind": "company",
 "country": "Израиль",
 "src": "реестр",
-"n": 68,
+"n": 69,
 "url": "https://www.iai.co.il/",
 "role": "БЛА, ПВО",
 "reg": true,
@@ -3123,6 +3123,18 @@
 "deg": 0
 },
 {
+"id": "c:ent_c615974eeb3ca508",
+"label": "Black Sea Defense",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 0
+},
+{
 "id": "c:ent_c1733ae9cd6194b7",
 "label": "BlackSea Technologies",
 "kind": "company",
@@ -4508,11 +4520,11 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 9,
+"n": 11,
 "url": "",
 "role": "",
 "reg": false,
-"deg": 2
+"deg": 3
 },
 {
 "id": "c:ent_f3d3d600ae9493a3",
@@ -4532,7 +4544,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 1,
+"n": 2,
 "url": "",
 "role": "",
 "reg": false,
@@ -4820,7 +4832,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 1,
+"n": 2,
 "url": "",
 "role": "",
 "reg": false,
@@ -5557,6 +5569,18 @@
 "role": "",
 "reg": false,
 "deg": 4
+},
+{
+"id": "c:ent_3a54153af52a4564",
+"label": "MSM Land Systems",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 0
 },
 {
 "id": "c:ent_7b698ecb5b0189fa",
@@ -6620,7 +6644,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 7,
+"n": 8,
 "url": "",
 "role": "",
 "reg": false,
@@ -6812,7 +6836,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 49,
+"n": 50,
 "url": "",
 "role": "",
 "reg": false,
@@ -8787,6 +8811,18 @@
 "deg": 1
 },
 {
+"id": "c:ent_08fcb57b5a8a5d87",
+"label": "Ростеха",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 0
+},
+{
 "id": "c:ent_393996acb57e35f0",
 "label": "Росэл",
 "kind": "company",
@@ -9392,7 +9428,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 27,
+"n": 32,
 "url": "",
 "role": "",
 "reg": false,
@@ -9404,7 +9440,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 144,
+"n": 150,
 "url": "",
 "role": "",
 "reg": false,
@@ -9416,7 +9452,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 543,
+"n": 575,
 "url": "",
 "role": "",
 "reg": false,
@@ -9428,7 +9464,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 19,
+"n": 20,
 "url": "",
 "role": "",
 "reg": false,
@@ -9440,7 +9476,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 39,
+"n": 40,
 "url": "",
 "role": "",
 "reg": false,
@@ -9452,7 +9488,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 51,
+"n": 53,
 "url": "",
 "role": "",
 "reg": false,
@@ -9476,7 +9512,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 147,
+"n": 149,
 "url": "",
 "role": "",
 "reg": false,
@@ -9500,7 +9536,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 305,
+"n": 307,
 "url": "",
 "role": "",
 "reg": false,
@@ -9512,7 +9548,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 8,
+"n": 10,
 "url": "",
 "role": "",
 "reg": false,
@@ -9524,7 +9560,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 166,
+"n": 168,
 "url": "",
 "role": "",
 "reg": false,
@@ -9596,7 +9632,7 @@
 "kind": "program",
 "country": "",
 "src": "контур",
-"n": 23,
+"n": 24,
 "url": "",
 "role": "",
 "reg": false,
@@ -10376,7 +10412,7 @@
 "kind": "program",
 "country": "",
 "src": "контур",
-"n": 4,
+"n": 5,
 "url": "",
 "role": "",
 "reg": false,
@@ -26532,6 +26568,18 @@
 "role": "",
 "reg": false,
 "deg": 1
+},
+{
+"id": "person:ent_484eb0923b4bb035",
+"label": "Lino Lim",
+"kind": "person",
+"country": "",
+"src": "контур (персона)",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 1
 }
 ],
 "edges": [
@@ -27658,7 +27706,7 @@
 "n": 1
 },
 {
-"id": "ctr:15",
+"id": "ctr:16",
 "s": "c:ent_ed88ced226e6c399",
 "t": "c:ent_e66a2be7fe38d473",
 "type": "судебный спор",
@@ -27698,7 +27746,7 @@
 ]
 },
 {
-"id": "ctr:73",
+"id": "ctr:74",
 "s": "nspa",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "контракт",
@@ -27723,7 +27771,7 @@
 ]
 },
 {
-"id": "ctr:74",
+"id": "ctr:75",
 "s": "c:ent_ed88ced226e6c399",
 "t": "c:ent_e66a2be7fe38d473",
 "type": "поставка",
@@ -27748,7 +27796,7 @@
 ]
 },
 {
-"id": "ctr:82",
+"id": "ctr:83",
 "s": "lockheed",
 "t": "c:ent_801f9ef8848ff36b",
 "type": "контракт",
@@ -27773,7 +27821,7 @@
 ]
 },
 {
-"id": "ctr:85",
+"id": "ctr:86",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_c4d02534cbe847ba",
 "type": "контракт",
@@ -27798,7 +27846,7 @@
 ]
 },
 {
-"id": "ctr:89",
+"id": "ctr:90",
 "s": "elbit",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "контракт",
@@ -27823,7 +27871,7 @@
 ]
 },
 {
-"id": "ctr:97",
+"id": "ctr:98",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_c4d02534cbe847ba",
 "type": "опровержение",
@@ -27848,7 +27896,7 @@
 ]
 },
 {
-"id": "ctr:105",
+"id": "ctr:106",
 "s": "rheinmetall",
 "t": "c:ent_7af60e51312772aa",
 "type": "поставка",
@@ -27873,7 +27921,7 @@
 ]
 },
 {
-"id": "ctr:109",
+"id": "ctr:110",
 "s": "aerovironment",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "контракт",
@@ -27898,7 +27946,7 @@
 ]
 },
 {
-"id": "ctr:122",
+"id": "ctr:123",
 "s": "dji",
 "t": "autel",
 "type": "подтверждение",
@@ -52196,6 +52244,26 @@
 "https://t.me/sbbytoday_by/202118",
 "2026-11-18 19:35",
 "🔥Армения не собирается присоединяться к НАТО, заявил премьер-министр Никол Пашинян"
+]
+]
+},
+{
+"id": "per:rel_207ea1eed3ca8244",
+"s": "person:ent_484eb0923b4bb035",
+"t": "c:ent_bfe1a5bf0e0a39b9",
+"type": "должность",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://defence-industry.eu/hanwha-demonstrates-counter-drone-and-grunt-robotic-systems-integration-with-romanian-military-networks-in-exercise",
+"date": "",
+"n": 1,
+"s2": 0,
+"s1": 0.0,
+"ev": [
+[
+"https://defence-industry.eu/hanwha-demonstrates-counter-drone-and-grunt-robotic-systems-integration-with-romanian-military-networks-in-exercise",
+"2026-11-19 06:47",
+"“This exercise has deepened our understanding of the Romanian Armed Forces’ operational needs and demonstrated how our technologies can support them,” said Lino Lim, chief executive of Hanwha Aerospace Romania."
 ]
 ]
 }
