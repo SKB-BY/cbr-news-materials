@@ -205,8 +205,13 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 20,
+"evidence_count": 21,
 "evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611191147-4EPqo.html",
+"published_at": "2026-11-19T08:59:28Z",
+"quote": "В Минобороны России подчеркнули, что плюс артиллерии перед другими средствами поражения в том, что снаряды невозможно подавить средствами РЭБ, поразить из стрелкового оружия или уничтожить в воздухе при помощи дрона-перехватчика."
+},
 {
 "url": "https://tvzvezda.ru/news/202611181711-Zn9Fk.html",
 "published_at": "2026-11-18T14:40:02Z",
@@ -226,11 +231,46 @@
 "url": "https://pravda.com.ua/eng/articles/2026/11/18/8063391",
 "published_at": "2026-11-18T07:10:00Z",
 "quote": "Russia's Defence Ministry claimed to have shot down 644 drones on the night of 15-16 October."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
 },
 {
-"url": "https://tvzvezda.ru/news/202611171746-Nx5he.html",
-"published_at": "2026-11-17T15:04:37Z",
-"quote": "Минобороны России сообщило об уничтожении украинских пунктов управления беспилотными летательными аппаратами в зоне проведения специальной военной операции."
+"id": "rel_b32b662b140fae74",
+"from": "ent_14d1757585b55c53",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 13,
+"evidence": [
+{
+"url": "https://kyivpost.com/post/90562",
+"published_at": "2026-11-19T07:31:17Z",
+"quote": "Ukraine Bypassed Starlink With ‘Flying Modems’ to Coordinate Crimean Bridge Strikes"
+},
+{
+"url": "https://t.me/newsby_btrc/209980",
+"published_at": "2026-11-19T07:19:01Z",
+"quote": "Маск опроверг многолетние обвинения в том, что он отключил Starlink, чтобы остановить удар Украины по российскому флоту в Севастополе."
+},
+{
+"url": "https://ria.ru/20261119/spetsoperatsiya-2132545036.html",
+"published_at": "2026-11-19T02:47:27Z",
+"quote": "Дроноводы \"Востока\" уничтожили станции Starlink ВСУ"
+},
+{
+"url": "https://focus.ua/voennye-novosti/775227-udar-po-krymskomu-mostu-letayushchie-modemy-vsu-zamenili-starlink-podrobnosti",
+"published_at": "2026-11-18T20:46:47Z",
+"quote": "Украина смогла обойтись без американских Starlink/Starshield во время удара по Крымскому мосту."
+},
+{
+"url": "https://belvpo.com/ekzistenczialnyj-vopros",
+"published_at": "2026-11-18T10:14:52Z",
+"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
 }
 ],
 "sentiment": {
@@ -320,46 +360,6 @@
 }
 },
 {
-"id": "rel_b32b662b140fae74",
-"from": "ent_14d1757585b55c53",
-"to": "ent_76aae9f116d88191",
-"type": "применение",
-"event_date": null,
-"evidence_count": 11,
-"evidence": [
-{
-"url": "https://ria.ru/20261119/spetsoperatsiya-2132545036.html",
-"published_at": "2026-11-19T02:47:27Z",
-"quote": "Дроноводы \"Востока\" уничтожили станции Starlink ВСУ"
-},
-{
-"url": "https://focus.ua/voennye-novosti/775227-udar-po-krymskomu-mostu-letayushchie-modemy-vsu-zamenili-starlink-podrobnosti",
-"published_at": "2026-11-18T20:46:47Z",
-"quote": "Украина смогла обойтись без американских Starlink/Starshield во время удара по Крымскому мосту."
-},
-{
-"url": "https://belvpo.com/ekzistenczialnyj-vopros",
-"published_at": "2026-11-18T10:14:52Z",
-"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
-},
-{
-"url": "https://pravda.com.ua/eng/news/2026/11/17/8063357",
-"published_at": "2026-11-17T21:27:00Z",
-"quote": "The Times: Ukraine used its own system rather than Starlink in Crimean Bridge attack – video"
-},
-{
-"url": "https://unian.net/war/udar-po-krymskomu-mostu-proshel-bez-starlink-s-pomoshchyu-unikalnoy-sisteme-svyazi-the-times-13563102.html",
-"published_at": "2026-11-17T19:18:00Z",
-"quote": "ИНФОРМАЦИОННОЕ АГЕНТСТВО Главная Война Украина Политика Экономика Мир Экология Регионы Спорт Наука Техно и связь Лайт Оружие Происшествия Здоровье Туризм Интересности Погода Видео с YouTube Статьи Интервью Мнения Лонгриды Архив Вакансии Кон"
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_0f6f97cb3e4cf43d",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_e7e61f26b8fd6566",
@@ -435,6 +435,86 @@
 ],
 "sentiment": {
 "score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_1dbc206839b46242",
+"from": "ent_82d695889d3fa2fa",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 9,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d0%be%d0%b0%d0%ba-%d0%bf%d0%b5%d1%80%d0%b5%d0%b4%d0%b0%d0%bb%d0%b0-%d0%b2-%d0%b2%d0%be%d0%b9%d1%81%d0%ba%d0%b0-%d0%be%d1%87%d0%b5%d1%80%d0%b5%d0%b4%d0%bd%d1%83%d1%8e-%d0%bf%d0%b0%d1%80%d1%82%d0%b8",
+"published_at": "2026-11-19T07:48:40Z",
+"quote": "ОАК ПЕРЕДАЛА В ВОЙСКА ОЧЕРЕДНУЮ ПАРТИЮ МОДЕРНИЗИРОВАННЫХ САМОЛЕТОВ СУ-57 Объединенная авиастроительная корпорация (входит в Госкорпорацию Ростех) передала ВКС России партию новых многофункциональных истребителей Су-57."
+},
+{
+"url": "https://warfiles.ru/274064-vks-rossii-poluchili-novye-modernizirovannye-samolety-5-go-pokolenija-su-57.html",
+"published_at": "2026-11-19T07:27:30Z",
+"quote": "ВКС России получили новые модернизированные самолеты 5-го поколения Су-57"
+},
+{
+"url": "https://tvzvezda.ru/news/20261119857-gb5jk.html",
+"published_at": "2026-11-19T06:12:10Z",
+"quote": "ВКС России получили новую партию истребителей пятого поколения Су-57"
+},
+{
+"url": "https://rg.ru/2026/11/19/vks-rossii-poluchili-partiiu-novyh-su-57.html",
+"published_at": "2026-11-19T05:26:09Z",
+"quote": "ВКС России получили партию новых Су-57"
+},
+{
+"url": "https://belvpo.com/vks-rossii-poluchili-partiyu-su-57-s-rasshirennymi-vozmozhnostyami-vooruzheniya",
+"published_at": "2026-11-19T05:25:22Z",
+"quote": "ВКС России получили партию Су-57 с расширенными возможностями вооружения"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_9bf393cadc73ba10",
+"from": "ent_14d1757585b55c53",
+"to": "ent_e7e61f26b8fd6566",
+"type": "применение",
+"event_date": null,
+"evidence_count": 9,
+"evidence": [
+{
+"url": "https://kyivpost.com/post/90562",
+"published_at": "2026-11-19T07:31:17Z",
+"quote": "Ukraine Bypassed Starlink With ‘Flying Modems’ to Coordinate Crimean Bridge Strikes"
+},
+{
+"url": "https://t.me/newsby_btrc/209980",
+"published_at": "2026-11-19T07:19:01Z",
+"quote": "Маск опроверг многолетние обвинения в том, что он отключил Starlink, чтобы остановить удар Украины по российскому флоту в Севастополе."
+},
+{
+"url": "https://focus.ua/voennye-novosti/775227-udar-po-krymskomu-mostu-letayushchie-modemy-vsu-zamenili-starlink-podrobnosti",
+"published_at": "2026-11-18T20:46:47Z",
+"quote": "Украина смогла обойтись без американских Starlink/Starshield во время удара по Крымскому мосту."
+},
+{
+"url": "https://belvpo.com/ekzistenczialnyj-vopros",
+"published_at": "2026-11-18T10:14:52Z",
+"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
+},
+{
+"url": "https://t.me/UAVDEV/13350",
+"published_at": "2026-11-18T04:28:26Z",
+"quote": "Удары по Крымскому мосту провели без использования Starlink и Starshield."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -520,6 +600,46 @@
 }
 },
 {
+"id": "rel_9952377d07758483",
+"from": "ent_82d695889d3fa2fa",
+"to": "ent_6db9790c0b5ee6ca",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 8,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d0%be%d0%b0%d0%ba-%d0%bf%d0%b5%d1%80%d0%b5%d0%b4%d0%b0%d0%bb%d0%b0-%d0%b2-%d0%b2%d0%be%d0%b9%d1%81%d0%ba%d0%b0-%d0%be%d1%87%d0%b5%d1%80%d0%b5%d0%b4%d0%bd%d1%83%d1%8e-%d0%bf%d0%b0%d1%80%d1%82%d0%b8",
+"published_at": "2026-11-19T07:48:40Z",
+"quote": "ОАК ПЕРЕДАЛА В ВОЙСКА ОЧЕРЕДНУЮ ПАРТИЮ МОДЕРНИЗИРОВАННЫХ САМОЛЕТОВ СУ-57 Объединенная авиастроительная корпорация (входит в Госкорпорацию Ростех) передала ВКС России партию новых многофункциональных истребителей Су-57."
+},
+{
+"url": "https://warfiles.ru/274064-vks-rossii-poluchili-novye-modernizirovannye-samolety-5-go-pokolenija-su-57.html",
+"published_at": "2026-11-19T07:27:30Z",
+"quote": "ВКС России получили новые модернизированные самолеты 5-го поколения Су-57"
+},
+{
+"url": "https://topwar.ru/293797-bolshe-zadach-i-novye-boepripasy-oak-peredala-vks-modernizirovannye-su-57.html",
+"published_at": "2026-11-19T06:25:04Z",
+"quote": "Больше задач и новые боеприпасы: ОАК передала ВКС модернизированные Су-57"
+},
+{
+"url": "https://tvzvezda.ru/news/20261119857-gb5jk.html",
+"published_at": "2026-11-19T06:12:10Z",
+"quote": "ВКС России получили новую партию истребителей пятого поколения Су-57"
+},
+{
+"url": "https://rg.ru/2026/11/19/vks-rossii-poluchili-partiiu-novyh-su-57.html",
+"published_at": "2026-11-19T05:26:09Z",
+"quote": "ВКС России получили партию новых Су-57"
+}
+],
+"sentiment": {
+"score_pm1": 0.4,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
 "id": "rel_5be9d4c568aaef6c",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_a22db82c40874406",
@@ -555,6 +675,46 @@
 ],
 "sentiment": {
 "score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_96cf90f7abd2f7ff",
+"from": "ent_14d1757585b55c53",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 7,
+"evidence": [
+{
+"url": "https://t.me/newsby_btrc/209980",
+"published_at": "2026-11-19T07:19:01Z",
+"quote": "Маск опроверг многолетние обвинения в том, что он отключил Starlink, чтобы остановить удар Украины по российскому флоту в Севастополе."
+},
+{
+"url": "https://dronexl.co/2026/11/16/starshield-cap-occupied-ukraine-spacex-technical-zelensky-substations",
+"published_at": "2026-11-16T21:33:00Z",
+"quote": "co/2026/01/31/spacex-starlink-speed-limit-russian-drones/\">cut Starlink on terminals moving faster than about 47 to 56 mph</a> (75 to 90 km/h) to stop Russian strike drones, and terminals registered to Ukrainian brigades could have the limi"
+},
+{
+"url": "https://t.me/uav_tech/37441",
+"published_at": "2026-11-02T18:33:37Z",
+"quote": "На фоне увеличения ударов вглубь России Украина в 2026-м потратила на Starlink вдвое больше, чем за четыре предыдущих года, выяснил RT."
+},
+{
+"url": "https://t.me/uav_tech/35578",
+"published_at": "2026-03-20T10:10:55Z",
+"quote": "Да и добавим тем, что зенитные дроны сейчас — один из перспективных способов защиты собственных ЗРК, которые с появлением дронов-камикадзе с терминалами «Starlink» превратились из охотников за воздушными целями в зарубки на пульте управлени"
+},
+{
+"url": "https://t.me/zadrony/1673",
+"published_at": "2026-02-03T14:24:47Z",
+"quote": "⚡️ «Шахеды» с ручным управлением — новый этап  По данным эксперта по БПЛА Сергея «Флэш» Бескрестнова, ВС РФ впервые применили ударные дроны типа «Шахед» с ручным управлением через Starlink."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -597,46 +757,6 @@
 "score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_1dbc206839b46242",
-"from": "ent_82d695889d3fa2fa",
-"to": "ent_28fea1c77915c37a",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 7,
-"evidence": [
-{
-"url": "https://tvzvezda.ru/news/20261119857-gb5jk.html",
-"published_at": "2026-11-19T06:12:10Z",
-"quote": "ВКС России получили новую партию истребителей пятого поколения Су-57"
-},
-{
-"url": "https://rg.ru/2026/11/19/vks-rossii-poluchili-partiiu-novyh-su-57.html",
-"published_at": "2026-11-19T05:26:09Z",
-"quote": "ВКС России получили партию новых Су-57"
-},
-{
-"url": "https://belvpo.com/vks-rossii-poluchili-partiyu-su-57-s-rasshirennymi-vozmozhnostyami-vooruzheniya",
-"published_at": "2026-11-19T05:25:22Z",
-"quote": "ВКС России получили партию Су-57 с расширенными возможностями вооружения"
-},
-{
-"url": "https://ria.ru/20261119/oak-2132567023.html",
-"published_at": "2026-11-19T05:10:28Z",
-"quote": "ВКС России получили партию Су-57 с расширенными возможностями вооружения"
-},
-{
-"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
-"published_at": "2026-11-17T06:20:16Z",
-"quote": "Новую партию Су-34 передали ВКС России после заводских испытаний"
-}
-],
-"sentiment": {
-"score_pm1": 0.3,
-"score_pm2": 1,
-"label": "умеренно позитивный"
 }
 },
 {
@@ -720,46 +840,6 @@
 }
 },
 {
-"id": "rel_9bf393cadc73ba10",
-"from": "ent_14d1757585b55c53",
-"to": "ent_e7e61f26b8fd6566",
-"type": "применение",
-"event_date": null,
-"evidence_count": 7,
-"evidence": [
-{
-"url": "https://focus.ua/voennye-novosti/775227-udar-po-krymskomu-mostu-letayushchie-modemy-vsu-zamenili-starlink-podrobnosti",
-"published_at": "2026-11-18T20:46:47Z",
-"quote": "Украина смогла обойтись без американских Starlink/Starshield во время удара по Крымскому мосту."
-},
-{
-"url": "https://belvpo.com/ekzistenczialnyj-vopros",
-"published_at": "2026-11-18T10:14:52Z",
-"quote": "Островитяне инсайдят, что ВСУ провели недавние удары по Крымскому мосту без использования американской системы Starlink/Starshield."
-},
-{
-"url": "https://t.me/UAVDEV/13350",
-"published_at": "2026-11-18T04:28:26Z",
-"quote": "Удары по Крымскому мосту провели без использования Starlink и Starshield."
-},
-{
-"url": "https://pravda.com.ua/eng/news/2026/11/17/8063357",
-"published_at": "2026-11-17T21:27:00Z",
-"quote": "The Times: Ukraine used its own system rather than Starlink in Crimean Bridge attack – video"
-},
-{
-"url": "https://unian.net/war/udar-po-krymskomu-mostu-proshel-bez-starlink-s-pomoshchyu-unikalnoy-sisteme-svyazi-the-times-13563102.html",
-"published_at": "2026-11-17T19:18:00Z",
-"quote": "Удар по Крымскому мосту прошел без Starlink, с помощью уникальной системы связи, - The Times"
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_795a2febfc5b43c6",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_e66a2be7fe38d473",
@@ -835,46 +915,6 @@
 ],
 "sentiment": {
 "score_pm1": -0.4,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_96cf90f7abd2f7ff",
-"from": "ent_14d1757585b55c53",
-"to": "ent_28fea1c77915c37a",
-"type": "применение",
-"event_date": null,
-"evidence_count": 6,
-"evidence": [
-{
-"url": "https://dronexl.co/2026/11/16/starshield-cap-occupied-ukraine-spacex-technical-zelensky-substations",
-"published_at": "2026-11-16T21:33:00Z",
-"quote": "co/2026/01/31/spacex-starlink-speed-limit-russian-drones/\">cut Starlink on terminals moving faster than about 47 to 56 mph</a> (75 to 90 km/h) to stop Russian strike drones, and terminals registered to Ukrainian brigades could have the limi"
-},
-{
-"url": "https://t.me/uav_tech/37441",
-"published_at": "2026-11-02T18:33:37Z",
-"quote": "На фоне увеличения ударов вглубь России Украина в 2026-м потратила на Starlink вдвое больше, чем за четыре предыдущих года, выяснил RT."
-},
-{
-"url": "https://t.me/uav_tech/35578",
-"published_at": "2026-03-20T10:10:55Z",
-"quote": "Да и добавим тем, что зенитные дроны сейчас — один из перспективных способов защиты собственных ЗРК, которые с появлением дронов-камикадзе с терминалами «Starlink» превратились из охотников за воздушными целями в зарубки на пульте управлени"
-},
-{
-"url": "https://t.me/zadrony/1673",
-"published_at": "2026-02-03T14:24:47Z",
-"quote": "⚡️ «Шахеды» с ручным управлением — новый этап  По данным эксперта по БПЛА Сергея «Флэш» Бескрестнова, ВС РФ впервые применили ударные дроны типа «Шахед» с ручным управлением через Starlink."
-},
-{
-"url": "https://t.me/uav_tech/35013",
-"published_at": "2026-02-01T09:15:34Z",
-"quote": "С увеличением применения терминалов «Starlink» на российских БПЛА возросло и количество болезненных поражений техники и объектов ВСУ в глубине Украины, что вызвало поросячий визг на всех уровнях, который в том числе и был адресован Илону Ма"
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -1037,46 +1077,6 @@
 "score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_9952377d07758483",
-"from": "ent_82d695889d3fa2fa",
-"to": "ent_6db9790c0b5ee6ca",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 6,
-"evidence": [
-{
-"url": "https://topwar.ru/293797-bolshe-zadach-i-novye-boepripasy-oak-peredala-vks-modernizirovannye-su-57.html",
-"published_at": "2026-11-19T06:25:04Z",
-"quote": "Больше задач и новые боеприпасы: ОАК передала ВКС модернизированные Су-57"
-},
-{
-"url": "https://tvzvezda.ru/news/20261119857-gb5jk.html",
-"published_at": "2026-11-19T06:12:10Z",
-"quote": "ВКС России получили новую партию истребителей пятого поколения Су-57"
-},
-{
-"url": "https://rg.ru/2026/11/19/vks-rossii-poluchili-partiiu-novyh-su-57.html",
-"published_at": "2026-11-19T05:26:09Z",
-"quote": "ВКС России получили партию новых Су-57"
-},
-{
-"url": "https://belvpo.com/vks-rossii-poluchili-partiyu-su-57-s-rasshirennymi-vozmozhnostyami-vooruzheniya",
-"published_at": "2026-11-19T05:25:22Z",
-"quote": "ВКС России получили партию Су-57 с расширенными возможностями вооружения"
-},
-{
-"url": "https://ria.ru/20261119/oak-2132567023.html",
-"published_at": "2026-11-19T05:10:28Z",
-"quote": "ВКС России получили партию Су-57 с расширенными возможностями вооружения"
-}
-],
-"sentiment": {
-"score_pm1": 0.4,
-"score_pm2": 1,
-"label": "умеренно позитивный"
 }
 },
 {
@@ -1920,6 +1920,41 @@
 }
 },
 {
+"id": "rel_3f547846b61c0215",
+"from": "ent_e66a2be7fe38d473",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://tvzvezda.ru/news/202611191057-2RtUf.html",
+"published_at": "2026-11-19T08:14:32Z",
+"quote": "Свыше 40 воинских частей и соединений ракетных войск и артиллерии Вооруженных сил России получили почетное наименование гвардейских и высокие государственные награды за участие в специальной военной операции."
+},
+{
+"url": "https://t.me/genprocrf/6963",
+"published_at": "2026-11-16T08:01:05Z",
+"quote": "За свои преступные действия на стороне киевского режима против ВС РФ он получил 4 миллиона…"
+},
+{
+"url": "https://t.me/uav_tech/36435",
+"published_at": "2026-06-15T15:35:17Z",
+"quote": "ТАСС со ссылкой на экс-сотрудника СБУ Прозорова опубликовало информацию о том, что \"львиная доля\" поставок дронов и комплектующих из Европы выполнялась для ВСУ через терминал \"Новой почты\" в Киеве, который был поражен ВС РФ."
+},
+{
+"url": "https://t.me/uav_tech/35818",
+"published_at": "2026-04-06T11:06:04Z",
+"quote": "The Sunday Times со ссылкой на высокопоставленных украинских военных чиновников пишет, что ВС РФ меняют тактику на Украине, ставя задачей истощить системы ПВО, такие как американские ракеты Patriot..."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_45e8ee5eb18d7389",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_934031688aa80182",
@@ -2595,6 +2630,36 @@
 }
 },
 {
+"id": "rel_72ffa192f848e759",
+"from": "ent_7af60e51312772aa",
+"to": "ent_461f895cd3ecdc32",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73000",
+"published_at": "2026-11-19T00:00:00Z",
+"quote": "IsraelDefense has learned that Elbit Systems, operating through its subsidiary Elbit Systems Deutschland, has been selected to supply the German Armed Forces (Bundeswehr) with passive location systems designed to identify the origin of arti"
+},
+{
+"url": "https://t.me/uav_tech/36887",
+"published_at": "2026-08-15T09:13:01Z",
+"quote": "Отметим, что в апреле этого года Rheinmetall заключила с Бундесвером рамочное соглашение на поставку около 2."
+},
+{
+"url": "https://t.me/uav_tech/36107",
+"published_at": "2026-05-05T11:18:58Z",
+"quote": "Подписан контракт между Бундесвером и Rheinmetall на поставку FV-014 22 апреля командование Бундесвера активировало соглашение с концерном Rheinmetall, предусматривающее серийное производство и передачу войскам барражирующих боеприпасов FV-"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
 "id": "rel_2ec954c0ab6a224a",
 "from": "ent_cd3c86a3a1af0b40",
 "to": "ent_76aae9f116d88191",
@@ -2652,36 +2717,6 @@
 "score_pm1": -0.4,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_3f547846b61c0215",
-"from": "ent_e66a2be7fe38d473",
-"to": "ent_28fea1c77915c37a",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://t.me/genprocrf/6963",
-"published_at": "2026-11-16T08:01:05Z",
-"quote": "За свои преступные действия на стороне киевского режима против ВС РФ он получил 4 миллиона…"
-},
-{
-"url": "https://t.me/uav_tech/36435",
-"published_at": "2026-06-15T15:35:17Z",
-"quote": "ТАСС со ссылкой на экс-сотрудника СБУ Прозорова опубликовало информацию о том, что \"львиная доля\" поставок дронов и комплектующих из Европы выполнялась для ВСУ через терминал \"Новой почты\" в Киеве, который был поражен ВС РФ."
-},
-{
-"url": "https://t.me/uav_tech/35818",
-"published_at": "2026-04-06T11:06:04Z",
-"quote": "The Sunday Times со ссылкой на высокопоставленных украинских военных чиновников пишет, что ВС РФ меняют тактику на Украине, ставя задачей истощить системы ПВО, такие как американские ракеты Patriot..."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -4445,31 +4480,6 @@
 }
 },
 {
-"id": "rel_72ffa192f848e759",
-"from": "ent_7af60e51312772aa",
-"to": "ent_461f895cd3ecdc32",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://t.me/uav_tech/36887",
-"published_at": "2026-08-15T09:13:01Z",
-"quote": "Отметим, что в апреле этого года Rheinmetall заключила с Бундесвером рамочное соглашение на поставку около 2."
-},
-{
-"url": "https://t.me/uav_tech/36107",
-"published_at": "2026-05-05T11:18:58Z",
-"quote": "Подписан контракт между Бундесвером и Rheinmetall на поставку FV-014 22 апреля командование Бундесвера активировало соглашение с концерном Rheinmetall, предусматривающее серийное производство и передачу войскам барражирующих боеприпасов FV-"
-}
-],
-"sentiment": {
-"score_pm1": 0.4,
-"score_pm2": 1,
-"label": "умеренно позитивный"
-}
-},
-{
 "id": "rel_dec7b6f3c071b465",
 "from": "ent_f5797bd3e6d73b28",
 "to": "ent_2a61b87bc21010c0",
@@ -5770,6 +5780,31 @@
 }
 },
 {
+"id": "rel_c21729fa75cc4351",
+"from": "ent_e50e9b8e1c289c1d",
+"to": "ent_422593a4ae9bc429",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73000",
+"published_at": "2026-11-19T00:00:00Z",
+"quote": "IsraelDefense has learned that Elbit Systems, operating through its subsidiary Elbit Systems Deutschland, has been selected to supply the German Armed Forces (Bundeswehr) with passive location systems designed to identify the origin of arti"
+},
+{
+"url": "https://aerotime.aero/articles/romania-first-modernized-iar-99-trainers-f-16",
+"published_at": "2026-11-17T15:40:47Z",
+"quote": "The company contracted Israel’s Elbit Systems to supply avionics for the modernization program."
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_484d8bb3076ebde9",
 "from": "ent_d5b517870d653757",
 "to": "ent_c32678e4a0ae4599",
@@ -5995,6 +6030,31 @@
 }
 },
 {
+"id": "rel_487fb830b5193111",
+"from": "ent_e50e9b8e1c289c1d",
+"to": "ent_461f895cd3ecdc32",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73000",
+"published_at": "2026-11-19T00:00:00Z",
+"quote": "IsraelDefense has learned that Elbit Systems, operating through its subsidiary Elbit Systems Deutschland, has been selected to supply the German Armed Forces (Bundeswehr) with passive location systems designed to identify the origin of arti"
+},
+{
+"url": "https://israeldefense.co.il/en/node/72964",
+"published_at": "2026-11-18T00:00:00Z",
+"quote": "Elbit to Supply German Military with Artillery Fire-Finding Systems"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_2d3362d8ae050235",
 "from": "ent_8fb86f78250fd022",
 "to": "ent_76aae9f116d88191",
@@ -6017,6 +6077,31 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_ff39c2613d455d50",
+"from": "ent_28fea1c77915c37a",
+"to": "ent_6db9790c0b5ee6ca",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://defence-blog.com/russia-gets-third-batch-of-upgraded-su-57-fighters-this-year",
+"published_at": "2026-11-19T08:05:55Z",
+"quote": "Russia’s Aerospace Forces have received another batch of upgraded Su-57 stealth fighters, the third delivery this year, the jet’s state-owned maker said Thursday."
+},
+{
+"url": "https://tvzvezda.ru/news/20261119857-gb5jk.html",
+"published_at": "2026-11-19T06:12:10Z",
+"quote": "Воздушно-космические силы России получили новую партию многофункциональных истребителей пятого поколения Су-57."
+}
+],
+"sentiment": {
+"score_pm1": 0.4,
+"score_pm2": 1,
+"label": "умеренно позитивный"
 }
 },
 {
@@ -24140,26 +24225,6 @@
 }
 },
 {
-"id": "rel_c21729fa75cc4351",
-"from": "ent_e50e9b8e1c289c1d",
-"to": "ent_422593a4ae9bc429",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://aerotime.aero/articles/romania-first-modernized-iar-99-trainers-f-16",
-"published_at": "2026-11-17T15:40:47Z",
-"quote": "The company contracted Israel’s Elbit Systems to supply avionics for the modernization program."
-}
-],
-"sentiment": {
-"score_pm1": 0.3,
-"score_pm2": 1,
-"label": "умеренно позитивный"
-}
-},
-{
 "id": "rel_1e9f58bf57e2e987",
 "from": "ent_d54ac6fc23eb6450",
 "to": "ent_ff878af017a8077e",
@@ -26960,26 +27025,6 @@
 }
 },
 {
-"id": "rel_487fb830b5193111",
-"from": "ent_e50e9b8e1c289c1d",
-"to": "ent_461f895cd3ecdc32",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://israeldefense.co.il/en/node/72964",
-"published_at": "2026-11-18T00:00:00Z",
-"quote": "Elbit to Supply German Military with Artillery Fire-Finding Systems"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_66197f7350589d7e",
 "from": "ent_3464f349579b9835",
 "to": "ent_461f895cd3ecdc32",
@@ -27600,26 +27645,6 @@
 }
 },
 {
-"id": "rel_ff39c2613d455d50",
-"from": "ent_28fea1c77915c37a",
-"to": "ent_6db9790c0b5ee6ca",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://tvzvezda.ru/news/20261119857-gb5jk.html",
-"published_at": "2026-11-19T06:12:10Z",
-"quote": "Воздушно-космические силы России получили новую партию многофункциональных истребителей пятого поколения Су-57."
-}
-],
-"sentiment": {
-"score_pm1": 0.3,
-"score_pm2": 1,
-"label": "умеренно позитивный"
-}
-},
-{
 "id": "rel_2c22b78708c20432",
 "from": "ent_cd3c86a3a1af0b40",
 "to": "ent_422593a4ae9bc429",
@@ -27657,6 +27682,186 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_6dc7736a5e4a6ca9",
+"from": "ent_4dc00dc3afa34b01",
+"to": "ent_43252652072753d2",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://uasvision.com/2026/11/19/schiebel-demonstrates-camcopter-s-100-as-drone-mothership",
+"published_at": "2026-11-19T06:55:33Z",
+"quote": "Schiebel, together with OSIRIS Poland, has successfully demonstrated the CAMCOPTER S-100 Unmanned Air System (UAS) as an airborne carrier, deployer and communications relay for a small Unmanned Air System (sUAS) during a proof-of concept de"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_7c2d4c49b8a99e17",
+"from": "ent_169132b2199b4e86",
+"to": "ent_bfe1a5bf0e0a39b9",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/south-korean-firm-wants-to-sell-romania-unmanned-army-vehicles",
+"published_at": "2026-11-19T08:59:59Z",
+"quote": "The company, the Romanian subsidiary of South Korea’s Hanwha Aerospace, said it took part in EXPERIMENT 26."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_05702a075cf38071",
+"from": "ent_74e5105c9694faf7",
+"to": "ent_5eb968743a6f989d",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-blog.com/general-dynamics-wins-bigger-deal-to-support-u-s-army-strykers",
+"published_at": "2026-11-19T08:51:54Z",
+"quote": "Army has awarded General Dynamics Land Systems a contract worth up to $332."
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_18e6839804aee6e4",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_ff878af017a8077e",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://belvpo.com/nad-territoriej-strany-404-mogut-snova-vspyhnut-pochti-pozabytye-nami-vozdushnye-boi",
+"published_at": "2026-11-19T08:45:17Z",
+"quote": "Казалось бы: панове украинцы, вам же стараниями самых оголтелых ваших союзников из стран НАТО давно предоставлены десятки истребителей F-16 американского производства."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_ca4a475b7394f371",
+"from": "ent_7f92971e48d34d0d",
+"to": "ent_0a0009fc82d3fadc",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://bastion-karpenko.ru/%d1%80%d0%b0%d1%81%d1%87%d0%b5%d1%82-%d1%80%d1%81%d0%b7%d0%be-%d1%83%d1%80%d0%b0%d0%b3%d0%b0%d0%bd-%d0%b3%d1%80%d1%83%d0%bf%d0%bf%d0%b8%d1%80%d0%be%d0%b2%d0%ba%d0%b8-%d0%b2%d0%be%d0%b9-3",
+"published_at": "2026-11-19T08:41:37Z",
+"quote": "РАСЧЕТ РСЗО «УРАГАН» ГРУППИРОВКИ ВОЙСК «СЕВЕР» УНИЧТОЖИЛ ОПОРНЫЕ ПУНКТЫ И ПОЗИЦИИ С ЖИВОЙ СИЛОЙ В ХАРЬКОВСКОЙ ОБЛАСТИ В НОЧНОЕ ВРЕМЯ"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_6db290425ad74e3a",
+"from": "ent_e50e9b8e1c289c1d",
+"to": "ent_ee691ed5488dc7b5",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73000",
+"published_at": "2026-11-19T00:00:00Z",
+"quote": "Elbit Systems Wins German Army Contract for Passive Artillery Detection Systems"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_3a9cd6d60aa78b95",
+"from": "ent_e50e9b8e1c289c1d",
+"to": "ent_7af60e51312772aa",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73000",
+"published_at": "2026-11-19T00:00:00Z",
+"quote": "IsraelDefense has learned that Elbit Systems, operating through its subsidiary Elbit Systems Deutschland, has been selected to supply the German Armed Forces (Bundeswehr) with passive location systems designed to identify the origin of arti"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_96d5a9a330f1c044",
+"from": "ent_7af60e51312772aa",
+"to": "ent_422593a4ae9bc429",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73000",
+"published_at": "2026-11-19T00:00:00Z",
+"quote": "IsraelDefense has learned that Elbit Systems, operating through its subsidiary Elbit Systems Deutschland, has been selected to supply the German Armed Forces (Bundeswehr) with passive location systems designed to identify the origin of arti"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_4521841592a90648",
+"from": "ent_858ae74c4b9cafc3",
+"to": "ent_32730dcc240784c1",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/72978",
+"published_at": "2026-11-19T00:00:00Z",
+"quote": "US Marine Corps Doubles and Extends M27 Rifle Contract"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
 }
 }
 ]
