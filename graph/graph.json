@@ -2,8 +2,8 @@
 "meta": {
 "version": "t171u-graph-1",
 "links_version": "t167u-links-2",
-"oi_as_of": "2026-11-19T00:34:16+03:00",
-"built_at": "2026-11-19T01:46:35+03:00",
+"oi_as_of": "2026-11-19T03:03:09+03:00",
+"built_at": "2026-11-19T03:39:19+03:00",
 "copyright": "© 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR",
 "rule": "t167u: связь только при реальной связи (основание с URL); совместные упоминания не включены",
 "counts": {
@@ -27662,7 +27662,7 @@
 ]
 },
 {
-"id": "ctr:70",
+"id": "ctr:71",
 "s": "nspa",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "контракт",
@@ -27687,7 +27687,7 @@
 ]
 },
 {
-"id": "ctr:71",
+"id": "ctr:72",
 "s": "c:ent_ed88ced226e6c399",
 "t": "c:ent_e66a2be7fe38d473",
 "type": "поставка",
@@ -27887,7 +27887,7 @@
 ]
 },
 {
-"id": "ctr:136",
+"id": "ctr:137",
 "s": "c:ent_858ba2a76617df8c",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "участие в программе",
@@ -27912,7 +27912,7 @@
 ]
 },
 {
-"id": "ctr:147",
+"id": "ctr:148",
 "s": "dji",
 "t": "c:ent_7af60e51312772aa",
 "type": "контракт",
@@ -27932,7 +27932,7 @@
 ]
 },
 {
-"id": "ctr:151",
+"id": "ctr:152",
 "s": "dji",
 "t": "c:ent_9356a3211e4bbc88",
 "type": "контракт",
@@ -27952,7 +27952,7 @@
 ]
 },
 {
-"id": "ctr:152",
+"id": "ctr:153",
 "s": "c:ent_7af60e51312772aa",
 "t": "c:ent_9356a3211e4bbc88",
 "type": "контракт",
@@ -27972,7 +27972,7 @@
 ]
 },
 {
-"id": "ctr:161",
+"id": "ctr:162",
 "s": "l3harris",
 "t": "leidos",
 "type": "контракт",
@@ -27992,29 +27992,9 @@
 ]
 },
 {
-"id": "ctr:162",
-"s": "l3harris",
-"t": "leonardo",
-"type": "контракт",
-"g": "контур",
-"basis": "цитаты из материалов (контур)",
-"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
-"date": "",
-"n": 1,
-"s2": 1,
-"s1": 0.3,
-"ev": [
-[
-"https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
-"2026-11-11 02:43",
-"” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
-]
-]
-},
-{
 "id": "ctr:163",
 "s": "l3harris",
-"t": "c:ent_d33305be0f474b61",
+"t": "leonardo",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -28034,7 +28014,7 @@
 {
 "id": "ctr:164",
 "s": "l3harris",
-"t": "c:ent_b9f675a508d4b13c",
+"t": "c:ent_d33305be0f474b61",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -28053,8 +28033,8 @@
 },
 {
 "id": "ctr:165",
-"s": "leidos",
-"t": "leonardo",
+"s": "l3harris",
+"t": "c:ent_b9f675a508d4b13c",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -28074,7 +28054,7 @@
 {
 "id": "ctr:166",
 "s": "leidos",
-"t": "c:ent_d33305be0f474b61",
+"t": "leonardo",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -28094,7 +28074,7 @@
 {
 "id": "ctr:167",
 "s": "leidos",
-"t": "c:ent_b9f675a508d4b13c",
+"t": "c:ent_d33305be0f474b61",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -28113,8 +28093,8 @@
 },
 {
 "id": "ctr:168",
-"s": "leonardo",
-"t": "c:ent_d33305be0f474b61",
+"s": "leidos",
+"t": "c:ent_b9f675a508d4b13c",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -28134,7 +28114,7 @@
 {
 "id": "ctr:169",
 "s": "leonardo",
-"t": "c:ent_b9f675a508d4b13c",
+"t": "c:ent_d33305be0f474b61",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -28153,6 +28133,26 @@
 },
 {
 "id": "ctr:170",
+"s": "leonardo",
+"t": "c:ent_b9f675a508d4b13c",
+"type": "контракт",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"date": "",
+"n": 1,
+"s2": 1,
+"s1": 0.3,
+"ev": [
+[
+"https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"2026-11-11 02:43",
+"” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
+]
+]
+},
+{
+"id": "ctr:171",
 "s": "c:ent_d33305be0f474b61",
 "t": "c:ent_b9f675a508d4b13c",
 "type": "контракт",
@@ -28172,7 +28172,7 @@
 ]
 },
 {
-"id": "ctr:174",
+"id": "ctr:175",
 "s": "rtx",
 "t": "kongsberg",
 "type": "принадлежность",
@@ -28192,7 +28192,7 @@
 ]
 },
 {
-"id": "ctr:177",
+"id": "ctr:178",
 "s": "c:ent_cd3c86a3a1af0b40",
 "t": "c:ent_766676b165f94672",
 "type": "принадлежность",
@@ -28212,7 +28212,7 @@
 ]
 },
 {
-"id": "ctr:180",
+"id": "ctr:181",
 "s": "ga-asi",
 "t": "anduril",
 "type": "контракт",
@@ -28232,7 +28232,7 @@
 ]
 },
 {
-"id": "ctr:187",
+"id": "ctr:188",
 "s": "c:ent_f7a9f659b73e4140",
 "t": "shahed",
 "type": "санкции",
@@ -28252,7 +28252,7 @@
 ]
 },
 {
-"id": "ctr:193",
+"id": "ctr:194",
 "s": "c:ent_0c7791d169d924d7",
 "t": "c:ent_ed88ced226e6c399",
 "type": "поставка",
@@ -28272,7 +28272,7 @@
 ]
 },
 {
-"id": "ctr:210",
+"id": "ctr:211",
 "s": "leonardo",
 "t": "baykar",
 "type": "подтверждение",
@@ -28292,7 +28292,7 @@
 ]
 },
 {
-"id": "ctr:211",
+"id": "ctr:212",
 "s": "leonardo",
 "t": "c:ent_d9bfb74312e4d072",
 "type": "подтверждение",
@@ -28312,7 +28312,7 @@
 ]
 },
 {
-"id": "ctr:214",
+"id": "ctr:215",
 "s": "baykar",
 "t": "c:ent_d9bfb74312e4d072",
 "type": "подтверждение",
@@ -28332,7 +28332,7 @@
 ]
 },
 {
-"id": "ctr:222",
+"id": "ctr:223",
 "s": "rtx",
 "t": "c:ent_fa323d4f8a738909",
 "type": "контракт",
@@ -28352,28 +28352,8 @@
 ]
 },
 {
-"id": "ctr:229",
-"s": "boeing",
-"t": "c:ent_9645ce799b9cf1d7",
-"type": "участие в программе",
-"g": "контур",
-"basis": "цитаты из материалов (контур)",
-"url": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program",
-"date": "",
-"n": 1,
-"s2": 0,
-"s1": 0.0,
-"ev": [
-[
-"https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program",
-"2026-10-06 00:51",
-"AeroVironment, Epirus, Kord and Boeing were selected for JIATF-401’s pilot program."
-]
-]
-},
-{
 "id": "ctr:230",
-"s": "aerovironment",
+"s": "boeing",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "участие в программе",
 "g": "контур",
@@ -28393,6 +28373,26 @@
 },
 {
 "id": "ctr:231",
+"s": "aerovironment",
+"t": "c:ent_9645ce799b9cf1d7",
+"type": "участие в программе",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program",
+"date": "",
+"n": 1,
+"s2": 0,
+"s1": 0.0,
+"ev": [
+[
+"https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program",
+"2026-10-06 00:51",
+"AeroVironment, Epirus, Kord and Boeing were selected for JIATF-401’s pilot program."
+]
+]
+},
+{
+"id": "ctr:232",
 "s": "epirus",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "участие в программе",
@@ -28412,7 +28412,7 @@
 ]
 },
 {
-"id": "ctr:241",
+"id": "ctr:242",
 "s": "palantir",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -28432,7 +28432,7 @@
 ]
 },
 {
-"id": "ctr:244",
+"id": "ctr:245",
 "s": "c:ent_89f73c39ec19ab56",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -28452,7 +28452,7 @@
 ]
 },
 {
-"id": "ctr:268",
+"id": "ctr:269",
 "s": "c:ent_ed78412afb1afa65",
 "t": "c:ent_2a8c6aa1b2cdb6ad",
 "type": "принадлежность",
@@ -28472,7 +28472,7 @@
 ]
 },
 {
-"id": "ctr:269",
+"id": "ctr:270",
 "s": "c:ent_ed78412afb1afa65",
 "t": "c:ent_4d325a4683a443c7",
 "type": "контракт",
@@ -28492,7 +28492,7 @@
 ]
 },
 {
-"id": "ctr:275",
+"id": "ctr:276",
 "s": "rtx",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -28512,7 +28512,7 @@
 ]
 },
 {
-"id": "ctr:276",
+"id": "ctr:277",
 "s": "kongsberg",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -28532,7 +28532,7 @@
 ]
 },
 {
-"id": "ctr:294",
+"id": "ctr:295",
 "s": "lockheed",
 "t": "c:ent_3a4f8a243d6bec16",
 "type": "контракт",
@@ -28552,7 +28552,7 @@
 ]
 },
 {
-"id": "ctr:296",
+"id": "ctr:297",
 "s": "boeing",
 "t": "c:ent_c9797c9635450715",
 "type": "контракт",
@@ -28572,7 +28572,7 @@
 ]
 },
 {
-"id": "ctr:305",
+"id": "ctr:306",
 "s": "lockheed",
 "t": "c:ent_7902a5283b8ea891",
 "type": "контракт",
@@ -28592,7 +28592,7 @@
 ]
 },
 {
-"id": "ctr:332",
+"id": "ctr:333",
 "s": "northrop",
 "t": "c:ent_7902a5283b8ea891",
 "type": "подтверждение",
@@ -28612,7 +28612,7 @@
 ]
 },
 {
-"id": "ctr:350",
+"id": "ctr:351",
 "s": "leidos",
 "t": "bae",
 "type": "контракт",
@@ -28632,7 +28632,7 @@
 ]
 },
 {
-"id": "ctr:363",
+"id": "ctr:364",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_470885ea93d65177",
 "type": "контракт",
@@ -28652,7 +28652,7 @@
 ]
 },
 {
-"id": "ctr:375",
+"id": "ctr:376",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "контракт",
@@ -28672,7 +28672,7 @@
 ]
 },
 {
-"id": "ctr:386",
+"id": "ctr:387",
 "s": "c:ent_ed88ced226e6c399",
 "t": "c:ent_7af60e51312772aa",
 "type": "подтверждение",
@@ -28692,7 +28692,7 @@
 ]
 },
 {
-"id": "ctr:391",
+"id": "ctr:392",
 "s": "c:ent_cd3c86a3a1af0b40",
 "t": "c:ent_819600c55241241c",
 "type": "принадлежность",
@@ -28712,7 +28712,7 @@
 ]
 },
 {
-"id": "ctr:395",
+"id": "ctr:396",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_8badfe3d72e8864a",
 "type": "контракт",
@@ -28732,7 +28732,7 @@
 ]
 },
 {
-"id": "ctr:397",
+"id": "ctr:398",
 "s": "teledyne-flir",
 "t": "c:ent_2abb6a5383b94ad4",
 "type": "принадлежность",
@@ -28752,7 +28752,7 @@
 ]
 },
 {
-"id": "ctr:404",
+"id": "ctr:405",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_7902a5283b8ea891",
 "type": "контракт",
@@ -28772,7 +28772,7 @@
 ]
 },
 {
-"id": "ctr:418",
+"id": "ctr:419",
 "s": "brave1",
 "t": "c:ent_03a53622e9dcb143",
 "type": "контракт",
@@ -28792,7 +28792,7 @@
 ]
 },
 {
-"id": "ctr:426",
+"id": "ctr:427",
 "s": "kratos",
 "t": "c:ent_36bf4065a839253e",
 "type": "контракт",
@@ -28812,7 +28812,7 @@
 ]
 },
 {
-"id": "ctr:461",
+"id": "ctr:462",
 "s": "c:ent_0c7791d169d924d7",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "санкции",
@@ -28832,7 +28832,7 @@
 ]
 },
 {
-"id": "ctr:464",
+"id": "ctr:465",
 "s": "c:ent_ed88ced226e6c399",
 "t": "c:ent_a02f859093a4e63a",
 "type": "поставка",
@@ -28852,7 +28852,7 @@
 ]
 },
 {
-"id": "ctr:468",
+"id": "ctr:469",
 "s": "c:ent_e66a2be7fe38d473",
 "t": "c:ent_a02f859093a4e63a",
 "type": "поставка",
@@ -28872,7 +28872,7 @@
 ]
 },
 {
-"id": "ctr:473",
+"id": "ctr:474",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_ed88ced226e6c399",
 "type": "поставка",
@@ -28892,7 +28892,7 @@
 ]
 },
 {
-"id": "ctr:474",
+"id": "ctr:475",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_f4e5cdf90f9d5be9",
 "type": "контракт",
@@ -28912,7 +28912,7 @@
 ]
 },
 {
-"id": "ctr:488",
+"id": "ctr:489",
 "s": "c:ent_e66a2be7fe38d473",
 "t": "c:ent_f7a9f659b73e4140",
 "type": "подтверждение",
@@ -28932,7 +28932,7 @@
 ]
 },
 {
-"id": "ctr:496",
+"id": "ctr:497",
 "s": "rheinmetall",
 "t": "c:ent_7af60e51312772aa",
 "type": "контракт",
@@ -28952,7 +28952,7 @@
 ]
 },
 {
-"id": "ctr:497",
+"id": "ctr:498",
 "s": "lockheed",
 "t": "c:ent_858ae74c4b9cafc3",
 "type": "контракт",
@@ -28972,7 +28972,7 @@
 ]
 },
 {
-"id": "ctr:499",
+"id": "ctr:500",
 "s": "c:ent_858ae74c4b9cafc3",
 "t": "c:ent_801f9ef8848ff36b",
 "type": "контракт",
@@ -28992,7 +28992,7 @@
 ]
 },
 {
-"id": "ctr:504",
+"id": "ctr:505",
 "s": "airbus-ds",
 "t": "c:ent_c9797c9635450715",
 "type": "поставка",
@@ -29012,7 +29012,7 @@
 ]
 },
 {
-"id": "ctr:511",
+"id": "ctr:512",
 "s": "elbit",
 "t": "c:ent_25c2298a7dbeaf0d",
 "type": "принадлежность",
@@ -29032,7 +29032,7 @@
 ]
 },
 {
-"id": "ctr:514",
+"id": "ctr:515",
 "s": "anduril",
 "t": "c:ent_c9797c9635450715",
 "type": "судебный спор",
@@ -29052,28 +29052,8 @@
 ]
 },
 {
-"id": "ctr:515",
-"s": "anduril",
-"t": "c:ent_c29cc83181a40db6",
-"type": "судебный спор",
-"g": "контур",
-"basis": "цитаты из материалов (контур)",
-"url": "https://t.me/news_UAV/4991",
-"date": "",
-"n": 1,
-"s2": 0,
-"s1": -0.2,
-"ev": [
-[
-"https://t.me/news_UAV/4991",
-"2026-04-22 08:34",
-"Компании Anduril Industries и Kraken Technology Group объявили о партнерстве в области разработки и производства беспилотных надводных судов для ВМС США и их союзников"
-]
-]
-},
-{
 "id": "ctr:516",
-"s": "c:ent_c9797c9635450715",
+"s": "anduril",
 "t": "c:ent_c29cc83181a40db6",
 "type": "судебный спор",
 "g": "контур",
@@ -29093,6 +29073,26 @@
 },
 {
 "id": "ctr:517",
+"s": "c:ent_c9797c9635450715",
+"t": "c:ent_c29cc83181a40db6",
+"type": "судебный спор",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://t.me/news_UAV/4991",
+"date": "",
+"n": 1,
+"s2": 0,
+"s1": -0.2,
+"ev": [
+[
+"https://t.me/news_UAV/4991",
+"2026-04-22 08:34",
+"Компании Anduril Industries и Kraken Technology Group объявили о партнерстве в области разработки и производства беспилотных надводных судов для ВМС США и их союзников"
+]
+]
+},
+{
+"id": "ctr:518",
 "s": "anduril",
 "t": "c:ent_c9797c9635450715",
 "type": "поставка",
@@ -29112,7 +29112,7 @@
 ]
 },
 {
-"id": "ctr:520",
+"id": "ctr:521",
 "s": "c:ent_0b8c3ab9e846ccf4",
 "t": "c:ent_f8e8299b001c3ff1",
 "type": "принадлежность",
@@ -29132,7 +29132,7 @@
 ]
 },
 {
-"id": "ctr:521",
+"id": "ctr:522",
 "s": "c:ent_72167ac7999f6b9e",
 "t": "c:ent_ed88ced226e6c399",
 "type": "поставка",
