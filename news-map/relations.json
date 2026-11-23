@@ -2240,6 +2240,46 @@
 }
 },
 {
+"id": "rel_a7a429884a616269",
+"from": "ent_a02f859093a4e63a",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 5,
+"evidence": [
+{
+"url": "https://focus.ua/voennye-novosti/775756-ataka-dronov-na-sudno-rf-v-finskom-zalive-v-kremle-otreagirovali",
+"published_at": "2026-11-23T16:09:28Z",
+"quote": "Напомним, что, как писал Фокус, морские дроны СБУ поразили российские военные цели у берегов Ливии."
+},
+{
+"url": "https://focus.ua/voennye-novosti/775657-voennyy-korabl-rf-merkuriy-zatonul-posle-ataki-morskih-dronov",
+"published_at": "2026-11-23T07:58:27Z",
+"quote": "2026 в 09:58 139 22 ноября Украина нанесла удар по корвету \"Меркурий\" РФ у берегов Ливии | Фото: Владимир Зеленский Telegram-канал Российские военные цели вблизи Ливии были поражены морскими дронами СБУ.…"
+},
+{
+"url": "https://t.me/milinfolive/183558",
+"published_at": "2026-11-21T08:00:23Z",
+"quote": "Дания обвинила спецслужбы России в подготовке покушения на украинского рэпера Киевстонера (Альберта Васильева), которого ФСБ ранее обвиняло в соучастии операции СБУ по поставке FPV-дронов для удара по стратегическому оборонному предприятию "
+},
+{
+"url": "https://t.me/uav_tech/37223",
+"published_at": "2026-09-25T11:20:14Z",
+"quote": "украинские Sea Baby атаковали танкеры Kairos и Virat у побережья Турции, а в декабре СБУ заявила об ударе по российскому танкеру Qendil уже в Средиземном море – более чем в 2 тыс."
+},
+{
+"url": "https://t.me/uav_tech/37070",
+"published_at": "2026-09-06T07:48:19Z",
+"quote": "Зеленский сразу объявил, что Россия пыталась уничтожить руководителя СБУ, и поручил ему подготовить «ощутимый» и по возможности «зеркальный» ответ."
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_6d0a9ce7c79afa84",
 "from": "ent_cd3c86a3a1af0b40",
 "to": "ent_b677547c4bb180c5",
@@ -2395,6 +2435,46 @@
 ],
 "sentiment": {
 "score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_c08c6761dca5b5fa",
+"from": "ent_a02f859093a4e63a",
+"to": "ent_76aae9f116d88191",
+"type": "применение",
+"event_date": null,
+"evidence_count": 5,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/ukraine-says-sea-drones-sank-russian-corvette-off-libya",
+"published_at": "2026-11-23T17:09:50Z",
+"quote": "Zelensky said seven Ukrainian-made naval drones were used in the operation, carried out by the Security Service of Ukraine and the Defence Forces of Ukraine."
+},
+{
+"url": "https://t.me/operativnoZSU/226791",
+"published_at": "2026-11-23T08:48:43Z",
+"quote": "🔥Поблизу берегів Лівії бійці СБУ та Сил оборони України морськими дронами потопили російський корвет «Меркурій», — Зеленський   Також було знищено бойовий вертоліт Ка-27 та уражено суховантаж MV AN..."
+},
+{
+"url": "https://focus.ua/voennye-novosti/775657-voennyy-korabl-rf-merkuriy-zatonul-posle-ataki-morskih-dronov",
+"published_at": "2026-11-23T07:58:27Z",
+"quote": "2026 в 09:58 139 22 ноября Украина нанесла удар по корвету \"Меркурий\" РФ у берегов Ливии | Фото: Владимир Зеленский Telegram-канал Российские военные цели вблизи Ливии были поражены морскими дронами СБУ.…"
+},
+{
+"url": "https://israeldefense.co.il/en/node/72956",
+"published_at": "2026-11-18T00:00:00Z",
+"quote": "The Ukrainian General Staff and the Security Service of Ukraine (SBU) collaborated closely throughout the prolonged preparations, planning, and intelligence collection, coordinating thoroughly to ensure the success of the complex strike."
+},
+{
+"url": "https://pravda.com.ua/eng/news/2026/11/17/8063357",
+"published_at": "2026-11-17T21:27:00Z",
+"quote": "It involved Rocket Fo rces, elite drone operators from the 7th Deep Strike Centre, known as Magyar's Birds, the 1st Separate Centre of Unmanned Systems, the Security Service of Ukraine, the Ukrainian Navy and units from the Special Operatio"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -2750,41 +2830,6 @@
 }
 },
 {
-"id": "rel_a7a429884a616269",
-"from": "ent_a02f859093a4e63a",
-"to": "ent_28fea1c77915c37a",
-"type": "применение",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://focus.ua/voennye-novosti/775657-voennyy-korabl-rf-merkuriy-zatonul-posle-ataki-morskih-dronov",
-"published_at": "2026-11-23T07:58:27Z",
-"quote": "2026 в 09:58 139 22 ноября Украина нанесла удар по корвету \"Меркурий\" РФ у берегов Ливии | Фото: Владимир Зеленский Telegram-канал Российские военные цели вблизи Ливии были поражены морскими дронами СБУ.…"
-},
-{
-"url": "https://t.me/milinfolive/183558",
-"published_at": "2026-11-21T08:00:23Z",
-"quote": "Дания обвинила спецслужбы России в подготовке покушения на украинского рэпера Киевстонера (Альберта Васильева), которого ФСБ ранее обвиняло в соучастии операции СБУ по поставке FPV-дронов для удара по стратегическому оборонному предприятию "
-},
-{
-"url": "https://t.me/uav_tech/37223",
-"published_at": "2026-09-25T11:20:14Z",
-"quote": "украинские Sea Baby атаковали танкеры Kairos и Virat у побережья Турции, а в декабре СБУ заявила об ударе по российскому танкеру Qendil уже в Средиземном море – более чем в 2 тыс."
-},
-{
-"url": "https://t.me/uav_tech/37070",
-"published_at": "2026-09-06T07:48:19Z",
-"quote": "Зеленский сразу объявил, что Россия пыталась уничтожить руководителя СБУ, и поручил ему подготовить «ощутимый» и по возможности «зеркальный» ответ."
-}
-],
-"sentiment": {
-"score_pm1": -0.5,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_6e10df7181f19bce",
 "from": "ent_f2dcf230404a0bff",
 "to": "ent_42945ce6b8f796c3",
@@ -2815,6 +2860,41 @@
 ],
 "sentiment": {
 "score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_397478baa6eebc46",
+"from": "ent_7af60e51312772aa",
+"to": "ent_461f895cd3ecdc32",
+"type": "применение",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/23/bundeswehr-helsing-stark-strike-drones-lithuania-belarus-soldiers",
+"published_at": "2026-11-23T17:26:00Z",
+"quote": "Bundeswehr Flies Helsing, Stark Strike Drones 12 Miles From Belarus"
+},
+{
+"url": "https://israeldefense.co.il/en/node/73090",
+"published_at": "2026-11-22T00:00:00Z",
+"quote": "The Bundeswehr, Germany's armed forces, recently marked a milestone with the successful conclusion of a comprehensive operational exercise involving two types of loitering munitions, whose warheads completely destroyed target tanks on a tes"
+},
+{
+"url": "https://hartpunkt.de/bundeswehr-schliesst-hot-strike-testkampagne-mit-loitering-munition-virtus-und-hx-2-erfolgreich-ab",
+"published_at": "2026-11-19T16:33:31Z",
+"quote": "Bundeswehr schließt Hot-Strike-Testkampagne mit Loitering Munition Virtus und HX-2 erfolgreich ab"
+},
+{
+"url": "https://t.me/drone_expert_news/5629",
+"published_at": "2026-08-22T16:19:46Z",
+"quote": "В рамках инновационного проекта Cyber Innovation Hub Бундесвера с апреля 2026 года на военных полигонах испытывается лазерная система INLEAP FASTLIGHT SHIELD, которая предназначена для обнаружения и поражения малоразмерных БПЛА направленным"
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -3091,41 +3171,6 @@
 "url": "https://pravda.com.ua/eng/news/2026/11/17/8063357",
 "published_at": "2026-11-17T21:27:00Z",
 "quote": "Ukraine did not rely on Starlink or Starshield during its attack on the Crimean Bridge on 17 November, but used its own satellite system instead ."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_c08c6761dca5b5fa",
-"from": "ent_a02f859093a4e63a",
-"to": "ent_76aae9f116d88191",
-"type": "применение",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://t.me/operativnoZSU/226791",
-"published_at": "2026-11-23T08:48:43Z",
-"quote": "🔥Поблизу берегів Лівії бійці СБУ та Сил оборони України морськими дронами потопили російський корвет «Меркурій», — Зеленський   Також було знищено бойовий вертоліт Ка-27 та уражено суховантаж MV AN..."
-},
-{
-"url": "https://focus.ua/voennye-novosti/775657-voennyy-korabl-rf-merkuriy-zatonul-posle-ataki-morskih-dronov",
-"published_at": "2026-11-23T07:58:27Z",
-"quote": "2026 в 09:58 139 22 ноября Украина нанесла удар по корвету \"Меркурий\" РФ у берегов Ливии | Фото: Владимир Зеленский Telegram-канал Российские военные цели вблизи Ливии были поражены морскими дронами СБУ.…"
-},
-{
-"url": "https://israeldefense.co.il/en/node/72956",
-"published_at": "2026-11-18T00:00:00Z",
-"quote": "The Ukrainian General Staff and the Security Service of Ukraine (SBU) collaborated closely throughout the prolonged preparations, planning, and intelligence collection, coordinating thoroughly to ensure the success of the complex strike."
-},
-{
-"url": "https://pravda.com.ua/eng/news/2026/11/17/8063357",
-"published_at": "2026-11-17T21:27:00Z",
-"quote": "It involved Rocket Fo rces, elite drone operators from the 7th Deep Strike Centre, known as Magyar's Birds, the 1st Separate Centre of Unmanned Systems, the Security Service of Ukraine, the Ukrainian Navy and units from the Special Operatio"
 }
 ],
 "sentiment": {
@@ -3775,36 +3820,6 @@
 ],
 "sentiment": {
 "score_pm1": -0.1,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_397478baa6eebc46",
-"from": "ent_7af60e51312772aa",
-"to": "ent_461f895cd3ecdc32",
-"type": "применение",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://israeldefense.co.il/en/node/73090",
-"published_at": "2026-11-22T00:00:00Z",
-"quote": "The Bundeswehr, Germany's armed forces, recently marked a milestone with the successful conclusion of a comprehensive operational exercise involving two types of loitering munitions, whose warheads completely destroyed target tanks on a tes"
-},
-{
-"url": "https://hartpunkt.de/bundeswehr-schliesst-hot-strike-testkampagne-mit-loitering-munition-virtus-und-hx-2-erfolgreich-ab",
-"published_at": "2026-11-19T16:33:31Z",
-"quote": "Bundeswehr schließt Hot-Strike-Testkampagne mit Loitering Munition Virtus und HX-2 erfolgreich ab"
-},
-{
-"url": "https://t.me/drone_expert_news/5629",
-"published_at": "2026-08-22T16:19:46Z",
-"quote": "В рамках инновационного проекта Cyber Innovation Hub Бундесвера с апреля 2026 года на военных полигонах испытывается лазерная система INLEAP FASTLIGHT SHIELD, которая предназначена для обнаружения и поражения малоразмерных БПЛА направленным"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -34137,6 +34152,246 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_f190ba94cc540139",
+"from": "ent_7af60e51312772aa",
+"to": "ent_bd84f4b50b17b685",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/23/bundeswehr-helsing-stark-strike-drones-lithuania-belarus-soldiers",
+"published_at": "2026-11-23T17:26:00Z",
+"quote": "Bundeswehr Flies Helsing, Stark Strike Drones 12 Miles From Belarus"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_5188c1e716fea843",
+"from": "ent_7af60e51312772aa",
+"to": "ent_9cb193a173d6192c",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/23/bundeswehr-helsing-stark-strike-drones-lithuania-belarus-soldiers",
+"published_at": "2026-11-23T17:26:00Z",
+"quote": "Bundeswehr Flies Helsing, Stark Strike Drones 12 Miles From Belarus"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_964d05cc10b8cdf2",
+"from": "ent_9cb193a173d6192c",
+"to": "ent_bd84f4b50b17b685",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/23/bundeswehr-helsing-stark-strike-drones-lithuania-belarus-soldiers",
+"published_at": "2026-11-23T17:26:00Z",
+"quote": "Bundeswehr Flies Helsing, Stark Strike Drones 12 Miles From Belarus"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_a3e4f432aab3bfba",
+"from": "ent_9cb193a173d6192c",
+"to": "ent_461f895cd3ecdc32",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/23/bundeswehr-helsing-stark-strike-drones-lithuania-belarus-soldiers",
+"published_at": "2026-11-23T17:26:00Z",
+"quote": "Bundeswehr Flies Helsing, Stark Strike Drones 12 Miles From Belarus"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_de98a5601f5966c2",
+"from": "ent_d902053287bd6e57",
+"to": "ent_bd84f4b50b17b685",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/23/bundeswehr-helsing-stark-strike-drones-lithuania-belarus-soldiers",
+"published_at": "2026-11-23T17:26:00Z",
+"quote": "webp\" alt=\"German soldier holding a controller launches a small drone in a pine forest beside a camouflaged Leopard 2 tank\" /></p> <p>German soldiers flew <strong>Helsing</strong> and <strong>Stark</strong> strike drones into tanks on Sunda"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_5307b8a53a10efca",
+"from": "ent_d902053287bd6e57",
+"to": "ent_9e51a7ee6340af7b",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/23/bundeswehr-helsing-stark-strike-drones-lithuania-belarus-soldiers",
+"published_at": "2026-11-23T17:26:00Z",
+"quote": "webp\" alt=\"German soldier holding a controller launches a small drone in a pine forest beside a camouflaged Leopard 2 tank\" /></p> <p>German soldiers flew <strong>Helsing</strong> and <strong>Stark</strong> strike drones into tanks on Sunda"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_bc8cc4d18ca25a41",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_9e51a7ee6340af7b",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/23/bundeswehr-helsing-stark-strike-drones-lithuania-belarus-soldiers",
+"published_at": "2026-11-23T17:26:00Z",
+"quote": "The drones took off, circled out of sight and earshot, and then dove on main battle tanks and infantry fighting vehicles that NATO’s battlegroup in Lithuania supplied as targets."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_e0015069396345a7",
+"from": "ent_ed380c18bfbba014",
+"to": "ent_7af60e51312772aa",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/23/bundeswehr-helsing-stark-strike-drones-lithuania-belarus-soldiers",
+"published_at": "2026-11-23T17:26:00Z",
+"quote": "</p> <p>Target data came from Falke reconnaissance drones, the Bundeswehr’s name for the Quantum Systems Vector, an order DroneXL <a href=\"https://dronexl."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_64d34d2ffdc75f43",
+"from": "ent_7af60e51312772aa",
+"to": "ent_5d1d05ebf8984ea3",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/23/bundeswehr-helsing-stark-strike-drones-lithuania-belarus-soldiers",
+"published_at": "2026-11-23T17:26:00Z",
+"quote": "Much of that testing ran at WTD 91, the Bundeswehr’s proving ground in Meppen."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_9e8aad0eabc9e450",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_8fb86f78250fd022",
+"type": "санкции",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://delo.ua/ru/news/rossiya-potratit-576-mln-na-dva-paroma-dlya-kaliningrada-posle-ataki-dronov-v-baltiiskom-more-476944",
+"published_at": "2026-11-23T16:09:29Z",
+"quote": "Калининградская область, расположенная между членами ЕС и НАТО Польшей и Литвой, стала критически зависимой от морских маршрутов с 2022 года, когда Литва запретила транзит многих категорий товаров, включая строительные материалы, через свою"
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный"
+}
+},
+{
+"id": "rel_c0f0d9f838a67c05",
+"from": "ent_86a408b5b14fa5a6",
+"to": "ent_e741f5958b08543d",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73167",
+"published_at": "2026-11-23T00:00:00Z",
+"quote": "forces in South Korea, the certification places this advanced capability into the hands of a Patriot crew deployed on the operational front line."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_eab126348bab2a21",
+"from": "ent_86a408b5b14fa5a6",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73167",
+"published_at": "2026-11-23T00:00:00Z",
+"quote": "The American-made Patriot system is a ground-based anti-missile and air defense platform used by the U."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 }
 ]
