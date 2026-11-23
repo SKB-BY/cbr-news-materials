@@ -2480,6 +2480,46 @@
 }
 },
 {
+"id": "rel_b7c79d85bc992156",
+"from": "ent_d9666ee645483e4f",
+"to": "ent_860f7b8707ef4321",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 5,
+"evidence": [
+{
+"url": "https://t.me/newsby_btrc/210342",
+"published_at": "2026-11-23T19:08:01Z",
+"quote": "Госкомвоенпром передал Военно-медицинскому управлению Минобороны Беларуси серийные комплексы разработки ОАО «ВОЛАТАВТО»."
+},
+{
+"url": "https://vpk.gov.by/news/comm_news/popolnenie-spetsialnym-oborudovaniem-voenno-meditsinskoy-sluzhby-goskomvoenprom-peredal-partiyu-novy.html",
+"published_at": "2026-11-22T21:00:00Z",
+"quote": "На прошлой неделе в торжественной обстановке представителям Военно-медицинского управления Министерства обороны Республики Беларусь была передана партия мобильных перевязочных пунктов 5М1221 от ОАО «ВОЛАТАВТО»."
+},
+{
+"url": "https://t.me/VOLATAVTO/2156",
+"published_at": "2026-11-21T11:10:36Z",
+"quote": "На уходящей неделе в торжественной обстановке представителям Военно-медицинского управления Министерства обороны Республики Беларусь была передана партия мобильных перевязочных пунктов 5М1221 от ОАО «ВОЛАТАВТО»."
+},
+{
+"url": "https://t.me/GKB_Luch/5412",
+"published_at": "2026-11-21T08:20:22Z",
+"quote": "На уходящей неделе в торжественной обстановке представителям Военно-медицинского управления Министерства обороны Республики Беларусь была передана партия мобильных перевязочных пунктов 5М1221 от ОАО «ВОЛАТАВТО»."
+},
+{
+"url": "https://t.me/vpkgovby/6172",
+"published_at": "2026-11-21T07:20:20Z",
+"quote": "На уходящей неделе в торжественной обстановке представителям Военно-медицинского управления Министерства обороны Республики Беларусь была передана партия мобильных перевязочных пунктов 5М1221 от ОАО «ВОЛАТАВТО»."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_78016c356543d94a",
 "from": "ent_3d66be6936f89f7f",
 "to": "ent_cd75b7acacf53304",
@@ -3177,41 +3217,6 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_b7c79d85bc992156",
-"from": "ent_d9666ee645483e4f",
-"to": "ent_860f7b8707ef4321",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://vpk.gov.by/news/comm_news/popolnenie-spetsialnym-oborudovaniem-voenno-meditsinskoy-sluzhby-goskomvoenprom-peredal-partiyu-novy.html",
-"published_at": "2026-11-22T21:00:00Z",
-"quote": "На прошлой неделе в торжественной обстановке представителям Военно-медицинского управления Министерства обороны Республики Беларусь была передана партия мобильных перевязочных пунктов 5М1221 от ОАО «ВОЛАТАВТО»."
-},
-{
-"url": "https://t.me/VOLATAVTO/2156",
-"published_at": "2026-11-21T11:10:36Z",
-"quote": "На уходящей неделе в торжественной обстановке представителям Военно-медицинского управления Министерства обороны Республики Беларусь была передана партия мобильных перевязочных пунктов 5М1221 от ОАО «ВОЛАТАВТО»."
-},
-{
-"url": "https://t.me/GKB_Luch/5412",
-"published_at": "2026-11-21T08:20:22Z",
-"quote": "На уходящей неделе в торжественной обстановке представителям Военно-медицинского управления Министерства обороны Республики Беларусь была передана партия мобильных перевязочных пунктов 5М1221 от ОАО «ВОЛАТАВТО»."
-},
-{
-"url": "https://t.me/vpkgovby/6172",
-"published_at": "2026-11-21T07:20:20Z",
-"quote": "На уходящей неделе в торжественной обстановке представителям Военно-медицинского управления Министерства обороны Республики Беларусь была передана партия мобильных перевязочных пунктов 5М1221 от ОАО «ВОЛАТАВТО»."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -8147,6 +8152,31 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_b53768c0cb8c1390",
+"from": "ent_3abe9c5471b5e35d",
+"to": "ent_cc536968c15118bb",
+"type": "должность",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73162",
+"published_at": "2026-11-23T00:00:00Z",
+"quote": "Sean Jackson, vice president of the F-35 development program at Lockheed Martin, called the milestone critical for the aircraft, the carrier, and the Navy, noting it was the first time these capabilities were demonstrated from a Ford-class "
+},
+{
+"url": "https://aerotime.aero/articles/f-35c-first-ford-class-carrier-trials-john-f-kennedy",
+"published_at": "2026-11-19T13:15:41Z",
+"quote": "Sean Jackson, vice president of the F-35 Development Program at Lockheed Martin, described the trials as a critical milestone for the aircraft and the ship."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
 }
 },
 {
@@ -29815,26 +29845,6 @@
 }
 },
 {
-"id": "rel_b53768c0cb8c1390",
-"from": "ent_3abe9c5471b5e35d",
-"to": "ent_cc536968c15118bb",
-"type": "должность",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://aerotime.aero/articles/f-35c-first-ford-class-carrier-trials-john-f-kennedy",
-"published_at": "2026-11-19T13:15:41Z",
-"quote": "Sean Jackson, vice president of the F-35 Development Program at Lockheed Martin, described the trials as a critical milestone for the aircraft and the ship."
-}
-],
-"sentiment": {
-"score_pm1": 0.3,
-"score_pm2": 1,
-"label": "умеренно позитивный"
-}
-},
-{
 "id": "rel_0ed5708a5d3803d6",
 "from": "ent_c4d02534cbe847ba",
 "to": "ent_c32678e4a0ae4599",
@@ -34386,6 +34396,66 @@
 "url": "https://israeldefense.co.il/en/node/73167",
 "published_at": "2026-11-23T00:00:00Z",
 "quote": "The American-made Patriot system is a ground-based anti-missile and air defense platform used by the U."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c4fe175a52243891",
+"from": "ent_0038b9fbd4cc5b67",
+"to": "ent_ed380c18bfbba014",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/quantum-systems-says-spys-intercepted-russias-jet-powered-geran-5-attack-drone-in-combat-testing-in-ukraine",
+"published_at": "2026-11-23T20:49:57Z",
+"quote": "Russia keeps adapting its attack systems, so we work closely with Ukrainian brigades to adjust our systems accordingly,” said Sven Kruck, Co-CEO of Quantum Systems."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_4b54818ce743ba77",
+"from": "ent_d9666ee645483e4f",
+"to": "ent_1299ca791a1d8196",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/newsby_btrc/210342",
+"published_at": "2026-11-23T19:08:01Z",
+"quote": "Госкомвоенпром передал Военно-медицинскому управлению Минобороны Беларуси серийные комплексы разработки ОАО «ВОЛАТАВТО»."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_9693ed772b8c03f0",
+"from": "ent_1299ca791a1d8196",
+"to": "ent_860f7b8707ef4321",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://t.me/newsby_btrc/210342",
+"published_at": "2026-11-23T19:08:01Z",
+"quote": "Госкомвоенпром передал Военно-медицинскому управлению Минобороны Беларуси серийные комплексы разработки ОАО «ВОЛАТАВТО»."
 }
 ],
 "sentiment": {
