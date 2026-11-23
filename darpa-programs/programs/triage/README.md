@@ -39,10 +39,13 @@
 |---|---|---|---|---|
 | Jeremy Pamplin | DARPA program manager |  | [https://www.darpa.mil/research/programs/darpa-triage-challenge](https://www.darpa.mil/research/programs/darpa-triage-challenge) |  |
 
-## Новости из хранилища (1)
+## Новости из хранилища (4)
 
 Совпадение по названию программы в тексте (правило — `../../ADD_PROGRAM.md`). Машиночитаемо: `../../data/darpa_item_tags.json`. Хранилище: live — `news.sqlite`, archive — `archive/news_archive.sqlite`.
 
+- 2026-11-23 [DARPA tests drones to find and assess injured victims at the Triage Challenge](https://c4isrnet.com/videos/2026/11/23/darpa-tests-drones-to-find-and-assess-injured-victims-at-the-triage-challenge) — live
+- 2026-11-23 [DARPA tests drones to find and assess injured victims at the Triage Challenge](https://militarytimes.com/video/2026/11/23/darpa-tests-drones-to-find-and-assess-injured-victims-at-the-triage-challenge) — live
+- 2026-11-23 [DARPA tests drones to find and assess injured victims at the Triage Challenge](https://defensenews.com/video/2026/11/23/darpa-tests-drones-to-find-and-assess-injured-victims-at-the-triage-challenge) — live
 - 2026-01-23 [🦾 Видео с DARPA Triage Challenge, целью которого является создание систем искусственного интеллекта для оказания помощи медикам во время сти](https://t.me/drone_expert_news/5303) — archive
 
 ## Категория и сфера (t86u, проверка 2026-11-13)

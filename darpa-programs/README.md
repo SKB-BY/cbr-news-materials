@@ -655,7 +655,7 @@
 | [Cornucopia](programs/cornucopia/README.md) | Cornucopia | завершена |  |  | 1 | 0 |
 | [DIGET](programs/detect-it-with-gene-editing-technologies/README.md) | Detect It with Gene Editing Technologies | завершена |  |  | 0 | 0 |
 | [DLT](programs/dialysis-like-therapeutics/README.md) | Dialysis-Like Therapeutics | завершена |  |  | 0 | 0 |
-| [DTC](programs/triage/README.md) | DARPA Triage Challenge | действует |  | Jeremy Pamplin | 9 | 1 |
+| [DTC](programs/triage/README.md) | DARPA Triage Challenge | действует |  | Jeremy Pamplin | 9 | 4 |
 | [ECHO](programs/epigenetic-characterization-and-observation/README.md) | Epigenetic CHaracterization and Observation | завершена |  |  | 0 | 0 |
 | [ElectRx](programs/electrical-prescriptions/README.md) | Electrical Prescriptions | завершена |  |  | 7 | 0 |
 | [ELM](programs/engineered-living-materials/README.md) | Engineered Living Materials | завершена |  |  | 1 | 0 |

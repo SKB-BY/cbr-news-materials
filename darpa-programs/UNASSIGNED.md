@@ -2,6 +2,9 @@
 
 Кандидаты на новую программу (правило — `ADD_PROGRAM.md`). Программа не назначается без названия в тексте.
 
+- 2026-11-23 [A race for lifesaving battlefield drones / Defense News Weekly Full Episode 11.24.26](https://c4isrnet.com/videos/2026/11/23/a-race-for-lifesaving-battlefield-drones-defense-news-weekly-full-episode-11-24-26) — live
+- 2026-11-23 [A race for lifesaving battlefield drones / Defense News Weekly Full Episode 11.24.26](https://militarytimes.com/video/2026/11/23/a-race-for-lifesaving-battlefield-drones-defense-news-weekly-full-episode-11-24-26) — live
+- 2026-11-23 [A race for lifesaving battlefield drones / Defense News Weekly Full Episode 11.24.26](https://defensenews.com/video/2026/11/23/a-race-for-lifesaving-battlefield-drones-defense-news-weekly-full-episode-11-24-26) — live
 - 2026-11-20 [Οι ΗΠΑ παρήγγειλαν το Squire, ένα μη επανδρωμένο σκάφος που πετά χαμηλά πάνω από τη θάλασσα](https://flight.com.gr/usa-regent-squire-seaglider-first-order/?utm_source=rss&utm_medium=rss&utm_campaign=usa-regent-squire-seaglider-first-order) — live
 - 2026-11-20 [Одноразовый дрон по цене обувной коробки](https://t.me/uav_tech/37551) — live
 - 2026-11-16 [Пентагон натаскивает роботов на работу без GPS](https://vpk.name/news/1172523_pentagon_nataskivaet_robotov_na_rabotu_bez_gps.html) — live
