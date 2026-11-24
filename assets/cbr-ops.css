@@ -169,3 +169,9 @@ details.cbr-day ol{margin:6px 0;padding-left:22px}
 .sph-b.sec{opacity:.75;border-style:dashed}
 .sph-uav{color:#3fa7ff}.sph-ad{color:#ff6b6b}.sph-air{color:#7dd3fc}.sph-weap{color:#f5a524}.sph-armor{color:#a3a36b}
 .sph-arty{color:#e07b39}.sph-comms{color:#9b8cff}.sph-soft{color:#4fd1a5}.sph-jeep{color:#c0a080}.sph-tact{color:#d98cd0}
+
+/* t199u-seo: заголовки в сворачиваемых блоках отчёта и текстовые версии */
+details.cbr-block > summary h1.cbr-sum-t,
+details.cbr-block > summary h2.cbr-sum-t{display:inline;margin:0;padding:0;font:inherit;color:inherit;letter-spacing:inherit}
+.cbr-seo-text{font-size:13px;margin:8px 0 12px}
+.cbr-seo-noscript{padding:10px 14px;background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent)}

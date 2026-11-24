@@ -4,19 +4,35 @@
 <meta charset="utf-8">
 <meta name="author" content="GREEN-CBR">
 <meta name="copyright" content="© 2026 GREEN-CBR. Все права защищены.">
-<link rel="icon" href="data:,">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>КОНТУР - I-OSINT BY — Новостная карта</title>
-<meta name="description" content="Открытые новости разбираются по сферам, сущностям и связям, получают код ОИ 5×5 и окрас и выкладываются в актуальный отчёт, на новостную карту, карту реестра и в реестр сил и компаний.">
+<!-- t199u-seo -->
+<meta name="description" content="Новостная карта «Контура»: сведения по странам и регионам с 01.01.2026, окраска по ОИ 5×5, фильтры сфер и периода. Есть текстовая версия без JavaScript.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://skb-by.github.io/cbr-news-materials/news-map/">
+<link rel="alternate" hreflang="ru" href="https://skb-by.github.io/cbr-news-materials/news-map/">
+<link rel="alternate" hreflang="x-default" href="https://skb-by.github.io/cbr-news-materials/news-map/">
+<link rel="alternate" href="text.html" title="текстовая версия Новостной карты">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="ru_RU">
 <meta property="og:site_name" content="КОНТУР - I-OSINT BY">
 <meta property="og:title" content="КОНТУР - I-OSINT BY — Новостная карта">
-<meta property="og:description" content="Открытые новости разбираются по сферам, сущностям и связям, получают код ОИ 5×5 и окрас и выкладываются в актуальный отчёт, на новостную карту, карту реестра и в реестр сил и компаний.">
+<meta property="og:description" content="Новостная карта «Контура»: сведения по странам и регионам с 01.01.2026, окраска по ОИ 5×5, фильтры сфер и периода. Есть текстовая версия без JavaScript.">
 <meta property="og:url" content="https://skb-by.github.io/cbr-news-materials/news-map/">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://skb-by.github.io/cbr-news-materials/assets/og.png">
+<meta property="og:image:alt" content="КОНТУР - I-OSINT BY">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="КОНТУР - I-OSINT BY — Новостная карта">
-<meta name="twitter:description" content="Открытые новости разбираются по сферам, сущностям и связям, получают код ОИ 5×5 и окрас и выкладываются в актуальный отчёт, на новостную карту, карту реестра и в реестр сил и компаний.">
+<meta name="twitter:description" content="Новостная карта «Контура»: сведения по странам и регионам с 01.01.2026, окраска по ОИ 5×5, фильтры сфер и периода. Есть текстовая версия без JavaScript.">
+<meta name="twitter:image" content="https://skb-by.github.io/cbr-news-materials/assets/og.png">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../assets/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="КОНТУР - I-OSINT BY — лента актуального отчёта" href="https://skb-by.github.io/cbr-news-materials/rss.xml">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "КОНТУР - I-OSINT BY — Новостная карта", "description": "Новостная карта «Контура»: сведения по странам и регионам с 01.01.2026, окраска по ОИ 5×5, фильтры сфер и периода. Есть текстовая версия без JavaScript.", "url": "https://skb-by.github.io/cbr-news-materials/news-map/", "inLanguage": "ru", "isPartOf": {"@type": "WebSite", "name": "КОНТУР - I-OSINT BY", "url": "https://skb-by.github.io/cbr-news-materials/"}, "author": {"@type": "Organization", "name": "GREEN-CBR", "alternateName": "КОНТУР - I-OSINT BY"}}</script>
+<!-- /t199u-seo -->
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="vendor/leaflet.css?v=t62">
@@ -147,8 +163,11 @@
   </nav>
   <span class="cbr-asof" id="cbr-asof"><i></i></span>
 </header>
+<noscript><p class="cbr-seo-noscript">Для интерактивной страницы нужен JavaScript. Откройте <a href="text.html">текстовая версия Новостной карты</a> — тот же состав сведений списком.</p></noscript>
 <div id="wrap">
   <aside id="side">
+<p class="cbr-seo-text"><a href="text.html">Текстовая версия Новостной карты</a> — та же выгрузка списком, без JavaScript.</p>
+
     <div class="top">
       <h1>Новостная карта</h1>
       <div id="hint" class="hint">Наведите на область — если есть сведения, они появятся списком</div>

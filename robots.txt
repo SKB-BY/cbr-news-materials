@@ -1,0 +1,9 @@
+# Контур - I-OSINT BY. Разрешена индексация всех опубликованных страниц.
+# Поисковики читают robots.txt у корня хоста.
+# Сейчас сайт — проектный путь GitHub Pages, поэтому управляющий файл —
+# https://skb-by.github.io/robots.txt (репозиторий SKB-BY.github.io или свой домен).
+# Этот файл задаёт политику для своего домена и указывает sitemap уже сейчас.
+User-agent: *
+Allow: /
+
+Sitemap: https://skb-by.github.io/cbr-news-materials/sitemap.xml
