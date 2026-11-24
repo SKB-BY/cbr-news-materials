@@ -388,6 +388,7 @@ def chrome(title: str, desc: str, canonical: str, as_of: str, body: str, crumbs:
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
 <meta name="robots" content="{html.escape(robots)}">
+<meta name="google-site-verification" content="esDUQLWqkgLOJwrm8McPpRrNe1E7DLHKjKD0WTj5JS0">
 <link rel="canonical" href="{html.escape(canonical)}">
 <link rel="alternate" hreflang="ru" href="{html.escape(canonical)}">
 <link rel="alternate" hreflang="x-default" href="{html.escape(canonical)}">
@@ -827,17 +828,14 @@ def main(argv: list[str] | None = None) -> int:
     }
     (staging / "_data").mkdir(parents=True, exist_ok=True)
     write(staging / "_data" / "seo.json", json.dumps(seo, ensure_ascii=False, indent=2) + "\n")
-    # пустые коды подтверждения кабинетов — GREEN подставит сам
-    wm = first_existing(templates / "_data" / "webmaster.yml", repo / "_data" / "webmaster.yml")
-    if wm and not (staging / "_data" / "webmaster.yml").exists():
-        write(staging / "_data" / "webmaster.yml", wm.read_text(encoding="utf-8"))
-    elif not (staging / "_data" / "webmaster.yml").exists():
-        write(staging / "_data" / "webmaster.yml",
-              "# Коды подтверждения кабинетов вебмастеров. Пустые, пока GREEN их не пришлёт.\n"
-              "# Только публичные строки meta-тегов, без паролей и почт.\n"
-              "google: \"\"\n"
-              "yandex: \"\"\n"
-              "bing: \"\"\n")
+    # t204u: коды из шаблона всегда попадают в срез; пустой файл не затирает заполненный
+    src_wm = templates / "_data" / "webmaster.yml"
+    if not src_wm.exists():
+        src_wm = repo / "_data" / "webmaster.yml"
+    if src_wm.exists():
+        write(staging / "_data" / "webmaster.yml", src_wm.read_text(encoding="utf-8"))
+    # t205u: HTML-файл подтверждения Search Console (без front matter, не в sitemap)
+    write(staging / "googlec513876abfbc1c20.html", 'google-site-verification: googlec513876abfbc1c20.html\n')
 
     log(
         f"ok as_of={as_of} sitemap={len(entries)} rss_items={len(day_items) or len(bullets[:15])} "

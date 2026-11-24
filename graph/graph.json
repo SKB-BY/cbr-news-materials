@@ -3,11 +3,11 @@
 "version": "t171u-graph-1",
 "links_version": "t167u-links-2",
 "oi_as_of": "2026-11-24T19:10:17+03:00",
-"built_at": "2026-11-24T21:49:14+03:00",
+"built_at": "2026-11-24T22:18:39+03:00",
 "copyright": "© 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR",
 "rule": "t167u: связь только при реальной связи (основание с URL); совместные упоминания не включены",
 "counts": {
-"nodes": 2332,
+"nodes": 2335,
 "edges": 2218,
 "persons": 101,
 "darpa_programs": 779
@@ -368,7 +368,7 @@
 "kind": "agency",
 "country": "Беларусь",
 "src": "реестр",
-"n": 75,
+"n": 77,
 "url": "",
 "role": "",
 "reg": false,
@@ -440,7 +440,7 @@
 "kind": "company",
 "country": "США",
 "src": "реестр",
-"n": 233,
+"n": 234,
 "url": "https://www.boeing.com/defense",
 "role": "прайм: авиация, БЛА (MQ-25)",
 "reg": true,
@@ -488,7 +488,7 @@
 "kind": "company",
 "country": "США",
 "src": "реестр",
-"n": 69,
+"n": 70,
 "url": "https://www.dedrone.com/",
 "role": "C-UAS: обнаружение дронов",
 "reg": true,
@@ -692,7 +692,7 @@
 "kind": "company",
 "country": "США",
 "src": "реестр",
-"n": 118,
+"n": 119,
 "url": "https://www.rtx.com/",
 "role": "прайм: ПВО, C-UAS (Coyote), сенсоры",
 "reg": true,
@@ -788,7 +788,7 @@
 "kind": "company",
 "country": "Франция/Германия/Испания",
 "src": "реестр",
-"n": 255,
+"n": 256,
 "url": "https://www.airbus.com/en/products-services/defence",
 "role": "прайм: авиация, БЛА, космос",
 "reg": true,
@@ -800,7 +800,7 @@
 "kind": "company",
 "country": "Великобритания",
 "src": "реестр",
-"n": 182,
+"n": 183,
 "url": "https://www.baesystems.com/",
 "role": "прайм; БЛА (в т.ч. через Callen-Lenz), РЭБ",
 "reg": true,
@@ -908,7 +908,7 @@
 "kind": "company",
 "country": "Норвегия",
 "src": "реестр",
-"n": 89,
+"n": 91,
 "url": "https://www.kongsberg.com/kda/",
 "role": "ПВО (NASAMS), модули, морские системы",
 "reg": true,
@@ -1268,7 +1268,7 @@
 "kind": "company",
 "country": "Австрия",
 "src": "реестр",
-"n": 45,
+"n": 46,
 "url": "https://schiebel.net/",
 "role": "БЛА вертикального взлёта CAMCOPTER S-100 / S-300 и миноискатели. Основана в 1951 г. в Вене, производство — Винер-Нойштадт; площадки также в Абу-Даби (ОАЭ), Лондоне, Манассасе, Эр-Рияде, Сеуле, Шолхейвене, Тулоне. По сайту компании — военная, коммерческая и гуманитарная продукция",
 "reg": true,
@@ -1292,7 +1292,7 @@
 "kind": "company",
 "country": "Украина",
 "src": "реестр",
-"n": 7,
+"n": 9,
 "url": "https://taf-ua.com/en/",
 "role": "украинский производитель БЛА (FPV, разведка, перехватчики — на сайте: Kolibri, Octopus-100). Имя «TAF Dynamics» как отдельное юрлицо в открытых источниках 11.11.2026 не подтверждено. 13.02.2026 — меморандум (MoU) с Wingcopter (Германия) о намерении создать совместное предприятие для производства разведывательных БЛА TAF в Германии (СП в стадии намерения). 25.06.2026 — письмо о намерениях (LoI) с PGZ (Польша) о локализации производства БЛА в Польше (по сайту TAF)",
 "reg": true,
@@ -1328,7 +1328,7 @@
 "kind": "company",
 "country": "Франция",
 "src": "реестр",
-"n": 214,
+"n": 215,
 "url": "https://www.thalesgroup.com/",
 "role": "прайм: радары, C-UAS, связь, навигация",
 "reg": true,
@@ -1388,7 +1388,7 @@
 "kind": "company",
 "country": "Турция",
 "src": "реестр",
-"n": 91,
+"n": 92,
 "url": "https://www.aselsan.com/en",
 "role": "электроника ВПК: РЭБ, БЛА, C-UAS",
 "reg": true,
@@ -1460,7 +1460,7 @@
 "kind": "company",
 "country": "Израиль",
 "src": "реестр",
-"n": 73,
+"n": 74,
 "url": "https://www.iai.co.il/",
 "role": "БЛА, ПВО",
 "reg": true,
@@ -3956,11 +3956,23 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 0,
+"n": 1,
 "url": "",
 "role": "",
 "reg": false,
 "deg": 1
+},
+{
+"id": "c:ent_f2205a8b35aa4983",
+"label": "Developing Unmanned Systems",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 0
 },
 {
 "id": "c:ent_e143fb0f6eb552d5",
@@ -4565,6 +4577,18 @@
 {
 "id": "c:ent_5e84af7b3a01a603",
 "label": "Featuring Electro-magnetic Defence",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 0
+},
+{
+"id": "c:ent_7aa716f8900c6fc4",
+"label": "FINAL Defence",
 "kind": "company",
 "country": "",
 "src": "контур",
@@ -5372,7 +5396,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 7,
+"n": 8,
 "url": "",
 "role": "",
 "reg": false,
@@ -5453,6 +5477,18 @@
 {
 "id": "c:ent_a9d1f7003984081d",
 "label": "Insta Group",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 0
+},
+{
+"id": "c:ent_5179bcfd80394860",
+"label": "International Crisis Group",
 "kind": "company",
 "country": "",
 "src": "контур",
@@ -5924,7 +5960,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 7,
+"n": 8,
 "url": "",
 "role": "",
 "reg": false,
@@ -7520,7 +7556,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 1,
+"n": 2,
 "url": "",
 "role": "",
 "reg": false,
@@ -8024,7 +8060,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 1,
+"n": 2,
 "url": "",
 "role": "",
 "reg": false,
@@ -8228,7 +8264,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 0,
+"n": 1,
 "url": "",
 "role": "",
 "reg": false,
@@ -8600,7 +8636,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 45,
+"n": 47,
 "url": "",
 "role": "",
 "reg": false,
@@ -9608,7 +9644,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 6,
+"n": 7,
 "url": "",
 "role": "",
 "reg": false,
@@ -10976,7 +11012,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 161,
+"n": 162,
 "url": "",
 "role": "",
 "reg": false,
@@ -11000,7 +11036,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 73,
+"n": 74,
 "url": "",
 "role": "",
 "reg": false,
@@ -11024,7 +11060,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 210,
+"n": 211,
 "url": "",
 "role": "",
 "reg": false,
@@ -11036,7 +11072,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 900,
+"n": 903,
 "url": "",
 "role": "",
 "reg": false,
@@ -11048,7 +11084,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 31,
+"n": 32,
 "url": "",
 "role": "",
 "reg": false,
@@ -11096,7 +11132,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 230,
+"n": 232,
 "url": "",
 "role": "",
 "reg": false,
@@ -11108,7 +11144,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 71,
+"n": 73,
 "url": "",
 "role": "",
 "reg": false,
@@ -11120,7 +11156,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 582,
+"n": 586,
 "url": "",
 "role": "",
 "reg": false,
@@ -11144,7 +11180,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 240,
+"n": 242,
 "url": "",
 "role": "",
 "reg": false,
@@ -13148,7 +13184,7 @@
 "kind": "company",
 "country": "Германия",
 "src": "реестр",
-"n": 54,
+"n": 56,
 "url": "https://wingcopter.com/",
 "role": "немецкий разработчик и производитель электрических беспилотных систем (доставка, съёмка; подразделение Wingcopter Security & Defence). 13.02.2026 — меморандум с TAF Industries о намерении создать СП для производства разведывательных БЛА TAF в Германии (по сайтам Wingcopter и TAF)",
 "reg": true,
@@ -35421,8 +35457,13 @@
 "In June, the Ministry of Defence announced contracts worth a combined £36 million with Thales for Lightweight Multirole Missiles built in Belfast, the UK Defence Journal reported ."
 ]
 ],
-"oi": [],
-"sp": [],
+"oi": [
+"Б2"
+],
+"sp": [
+"авиация",
+"системы ПВО и РВСН"
+],
 "nd": 1,
 "d0": "2026-11-24",
 "d1": "2026-11-24"
@@ -35446,8 +35487,12 @@
 "China Southern owns a 55% stake in Xiamen Airlines, which operated an all-Boeing fleet before it placed its first Airbus order in September 2022 ."
 ]
 ],
-"oi": [],
-"sp": [],
+"oi": [
+"Б2"
+],
+"sp": [
+"авиация"
+],
 "nd": 1,
 "d0": "2026-11-24",
 "d1": "2026-11-24"
@@ -35471,8 +35516,12 @@
 "Turkey: Aselsan to Develop New Air Defense System Under $575 Million Contract"
 ]
 ],
-"oi": [],
-"sp": [],
+"oi": [
+"Б2"
+],
+"sp": [
+"системы ПВО и РВСН"
+],
 "nd": 1,
 "d0": "2026-11-24",
 "d1": "2026-11-24"
@@ -59940,8 +59989,12 @@
 "Boeing’s 200-aircraft deal with China The filing does not specify whether the 50 737 MAX 8s form part of the 200-aircraft purchase commitment China made during US President Donald Trump’s visit to Beijing in May 2026 , which China’s Ministr"
 ]
 ],
-"oi": [],
-"sp": [],
+"oi": [
+"Б2"
+],
+"sp": [
+"авиация"
+],
 "nd": 1,
 "d0": "2026-11-24",
 "d1": "2026-11-24"
@@ -59965,8 +60018,12 @@
 "Boeing CEO Kelly Ortberg said on May 27, 2026, that the Chinese government would allocate the aircraft to individual airlines, with Boeing then negotiating firm orders with each carrier."
 ]
 ],
-"oi": [],
-"sp": [],
+"oi": [
+"Б2"
+],
+"sp": [
+"авиация"
+],
 "nd": 1,
 "d0": "2026-11-24",
 "d1": "2026-11-24"
