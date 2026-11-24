@@ -125,8 +125,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "поставка",
 "event_date": null,
-"evidence_count": 43,
+"evidence_count": 44,
 "evidence": [
+{
+"url": "https://vpk.name/news/1174135_niderlandskii_proizvoditel_dronov_dlya_vsu_poluchil_mnogomillionnye_transhi_ot_stran_es.html",
+"published_at": "2026-11-23T21:00:01Z",
+"quote": "Нидерландский производитель дронов для ВСУ получил многомиллионные транши от стран ЕС"
+},
 {
 "url": "https://dprte.co.uk/2026/11/23/defence-secretary-streeting-signs-uk-drone-production-agreement-with-ukraine-in-kyiv-visit",
 "published_at": "2026-11-23T08:37:00Z",
@@ -146,11 +151,6 @@
 "url": "https://eadaily.com/ru/news/2026/11/23/v-bryanskoy-oblasti-pri-atake-bpla-postradal-pozhiloy-muzhchina",
 "published_at": "2026-11-23T01:30:00Z",
 "quote": "Фото: Павел Лисицын / РИА Новости Пожилой мужчина получил ранения в результате атаки беспилотника ВСУ в Брянской области, пострадавшему оказана медицинская помощь, сообщил губернатор Егор Ковальчук."
-},
-{
-"url": "https://vpk.name/news/1173755_prizyvayut_peredat_vsu_vozmozhnaya_sudba_izlishkov_tankov_challenger_2.html",
-"published_at": "2026-11-22T21:00:01Z",
-"quote": "«Призывают передать ВСУ»: возможная судьба «излишков» танков Challenger 2"
 }
 ],
 "sentiment": {
@@ -405,8 +405,18 @@
 "to": "ent_28fea1c77915c37a",
 "type": "поставка",
 "event_date": null,
-"evidence_count": 14,
+"evidence_count": 16,
 "evidence": [
+{
+"url": "https://vpk.name/news/1174059_vks_rossii_poluchili_vtoruyu_partiyu_istrebitelei_su-57_po_programme_2026_goda.html",
+"published_at": "2026-11-23T21:00:01Z",
+"quote": "ВКС России получили вторую партию истребителей Су-57 по программе 2026 года"
+},
+{
+"url": "https://vpk.name/news/1174055_vks_rossii_postavlena_tretya_v_2026_godu_partiya_frontovyh_bombardirovshikov_su-34.html",
+"published_at": "2026-11-23T21:00:01Z",
+"quote": "ВКС России поставлена третья в 2026 году партия фронтовых бомбардировщиков Су-34"
+},
 {
 "url": "https://bmpd.livejournal.com/5015731.html",
 "published_at": "2026-11-22T19:38:11Z",
@@ -421,6 +431,36 @@
 "url": "https://topwar.ru/293888-shvecija-i-britanija-postavjat-ukraine-rakety-meteor-dlja-borby-s-su-34-vks-rf.html",
 "published_at": "2026-11-20T14:45:45Z",
 "quote": "Швеция и Британия поставят Украине ракеты Meteor для борьбы с Су-34 ВКС РФ"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_9952377d07758483",
+"from": "ent_82d695889d3fa2fa",
+"to": "ent_6db9790c0b5ee6ca",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 13,
+"evidence": [
+{
+"url": "https://vpk.name/news/1174059_vks_rossii_poluchili_vtoruyu_partiyu_istrebitelei_su-57_po_programme_2026_goda.html",
+"published_at": "2026-11-23T21:00:01Z",
+"quote": "ВКС России получили вторую партию истребителей Су-57 по программе 2026 года"
+},
+{
+"url": "https://bmpd.livejournal.com/5015731.html",
+"published_at": "2026-11-22T19:38:11Z",
+"quote": "ВКС России получили вторую партию истребителей Су-57 по программе 2026 года"
+},
+{
+"url": "https://tvzvezda.ru/news/20261121552-DeYXM.html",
+"published_at": "2026-11-21T03:02:31Z",
+"quote": "Ранее стало известно, что ВКС РФ получили новую партию многофункциональных истребителей пятого поколения Су-57."
 },
 {
 "url": "https://vpk.name/news/1173222_vks_rossii_poluchili_partiyu_su-57_s_rasshirennymi_vozmozhnostyami_vooruzheniya.html",
@@ -434,7 +474,7 @@
 }
 ],
 "sentiment": {
-"score_pm1": 0.3,
+"score_pm1": 0.4,
 "score_pm2": 1,
 "label": "умеренно позитивный"
 }
@@ -517,46 +557,6 @@
 "score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_9952377d07758483",
-"from": "ent_82d695889d3fa2fa",
-"to": "ent_6db9790c0b5ee6ca",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 12,
-"evidence": [
-{
-"url": "https://bmpd.livejournal.com/5015731.html",
-"published_at": "2026-11-22T19:38:11Z",
-"quote": "ВКС России получили вторую партию истребителей Су-57 по программе 2026 года"
-},
-{
-"url": "https://tvzvezda.ru/news/20261121552-DeYXM.html",
-"published_at": "2026-11-21T03:02:31Z",
-"quote": "Ранее стало известно, что ВКС РФ получили новую партию многофункциональных истребителей пятого поколения Су-57."
-},
-{
-"url": "https://vpk.name/news/1173222_vks_rossii_poluchili_partiyu_su-57_s_rasshirennymi_vozmozhnostyami_vooruzheniya.html",
-"published_at": "2026-11-19T21:00:01Z",
-"quote": "ВКС России получили партию Су-57 с расширенными возможностями вооружения"
-},
-{
-"url": "https://aviation21.ru/rossijskie-vks-poluchili-novuyu-partiyu-samolyotov-su-57",
-"published_at": "2026-11-19T11:50:28Z",
-"quote": "Российские ВКС получили новую партию самолётов Су-57"
-},
-{
-"url": "https://bastion-karpenko.ru/%d0%be%d0%b0%d0%ba-%d0%bf%d0%b5%d1%80%d0%b5%d0%b4%d0%b0%d0%bb%d0%b0-%d0%b2-%d0%b2%d0%be%d0%b9%d1%81%d0%ba%d0%b0-%d0%be%d1%87%d0%b5%d1%80%d0%b5%d0%b4%d0%bd%d1%83%d1%8e-%d0%bf%d0%b0%d1%80%d1%82%d0%b8",
-"published_at": "2026-11-19T07:48:40Z",
-"quote": "ОАК ПЕРЕДАЛА В ВОЙСКА ОЧЕРЕДНУЮ ПАРТИЮ МОДЕРНИЗИРОВАННЫХ САМОЛЕТОВ СУ-57 Объединенная авиастроительная корпорация (входит в Госкорпорацию Ростех) передала ВКС России партию новых многофункциональных истребителей Су-57."
-}
-],
-"sentiment": {
-"score_pm1": 0.4,
-"score_pm2": 1,
-"label": "умеренно позитивный"
 }
 },
 {
@@ -1440,6 +1440,46 @@
 }
 },
 {
+"id": "rel_6ec6a8a5e30a4937",
+"from": "ent_82d695889d3fa2fa",
+"to": "ent_59965f590d8fcc04",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 6,
+"evidence": [
+{
+"url": "https://vpk.name/news/1174055_vks_rossii_postavlena_tretya_v_2026_godu_partiya_frontovyh_bombardirovshikov_su-34.html",
+"published_at": "2026-11-23T21:00:01Z",
+"quote": "ВКС России поставлена третья в 2026 году партия фронтовых бомбардировщиков Су-34"
+},
+{
+"url": "https://bmpd.livejournal.com/5015379.html",
+"published_at": "2026-11-22T19:19:33Z",
+"quote": "ВКС России поставлена третья в 2026 году партия фронтовых бомбардировщиков Су-34"
+},
+{
+"url": "https://topwar.ru/293888-shvecija-i-britanija-postavjat-ukraine-rakety-meteor-dlja-borby-s-su-34-vks-rf.html",
+"published_at": "2026-11-20T14:45:45Z",
+"quote": "Швеция и Британия поставят Украине ракеты Meteor для борьбы с Су-34 ВКС РФ"
+},
+{
+"url": "https://topwar.ru/293684-novye-su-34-otpravilis-k-mestu-sluzhby-oak-peredala-vks-ocherednuju-partiju.html",
+"published_at": "2026-11-17T07:57:19Z",
+"quote": "Новые Су-34 отправились к месту службы: ОАК передала ВКС очередную партию"
+},
+{
+"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
+"published_at": "2026-11-17T06:20:16Z",
+"quote": "Новую партию Су-34 передали ВКС России после заводских испытаний"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_5e9b6cae48511d8b",
 "from": "ent_c9797c9635450715",
 "to": "ent_b677547c4bb180c5",
@@ -2120,46 +2160,6 @@
 }
 },
 {
-"id": "rel_6ec6a8a5e30a4937",
-"from": "ent_82d695889d3fa2fa",
-"to": "ent_59965f590d8fcc04",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 5,
-"evidence": [
-{
-"url": "https://bmpd.livejournal.com/5015379.html",
-"published_at": "2026-11-22T19:19:33Z",
-"quote": "ВКС России поставлена третья в 2026 году партия фронтовых бомбардировщиков Су-34"
-},
-{
-"url": "https://topwar.ru/293888-shvecija-i-britanija-postavjat-ukraine-rakety-meteor-dlja-borby-s-su-34-vks-rf.html",
-"published_at": "2026-11-20T14:45:45Z",
-"quote": "Швеция и Британия поставят Украине ракеты Meteor для борьбы с Су-34 ВКС РФ"
-},
-{
-"url": "https://topwar.ru/293684-novye-su-34-otpravilis-k-mestu-sluzhby-oak-peredala-vks-ocherednuju-partiju.html",
-"published_at": "2026-11-17T07:57:19Z",
-"quote": "Новые Су-34 отправились к месту службы: ОАК передала ВКС очередную партию"
-},
-{
-"url": "https://tvzvezda.ru/news/20261117910-a0yJI.html",
-"published_at": "2026-11-17T06:20:16Z",
-"quote": "Новую партию Су-34 передали ВКС России после заводских испытаний"
-},
-{
-"url": "https://bmpd.livejournal.com/5012123.html",
-"published_at": "2026-10-09T22:00:27Z",
-"quote": "ВКС России поставлена вторая в 2026 году партия фронтовых бомбардировщиков Су-34"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_ed70178a7bef62e3",
 "from": "ent_f2dcf230404a0bff",
 "to": "ent_76aae9f116d88191",
@@ -2437,6 +2437,46 @@
 "score_pm1": -0.3,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_d04639240995a216",
+"from": "ent_b89569b4c89018bb",
+"to": "ent_461f895cd3ecdc32",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 5,
+"evidence": [
+{
+"url": "https://vpk.name/news/1174163_vs_germanii_proveli_pervye_ispytaniya_dronov-kamikadze_na_ucheniyah_v_litve.html",
+"published_at": "2026-11-23T21:00:01Z",
+"quote": "Вооруженные силы Германии (Бундесвер) впервые провели испытания дронов-камикадзе производства немецких компаний Helsing и Stark в рамках учений в Литве, передает \"РИА Новости\" со ссылкой на агентство Рейтер."
+},
+{
+"url": "https://eadaily.com/ru/news/2026/11/23/vs-germanii-proveli-pervye-ispytaniya-dronov-kamikadze-na-ucheniyah-v-litve",
+"published_at": "2026-11-23T03:30:00Z",
+"quote": "Фото: John MacDougall / AFP Вооруженные силы Германии (Бундесвер) впервые провели испытания дронов-камикадзе немецких военных предприятий Helsing и Stark в рамках учений в Литве, передает агентство Reuters."
+},
+{
+"url": "https://cyprus-mail.com/2026/11/22/german-army-starts-testing-kamikaze-drones-and-ai-targeting-tool-in-lithuania",
+"published_at": "2026-11-22T14:50:32Z",
+"quote": "Days earlier, German troops at Rudninkai ran their first tests of Helsing’s targeting software Clarity, an AI-based tool that can sift through large volumes of data supplied by satellites, drones and other sensors faster than any human, ana"
+},
+{
+"url": "https://israeldefense.co.il/en/node/73090",
+"published_at": "2026-11-22T00:00:00Z",
+"quote": "sharing Germany Successfully Tests Two Types of Loitering Munitions STARK's VIRTUS and Helsing's HX-2 systems destroyed target tanks in Meppen ahead of operational readiness certification and planned delivery to Lithuania next year."
+},
+{
+"url": "https://t.me/FPV_vyZOV/5136",
+"published_at": "2026-03-12T19:53:57Z",
+"quote": "В феврале 2025 Helsing объявила о поставке 6000 дронов HX-2, для Украины и о работе первого «Resilience Factory» в южной Германии; его начальная мощность была заявлена, как более 1000 дронов HX-2 в…"
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -2940,6 +2980,41 @@
 }
 },
 {
+"id": "rel_72ffa192f848e759",
+"from": "ent_7af60e51312772aa",
+"to": "ent_461f895cd3ecdc32",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://vpk.name/news/1174163_vs_germanii_proveli_pervye_ispytaniya_dronov-kamikadze_na_ucheniyah_v_litve.html",
+"published_at": "2026-11-23T21:00:01Z",
+"quote": "Вооруженные силы Германии (Бундесвер) впервые провели испытания дронов-камикадзе производства немецких компаний Helsing и Stark в рамках учений в Литве, передает \"РИА Новости\" со ссылкой на агентство Рейтер."
+},
+{
+"url": "https://israeldefense.co.il/en/node/73000",
+"published_at": "2026-11-19T00:00:00Z",
+"quote": "IsraelDefense has learned that Elbit Systems, operating through its subsidiary Elbit Systems Deutschland, has been selected to supply the German Armed Forces (Bundeswehr) with passive location systems designed to identify the origin of arti"
+},
+{
+"url": "https://t.me/uav_tech/36887",
+"published_at": "2026-08-15T09:13:01Z",
+"quote": "Отметим, что в апреле этого года Rheinmetall заключила с Бундесвером рамочное соглашение на поставку около 2."
+},
+{
+"url": "https://t.me/uav_tech/36107",
+"published_at": "2026-05-05T11:18:58Z",
+"quote": "Подписан контракт между Бундесвером и Rheinmetall на поставку FV-014 22 апреля командование Бундесвера активировало соглашение с концерном Rheinmetall, предусматривающее серийное производство и передачу войскам барражирующих боеприпасов FV-"
+}
+],
+"sentiment": {
+"score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
 "id": "rel_2bcc88cf443447c9",
 "from": "ent_f7a9f659b73e4140",
 "to": "ent_76aae9f116d88191",
@@ -3115,22 +3190,22 @@
 }
 },
 {
-"id": "rel_d04639240995a216",
+"id": "rel_8e3a989d6c0f5241",
 "from": "ent_b89569b4c89018bb",
-"to": "ent_461f895cd3ecdc32",
+"to": "ent_9e51a7ee6340af7b",
 "type": "поставка",
 "event_date": null,
 "evidence_count": 4,
 "evidence": [
 {
+"url": "https://vpk.name/news/1174163_vs_germanii_proveli_pervye_ispytaniya_dronov-kamikadze_na_ucheniyah_v_litve.html",
+"published_at": "2026-11-23T21:00:01Z",
+"quote": "Вооруженные силы Германии (Бундесвер) впервые провели испытания дронов-камикадзе производства немецких компаний Helsing и Stark в рамках учений в Литве, передает \"РИА Новости\" со ссылкой на агентство Рейтер."
+},
+{
 "url": "https://eadaily.com/ru/news/2026/11/23/vs-germanii-proveli-pervye-ispytaniya-dronov-kamikadze-na-ucheniyah-v-litve",
 "published_at": "2026-11-23T03:30:00Z",
 "quote": "Фото: John MacDougall / AFP Вооруженные силы Германии (Бундесвер) впервые провели испытания дронов-камикадзе немецких военных предприятий Helsing и Stark в рамках учений в Литве, передает агентство Reuters."
-},
-{
-"url": "https://cyprus-mail.com/2026/11/22/german-army-starts-testing-kamikaze-drones-and-ai-targeting-tool-in-lithuania",
-"published_at": "2026-11-22T14:50:32Z",
-"quote": "Days earlier, German troops at Rudninkai ran their first tests of Helsing’s targeting software Clarity, an AI-based tool that can sift through large volumes of data supplied by satellites, drones and other sensors faster than any human, ana"
 },
 {
 "url": "https://israeldefense.co.il/en/node/73090",
@@ -3138,9 +3213,9 @@
 "quote": "sharing Germany Successfully Tests Two Types of Loitering Munitions STARK's VIRTUS and Helsing's HX-2 systems destroyed target tanks in Meppen ahead of operational readiness certification and planned delivery to Lithuania next year."
 },
 {
-"url": "https://t.me/FPV_vyZOV/5136",
-"published_at": "2026-03-12T19:53:57Z",
-"quote": "В феврале 2025 Helsing объявила о поставке 6000 дронов HX-2, для Украины и о работе первого «Resilience Factory» в южной Германии; его начальная мощность была заявлена, как более 1000 дронов HX-2 в…"
+"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
+"published_at": "2026-11-16T18:00:00Z",
+"quote": "Helsing said it could supply an initial version of its Clarity software within a matter of months to the German military’s Lithuania brigade, widely viewed as the Bundeswehr unit most likely to see frontline combat in the event of a conflic"
 }
 ],
 "sentiment": {
@@ -3830,36 +3905,6 @@
 }
 },
 {
-"id": "rel_72ffa192f848e759",
-"from": "ent_7af60e51312772aa",
-"to": "ent_461f895cd3ecdc32",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://israeldefense.co.il/en/node/73000",
-"published_at": "2026-11-19T00:00:00Z",
-"quote": "IsraelDefense has learned that Elbit Systems, operating through its subsidiary Elbit Systems Deutschland, has been selected to supply the German Armed Forces (Bundeswehr) with passive location systems designed to identify the origin of arti"
-},
-{
-"url": "https://t.me/uav_tech/36887",
-"published_at": "2026-08-15T09:13:01Z",
-"quote": "Отметим, что в апреле этого года Rheinmetall заключила с Бундесвером рамочное соглашение на поставку около 2."
-},
-{
-"url": "https://t.me/uav_tech/36107",
-"published_at": "2026-05-05T11:18:58Z",
-"quote": "Подписан контракт между Бундесвером и Rheinmetall на поставку FV-014 22 апреля командование Бундесвера активировало соглашение с концерном Rheinmetall, предусматривающее серийное производство и передачу войскам барражирующих боеприпасов FV-"
-}
-],
-"sentiment": {
-"score_pm1": 0.3,
-"score_pm2": 1,
-"label": "умеренно позитивный"
-}
-},
-{
 "id": "rel_2ec954c0ab6a224a",
 "from": "ent_cd3c86a3a1af0b40",
 "to": "ent_76aae9f116d88191",
@@ -4310,22 +4355,22 @@
 }
 },
 {
-"id": "rel_8e3a989d6c0f5241",
-"from": "ent_b89569b4c89018bb",
+"id": "rel_fd502ed279b6c82b",
+"from": "ent_7af60e51312772aa",
 "to": "ent_9e51a7ee6340af7b",
 "type": "поставка",
 "event_date": null,
 "evidence_count": 3,
 "evidence": [
 {
-"url": "https://eadaily.com/ru/news/2026/11/23/vs-germanii-proveli-pervye-ispytaniya-dronov-kamikadze-na-ucheniyah-v-litve",
-"published_at": "2026-11-23T03:30:00Z",
-"quote": "Фото: John MacDougall / AFP Вооруженные силы Германии (Бундесвер) впервые провели испытания дронов-камикадзе немецких военных предприятий Helsing и Stark в рамках учений в Литве, передает агентство Reuters."
+"url": "https://vpk.name/news/1174163_vs_germanii_proveli_pervye_ispytaniya_dronov-kamikadze_na_ucheniyah_v_litve.html",
+"published_at": "2026-11-23T21:00:01Z",
+"quote": "Вооруженные силы Германии (Бундесвер) впервые провели испытания дронов-камикадзе производства немецких компаний Helsing и Stark в рамках учений в Литве, передает \"РИА Новости\" со ссылкой на агентство Рейтер."
 },
 {
 "url": "https://israeldefense.co.il/en/node/73090",
 "published_at": "2026-11-22T00:00:00Z",
-"quote": "sharing Germany Successfully Tests Two Types of Loitering Munitions STARK's VIRTUS and Helsing's HX-2 systems destroyed target tanks in Meppen ahead of operational readiness certification and planned delivery to Lithuania next year."
+"quote": "The German military procurement office told Defense News that operational readiness certification procedures for the systems have not yet concluded, while the Bundeswehr is simultaneously preparing to supply them to Lithuania next year as p"
 },
 {
 "url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
@@ -4334,7 +4379,7 @@
 }
 ],
 "sentiment": {
-"score_pm1": 0.1,
+"score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -4577,6 +4622,66 @@
 "score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
+}
+},
+{
+"id": "rel_2e5d29f75e770574",
+"from": "ent_0e439444e0d24c40",
+"to": "ent_461f895cd3ecdc32",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://vpk.name/news/1174163_vs_germanii_proveli_pervye_ispytaniya_dronov-kamikadze_na_ucheniyah_v_litve.html",
+"published_at": "2026-11-23T21:00:01Z",
+"quote": "Вооруженные силы Германии (Бундесвер) впервые провели испытания дронов-камикадзе производства немецких компаний Helsing и Stark в рамках учений в Литве, передает \"РИА Новости\" со ссылкой на агентство Рейтер."
+},
+{
+"url": "https://eadaily.com/ru/news/2026/11/23/vs-germanii-proveli-pervye-ispytaniya-dronov-kamikadze-na-ucheniyah-v-litve",
+"published_at": "2026-11-23T03:30:00Z",
+"quote": "Фото: John MacDougall / AFP Вооруженные силы Германии (Бундесвер) впервые провели испытания дронов-камикадзе немецких военных предприятий Helsing и Stark в рамках учений в Литве, передает агентство Reuters."
+},
+{
+"url": "https://israeldefense.co.il/en/node/73090",
+"published_at": "2026-11-22T00:00:00Z",
+"quote": "sharing Germany Successfully Tests Two Types of Loitering Munitions STARK's VIRTUS and Helsing's HX-2 systems destroyed target tanks in Meppen ahead of operational readiness certification and planned delivery to Lithuania next year."
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_6776d9752a33a7d6",
+"from": "ent_0e439444e0d24c40",
+"to": "ent_9e51a7ee6340af7b",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://vpk.name/news/1174163_vs_germanii_proveli_pervye_ispytaniya_dronov-kamikadze_na_ucheniyah_v_litve.html",
+"published_at": "2026-11-23T21:00:01Z",
+"quote": "Вооруженные силы Германии (Бундесвер) впервые провели испытания дронов-камикадзе производства немецких компаний Helsing и Stark в рамках учений в Литве, передает \"РИА Новости\" со ссылкой на агентство Рейтер."
+},
+{
+"url": "https://eadaily.com/ru/news/2026/11/23/vs-germanii-proveli-pervye-ispytaniya-dronov-kamikadze-na-ucheniyah-v-litve",
+"published_at": "2026-11-23T03:30:00Z",
+"quote": "Фото: John MacDougall / AFP Вооруженные силы Германии (Бундесвер) впервые провели испытания дронов-камикадзе немецких военных предприятий Helsing и Stark в рамках учений в Литве, передает агентство Reuters."
+},
+{
+"url": "https://israeldefense.co.il/en/node/73090",
+"published_at": "2026-11-22T00:00:00Z",
+"quote": "sharing Germany Successfully Tests Two Types of Loitering Munitions STARK's VIRTUS and Helsing's HX-2 systems destroyed target tanks in Meppen ahead of operational readiness certification and planned delivery to Lithuania next year."
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
 }
 },
 {
@@ -5602,6 +5707,31 @@
 "score_pm1": 0.1,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_12709ebbc2b847e2",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_470885ea93d65177",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/23/us-drone-makers-metric-screw-gap-accu-indianapolis",
+"published_at": "2026-11-23T20:49:00Z",
+"quote": "The Pentagon’s <strong>Drone Dominance Program</strong> had received 13,440 of the 22,320 drones in its first base orders by August 25, about 60%, and three of the 11 winning companies had delivered in full."
+},
+{
+"url": "https://dronexl.co/2026/11/12/army-attack-drones-replace-not-repair-strzelec",
+"published_at": "2026-11-13T01:01:00Z",
+"quote": "The Pentagon’s Drone Dominance Program placed its first base orders, 22,320 drones, in March, with the last of them due within four and a half months."
+}
+],
+"sentiment": {
+"score_pm1": 0.4,
+"score_pm2": 1,
+"label": "умеренно позитивный"
 }
 },
 {
@@ -6980,17 +7110,17 @@
 }
 },
 {
-"id": "rel_fd502ed279b6c82b",
-"from": "ent_7af60e51312772aa",
-"to": "ent_9e51a7ee6340af7b",
+"id": "rel_6efc067612db71eb",
+"from": "ent_b89569b4c89018bb",
+"to": "ent_7af60e51312772aa",
 "type": "поставка",
 "event_date": null,
 "evidence_count": 2,
 "evidence": [
 {
-"url": "https://israeldefense.co.il/en/node/73090",
-"published_at": "2026-11-22T00:00:00Z",
-"quote": "The German military procurement office told Defense News that operational readiness certification procedures for the systems have not yet concluded, while the Bundeswehr is simultaneously preparing to supply them to Lithuania next year as p"
+"url": "https://vpk.name/news/1174163_vs_germanii_proveli_pervye_ispytaniya_dronov-kamikadze_na_ucheniyah_v_litve.html",
+"published_at": "2026-11-23T21:00:01Z",
+"quote": "Вооруженные силы Германии (Бундесвер) впервые провели испытания дронов-камикадзе производства немецких компаний Helsing и Stark в рамках учений в Литве, передает \"РИА Новости\" со ссылкой на агентство Рейтер."
 },
 {
 "url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
@@ -8255,6 +8385,31 @@
 }
 },
 {
+"id": "rel_ea0696b45b04b87e",
+"from": "ent_7bc34647511f8698",
+"to": "ent_e64fc102fc360199",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/23/skyrover-v1-607-amazon-black-friday-under-dji-mini-5-pro",
+"published_at": "2026-11-23T21:25:00Z",
+"quote": "co/2026/11/19/skyrover-v1-759-dustin-dunnill-tracking-test-tree/\">Four days ago we reported</a> that Skyrover had priced the V1 at exactly what DJI lists the Mini 5 Pro for."
+},
+{
+"url": "https://dronexl.co/2026/11/19/skyrover-v1-759-dustin-dunnill-tracking-test-tree",
+"published_at": "2026-11-19T17:47:00Z",
+"quote": "At $759 it costs what DJI lists the Mini 5 Pro at, and Dunnill’s test shows a drone that tracks from one direction and crops its vertical video."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_f4a974366cae1b3a",
 "from": "ent_f604e339566c57c9",
 "to": "ent_0dd93c1cbb5c85fa",
@@ -8550,56 +8705,6 @@
 ],
 "sentiment": {
 "score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_2e5d29f75e770574",
-"from": "ent_0e439444e0d24c40",
-"to": "ent_461f895cd3ecdc32",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://eadaily.com/ru/news/2026/11/23/vs-germanii-proveli-pervye-ispytaniya-dronov-kamikadze-na-ucheniyah-v-litve",
-"published_at": "2026-11-23T03:30:00Z",
-"quote": "Фото: John MacDougall / AFP Вооруженные силы Германии (Бундесвер) впервые провели испытания дронов-камикадзе немецких военных предприятий Helsing и Stark в рамках учений в Литве, передает агентство Reuters."
-},
-{
-"url": "https://israeldefense.co.il/en/node/73090",
-"published_at": "2026-11-22T00:00:00Z",
-"quote": "sharing Germany Successfully Tests Two Types of Loitering Munitions STARK's VIRTUS and Helsing's HX-2 systems destroyed target tanks in Meppen ahead of operational readiness certification and planned delivery to Lithuania next year."
-}
-],
-"sentiment": {
-"score_pm1": 0.1,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_6776d9752a33a7d6",
-"from": "ent_0e439444e0d24c40",
-"to": "ent_9e51a7ee6340af7b",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://eadaily.com/ru/news/2026/11/23/vs-germanii-proveli-pervye-ispytaniya-dronov-kamikadze-na-ucheniyah-v-litve",
-"published_at": "2026-11-23T03:30:00Z",
-"quote": "Фото: John MacDougall / AFP Вооруженные силы Германии (Бундесвер) впервые провели испытания дронов-камикадзе немецких военных предприятий Helsing и Stark в рамках учений в Литве, передает агентство Reuters."
-},
-{
-"url": "https://israeldefense.co.il/en/node/73090",
-"published_at": "2026-11-22T00:00:00Z",
-"quote": "sharing Germany Successfully Tests Two Types of Loitering Munitions STARK's VIRTUS and Helsing's HX-2 systems destroyed target tanks in Meppen ahead of operational readiness certification and planned delivery to Lithuania next year."
-}
-],
-"sentiment": {
-"score_pm1": 0.1,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -14056,26 +14161,6 @@
 "url": "https://dronexl.co/2026/11/12/army-attack-drones-replace-not-repair-strzelec",
 "published_at": "2026-11-13T01:01:00Z",
 "quote": "In the same Breaking Defense report, Performance Drone Works CEO James Slider said he needed a year of steady orders, which DroneXL <a href=\"https://dronexl."
-}
-],
-"sentiment": {
-"score_pm1": 0.3,
-"score_pm2": 1,
-"label": "умеренно позитивный"
-}
-},
-{
-"id": "rel_12709ebbc2b847e2",
-"from": "ent_b0bba4c8f275ffd0",
-"to": "ent_470885ea93d65177",
-"type": "контракт",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://dronexl.co/2026/11/12/army-attack-drones-replace-not-repair-strzelec",
-"published_at": "2026-11-13T01:01:00Z",
-"quote": "The Pentagon’s Drone Dominance Program placed its first base orders, 22,320 drones, in March, with the last of them due within four and a half months."
 }
 ],
 "sentiment": {
@@ -23105,26 +23190,6 @@
 }
 },
 {
-"id": "rel_6efc067612db71eb",
-"from": "ent_b89569b4c89018bb",
-"to": "ent_7af60e51312772aa",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://militarytimes.com/industry/techwatch/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence",
-"published_at": "2026-11-16T18:00:00Z",
-"quote": "Helsing said it could supply an initial version of its Clarity software within a matter of months to the German military’s Lithuania brigade, widely viewed as the Bundeswehr unit most likely to see frontline combat in the event of a conflic"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_efaf27605f6b77f6",
 "from": "ent_b89569b4c89018bb",
 "to": "ent_28fea1c77915c37a",
@@ -30145,26 +30210,6 @@
 }
 },
 {
-"id": "rel_ea0696b45b04b87e",
-"from": "ent_7bc34647511f8698",
-"to": "ent_e64fc102fc360199",
-"type": "испытание",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://dronexl.co/2026/11/19/skyrover-v1-759-dustin-dunnill-tracking-test-tree",
-"published_at": "2026-11-19T17:47:00Z",
-"quote": "At $759 it costs what DJI lists the Mini 5 Pro at, and Dunnill’s test shows a drone that tracks from one direction and crops its vertical video."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_7fb7a9fb841a5a5a",
 "from": "ent_92116e54a09caabc",
 "to": "ent_6db9790c0b5ee6ca",
@@ -34456,6 +34501,206 @@
 "url": "https://t.me/newsby_btrc/210342",
 "published_at": "2026-11-23T19:08:01Z",
 "quote": "Госкомвоенпром передал Военно-медицинскому управлению Минобороны Беларуси серийные комплексы разработки ОАО «ВОЛАТАВТО»."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_f24178d1bf878183",
+"from": "ent_15f8eb5484169610",
+"to": "ent_fa323d4f8a738909",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://militarytimes.com/news/your-military/2026/11/23/trump-reluctantly-orders-army-to-pause-detonation-of-unstable-ammunition",
+"published_at": "2026-11-23T21:26:45Z",
+"quote": "President Donald Trump on Monday said he is putting a pause on the U."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_1d6122e79f094f1b",
+"from": "ent_72167ac7999f6b9e",
+"to": "ent_59965f590d8fcc04",
+"type": "поставка",
+"event_date": "2026-11-17",
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1174055_vks_rossii_postavlena_tretya_v_2026_godu_partiya_frontovyh_bombardirovshikov_su-34.html",
+"published_at": "2026-11-23T21:00:01Z",
+"quote": "ПАО \"Объединенная авиастроительная корпорация\" (ПАО \"ОАК\", входит в Госкорпорацию Ростех) 17 ноября 2026 года сообщило, что в рамках гособоронзаказа изготовило и передало Министерству обороны Российской Федерации партию истребителей-бомбард"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_754d257d1981252f",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_461f895cd3ecdc32",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1174135_niderlandskii_proizvoditel_dronov_dlya_vsu_poluchil_mnogomillionnye_transhi_ot_stran_es.html",
+"published_at": "2026-11-23T21:00:01Z",
+"quote": "Нидерландская оборонная компания Destinus, которая поставляет ВСУ дроны, привлекает многомиллионное финансирование из разных европейских источников, включая Нидерланды, Германию и Испанию."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_1c23f713b9064b1c",
+"from": "ent_0e439444e0d24c40",
+"to": "ent_7af60e51312772aa",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1174163_vs_germanii_proveli_pervye_ispytaniya_dronov-kamikadze_na_ucheniyah_v_litve.html",
+"published_at": "2026-11-23T21:00:01Z",
+"quote": "Вооруженные силы Германии (Бундесвер) впервые провели испытания дронов-камикадзе производства немецких компаний Helsing и Stark в рамках учений в Литве, передает \"РИА Новости\" со ссылкой на агентство Рейтер."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_dc74dfe1a9539688",
+"from": "ent_76aae9f116d88191",
+"to": "ent_ff94773595f94176",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1174169_franciya_i_ukraina_perehodyat_k_sovmestnomu_proizvodstvu_zrk_sampt_ng.html",
+"published_at": "2026-11-23T21:00:01Z",
+"quote": "Франция и Украина переходят к совместному производству ЗРК SAMP/T NG"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_490061b548cbacd3",
+"from": "ent_a6df7175414b7cd4",
+"to": "ent_ff94773595f94176",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://vpk.name/news/1174169_franciya_i_ukraina_perehodyat_k_sovmestnomu_proizvodstvu_zrk_sampt_ng.html",
+"published_at": "2026-11-23T21:00:01Z",
+"quote": "Франция и Украина переходят к совместному производству ЗРК SAMP/T NG"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_c36db4cb73ea6294",
+"from": "ent_1a0171731ce31d56",
+"to": "ent_9fd39938cc6ffa53",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://flight.com.gr/royal-netherlands-air-space-force-selects-thales-to-modernise-military-air-traffic-control-radar-systems/?utm_source=rss&utm_medium=rss&utm_campaign=royal-netherlands-air-space-force-selects-thales-to-modernise-military-air-traffic-control-radar-systems",
+"published_at": "2026-11-23T23:00:00Z",
+"quote": "” Eric Huber, Vice-President Surface Radars, Thales."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_777c4145477a67b4",
+"from": "ent_7bc34647511f8698",
+"to": "ent_b0bba4c8f275ffd0",
+"type": "судебный спор",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/23/dji-pla-drone-swarms-house-china-committee-report-no-source",
+"published_at": "2026-11-23T23:07:00Z",
+"quote": "</p> <h2 id=\"a-federal-appeals-court-found-no-public-rationale-for-a-similar-claim\">A Federal Appeals Court Found No Public Rationale for a Similar Claim</h2> <p>The Pentagon made a related claim about DJI, and on August 14 the D."
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_156f8f6d2ff399cf",
+"from": "ent_7bc34647511f8698",
+"to": "ent_b0bba4c8f275ffd0",
+"type": "принадлежность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/23/dji-pla-drone-swarms-house-china-committee-report-no-source",
+"published_at": "2026-11-23T23:07:00Z",
+"quote": "co/2026/08/15/dji-dc-circuit-pentagon-blacklist-redacted-evidence/\">reversed part of DJI’s loss</a> and returned the case to District Judge Paul Friedman, who may read the classified record in private."
+}
+],
+"sentiment": {
+"score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_c9f9fc4d840d4277",
+"from": "ent_94063c49b28150b6",
+"to": "ent_d20b5942afb9c7ab",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73140",
+"published_at": "2026-11-23T00:00:00Z",
+"quote": "In an interview with Breaking Defense, CACI International CEO Jason Bayles explained that the platform constitutes a comprehensive, multilayered defense system."
 }
 ],
 "sentiment": {
