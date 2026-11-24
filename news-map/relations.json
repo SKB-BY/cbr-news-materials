@@ -5,8 +5,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 388,
+"evidence_count": 389,
 "evidence": [
+{
+"url": "https://topwar.ru/294135-sovmestnaja-ukrainsko-norvezhskaja-razrabotka-vsu-nachali-primenjat-zrk-desna.html",
+"published_at": "2026-11-24T18:43:01Z",
+"quote": "Совместная украинско-норвежская разработка: ВСУ начали применять ЗРК «Десна»"
+},
 {
 "url": "https://tvzvezda.ru/news/20261124175-GNFw1.html",
 "published_at": "2026-11-24T15:28:16Z",
@@ -26,11 +31,6 @@
 "url": "https://rg.ru/2026/11/24/reg-dnr/boec-rf-sbil-dron-vsu-kaskoj-pri-osvobozhdenii-shilovki-v-dnr.html",
 "published_at": "2026-11-24T11:56:03Z",
 "quote": "Боец РФ сбил дрон ВСУ каской при освобождении Шиловки в ДНР"
-},
-{
-"url": "https://newsit.gr/kosmos/oukrania-aneleito-sfyrokopima-sti-rosia-me-pano-apo-700-drones-rymoulkithike-stin-agia-petroupoli-to-sparta-ii/4830333",
-"published_at": "2026-11-24T10:28:33Z",
-"quote": "Together with the Commander-in-Chief of the Armed Forces of Ukraine, we updated the needs for protecting Zaporizhzhia against Russian strikes."
 }
 ],
 "sentiment": {
@@ -165,8 +165,13 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 37,
+"evidence_count": 38,
 "evidence": [
+{
+"url": "https://focus.ua/voennye-novosti/775887-udary-po-korablyam-rf-kak-sem-morskih-dronov-potopili-korvet-merkuriy",
+"published_at": "2026-11-24T15:18:53Z",
+"quote": "2026 в 17:18 57 Корвет \"Меркурий\" ВС РФ подвергся обстрелу 22 ноября (иллюстративное фото) | Фото: Вікіпедія Украина потопила ещё три корабля РФ в Средиземном море перед ударом по корвету \"Меркурий\"."
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28347699",
 "published_at": "2026-11-24T02:02:26Z",
@@ -186,11 +191,6 @@
 "url": "https://tass.ru/armiya-i-opk/28344603",
 "published_at": "2026-11-23T05:11:05Z",
 "quote": "Марочко: силы ПВО в двух областях Украины ослабли на фоне ударов ВС РФ"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28344477",
-"published_at": "2026-11-23T04:00:57Z",
-"quote": "Офицер Леон: ВС РФ поразили около семи пунктов управления и складов БПЛА ВСУ"
 }
 ],
 "sentiment": {
@@ -605,7 +605,7 @@
 "to": "ent_b677547c4bb180c5",
 "type": "поставка",
 "event_date": null,
-"evidence_count": 10,
+"evidence_count": 11,
 "evidence": [
 {
 "url": "https://defence24.com/defence-policy/a-new-source-of-f-16s-for-ukraine-europe-negotiates-with-the-pentagon",
@@ -623,12 +623,12 @@
 "quote": "Уже должны были поступить ВСУ: Пентагон задерживает передачу Украине около 60 ракет для систем Patriot"
 },
 {
-"url": "https://defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
-"published_at": "2026-11-19T13:21:10Z",
-"quote": "KYIV, Ukraine — Ukraine plans to double its drone supplies and more than triple its long-range strike capabilities next year, according to Ukraine’s defense minister, as Kyiv presses ahead with its long-range strike campaign despite the Pen"
+"url": "https://israeldefense.co.il/en/node/73208",
+"published_at": "2026-11-24T00:00:00Z",
+"quote": "sharing Ukraine Plans to Double Drone Supplies and Triple Deep Strikes Kyiv pushes ahead with long-range strike capabilities despite Pentagon criticism, backed by security assistance packages from the UK, Germany, and Norway."
 },
 {
-"url": "https://militarytimes.com/news/pentagon-congress/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
+"url": "https://defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
 "published_at": "2026-11-19T13:21:10Z",
 "quote": "KYIV, Ukraine — Ukraine plans to double its drone supplies and more than triple its long-range strike capabilities next year, according to Ukraine’s defense minister, as Kyiv presses ahead with its long-range strike campaign despite the Pen"
 }
@@ -637,6 +637,86 @@
 "score_pm1": -0.1,
 "score_pm2": 0,
 "label": "нейтральный"
+}
+},
+{
+"id": "rel_6d86617406752333",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 10,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73208",
+"published_at": "2026-11-24T00:00:00Z",
+"quote": "Kyiv pushes ahead with long-range strike capabilities despite Pentagon criticism, backed by security assistance packages from the UK, Germany, and Norway."
+},
+{
+"url": "https://thinkdefence.co.uk/2026/11/week-in-defence-2026-w47",
+"published_at": "2026-11-21T09:00:00Z",
+"quote": "A Pentagon policy chief criticised Ukraine’s deep strikes inside Russia; the Defence Secretary, Wes Streeting, said they had helped degrade Putin’s war machine."
+},
+{
+"url": "https://defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
+"published_at": "2026-11-19T13:21:10Z",
+"quote": "(Bernd von Jutrczenka/picture alliance via Getty Images) “While the public conversation focuses on the spectacle of deep strikes designed to incur pain on the Russian population, our assessment is that such strikes have not been effective i"
+},
+{
+"url": "https://militarytimes.com/news/pentagon-congress/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
+"published_at": "2026-11-19T13:21:10Z",
+"quote": "(Bernd von Jutrczenka/picture alliance via Getty Images) “While the public conversation focuses on the spectacle of deep strikes designed to incur pain on the Russian population, our assessment is that such strikes have not been effective i"
+},
+{
+"url": "https://foxnews.com/politics/16-ecuadorian-fishermen-sue-us-government-allege-drone-attack-destroyed-boat-galapagos",
+"published_at": "2026-11-18T18:14:57Z",
+"quote": "com/politics/dem-senator-accuses-pentagon-murder-boat-strikes-targeting-drug-traffickers\" target=\"_blank\" rel=\"noopener noreferrer\">the Trump administration’s broader campaign</a> against vessels suspected of drug trafficking."
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_94a004dd432484e5",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 10,
+"evidence": [
+{
+"url": "https://defence24.com/defence-policy/french-rafale-fighters-land-on-a-finnish-road-nato-prepares-for-war-with-russia",
+"published_at": "2026-11-24T18:00:03Z",
+"quote": "France is increasing its military presence on NATO’s northern flank while preparing its aircraft to operate in conditions where conventional air bases could be targeted by Russian strikes."
+},
+{
+"url": "https://topwar.ru/293858-shest-stran-nato-podnjali-svoju-aviaciju-na-fone-udarov-rossii-po-ukraine.html",
+"published_at": "2026-11-20T06:31:45Z",
+"quote": "Шесть стран НАТО поднимали свою авиацию на фоне ударов России по Украине"
+},
+{
+"url": "https://rg.ru/2026/11/20/samolety-shesti-stran-nato-patrulirovali-chernoe-more-na-fone-udara-vs-rf-po-kievu.html",
+"published_at": "2026-11-20T05:58:17Z",
+"quote": "Самолеты шести стран НАТО патрулировали Черное море на фоне удара ВС РФ по Киеву"
+},
+{
+"url": "https://t.me/newsby_btrc/209899",
+"published_at": "2026-11-18T07:12:01Z",
+"quote": "В Пентагоне раскритиковали дальнобойные удары Украины по России Заместитель министра обороны США Элбридж Колби выступил на встрече союзников Киева в штаб-квартире НАТО в Брюсселе."
+},
+{
+"url": "https://belvpo.com/alaudinov-nato-napravlyaet-na-ukrainu-speczialistov-po-dronam",
+"published_at": "2026-11-18T04:46:19Z",
+"quote": "Страны НАТО отправляют в прифронтовые районы Украины специалистов для испытания новых дронов непосредственно на линии боевого соприкосновения, заявил РИА Новости заместитель начальника главного военно-политического управления ВС РФ, команди"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 },
 {
@@ -720,46 +800,6 @@
 }
 },
 {
-"id": "rel_6d86617406752333",
-"from": "ent_b0bba4c8f275ffd0",
-"to": "ent_b677547c4bb180c5",
-"type": "применение",
-"event_date": null,
-"evidence_count": 9,
-"evidence": [
-{
-"url": "https://thinkdefence.co.uk/2026/11/week-in-defence-2026-w47",
-"published_at": "2026-11-21T09:00:00Z",
-"quote": "A Pentagon policy chief criticised Ukraine’s deep strikes inside Russia; the Defence Secretary, Wes Streeting, said they had helped degrade Putin’s war machine."
-},
-{
-"url": "https://defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
-"published_at": "2026-11-19T13:21:10Z",
-"quote": "(Bernd von Jutrczenka/picture alliance via Getty Images) “While the public conversation focuses on the spectacle of deep strikes designed to incur pain on the Russian population, our assessment is that such strikes have not been effective i"
-},
-{
-"url": "https://militarytimes.com/news/pentagon-congress/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
-"published_at": "2026-11-19T13:21:10Z",
-"quote": "(Bernd von Jutrczenka/picture alliance via Getty Images) “While the public conversation focuses on the spectacle of deep strikes designed to incur pain on the Russian population, our assessment is that such strikes have not been effective i"
-},
-{
-"url": "https://foxnews.com/politics/16-ecuadorian-fishermen-sue-us-government-allege-drone-attack-destroyed-boat-galapagos",
-"published_at": "2026-11-18T18:14:57Z",
-"quote": "com/politics/dem-senator-accuses-pentagon-murder-boat-strikes-targeting-drug-traffickers\" target=\"_blank\" rel=\"noopener noreferrer\">the Trump administration’s broader campaign</a> against vessels suspected of drug trafficking."
-},
-{
-"url": "https://dronelife.com/2026/11/18/pentagon-counter-drone-laser-competition",
-"published_at": "2026-11-18T17:05:20Z",
-"quote": "The Pentagon has selected seven companies to demonstrate high-energy laser weapons designed to destroy hostile drones."
-}
-],
-"sentiment": {
-"score_pm1": -0.5,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_8c70b2130f458527",
 "from": "ent_82d695889d3fa2fa",
 "to": "ent_28fea1c77915c37a",
@@ -795,46 +835,6 @@
 ],
 "sentiment": {
 "score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_94a004dd432484e5",
-"from": "ent_cd3c86a3a1af0b40",
-"to": "ent_28fea1c77915c37a",
-"type": "применение",
-"event_date": null,
-"evidence_count": 9,
-"evidence": [
-{
-"url": "https://topwar.ru/293858-shest-stran-nato-podnjali-svoju-aviaciju-na-fone-udarov-rossii-po-ukraine.html",
-"published_at": "2026-11-20T06:31:45Z",
-"quote": "Шесть стран НАТО поднимали свою авиацию на фоне ударов России по Украине"
-},
-{
-"url": "https://rg.ru/2026/11/20/samolety-shesti-stran-nato-patrulirovali-chernoe-more-na-fone-udara-vs-rf-po-kievu.html",
-"published_at": "2026-11-20T05:58:17Z",
-"quote": "Самолеты шести стран НАТО патрулировали Черное море на фоне удара ВС РФ по Киеву"
-},
-{
-"url": "https://t.me/newsby_btrc/209899",
-"published_at": "2026-11-18T07:12:01Z",
-"quote": "В Пентагоне раскритиковали дальнобойные удары Украины по России Заместитель министра обороны США Элбридж Колби выступил на встрече союзников Киева в штаб-квартире НАТО в Брюсселе."
-},
-{
-"url": "https://belvpo.com/alaudinov-nato-napravlyaet-na-ukrainu-speczialistov-po-dronam",
-"published_at": "2026-11-18T04:46:19Z",
-"quote": "Страны НАТО отправляют в прифронтовые районы Украины специалистов для испытания новых дронов непосредственно на линии боевого соприкосновения, заявил РИА Новости заместитель начальника главного военно-политического управления ВС РФ, команди"
-},
-{
-"url": "https://kyivindependent.com/ukraine-war-latest-russia-launches-mass-attack-on-odesa-oblast-as-ukraine-strikes-airfield-drone-launch-site-in-russia",
-"published_at": "2026-11-15T18:02:19Z",
-"quote": "14-15 Ukraine strikes Russian military airfield in Astrakhan Oblast, drone launch site in Oryol Oblast, General Staff says Russia launches 'mass attack' on Odesa Oblast as strikes kill 4, injure 69 across Ukraine over past day US floats NAT"
-}
-],
-"sentiment": {
-"score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -1360,6 +1360,46 @@
 }
 },
 {
+"id": "rel_58fef7162b6e3a35",
+"from": "ent_a9338747cf31985c",
+"to": "ent_605d5251eb35436f",
+"type": "должность",
+"event_date": null,
+"evidence_count": 7,
+"evidence": [
+{
+"url": "https://dronexl.co/2026/11/24/germany-ukraine-delta-drone-software-us-army",
+"published_at": "2026-11-24T11:23:00Z",
+"quote": "webp\" alt=\"Ukrainian Defense Minister Yevhenii Khmara in dark camouflage shaking hands with German Defense Minister Boris Pistorius beside a Ukrainian flag at the German defense ministry\" /></p> <p>Germany will be the first country to get a"
+},
+{
+"url": "https://en.interfax.com.ua/news/general/1241317.html",
+"published_at": "2026-11-24T08:01:00Z",
+"quote": "Ukrainian Defense Minister Yevhenii Khmara and German Defense Minister Boris Pistorius signed an implementation agreement on a new joint defense production project in Berlin."
+},
+{
+"url": "https://israeldefense.co.il/en/node/73208",
+"published_at": "2026-11-24T00:00:00Z",
+"quote": "German Defense Minister Boris Pistorius firmly rejected this criticism, arguing that condemning justified strikes against military and strategic targets is foolish, and that Russian terror attacks on energy and water systems must be condemn"
+},
+{
+"url": "https://defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
+"published_at": "2026-11-19T13:21:10Z",
+"quote": "German Defense Minister Boris Pistorius responded in a press conference after the meeting, stating that faulting strikes on “strategic military and military use targets” in Russia is “quite a stupid thing, I think."
+},
+{
+"url": "https://militarytimes.com/news/pentagon-congress/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
+"published_at": "2026-11-19T13:21:10Z",
+"quote": "German Defense Minister Boris Pistorius responded in a press conference after the meeting, stating that faulting strikes on “strategic military and military use targets” in Russia is “quite a stupid thing, I think."
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_71810bfb904f7bed",
 "from": "ent_72167ac7999f6b9e",
 "to": "ent_59965f590d8fcc04",
@@ -1480,6 +1520,46 @@
 }
 },
 {
+"id": "rel_d906b879443ce7a0",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_28fea1c77915c37a",
+"type": "применение",
+"event_date": null,
+"evidence_count": 7,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73208",
+"published_at": "2026-11-24T00:00:00Z",
+"quote": "The Pentagon's policy chief, Elbridge Colby, said in his opening remarks to the meeting that while broader public discussion focuses on the spectacle of deep strikes aimed primarily at inflicting pain on the Russian population, the Pentagon"
+},
+{
+"url": "https://thinkdefence.co.uk/2026/11/week-in-defence-2026-w47",
+"published_at": "2026-11-21T09:00:00Z",
+"quote": "A Pentagon policy chief criticised Ukraine’s deep strikes inside Russia; the Defence Secretary, Wes Streeting, said they had helped degrade Putin’s war machine."
+},
+{
+"url": "https://defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
+"published_at": "2026-11-19T13:21:10Z",
+"quote": "(Bernd von Jutrczenka/picture alliance via Getty Images) “While the public conversation focuses on the spectacle of deep strikes designed to incur pain on the Russian population, our assessment is that such strikes have not been effective i"
+},
+{
+"url": "https://militarytimes.com/news/pentagon-congress/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
+"published_at": "2026-11-19T13:21:10Z",
+"quote": "(Bernd von Jutrczenka/picture alliance via Getty Images) “While the public conversation focuses on the spectacle of deep strikes designed to incur pain on the Russian population, our assessment is that such strikes have not been effective i"
+},
+{
+"url": "https://t.me/newsby_btrc/209899",
+"published_at": "2026-11-18T07:12:01Z",
+"quote": "В Пентагоне раскритиковали дальнобойные удары Украины по России"
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_4a8082603ee4132a",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_4596fd0f95231b61",
@@ -1555,46 +1635,6 @@
 ],
 "sentiment": {
 "score_pm1": 0.1,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_58fef7162b6e3a35",
-"from": "ent_a9338747cf31985c",
-"to": "ent_605d5251eb35436f",
-"type": "должность",
-"event_date": null,
-"evidence_count": 6,
-"evidence": [
-{
-"url": "https://dronexl.co/2026/11/24/germany-ukraine-delta-drone-software-us-army",
-"published_at": "2026-11-24T11:23:00Z",
-"quote": "webp\" alt=\"Ukrainian Defense Minister Yevhenii Khmara in dark camouflage shaking hands with German Defense Minister Boris Pistorius beside a Ukrainian flag at the German defense ministry\" /></p> <p>Germany will be the first country to get a"
-},
-{
-"url": "https://en.interfax.com.ua/news/general/1241317.html",
-"published_at": "2026-11-24T08:01:00Z",
-"quote": "Ukrainian Defense Minister Yevhenii Khmara and German Defense Minister Boris Pistorius signed an implementation agreement on a new joint defense production project in Berlin."
-},
-{
-"url": "https://defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
-"published_at": "2026-11-19T13:21:10Z",
-"quote": "German Defense Minister Boris Pistorius responded in a press conference after the meeting, stating that faulting strikes on “strategic military and military use targets” in Russia is “quite a stupid thing, I think."
-},
-{
-"url": "https://militarytimes.com/news/pentagon-congress/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
-"published_at": "2026-11-19T13:21:10Z",
-"quote": "German Defense Minister Boris Pistorius responded in a press conference after the meeting, stating that faulting strikes on “strategic military and military use targets” in Russia is “quite a stupid thing, I think."
-},
-{
-"url": "https://kyivpost.com/post/90370",
-"published_at": "2026-11-17T13:43:54Z",
-"quote": "Germany has pledged $300 million to buy US weaponry for Ukraine through NATO’s Prioritized Ukraine Requirements List (PURL), German Defense Minister Boris Pistorius said on Tuesday."
-}
-],
-"sentiment": {
-"score_pm1": -0.1,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -1951,46 +1991,6 @@
 "url": "https://unian.net/war/udar-po-krymskomu-mostu-proshel-bez-starlink-s-pomoshchyu-unikalnoy-sisteme-svyazi-the-times-13563102.html",
 "published_at": "2026-11-17T19:18:00Z",
 "quote": "Эта операция также доказала, что Украина больше не нуждается в сетях Starlink и Starshield Илона Маска для проведения ударных миссий, пишет The Times."
-}
-],
-"sentiment": {
-"score_pm1": -0.4,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_d906b879443ce7a0",
-"from": "ent_b0bba4c8f275ffd0",
-"to": "ent_28fea1c77915c37a",
-"type": "применение",
-"event_date": null,
-"evidence_count": 6,
-"evidence": [
-{
-"url": "https://thinkdefence.co.uk/2026/11/week-in-defence-2026-w47",
-"published_at": "2026-11-21T09:00:00Z",
-"quote": "A Pentagon policy chief criticised Ukraine’s deep strikes inside Russia; the Defence Secretary, Wes Streeting, said they had helped degrade Putin’s war machine."
-},
-{
-"url": "https://defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
-"published_at": "2026-11-19T13:21:10Z",
-"quote": "(Bernd von Jutrczenka/picture alliance via Getty Images) “While the public conversation focuses on the spectacle of deep strikes designed to incur pain on the Russian population, our assessment is that such strikes have not been effective i"
-},
-{
-"url": "https://militarytimes.com/news/pentagon-congress/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
-"published_at": "2026-11-19T13:21:10Z",
-"quote": "(Bernd von Jutrczenka/picture alliance via Getty Images) “While the public conversation focuses on the spectacle of deep strikes designed to incur pain on the Russian population, our assessment is that such strikes have not been effective i"
-},
-{
-"url": "https://t.me/newsby_btrc/209899",
-"published_at": "2026-11-18T07:12:01Z",
-"quote": "В Пентагоне раскритиковали дальнобойные удары Украины по России"
-},
-{
-"url": "https://belvpo.com/v-pentagone-vyskazalis-ob-udarah-vsu-vglub-rossii",
-"published_at": "2026-11-17T18:37:10Z",
-"quote": "В Пентагоне высказались об ударах ВСУ вглубь России"
 }
 ],
 "sentiment": {
@@ -2640,6 +2640,46 @@
 }
 },
 {
+"id": "rel_fa7f31fb329c3f5b",
+"from": "ent_fa323d4f8a738909",
+"to": "ent_b677547c4bb180c5",
+"type": "применение",
+"event_date": null,
+"evidence_count": 5,
+"evidence": [
+{
+"url": "https://twz.com/land/fireant-mini-uncrewed-ground-vehicles-deploy-drone-detection-sensors-in-u-s-army-test",
+"published_at": "2026-11-24T19:19:27Z",
+"quote": "A FireAnt uncrewed ground vehicle (UGV) was used to deploy small sensors capable of detecting hostile drones on the ground during a recent U."
+},
+{
+"url": "https://c4defence.com/en/r3negade-drone-attack",
+"published_at": "2026-11-24T14:41:44Z",
+"quote": "The demonstration also assessed how emerging unmanned systems could contribute to the strike and sustainment elements of the U."
+},
+{
+"url": "https://ru.irna.ir/news/86327868/%D0%9F%D1%8F%D1%82%D1%8C%D0%B4%D0%B5%D1%81%D1%8F%D1%82-%D0%B2%D0%BE%D1%81%D1%8C%D0%BC%D0%BE%D0%B9-%D0%B1%D0%B5%D1%81%D0%BF%D0%B8%D0%BB%D0%BE%D1%82%D0%BD%D0%B8%D0%BA-MQ-9-%D0%B0%D1%80%D0%BC%D0%B8%D0%B8-%D0%A1%D0%A8%D0%90-%D1%83%D0%BD%D0%B8%D1%87%D1%82%D0%BE%D0%B6%D0%B5%D0%BD-%D0%BD%D0%B0%D0%B4-%D0%9E%D1%80%D0%BC%D1%83%D0%B7%D1%81%D0%BA%D0%B8%D0%BC",
+"published_at": "2026-11-21T05:45:11Z",
+"quote": "Пятьдесят восьмой беспилотник MQ-9 армии США уничтожен над Ормузским проливом"
+},
+{
+"url": "https://t.me/uav_tech/35660",
+"published_at": "2026-03-28T12:05:04Z",
+"quote": "🔴 одновременно с поражением укрытий американских командиров и военнослужащих в Дубае, которым были нанесены тяжёлые потери, был уничтожен склад систем противодроновой обороны, принадлежащих Украине и предназначенных для поддержки армии США "
+},
+{
+"url": "https://t.me/drone_expert_news/5407",
+"published_at": "2026-03-24T05:59:01Z",
+"quote": "🦾 Армия США демонстрирует работу с беспилотными летательными аппаратами в рамках конкурса xTech|Edge Strike: Ground, который позволяет участникам сотрудничать с Министерством обороны США."
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_d04639240995a216",
 "from": "ent_b89569b4c89018bb",
 "to": "ent_461f895cd3ecdc32",
@@ -2715,6 +2755,46 @@
 ],
 "sentiment": {
 "score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_ae365a077c3b45e7",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_76aae9f116d88191",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 5,
+"evidence": [
+{
+"url": "https://defence24.com/defence-policy/a-new-source-of-f-16s-for-ukraine-europe-negotiates-with-the-pentagon",
+"published_at": "2026-11-24T14:10:02Z",
+"quote": "European countries are in talks with the Pentagon about transferring F-16 fighter jets from the US Air National Guard to Ukraine."
+},
+{
+"url": "https://kyivpost.com/post/91035",
+"published_at": "2026-11-24T10:38:53Z",
+"quote": "Pentagon Delays Transfer of 60 Patriot Missiles to Ukraine – FT"
+},
+{
+"url": "https://israeldefense.co.il/en/node/73208",
+"published_at": "2026-11-24T00:00:00Z",
+"quote": "sharing Ukraine Plans to Double Drone Supplies and Triple Deep Strikes Kyiv pushes ahead with long-range strike capabilities despite Pentagon criticism, backed by security assistance packages from the UK, Germany, and Norway."
+},
+{
+"url": "https://defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
+"published_at": "2026-11-19T13:21:10Z",
+"quote": "KYIV, Ukraine — Ukraine plans to double its drone supplies and more than triple its long-range strike capabilities next year, according to Ukraine’s defense minister, as Kyiv presses ahead with its long-range strike campaign despite the Pen"
+},
+{
+"url": "https://militarytimes.com/news/pentagon-congress/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
+"published_at": "2026-11-19T13:21:10Z",
+"quote": "KYIV, Ukraine — Ukraine plans to double its drone supplies and more than triple its long-range strike capabilities next year, according to Ukraine’s defense minister, as Kyiv presses ahead with its long-range strike campaign despite the Pen"
+}
+],
+"sentiment": {
+"score_pm1": -0.4,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }
@@ -3180,6 +3260,41 @@
 }
 },
 {
+"id": "rel_2ec954c0ab6a224a",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_76aae9f116d88191",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73208",
+"published_at": "2026-11-24T00:00:00Z",
+"quote": "Defense Minister Yevhenii Khmara delivered the remarks during a press conference held immediately after the 37th meeting of the Ukraine Defense Contact Group at NATO headquarters in Brussels, emphasizing to attendees that there are very pro"
+},
+{
+"url": "https://tass.ru/mezhdunarodnaya-panorama/28327715",
+"published_at": "2026-11-17T17:03:17Z",
+"quote": "Владимир Зеленский заявил об этом, выступая в режиме видеоконференции на заседании контактной группы по поставкам оружия на Украину в штаб-квартире НАТО в Брюсселе"
+},
+{
+"url": "https://aerotime.aero/articles/estonia-russia-gru-arson-drone-maker-threod",
+"published_at": "2026-11-16T15:18:48Z",
+"quote": "According to the company, it has delivered its equipment to 27 countries, including 14 NATO members and Ukraine."
+},
+{
+"url": "https://t.me/uav_tech/36694",
+"published_at": "2026-07-18T12:52:40Z",
+"quote": "❗️Кадыров призвал Путина начать военные действия против стран НАТО Глава Чечни заявил, что России следует «открыть огонь» по государствам, которые поставляют Украине оружие и разведданные."
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_1798b1e1534e9ed8",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_f21e3f20f2f1139f",
@@ -3247,41 +3362,6 @@
 "score_pm1": -0.1,
 "score_pm2": 0,
 "label": "нейтральный"
-}
-},
-{
-"id": "rel_fa7f31fb329c3f5b",
-"from": "ent_fa323d4f8a738909",
-"to": "ent_b677547c4bb180c5",
-"type": "применение",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://c4defence.com/en/r3negade-drone-attack",
-"published_at": "2026-11-24T14:41:44Z",
-"quote": "The demonstration also assessed how emerging unmanned systems could contribute to the strike and sustainment elements of the U."
-},
-{
-"url": "https://ru.irna.ir/news/86327868/%D0%9F%D1%8F%D1%82%D1%8C%D0%B4%D0%B5%D1%81%D1%8F%D1%82-%D0%B2%D0%BE%D1%81%D1%8C%D0%BC%D0%BE%D0%B9-%D0%B1%D0%B5%D1%81%D0%BF%D0%B8%D0%BB%D0%BE%D1%82%D0%BD%D0%B8%D0%BA-MQ-9-%D0%B0%D1%80%D0%BC%D0%B8%D0%B8-%D0%A1%D0%A8%D0%90-%D1%83%D0%BD%D0%B8%D1%87%D1%82%D0%BE%D0%B6%D0%B5%D0%BD-%D0%BD%D0%B0%D0%B4-%D0%9E%D1%80%D0%BC%D1%83%D0%B7%D1%81%D0%BA%D0%B8%D0%BC",
-"published_at": "2026-11-21T05:45:11Z",
-"quote": "Пятьдесят восьмой беспилотник MQ-9 армии США уничтожен над Ормузским проливом"
-},
-{
-"url": "https://t.me/uav_tech/35660",
-"published_at": "2026-03-28T12:05:04Z",
-"quote": "🔴 одновременно с поражением укрытий американских командиров и военнослужащих в Дубае, которым были нанесены тяжёлые потери, был уничтожен склад систем противодроновой обороны, принадлежащих Украине и предназначенных для поддержки армии США "
-},
-{
-"url": "https://t.me/drone_expert_news/5407",
-"published_at": "2026-03-24T05:59:01Z",
-"quote": "🦾 Армия США демонстрирует работу с беспилотными летательными аппаратами в рамках конкурса xTech|Edge Strike: Ground, который позволяет участникам сотрудничать с Министерством обороны США."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
 }
 },
 {
@@ -3597,41 +3677,6 @@
 "score_pm1": -0.1,
 "score_pm2": 0,
 "label": "нейтральный"
-}
-},
-{
-"id": "rel_ae365a077c3b45e7",
-"from": "ent_b0bba4c8f275ffd0",
-"to": "ent_76aae9f116d88191",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://defence24.com/defence-policy/a-new-source-of-f-16s-for-ukraine-europe-negotiates-with-the-pentagon",
-"published_at": "2026-11-24T14:10:02Z",
-"quote": "European countries are in talks with the Pentagon about transferring F-16 fighter jets from the US Air National Guard to Ukraine."
-},
-{
-"url": "https://kyivpost.com/post/91035",
-"published_at": "2026-11-24T10:38:53Z",
-"quote": "Pentagon Delays Transfer of 60 Patriot Missiles to Ukraine – FT"
-},
-{
-"url": "https://defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
-"published_at": "2026-11-19T13:21:10Z",
-"quote": "KYIV, Ukraine — Ukraine plans to double its drone supplies and more than triple its long-range strike capabilities next year, according to Ukraine’s defense minister, as Kyiv presses ahead with its long-range strike campaign despite the Pen"
-},
-{
-"url": "https://militarytimes.com/news/pentagon-congress/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
-"published_at": "2026-11-19T13:21:10Z",
-"quote": "KYIV, Ukraine — Ukraine plans to double its drone supplies and more than triple its long-range strike capabilities next year, according to Ukraine’s defense minister, as Kyiv presses ahead with its long-range strike campaign despite the Pen"
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
 }
 },
 {
@@ -4240,36 +4285,6 @@
 ],
 "sentiment": {
 "score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_2ec954c0ab6a224a",
-"from": "ent_cd3c86a3a1af0b40",
-"to": "ent_76aae9f116d88191",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://tass.ru/mezhdunarodnaya-panorama/28327715",
-"published_at": "2026-11-17T17:03:17Z",
-"quote": "Владимир Зеленский заявил об этом, выступая в режиме видеоконференции на заседании контактной группы по поставкам оружия на Украину в штаб-квартире НАТО в Брюсселе"
-},
-{
-"url": "https://aerotime.aero/articles/estonia-russia-gru-arson-drone-maker-threod",
-"published_at": "2026-11-16T15:18:48Z",
-"quote": "According to the company, it has delivered its equipment to 27 countries, including 14 NATO members and Ukraine."
-},
-{
-"url": "https://t.me/uav_tech/36694",
-"published_at": "2026-07-18T12:52:40Z",
-"quote": "❗️Кадыров призвал Путина начать военные действия против стран НАТО Глава Чечни заявил, что России следует «открыть огонь» по государствам, которые поставляют Украине оружие и разведданные."
-}
-],
-"sentiment": {
-"score_pm1": 0.1,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -4992,6 +5007,66 @@
 "score_pm1": 0.4,
 "score_pm2": 1,
 "label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_15084e3c6cf926a0",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_28fea1c77915c37a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73208",
+"published_at": "2026-11-24T00:00:00Z",
+"quote": "Ukraine plans to double its drone supplies and more than triple its long-range strike capabilities next year, according to Ukraine's defense minister, as Kyiv continues to push forward with its deep-strike campaign despite sharp criticism f"
+},
+{
+"url": "https://defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
+"published_at": "2026-11-19T13:21:10Z",
+"quote": "KYIV, Ukraine — Ukraine plans to double its drone supplies and more than triple its long-range strike capabilities next year, according to Ukraine’s defense minister, as Kyiv presses ahead with its long-range strike campaign despite the Pen"
+},
+{
+"url": "https://militarytimes.com/news/pentagon-congress/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
+"published_at": "2026-11-19T13:21:10Z",
+"quote": "KYIV, Ukraine — Ukraine plans to double its drone supplies and more than triple its long-range strike capabilities next year, according to Ukraine’s defense minister, as Kyiv presses ahead with its long-range strike campaign despite the Pen"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_7f9dd2f06940068f",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_c32678e4a0ae4599",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73208",
+"published_at": "2026-11-24T00:00:00Z",
+"quote": "sharing Ukraine Plans to Double Drone Supplies and Triple Deep Strikes Kyiv pushes ahead with long-range strike capabilities despite Pentagon criticism, backed by security assistance packages from the UK, Germany, and Norway."
+},
+{
+"url": "https://defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
+"published_at": "2026-11-19T13:21:10Z",
+"quote": "KYIV, Ukraine — Ukraine plans to double its drone supplies and more than triple its long-range strike capabilities next year, according to Ukraine’s defense minister, as Kyiv presses ahead with its long-range strike campaign despite the Pen"
+},
+{
+"url": "https://militarytimes.com/news/pentagon-congress/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
+"published_at": "2026-11-19T13:21:10Z",
+"quote": "KYIV, Ukraine — Ukraine plans to double its drone supplies and more than triple its long-range strike capabilities next year, according to Ukraine’s defense minister, as Kyiv presses ahead with its long-range strike campaign despite the Pen"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 },
 {
@@ -6066,6 +6141,31 @@
 "url": "https://armyrecognition.com/news/aerospace-news/2026/u-s-b-21-raider-demonstrates-strike-capability-as-future-backbone-of-u-s-air-force-bomber-fleet",
 "published_at": "2026-11-13T16:52:18Z",
 "quote": "B-21 Raider Demonstrates Strike Capability as Future Backbone of U."
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_fbc9a90773faeefc",
+"from": "ent_d2e22355d8368901",
+"to": "ent_d4ab8080023c408b",
+"type": "должность",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73208",
+"published_at": "2026-11-24T00:00:00Z",
+"quote": "In addition, Germany pledged to procure joint medium- and deep-strike drones, Norway committed $300 million directly for the procurement of Ukrainian drones, and British Defense Secretary Wes Streeting voiced full backing for Kyiv, stating "
+},
+{
+"url": "https://breakingdefense.com/2026/11/uk-to-buy-three-new-mine-hunting-drone-motherships-under-norway-agreement",
+"published_at": "2026-11-13T14:16:31Z",
+"quote": "1 million) has been allocated, was formalized on Thursday by British Defense Secretary Wes Streeting and his Norwegian counterpart, Tore O."
 }
 ],
 "sentiment": {
@@ -8225,6 +8325,31 @@
 }
 },
 {
+"id": "rel_c32abccf414eb033",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_ce24835bf268b31a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73208",
+"published_at": "2026-11-24T00:00:00Z",
+"quote": "Defense Minister Yevhenii Khmara delivered the remarks during a press conference held immediately after the 37th meeting of the Ukraine Defense Contact Group at NATO headquarters in Brussels, emphasizing to attendees that there are very pro"
+},
+{
+"url": "https://tass.ru/mezhdunarodnaya-panorama/28327715",
+"published_at": "2026-11-17T17:03:17Z",
+"quote": "Владимир Зеленский заявил об этом, выступая в режиме видеоконференции на заседании контактной группы по поставкам оружия на Украину в штаб-квартире НАТО в Брюсселе"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
 "id": "rel_afb6ffa627550edd",
 "from": "ent_d2e22355d8368901",
 "to": "ent_9a78ce074ce78826",
@@ -8347,6 +8472,31 @@
 "score_pm1": 0.2,
 "score_pm2": 1,
 "label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_a47eaf9012dd3c19",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_c32678e4a0ae4599",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73208",
+"published_at": "2026-11-24T00:00:00Z",
+"quote": "Kyiv pushes ahead with long-range strike capabilities despite Pentagon criticism, backed by security assistance packages from the UK, Germany, and Norway."
+},
+{
+"url": "https://t.me/newsby_btrc/209899",
+"published_at": "2026-11-18T07:12:01Z",
+"quote": "В Пентагоне раскритиковали дальнобойные удары Украины по России Заместитель министра обороны США Элбридж Колби выступил на встрече союзников Киева в штаб-квартире НАТО в Брюсселе."
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
 }
 },
 {
@@ -8647,56 +8797,6 @@
 "score_pm1": 0.4,
 "score_pm2": 1,
 "label": "умеренно позитивный"
-}
-},
-{
-"id": "rel_15084e3c6cf926a0",
-"from": "ent_b0bba4c8f275ffd0",
-"to": "ent_28fea1c77915c37a",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
-"published_at": "2026-11-19T13:21:10Z",
-"quote": "KYIV, Ukraine — Ukraine plans to double its drone supplies and more than triple its long-range strike capabilities next year, according to Ukraine’s defense minister, as Kyiv presses ahead with its long-range strike campaign despite the Pen"
-},
-{
-"url": "https://militarytimes.com/news/pentagon-congress/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
-"published_at": "2026-11-19T13:21:10Z",
-"quote": "KYIV, Ukraine — Ukraine plans to double its drone supplies and more than triple its long-range strike capabilities next year, according to Ukraine’s defense minister, as Kyiv presses ahead with its long-range strike campaign despite the Pen"
-}
-],
-"sentiment": {
-"score_pm1": -0.5,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
-"id": "rel_7f9dd2f06940068f",
-"from": "ent_b0bba4c8f275ffd0",
-"to": "ent_c32678e4a0ae4599",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://defensenews.com/global/europe/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
-"published_at": "2026-11-19T13:21:10Z",
-"quote": "KYIV, Ukraine — Ukraine plans to double its drone supplies and more than triple its long-range strike capabilities next year, according to Ukraine’s defense minister, as Kyiv presses ahead with its long-range strike campaign despite the Pen"
-},
-{
-"url": "https://militarytimes.com/news/pentagon-congress/2026/11/19/ukraine-plans-to-double-drone-supplies-triple-deep-strikes",
-"published_at": "2026-11-19T13:21:10Z",
-"quote": "KYIV, Ukraine — Ukraine plans to double its drone supplies and more than triple its long-range strike capabilities next year, according to Ukraine’s defense minister, as Kyiv presses ahead with its long-range strike campaign despite the Pen"
-}
-],
-"sentiment": {
-"score_pm1": -0.5,
-"score_pm2": -1,
-"label": "умеренно негативный"
 }
 },
 {
@@ -9200,6 +9300,31 @@
 }
 },
 {
+"id": "rel_d5f2f830b771971f",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_461f895cd3ecdc32",
+"type": "применение",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73208",
+"published_at": "2026-11-24T00:00:00Z",
+"quote": "Kyiv pushes ahead with long-range strike capabilities despite Pentagon criticism, backed by security assistance packages from the UK, Germany, and Norway."
+},
+{
+"url": "https://thinkdefence.co.uk/2026/11/week-in-defence-2026-w47",
+"published_at": "2026-11-21T09:00:00Z",
+"quote": "Pentagon policy chief Elbridge Colby said Ukraine’s strikes deep inside Russia had not been effective and urged allies to focus on the front line; Germany’s Boris Pistorius called that “quite a stupid thing”, and Wes Streeting said the stri"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_462c8a0e2e2b57d7",
 "from": "ent_ff878af017a8077e",
 "to": "ent_42945ce6b8f796c3",
@@ -9416,6 +9541,31 @@
 "url": "https://aerotime.aero/articles/dutch-f35-french-rafale-finnish-highway-exercise",
 "published_at": "2026-11-23T12:42:43Z",
 "quote": "The Finnish Air Force reported that French Rafales deployed to Rovaniemi had carried out touch-and-go landings at the same location, marking the first time the French fighter had operated from a Finnish highway."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_64d34d2ffdc75f43",
+"from": "ent_7af60e51312772aa",
+"to": "ent_5d1d05ebf8984ea3",
+"type": "испытание",
+"event_date": null,
+"evidence_count": 2,
+"evidence": [
+{
+"url": "https://defence-industry.eu/germany-says-virtus-and-hx-2-loitering-munitions-pass-live-fire-trials-with-first-deliveries-due-by-end-of-2026",
+"published_at": "2026-11-24T17:38:34Z",
+"quote": "Key parts of the trials took place at WTD 91, the Bundeswehr’s Technical Centre for Weapons and Ammunition in Meppen."
+},
+{
+"url": "https://dronexl.co/2026/11/23/bundeswehr-helsing-stark-strike-drones-lithuania-belarus-soldiers",
+"published_at": "2026-11-23T17:26:00Z",
+"quote": "Much of that testing ran at WTD 91, the Bundeswehr’s proving ground in Meppen."
 }
 ],
 "sentiment": {
@@ -14537,26 +14687,6 @@
 "score_pm1": 0.3,
 "score_pm2": 1,
 "label": "умеренно позитивный"
-}
-},
-{
-"id": "rel_fbc9a90773faeefc",
-"from": "ent_d2e22355d8368901",
-"to": "ent_d4ab8080023c408b",
-"type": "должность",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://breakingdefense.com/2026/11/uk-to-buy-three-new-mine-hunting-drone-motherships-under-norway-agreement",
-"published_at": "2026-11-13T14:16:31Z",
-"quote": "1 million) has been allocated, was formalized on Thursday by British Defense Secretary Wes Streeting and his Norwegian counterpart, Tore O."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -26860,26 +26990,6 @@
 }
 },
 {
-"id": "rel_c32abccf414eb033",
-"from": "ent_cd3c86a3a1af0b40",
-"to": "ent_ce24835bf268b31a",
-"type": "поставка",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://tass.ru/mezhdunarodnaya-panorama/28327715",
-"published_at": "2026-11-17T17:03:17Z",
-"quote": "Владимир Зеленский заявил об этом, выступая в режиме видеоконференции на заседании контактной группы по поставкам оружия на Украину в штаб-квартире НАТО в Брюсселе"
-}
-],
-"sentiment": {
-"score_pm1": 0.3,
-"score_pm2": 1,
-"label": "умеренно позитивный"
-}
-},
-{
 "id": "rel_d09ae7c132adb3ea",
 "from": "ent_b0bba4c8f275ffd0",
 "to": "ent_bd84f4b50b17b685",
@@ -28137,26 +28247,6 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
-}
-},
-{
-"id": "rel_a47eaf9012dd3c19",
-"from": "ent_b0bba4c8f275ffd0",
-"to": "ent_c32678e4a0ae4599",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://t.me/newsby_btrc/209899",
-"published_at": "2026-11-18T07:12:01Z",
-"quote": "В Пентагоне раскритиковали дальнобойные удары Украины по России Заместитель министра обороны США Элбридж Колби выступил на встрече союзников Киева в штаб-квартире НАТО в Брюсселе."
-}
-],
-"sentiment": {
-"score_pm1": -0.5,
-"score_pm2": -1,
-"label": "умеренно негативный"
 }
 },
 {
@@ -32340,26 +32430,6 @@
 }
 },
 {
-"id": "rel_d5f2f830b771971f",
-"from": "ent_b0bba4c8f275ffd0",
-"to": "ent_461f895cd3ecdc32",
-"type": "применение",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://thinkdefence.co.uk/2026/11/week-in-defence-2026-w47",
-"published_at": "2026-11-21T09:00:00Z",
-"quote": "Pentagon policy chief Elbridge Colby said Ukraine’s strikes deep inside Russia had not been effective and urged allies to focus on the front line; Germany’s Boris Pistorius called that “quite a stupid thing”, and Wes Streeting said the stri"
-}
-],
-"sentiment": {
-"score_pm1": -0.5,
-"score_pm2": -1,
-"label": "умеренно негативный"
-}
-},
-{
 "id": "rel_779125427d8edae1",
 "from": "ent_db376d4d7bc4d9da",
 "to": "ent_47f57b571faefce0",
@@ -34680,26 +34750,6 @@
 }
 },
 {
-"id": "rel_64d34d2ffdc75f43",
-"from": "ent_7af60e51312772aa",
-"to": "ent_5d1d05ebf8984ea3",
-"type": "испытание",
-"event_date": null,
-"evidence_count": 1,
-"evidence": [
-{
-"url": "https://dronexl.co/2026/11/23/bundeswehr-helsing-stark-strike-drones-lithuania-belarus-soldiers",
-"published_at": "2026-11-23T17:26:00Z",
-"quote": "Much of that testing ran at WTD 91, the Bundeswehr’s proving ground in Meppen."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_9e8aad0eabc9e450",
 "from": "ent_cd3c86a3a1af0b40",
 "to": "ent_8fb86f78250fd022",
@@ -36851,6 +36901,286 @@
 "url": "https://israeldefense.co.il/en/node/73202",
 "published_at": "2026-11-24T00:00:00Z",
 "quote": "Turkey: Aselsan to Develop New Air Defense System Under $575 Million Contract"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_e56fe8cd1ff7d0f1",
+"from": "ent_fa323d4f8a738909",
+"to": "ent_b677547c4bb180c5",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://twz.com/land/fireant-mini-uncrewed-ground-vehicles-deploy-drone-detection-sensors-in-u-s-army-test",
+"published_at": "2026-11-24T19:19:27Z",
+"quote": "FireAnt Mini Uncrewed Ground Vehicles Deploy Drone Detection Sensors In U."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_ad8e80627d42666a",
+"from": "ent_b89569b4c89018bb",
+"to": "ent_0e439444e0d24c40",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/germany-says-virtus-and-hx-2-loitering-munitions-pass-live-fire-trials-with-first-deliveries-due-by-end-of-2026",
+"published_at": "2026-11-24T17:38:34Z",
+"quote": "The Bundeswehr signed contracts with STARK and Helsing in February 2026 that allow some development, testing and qualification work to run alongside preparations for use."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_6322ab14dfa60161",
+"from": "ent_b89569b4c89018bb",
+"to": "ent_7af60e51312772aa",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/germany-says-virtus-and-hx-2-loitering-munitions-pass-live-fire-trials-with-first-deliveries-due-by-end-of-2026",
+"published_at": "2026-11-24T17:38:34Z",
+"quote": "The Bundeswehr signed contracts with STARK and Helsing in February 2026 that allow some development, testing and qualification work to run alongside preparations for use."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_313b1c524c847c51",
+"from": "ent_0e439444e0d24c40",
+"to": "ent_7af60e51312772aa",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/germany-says-virtus-and-hx-2-loitering-munitions-pass-live-fire-trials-with-first-deliveries-due-by-end-of-2026",
+"published_at": "2026-11-24T17:38:34Z",
+"quote": "The Bundeswehr signed contracts with STARK and Helsing in February 2026 that allow some development, testing and qualification work to run alongside preparations for use."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_437c2dabb6d5e6ae",
+"from": "ent_9b9d73d336834786",
+"to": "ent_82e7db2d9eb367cd",
+"type": "должность",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-industry.eu/kongsberg-says-ukraine-has-put-desna-air-defence-systems-into-service-to-counter-drones-and-protect-infrastructure",
+"published_at": "2026-11-24T17:14:20Z",
+"quote": "“DESNA shows what is possible when we make systems and technology work together,” said Eirik Lie, Kongsberg’s chief executive."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_ff86d149181bda37",
+"from": "ent_b677547c4bb180c5",
+"to": "ent_ff878af017a8077e",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://defence-ua.com/minds_and_ideas/jaki_f_16_mogli_b_otrimati_ps_zsu_vid_natsgvardiji_ssha_jakscho_pro_tse_zaraz_vede_peremovini_jevropa-24833.html",
+"published_at": "2026-11-24T16:25:29Z",
+"quote": "Наразі невідомо, чи вдасться Європі домовитися про передачу Україні винищувачів F-16 з парку Національної гвардії США, але це дає привід поглянути на стан таких літаків в арсеналі американських нацгвардійців"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_4f14699dd6f3e301",
+"from": "ent_382bc265ebab3a18",
+"to": "ent_696b012d13e6ebad",
+"type": "производство",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/new-build-storm-shadow-money-switched-to-cheap-munitions",
+"published_at": "2026-11-24T18:43:58Z",
+"quote": "Money set aside for new-build Storm Shadow cruise missiles was redirected to low-cost mass munitions that can be manufactured in Britain, Air Marshal Tim Jones, Deputy Chief of the Defence Staff for Force Development, told the Defence Commi"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
+"id": "rel_9d6ddeaf85f51e80",
+"from": "ent_ba903dccb0560ddb",
+"to": "ent_696b012d13e6ebad",
+"type": "контракт",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/new-build-storm-shadow-money-switched-to-cheap-munitions",
+"published_at": "2026-11-24T18:43:58Z",
+"quote": "MBDA restarted Storm Shadow production in 2025, fifteen years after the last order, partly to keep Ukraine supplied, according to the same report."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_4f1899b34329961b",
+"from": "ent_fb9d115f2c2a9a7b",
+"to": "ent_382bc265ebab3a18",
+"type": "опровержение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://ukdefencejournal.org.uk/albania-denies-sea-drones-were-launched-from-its-territory",
+"published_at": "2026-11-24T18:00:34Z",
+"quote": "The post Albania denies sea drones were launched from its territory first appeared on UK Defence Journal ."
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_9157e129a0c51041",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_461f895cd3ecdc32",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73208",
+"published_at": "2026-11-24T00:00:00Z",
+"quote": "sharing Ukraine Plans to Double Drone Supplies and Triple Deep Strikes Kyiv pushes ahead with long-range strike capabilities despite Pentagon criticism, backed by security assistance packages from the UK, Germany, and Norway."
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_c36e4ca402728cfc",
+"from": "ent_b0bba4c8f275ffd0",
+"to": "ent_382bc265ebab3a18",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73208",
+"published_at": "2026-11-24T00:00:00Z",
+"quote": "sharing Ukraine Plans to Double Drone Supplies and Triple Deep Strikes Kyiv pushes ahead with long-range strike capabilities despite Pentagon criticism, backed by security assistance packages from the UK, Germany, and Norway."
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_22b8181ee2e6197d",
+"from": "ent_c67459bab0d7b89b",
+"to": "ent_cd3c86a3a1af0b40",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73208",
+"published_at": "2026-11-24T00:00:00Z",
+"quote": "Defense Minister Yevhenii Khmara delivered the remarks during a press conference held immediately after the 37th meeting of the Ukraine Defense Contact Group at NATO headquarters in Brussels, emphasizing to attendees that there are very pro"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_5cde911d3d03dc5d",
+"from": "ent_c67459bab0d7b89b",
+"to": "ent_76aae9f116d88191",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73208",
+"published_at": "2026-11-24T00:00:00Z",
+"quote": "Defense Minister Yevhenii Khmara delivered the remarks during a press conference held immediately after the 37th meeting of the Ukraine Defense Contact Group at NATO headquarters in Brussels, emphasizing to attendees that there are very pro"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный"
+}
+},
+{
+"id": "rel_fcf66d293c0205a2",
+"from": "ent_c67459bab0d7b89b",
+"to": "ent_ce24835bf268b31a",
+"type": "поставка",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://israeldefense.co.il/en/node/73208",
+"published_at": "2026-11-24T00:00:00Z",
+"quote": "Defense Minister Yevhenii Khmara delivered the remarks during a press conference held immediately after the 37th meeting of the Ukraine Defense Contact Group at NATO headquarters in Brussels, emphasizing to attendees that there are very pro"
 }
 ],
 "sentiment": {

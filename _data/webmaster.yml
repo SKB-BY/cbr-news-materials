@@ -1,7 +1,9 @@
 # Коды подтверждения кабинетов вебмастеров. Только публичные строки meta-тегов.
-# google — значение content у meta name="google-site-verification"
+# google — список значений content у meta name="google-site-verification" (можно несколько аккаунтов).
 # yandex — значение content у meta name="yandex-verification"
 # bing   — значение content у meta name="msvalidate.01"
-google: "esDUQLWqkgLOJwrm8McPpRrNe1E7DLHKjKD0WTj5JS0"
+google:
+  - "esDUQLWqkgLOJwrm8McPpRrNe1E7DLHKjKD0WTj5JS0"
+  - "jcLuJaCR0zOZKAnbMQ4x47d2RAfy90V733uUnzrypWU"
 yandex: ""
 bing: ""

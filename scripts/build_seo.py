@@ -388,7 +388,7 @@ def chrome(title: str, desc: str, canonical: str, as_of: str, body: str, crumbs:
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(desc)}">
 <meta name="robots" content="{html.escape(robots)}">
-<meta name="google-site-verification" content="esDUQLWqkgLOJwrm8McPpRrNe1E7DLHKjKD0WTj5JS0">
+<meta name="google-site-verification" content="esDUQLWqkgLOJwrm8McPpRrNe1E7DLHKjKD0WTj5JS0"><meta name="google-site-verification" content="jcLuJaCR0zOZKAnbMQ4x47d2RAfy90V733uUnzrypWU">
 <link rel="canonical" href="{html.escape(canonical)}">
 <link rel="alternate" hreflang="ru" href="{html.escape(canonical)}">
 <link rel="alternate" hreflang="x-default" href="{html.escape(canonical)}">
