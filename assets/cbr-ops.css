@@ -153,3 +153,9 @@ details.cbr-block[open] > :not(summary){animation:cbr-open .22s ease-out}
   details.cbr-block details.cbr-block{margin-left:0;margin-right:0}
   .cbr-cell{font-size:10.5px;width:100%}
 }
+/* t197u: свёрнутый сюжет под пунктом ленты и архив DARPA в Актуальном отчёте */
+details.cbr-story{margin:2px 0 10px 22px;border-left:2px solid var(--line-2);padding:2px 0 2px 10px}
+details.cbr-story > summary{cursor:pointer;color:var(--muted);font-size:12.5px}
+details.cbr-story > summary:hover{color:var(--text)}
+details.cbr-story ul{margin:4px 0 2px;padding-left:18px;font-size:12.5px}
+details.cbr-day ol{margin:6px 0;padding-left:22px}

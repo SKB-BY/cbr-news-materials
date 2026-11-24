@@ -100,6 +100,11 @@ for a, b, t in links:
         newer[x].add(y); older[y].add(x)
         rel[a].add(t); rel[b].add(t)
 HIST_CAP = 40
+try:   # t197u: правило отсева ложных сфер (AGG/report_story.py; PYTHONPATH=AGG задаёт служба выгрузки)
+    import report_story as _RS
+except Exception:
+    _RS = None
+_NOISE = []
 
 LT = {"тот_же_факт": "тот же факт", "подтверждение": "подтверждение", "ссылка": "ссылка", "перепечатка": "перепечатка"}
 items, places_of = {}, {}
@@ -125,6 +130,11 @@ for h, r in rows.items():
         "lift": 1 if h in lift else 0, "rel": sorted(LT[x] for x in rel.get(h, ())), "nonplace": other,
     }
     places_of[h] = pl
+    # t197u: гражданское ДТП / продажа гражданского самолёта / гражданская полиция — без раздела БПЛА и без сфер
+    # (то же правило, что в Актуальном отчёте: report_story.noise_reason по заголовку и переводу)
+    if _RS is not None and _RS.noise_reason(title, tr):
+        items[h]["topic"] = ""
+        _NOISE.append(h)
 
 
 def chron(it):  # дата для хронологии: дата события, если названа; иначе дата публикации
@@ -236,3 +246,9 @@ print(json.dumps({"base_2026": len(base), "lifted": len(lift), "clusters_on_map"
                   "oi_as_of": data["oi_as_of"], "orphans": len(orphans), "orphans_on_map": sum(1 for c in clusters if not c["current"]), "max_cluster": max(len(c["items"]) for c in clusters), "capped": sum(1 for c in clusters if c["more"]), "with_history": sum(1 for c in clusters if len(c["items"])>1),
                   "no_translation": sum(1 for h in used if items[h]["tf"] == 2),
                   "data_js": (OUT / "data.js").stat().st_size}, ensure_ascii=False, indent=1))
+
+# t197u: список отсеянных материалов для build_contour_js.py (map-inputs/t197_noise.json, не публикуется)
+try:
+    (Path(sys.argv[1]).resolve().parent / "t197_noise.json").write_text(json.dumps(sorted(_NOISE)), encoding="utf-8")
+except Exception:
+    pass

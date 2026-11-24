@@ -40,7 +40,14 @@ for r in rels:
     R.append([eidx[r["from"]], eidx[r["to"]], r["type"], r["evidence_count"], s.get("score_pm2"), s.get("score_pm1"),
               [[x["url"], x["published_at"], x["quote"]] for x in r["evidence"]], r.get("event_date") or ""])
 I = {}
+# t197u: ложные сферы (гражданское ДТП и т. п.) — без сфер, как в Актуальном отчёте; список пишет build_news_map.py
+try:
+    NOISE = set(json.loads((PUB.parent / "t197_noise.json").read_text(encoding="utf-8")))
+except Exception:
+    NOISE = set()
 for it in items:
+    if it["dedupe_hash"] in NOISE:
+        it = dict(it, spheres=[])
     s = it["sentiment"] or {}
     I[it["dedupe_hash"][:16]] = [[[x["sphere"], x["subfilter"]] for x in it["spheres"]], s.get("score_pm1"), s.get("score_pm2"),
                                   s.get("subjectivity"), s.get("risk_tags") or [], [eidx[x] for x in it.get("entities", []) if x in eidx], it["url"]]

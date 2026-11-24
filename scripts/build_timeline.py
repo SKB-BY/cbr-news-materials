@@ -234,6 +234,15 @@ def main():
     (out / "timeline_data.js").write_text("/* %s. Таймлайн сюжетов (%s). */\nwindow.CBR_TIMELINE=%s;\n" % (
         COPY, VERSION, json.dumps(d, ensure_ascii=False, separators=(",", ":"))), encoding="utf-8")
     print(json.dumps(d["meta"]["counts"], ensure_ascii=False))
+    # t197u: «Что нового с прошлого среза» в Актуальном отчёте: срез (staging) против опубликованного (repo).
+    # Таймлайн — последний шаг сборки; ошибка блока на таймлайн не влияет (в отчёте остаётся «сравнение не выполнено»).
+    try:
+        import subprocess
+        p = subprocess.run([sys.executable, str(Path(__file__).with_name("build_whatsnew.py")), roots[0], roots[-1]],
+                           capture_output=True, text=True, timeout=300)
+        print((p.stdout + p.stderr).strip()[-200:], file=sys.stderr)
+    except Exception as e:
+        print("t197u whatsnew: " + str(e)[:200], file=sys.stderr)
 
 
 if __name__ == "__main__":
