@@ -18,6 +18,12 @@
 <link rel="stylesheet" href="../assets/cbr-ops.css?v=t143">
 <style>
 .iid-wrap{max-width:1180px;margin:0 auto;padding:18px}
+/* t197u */
+.iid-wbar{font:12px/1.6 var(--mono);background:var(--panel);border:1px solid var(--line-2);border-left:3px solid var(--accent);border-radius:2px;padding:6px 10px}
+.iid-wbar b{color:var(--text)}
+.iid-hot{border-left:3px solid var(--neg);background:var(--panel);padding:6px 10px;margin:8px 0}
+.iid-hot .u{color:var(--neg);font-weight:600}
+#iid-heat td.cell{cursor:pointer}
 .iid-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;margin:12px 0}
 .iid-card{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:14px;min-width:0;overflow:hidden}
 .iid-label{font:600 11px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
@@ -77,6 +83,7 @@ h2{margin-top:28px;border-bottom:1px solid var(--line);padding-bottom:4px}
 
 <h2>2. Составляющие (расчётные сутки)</h2>
 <p class="small muted">ИИД = округление(100 × (wV·kV + wO·kO + wS·kS + wR·kR + wC·kC)). Сумма вкладов равна индексу.</p>
+<p class="iid-wbar" id="iid-wbar"></p>
 <table class="iid" id="iid-parts"></table>
 
 <h2>3. Страны источников × сферы</h2>
@@ -87,6 +94,8 @@ h2{margin-top:28px;border-bottom:1px solid var(--line);padding-bottom:4px}
  <label><input type="checkbox" id="f-min"> только ячейки с N ≥ 3</label>
 </div>
 <div style="overflow-x:auto"><table class="iid heat" id="iid-heat"></table></div>
+<p class="small muted">Нажмите ячейку — список негативных материалов этой страны и сферы за расчётные сутки (из сюжетов давления).</p>
+<div id="iid-drill"></div>
 <table class="iid" id="iid-rows7"></table>
 
 <h2>4. ИИД за 30 дней и наши ответы</h2>
@@ -94,6 +103,7 @@ h2{margin-top:28px;border-bottom:1px solid var(--line);padding-bottom:4px}
 <div id="iid-chart"></div>
 
 <h2>5. Сюжеты давления и наш ответ</h2>
+<div id="iid-hot"></div>
 <p class="small muted">Сюжет давления — связная группа материалов (72 ч; один язык — шинглы/TF-IDF и общий ключ; разные языки — ≥ 3 общих ключа, из них ≥ 1 число или дата), в которой есть негативный материал (окрас ≤ −0,2). Ответ — первый материал группы «наши официальные ресурсы РБ» с ≥ 2 ключами сюжета в 72 ч от начала.</p>
 <div style="overflow-x:auto"><table class="iid" id="iid-stories"></table></div>
 
@@ -104,10 +114,10 @@ h2{margin-top:28px;border-bottom:1px solid var(--line);padding-bottom:4px}
 <h2>7. Методика</h2>
 <ul>
 <li><b>Какие материалы входят.</b> Материал входит в ИИД, если в нём найдено упоминание Беларуси по словарю упоминаний (страна, Президент, органы власти, населённые пункты РБ, организации реестра с пометкой BY) на языках ru, be, uk, pl, lt, lv, en, de — поиск по основе слова с фиксированным списком окончаний языка и по границе слова. Язык — по алфавиту и словарю служебных слов. Материалы на других языках и материалы источников из Беларуси в расчёт не входят (счётчик «вне расчёта»).</li>
-<li><b>Страна</b> — страна издателя по карточке источника; <b>сфера</b> — одна основная сфера по классификатору «Контура».</li>
+<li><b>Страна</b> — страна издателя по карточке источника; редакции, работающие на аудиторию РБ из-за рубежа, — отдельная категория «Белорусские СМИ за рубежом» со своим весом; <b>сфера</b> — одна основная сфера материала (БПЛА, затем ПВО/РВСН, авиация, вооружение, бронетехника, артиллерия, связь, ПО, джипы, тактика), остальные — теги; тот же порядок — в Актуальном отчёте и на Новостной карте.</li>
 <li><b>Окрас</b> S — только по предложениям, где названа Беларусь: S = (2·сп + п − 2·сн − н)/(Σвесов + 2); без сильных признаков не дальше ±0,5; −1…+1, до 0,1. Негативный материал — S ≤ −0,2.</li>
 <li><b>Субъективность</b> — 0,1 + 0,15 за оценочное слово (не более 4) + 0,1 за «!!» + 0,15 за первое лицо + 0,05 за «??» + 0,1 за 2+ слова ЗАГЛАВНЫМИ в заголовке; до 0,1, не выше 1.</li>
-<li><b>Вес ОИ 5×5</b> r = a(буква) × b(цифра): А 1,0 … Д 0,2; 1 = 1,0 … 5 = 0,2.</li>
+<li><b>Вес источника</b> r = a(буква) × b(цифра) × охват × категория: А 1,0 … Д 0,2; 1 = 1,0 … 5 = 0,2; охват и категория — плашка весов в разделе 2 (iid_config.json).</li>
 <li><b>Согласованность</b> c = 1, если за 24 ч до материала (включая его) материалы того же сюжета дали ≥ 3 разные издательские семьи.</li>
 <li><b>Составляющие</b>: kV = min(1; max(0; (N/B − 1)/2)), B = max(1; M30/30); kO = Σn/N, n = max(0; −S); kS = ΣSubj/|M⁻|; kR = Σr/|M⁻|; kC = Σc/|M⁻|; при |M⁻| = 0 kS = kR = kC = 0.</li>
 <li><b>ИИД сюжета</b> — та же формула по материалам окна; kV = min(1; v/10), v — материалов в сутки. Окно «до» = [max(t0; tr − 72 ч); tr), «после» = [tr; tr + 72 ч); без ответа tr = t0 + 72 ч. Δ ≤ −5 — снижение, Δ ≥ +5 — усиление; пока окно «после» не закрыто, эффект не ставится.</li>
@@ -125,6 +135,7 @@ h2{margin-top:28px;border-bottom:1px solid var(--line);padding-bottom:4px}
 <li>Не используются: нейросети, языковые модели, обучаемые классификаторы и модели тональности, векторные представления слов, машинный перевод.</li>
 </ul>
 <div id="iid-repro"></div>
+<p class="small">Выгрузка суточного ряда: <a href="#" id="iid-csv">CSV</a> · <a href="#" id="iid-json">JSON</a></p>
 <details><summary>Суточный ряд с промежуточными суммами</summary><div style="overflow-x:auto"><table class="iid" id="iid-series"></table></div></details>
 </main>
 <footer class="cbr-copy">© 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR. · <a href="https://github.com/SKB-BY/cbr-news-materials/blob/main/LICENSE">Лицензия</a> · Новости — собственность их источников.</footer>
@@ -224,6 +235,34 @@ function heat(){
   $("iid-repro").innerHTML='<table class="iid"><tr><th>Параметр</th><th>Значение</th></tr>'+P.map(p=>`<tr><td>${p[0]}</td><td class="num" style="text-align:left">${esc(p[1])}</td></tr>`).join("")+"</table>";
   $("iid-series").innerHTML="<tr><th>Дата</th><th>N</th><th>M30</th><th>B</th><th>Σn</th><th>|M⁻|</th><th>ΣSubj</th><th>Σr</th><th>Σc</th><th>kV</th><th>kO</th><th>kS</th><th>kR</th><th>kC</th><th>ИИД</th></tr>"+I.series.map(s=>`<tr><td>${dmy(s.date)}</td><td class="num">${s.N}</td><td class="num">${s.M30}</td><td class="num">${nf(s.B,3)}</td><td class="num">${nf(s.sumO,1)}</td><td class="num">${s.nneg}</td><td class="num">${nf(s.sumS,1)}</td><td class="num">${nf(s.sumR,2)}</td><td class="num">${s.C}</td>${["V","O","S","R","C"].map(k=>`<td class="num">${nf(s.k[k],3)}</td>`).join("")}<td class="num"><b>${s.iid}</b></td></tr>`).join("");
 })();
+
+/* t197u (аудит GREEN, волна 2): плашка весов, «горящие» сюжеты, провал из матрицы, выгрузка ряда */
+(function(){const c=I.config, W=c.weights, f=v=>nf(v,2);
+ let t='<b>Текущие веса</b> (iid_config.json, методика '+esc(I.method_version)+'): wV '+f(W.V)+' · wO '+f(W.O)+' · wS '+f(W.S)+' · wR '+f(W.R)+' · wC '+f(W.C);
+ if(c.reach_tiers) t+='<br><b>Вес источника r</b> = буква × цифра ОИ × охват ('+Object.entries(c.reach_tiers).map(([k,v])=>esc(k)+' '+f(v)).join(' · ')+')';
+ const cw=c.source_category_weights||{}; if(Object.keys(cw).length) t+=' × категория ('+Object.entries(cw).map(([k,v])=>esc(k)+' '+f(v)).join(' · ')+'; остальные 1,00)';
+ t+='<br>База объёма — скользящие '+c.baseline_days+' суток (M30).';
+ $("iid-wbar").innerHTML=t;})();
+(function(){const now=Date.now(), H=36e5;
+ const L=I.stories.filter(s=>!s.response&&s.window_open).map(s=>({s,left:(new Date(s.window_until)-now)/H})).filter(x=>x.left>0).sort((a,b)=>a.left-b.left);
+ let x='<div class="iid-hot"><b>Горящие сюжеты</b> — без ответа, окно 72 ч ещё открыто (сначала те, где осталось меньше всего):';
+ if(!L.length) x+=' нет.</div>';
+ else x+='<ul>'+L.map(({s,left})=>`<li><span class="${left<24?"u":""}">осталось ${nf(left,1)} ч</span> (до ${s.window_until.slice(8,10)}.${s.window_until.slice(5,7)} ${s.window_until.slice(11,16)}) — ${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`:`<span class="io-label">${ioText(s.title,s.io_name)}</span>`} · ${esc(s.countries.join(", "))} · ${esc(s.sphere)}</li>`).join("")+'</ul><span class="small muted">Красным — меньше 24 ч. Расчёт на момент открытия страницы.</span></div>';
+ $("iid-hot").innerHTML=x;})();
+(function(){const th=I.config.negative_threshold;
+ $("iid-heat").addEventListener("click",e=>{const td=e.target.closest("td.cell"); if(!td) return; const tr=td.parentElement, tbl=tr.parentElement;
+  const ci=[...tr.children].indexOf(td), c=tr.children[0].textContent, hdr=tbl.rows[0].children[ci]; if(!hdr) return; const sp=hdr.textContent;
+  const all=sp==="Итог", allc=c==="Итог";
+  const M=[]; I.stories.forEach(s=>{ if(!all&&s.sphere!==sp) return; (s.materials||[]).forEach(m=>{ if((allc||m.country===c)&&m.S<=th&&m.t.slice(0,10)===I.day.date) M.push({m,s}); });});
+  let x='<p><b>'+esc(allc?"все страны":c)+' · '+esc(all?"все сферы":sp)+'</b>: негативных материалов за '+dmy(I.day.date)+', вошедших в сюжеты давления, — '+M.length+'. Число в ячейке учитывает все материалы суток; поимённо показаны только материалы сюжетов (раздел 5).</p>';
+  if(M.length) x+='<ul>'+M.map(({m})=>`<li>${m.t.slice(11,16)} · ${m.url?`<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.title)}</a>`:`<span class="io-label">${ioText(m.title,m.io_name)}</span>`} · ${esc(m.source===IO_HIDDEN?"":m.source)} · ОИ ${esc(m.oi||"—")} · S ${nf(m.S,1)}</li>`).join("")+'</ul>';
+  x+='<p class="small"><a href="timeline/">Таймлайн сюжетов</a> — развитие этих сюжетов.</p>';
+  $("iid-drill").innerHTML=x;});})();
+(function(){const cols=["date","iid","zone","N","M30","B","sumO","nneg","sumS","sumR","C"], kk=["V","O","S","R","C"];
+ const rows=I.series.map(s=>Object.assign({},...cols.map(c=>({[c]:s[c]})),...kk.map(k=>({["k"+k]:s.k[k],["p"+k]:s.points[k]}))));
+ const dl=(name,type,txt)=>{const a=document.createElement("a"); a.href=URL.createObjectURL(new Blob([txt],{type})); a.download=name; document.body.appendChild(a); a.click(); a.remove();};
+ $("iid-csv").addEventListener("click",e=>{e.preventDefault(); const h=Object.keys(rows[0]||{}); dl("iid_series.csv","text/csv;charset=utf-8","\ufeff"+[h.join(",")].concat(rows.map(r=>h.map(k=>r[k]==null?"":String(r[k]).replace(/,/g,";")).join(","))).join("\n"));});
+ $("iid-json").addEventListener("click",e=>{e.preventDefault(); dl("iid_series.json","application/json",JSON.stringify({method_version:I.method_version,computed_at:I.computed_at,series:rows},null,1));});})();
 })();
 </script>
 </body></html>

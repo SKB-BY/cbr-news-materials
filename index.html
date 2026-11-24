@@ -11,11 +11,56 @@ title: КОНТУР - I-OSINT BY
 </section>
 <section class="ops-card">
 <div class="ops-label">Актуальность</div>
-<p>Сведения на страницах — на время «последнее обновление» <strong>24.11.2026 12:05 Europe/Minsk</strong>. «Актуально» в шапке — текущие дата и время Europe/Minsk, это не время сведений. Коды ОИ 5×5 — по проходу ОИ <strong>24.11.2026 09:59 Europe/Minsk</strong> (та же дата в колонке <code>as_of</code> таблиц). Код не выдумывается: материал, поступивший после этого прохода, получит код после следующего прохода ОИ.</p>
+<p>Сведения на страницах — на время «последнее обновление» <strong>24.11.2026 13:20 Europe/Minsk</strong>. «Актуально» в шапке — текущие дата и время Europe/Minsk, это не время сведений. Коды ОИ 5×5 — по проходу ОИ <strong>24.11.2026 13:14 Europe/Minsk</strong> (та же дата в колонке <code>as_of</code> таблиц). Код не выдумывается: материал, поступивший после этого прохода, получит код после следующего прохода ОИ.</p>
 <div class="ops-label" style="margin-top:14px">Сферы</div>
 <p><strong>Сферы</strong> (формулировки дословно): БПЛА; вооружение (легкое, тяжелое, гранатометы, гранаты, мины); бронетехника (автомобильная бронетехника, БМП, танки, САУ и ПТ САУ); армейские джипы (вездеходы, багги, квадроциклы, мотоциклы); артиллерийские системы; системы ПВО и РВСН; авиация; средства связи и коммуникаций; программное обеспечение специального назначения; тактика и стратегия.</p>
 </section>
 </div>
+<section class="ops-card gs-card" id="search">
+<div class="ops-label">Поиск по всем разделам</div>
+<p>Одна строка — сразу по Актуальному отчёту, Новостной карте, сюжетам ИИД-100, Графу связей (реестр сил и компаний, программы и организации) и Программам DARPA. Ищется подстрока в названии, заголовке, источнике и псевдонимах; данные — те же файлы, что у разделов, в этой выгрузке.</p>
+<input type="search" id="gs-q" placeholder="Компания, изделие, программа, сущность… (не короче 2 знаков)" autocomplete="off">
+<div id="gs-st" class="gs-st"></div>
+<div id="gs-out"></div>
+</section>
+<style>
+.gs-card input[type=search]{width:100%;font-size:15px;padding:8px 10px;margin:6px 0;background:var(--panel-2,#12161c);color:var(--text,#e6edf3);border:1px solid var(--line-2,#2a3340);border-radius:2px}
+.gs-st{font-size:12px;color:var(--muted,#8a96a3)} .gs-g{margin:10px 0 4px;font:600 11px/1.4 var(--mono,monospace);text-transform:uppercase;letter-spacing:.06em;color:var(--accent,#3fa7ff)}
+.gs-r{padding:3px 0;border-bottom:1px solid var(--line,#1c232c);font-size:13px} .gs-r .m{color:var(--muted,#8a96a3);font-size:11.5px}
+</style>
+<script>
+/* t197u-w2 (аудит Б1): единый сквозной поиск по разделам. © 2026 GREEN-CBR. */
+(function(){
+var REP="%D0%90%D0%9A%D0%A2%D0%A3%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%99_%D0%9E%D0%A2%D0%A7%D0%81%D0%A2.html";
+var IDX=null, loading=null;
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"})[c];});}
+function js(src){return new Promise(function(ok){var e=document.createElement("script");e.src=src;e.onload=function(){ok(true);};e.onerror=function(){ok(false);};document.head.appendChild(e);});}
+function load(){ if(loading) return loading; var I=[], st=document.getElementById("gs-st"); st.textContent="загрузка данных разделов…";
+  var P1=fetch("graph/graph.json").then(function(r){return r.ok?r.json():null;}).then(function(g){ if(!g) return;
+      var K={"company":"компания","program":"программа","person":"персона","agency":"ведомство","research":"исследовательская организация","darpa-program":"программа DARPA","external":"внешний узел"};
+      g.nodes.forEach(function(n){ var dp=n.kind==="darpa-program"; I.push({g:dp?"Программы DARPA":"Граф связей и реестр", t:n.label||n.id, m:(K[n.kind]||n.kind)+(n.country?" · "+n.country:""),
+        u:dp&&n.page?n.page.replace(/^\.\.\//,""):"graph/#node="+encodeURIComponent(n.id), u2:n.reg?"map/#node="+encodeURIComponent(n.id):"", k:((n.label||"")+" "+n.id+" "+(n.aka||[]).join(" ")).toLowerCase()}); }); }).catch(function(){});
+  var P2=js("news-map/data.js").then(function(){ var D=window.NEWS_MAP_DATA; if(!D) return; var F=D.fields, it=F.indexOf("t"), iu=F.indexOf("url"), is=F.indexOf("src"), ip=F.indexOf("pub");
+      D.items.forEach(function(a){ I.push({g:"Новостная карта", t:a[it], m:(a[is]||"")+(a[ip]?" · "+String(a[ip]).slice(0,10).split("-").reverse().join("."):""), u:a[iu]||"", u2:"news-map/#f="+encodeURIComponent(JSON.stringify({q:String(a[it]||"").toLowerCase().slice(0,60)})), k:((a[it]||"")+" "+(a[is]||"")).toLowerCase()}); }); });
+  var P3=js("iid/iid_data.js").then(function(){ var D=window.IID; if(!D||!D.stories) return;
+      D.stories.forEach(function(s){ if(!s.title) return; I.push({g:"Сюжеты ИИД-100", t:s.title, m:(s.sphere||"")+(s.countries?" · "+s.countries.join(", "):"")+(s.response?" · есть ответ":" · без ответа"), u:"iid/#iid-stories", u2:"iid/timeline/", k:(s.title+" "+(s.sphere||"")).toLowerCase()}); }); });
+  var P4=fetch(REP).then(function(r){return r.ok?r.text():"";}).then(function(h){ if(!h) return; var d=new DOMParser().parseFromString(h,"text/html");
+      d.querySelectorAll("details.cbr-block[id]").forEach(function(b){ if(/cbr-day|cbr-new/.test(b.className)) return; var bn=(b.querySelector("summary .cbr-sum-t")||{}).textContent||b.id;
+        b.querySelectorAll("li").forEach(function(li){ if(li.parentElement.closest("li")) return; var a=li.querySelector("a[href^='http']"); if(!a) return;
+          I.push({g:"Актуальный отчёт", t:a.textContent, m:bn, u:a.href, u2:REP+"#"+b.id, k:li.textContent.toLowerCase()}); }); }); }).catch(function(){});
+  loading=Promise.all([P1,P2,P3,P4]).then(function(){ IDX=I; st.textContent="в индексе записей: "+I.length; }); return loading; }
+var ORDER=["Актуальный отчёт","Новостная карта","Сюжеты ИИД-100","Граф связей и реестр","Программы DARPA"], tm=null;
+function run(){ var q=document.getElementById("gs-q").value.trim().toLowerCase(), out=document.getElementById("gs-out"); if(q.length<2){ out.innerHTML=""; return; }
+  load().then(function(){ var G={}, n=0; IDX.forEach(function(x){ if(x.k.indexOf(q)>=0){ (G[x.g]=G[x.g]||[]).push(x); n++; } });
+    var h=ORDER.filter(function(g){return G[g];}).map(function(g){ var L=G[g], sh=L.slice(0,15);
+      return '<div class="gs-g">'+esc(g)+' — '+L.length+'</div>'+sh.map(function(x){ var lk2=x.u2?' · <a href="'+esc(x.u2)+'">'+(g==="Актуальный отчёт"?"в отчёте":g==="Новостная карта"?"на карте":g==="Сюжеты ИИД-100"?"таймлайн":"на Карте реестра")+'</a>':"";
+        return '<div class="gs-r">'+(x.u?'<a href="'+esc(x.u)+'"'+(/^https?:/.test(x.u)?' target="_blank" rel="noopener"':'')+'>'+esc(x.t)+'</a>':esc(x.t))+lk2+'<div class="m">'+esc(x.m)+'</div></div>'; }).join("")+(L.length>15?'<div class="m">показаны первые 15</div>':""); }).join("");
+    out.innerHTML=h||'<p class="muted">Ничего не найдено.</p>'; document.getElementById("gs-st").textContent="найдено: "+n+" (в индексе "+IDX.length+")"; }); }
+var q=document.getElementById("gs-q"); q.addEventListener("input",function(){ clearTimeout(tm); tm=setTimeout(run,250); });
+q.addEventListener("focus",function(){ load(); },{once:true});
+var m=/[?&]q=([^&]+)/.exec(location.search); if(m){ q.value=decodeURIComponent(m[1]); run(); }
+})();
+</script>
 <div class="ops-tiles">
 <a class="ops-tile" href="iid/"><div class="ops-label">Индекс · 0–100</div><h3>ИИД-100</h3><p>Индекс информационного давления на Республику Беларусь: сутки и 7 дней, вклад стран и сфер, сюжеты давления и наш ответ. Расчёт без ИИ — словари, формулы, пороги.</p><span class="go">ОТКРЫТЬ →</span></a>
 <a class="ops-tile" href="news-map/"><div class="ops-label">Карта · сведения по местам</div><h3>Новостная карта</h3><p>Наведите на область — сведения появятся списком. Сфера, сущность, связь, окрас, ОИ 5×5.</p><span class="go">ОТКРЫТЬ →</span></a>

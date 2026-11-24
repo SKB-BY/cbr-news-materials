@@ -116,6 +116,14 @@
   .nm-found.empty #nmfound-t { color:var(--warn); }
   #nmreset { font:600 10.5px/20px var(--mono); text-transform:uppercase; letter-spacing:.06em; padding:0 8px; background:var(--panel-2); color:var(--text); border:1px solid var(--line-2); border-radius:2px; cursor:pointer; }
   #nmreset:hover { border-color:var(--accent); }
+  /* t197u-w2: бейджи сфер, ползунок времени, наборы фильтров, поиск в списках */
+  .sph-b { display:inline-block; font:600 10.5px/16px var(--mono); padding:0 6px; border:1px solid currentColor; border-radius:2px; margin:2px 3px 0 0; }
+  .sph-b.sec { opacity:.7; border-style:dashed; font-weight:400; }
+  .nm-slider { display:flex; align-items:center; gap:6px; font-size:12px; flex-wrap:wrap; } .nm-slider input[type=range] { flex:1; min-width:120px; }
+  .nm-slider button, #nmsets button { font:600 10.5px/20px var(--mono); padding:0 8px; background:var(--panel-2); color:var(--text); border:1px solid var(--line-2); border-radius:2px; cursor:pointer; }
+  .nm-lq { width:100%; margin:4px 0; }
+  .nm-legend { font-size:11px; color:var(--muted); } .nm-legend i { display:inline-block; width:10px; height:10px; margin:0 3px 0 8px; vertical-align:middle; border-radius:2px; }
+  #nmsets-b div { display:flex; gap:6px; align-items:center; margin:3px 0; font-size:12px; }
   .ent-pt { width:12px; height:12px; background:var(--accent); border:2px solid #fff; transform:rotate(45deg); box-shadow:0 0 8px var(--accent); }
 </style>
 </head>
@@ -148,6 +156,7 @@
       <div class="nm-found" id="nmfound"><span id="nmfound-t">—</span> <button type="button" id="nmreset" title="Снять все фильтры, поиск, выбор места и сущности">Сбросить всё</button></div>
       <details id="flt"><summary>Фильтры: сфера, сущность, связь, окрас, субъективность, маркеры рисков, ОИ 5×5, период, категория, раздел, места</summary>
       <h2>Сфера и подфильтр</h2>
+      <input type="search" class="nm-lq" id="sphq" placeholder="Найти в списке сфер…">
       <div class="sph-l" id="sphf"></div>
       <h2>Сущность</h2>
       <div class="row"><select id="etype"></select></div>
@@ -165,6 +174,7 @@
       <h2>Период (дата события, если названа; иначе дата публикации)</h2>
       <div class="row"><input type="date" id="d1"> — <input type="date" id="d2"></div>
       <div class="row" id="presets"></div>
+      <div class="row nm-slider" id="nmslider"></div>
       <h2>Фильтр</h2>
       <div class="row" id="stat"></div>
       <div class="row"><select id="topic"></select><select id="cat"></select><select id="sec"></select></div>
@@ -173,8 +183,11 @@
       <h2>ОИ 5×5 — легенда и фильтр по коду</h2>
       <div id="mx"></div>
       <p class="muted">Буква — надёжность источника (А–Д), цифра — достоверность сведений (1–5). Цвет: 1 — зелёный, 2 — синий, 3 — жёлтый, 4 — серо-оранжевый, 5 — красный; А темнее, Д светлее. Код записи — <b>ОИ со временем</b>, если был пересмотр, иначе <b>Первоначальная ОИ</b>. Нажатие на клетку скрывает / показывает код.</p>
-      <div class="row">Цвет области: <select id="paint"><option value="cur">код первой записи списка</option><option value="best">лучший код среди сюжетов</option></select></div>
+      <div class="row">Цвет области: <select id="paint"><option value="cur">код первой записи списка</option><option value="best">лучший код среди сюжетов</option><option value="dens">плотность: число сведений</option><option value="sent">средний окрас</option><option value="sph">преобладающая сфера</option></select></div>
+      <details id="nmsets"><summary>Наборы фильтров</summary><div id="nmsets-b"></div></details>
+      <div class="row nm-legend" id="paintlg"></div>
       <h2 id="places-h">Места</h2>
+      <input type="search" class="nm-lq" id="placeq" placeholder="Найти место в списке…">
       <ul id="places"></ul>
       </details>
       <div id="cbr-exp-news"></div>
@@ -461,6 +474,88 @@ function more(){ const ul=document.getElementById("stories"); const part=cur.sli
     ["GraphML", ()=>{ const g=graph(); EX.graphml("kontur_news_map", g.nodes, g.edges, meta(), ["label","kind"].concat(NF.filter(f=>f!=="id")), ["type"]); }]
   ], "По текущим фильтрам и выбранному месту. В шапке — срез, время выгрузки и © 2026 GREEN-CBR. GraphML: материалы, места и связи «тот же сюжет».");
 })();
+
+/* t197u-w2 (аудит GREEN, волна 2): основная сфера + теги (решение 1), режимы окраски (2.1), ползунок времени (2.1),
+   наборы фильтров (2.2в), поиск в списках фильтров (2.2г), переходы в Граф связей (2.3а), выгрузка GeoJSON (2.3б). */
+const PRIM=["БПЛА","системы ПВО и РВСН","авиация","вооружение","бронетехника","артиллерийские системы","средства связи и коммуникаций","программное обеспечение специального назначения","армейские джипы","тактика и стратегия"];
+const SPHC={"БПЛА":"#3fa7ff","системы ПВО и РВСН":"#ff6b6b","авиация":"#7dd3fc","вооружение":"#f5a524","бронетехника":"#a3a36b","артиллерийские системы":"#e07b39","средства связи и коммуникаций":"#9b8cff","программное обеспечение специального назначения":"#4fd1a5","армейские джипы":"#c0a080","тактика и стратегия":"#d98cd0"};
+function primSph(cx){ if(!cx||!cx[0]||!cx[0].length) return null; const have=new Set(cx[0].map(a=>a[0])); return PRIM.find(p=>have.has(p))||cx[0][0][0]; }
+cxHtml=function(x){ const cx=x.cx; if(!cx) return ""; const p=primSph(cx);
+  const subs=sp=>[...new Set(cx[0].filter(a=>a[0]===sp&&a[1]).map(a=>a[1]))];
+  const order=[...new Set(cx[0].map(a=>a[0]))].sort((a,b)=>PRIM.indexOf(a)-PRIM.indexOf(b));
+  const sp=order.map(s=>{ const sb=subs(s); return `<span class="sph-b${s===p?"":" sec"}" style="color:${SPHC[s]||"#9cc2ff"}" title="${s===p?"основная сфера":"тег (дополнительная сфера)"}">${esc(s)}${sb.length?" · "+esc(sb.join(", ")):""}</span>`; }).join("");
+  return `<div class="m">${sp}${cx[2]!=null?" "+sentChip(cx[2],cx[1],{h:x.id,lvl:"doc"}):""}${cx[3]!=null?(CX?" "+CX.subjBadge(cx[3],{h:x.id}):` <span class="muted">субъективность ${cx[3]}</span>`):""} ${cx[4].map(r=>`<span class="risk-chip">${r}</span>`).join("")}</div>`; };
+const nx0=nxHtml; nxHtml=function(x){ const NX=window.NODE_INDEX; let h=nx0(x); const l=NX&&(NX.items||{})[x.id];
+  const g=(l||[]).filter(id=>!/^c:/.test(id)); if(g.length) h+=`<div class="m">В Графе связей: ${g.map(id=>{ const n=(NX.nodes||{})[id]||[id]; return `<a href="../graph/#node=${encodeURIComponent(id)}" target="_blank" rel="noopener">${esc(n[0])}</a>`; }).join(", ")}</div>`; return h; };
+const dp0=dpHtml; dpHtml=function(x){ const dp=(window.DARPA_NEWS_TAGS||{})[x.id]; let h=dp0(x); if(dp&&dp.length) h=h.replace(/<\/div>$/, ` · <a href="../graph/#node=${encodeURIComponent("darpa-prog:"+dp[0][0])}" target="_blank" rel="noopener">в Графе связей</a></div>`); return h; };
+// 2.1 режимы окраски
+const cssv=k=>getComputedStyle(document.documentElement).getPropertyValue(k).trim();
+function ramp(t){ const a=[30,58,95], b=[255,107,107]; return "rgb("+a.map((v,i)=>Math.round(v+(b[i]-v)*t)).join(",")+")"; }
+const restyle0=restyle;
+restyle=function(){ if(st.paint==="cur"||st.paint==="best"){ restyle0(); paintLegend(); return; }
+  const mxN=Math.max(1,...layers.map(a=>(per[a.i]||[]).length));
+  layers.forEach(a=>{ const ss=per[a.i]||[], sel=st.place===a.i; let col=null;
+    if(ss.length){
+      if(st.paint==="dens") col=ramp(Math.log(1+ss.length)/Math.log(1+mxN));
+      else if(st.paint==="sent"){ const v=ss.map(s=>s.head.cx&&s.head.cx[2]).filter(v=>v!=null); if(v.length){ const m=Math.round(v.reduce((x,y)=>x+y,0)/v.length); col=cssv(["--s-m2","--s-m1","--s-0","--s-p1","--s-p2"][m+2])||"#8b98a8"; } }
+      else if(st.paint==="sph"){ const c={}; ss.forEach(s=>{ const p=primSph(s.head.cx); if(p) c[p]=(c[p]||0)+1; }); const top=Object.entries(c).sort((x,y)=>y[1]-x[1])[0]; if(top) col=SPHC[top[0]]; } }
+    a.layer.setStyle(col ? {fillColor:col, fillOpacity:a.prec==="country"?.42:.62, color: sel?"#ffffff":"#8b98a8", weight: sel?3:(a.prec==="country"?.8:1.2), dashArray:null}
+                         : {fillOpacity:0, color: sel?"#ffffff":"#5d6b7a", weight: sel?2:.6, dashArray:"3 3"}); });
+  document.querySelectorAll("#places li").forEach(li=>li.classList.toggle("sel", +li.dataset.i===st.place)); paintLegend(); };
+function paintLegend(){ const el=document.getElementById("paintlg"); if(!el) return;
+  if(st.paint==="dens") el.innerHTML=`Плотность: <i style="background:${ramp(0)}"></i>мало <i style="background:${ramp(.5)}"></i> <i style="background:${ramp(1)}"></i>много (шкала логарифмическая)`;
+  else if(st.paint==="sent") el.innerHTML="Средний окрас главных записей сведений: "+SENT.map(([v,l])=>`<i style="background:${cssv(["--s-m2","--s-m1","--s-0","--s-p1","--s-p2"][v+2])}"></i>${esc(l)}`).join("")+"; без разметки — не закрашено";
+  else if(st.paint==="sph") el.innerHTML="Преобладающая основная сфера: "+PRIM.map(p=>`<i style="background:${SPHC[p]}"></i>${esc(p)}`).join("");
+  else el.innerHTML=""; }
+// 2.1 ползунок времени
+(function(){ const box=document.getElementById("nmslider"); if(!box) return; const D0=new Date(minD+"T00:00:00Z"), nd=Math.max(0,Math.round((new Date(maxD+"T00:00:00Z")-D0)/864e5));
+  box.innerHTML=`<span>Окно</span><select id="nmwin"><option value="1">1 сутки</option><option value="7" selected>7 суток</option><option value="30">30 суток</option></select><input type="range" id="nmrange" min="0" max="${nd}" value="${nd}"><button type="button" id="nmplay" title="Прокрутить по дням">▶</button><span id="nmrl"></span>`;
+  const r=document.getElementById("nmrange"), w=document.getElementById("nmwin"), lb=document.getElementById("nmrl"), pb=document.getElementById("nmplay"); let tm=null;
+  function ap(){ const end=addDays(minD,+r.value), start=addDays(end,-(+w.value)+1); st.d1=start<minD?minD:start; st.d2=end; d1.value=st.d1; d2.value=st.d2; lb.textContent=dmy(st.d1)+" — "+dmy(st.d2); pr.querySelectorAll("button").forEach(x=>x.className=""); update(); }
+  r.addEventListener("input",ap); w.addEventListener("change",ap);
+  pb.onclick=()=>{ if(tm){ clearInterval(tm); tm=null; pb.textContent="▶"; return; } if(+r.value>=nd) r.value=Math.max(0,nd-60); pb.textContent="❚❚"; tm=setInterval(()=>{ if(+r.value>=nd){ clearInterval(tm); tm=null; pb.textContent="▶"; return; } r.value=+r.value+1; ap(); },700); }; })();
+// 2.2г поиск в списках фильтров
+document.getElementById("sphq").addEventListener("input",e=>{ const q=e.target.value.trim().toLowerCase(); sphf.querySelectorAll("label").forEach(l=>{ l.style.display=!q||l.textContent.toLowerCase().includes(q)?"":"none"; }); });
+document.getElementById("placeq").addEventListener("input",e=>{ const q=e.target.value.trim().toLowerCase(); document.querySelectorAll("#places li").forEach(li=>{ li.style.display=!q||li.textContent.toLowerCase().includes(q)?"":"none"; }); });
+// 2.2в наборы фильтров: сохранение в браузере (localStorage) и ссылка с набором (#f=…)
+(function(){ const KEY="cbr-news-map-sets", box=document.getElementById("nmsets-b");
+  function snap(){ return {sph:[...st.sph], sent:Object.keys(st.sent).filter(k=>!st.sent[k]), subj:st.subj, risk:[...st.risk], q:st.q, d1:st.d1, d2:st.d2, stat:Object.keys(st.stat).filter(k=>!st.stat[k]), codes:Object.keys(st.codes).filter(k=>!st.codes[k]), topic:st.topic, cat:st.cat, sec:st.sec, onlylift:st.onlylift, onlycur:st.onlycur, paint:st.paint, rtype:st.rtype, rmin:st.rmin}; }
+  function apply(f){ resetAll(); if(!f) return;
+    (f.sph||[]).forEach(k=>{ const i=[...sphf.querySelectorAll("input")].find(x=>x.dataset.k===k); if(i){ i.checked=true; st.sph.add(k); } });
+    (f.sent||[]).forEach(k=>{ st.sent[k]=false; const x=sentf.querySelector(`.s[data-v="${k}"]`); if(x) x.classList.add("off"); });
+    st.subj=f.subj||""; document.getElementById("subj").value=st.subj;
+    (f.risk||[]).forEach(k=>{ st.risk.add(k); const i=rf.querySelector(`input[data-r="${k}"]`); if(i) i.checked=true; });
+    st.q=f.q||""; document.getElementById("q").value=st.q;
+    if(f.d1){ st.d1=f.d1<minD?minD:f.d1; d1.value=st.d1; } if(f.d2){ st.d2=f.d2>maxD?maxD:f.d2; d2.value=st.d2; } pr.querySelectorAll("button").forEach(x=>x.className="");
+    (f.stat||[]).forEach(k=>{ st.stat[k]=false; }); sb.querySelectorAll("label").forEach(l=>{ const k=l.textContent.trim(); l.firstChild.checked=st.stat[k]!==false; });
+    (f.codes||[]).forEach(c=>{ st.codes[c]=false; const td=mx.querySelector(`td.c[data-c="${c}"]`); if(td) td.classList.add("off"); });
+    ["topic","cat","sec"].forEach(k=>{ st[k]=f[k]||""; document.getElementById(k).value=st[k]; });
+    st.onlylift=!!f.onlylift; st.onlycur=!!f.onlycur; document.getElementById("onlylift").checked=st.onlylift; document.getElementById("onlycur").checked=st.onlycur;
+    st.paint=f.paint||"cur"; document.getElementById("paint").value=st.paint; st.rtype=f.rtype||""; rt.value=st.rtype; st.rmin=+f.rmin||1; document.getElementById("rmin").value=String(st.rmin);
+    update(); }
+  function load(){ try{ return JSON.parse(localStorage.getItem(KEY)||"[]"); }catch(e){ return []; } }
+  function save(a){ try{ localStorage.setItem(KEY, JSON.stringify(a)); }catch(e){} }
+  const BUILT=[["Негатив за 7 суток",{sent:["0","1","2","nd"],d1:addDays(maxD,-6),d2:maxD}],["Только подтверждённые новости",{stat:["утверждение","слух"]}],["БПЛА: противодействие",{topic:"Противодействие"}],["ПВО и РВСН",{sph:["системы ПВО и РВСН"]}]];
+  function draw(){ const a=load();
+    box.innerHTML='<div class="muted">Готовые наборы:</div>'+BUILT.map((b,k)=>`<div><button type="button" data-b="${k}">${esc(b[0])}</button></div>`).join("")
+      +'<div class="muted">Сохранённые в этом браузере:</div>'+(a.length?a.map((x,k)=>`<div><button type="button" data-s="${k}">${esc(x.n)}</button> <a href="#" data-d="${k}">удалить</a></div>`).join(""):'<div class="muted">нет</div>')
+      +'<div><input type="text" id="nmsetn" placeholder="Название набора" style="flex:1"><button type="button" id="nmsetsave">Сохранить текущие</button></div><div><button type="button" id="nmsetlink">Ссылка на текущие фильтры</button> <span id="nmsetmsg" class="muted"></span></div>'; }
+  box.addEventListener("click",e=>{ const t=e.target; if(t.dataset.b!=null){ apply(BUILT[+t.dataset.b][1]); } else if(t.dataset.s!=null){ apply(load()[+t.dataset.s].f); }
+    else if(t.dataset.d!=null){ e.preventDefault(); const a=load(); a.splice(+t.dataset.d,1); save(a); draw(); }
+    else if(t.id==="nmsetsave"){ const n=(document.getElementById("nmsetn").value||"").trim()||("Набор "+new Date().toLocaleString("ru-RU")); const a=load(); a.push({n,f:snap()}); save(a); draw(); }
+    else if(t.id==="nmsetlink"){ const u=location.href.split("#")[0]+"#f="+encodeURIComponent(JSON.stringify(snap())); history.replaceState(null,"",u); const m=document.getElementById("nmsetmsg"); if(navigator.clipboard) navigator.clipboard.writeText(u).then(()=>m.textContent="ссылка скопирована",()=>m.textContent="ссылка — в адресной строке"); else m.textContent="ссылка — в адресной строке"; } });
+  draw();
+  const mm=/^#f=(.+)$/.exec(location.hash||""); if(mm){ try{ setTimeout(()=>apply(JSON.parse(decodeURIComponent(mm[1]))),0); }catch(e){} } })();
+// 2.3б выгрузка GeoJSON текущего выбора
+(function(){ const host=document.getElementById("cbr-exp-news"); if(!host) return; const b=document.createElement("button"); b.type="button"; b.textContent="GeoJSON"; b.className="cbr-exp-geo";
+  b.title="Области с сведениями по текущим фильтрам (или выбранная область) — с перечнем материалов";
+  b.onclick=()=>{ const ids=st.place!=null?[st.place]:Object.keys(per).map(Number);
+    const fc={type:"FeatureCollection", name:"kontur_news_map", copyright:"© 2026 GREEN-CBR", generated_at:new Date().toISOString(), news_as_of:D.as_of, oi_as_of:D.oi_as_of,
+      filters:{period:[st.d1,st.d2], sphere:[...st.sph], query:st.q, paint:st.paint},
+      features:ids.filter(i=>areas[i]).map(i=>({type:"Feature", geometry:areas[i].geometry, properties:{name:areas[i].properties.name, precision:areas[i].properties.precision,
+        stories:(per[i]||[]).length, items:(per[i]||[]).map(s=>({id:s.head.id, pub:s.head.pub, title:s.head.t, url:s.head.url, source:s.head.src, oi:s.head.code, status:s.head.st, sphere:primSph(s.head.cx)||""}))}}))};
+    const a=document.createElement("a"); a.href=URL.createObjectURL(new Blob([JSON.stringify(fc)],{type:"application/geo+json"})); a.download="kontur_news_map.geojson"; document.body.appendChild(a); a.click(); a.remove(); };
+  host.appendChild(b); })();
 update();
 window.NEWS_MAP={map};  // для проверки в браузере
 })();
