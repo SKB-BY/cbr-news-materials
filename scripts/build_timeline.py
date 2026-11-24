@@ -19,7 +19,7 @@ import csv, json, re, sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-VERSION = "t171u-timeline-1"
+VERSION = "t197u-timeline-2"
 COPY = "© 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR"
 MINSK = timezone(timedelta(hours=3))
 WINDOW_DAYS = 7          # новости по ключам — в пределах ±7 суток от начала сюжета
@@ -95,6 +95,7 @@ def build(roots):
         x["okr"] = c[2] if c else None
         x["okr_score"] = c[1] if c else None
         x["subj"] = c[3] if c else None
+        x["sp"] = sorted({q[0] for q in (c[0] or []) if q and q[0]}) if c else []   # t197u волна 3: сферы материала (фильтр таймлайна)
         x["_t"] = parse_t(x.get("pub"))
     clusters = [[k for k in c[0]] for c in nm["clusters"]]
     cl_of = {}
@@ -215,7 +216,7 @@ def build(roots):
         okrs = [e["okr"] for e in evs if e.get("okr") is not None and e["kind"] != "oi_change"]
         nstories.append({"id": "news:" + h["id"], "kind": "news", "title": h["t"], "url": h["url"], "t0": evs[0]["t"] if evs else "",
                          "t1": evs[-1]["t"] if evs else "", "n": len(c), "changed": any(items[k].get("oi1") for k in c),
-                         "okr_range": [min(okrs), max(okrs)] if okrs else None, "events": evs})
+                         "okr_range": [min(okrs), max(okrs)] if okrs else None, "sp": sorted({q for k in c for q in items[k].get("sp") or []}), "events": evs})
     nstories.sort(key=lambda s: s["t1"], reverse=True)
     meta = {"version": VERSION, "built_at": datetime.now(MINSK).isoformat(timespec="seconds"), "copyright": COPY,
             "iid_computed_at": iid.get("computed_at"), "iid_method": iid.get("method_version"), "news_as_of": nm.get("as_of"), "oi_as_of": nm.get("oi_as_of"),
@@ -243,6 +244,17 @@ def main():
         print((p.stdout + p.stderr).strip()[-200:], file=sys.stderr)
     except Exception as e:
         print("t197u whatsnew: " + str(e)[:200], file=sys.stderr)
+    # t197u волна 3: каталог «Источники сбора» (SOURCES.md: состояние сбора, КПД лент за 30 суток, архив); журнал — INGEST_LOG.md.
+    # При ошибке в срез кладётся опубликованный SOURCES.md (каталог не откатывается к шаблону).
+    try:
+        import subprocess, shutil
+        p = subprocess.run([sys.executable, str(Path(__file__).with_name("build_sources.py")), roots[0], roots[1] if len(roots) > 1 else roots[0]],
+                           capture_output=True, text=True, timeout=300)
+        print((p.stdout + p.stderr).strip()[-200:], file=sys.stderr)
+        if p.returncode and not (Path(roots[0]) / "SOURCES.md").exists() and (Path(roots[-1]) / "SOURCES.md").exists():
+            shutil.copy2(Path(roots[-1]) / "SOURCES.md", Path(roots[0]) / "SOURCES.md")
+    except Exception as e:
+        print("t197u sources: " + str(e)[:200], file=sys.stderr)
 
 
 if __name__ == "__main__":

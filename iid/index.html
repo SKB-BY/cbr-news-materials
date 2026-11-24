@@ -68,6 +68,7 @@ h2{margin-top:28px;border-bottom:1px solid var(--line);padding-bottom:4px}
     <a href="../data/mention_gap.html">Разрыв упоминаний</a>
     <a href="../SOURCES.html">Источники сбора</a>
     <a href="../darpa-programs/">Программы DARPA</a>
+    <a href="../#search">Поиск</a>
   </nav>
   <span class="cbr-asof" id="cbr-asof"><i></i></span>
 </header>
@@ -104,6 +105,7 @@ h2{margin-top:28px;border-bottom:1px solid var(--line);padding-bottom:4px}
 
 <h2>5. Сюжеты давления и наш ответ</h2>
 <div id="iid-hot"></div>
+<div id="iid-a3"></div>
 <p class="small muted">Сюжет давления — связная группа материалов (72 ч; один язык — шинглы/TF-IDF и общий ключ; разные языки — ≥ 3 общих ключа, из них ≥ 1 число или дата), в которой есть негативный материал (окрас ≤ −0,2). Ответ — первый материал группы «наши официальные ресурсы РБ» с ≥ 2 ключами сюжета в 72 ч от начала.</p>
 <div style="overflow-x:auto"><table class="iid" id="iid-stories"></table></div>
 
@@ -249,6 +251,19 @@ function heat(){
  if(!L.length) x+=' нет.</div>';
  else x+='<ul>'+L.map(({s,left})=>`<li><span class="${left<24?"u":""}">осталось ${nf(left,1)} ч</span> (до ${s.window_until.slice(8,10)}.${s.window_until.slice(5,7)} ${s.window_until.slice(11,16)}) — ${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`:`<span class="io-label">${ioText(s.title,s.io_name)}</span>`} · ${esc(s.countries.join(", "))} · ${esc(s.sphere)}</li>`).join("")+'</ul><span class="small muted">Красным — меньше 24 ч. Расчёт на момент открытия страницы.</span></div>';
  $("iid-hot").innerHTML=x;})();
+
+/* t197u волна 3 (А3): всплески ИИД-100 и сюжеты-события, начавшиеся в эти сутки */
+(function(){ const Z=["спокойно","умеренно","повышенно","высоко","критично"], zi=z=>Z.indexOf(z);
+ const S=(I.series||[]).slice().sort((a,b)=>a.date<b.date?-1:1), out=[];
+ for(let i=1;i<S.length;i++){ const p=S[i-1], c=S[i], d=c.iid-p.iid, zu=zi(c.zone)>zi(p.zone)&&zi(p.zone)>=0;
+   if(d>=10||zu){ const st=(I.stories||[]).filter(s=>{ const t=(s.t0||"").slice(0,10); return t>p.date&&t<=c.date; }); out.push({p,c,d,zu,st}); } }
+ let x='<div class="iid-hot"><b>Всплески ИИД-100 и события</b> — сутки, когда индекс вырос на 10 и более пунктов или перешёл в более высокую зону, и сюжеты давления, начавшиеся в эти сутки:';
+ if(!out.length) x+=' за период ряда всплесков нет.</div>';
+ else x+='<ul>'+out.slice(-10).reverse().map(o=>`<li><b>${dmy(o.c.date)}</b>: ИИД ${o.p.iid} → ${o.c.iid} (${o.d>0?"+":""}${o.d}${o.zu?`; зона «${esc(o.p.zone)}» → «${esc(o.c.zone)}»`:""})`+
+   (o.st.length?'<ul>'+o.st.slice(0,8).map(s=>`<li>${esc((s.t0||"").slice(11,16))} · ${s.url?`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`:`<span class="io-label">${ioText(s.title,s.io_name)}</span>`} · ${esc((s.countries||[]).join(", "))} · ${esc(s.sphere||"")}</li>`).join("")+(o.st.length>8?`<li class="small muted">и ещё ${o.st.length-8}</li>`:"")+'</ul>'
+     :' <span class="small muted">сюжетов давления, начавшихся в эти сутки, в окне данных нет — рост дали отдельные материалы (см. матрицу и ряд).</span>')+'</li>').join("")+
+   '</ul><span class="small muted">Связь «всплеск — событие» — по дате начала сюжета (Europe/Minsk), без утверждения о причинности. Развитие сюжетов — в <a href="timeline/">таймлайне</a>.</span></div>';
+ $("iid-a3").innerHTML=x; })();
 (function(){const th=I.config.negative_threshold;
  $("iid-heat").addEventListener("click",e=>{const td=e.target.closest("td.cell"); if(!td) return; const tr=td.parentElement, tbl=tr.parentElement;
   const ci=[...tr.children].indexOf(td), c=tr.children[0].textContent, hdr=tbl.rows[0].children[ci]; if(!hdr) return; const sp=hdr.textContent;
@@ -256,7 +271,8 @@ function heat(){
   const M=[]; I.stories.forEach(s=>{ if(!all&&s.sphere!==sp) return; (s.materials||[]).forEach(m=>{ if((allc||m.country===c)&&m.S<=th&&m.t.slice(0,10)===I.day.date) M.push({m,s}); });});
   let x='<p><b>'+esc(allc?"все страны":c)+' · '+esc(all?"все сферы":sp)+'</b>: негативных материалов за '+dmy(I.day.date)+', вошедших в сюжеты давления, — '+M.length+'. Число в ячейке учитывает все материалы суток; поимённо показаны только материалы сюжетов (раздел 5).</p>';
   if(M.length) x+='<ul>'+M.map(({m})=>`<li>${m.t.slice(11,16)} · ${m.url?`<a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.title)}</a>`:`<span class="io-label">${ioText(m.title,m.io_name)}</span>`} · ${esc(m.source===IO_HIDDEN?"":m.source)} · ОИ ${esc(m.oi||"—")} · S ${nf(m.S,1)}</li>`).join("")+'</ul>';
-  x+='<p class="small"><a href="timeline/">Таймлайн сюжетов</a> — развитие этих сюжетов.</p>';
+  { const hp=new URLSearchParams(); if(!allc) hp.set("country",c); if(!all) hp.set("sphere",sp); const hs=hp.toString();
+    x+='<p class="small"><a href="timeline/'+(hs?'#'+hs:'')+'">Таймлайн сюжетов'+(hs?' — '+esc(allc?"все страны":c)+' · '+esc(all?"все сферы":sp):'')+'</a> — развитие этих сюжетов (t197u: провал из матрицы с фильтром страны и сферы).</p>'; }
   $("iid-drill").innerHTML=x;});})();
 (function(){const cols=["date","iid","zone","N","M30","B","sumO","nneg","sumS","sumR","C"], kk=["V","O","S","R","C"];
  const rows=I.series.map(s=>Object.assign({},...cols.map(c=>({[c]:s[c]})),...kk.map(k=>({["k"+k]:s.k[k],["p"+k]:s.points[k]}))));

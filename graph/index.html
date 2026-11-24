@@ -41,6 +41,10 @@
   #path ol { padding-left:18px; margin:4px 0; font-size:12.5px; } #path li { cursor:pointer; }
   a { color:var(--accent,#5aa9ff); }
   footer.cbr-copy { font-size:11.5px; padding:10px 0; color:var(--muted,#8b98a8); }
+  /* t197u волна 3 */
+  #side input[type=date] { padding:3px 5px; font:inherit; background:var(--bg-2); color:var(--text); border:1px solid var(--line-2); border-radius:3px; }
+  .g3top ol { margin:4px 0; padding-left:20px; } .g3top li { cursor:pointer; } .g3top li:hover { text-decoration:underline; }
+  .g3cl { display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:4px; vertical-align:middle; }
 </style>
 </head>
 <body>
@@ -59,6 +63,7 @@
     <a href="../data/mention_gap.html">Разрыв упоминаний</a>
     <a href="../SOURCES.html">Источники сбора</a>
     <a href="../darpa-programs/">Программы DARPA</a>
+    <a href="../#search">Поиск</a>
   </nav>
   <span class="cbr-asof" id="cbr-asof"><i></i></span>
 </header>
@@ -74,18 +79,35 @@
     <input type="text" id="pb" list="names" placeholder="До:">
     <div class="row"><button id="pgo">Найти путь</button><button id="pclr">Сбросить</button></div>
     <div id="path" class="m">Путь ищется по включённым ниже видам связей (без учёта направления).</div>
+    <label class="row"><input type="checkbox" id="g3dir"> направленный путь (только по стрелкам: от → до)</label>
     <h2>Узлы</h2>
     <div id="fkind"></div>
     <label class="row"><input type="checkbox" id="iso"> показать узлы без связей</label>
     <h2>Связи</h2>
     <div id="fedge"></div>
     <label class="row"><input type="checkbox" id="okrc" checked> окрашивать связи контура по Окрасу</label>
+    <h2>Фильтры связей</h2>
+    <div class="row">ОИ 5×5 материалов: <select id="g3oi" style="width:auto"><option value="">любой</option><option value="ab1">есть подтверждённые (А1/Б1)</option><option value="r12">есть новости и утверждения (…1, …2)</option><option value="r45">есть слухи и недостоверное (…4, …5)</option></select></div>
+    <div class="row">Сфера: <select id="g3sp" style="width:auto"></select></div>
+    <label class="row"><input type="checkbox" id="g3src2"> только связи, подтверждённые ≥2 источниками (разные домены)</label>
+    <div class="row">Период: с <input type="date" id="g3d1"> по <input type="date" id="g3d2"></div>
+    <label class="row"><input type="checkbox" id="g3dated"> только связи с датой</label>
+    <p class="m">ОИ, сфера и «≥2 источника» считаются по материалам-основаниям связи и есть только у связей контура: при этих фильтрах связи реестра и DARPA скрываются. Период — по датам материалов (контур) и дате основания (DARPA); связи без даты остаются, если не отмечено «только связи с датой».</p>
+    <h2>Анализ</h2>
+    <div class="row">Размер узла: <select id="g3size" style="width:auto"><option value="deg">число связей</option><option value="btw">посредничество (betweenness)</option><option value="pr">влияние (PageRank)</option></select></div>
+    <div class="row">Цвет узла: <select id="g3col" style="width:auto"><option value="kind">вид узла</option><option value="cl">кластер (Louvain)</option></select></div>
+    <div id="g3top" class="m g3top"></div>
+    <div id="g3cls" class="m g3top"></div>
+    <p class="m">Метрики считаются по связям на экране (без учёта направления). Посредничество — через сколько кратчайших путей проходит узел; PageRank — вес узла с учётом веса соседей; кластеры — сообщества Louvain (максимум модулярности).</p>
+    <h2>Скрытые и свёрнутые узлы</h2>
+    <div id="g3hid" class="m">нет</div>
     <h2>Вид</h2>
     <div class="row">Окружение узла: <select id="hop" style="width:auto"><option value="0">весь граф</option><option value="p">только найденный путь</option><option value="1">1 шаг</option><option value="2">2 шага</option><option value="3">3 шага</option></select></div>
     <div class="row">Раскладка: <select id="lay" style="width:auto"><option value="cose">силовая</option><option value="concentric">по числу связей</option><option value="breadthfirst">дерево</option><option value="grid">сетка</option></select><button id="relay">перестроить</button></div>
     <p class="muted">Узлы можно перетаскивать мышью; колесо — масштаб; нажатие на узел или связь — карточка с основанием.</p>
     <h2>Выгрузка</h2>
     <div id="exp"></div>
+    <div class="row">Картинка текущего вида: <button id="g3png">PNG</button><button id="g3svg">SVG</button></div>
     <p class="muted">Полные файлы (собираются при каждой выгрузке среза): <a href="graph.graphml">весь граф GraphML</a> · <a href="registry.graphml">весь реестр GraphML</a> · <a href="graph.json">весь граф JSON</a>.</p>
     <details class="cbr-help-inline" id="cbr-legend"><summary>Справка: окрас, субъективность, ОИ 5×5</summary></details>
     <h2>Правила графа</h2>
@@ -271,6 +293,101 @@ if(EX) EX.panel(document.getElementById("exp"), "Текущий вид:", [
   ["JSON", ()=>{ const s=slice(); EX.json("kontur_graph", {nodes:s.nodes, edges:s.edges}, fmeta()); }],
   ["GraphML", ()=>{ const s=slice(); EX.graphml("kontur_graph", s.nodes, s.edges, fmeta(), NK, EK); }]
 ], "В шапке файла — срез, время выгрузки и © 2026 GREEN-CBR.");
+// ===== t197u волна 3: фильтры ОИ / сфер / периода / ≥2 источников, центральность, кластеры, направленный путь, свёртка узлов, PNG/SVG =====
+const $g=id=>document.getElementById(id);
+const hidden=new Set(), folded={};
+const SPH=[...new Set(E.flatMap(e=>e.sp||[]))].sort();
+$g("g3sp").innerHTML='<option value="">все</option>'+SPH.map(x=>`<option>${esc(x)}</option>`).join("");
+function g3ctr(){ return !!($g("g3oi").value||$g("g3sp").value||$g("g3src2").checked); }
+function g3pass(e){
+  if(hidden.has(e.s)||hidden.has(e.t)) return false;
+  const p1=$g("g3d1").value, p2=$g("g3d2").value, od=$g("g3dated").checked;
+  const a=e.d0||(e.date||"").slice(0,10), b=e.d1||(e.date||"").slice(0,10);
+  if(!a){ if(od) return false; } else { if(p1&&b<p1) return false; if(p2&&a>p2) return false; }
+  if(g3ctr()){ if(e.g!=="контур") return false;
+    const oi=$g("g3oi").value, cs=e.oi||[];
+    if(oi==="ab1"&&!cs.some(c=>c==="А1"||c==="Б1")) return false;
+    if(oi==="r12"&&!cs.some(c=>c[1]==="1"||c[1]==="2")) return false;
+    if(oi==="r45"&&!cs.some(c=>c[1]==="4"||c[1]==="5")) return false;
+    const sp=$g("g3sp").value; if(sp&&!(e.sp||[]).includes(sp)) return false;
+    if($g("g3src2").checked&&(e.nd||0)<2) return false; }
+  return true; }
+const _edgeOn0=edgeOn; edgeOn=function(e){ return _edgeOn0(e)&&g3pass(e); };
+const _vs0=visibleSet; visibleSet=function(){ const r=_vs0(); hidden.forEach(id=>r.ids.delete(id)); r.es=r.es.filter(e=>r.ids.has(e.s)&&r.ids.has(e.t)); return r; };
+const _bfs0=bfs; bfs=function(a,b){ if(!$g("g3dir").checked) return _bfs0(a,b);
+  const prev={}; prev[a]=null; let fr=[a];
+  while(fr.length&&!(b in prev)){ const nx=[]; for(const id of fr) for(const e of (adj[id]||[])){ if(e.s!==id||!edgeOn(e)) continue; const o=e.t; if(o in prev) continue; prev[o]=[id,e]; nx.push(o); } fr=nx; }
+  if(!(b in prev)) return null; const nodes=[b], edges=[]; let cur=b; while(prev[cur]){ edges.unshift(prev[cur][1]); cur=prev[cur][0]; nodes.unshift(cur); } return {nodes, edges}; };
+$g("g3dir").onchange=()=>{ const box=$g("path"); if(!pathIds) box.textContent=$g("g3dir").checked?"Путь ищется по включённым видам связей только по направлению стрелок (от «От» к «До»).":"Путь ищется по включённым ниже видам связей (без учёта направления)."; };
+// Louvain (неориентированный, веса — число связей)
+function louvain(ids, es){ let nodes=[...ids], A=new Map(); nodes.forEach(n=>A.set(n,new Map()));
+  es.forEach(e=>{ if(e.s===e.t) return; const x=A.get(e.s), y=A.get(e.t); if(!x||!y) return; x.set(e.t,(x.get(e.t)||0)+1); y.set(e.s,(y.get(e.s)||0)+1); });
+  const mem={}; nodes.forEach(n=>mem[n]=n);
+  for(let lv=0; lv<8; lv++){ const k=new Map(); let m2=0; nodes.forEach(n=>{ let s=0; A.get(n).forEach(w=>s+=w); k.set(n,s); m2+=s; }); if(!m2) break;
+    const c=new Map(), tot=new Map(); nodes.forEach(n=>{ c.set(n,n); tot.set(n,k.get(n)); });
+    let moved=true, any=false, it=0;
+    while(moved&&it<25){ moved=false; it++;
+      for(const n of nodes){ const cn=c.get(n), kn=k.get(n), wc=new Map();
+        A.get(n).forEach((w,o)=>{ if(o===n) return; const co=c.get(o); wc.set(co,(wc.get(co)||0)+w); });
+        tot.set(cn,tot.get(cn)-kn); let best=cn, bg=(wc.get(cn)||0)-tot.get(cn)*kn/m2;
+        wc.forEach((w,co)=>{ const g=w-tot.get(co)*kn/m2; if(g>bg+1e-12){ bg=g; best=co; } });
+        tot.set(best,tot.get(best)+kn); if(best!==cn){ c.set(n,best); moved=true; any=true; } } }
+    if(!any) break;
+    const NA=new Map(); nodes.forEach(n=>{ const a=c.get(n); if(!NA.has(a)) NA.set(a,new Map()); });
+    nodes.forEach(n=>A.get(n).forEach((w,o)=>{ const a=c.get(n), b=c.get(o), x=NA.get(a); x.set(b,(x.get(b)||0)+w); }));
+    Object.keys(mem).forEach(x=>mem[x]=c.get(mem[x])); nodes=[...NA.keys()]; A=NA; }
+  return mem; }
+const CLP=["#e6194b","#3cb44b","#ffe119","#4363d8","#f58231","#911eb4","#46f0f0","#f032e6","#bcf60c","#fabebe","#008080","#e6beff","#9a6324","#fffac8","#800000","#aaffc3"];
+let g3m=null;
+function g3after(){ const {ids, es}=_vsLast||visibleSet(); const mode=$g("g3size").value, col=$g("g3col").value; let val={}, title="";
+  if(mode==="deg"){ title="числу связей на экране"; cy.nodes().forEach(n=>val[n.id()]=n.degree(false)); }
+  else if(mode==="btw"){ title="посредничеству"; const bc=cy.elements().betweennessCentrality({directed:false}); cy.nodes().forEach(n=>val[n.id()]=bc.betweennessNormalized(n)||0); }
+  else { title="PageRank"; const pr=cy.elements().pageRank({dampingFactor:0.85}); cy.nodes().forEach(n=>val[n.id()]=pr.rank(n)||0); }
+  const mx=Math.max(1e-9,...Object.values(val));
+  let cl=null; if(col==="cl"){ cl=louvain(ids, es); }
+  const csz={}; if(cl) Object.values(cl).forEach(c=>csz[c]=(csz[c]||0)+1);
+  const order=Object.keys(csz).filter(c=>csz[c]>1).sort((a,b)=>csz[b]-csz[a]), cidx={}; order.forEach((c,i)=>cidx[c]=i);
+  cy.batch(()=>cy.nodes().forEach(n=>{ const v=val[n.id()]||0, r=Math.sqrt(v/mx); const d={};
+    if(mode!=="deg"){ d.sz=10+36*r; d.fs=8+16*r; }
+    if(cl){ const i=cidx[cl[n.id()]]; d.c=i!=null&&i<CLP.length?CLP[i]:"#59636e"; }
+    if(Object.keys(d).length) n.data(d); }));
+  const top=Object.keys(val).sort((a,b)=>val[b]-val[a]).slice(0,10).filter(id=>val[id]>0);
+  $g("g3top").innerHTML=top.length?`<b>Топ-10 по ${title}</b><ol>${top.map(id=>`<li data-n="${esc(id)}">${esc(N[id].label)} <span class="m">${mode==="deg"?val[id]:val[id].toFixed(3)}</span></li>`).join("")}</ol>`:"";
+  $g("g3cls").innerHTML=cl?`<b>Кластеры: ${order.length}</b> (из ${ids.size} узлов; одиночные — серые)<ol>${order.slice(0,10).map((c,i)=>{ const mem=Object.keys(cl).filter(x=>cl[x]===c).sort((a,b)=>(N[b].deg||0)-(N[a].deg||0));
+    return `<li data-n="${esc(mem[0])}"><span class="g3cl" style="background:${i<CLP.length?CLP[i]:"#59636e"}"></span>${csz[c]} узл. — ${mem.slice(0,3).map(x=>esc(N[x].label)).join(", ")}</li>`; }).join("")}</ol>`:"";
+  document.querySelectorAll("#g3top li[data-n], #g3cls li[data-n]").forEach(li=>li.onclick=()=>select(li.getAttribute("data-n"))); }
+let _vsLast=null;
+const _draw0=draw; draw=function(relayout){ const pos={}; cy.nodes().forEach(n=>pos[n.id()]=Object.assign({},n.position()));
+  _vsLast=null; _draw0(relayout); _vsLast=visibleSet();
+  if(relayout===false) cy.batch(()=>cy.nodes().forEach(n=>{ const p=pos[n.id()]; if(p) n.position(p); }));
+  try{ g3after(); }catch(err){ console.warn(err); } g3hidUi(); };
+function g3hidUi(){ const box=$g("g3hid"); const roots=Object.keys(folded), solo=[...hidden].filter(id=>!roots.some(r=>folded[r].includes(id)));
+  if(!hidden.size){ box.textContent="нет"; return; }
+  box.innerHTML=roots.map(r=>`<div>свёрнуто у «${esc(N[r].label)}»: ${folded[r].length} <a href="#" data-unf="${esc(r)}">развернуть</a></div>`).join("")+
+    solo.map(id=>`<div>скрыт «${esc(N[id].label)}» <a href="#" data-unh="${esc(id)}">вернуть</a></div>`).join("")+`<div><a href="#" data-unall="1">вернуть все</a></div>`;
+  box.querySelectorAll("a[data-unf]").forEach(a=>a.onclick=ev=>{ ev.preventDefault(); const r=a.getAttribute("data-unf"); folded[r].forEach(x=>hidden.delete(x)); delete folded[r]; draw(); });
+  box.querySelectorAll("a[data-unh]").forEach(a=>a.onclick=ev=>{ ev.preventDefault(); hidden.delete(a.getAttribute("data-unh")); draw(); });
+  box.querySelectorAll("a[data-unall]").forEach(a=>a.onclick=ev=>{ ev.preventDefault(); hidden.clear(); Object.keys(folded).forEach(k=>delete folded[k]); draw(); }); }
+const _show0=showNode; showNode=function(id){ _show0(id); const card=$g("card"), row=card.querySelector(".row"); if(!row||!N[id]) return;
+  row.insertAdjacentHTML("beforeend",`<button data-g3="hide" title="убрать узел с экрана">скрыть узел</button><button data-g3="fold" title="скрыть соседей, у которых других связей на экране нет">свернуть листья</button>`);
+  row.querySelector("[data-g3=hide]").onclick=()=>{ hidden.add(id); card.style.display="none"; draw(false); };
+  row.querySelector("[data-g3=fold]").onclick=()=>{ const lv=(adj[id]||[]).filter(edgeOn).map(e=>e.s===id?e.t:e.s).filter((o,i,a)=>a.indexOf(o)===i&&o!==id&&(adj[o]||[]).filter(edgeOn).every(e=>e.s===id||e.t===id));
+    if(!lv.length){ alert("У узла нет соседей-листьев на экране."); return; } folded[id]=(folded[id]||[]).concat(lv); lv.forEach(x=>hidden.add(x)); draw(false); }; };
+["g3oi","g3sp","g3src2","g3d1","g3d2","g3dated"].forEach(id=>$g(id).addEventListener("change",()=>draw()));
+["g3size","g3col"].forEach(id=>$g(id).addEventListener("change",()=>draw(false)));
+function g3name(ext){ const d=new Date(Date.now()+3*3600e3).toISOString().slice(0,16).replace(/[-:]/g,"").replace("T","_"); return `kontur_graph_${d}.${ext}`; }
+function g3dl(blob, name){ const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download=name; document.body.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(a.href); a.remove(); },500); }
+$g("g3png").onclick=()=>{ const bg=getComputedStyle($g("cy")).backgroundColor||"#0b0f14"; g3dl(cy.png({full:true, scale:2, bg, output:"blob", maxWidth:8000, maxHeight:8000}), g3name("png")); };
+$g("g3svg").onclick=()=>{ const ns=cy.nodes(), bb=cy.elements().boundingBox({includeLabels:true}); const pad=20, W=Math.max(10,bb.w)+2*pad, H=Math.max(10,bb.h)+2*pad, ox=bb.x1-pad, oy=bb.y1-pad;
+  const ex=s=>String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  const as=(document.getElementById("cbr-asof")||{}).textContent||"";
+  let o=`<?xml version="1.0" encoding="UTF-8"?>\n<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W.toFixed(0)} ${(H+40).toFixed(0)}" width="${W.toFixed(0)}" height="${(H+40).toFixed(0)}" font-family="IBM Plex Sans, Arial, sans-serif">\n<title>Граф связей «Контура» — текущий вид</title>\n<desc>${ex("КОНТУР - I-OSINT BY. Узлов "+ns.length+", связей "+cy.edges().length+". "+as.trim()+" Выгрузка "+new Date(Date.now()+3*3600e3).toISOString().slice(0,16).replace("T"," ")+" Europe/Minsk. © 2026 GREEN-CBR. Все права защищены.")}</desc>\n<rect x="0" y="0" width="100%" height="100%" fill="#0b0f14"/>\n<g stroke-opacity="0.75" fill="none">`;
+  cy.edges().forEach(e=>{ const a=e.source().position(), b=e.target().position(); o+=`<line x1="${(a.x-ox).toFixed(1)}" y1="${(a.y-oy).toFixed(1)}" x2="${(b.x-ox).toFixed(1)}" y2="${(b.y-oy).toFixed(1)}" stroke="${e.hasClass("path")?"#ffd400":ex(e.data("c"))}" stroke-width="${e.hasClass("path")?4:1.3}"/>\n`; });
+  o+=`</g>\n<g>`;
+  ns.forEach(n=>{ const p=n.position(), r=(+n.data("sz")||12)/2; o+=`<circle cx="${(p.x-ox).toFixed(1)}" cy="${(p.y-oy).toFixed(1)}" r="${r.toFixed(1)}" fill="${ex(n.data("c"))}"${n.hasClass("path")?' stroke="#ffd400" stroke-width="3"':""}><title>${ex(N[n.id()]?N[n.id()].label:n.id())}</title></circle>\n`;
+    o+=`<text x="${(p.x-ox).toFixed(1)}" y="${(p.y-oy+r+(+n.data("fs")||9)).toFixed(1)}" font-size="${(+n.data("fs")||9).toFixed(1)}" fill="#c9d3df" text-anchor="middle" stroke="#0b0f14" stroke-width="2" paint-order="stroke">${ex(n.data("lb"))}</text>\n`; });
+  o+=`</g>\n<text x="10" y="${(H+28).toFixed(0)}" font-size="12" fill="#8b98a8">${ex("КОНТУР - I-OSINT BY · Граф связей · © 2026 GREEN-CBR. Все права защищены. "+as.trim())}</text>\n</svg>\n`;
+  g3dl(new Blob([o],{type:"image/svg+xml"}), g3name("svg")); };
 { const mm=/^#node=(.+)$/.exec(location.hash||""); if(mm){ focus=decodeURIComponent(mm[1]); document.getElementById("hop").value="1"; } }
 draw();
 if(focus) setTimeout(()=>showNode(focus),300);

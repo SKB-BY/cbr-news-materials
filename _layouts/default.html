@@ -5,7 +5,7 @@
 <meta name="author" content="GREEN-CBR">
 <meta name="copyright" content="© 2026 GREEN-CBR. Все права защищены.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{% assign u = page.url %}{% assign sec = "" %}{% if u contains "%D0%9E%D0%A2%D0%A7" or u contains "ОТЧЁТ" %}{% assign sec = "Актуальный отчёт" %}{% elsif u contains "OI_5x5" %}{% assign sec = "ОИ 5×5" %}{% elsif u contains "/data/oi5x5" %}{% assign sec = "Данные ОИ 5×5" %}{% elsif u contains "mention_gap" %}{% assign sec = "Разрыв упоминаний" %}{% elsif u contains "SOURCES" %}{% assign sec = "Источники сбора" %}{% elsif u contains "darpa-programs" %}{% assign sec = "Программы DARPA" %}{% elsif u != "/" and u != "/index.html" and page.title %}{% assign sec = page.title %}{% endif %}
+{% assign u = page.url %}{% assign sec = "" %}{% if u contains "%D0%9E%D0%A2%D0%A7" or u contains "ОТЧЁТ" %}{% assign sec = "Актуальный отчёт" %}{% elsif u contains "OI_5x5" %}{% assign sec = "ОИ 5×5" %}{% elsif u contains "/data/oi5x5" %}{% assign sec = "Данные ОИ 5×5" %}{% elsif u contains "mention_gap" %}{% assign sec = "Разрыв упоминаний" %}{% elsif u contains "SOURCES" %}{% assign sec = "Источники сбора" %}{% elsif u contains "INGEST_LOG" %}{% assign sec = "Журнал подключений источников" %}{% elsif u contains "darpa-programs" %}{% assign sec = "Программы DARPA" %}{% elsif u != "/" and u != "/index.html" and page.title %}{% assign sec = page.title %}{% endif %}
 {% assign cbr_title = site.title %}{% if sec != "" and sec != site.title %}{% assign cbr_title = site.title | append: " — " | append: sec %}{% endif %}
 <title>{{ cbr_title }}</title>
 <meta name="description" content="{{ site.description }}">
@@ -38,8 +38,9 @@
     <a href="{{ site.baseurl }}/OI_5x5.html"{% if u contains "OI_5x5" %} class="on"{% endif %}>ОИ 5×5</a>
     <a href="{{ site.baseurl }}/data/oi5x5/"{% if u contains "/data/oi5x5" %} class="on"{% endif %}>Данные ОИ 5×5</a>
     <a href="{{ site.baseurl }}/data/mention_gap.html"{% if u contains "mention_gap" %} class="on"{% endif %}>Разрыв упоминаний</a>
-    <a href="{{ site.baseurl }}/SOURCES.html"{% if u contains "SOURCES" %} class="on"{% endif %}>Источники сбора</a>
+    <a href="{{ site.baseurl }}/SOURCES.html"{% if u contains "SOURCES" or u contains "INGEST_LOG" %} class="on"{% endif %}>Источники сбора</a>
     <a href="{{ site.baseurl }}/darpa-programs/"{% if u contains "darpa-programs" %} class="on"{% endif %}>Программы DARPA</a>
+    <a href="{{ site.baseurl }}/#search">Поиск</a>
   </nav>
   <span class="cbr-asof" id="cbr-asof" data-asof="{{ site.data.asof.as_of }}" data-next-export="{{ site.data.asof.next_export }}"><span class="cbr-st"><i class="dot-warn"></i>СБОР ДАННЫХ</span><span class="cbr-last">последнее обновление <b>{{ site.data.asof.as_of }} Europe/Minsk</b></span><span class="cbr-now"><i class="dot-live"></i>актуально <b id="cbr-now">—</b></span><span class="cbr-next" id="cbr-next">До следующего среза <b id="cbr-next-val">—</b></span></span>
 </header>

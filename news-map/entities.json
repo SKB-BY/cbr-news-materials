@@ -13,9 +13,9 @@
 "рф"
 ],
 "country": "Россия",
-"items": 2722,
+"items": 2777,
 "first_seen": "2026-11-12T13:36:02Z",
-"last_seen": "2026-11-24T10:00:16Z"
+"last_seen": "2026-11-24T13:08:21Z"
 },
 {
 "id": "ent_76aae9f116d88191",
@@ -36,9 +36,9 @@
 "Ukrainie"
 ],
 "country": "Украина",
-"items": 2317,
+"items": 2414,
 "first_seen": "2026-11-12T13:36:02Z",
-"last_seen": "2026-11-24T06:33:53Z"
+"last_seen": "2026-11-24T13:08:22Z"
 },
 {
 "id": "ent_b677547c4bb180c5",
@@ -59,9 +59,9 @@
 "американски"
 ],
 "country": "США",
-"items": 1664,
+"items": 1698,
 "first_seen": "2026-11-12T13:36:03Z",
-"last_seen": "2026-11-24T10:00:15Z"
+"last_seen": "2026-11-24T13:07:03Z"
 },
 {
 "id": "ent_ed88ced226e6c399",
@@ -75,9 +75,9 @@
 "ЗСУ"
 ],
 "country": null,
-"items": 897,
+"items": 919,
 "first_seen": "2026-11-12T13:36:13Z",
-"last_seen": "2026-11-24T06:33:53Z"
+"last_seen": "2026-11-24T13:03:10Z"
 },
 {
 "id": "ent_db376d4d7bc4d9da",
@@ -94,9 +94,9 @@
 "КНР"
 ],
 "country": "Китай",
-"items": 749,
+"items": 755,
 "first_seen": "2026-11-12T13:36:03Z",
-"last_seen": "2026-11-24T06:30:36Z"
+"last_seen": "2026-11-24T13:05:48Z"
 },
 {
 "id": "ent_42945ce6b8f796c3",
@@ -108,18 +108,18 @@
 "Irani",
 "Iranian",
 "iraniano",
+"iraniană",
 "iraniens",
 "iranische",
 "Irans",
 "Iranska",
 "iranske",
-"Iranski",
-"iranskih"
+"Iranski"
 ],
 "country": "Иран",
-"items": 694,
+"items": 698,
 "first_seen": "2026-11-12T13:36:10Z",
-"last_seen": "2026-11-24T01:08:16Z"
+"last_seen": "2026-11-24T13:01:36Z"
 },
 {
 "id": "ent_7bc34647511f8698",
@@ -143,9 +143,9 @@
 "НАТО"
 ],
 "country": null,
-"items": 563,
+"items": 587,
 "first_seen": "2026-11-12T13:36:07Z",
-"last_seen": "2026-11-24T05:14:30Z"
+"last_seen": "2026-11-24T13:08:21Z"
 },
 {
 "id": "ent_c32678e4a0ae4599",
@@ -161,37 +161,14 @@
 "Киево",
 "Киевом",
 "Киевска",
+"Киевская",
 "киевские",
-"киевский",
-"киевским"
+"киевский"
 ],
 "country": null,
-"items": 558,
+"items": 575,
 "first_seen": "2026-11-12T13:36:04Z",
-"last_seen": "2026-11-24T05:14:32Z"
-},
-{
-"id": "ent_5ef06d4929a4484b",
-"type": "локация",
-"name": "Москва / Подмосковье",
-"aliases": [
-"Moscow",
-"Москва",
-"Москва / Подмосковье",
-"Москве",
-"москви",
-"Москвитина",
-"Москвич",
-"Москвичи",
-"Москвой",
-"москвою",
-"Москву",
-"Москвы"
-],
-"country": null,
-"items": 431,
-"first_seen": "2026-11-12T13:36:02Z",
-"last_seen": "2026-11-24T10:00:16Z"
+"last_seen": "2026-11-24T13:08:19Z"
 },
 {
 "id": "ent_382bc265ebab3a18",
@@ -212,9 +189,32 @@
 "Британская"
 ],
 "country": "Великобритания",
-"items": 430,
+"items": 447,
 "first_seen": "2026-11-12T13:36:02Z",
-"last_seen": "2026-11-24T05:14:31Z"
+"last_seen": "2026-11-24T13:08:19Z"
+},
+{
+"id": "ent_5ef06d4929a4484b",
+"type": "локация",
+"name": "Москва / Подмосковье",
+"aliases": [
+"Moscow",
+"Москва",
+"Москва / Подмосковье",
+"Москве",
+"москви",
+"Москвитина",
+"Москвич",
+"Москвичи",
+"Москвой",
+"москвою",
+"Москву",
+"Москвы"
+],
+"country": null,
+"items": 438,
+"first_seen": "2026-11-12T13:36:02Z",
+"last_seen": "2026-11-24T13:05:48Z"
 },
 {
 "id": "ent_e7e61f26b8fd6566",
@@ -235,9 +235,9 @@
 "Крымском"
 ],
 "country": null,
-"items": 389,
+"items": 395,
 "first_seen": "2026-11-12T13:36:03Z",
-"last_seen": "2026-11-24T06:33:34Z"
+"last_seen": "2026-11-24T13:03:07Z"
 },
 {
 "id": "ent_461f895cd3ecdc32",
@@ -258,9 +258,9 @@
 "Германию"
 ],
 "country": "Германия",
-"items": 368,
+"items": 382,
 "first_seen": "2026-11-12T13:36:02Z",
-"last_seen": "2026-11-24T05:14:32Z"
+"last_seen": "2026-11-24T13:08:19Z"
 },
 {
 "id": "ent_9e51a7ee6340af7b",
@@ -281,9 +281,9 @@
 "Латвия"
 ],
 "country": null,
-"items": 345,
+"items": 352,
 "first_seen": "2026-11-12T13:36:09Z",
-"last_seen": "2026-11-24T05:14:30Z"
+"last_seen": "2026-11-24T13:08:19Z"
 },
 {
 "id": "ent_bd84f4b50b17b685",
@@ -304,9 +304,9 @@
 "Белоруссией"
 ],
 "country": "Беларусь",
-"items": 341,
+"items": 351,
 "first_seen": "2026-11-12T13:36:02Z",
-"last_seen": "2026-11-24T06:38:51Z"
+"last_seen": "2026-11-24T13:08:19Z"
 },
 {
 "id": "ent_f2dcf230404a0bff",
@@ -319,9 +319,9 @@
 "Герань"
 ],
 "country": "Иран",
-"items": 298,
+"items": 305,
 "first_seen": "2026-11-12T13:36:04Z",
-"last_seen": "2026-11-24T05:14:29Z"
+"last_seen": "2026-11-24T13:08:19Z"
 },
 {
 "id": "ent_934031688aa80182",
@@ -342,9 +342,9 @@
 "Белгородском"
 ],
 "country": null,
-"items": 290,
+"items": 292,
 "first_seen": "2026-11-12T13:36:03Z",
-"last_seen": "2026-11-24T06:33:42Z"
+"last_seen": "2026-11-24T13:03:07Z"
 },
 {
 "id": "ent_422593a4ae9bc429",
@@ -365,9 +365,9 @@
 "israelí"
 ],
 "country": "Израиль",
-"items": 281,
+"items": 286,
 "first_seen": "2026-11-12T13:36:24Z",
-"last_seen": "2026-11-24T01:08:16Z"
+"last_seen": "2026-11-24T13:03:25Z"
 },
 {
 "id": "ent_ff878af017a8077e",
@@ -384,9 +384,9 @@
 "F-16V"
 ],
 "country": null,
-"items": 264,
+"items": 276,
 "first_seen": "2026-11-12T13:36:24Z",
-"last_seen": "2026-11-24T05:14:30Z"
+"last_seen": "2026-11-24T13:08:18Z"
 },
 {
 "id": "ent_43252652072753d2",
@@ -403,9 +403,9 @@
 "Польшу"
 ],
 "country": "Польша",
-"items": 257,
+"items": 269,
 "first_seen": "2026-11-12T13:36:07Z",
-"last_seen": "2026-11-24T05:14:30Z"
+"last_seen": "2026-11-24T13:08:21Z"
 },
 {
 "id": "ent_61cfa3db2af82321",
@@ -425,9 +425,9 @@
 "Брянскую"
 ],
 "country": null,
-"items": 250,
+"items": 254,
 "first_seen": "2026-11-12T13:36:02Z",
-"last_seen": "2026-11-24T06:33:34Z"
+"last_seen": "2026-11-24T13:03:07Z"
 },
 {
 "id": "ent_4596fd0f95231b61",
@@ -446,22 +446,9 @@
 "Курскую"
 ],
 "country": null,
-"items": 250,
+"items": 251,
 "first_seen": "2026-11-12T13:36:03Z",
-"last_seen": "2026-11-24T06:33:37Z"
-},
-{
-"id": "ent_14d1757585b55c53",
-"type": "изделие",
-"name": "Starlink",
-"aliases": [
-"Starlink",
-"старлинк"
-],
-"country": null,
-"items": 234,
-"first_seen": "2026-11-12T13:36:24Z",
-"last_seen": "2026-11-24T05:14:31Z"
+"last_seen": "2026-11-24T11:14:58Z"
 },
 {
 "id": "ent_b0bba4c8f275ffd0",
@@ -477,9 +464,22 @@
 "Пентагону"
 ],
 "country": null,
-"items": 229,
+"items": 243,
 "first_seen": "2026-11-12T13:36:11Z",
-"last_seen": "2026-11-24T03:01:23Z"
+"last_seen": "2026-11-24T13:07:01Z"
+},
+{
+"id": "ent_14d1757585b55c53",
+"type": "изделие",
+"name": "Starlink",
+"aliases": [
+"Starlink",
+"старлинк"
+],
+"country": null,
+"items": 236,
+"first_seen": "2026-11-12T13:36:24Z",
+"last_seen": "2026-11-24T13:00:17Z"
 },
 {
 "id": "ent_d54ac6fc23eb6450",
@@ -500,9 +500,51 @@
 "Румыния / Молдова"
 ],
 "country": null,
-"items": 228,
+"items": 232,
 "first_seen": "2026-11-12T13:36:13Z",
-"last_seen": "2026-11-24T03:01:26Z"
+"last_seen": "2026-11-24T13:02:43Z"
+},
+{
+"id": "ent_72167ac7999f6b9e",
+"type": "организация",
+"name": "Минобороны России",
+"aliases": [
+"Russian Defence Ministry",
+"Russian Defense Ministry",
+"Russian Ministry of Defence",
+"Russian Ministry of Defense",
+"Russia's Defence Ministry",
+"Russia's Defense Ministry",
+"Министерства обороны России",
+"Министерства обороны Российской Федерации",
+"министерства обороны РФ",
+"Министерство обороны России",
+"Министерство обороны РФ",
+"Министерством обороны России"
+],
+"country": null,
+"items": 230,
+"first_seen": "2026-11-12T13:36:03Z",
+"last_seen": "2026-11-24T13:03:10Z"
+},
+{
+"id": "ent_4018d1bb0230fed7",
+"type": "локация",
+"name": "Чёрное море",
+"aliases": [
+"Black Sea",
+"Черно мор",
+"Черного мор",
+"Чёрное мор",
+"Чёрное море",
+"Черном мор",
+"Черному мор",
+"Черным мор"
+],
+"country": null,
+"items": 226,
+"first_seen": "2026-11-12T13:36:06Z",
+"last_seen": "2026-11-24T13:03:07Z"
 },
 {
 "id": "ent_7bfad24d9b0db5c3",
@@ -528,25 +570,6 @@
 "last_seen": "2026-11-23T15:04:16Z"
 },
 {
-"id": "ent_4018d1bb0230fed7",
-"type": "локация",
-"name": "Чёрное море",
-"aliases": [
-"Black Sea",
-"Черно мор",
-"Черного мор",
-"Чёрное мор",
-"Чёрное море",
-"Черном мор",
-"Черному мор",
-"Черным мор"
-],
-"country": null,
-"items": 222,
-"first_seen": "2026-11-12T13:36:06Z",
-"last_seen": "2026-11-24T06:33:42Z"
-},
-{
 "id": "ent_f21e3f20f2f1139f",
 "type": "локация",
 "name": "Санкт-Петербург / Ленобласть",
@@ -565,32 +588,9 @@
 "Петербургу"
 ],
 "country": null,
-"items": 220,
+"items": 223,
 "first_seen": "2026-11-12T13:36:08Z",
-"last_seen": "2026-11-24T03:02:46Z"
-},
-{
-"id": "ent_72167ac7999f6b9e",
-"type": "организация",
-"name": "Минобороны России",
-"aliases": [
-"Russian Defence Ministry",
-"Russian Defense Ministry",
-"Russian Ministry of Defence",
-"Russian Ministry of Defense",
-"Russia's Defence Ministry",
-"Russia's Defense Ministry",
-"Министерства обороны России",
-"Министерства обороны Российской Федерации",
-"министерства обороны РФ",
-"Министерство обороны России",
-"Министерство обороны РФ",
-"Министерством обороны России"
-],
-"country": null,
-"items": 219,
-"first_seen": "2026-11-12T13:36:03Z",
-"last_seen": "2026-11-24T06:34:43Z"
+"last_seen": "2026-11-24T11:14:57Z"
 },
 {
 "id": "ent_88b9583e076cfd82",
@@ -607,9 +607,9 @@
 "Турция"
 ],
 "country": "Турция",
-"items": 215,
+"items": 221,
 "first_seen": "2026-11-12T13:36:06Z",
-"last_seen": "2026-11-24T01:08:17Z"
+"last_seen": "2026-11-24T11:15:13Z"
 },
 {
 "id": "ent_e66a2be7fe38d473",
@@ -627,9 +627,9 @@
 "ВС РФ"
 ],
 "country": null,
-"items": 208,
+"items": 210,
 "first_seen": "2026-11-12T13:36:08Z",
-"last_seen": "2026-11-24T05:04:05Z"
+"last_seen": "2026-11-24T13:03:10Z"
 },
 {
 "id": "ent_a6df7175414b7cd4",
@@ -646,9 +646,9 @@
 "Франција"
 ],
 "country": "Франция",
-"items": 200,
+"items": 207,
 "first_seen": "2026-11-12T13:36:05Z",
-"last_seen": "2026-11-24T01:02:56Z"
+"last_seen": "2026-11-24T13:01:41Z"
 },
 {
 "id": "ent_1b750b2630b2d5ba",
@@ -665,6 +665,23 @@
 "last_seen": "2026-11-24T01:00:16Z"
 },
 {
+"id": "ent_f0b2f8109fce6ff2",
+"type": "локация",
+"name": "Финляндия",
+"aliases": [
+"finland",
+"Finnish",
+"Финляндией",
+"Финляндии",
+"Финляндию",
+"Финляндия"
+],
+"country": "Финляндия",
+"items": 175,
+"first_seen": "2026-11-12T13:36:28Z",
+"last_seen": "2026-11-24T13:01:43Z"
+},
+{
 "id": "ent_90ac71ee611cbc4c",
 "type": "локация",
 "name": "ОАЭ / Саудовская Аравия",
@@ -678,26 +695,9 @@
 "Эмират"
 ],
 "country": null,
-"items": 173,
+"items": 174,
 "first_seen": "2026-11-12T13:36:12Z",
-"last_seen": "2026-11-24T06:34:49Z"
-},
-{
-"id": "ent_f0b2f8109fce6ff2",
-"type": "локация",
-"name": "Финляндия",
-"aliases": [
-"finland",
-"Finnish",
-"Финляндией",
-"Финляндии",
-"Финляндию",
-"Финляндия"
-],
-"country": "Финляндия",
-"items": 169,
-"first_seen": "2026-11-12T13:36:28Z",
-"last_seen": "2026-11-23T19:02:59Z"
+"last_seen": "2026-11-24T11:03:00Z"
 },
 {
 "id": "ent_f4c52f72b16f8fc3",
@@ -718,9 +718,24 @@
 "Йемена"
 ],
 "country": null,
-"items": 166,
+"items": 167,
 "first_seen": "2026-11-12T13:36:26Z",
-"last_seen": "2026-11-24T06:34:49Z"
+"last_seen": "2026-11-24T11:06:08Z"
+},
+{
+"id": "ent_fa323d4f8a738909",
+"type": "организация",
+"name": "US Army",
+"aliases": [
+"U.S. Army",
+"US Army",
+"армии США",
+"Армия США"
+],
+"country": null,
+"items": 161,
+"first_seen": "2026-11-12T13:36:05Z",
+"last_seen": "2026-11-24T13:01:21Z"
 },
 {
 "id": "ent_7c4278bb1c2365e3",
@@ -738,24 +753,9 @@
 "F-35s"
 ],
 "country": null,
-"items": 156,
+"items": 160,
 "first_seen": "2026-11-12T13:36:05Z",
-"last_seen": "2026-11-24T03:01:22Z"
-},
-{
-"id": "ent_fa323d4f8a738909",
-"type": "организация",
-"name": "US Army",
-"aliases": [
-"U.S. Army",
-"US Army",
-"армии США",
-"Армия США"
-],
-"country": null,
-"items": 156,
-"first_seen": "2026-11-12T13:36:05Z",
-"last_seen": "2026-11-24T01:08:17Z"
+"last_seen": "2026-11-24T13:01:33Z"
 },
 {
 "id": "ent_503b5bb2fa38e881",
@@ -772,9 +772,9 @@
 "Вашингтону"
 ],
 "country": null,
-"items": 155,
+"items": 159,
 "first_seen": "2026-11-12T13:36:04Z",
-"last_seen": "2026-11-24T01:03:31Z"
+"last_seen": "2026-11-24T13:03:25Z"
 },
 {
 "id": "ent_7902a5283b8ea891",
@@ -787,9 +787,9 @@
 "ВВС США"
 ],
 "country": null,
-"items": 148,
+"items": 153,
 "first_seen": "2026-11-12T13:36:05Z",
-"last_seen": "2026-11-23T23:01:29Z"
+"last_seen": "2026-11-24T13:01:36Z"
 },
 {
 "id": "ent_8a1fb18f6e513bb6",
@@ -810,25 +810,9 @@
 "Донбассу"
 ],
 "country": null,
-"items": 131,
+"items": 137,
 "first_seen": "2026-11-12T13:36:25Z",
-"last_seen": "2026-11-24T06:33:53Z"
-},
-{
-"id": "ent_82e26e90a014009e",
-"type": "локация",
-"name": "Япония",
-"aliases": [
-"Japan",
-"Japanese",
-"Японией",
-"Японии",
-"Япония"
-],
-"country": "Япония",
-"items": 128,
-"first_seen": "2026-11-12T13:36:06Z",
-"last_seen": "2026-11-23T15:01:35Z"
+"last_seen": "2026-11-24T11:15:01Z"
 },
 {
 "id": "ent_0a0009fc82d3fadc",
@@ -849,9 +833,25 @@
 "Харьковском"
 ],
 "country": null,
-"items": 127,
+"items": 130,
 "first_seen": "2026-11-12T13:36:24Z",
-"last_seen": "2026-11-24T05:04:05Z"
+"last_seen": "2026-11-24T13:01:51Z"
+},
+{
+"id": "ent_82e26e90a014009e",
+"type": "локация",
+"name": "Япония",
+"aliases": [
+"Japan",
+"Japanese",
+"Японией",
+"Японии",
+"Япония"
+],
+"country": "Япония",
+"items": 130,
+"first_seen": "2026-11-12T13:36:06Z",
+"last_seen": "2026-11-24T11:15:09Z"
 },
 {
 "id": "ent_e5f190ccc39e3fdd",
@@ -872,9 +872,29 @@
 "Днепропетровской"
 ],
 "country": null,
-"items": 115,
+"items": 121,
 "first_seen": "2026-11-12T13:36:07Z",
-"last_seen": "2026-11-23T19:09:03Z"
+"last_seen": "2026-11-24T13:02:47Z"
+},
+{
+"id": "ent_7ca60072d6c35a72",
+"type": "локация",
+"name": "Калининград",
+"aliases": [
+"Kaliningrad",
+"Калининград",
+"Калининграда",
+"Калининграде",
+"Калининградска",
+"Калининградская",
+"Калининградской",
+"Калининградскую",
+"Калининграду"
+],
+"country": null,
+"items": 118,
+"first_seen": "2026-11-12T13:37:05Z",
+"last_seen": "2026-11-24T13:01:52Z"
 },
 {
 "id": "ent_ef0cfce175421f33",
@@ -895,29 +915,32 @@
 "канадскими"
 ],
 "country": "Канада",
-"items": 114,
+"items": 116,
 "first_seen": "2026-11-12T13:36:04Z",
-"last_seen": "2026-11-23T21:08:41Z"
+"last_seen": "2026-11-24T13:01:31Z"
 },
 {
-"id": "ent_7ca60072d6c35a72",
+"id": "ent_a22db82c40874406",
 "type": "локация",
-"name": "Калининград",
+"name": "Запорожье / Запорожская обл.",
 "aliases": [
-"Kaliningrad",
-"Калининград",
-"Калининграда",
-"Калининграде",
-"Калининградска",
-"Калининградская",
-"Калининградской",
-"Калининградскую",
-"Калининграду"
+"Zaporizhia",
+"zaporizhzhia",
+"Запорожие",
+"Запорожск",
+"Запорожская",
+"Запорожского",
+"Запорожское",
+"Запорожской",
+"Запорожском",
+"Запорожскую",
+"Запорожье",
+"Запорожье / Запорожская обл."
 ],
 "country": null,
-"items": 113,
-"first_seen": "2026-11-12T13:37:05Z",
-"last_seen": "2026-11-24T03:02:46Z"
+"items": 115,
+"first_seen": "2026-11-12T13:36:26Z",
+"last_seen": "2026-11-24T13:08:20Z"
 },
 {
 "id": "ent_cc536968c15118bb",
@@ -928,32 +951,9 @@
 "Lockheed Martin"
 ],
 "country": "США",
-"items": 108,
+"items": 109,
 "first_seen": "2026-11-12T13:36:14Z",
-"last_seen": "2026-11-23T21:08:42Z"
-},
-{
-"id": "ent_a22db82c40874406",
-"type": "локация",
-"name": "Запорожье / Запорожская обл.",
-"aliases": [
-"zaporizhzhia",
-"Запорожская",
-"Запорожского",
-"Запорожское",
-"Запорожской",
-"Запорожском",
-"Запорожскую",
-"Запорожье",
-"Запорожье / Запорожская обл.",
-"Запорожью",
-"Запорожья",
-"Запоріж"
-],
-"country": null,
-"items": 103,
-"first_seen": "2026-11-12T13:36:26Z",
-"last_seen": "2026-11-24T06:33:41Z"
+"last_seen": "2026-11-24T13:01:21Z"
 },
 {
 "id": "ent_16ae998a15fd862f",
@@ -972,6 +972,26 @@
 "items": 103,
 "first_seen": "2026-11-12T13:36:20Z",
 "last_seen": "2026-11-24T05:05:11Z"
+},
+{
+"id": "ent_0c36b0d6c4e30d69",
+"type": "локация",
+"name": "Берлин",
+"aliases": [
+"Berlin",
+"Берлин",
+"Берлина",
+"Берлине",
+"Берлином",
+"Берлинская",
+"Берлинского",
+"Берлинской",
+"Берлину"
+],
+"country": null,
+"items": 101,
+"first_seen": "2026-11-12T13:36:13Z",
+"last_seen": "2026-11-24T13:08:19Z"
 },
 {
 "id": "ent_b9e63951ba06e9db",
@@ -1007,9 +1027,9 @@
 "байрактар"
 ],
 "country": "Турция",
-"items": 94,
+"items": 96,
 "first_seen": "2026-11-12T13:36:28Z",
-"last_seen": "2026-11-23T23:03:31Z"
+"last_seen": "2026-11-24T11:09:02Z"
 },
 {
 "id": "ent_eb8cb296fc293dc4",
@@ -1030,29 +1050,9 @@
 "одесском"
 ],
 "country": null,
-"items": 94,
+"items": 96,
 "first_seen": "2026-11-12T13:36:02Z",
-"last_seen": "2026-11-24T03:01:26Z"
-},
-{
-"id": "ent_0c36b0d6c4e30d69",
-"type": "локация",
-"name": "Берлин",
-"aliases": [
-"Berlin",
-"Берлин",
-"Берлина",
-"Берлине",
-"Берлином",
-"Берлинская",
-"Берлинского",
-"Берлинской",
-"Берлину"
-],
-"country": null,
-"items": 93,
-"first_seen": "2026-11-12T13:36:13Z",
-"last_seen": "2026-11-23T21:07:30Z"
+"last_seen": "2026-11-24T13:03:10Z"
 },
 {
 "id": "ent_e741f5958b08543d",
@@ -1072,9 +1072,23 @@
 "Южной Коре"
 ],
 "country": "Южная Корея",
-"items": 92,
+"items": 95,
 "first_seen": "2026-11-12T13:36:06Z",
-"last_seen": "2026-11-24T05:09:03Z"
+"last_seen": "2026-11-24T11:15:02Z"
+},
+{
+"id": "ent_54a6fa8993794d9e",
+"type": "компания",
+"name": "Boeing Defense, Space & Security",
+"aliases": [
+"Boeing",
+"Boeing Defense, Space & Security",
+"oeing"
+],
+"country": "США",
+"items": 85,
+"first_seen": "2026-11-12T13:36:45Z",
+"last_seen": "2026-11-24T13:01:32Z"
 },
 {
 "id": "ent_9e17bf96d4b332eb",
@@ -1093,23 +1107,45 @@
 "Австралия"
 ],
 "country": "Австралия",
-"items": 81,
+"items": 82,
 "first_seen": "2026-11-12T13:36:10Z",
-"last_seen": "2026-11-23T23:01:33Z"
+"last_seen": "2026-11-24T13:00:07Z"
 },
 {
-"id": "ent_54a6fa8993794d9e",
-"type": "компания",
-"name": "Boeing Defense, Space & Security",
+"id": "ent_a02f859093a4e63a",
+"type": "организация",
+"name": "СБУ",
 "aliases": [
-"Boeing",
-"Boeing Defense, Space & Security",
-"oeing"
+"SBU",
+"Security Service of Ukraine",
+"СБУ"
 ],
-"country": "США",
+"country": null,
+"items": 82,
+"first_seen": "2026-11-12T13:36:19Z",
+"last_seen": "2026-11-24T13:00:17Z"
+},
+{
+"id": "ent_1fe07bc04101d05b",
+"type": "локация",
+"name": "Минск",
+"aliases": [
+"Minsk",
+"Минск",
+"Минска",
+"Минская",
+"Минске",
+"Минского",
+"Минское",
+"Минской",
+"Минском",
+"минскому",
+"Минску"
+],
+"country": null,
 "items": 80,
-"first_seen": "2026-11-12T13:36:45Z",
-"last_seen": "2026-11-24T10:00:41Z"
+"first_seen": "2026-11-12T13:36:02Z",
+"last_seen": "2026-11-24T13:07:03Z"
 },
 {
 "id": "ent_7c6e825e936897ed",
@@ -1151,9 +1187,29 @@
 "Евросоюзу"
 ],
 "country": null,
-"items": 79,
+"items": 80,
 "first_seen": "2026-11-12T13:36:08Z",
-"last_seen": "2026-11-24T01:00:13Z"
+"last_seen": "2026-11-24T11:15:05Z"
+},
+{
+"id": "ent_9507678c3635d317",
+"type": "локация",
+"name": "Лондон",
+"aliases": [
+"London",
+"Лондон",
+"Лондона",
+"Лондоне",
+"Лондоном",
+"лондонские",
+"лондонского",
+"лондонской",
+"лондонскую"
+],
+"country": null,
+"items": 79,
+"first_seen": "2026-11-12T13:36:20Z",
+"last_seen": "2026-11-24T11:14:58Z"
 },
 {
 "id": "ent_9f72e91636eefa2e",
@@ -1172,75 +1228,9 @@
 "Татарстані"
 ],
 "country": null,
-"items": 78,
+"items": 79,
 "first_seen": "2026-11-12T13:36:09Z",
-"last_seen": "2026-11-23T19:03:05Z"
-},
-{
-"id": "ent_9507678c3635d317",
-"type": "локация",
-"name": "Лондон",
-"aliases": [
-"London",
-"Лондон",
-"Лондона",
-"Лондоне",
-"Лондоном",
-"лондонские",
-"лондонского",
-"лондонской",
-"лондонскую"
-],
-"country": null,
-"items": 77,
-"first_seen": "2026-11-12T13:36:20Z",
-"last_seen": "2026-11-24T10:00:15Z"
-},
-{
-"id": "ent_a02f859093a4e63a",
-"type": "организация",
-"name": "СБУ",
-"aliases": [
-"SBU",
-"Security Service of Ukraine",
-"СБУ"
-],
-"country": null,
-"items": 77,
-"first_seen": "2026-11-12T13:36:19Z",
-"last_seen": "2026-11-24T01:03:31Z"
-},
-{
-"id": "ent_1fe07bc04101d05b",
-"type": "локация",
-"name": "Минск",
-"aliases": [
-"Minsk",
-"Минск",
-"Минска",
-"Минская",
-"Минске",
-"Минского",
-"Минское",
-"Минской",
-"Минску"
-],
-"country": null,
-"items": 76,
-"first_seen": "2026-11-12T13:36:02Z",
-"last_seen": "2026-11-23T21:07:14Z"
-},
-{
-"id": "ent_ea737724a72411d4",
-"type": "изделие",
-"name": "Starshield",
-"aliases": [
-"Starshield"
-],
-"country": null,
-"items": 75,
-"first_seen": "2026-11-12T13:36:58Z",
-"last_seen": "2026-11-24T05:14:31Z"
+"last_seen": "2026-11-24T11:14:59Z"
 },
 {
 "id": "ent_cbecc516f76ba895",
@@ -1255,9 +1245,21 @@
 "Копенгаген"
 ],
 "country": "Дания",
-"items": 74,
+"items": 76,
 "first_seen": "2026-11-12T13:36:08Z",
-"last_seen": "2026-11-23T23:01:29Z"
+"last_seen": "2026-11-24T13:01:43Z"
+},
+{
+"id": "ent_ea737724a72411d4",
+"type": "изделие",
+"name": "Starshield",
+"aliases": [
+"Starshield"
+],
+"country": null,
+"items": 75,
+"first_seen": "2026-11-12T13:36:58Z",
+"last_seen": "2026-11-24T05:14:31Z"
 },
 {
 "id": "ent_c9797c9635450715",
@@ -1269,9 +1271,9 @@
 "ВМС США"
 ],
 "country": null,
-"items": 72,
+"items": 73,
 "first_seen": "2026-11-12T13:36:10Z",
-"last_seen": "2026-11-23T21:08:42Z"
+"last_seen": "2026-11-24T11:15:09Z"
 },
 {
 "id": "ent_0c7791d169d924d7",
@@ -1290,9 +1292,25 @@
 "Міністерстві оборони України"
 ],
 "country": null,
-"items": 70,
+"items": 71,
 "first_seen": "2026-11-12T13:36:26Z",
-"last_seen": "2026-11-24T05:14:31Z"
+"last_seen": "2026-11-24T11:15:02Z"
+},
+{
+"id": "ent_86a408b5b14fa5a6",
+"type": "изделие",
+"name": "MIM-104 Patriot",
+"aliases": [
+"MIM-104 Patriot",
+"PAC-2",
+"PAC-3",
+"patriot",
+"ЗРК Patriot"
+],
+"country": null,
+"items": 70,
+"first_seen": "2026-11-12T13:36:04Z",
+"last_seen": "2026-11-24T13:03:25Z"
 },
 {
 "id": "ent_7af60e51312772aa",
@@ -1307,9 +1325,39 @@
 "Бундесверу"
 ],
 "country": null,
-"items": 68,
+"items": 69,
 "first_seen": "2026-11-12T13:36:07Z",
-"last_seen": "2026-11-23T23:01:32Z"
+"last_seen": "2026-11-24T13:00:17Z"
+},
+{
+"id": "ent_1299ca791a1d8196",
+"type": "организация",
+"name": "Госкомвоенпром Беларуси",
+"aliases": [
+"Госкомвоенпром",
+"Госкомвоенпром Беларуси",
+"Госкомвоенпрома",
+"Государственного военно-промышленного комитета"
+],
+"country": "Беларусь",
+"items": 68,
+"first_seen": "2026-11-12T13:37:00Z",
+"last_seen": "2026-11-24T13:05:51Z"
+},
+{
+"id": "ent_f4de600127d3237b",
+"type": "изделие",
+"name": "JAS 39 Gripen",
+"aliases": [
+"arıyla",
+"Gripen",
+"JAS 39 Gripen",
+"Грипен"
+],
+"country": null,
+"items": 67,
+"first_seen": "2026-11-12T15:15:37Z",
+"last_seen": "2026-11-24T13:01:44Z"
 },
 {
 "id": "ent_469aac1a6973d563",
@@ -1351,24 +1399,9 @@
 "казахстанской"
 ],
 "country": "Казахстан",
-"items": 65,
+"items": 66,
 "first_seen": "2026-11-12T15:17:46Z",
-"last_seen": "2026-11-23T23:01:31Z"
-},
-{
-"id": "ent_1299ca791a1d8196",
-"type": "организация",
-"name": "Госкомвоенпром Беларуси",
-"aliases": [
-"Госкомвоенпром",
-"Госкомвоенпром Беларуси",
-"Госкомвоенпрома",
-"Государственного военно-промышленного комитета"
-],
-"country": "Беларусь",
-"items": 65,
-"first_seen": "2026-11-12T13:37:00Z",
-"last_seen": "2026-11-23T23:01:33Z"
+"last_seen": "2026-11-24T11:03:37Z"
 },
 {
 "id": "ent_e075b2ff37cd5b37",
@@ -1381,24 +1414,9 @@
 "Callen-Lenz"
 ],
 "country": "Великобритания",
-"items": 62,
+"items": 64,
 "first_seen": "2026-11-12T13:36:05Z",
-"last_seen": "2026-11-23T15:02:00Z"
-},
-{
-"id": "ent_f4de600127d3237b",
-"type": "изделие",
-"name": "JAS 39 Gripen",
-"aliases": [
-"arıyla",
-"Gripen",
-"JAS 39 Gripen",
-"Грипен"
-],
-"country": null,
-"items": 61,
-"first_seen": "2026-11-12T15:15:37Z",
-"last_seen": "2026-11-24T05:14:29Z"
+"last_seen": "2026-11-24T11:03:39Z"
 },
 {
 "id": "ent_868a15ba4aeb446a",
@@ -1409,38 +1427,9 @@
 "Northrop Grumman"
 ],
 "country": "США",
-"items": 61,
+"items": 63,
 "first_seen": "2026-11-12T13:36:05Z",
-"last_seen": "2026-11-23T09:14:19Z"
-},
-{
-"id": "ent_86a408b5b14fa5a6",
-"type": "изделие",
-"name": "MIM-104 Patriot",
-"aliases": [
-"MIM-104 Patriot",
-"PAC-2",
-"PAC-3",
-"patriot",
-"ЗРК Patriot"
-],
-"country": null,
-"items": 60,
-"first_seen": "2026-11-12T13:36:04Z",
-"last_seen": "2026-11-24T01:01:44Z"
-},
-{
-"id": "ent_108f5c34b430d90e",
-"type": "компания",
-"name": "Airbus Defence and Space",
-"aliases": [
-"Airbus",
-"Airbus Defence and Space"
-],
-"country": "Франция/Германия/Испания",
-"items": 54,
-"first_seen": "2026-11-12T13:36:14Z",
-"last_seen": "2026-11-23T15:04:07Z"
+"last_seen": "2026-11-24T13:01:21Z"
 },
 {
 "id": "ent_ce24835bf268b31a",
@@ -1456,9 +1445,54 @@
 "Брюсселі"
 ],
 "country": null,
-"items": 53,
+"items": 57,
 "first_seen": "2026-11-12T15:17:50Z",
-"last_seen": "2026-11-24T05:14:30Z"
+"last_seen": "2026-11-24T13:01:37Z"
+},
+{
+"id": "ent_108f5c34b430d90e",
+"type": "компания",
+"name": "Airbus Defence and Space",
+"aliases": [
+"Airbus",
+"Airbus Defence and Space"
+],
+"country": "Франция/Германия/Испания",
+"items": 56,
+"first_seen": "2026-11-12T13:36:14Z",
+"last_seen": "2026-11-24T11:03:36Z"
+},
+{
+"id": "ent_648194e6a050cdd8",
+"type": "локация",
+"name": "Париж",
+"aliases": [
+"Paris",
+"Париж",
+"Парижа",
+"Париже",
+"Парижем",
+"парижском",
+"Парижу"
+],
+"country": null,
+"items": 53,
+"first_seen": "2026-11-12T13:36:18Z",
+"last_seen": "2026-11-24T11:02:56Z"
+},
+{
+"id": "ent_82d695889d3fa2fa",
+"type": "организация",
+"name": "ВКС России",
+"aliases": [
+"ВКС",
+"ВКС России",
+"ВКС рф"
+],
+"country": null,
+"items": 53,
+"first_seen": "2026-11-12T13:36:07Z",
+"last_seen": "2026-11-24T13:01:39Z"
 },
 {
 "id": "ent_9ab08c2213ed942f",
@@ -1491,24 +1525,6 @@
 "last_seen": "2026-11-23T23:02:41Z"
 },
 {
-"id": "ent_648194e6a050cdd8",
-"type": "локация",
-"name": "Париж",
-"aliases": [
-"Paris",
-"Париж",
-"Парижа",
-"Париже",
-"Парижем",
-"парижском",
-"Парижу"
-],
-"country": null,
-"items": 52,
-"first_seen": "2026-11-12T13:36:18Z",
-"last_seen": "2026-11-21T23:09:19Z"
-},
-{
 "id": "ent_9fd39938cc6ffa53",
 "type": "компания",
 "name": "Thales",
@@ -1521,33 +1537,6 @@
 "last_seen": "2026-11-23T23:03:05Z"
 },
 {
-"id": "ent_82d695889d3fa2fa",
-"type": "организация",
-"name": "ВКС России",
-"aliases": [
-"ВКС",
-"ВКС России",
-"ВКС рф"
-],
-"country": null,
-"items": 51,
-"first_seen": "2026-11-12T13:36:07Z",
-"last_seen": "2026-11-23T23:01:27Z"
-},
-{
-"id": "ent_f604e339566c57c9",
-"type": "компания",
-"name": "Leonardo",
-"aliases": [
-"eonardo’",
-"Leonardo"
-],
-"country": "Италия",
-"items": 47,
-"first_seen": "2026-11-12T13:36:10Z",
-"last_seen": "2026-11-23T15:03:32Z"
-},
-{
 "id": "ent_57f92d294a871254",
 "type": "локация",
 "name": "КНДР",
@@ -1558,9 +1547,9 @@
 "Северной Коре"
 ],
 "country": "КНДР",
-"items": 47,
+"items": 49,
 "first_seen": "2026-11-12T13:36:35Z",
-"last_seen": "2026-11-24T03:01:30Z"
+"last_seen": "2026-11-24T11:15:09Z"
 },
 {
 "id": "ent_f7a9f659b73e4140",
@@ -1572,9 +1561,22 @@
 "ГУР"
 ],
 "country": null,
-"items": 47,
+"items": 49,
 "first_seen": "2026-11-12T13:36:17Z",
-"last_seen": "2026-11-23T19:01:50Z"
+"last_seen": "2026-11-24T11:15:10Z"
+},
+{
+"id": "ent_f604e339566c57c9",
+"type": "компания",
+"name": "Leonardo",
+"aliases": [
+"eonardo’",
+"Leonardo"
+],
+"country": "Италия",
+"items": 48,
+"first_seen": "2026-11-12T13:36:10Z",
+"last_seen": "2026-11-24T11:15:13Z"
 },
 {
 "id": "ent_d380c846b4a97fed",
@@ -1587,12 +1589,13 @@
 "F-15EX",
 "F-15EXs",
 "F-15J",
-"F-15K"
+"F-15K",
+"F-15s"
 ],
 "country": null,
-"items": 45,
+"items": 47,
 "first_seen": "2026-11-12T15:15:56Z",
-"last_seen": "2026-11-21T15:01:44Z"
+"last_seen": "2026-11-24T11:03:39Z"
 },
 {
 "id": "ent_b89569b4c89018bb",
@@ -1602,9 +1605,9 @@
 "Helsing"
 ],
 "country": "Германия",
-"items": 45,
+"items": 47,
 "first_seen": "2026-11-12T13:36:40Z",
-"last_seen": "2026-11-23T23:01:32Z"
+"last_seen": "2026-11-24T13:01:44Z"
 },
 {
 "id": "ent_07ff4090ab029069",
@@ -1616,9 +1619,21 @@
 "Т-14 Армата"
 ],
 "country": null,
-"items": 43,
+"items": 45,
 "first_seen": "2026-11-15T16:10:49Z",
-"last_seen": "2026-11-24T05:11:09Z"
+"last_seen": "2026-11-24T13:03:26Z"
+},
+{
+"id": "ent_fb9d115f2c2a9a7b",
+"type": "компания",
+"name": "UK Defence",
+"aliases": [
+"UK Defence"
+],
+"country": null,
+"items": 45,
+"first_seen": "2026-11-12T15:16:22Z",
+"last_seen": "2026-11-24T13:01:36Z"
 },
 {
 "id": "ent_3ee9da32705eeaab",
@@ -1637,16 +1652,17 @@
 "last_seen": "2026-11-21T13:03:10Z"
 },
 {
-"id": "ent_fb9d115f2c2a9a7b",
-"type": "компания",
-"name": "UK Defence",
+"id": "ent_2ea283e971c4fe16",
+"type": "изделие",
+"name": "IRIS-T",
 "aliases": [
-"UK Defence"
+"IRIS-T",
+"rus gi"
 ],
 "country": null,
 "items": 42,
-"first_seen": "2026-11-12T15:16:22Z",
-"last_seen": "2026-11-24T05:14:31Z"
+"first_seen": "2026-11-12T15:17:41Z",
+"last_seen": "2026-11-24T13:08:18Z"
 },
 {
 "id": "ent_b22d370535a1618d",
@@ -1660,6 +1676,36 @@
 "items": 42,
 "first_seen": "2026-11-12T13:36:30Z",
 "last_seen": "2026-11-23T15:00:12Z"
+},
+{
+"id": "ent_63d8d9b08e5add2f",
+"type": "локация",
+"name": "Балтийское море",
+"aliases": [
+"Baltic Sea",
+"Балтийским мор",
+"Балтийско мор",
+"Балтийского мор",
+"Балтийское мор",
+"Балтийское море",
+"Балтийском мор"
+],
+"country": null,
+"items": 42,
+"first_seen": "2026-11-12T13:36:10Z",
+"last_seen": "2026-11-24T13:03:18Z"
+},
+{
+"id": "ent_78f1ace85264a541",
+"type": "компания",
+"name": "Saab",
+"aliases": [
+"Saab"
+],
+"country": "Швеция",
+"items": 41,
+"first_seen": "2026-11-12T13:36:05Z",
+"last_seen": "2026-11-24T13:01:31Z"
 },
 {
 "id": "ent_a61a29f6fd9a57a6",
@@ -1680,19 +1726,6 @@
 "last_seen": "2026-11-22T13:03:17Z"
 },
 {
-"id": "ent_2ea283e971c4fe16",
-"type": "изделие",
-"name": "IRIS-T",
-"aliases": [
-"IRIS-T",
-"rus gi"
-],
-"country": null,
-"items": 39,
-"first_seen": "2026-11-12T15:17:41Z",
-"last_seen": "2026-11-23T15:02:01Z"
-},
-{
 "id": "ent_3fbad649a9f64883",
 "type": "изделие",
 "name": "С-400",
@@ -1707,33 +1740,16 @@
 "last_seen": "2026-11-24T05:14:29Z"
 },
 {
-"id": "ent_78f1ace85264a541",
+"id": "ent_ac7bda7536b13c9b",
 "type": "компания",
-"name": "Saab",
+"name": "Rheinmetall",
 "aliases": [
-"Saab"
+"Rheinmetall"
 ],
-"country": "Швеция",
+"country": "Германия",
 "items": 39,
-"first_seen": "2026-11-12T13:36:05Z",
-"last_seen": "2026-11-24T10:00:16Z"
-},
-{
-"id": "ent_63d8d9b08e5add2f",
-"type": "локация",
-"name": "Балтийское море",
-"aliases": [
-"Baltic Sea",
-"Балтийско мор",
-"Балтийского мор",
-"Балтийское мор",
-"Балтийское море",
-"Балтийском мор"
-],
-"country": null,
-"items": 39,
-"first_seen": "2026-11-12T13:36:10Z",
-"last_seen": "2026-11-23T19:09:02Z"
+"first_seen": "2026-11-12T13:36:13Z",
+"last_seen": "2026-11-24T11:02:45Z"
 },
 {
 "id": "ent_cd75b7acacf53304",
@@ -1773,16 +1789,16 @@
 "last_seen": "2026-11-23T23:01:27Z"
 },
 {
-"id": "ent_ac7bda7536b13c9b",
+"id": "ent_ed380c18bfbba014",
 "type": "компания",
-"name": "Rheinmetall",
+"name": "Quantum-Systems",
 "aliases": [
-"Rheinmetall"
+"Quantum Systems"
 ],
 "country": "Германия",
 "items": 37,
-"first_seen": "2026-11-12T13:36:13Z",
-"last_seen": "2026-11-23T19:00:16Z"
+"first_seen": "2026-11-12T13:36:18Z",
+"last_seen": "2026-11-24T11:00:38Z"
 },
 {
 "id": "ent_d902053287bd6e57",
@@ -1805,16 +1821,19 @@
 "last_seen": "2026-11-23T19:00:16Z"
 },
 {
-"id": "ent_ed380c18bfbba014",
-"type": "компания",
-"name": "Quantum-Systems",
+"id": "ent_6db9790c0b5ee6ca",
+"type": "изделие",
+"name": "Су-57",
 "aliases": [
-"Quantum Systems"
+"Su-57",
+"Su-57s",
+"Су-57",
+"Су-57Э"
 ],
-"country": "Германия",
+"country": null,
 "items": 36,
-"first_seen": "2026-11-12T13:36:18Z",
-"last_seen": "2026-11-24T05:14:32Z"
+"first_seen": "2026-11-12T15:17:53Z",
+"last_seen": "2026-11-24T13:03:07Z"
 },
 {
 "id": "ent_7253ed019bbb7421",
@@ -1842,21 +1861,6 @@
 "last_seen": "2026-11-15T08:25:19Z"
 },
 {
-"id": "ent_6db9790c0b5ee6ca",
-"type": "изделие",
-"name": "Су-57",
-"aliases": [
-"Su-57",
-"Su-57s",
-"Су-57",
-"Су-57Э"
-],
-"country": null,
-"items": 34,
-"first_seen": "2026-11-12T15:17:53Z",
-"last_seen": "2026-11-23T23:01:26Z"
-},
-{
 "id": "ent_b13f51a44caf63cf",
 "type": "компания",
 "name": "Palantir Technologies",
@@ -1867,9 +1871,44 @@
 "Палантир"
 ],
 "country": "США",
-"items": 34,
+"items": 35,
 "first_seen": "2026-11-12T13:36:04Z",
-"last_seen": "2026-11-22T11:01:41Z"
+"last_seen": "2026-11-24T13:03:23Z"
+},
+{
+"id": "ent_aabf628900541628",
+"type": "локация",
+"name": "Херсон / Херсонская обл.",
+"aliases": [
+"Kherson",
+"Херсон / Херсонская обл.",
+"Херсона",
+"Херсоне",
+"Херсоном",
+"Херсонская",
+"херсонское",
+"Херсонской",
+"Херсонском",
+"Херсонскую",
+"Херсонщини",
+"Херсонщины"
+],
+"country": null,
+"items": 34,
+"first_seen": "2026-11-13T12:44:10Z",
+"last_seen": "2026-11-24T11:13:08Z"
+},
+{
+"id": "ent_1af8e80224936974",
+"type": "персона",
+"name": "Volodymyr Zelenskyy",
+"aliases": [
+"Volodymyr Zelenskyy"
+],
+"country": null,
+"items": 33,
+"first_seen": "2026-11-12T15:15:35Z",
+"last_seen": "2026-11-24T11:15:02Z"
 },
 {
 "id": "ent_875f89720c603994",
@@ -1887,6 +1926,25 @@
 "items": 32,
 "first_seen": "2026-11-12T13:36:17Z",
 "last_seen": "2026-11-24T01:00:15Z"
+},
+{
+"id": "ent_9ba18c687c9f4339",
+"type": "изделие",
+"name": "Су-30",
+"aliases": [
+"Su-30",
+"Su-30MKI",
+"Su-30MKK",
+"Su-30s",
+"Су-30",
+"Су-30МКИ",
+"Су-30СМ",
+"Су-30СМЭ"
+],
+"country": null,
+"items": 32,
+"first_seen": "2026-11-12T15:16:57Z",
+"last_seen": "2026-11-24T13:01:39Z"
 },
 {
 "id": "ent_4dd10f19e652ad7c",
@@ -1927,83 +1985,6 @@
 "last_seen": "2026-11-20T05:30:45Z"
 },
 {
-"id": "ent_aabf628900541628",
-"type": "локация",
-"name": "Херсон / Херсонская обл.",
-"aliases": [
-"Kherson",
-"Херсон / Херсонская обл.",
-"Херсона",
-"Херсоне",
-"Херсонская",
-"херсонское",
-"Херсонской",
-"Херсонскую",
-"Херсонщини",
-"Херсонщины"
-],
-"country": null,
-"items": 31,
-"first_seen": "2026-11-13T12:44:10Z",
-"last_seen": "2026-11-23T15:01:59Z"
-},
-{
-"id": "ent_9ba18c687c9f4339",
-"type": "изделие",
-"name": "Су-30",
-"aliases": [
-"Su-30",
-"Su-30MKI",
-"Su-30MKK",
-"Su-30s",
-"Су-30",
-"Су-30МКИ",
-"Су-30СМ",
-"Су-30СМЭ"
-],
-"country": null,
-"items": 30,
-"first_seen": "2026-11-12T15:16:57Z",
-"last_seen": "2026-11-23T23:01:28Z"
-},
-{
-"id": "ent_ec85fb59920d1b72",
-"type": "компания",
-"name": "Shield AI",
-"aliases": [
-"Shield AI"
-],
-"country": "США",
-"items": 30,
-"first_seen": "2026-11-12T13:36:08Z",
-"last_seen": "2026-11-23T09:14:19Z"
-},
-{
-"id": "ent_1af8e80224936974",
-"type": "персона",
-"name": "Volodymyr Zelenskyy",
-"aliases": [
-"Volodymyr Zelenskyy"
-],
-"country": null,
-"items": 30,
-"first_seen": "2026-11-12T15:15:35Z",
-"last_seen": "2026-11-24T05:14:29Z"
-},
-{
-"id": "ent_0e439444e0d24c40",
-"type": "компания",
-"name": "Stark Defence",
-"aliases": [
-"STARK",
-"Stark Defence"
-],
-"country": "Германия",
-"items": 29,
-"first_seen": "2026-11-12T13:36:15Z",
-"last_seen": "2026-11-24T10:00:15Z"
-},
-{
 "id": "ent_09ef8b4336d31ca0",
 "type": "организация",
 "name": "Генштаб ВСУ",
@@ -2018,9 +1999,58 @@
 "Генштаб ЗСУ"
 ],
 "country": null,
-"items": 29,
+"items": 31,
 "first_seen": "2026-11-12T13:37:09Z",
-"last_seen": "2026-11-24T05:14:32Z"
+"last_seen": "2026-11-24T11:14:56Z"
+},
+{
+"id": "ent_9645ce799b9cf1d7",
+"type": "программа",
+"name": "JIATF 401",
+"aliases": [
+"JIATF 401"
+],
+"country": null,
+"items": 31,
+"first_seen": "2026-11-12T13:36:15Z",
+"last_seen": "2026-11-24T13:00:10Z"
+},
+{
+"id": "ent_1e8f7d06b8320922",
+"type": "компания",
+"name": "KNDS",
+"aliases": [
+"KNDS"
+],
+"country": "Франция/Германия",
+"items": 30,
+"first_seen": "2026-11-12T15:15:31Z",
+"last_seen": "2026-11-24T13:01:41Z"
+},
+{
+"id": "ent_ec85fb59920d1b72",
+"type": "компания",
+"name": "Shield AI",
+"aliases": [
+"Shield AI"
+],
+"country": "США",
+"items": 30,
+"first_seen": "2026-11-12T13:36:08Z",
+"last_seen": "2026-11-23T09:14:19Z"
+},
+{
+"id": "ent_0e439444e0d24c40",
+"type": "компания",
+"name": "Stark Defence",
+"aliases": [
+"STARK",
+"Stark Defence"
+],
+"country": "Германия",
+"items": 29,
+"first_seen": "2026-11-12T13:36:15Z",
+"last_seen": "2026-11-24T10:00:15Z"
 },
 {
 "id": "ent_b04e6f182fdcf58b",
@@ -2048,30 +2078,6 @@
 "items": 28,
 "first_seen": "2026-11-12T13:36:23Z",
 "last_seen": "2026-11-23T23:01:33Z"
-},
-{
-"id": "ent_1e8f7d06b8320922",
-"type": "компания",
-"name": "KNDS",
-"aliases": [
-"KNDS"
-],
-"country": "Франция/Германия",
-"items": 28,
-"first_seen": "2026-11-12T15:15:31Z",
-"last_seen": "2026-11-23T19:02:58Z"
-},
-{
-"id": "ent_9645ce799b9cf1d7",
-"type": "программа",
-"name": "JIATF 401",
-"aliases": [
-"JIATF 401"
-],
-"country": null,
-"items": 28,
-"first_seen": "2026-11-12T13:36:15Z",
-"last_seen": "2026-11-23T19:02:54Z"
 },
 {
 "id": "ent_3c32a4d4c79b3edf",
@@ -2116,6 +2122,31 @@
 "items": 26,
 "first_seen": "2026-11-16T13:02:30Z",
 "last_seen": "2026-11-19T23:04:18Z"
+},
+{
+"id": "ent_e50e9b8e1c289c1d",
+"type": "компания",
+"name": "Elbit Systems",
+"aliases": [
+"Elbit",
+"Elbit Systems"
+],
+"country": "Израиль",
+"items": 25,
+"first_seen": "2026-11-12T15:18:20Z",
+"last_seen": "2026-11-24T11:03:11Z"
+},
+{
+"id": "ent_470885ea93d65177",
+"type": "программа",
+"name": "Drone Dominance",
+"aliases": [
+"drone dominance"
+],
+"country": null,
+"items": 25,
+"first_seen": "2026-11-12T13:36:09Z",
+"last_seen": "2026-11-24T11:15:07Z"
 },
 {
 "id": "ent_f1c6d57cb1dda813",
@@ -2168,18 +2199,6 @@
 "last_seen": "2026-11-16T15:31:59Z"
 },
 {
-"id": "ent_470885ea93d65177",
-"type": "программа",
-"name": "Drone Dominance",
-"aliases": [
-"drone dominance"
-],
-"country": null,
-"items": 24,
-"first_seen": "2026-11-12T13:36:09Z",
-"last_seen": "2026-11-23T23:01:02Z"
-},
-{
 "id": "ent_679ed15d3efa0b99",
 "type": "изделие",
 "name": "Mirage 2000",
@@ -2204,17 +2223,31 @@
 "last_seen": "2026-11-23T19:09:06Z"
 },
 {
-"id": "ent_e50e9b8e1c289c1d",
-"type": "компания",
-"name": "Elbit Systems",
+"id": "ent_15f8eb5484169610",
+"type": "персона",
+"name": "Donald Trump",
 "aliases": [
-"Elbit",
-"Elbit Systems"
+"Donald Trump"
 ],
-"country": "Израиль",
+"country": null,
 "items": 23,
-"first_seen": "2026-11-12T15:18:20Z",
-"last_seen": "2026-11-23T15:03:27Z"
+"first_seen": "2026-11-12T13:36:21Z",
+"last_seen": "2026-11-24T13:03:25Z"
+},
+{
+"id": "ent_340314be7304a427",
+"type": "изделие",
+"name": "МиГ-29",
+"aliases": [
+"MiG-29",
+"MiG-29s",
+"МиГ-29",
+"МиГ-29СМТ"
+],
+"country": null,
+"items": 22,
+"first_seen": "2026-11-12T13:36:11Z",
+"last_seen": "2026-11-24T11:15:05Z"
 },
 {
 "id": "ent_85a81afee9e48a7e",
@@ -2231,6 +2264,19 @@
 "last_seen": "2026-11-18T21:03:51Z"
 },
 {
+"id": "ent_82e7db2d9eb367cd",
+"type": "компания",
+"name": "Kongsberg Defence & Aerospace",
+"aliases": [
+"Kongsberg",
+"Kongsberg Defence & Aerospace"
+],
+"country": "Норвегия",
+"items": 22,
+"first_seen": "2026-11-12T13:36:13Z",
+"last_seen": "2026-11-24T13:08:19Z"
+},
+{
 "id": "ent_286ac1a705054b05",
 "type": "компания",
 "name": "RTX (Raytheon)",
@@ -2245,6 +2291,18 @@
 "last_seen": "2026-11-23T21:01:01Z"
 },
 {
+"id": "ent_df912e0929fe5a8d",
+"type": "изделие",
+"name": "NASAMS",
+"aliases": [
+"NASAMS"
+],
+"country": null,
+"items": 21,
+"first_seen": "2026-11-12T13:36:08Z",
+"last_seen": "2026-11-24T13:08:18Z"
+},
+{
 "id": "ent_09a697e044722720",
 "type": "изделие",
 "name": "Neo 2",
@@ -2255,6 +2313,18 @@
 "items": 21,
 "first_seen": "2026-11-12T13:36:04Z",
 "last_seen": "2026-11-20T13:01:06Z"
+},
+{
+"id": "ent_d20b5942afb9c7ab",
+"type": "компания",
+"name": "Breaking Defense",
+"aliases": [
+"Breaking Defense"
+],
+"country": null,
+"items": 21,
+"first_seen": "2026-11-12T13:36:14Z",
+"last_seen": "2026-11-24T11:07:32Z"
 },
 {
 "id": "ent_4530f008d0cdc124",
@@ -2275,16 +2345,16 @@
 "last_seen": "2026-11-20T15:03:20Z"
 },
 {
-"id": "ent_15f8eb5484169610",
+"id": "ent_d2e22355d8368901",
 "type": "персона",
-"name": "Donald Trump",
+"name": "Wes Streeting",
 "aliases": [
-"Donald Trump"
+"Wes Streeting"
 ],
 "country": null,
 "items": 21,
-"first_seen": "2026-11-12T13:36:21Z",
-"last_seen": "2026-11-24T05:14:31Z"
+"first_seen": "2026-11-12T13:36:19Z",
+"last_seen": "2026-11-24T11:00:36Z"
 },
 {
 "id": "ent_48a4e1e33ddc917b",
@@ -2299,31 +2369,16 @@
 "last_seen": "2026-11-18T13:02:05Z"
 },
 {
-"id": "ent_340314be7304a427",
-"type": "изделие",
-"name": "МиГ-29",
-"aliases": [
-"MiG-29",
-"MiG-29s",
-"МиГ-29",
-"МиГ-29СМТ"
-],
-"country": null,
-"items": 20,
-"first_seen": "2026-11-12T13:36:11Z",
-"last_seen": "2026-11-23T15:01:57Z"
-},
-{
-"id": "ent_d20b5942afb9c7ab",
+"id": "ent_a14014758edbb408",
 "type": "компания",
-"name": "Breaking Defense",
+"name": "Tekever",
 "aliases": [
-"Breaking Defense"
+"Tekever"
 ],
-"country": null,
+"country": "Португалия",
 "items": 20,
-"first_seen": "2026-11-12T13:36:14Z",
-"last_seen": "2026-11-24T01:08:17Z"
+"first_seen": "2026-11-12T13:36:05Z",
+"last_seen": "2026-11-24T11:03:17Z"
 },
 {
 "id": "ent_e4e2df975bde8376",
@@ -2338,16 +2393,16 @@
 "last_seen": "2026-11-17T11:32:22Z"
 },
 {
-"id": "ent_d2e22355d8368901",
+"id": "ent_9e791ff88745b910",
 "type": "персона",
-"name": "Wes Streeting",
+"name": "Volodymyr Zelensky",
 "aliases": [
-"Wes Streeting"
+"Volodymyr Zelensky"
 ],
 "country": null,
 "items": 20,
-"first_seen": "2026-11-12T13:36:19Z",
-"last_seen": "2026-11-24T05:14:31Z"
+"first_seen": "2026-11-13T17:26:44Z",
+"last_seen": "2026-11-24T11:15:12Z"
 },
 {
 "id": "ent_702cd694780d897f",
@@ -2360,18 +2415,6 @@
 "items": 19,
 "first_seen": "2026-11-12T13:36:47Z",
 "last_seen": "2026-11-15T08:25:06Z"
-},
-{
-"id": "ent_df912e0929fe5a8d",
-"type": "изделие",
-"name": "NASAMS",
-"aliases": [
-"NASAMS"
-],
-"country": null,
-"items": 19,
-"first_seen": "2026-11-12T13:36:08Z",
-"last_seen": "2026-11-23T23:01:35Z"
 },
 {
 "id": "ent_800a92f4d8c294e4",
@@ -2389,6 +2432,19 @@
 "items": 19,
 "first_seen": "2026-11-12T13:36:29Z",
 "last_seen": "2026-11-20T05:31:59Z"
+},
+{
+"id": "ent_9acd114b618054be",
+"type": "изделие",
+"name": "Сармат",
+"aliases": [
+"Sarmat",
+"Сармат"
+],
+"country": null,
+"items": 19,
+"first_seen": "2026-11-15T08:19:53Z",
+"last_seen": "2026-11-24T13:01:30Z"
 },
 {
 "id": "ent_ef817cedf5e8def8",
@@ -2410,16 +2466,16 @@
 "last_seen": "2026-11-22T23:01:48Z"
 },
 {
-"id": "ent_a14014758edbb408",
+"id": "ent_0cf94809207eaa8c",
 "type": "компания",
-"name": "Tekever",
+"name": "Echodyne",
 "aliases": [
-"Tekever"
+"Echodyne"
 ],
-"country": "Португалия",
+"country": "США",
 "items": 19,
 "first_seen": "2026-11-12T13:36:05Z",
-"last_seen": "2026-11-22T19:03:46Z"
+"last_seen": "2026-11-24T13:00:10Z"
 },
 {
 "id": "ent_90af3d5c75658635",
@@ -2434,16 +2490,19 @@
 "last_seen": "2026-11-20T16:33:20Z"
 },
 {
-"id": "ent_9e791ff88745b910",
-"type": "персона",
-"name": "Volodymyr Zelensky",
+"id": "ent_4cd8f05363493014",
+"type": "изделие",
+"name": "CH-47 Chinook",
 "aliases": [
-"Volodymyr Zelensky"
+"CH-47",
+"CH-47 Chinook",
+"CH-47F",
+"Chinook"
 ],
 "country": null,
-"items": 19,
-"first_seen": "2026-11-13T17:26:44Z",
-"last_seen": "2026-11-23T23:00:06Z"
+"items": 18,
+"first_seen": "2026-11-12T13:36:40Z",
+"last_seen": "2026-11-24T13:01:32Z"
 },
 {
 "id": "ent_d5b517870d653757",
@@ -2459,31 +2518,6 @@
 "items": 18,
 "first_seen": "2026-11-12T15:17:45Z",
 "last_seen": "2026-11-23T19:01:50Z"
-},
-{
-"id": "ent_9acd114b618054be",
-"type": "изделие",
-"name": "Сармат",
-"aliases": [
-"Sarmat",
-"Сармат"
-],
-"country": null,
-"items": 18,
-"first_seen": "2026-11-15T08:19:53Z",
-"last_seen": "2026-11-23T19:09:03Z"
-},
-{
-"id": "ent_0cf94809207eaa8c",
-"type": "компания",
-"name": "Echodyne",
-"aliases": [
-"Echodyne"
-],
-"country": "США",
-"items": 18,
-"first_seen": "2026-11-12T13:36:05Z",
-"last_seen": "2026-11-23T15:03:30Z"
 },
 {
 "id": "ent_2a08c22d94a41e7c",
@@ -2512,6 +2546,21 @@
 "items": 17,
 "first_seen": "2026-11-12T13:36:29Z",
 "last_seen": "2026-11-21T11:03:09Z"
+},
+{
+"id": "ent_00db16816dd5b08b",
+"type": "изделие",
+"name": "Т-80",
+"aliases": [
+"T-80",
+"Т-80",
+"Т-80БВ",
+"Т-80БВМ"
+],
+"country": null,
+"items": 17,
+"first_seen": "2026-11-19T21:01:45Z",
+"last_seen": "2026-11-24T13:01:50Z"
 },
 {
 "id": "ent_bfe1a5bf0e0a39b9",
@@ -2602,17 +2651,16 @@
 "last_seen": "2026-11-23T11:06:09Z"
 },
 {
-"id": "ent_82e7db2d9eb367cd",
+"id": "ent_d8a707bdf6697026",
 "type": "компания",
-"name": "Kongsberg Defence & Aerospace",
+"name": "Overt Defense",
 "aliases": [
-"Kongsberg",
-"Kongsberg Defence & Aerospace"
+"Overt Defense"
 ],
-"country": "Норвегия",
+"country": null,
 "items": 16,
-"first_seen": "2026-11-12T13:36:13Z",
-"last_seen": "2026-11-22T05:01:44Z"
+"first_seen": "2026-11-12T15:17:26Z",
+"last_seen": "2026-11-24T13:01:21Z"
 },
 {
 "id": "ent_75017966e780ebec",
@@ -2627,21 +2675,6 @@
 "items": 16,
 "first_seen": "2026-11-12T13:36:58Z",
 "last_seen": "2026-11-20T19:00:16Z"
-},
-{
-"id": "ent_4cd8f05363493014",
-"type": "изделие",
-"name": "CH-47 Chinook",
-"aliases": [
-"CH-47",
-"CH-47 Chinook",
-"CH-47F",
-"Chinook"
-],
-"country": null,
-"items": 15,
-"first_seen": "2026-11-12T13:36:40Z",
-"last_seen": "2026-11-23T15:01:53Z"
 },
 {
 "id": "ent_441208781c9d6d36",
@@ -2696,32 +2729,6 @@
 "last_seen": "2026-11-22T23:01:40Z"
 },
 {
-"id": "ent_00db16816dd5b08b",
-"type": "изделие",
-"name": "Т-80",
-"aliases": [
-"T-80",
-"Т-80",
-"Т-80БВМ"
-],
-"country": null,
-"items": 15,
-"first_seen": "2026-11-19T21:01:45Z",
-"last_seen": "2026-11-24T03:01:40Z"
-},
-{
-"id": "ent_d8a707bdf6697026",
-"type": "компания",
-"name": "Overt Defense",
-"aliases": [
-"Overt Defense"
-],
-"country": null,
-"items": 15,
-"first_seen": "2026-11-12T15:17:26Z",
-"last_seen": "2026-11-20T21:01:35Z"
-},
-{
 "id": "ent_6639eede8c4f823e",
 "type": "компания",
 "name": "ОАО «Научно-исследовательский институт электронных вычислительных машин» (НИИ ЭВМ)",
@@ -2761,6 +2768,18 @@
 "items": 14,
 "first_seen": "2026-11-18T07:03:39Z",
 "last_seen": "2026-11-19T07:05:49Z"
+},
+{
+"id": "ent_b5f76dc0ce128813",
+"type": "изделие",
+"name": "Богдана",
+"aliases": [
+"Богдана"
+],
+"country": null,
+"items": 14,
+"first_seen": "2026-11-12T15:17:54Z",
+"last_seen": "2026-11-24T11:03:22Z"
 },
 {
 "id": "ent_74e5105c9694faf7",
@@ -2806,6 +2825,18 @@
 "last_seen": "2026-11-22T21:03:28Z"
 },
 {
+"id": "ent_407685cfaf1bc78b",
+"type": "компания",
+"name": "Ukraine Defence Contact Group",
+"aliases": [
+"Ukraine Defence Contact Group"
+],
+"country": null,
+"items": 14,
+"first_seen": "2026-11-18T09:02:05Z",
+"last_seen": "2026-11-24T11:15:01Z"
+},
+{
 "id": "ent_4121c0878dbc0f4a",
 "type": "локация",
 "name": "Новороссийск",
@@ -2831,6 +2862,18 @@
 "items": 14,
 "first_seen": "2026-11-12T13:36:35Z",
 "last_seen": "2026-11-21T11:01:48Z"
+},
+{
+"id": "ent_279428b1ca9085a1",
+"type": "изделие",
+"name": "Baza 86",
+"aliases": [
+"Baza 86"
+],
+"country": null,
+"items": 13,
+"first_seen": "2026-11-16T07:41:43Z",
+"last_seen": "2026-11-24T11:08:26Z"
 },
 {
 "id": "ent_a9be421da70f278e",
@@ -2869,18 +2912,6 @@
 "last_seen": "2026-11-15T08:25:46Z"
 },
 {
-"id": "ent_b5f76dc0ce128813",
-"type": "изделие",
-"name": "Богдана",
-"aliases": [
-"Богдана"
-],
-"country": null,
-"items": 13,
-"first_seen": "2026-11-12T15:17:54Z",
-"last_seen": "2026-11-24T03:01:28Z"
-},
-{
 "id": "ent_277be6952eb68e35",
 "type": "компания",
 "name": "Hensoldt",
@@ -2906,18 +2937,6 @@
 "last_seen": "2026-11-23T15:03:27Z"
 },
 {
-"id": "ent_407685cfaf1bc78b",
-"type": "компания",
-"name": "Ukraine Defence Contact Group",
-"aliases": [
-"Ukraine Defence Contact Group"
-],
-"country": null,
-"items": 13,
-"first_seen": "2026-11-18T09:02:05Z",
-"last_seen": "2026-11-23T15:02:01Z"
-},
-{
 "id": "ent_4b6956678203a824",
 "type": "организация",
 "name": "EDA",
@@ -2929,6 +2948,18 @@
 "items": 13,
 "first_seen": "2026-11-12T13:36:04Z",
 "last_seen": "2026-11-21T15:02:57Z"
+},
+{
+"id": "ent_939fb7a8f74fe07a",
+"type": "организация",
+"name": "FOI",
+"aliases": [
+"FOI"
+],
+"country": "Швеция",
+"items": 13,
+"first_seen": "2026-11-16T09:06:04Z",
+"last_seen": "2026-11-24T11:08:30Z"
 },
 {
 "id": "ent_e9549e1a12518b22",
@@ -2945,16 +2976,31 @@
 "last_seen": "2026-11-23T09:14:19Z"
 },
 {
-"id": "ent_279428b1ca9085a1",
+"id": "ent_53563ae8a12059b4",
 "type": "изделие",
-"name": "Baza 86",
+"name": "Amazon MK30",
 "aliases": [
-"Baza 86"
+"Amazon MK30"
 ],
 "country": null,
 "items": 12,
-"first_seen": "2026-11-16T07:41:43Z",
-"last_seen": "2026-11-22T21:04:07Z"
+"first_seen": "2026-11-12T13:36:04Z",
+"last_seen": "2026-11-24T13:00:07Z"
+},
+{
+"id": "ent_81959b57edfbbe78",
+"type": "изделие",
+"name": "CAESAR",
+"aliases": [
+"CAESAR",
+"гаубиц Caesar",
+"гаубици CAESAR",
+"САУ CAESAR"
+],
+"country": null,
+"items": 12,
+"first_seen": "2026-11-16T13:02:30Z",
+"last_seen": "2026-11-24T11:15:10Z"
 },
 {
 "id": "ent_e5f0d2210c15f13c",
@@ -3078,30 +3124,6 @@
 "last_seen": "2026-11-22T19:08:28Z"
 },
 {
-"id": "ent_939fb7a8f74fe07a",
-"type": "организация",
-"name": "FOI",
-"aliases": [
-"FOI"
-],
-"country": "Швеция",
-"items": 12,
-"first_seen": "2026-11-16T09:06:04Z",
-"last_seen": "2026-11-23T23:03:16Z"
-},
-{
-"id": "ent_53563ae8a12059b4",
-"type": "изделие",
-"name": "Amazon MK30",
-"aliases": [
-"Amazon MK30"
-],
-"country": null,
-"items": 11,
-"first_seen": "2026-11-12T13:36:04Z",
-"last_seen": "2026-11-23T15:00:19Z"
-},
-{
 "id": "ent_09f7680c22dce206",
 "type": "изделие",
 "name": "Avata 360",
@@ -3112,6 +3134,18 @@
 "items": 11,
 "first_seen": "2026-11-12T13:36:45Z",
 "last_seen": "2026-11-20T19:01:06Z"
+},
+{
+"id": "ent_7120f42cb72907dc",
+"type": "изделие",
+"name": "CFL-120",
+"aliases": [
+"CFL-120"
+],
+"country": null,
+"items": 11,
+"first_seen": "2026-11-19T15:01:26Z",
+"last_seen": "2026-11-24T11:15:13Z"
 },
 {
 "id": "ent_c4ebd83cfab3c661",
@@ -3261,21 +3295,6 @@
 "items": 11,
 "first_seen": "2026-11-12T13:36:21Z",
 "last_seen": "2026-11-20T23:00:17Z"
-},
-{
-"id": "ent_81959b57edfbbe78",
-"type": "изделие",
-"name": "CAESAR",
-"aliases": [
-"CAESAR",
-"гаубиц Caesar",
-"гаубици CAESAR",
-"САУ CAESAR"
-],
-"country": null,
-"items": 10,
-"first_seen": "2026-11-16T13:02:30Z",
-"last_seen": "2026-11-21T15:01:33Z"
 },
 {
 "id": "ent_8929360cbe24ed2a",
@@ -3429,6 +3448,18 @@
 "last_seen": "2026-11-20T23:09:16Z"
 },
 {
+"id": "ent_7037216a684523c7",
+"type": "компания",
+"name": "NIDV Exhibition Defence",
+"aliases": [
+"NIDV Exhibition Defence"
+],
+"country": null,
+"items": 10,
+"first_seen": "2026-11-19T13:00:11Z",
+"last_seen": "2026-11-24T13:01:43Z"
+},
+{
 "id": "ent_3a39305e851ed0fe",
 "type": "компания",
 "name": "Red Cat Holdings (Teal Drones)",
@@ -3469,6 +3500,30 @@
 "items": 10,
 "first_seen": "2026-11-15T08:24:46Z",
 "last_seen": "2026-11-23T23:08:07Z"
+},
+{
+"id": "ent_a9338747cf31985c",
+"type": "персона",
+"name": "Boris Pistorius",
+"aliases": [
+"Boris Pistorius"
+],
+"country": null,
+"items": 10,
+"first_seen": "2026-11-12T13:37:06Z",
+"last_seen": "2026-11-24T13:00:17Z"
+},
+{
+"id": "ent_d50f3758938bf1ae",
+"type": "персона",
+"name": "Yevhenii Khmara",
+"aliases": [
+"Yevhenii Khmara"
+],
+"country": null,
+"items": 10,
+"first_seen": "2026-11-15T08:19:35Z",
+"last_seen": "2026-11-24T13:00:17Z"
 },
 {
 "id": "ent_5bce4db4be9c9212",
@@ -3541,6 +3596,24 @@
 "items": 9,
 "first_seen": "2026-11-12T13:36:40Z",
 "last_seen": "2026-11-15T08:25:15Z"
+},
+{
+"id": "ent_c6fa6bb87edb4431",
+"type": "изделие",
+"name": "Delta (система)",
+"aliases": [
+"Delta (система)",
+"платформа Delta",
+"платформи DELTA",
+"системе DELTA",
+"системой Delta",
+"системы DELTA",
+"системі DELTA"
+],
+"country": null,
+"items": 9,
+"first_seen": "2026-11-15T08:20:11Z",
+"last_seen": "2026-11-24T13:08:18Z"
 },
 {
 "id": "ent_32e8880a797210b1",
@@ -3657,6 +3730,21 @@
 "last_seen": "2026-11-23T15:03:44Z"
 },
 {
+"id": "ent_0cd95a38dd7f8f40",
+"type": "изделие",
+"name": "Су-35",
+"aliases": [
+"Su-35",
+"Su-35Ss",
+"Су-35",
+"Су-35С"
+],
+"country": null,
+"items": 9,
+"first_seen": "2026-11-12T15:16:16Z",
+"last_seen": "2026-11-24T13:01:39Z"
+},
+{
 "id": "ent_b7fa05db8d07e200",
 "type": "компания",
 "name": "ОАО «2566 завод по ремонту радиоэлектронного вооружения»",
@@ -3708,6 +3796,18 @@
 "last_seen": "2026-11-21T11:00:15Z"
 },
 {
+"id": "ent_7cb4937a82490a5f",
+"type": "компания",
+"name": "Calibre Defence",
+"aliases": [
+"Calibre Defence"
+],
+"country": null,
+"items": 9,
+"first_seen": "2026-11-16T07:09:23Z",
+"last_seen": "2026-11-24T13:01:44Z"
+},
+{
 "id": "ent_1591ba366fc1731f",
 "type": "компания",
 "name": "Epirus",
@@ -3734,16 +3834,16 @@
 "last_seen": "2026-11-21T15:03:08Z"
 },
 {
-"id": "ent_7037216a684523c7",
-"type": "компания",
-"name": "NIDV Exhibition Defence",
+"id": "ent_4cd59525919863d6",
+"type": "персона",
+"name": "Pete Hegseth",
 "aliases": [
-"NIDV Exhibition Defence"
+"Pete Hegseth"
 ],
 "country": null,
 "items": 9,
-"first_seen": "2026-11-19T13:00:11Z",
-"last_seen": "2026-11-23T19:02:58Z"
+"first_seen": "2026-11-12T13:36:38Z",
+"last_seen": "2026-11-24T11:03:38Z"
 },
 {
 "id": "ent_f079451b4359dbd7",
@@ -3793,18 +3893,6 @@
 "items": 8,
 "first_seen": "2026-11-18T11:34:18Z",
 "last_seen": "2026-11-19T19:01:25Z"
-},
-{
-"id": "ent_7120f42cb72907dc",
-"type": "изделие",
-"name": "CFL-120",
-"aliases": [
-"CFL-120"
-],
-"country": null,
-"items": 8,
-"first_seen": "2026-11-19T15:01:26Z",
-"last_seen": "2026-11-23T09:03:06Z"
 },
 {
 "id": "ent_2d98bca4ff7102e2",
@@ -3889,23 +3977,6 @@
 "items": 8,
 "first_seen": "2026-11-12T13:36:38Z",
 "last_seen": "2026-11-15T08:25:14Z"
-},
-{
-"id": "ent_c6fa6bb87edb4431",
-"type": "изделие",
-"name": "Delta (система)",
-"aliases": [
-"Delta (система)",
-"платформа Delta",
-"системе DELTA",
-"системой Delta",
-"системы DELTA",
-"системі DELTA"
-],
-"country": null,
-"items": 8,
-"first_seen": "2026-11-15T08:20:11Z",
-"last_seen": "2026-11-23T19:09:05Z"
 },
 {
 "id": "ent_049f659dec2731fa",
@@ -4022,6 +4093,19 @@
 "last_seen": "2026-11-23T11:02:46Z"
 },
 {
+"id": "ent_b64acc881f448ed5",
+"type": "изделие",
+"name": "Ту-160",
+"aliases": [
+"Tu-160",
+"Ту-160"
+],
+"country": null,
+"items": 8,
+"first_seen": "2026-11-17T11:32:16Z",
+"last_seen": "2026-11-24T13:01:52Z"
+},
+{
 "id": "ent_e8c80cad9cd13661",
 "type": "компания",
 "name": "Fortem Technologies",
@@ -4046,6 +4130,18 @@
 "items": 8,
 "first_seen": "2026-11-12T13:36:14Z",
 "last_seen": "2026-11-17T11:32:10Z"
+},
+{
+"id": "ent_638cbaac3cf188b1",
+"type": "компания",
+"name": "Nordic Air Defence",
+"aliases": [
+"Nordic Air Defence"
+],
+"country": null,
+"items": 8,
+"first_seen": "2026-11-15T08:19:50Z",
+"last_seen": "2026-11-24T11:07:32Z"
 },
 {
 "id": "ent_89e787df8d2c47ff",
@@ -4123,30 +4219,6 @@
 "items": 8,
 "first_seen": "2026-11-12T15:15:35Z",
 "last_seen": "2026-11-22T15:01:40Z"
-},
-{
-"id": "ent_a9338747cf31985c",
-"type": "персона",
-"name": "Boris Pistorius",
-"aliases": [
-"Boris Pistorius"
-],
-"country": null,
-"items": 8,
-"first_seen": "2026-11-12T13:37:06Z",
-"last_seen": "2026-11-22T15:03:13Z"
-},
-{
-"id": "ent_4cd59525919863d6",
-"type": "персона",
-"name": "Pete Hegseth",
-"aliases": [
-"Pete Hegseth"
-],
-"country": null,
-"items": 8,
-"first_seen": "2026-11-12T13:36:38Z",
-"last_seen": "2026-11-21T03:01:13Z"
 },
 {
 "id": "ent_5e1671988abf8a43",
@@ -4322,19 +4394,16 @@
 "last_seen": "2026-11-23T07:02:56Z"
 },
 {
-"id": "ent_0cd95a38dd7f8f40",
-"type": "изделие",
-"name": "Су-35",
+"id": "ent_c752f04aec800c63",
+"type": "компания",
+"name": "British Defence",
 "aliases": [
-"Su-35",
-"Su-35Ss",
-"Су-35",
-"Су-35С"
+"British Defence"
 ],
 "country": null,
 "items": 7,
-"first_seen": "2026-11-12T15:16:16Z",
-"last_seen": "2026-11-19T13:01:37Z"
+"first_seen": "2026-11-12T15:18:23Z",
+"last_seen": "2026-11-24T11:00:36Z"
 },
 {
 "id": "ent_c32e60464c0579c8",
@@ -4361,16 +4430,52 @@
 "last_seen": "2026-11-20T19:01:05Z"
 },
 {
-"id": "ent_638cbaac3cf188b1",
+"id": "ent_45b1e1a16e7d5227",
 "type": "компания",
-"name": "Nordic Air Defence",
+"name": "Industry Systems",
 "aliases": [
-"Nordic Air Defence"
+"Industry Systems"
 ],
 "country": null,
 "items": 7,
-"first_seen": "2026-11-15T08:19:50Z",
-"last_seen": "2026-11-23T15:10:30Z"
+"first_seen": "2026-11-17T11:32:20Z",
+"last_seen": "2026-11-24T11:03:39Z"
+},
+{
+"id": "ent_3d65d37722373996",
+"type": "компания",
+"name": "Latest Defence News Defence",
+"aliases": [
+"Latest Defence News Defence"
+],
+"country": null,
+"items": 7,
+"first_seen": "2026-11-17T11:32:20Z",
+"last_seen": "2026-11-24T11:03:39Z"
+},
+{
+"id": "ent_c00d60278e21bf7e",
+"type": "компания",
+"name": "Patria",
+"aliases": [
+"Patria"
+],
+"country": "Финляндия",
+"items": 7,
+"first_seen": "2026-11-12T13:36:28Z",
+"last_seen": "2026-11-24T13:01:43Z"
+},
+{
+"id": "ent_0d9e062c59b5ed72",
+"type": "компания",
+"name": "Swarmer",
+"aliases": [
+"Swarmer"
+],
+"country": "США/Украина",
+"items": 7,
+"first_seen": "2026-11-15T08:20:25Z",
+"last_seen": "2026-11-24T11:02:52Z"
 },
 {
 "id": "ent_bf8ddbfa19659a66",
@@ -4383,6 +4488,18 @@
 "items": 7,
 "first_seen": "2026-11-15T08:19:52Z",
 "last_seen": "2026-11-24T06:33:01Z"
+},
+{
+"id": "ent_b232eefe72a1cd09",
+"type": "компания",
+"name": "Ukrainian Defence",
+"aliases": [
+"Ukrainian Defence"
+],
+"country": null,
+"items": 7,
+"first_seen": "2026-11-17T11:32:20Z",
+"last_seen": "2026-11-24T11:15:02Z"
 },
 {
 "id": "ent_ead0bd2e76882b26",
@@ -4434,18 +4551,6 @@
 "last_seen": "2026-11-23T19:01:26Z"
 },
 {
-"id": "ent_d50f3758938bf1ae",
-"type": "персона",
-"name": "Yevhenii Khmara",
-"aliases": [
-"Yevhenii Khmara"
-],
-"country": null,
-"items": 7,
-"first_seen": "2026-11-15T08:19:35Z",
-"last_seen": "2026-11-22T09:02:00Z"
-},
-{
 "id": "ent_c17864076b48a4e3",
 "type": "персона",
 "name": "Владимир Зеленский",
@@ -4456,6 +4561,18 @@
 "items": 7,
 "first_seen": "2026-11-14T12:42:15Z",
 "last_seen": "2026-11-23T19:09:04Z"
+},
+{
+"id": "ent_8f42d352455df0d1",
+"type": "персона",
+"name": "Украины Владимир",
+"aliases": [
+"Украины Владимир"
+],
+"country": null,
+"items": 7,
+"first_seen": "2026-11-12T15:17:50Z",
+"last_seen": "2026-11-24T11:15:05Z"
 },
 {
 "id": "ent_5c9d99270d043a58",
@@ -4567,6 +4684,18 @@
 "last_seen": "2026-11-23T19:00:16Z"
 },
 {
+"id": "ent_f205950f5e419e80",
+"type": "изделие",
+"name": "Gepard",
+"aliases": [
+"Gepard"
+],
+"country": null,
+"items": 6,
+"first_seen": "2026-11-15T08:23:06Z",
+"last_seen": "2026-11-24T11:14:54Z"
+},
+{
 "id": "ent_2e39cb415dfec6a7",
 "type": "изделие",
 "name": "GMLRS",
@@ -4601,6 +4730,18 @@
 "items": 6,
 "first_seen": "2026-11-12T13:36:29Z",
 "last_seen": "2026-11-19T09:13:58Z"
+},
+{
+"id": "ent_b31f8cec89da9384",
+"type": "изделие",
+"name": "JAS 39",
+"aliases": [
+"JAS 39"
+],
+"country": null,
+"items": 6,
+"first_seen": "2026-11-13T12:44:10Z",
+"last_seen": "2026-11-24T11:02:53Z"
 },
 {
 "id": "ent_6ab7dafd41296c70",
@@ -4763,30 +4904,6 @@
 "last_seen": "2026-11-19T23:01:38Z"
 },
 {
-"id": "ent_c752f04aec800c63",
-"type": "компания",
-"name": "British Defence",
-"aliases": [
-"British Defence"
-],
-"country": null,
-"items": 6,
-"first_seen": "2026-11-12T15:18:23Z",
-"last_seen": "2026-11-23T19:01:38Z"
-},
-{
-"id": "ent_7cb4937a82490a5f",
-"type": "компания",
-"name": "Calibre Defence",
-"aliases": [
-"Calibre Defence"
-],
-"country": null,
-"items": 6,
-"first_seen": "2026-11-16T07:09:23Z",
-"last_seen": "2026-11-20T13:01:50Z"
-},
-{
 "id": "ent_9ecd19376ae98e08",
 "type": "компания",
 "name": "Deviro",
@@ -4813,6 +4930,18 @@
 "last_seen": "2026-11-16T21:03:40Z"
 },
 {
+"id": "ent_605d5251eb35436f",
+"type": "компания",
+"name": "German Defense",
+"aliases": [
+"German Defense"
+],
+"country": null,
+"items": 6,
+"first_seen": "2026-11-12T15:15:31Z",
+"last_seen": "2026-11-24T13:00:17Z"
+},
+{
 "id": "ent_8f9126142c5043ad",
 "type": "компания",
 "name": "Honeywell Aerospace",
@@ -4826,52 +4955,40 @@
 "last_seen": "2026-11-23T05:31:36Z"
 },
 {
-"id": "ent_45b1e1a16e7d5227",
+"id": "ent_849c4bd3c9b6c195",
 "type": "компания",
-"name": "Industry Systems",
+"name": "Quantum WIY Industries",
 "aliases": [
-"Industry Systems"
+"Quantum WIY Industries"
 ],
 "country": null,
 "items": 6,
-"first_seen": "2026-11-17T11:32:20Z",
-"last_seen": "2026-11-22T15:01:54Z"
+"first_seen": "2026-11-12T13:37:05Z",
+"last_seen": "2026-11-24T11:00:38Z"
 },
 {
-"id": "ent_3d65d37722373996",
+"id": "ent_0bf5b43a1d543017",
 "type": "компания",
-"name": "Latest Defence News Defence",
+"name": "TAF Industries",
 "aliases": [
-"Latest Defence News Defence"
+"TAF Industries"
+],
+"country": "Украина",
+"items": 6,
+"first_seen": "2026-11-12T13:37:07Z",
+"last_seen": "2026-11-24T13:01:37Z"
+},
+{
+"id": "ent_c67459bab0d7b89b",
+"type": "компания",
+"name": "Ukraine Defense Contact Group",
+"aliases": [
+"Ukraine Defense Contact Group"
 ],
 "country": null,
 "items": 6,
-"first_seen": "2026-11-17T11:32:20Z",
-"last_seen": "2026-11-22T15:01:54Z"
-},
-{
-"id": "ent_c00d60278e21bf7e",
-"type": "компания",
-"name": "Patria",
-"aliases": [
-"Patria"
-],
-"country": "Финляндия",
-"items": 6,
-"first_seen": "2026-11-12T13:36:28Z",
-"last_seen": "2026-11-23T23:01:36Z"
-},
-{
-"id": "ent_0d9e062c59b5ed72",
-"type": "компания",
-"name": "Swarmer",
-"aliases": [
-"Swarmer"
-],
-"country": "США/Украина",
-"items": 6,
-"first_seen": "2026-11-15T08:20:25Z",
-"last_seen": "2026-11-19T07:00:27Z"
+"first_seen": "2026-11-17T19:01:52Z",
+"last_seen": "2026-11-24T13:00:17Z"
 },
 {
 "id": "ent_cb15952216684b64",
@@ -4940,18 +5057,6 @@
 "items": 6,
 "first_seen": "2026-11-16T07:40:27Z",
 "last_seen": "2026-11-23T21:07:13Z"
-},
-{
-"id": "ent_8f42d352455df0d1",
-"type": "персона",
-"name": "Украины Владимир",
-"aliases": [
-"Украины Владимир"
-],
-"country": null,
-"items": 6,
-"first_seen": "2026-11-12T15:17:50Z",
-"last_seen": "2026-11-23T19:09:03Z"
 },
 {
 "id": "ent_5d358799f4ec5281",
@@ -5077,28 +5182,16 @@
 "last_seen": "2026-11-15T08:24:45Z"
 },
 {
-"id": "ent_f205950f5e419e80",
+"id": "ent_fa8b6d9933cff496",
 "type": "изделие",
-"name": "Gepard",
+"name": "GTA 6",
 "aliases": [
-"Gepard"
+"GTA 6"
 ],
 "country": null,
 "items": 5,
-"first_seen": "2026-11-15T08:23:06Z",
-"last_seen": "2026-11-23T05:31:42Z"
-},
-{
-"id": "ent_b31f8cec89da9384",
-"type": "изделие",
-"name": "JAS 39",
-"aliases": [
-"JAS 39"
-],
-"country": null,
-"items": 5,
-"first_seen": "2026-11-13T12:44:10Z",
-"last_seen": "2026-11-21T09:01:21Z"
+"first_seen": "2026-11-19T19:01:24Z",
+"last_seen": "2026-11-24T11:03:42Z"
 },
 {
 "id": "ent_b9042a9dce694495",
@@ -5308,6 +5401,18 @@
 "last_seen": "2026-11-17T09:03:01Z"
 },
 {
+"id": "ent_1db75717397c088c",
+"type": "компания",
+"name": "ARX Robotics",
+"aliases": [
+"ARX Robotics"
+],
+"country": "Германия",
+"items": 5,
+"first_seen": "2026-11-15T08:19:48Z",
+"last_seen": "2026-11-24T13:01:44Z"
+},
+{
 "id": "ent_87f3627682d5ed6e",
 "type": "компания",
 "name": "Beretta Defense Technologies",
@@ -5419,18 +5524,6 @@
 "last_seen": "2026-11-16T09:09:19Z"
 },
 {
-"id": "ent_849c4bd3c9b6c195",
-"type": "компания",
-"name": "Quantum WIY Industries",
-"aliases": [
-"Quantum WIY Industries"
-],
-"country": null,
-"items": 5,
-"first_seen": "2026-11-12T13:37:05Z",
-"last_seen": "2026-11-24T05:14:32Z"
-},
-{
 "id": "ent_8fac30031d3429f8",
 "type": "компания",
 "name": "Red Cat Holdings",
@@ -5468,28 +5561,16 @@
 "last_seen": "2026-11-18T19:09:42Z"
 },
 {
-"id": "ent_c67459bab0d7b89b",
+"id": "ent_5669a8e8ecd11cb5",
 "type": "компания",
-"name": "Ukraine Defense Contact Group",
+"name": "Ukrainian Defense",
 "aliases": [
-"Ukraine Defense Contact Group"
+"Ukrainian Defense"
 ],
 "country": null,
 "items": 5,
-"first_seen": "2026-11-17T19:01:52Z",
-"last_seen": "2026-11-23T15:01:57Z"
-},
-{
-"id": "ent_b232eefe72a1cd09",
-"type": "компания",
-"name": "Ukrainian Defence",
-"aliases": [
-"Ukrainian Defence"
-],
-"country": null,
-"items": 5,
-"first_seen": "2026-11-17T11:32:20Z",
-"last_seen": "2026-11-22T13:00:16Z"
+"first_seen": "2026-11-15T08:23:57Z",
+"last_seen": "2026-11-24T13:00:17Z"
 },
 {
 "id": "ent_82ae1115c186c663",
@@ -5641,6 +5722,18 @@
 "last_seen": "2026-11-23T21:08:42Z"
 },
 {
+"id": "ent_891ec3696e9bc616",
+"type": "персона",
+"name": "Serhii Koretskyi",
+"aliases": [
+"Serhii Koretskyi"
+],
+"country": null,
+"items": 5,
+"first_seen": "2026-11-16T15:07:11Z",
+"last_seen": "2026-11-24T11:15:07Z"
+},
+{
 "id": "ent_cfda56e5a35e2e10",
 "type": "персона",
 "name": "Xi Jinping",
@@ -5767,6 +5860,18 @@
 "last_seen": "2026-11-23T15:01:57Z"
 },
 {
+"id": "ent_1b0aa19df5f246b7",
+"type": "изделие",
+"name": "Advanced Capability-3",
+"aliases": [
+"Advanced Capability-3"
+],
+"country": null,
+"items": 4,
+"first_seen": "2026-11-12T15:17:50Z",
+"last_seen": "2026-11-24T13:01:21Z"
+},
+{
 "id": "ent_3ce06e9ae19f0f5e",
 "type": "изделие",
 "name": "Aeronave F-16",
@@ -5849,6 +5954,18 @@
 "items": 4,
 "first_seen": "2026-11-12T13:36:53Z",
 "last_seen": "2026-11-21T15:03:50Z"
+},
+{
+"id": "ent_00dc416c543d9ae1",
+"type": "изделие",
+"name": "Baza 57",
+"aliases": [
+"Baza 57"
+],
+"country": null,
+"items": 4,
+"first_seen": "2026-11-22T21:04:05Z",
+"last_seen": "2026-11-24T11:08:28Z"
 },
 {
 "id": "ent_8c88cdac16d12150",
@@ -5945,18 +6062,6 @@
 "items": 4,
 "first_seen": "2026-11-16T23:01:58Z",
 "last_seen": "2026-11-23T19:01:26Z"
-},
-{
-"id": "ent_fa8b6d9933cff496",
-"type": "изделие",
-"name": "GTA 6",
-"aliases": [
-"GTA 6"
-],
-"country": null,
-"items": 4,
-"first_seen": "2026-11-19T19:01:24Z",
-"last_seen": "2026-11-20T07:10:54Z"
 },
 {
 "id": "ent_c0ea40aef1dbd7d8",
@@ -6313,6 +6418,30 @@
 "last_seen": "2026-11-20T19:01:05Z"
 },
 {
+"id": "ent_32aeaad6425cc78c",
+"type": "компания",
+"name": "CSG Group",
+"aliases": [
+"CSG Group"
+],
+"country": null,
+"items": 4,
+"first_seen": "2026-11-13T12:44:30Z",
+"last_seen": "2026-11-24T11:15:13Z"
+},
+{
+"id": "ent_5c140b5b4dce978e",
+"type": "компания",
+"name": "Czechoslovak Group",
+"aliases": [
+"Czechoslovak Group"
+],
+"country": null,
+"items": 4,
+"first_seen": "2026-11-15T08:21:47Z",
+"last_seen": "2026-11-24T11:02:55Z"
+},
+{
 "id": "ent_17f91b000ff99016",
 "type": "компания",
 "name": "Dedrone (Axon)",
@@ -6372,18 +6501,6 @@
 "items": 4,
 "first_seen": "2026-11-12T13:36:43Z",
 "last_seen": "2026-11-21T11:01:37Z"
-},
-{
-"id": "ent_605d5251eb35436f",
-"type": "компания",
-"name": "German Defense",
-"aliases": [
-"German Defense"
-],
-"country": null,
-"items": 4,
-"first_seen": "2026-11-12T15:15:31Z",
-"last_seen": "2026-11-19T15:01:27Z"
 },
 {
 "id": "ent_683b68e88d99041b",
@@ -6507,18 +6624,6 @@
 "items": 4,
 "first_seen": "2026-11-15T08:24:40Z",
 "last_seen": "2026-11-15T08:25:40Z"
-},
-{
-"id": "ent_0bf5b43a1d543017",
-"type": "компания",
-"name": "TAF Industries",
-"aliases": [
-"TAF Industries"
-],
-"country": "Украина",
-"items": 4,
-"first_seen": "2026-11-12T13:37:07Z",
-"last_seen": "2026-11-21T13:00:11Z"
 },
 {
 "id": "ent_93c906036b425323",
@@ -6649,6 +6754,33 @@
 "last_seen": "2026-11-15T08:23:16Z"
 },
 {
+"id": "ent_9a84fb54f8bcaf75",
+"type": "организация",
+"name": "AFWERX",
+"aliases": [
+"AFWERX"
+],
+"country": "США",
+"items": 4,
+"first_seen": "2026-11-12T13:36:16Z",
+"last_seen": "2026-11-24T11:15:12Z"
+},
+{
+"id": "ent_cd2eb295133411fc",
+"type": "организация",
+"name": "РВСН",
+"aliases": [
+"Strategic Missile Forces",
+"Ракетных войск стратегического назначения",
+"Ракетных войсках стратегического назначения",
+"РВСН"
+],
+"country": null,
+"items": 4,
+"first_seen": "2026-11-15T08:20:05Z",
+"last_seen": "2026-11-24T13:01:30Z"
+},
+{
 "id": "ent_3d66be6936f89f7f",
 "type": "персона",
 "name": "Adam Bry",
@@ -6683,18 +6815,6 @@
 "items": 4,
 "first_seen": "2026-11-16T11:30:12Z",
 "last_seen": "2026-11-23T09:14:16Z"
-},
-{
-"id": "ent_891ec3696e9bc616",
-"type": "персона",
-"name": "Serhii Koretskyi",
-"aliases": [
-"Serhii Koretskyi"
-],
-"country": null,
-"items": 4,
-"first_seen": "2026-11-16T15:07:11Z",
-"last_seen": "2026-11-20T23:00:14Z"
 },
 {
 "id": "ent_469176f41ccdf1a1",
@@ -6755,18 +6875,6 @@
 "items": 4,
 "first_seen": "2026-11-12T13:36:20Z",
 "last_seen": "2026-11-18T23:01:25Z"
-},
-{
-"id": "ent_1b0aa19df5f246b7",
-"type": "изделие",
-"name": "Advanced Capability-3",
-"aliases": [
-"Advanced Capability-3"
-],
-"country": null,
-"items": 3,
-"first_seen": "2026-11-12T15:17:50Z",
-"last_seen": "2026-11-19T19:04:16Z"
 },
 {
 "id": "ent_2f5b1297ad96b6b8",
@@ -7311,6 +7419,18 @@
 "last_seen": "2026-11-23T19:01:39Z"
 },
 {
+"id": "ent_7a41caf381d5410b",
+"type": "изделие",
+"name": "Robinson R22",
+"aliases": [
+"Robinson R22"
+],
+"country": null,
+"items": 3,
+"first_seen": "2026-11-24T05:04:04Z",
+"last_seen": "2026-11-24T13:06:46Z"
+},
+{
 "id": "ent_72b09252c0f20219",
 "type": "изделие",
 "name": "Sachsen 10",
@@ -7654,19 +7774,6 @@
 "last_seen": "2026-11-19T15:01:28Z"
 },
 {
-"id": "ent_b64acc881f448ed5",
-"type": "изделие",
-"name": "Ту-160",
-"aliases": [
-"Tu-160",
-"Ту-160"
-],
-"country": null,
-"items": 3,
-"first_seen": "2026-11-17T11:32:16Z",
-"last_seen": "2026-11-23T09:14:17Z"
-},
-{
 "id": "ent_ea372f1a39fe2383",
 "type": "изделие",
 "name": "Формулы-1",
@@ -7753,18 +7860,6 @@
 "last_seen": "2026-11-15T08:21:28Z"
 },
 {
-"id": "ent_1db75717397c088c",
-"type": "компания",
-"name": "ARX Robotics",
-"aliases": [
-"ARX Robotics"
-],
-"country": "Германия",
-"items": 3,
-"first_seen": "2026-11-15T08:19:48Z",
-"last_seen": "2026-11-19T11:32:29Z"
-},
-{
 "id": "ent_2c02d64c9f8cbcb6",
 "type": "компания",
 "name": "Baykar Technologies",
@@ -7775,18 +7870,6 @@
 "items": 3,
 "first_seen": "2026-11-15T08:20:49Z",
 "last_seen": "2026-11-21T09:03:43Z"
-},
-{
-"id": "ent_32aeaad6425cc78c",
-"type": "компания",
-"name": "CSG Group",
-"aliases": [
-"CSG Group"
-],
-"country": null,
-"items": 3,
-"first_seen": "2026-11-13T12:44:30Z",
-"last_seen": "2026-11-20T09:02:18Z"
 },
 {
 "id": "ent_858ba2a76617df8c",
@@ -7946,6 +8029,18 @@
 "last_seen": "2026-11-17T15:00:08Z"
 },
 {
+"id": "ent_f63aff06fb17fdf9",
+"type": "компания",
+"name": "Pai Defence",
+"aliases": [
+"Pai Defence"
+],
+"country": null,
+"items": 3,
+"first_seen": "2026-11-24T11:00:37Z",
+"last_seen": "2026-11-24T13:01:24Z"
+},
+{
 "id": "ent_28f1954643a07bcb",
 "type": "компания",
 "name": "Rebellion Industries",
@@ -8016,18 +8111,6 @@
 "country": null,
 "items": 3,
 "first_seen": "2026-11-16T13:02:15Z",
-"last_seen": "2026-11-22T09:02:00Z"
-},
-{
-"id": "ent_5669a8e8ecd11cb5",
-"type": "компания",
-"name": "Ukrainian Defense",
-"aliases": [
-"Ukrainian Defense"
-],
-"country": null,
-"items": 3,
-"first_seen": "2026-11-15T08:23:57Z",
 "last_seen": "2026-11-22T09:02:00Z"
 },
 {
@@ -8185,18 +8268,6 @@
 "last_seen": "2026-11-15T08:21:10Z"
 },
 {
-"id": "ent_9a84fb54f8bcaf75",
-"type": "организация",
-"name": "AFWERX",
-"aliases": [
-"AFWERX"
-],
-"country": "США",
-"items": 3,
-"first_seen": "2026-11-12T13:36:16Z",
-"last_seen": "2026-11-17T01:01:35Z"
-},
-{
 "id": "ent_c6093f8bc53a576b",
 "type": "организация",
 "name": "NATO Innovation Fund",
@@ -8223,20 +8294,6 @@
 "last_seen": "2026-11-16T23:02:48Z"
 },
 {
-"id": "ent_cd2eb295133411fc",
-"type": "организация",
-"name": "РВСН",
-"aliases": [
-"Ракетных войск стратегического назначения",
-"Ракетных войсках стратегического назначения",
-"РВСН"
-],
-"country": null,
-"items": 3,
-"first_seen": "2026-11-15T08:20:05Z",
-"last_seen": "2026-11-18T21:01:42Z"
-},
-{
 "id": "ent_173e263ab90e6a8d",
 "type": "персона",
 "name": "Alex Karp",
@@ -8247,6 +8304,18 @@
 "items": 3,
 "first_seen": "2026-11-12T13:36:04Z",
 "last_seen": "2026-11-15T08:19:40Z"
+},
+{
+"id": "ent_d044254c49a81c46",
+"type": "персона",
+"name": "Alexus Grynkewich",
+"aliases": [
+"Alexus Grynkewich"
+],
+"country": null,
+"items": 3,
+"first_seen": "2026-11-16T19:08:18Z",
+"last_seen": "2026-11-24T11:03:32Z"
 },
 {
 "id": "ent_2718cfd3623802d1",
@@ -8271,6 +8340,18 @@
 "items": 3,
 "first_seen": "2026-11-19T01:00:17Z",
 "last_seen": "2026-11-22T07:01:33Z"
+},
+{
+"id": "ent_72c9c057cb4b8907",
+"type": "персона",
+"name": "Christian Freuding",
+"aliases": [
+"Christian Freuding"
+],
+"country": null,
+"items": 3,
+"first_seen": "2026-11-12T13:37:06Z",
+"last_seen": "2026-11-24T13:00:17Z"
 },
 {
 "id": "ent_43015c357a9bf248",
@@ -8343,6 +8424,18 @@
 "items": 3,
 "first_seen": "2026-11-12T13:36:38Z",
 "last_seen": "2026-11-23T19:00:17Z"
+},
+{
+"id": "ent_66a4f920a56ca00f",
+"type": "персона",
+"name": "Sanae Takaichi",
+"aliases": [
+"Sanae Takaichi"
+],
+"country": null,
+"items": 3,
+"first_seen": "2026-11-19T23:01:23Z",
+"last_seen": "2026-11-24T11:15:09Z"
 },
 {
 "id": "ent_5a172a2ec946383d",
@@ -8525,6 +8618,18 @@
 "last_seen": "2026-11-21T23:09:19Z"
 },
 {
+"id": "ent_e6931202c90f826b",
+"type": "персона",
+"name": "Міхаелем Классоном",
+"aliases": [
+"Міхаелем Классоном"
+],
+"country": null,
+"items": 3,
+"first_seen": "2026-11-22T15:02:29Z",
+"last_seen": "2026-11-24T11:14:55Z"
+},
+{
 "id": "ent_cca4f1c6c2c999b5",
 "type": "персона",
 "name": "России Денис",
@@ -8607,6 +8712,18 @@
 "items": 3,
 "first_seen": "2026-11-12T13:36:23Z",
 "last_seen": "2026-11-19T15:01:05Z"
+},
+{
+"id": "ent_635b0315be395d30",
+"type": "программа",
+"name": "Project Convergence-Capstone",
+"aliases": [
+"Project Convergence-Capstone"
+],
+"country": null,
+"items": 3,
+"first_seen": "2026-11-12T15:15:43Z",
+"last_seen": "2026-11-24T11:15:12Z"
 },
 {
 "id": "ent_c665e2dadcb1fa6a",
@@ -9724,6 +9841,18 @@
 "last_seen": "2026-11-18T15:03:08Z"
 },
 {
+"id": "ent_27f9747e503a601b",
+"type": "изделие",
+"name": "Gulfstream S102B",
+"aliases": [
+"Gulfstream S102B"
+],
+"country": null,
+"items": 2,
+"first_seen": "2026-11-17T05:32:03Z",
+"last_seen": "2026-11-24T13:01:29Z"
+},
+{
 "id": "ent_2f07032e5fb9fb57",
 "type": "изделие",
 "name": "Hammer F1",
@@ -9986,6 +10115,18 @@
 "items": 2,
 "first_seen": "2026-11-17T01:01:31Z",
 "last_seen": "2026-11-17T01:01:37Z"
+},
+{
+"id": "ent_00e559c4a88ca264",
+"type": "изделие",
+"name": "M777",
+"aliases": [
+"M777"
+],
+"country": null,
+"items": 2,
+"first_seen": "2026-11-12T15:15:32Z",
+"last_seen": "2026-11-24T11:03:00Z"
 },
 {
 "id": "ent_dcba616b1fa4aeaa",
@@ -10288,6 +10429,18 @@
 "last_seen": "2026-11-18T21:01:32Z"
 },
 {
+"id": "ent_f2a8a758f09aee83",
+"type": "изделие",
+"name": "National Guard F-16",
+"aliases": [
+"National Guard F-16"
+],
+"country": null,
+"items": 2,
+"first_seen": "2026-11-19T19:01:24Z",
+"last_seen": "2026-11-24T13:01:32Z"
+},
+{
 "id": "ent_90028a418dae5c7b",
 "type": "изделие",
 "name": "Neo 3",
@@ -10382,6 +10535,30 @@
 "items": 2,
 "first_seen": "2026-11-19T19:01:15Z",
 "last_seen": "2026-11-19T19:01:25Z"
+},
+{
+"id": "ent_d5d497e73970ca94",
+"type": "изделие",
+"name": "Patriot PAC-3",
+"aliases": [
+"Patriot PAC-3"
+],
+"country": null,
+"items": 2,
+"first_seen": "2026-11-16T11:36:36Z",
+"last_seen": "2026-11-24T13:03:25Z"
+},
+{
+"id": "ent_a6fb53f7c46bc334",
+"type": "изделие",
+"name": "Pelican 2",
+"aliases": [
+"Pelican 2"
+],
+"country": null,
+"items": 2,
+"first_seen": "2026-11-15T08:23:42Z",
+"last_seen": "2026-11-24T11:15:12Z"
 },
 {
 "id": "ent_8f2b0fd13a915f57",
@@ -10576,16 +10753,16 @@
 "last_seen": "2026-11-23T19:03:06Z"
 },
 {
-"id": "ent_7a41caf381d5410b",
+"id": "ent_f1e51ee14150c33b",
 "type": "изделие",
-"name": "Robinson R22",
+"name": "RMF 24",
 "aliases": [
-"Robinson R22"
+"RMF 24"
 ],
 "country": null,
 "items": 2,
-"first_seen": "2026-11-24T05:04:04Z",
-"last_seen": "2026-11-24T06:34:43Z"
+"first_seen": "2026-11-23T11:02:55Z",
+"last_seen": "2026-11-24T13:08:21Z"
 },
 {
 "id": "ent_bc181139ecd1457b",
@@ -10600,6 +10777,18 @@
 "last_seen": "2026-11-18T09:11:59Z"
 },
 {
+"id": "ent_c91088d26303c660",
+"type": "изделие",
+"name": "Russian Geran-5",
+"aliases": [
+"Russian Geran-5"
+],
+"country": null,
+"items": 2,
+"first_seen": "2026-11-12T13:36:04Z",
+"last_seen": "2026-11-24T11:00:38Z"
+},
+{
 "id": "ent_3c0bc552970ae70d",
 "type": "изделие",
 "name": "Ruta Block 1",
@@ -10610,6 +10799,18 @@
 "items": 2,
 "first_seen": "2026-11-15T08:22:22Z",
 "last_seen": "2026-11-18T09:04:57Z"
+},
+{
+"id": "ent_5e72d73e4e215a81",
+"type": "изделие",
+"name": "Satan 2",
+"aliases": [
+"Satan 2"
+],
+"country": null,
+"items": 2,
+"first_seen": "2026-11-23T19:09:03Z",
+"last_seen": "2026-11-24T13:01:30Z"
 },
 {
 "id": "ent_fa0005a14294313f",
@@ -10790,6 +10991,18 @@
 "items": 2,
 "first_seen": "2026-11-17T23:08:26Z",
 "last_seen": "2026-11-18T01:08:38Z"
+},
+{
+"id": "ent_5c7d386e4937955f",
+"type": "изделие",
+"name": "Supporting JIATF-401",
+"aliases": [
+"Supporting JIATF-401"
+],
+"country": null,
+"items": 2,
+"first_seen": "2026-11-24T11:00:50Z",
+"last_seen": "2026-11-24T11:02:04Z"
 },
 {
 "id": "ent_08d35d303701a45a",
@@ -11730,16 +11943,16 @@
 "last_seen": "2026-11-15T10:20:06Z"
 },
 {
-"id": "ent_5c140b5b4dce978e",
+"id": "ent_98a348c4dec59706",
 "type": "компания",
-"name": "Czechoslovak Group",
+"name": "CTS Corporation",
 "aliases": [
-"Czechoslovak Group"
+"CTS Corporation"
 ],
 "country": null,
 "items": 2,
-"first_seen": "2026-11-15T08:21:47Z",
-"last_seen": "2026-11-19T16:31:26Z"
+"first_seen": "2026-11-12T13:36:17Z",
+"last_seen": "2026-11-24T11:14:59Z"
 },
 {
 "id": "ent_c593a7850e178919",
@@ -11800,6 +12013,18 @@
 "items": 2,
 "first_seen": "2026-11-16T11:33:56Z",
 "last_seen": "2026-11-18T13:01:48Z"
+},
+{
+"id": "ent_6d26415c59f5bf1e",
+"type": "компания",
+"name": "Dynauton Systems",
+"aliases": [
+"Dynauton Systems"
+],
+"country": null,
+"items": 2,
+"first_seen": "2026-11-16T15:01:49Z",
+"last_seen": "2026-11-24T13:03:02Z"
 },
 {
 "id": "ent_7ee3a55aec82a5ae",
@@ -12282,6 +12507,42 @@
 "items": 2,
 "first_seen": "2026-11-12T13:37:02Z",
 "last_seen": "2026-11-17T10:24:15Z"
+},
+{
+"id": "ent_494f8c3416b4d7f1",
+"type": "компания",
+"name": "Polish Defence",
+"aliases": [
+"Polish Defence"
+],
+"country": null,
+"items": 2,
+"first_seen": "2026-11-24T05:14:30Z",
+"last_seen": "2026-11-24T13:08:21Z"
+},
+{
+"id": "ent_90666665f26639b8",
+"type": "компания",
+"name": "Polish Defense",
+"aliases": [
+"Polish Defense"
+],
+"country": null,
+"items": 2,
+"first_seen": "2026-11-20T15:08:36Z",
+"last_seen": "2026-11-24T11:03:32Z"
+},
+{
+"id": "ent_8cce38398a860e00",
+"type": "компания",
+"name": "Polish Deputy Defence",
+"aliases": [
+"Polish Deputy Defence"
+],
+"country": null,
+"items": 2,
+"first_seen": "2026-11-24T11:03:32Z",
+"last_seen": "2026-11-24T13:08:21Z"
 },
 {
 "id": "ent_fd12f5222c7f80cb",
@@ -12969,18 +13230,6 @@
 "last_seen": "2026-11-12T15:15:42Z"
 },
 {
-"id": "ent_d044254c49a81c46",
-"type": "персона",
-"name": "Alexus Grynkewich",
-"aliases": [
-"Alexus Grynkewich"
-],
-"country": null,
-"items": 2,
-"first_seen": "2026-11-16T19:08:18Z",
-"last_seen": "2026-11-19T11:32:29Z"
-},
-{
 "id": "ent_2b9943a1351fa1fb",
 "type": "персона",
 "name": "Andrii Sybiha",
@@ -13053,16 +13302,16 @@
 "last_seen": "2026-11-23T23:01:24Z"
 },
 {
-"id": "ent_72c9c057cb4b8907",
+"id": "ent_bc0ee67b570d510f",
 "type": "персона",
-"name": "Christian Freuding",
+"name": "Benjamin Netanyahu",
 "aliases": [
-"Christian Freuding"
+"Benjamin Netanyahu"
 ],
 "country": null,
 "items": 2,
-"first_seen": "2026-11-12T13:37:06Z",
-"last_seen": "2026-11-23T19:00:16Z"
+"first_seen": "2026-11-21T21:03:25Z",
+"last_seen": "2026-11-24T11:06:08Z"
 },
 {
 "id": "ent_e18e44994b33f197",
@@ -13087,6 +13336,18 @@
 "items": 2,
 "first_seen": "2026-11-20T11:34:29Z",
 "last_seen": "2026-11-20T13:01:45Z"
+},
+{
+"id": "ent_cf950b5003545c2f",
+"type": "персона",
+"name": "Dan Driscoll",
+"aliases": [
+"Dan Driscoll"
+],
+"country": null,
+"items": 2,
+"first_seen": "2026-11-21T13:00:17Z",
+"last_seen": "2026-11-24T13:00:17Z"
 },
 {
 "id": "ent_cf1c718559f0825f",
@@ -13183,6 +13444,18 @@
 "items": 2,
 "first_seen": "2026-11-20T07:00:17Z",
 "last_seen": "2026-11-23T19:02:58Z"
+},
+{
+"id": "ent_37889e4a6168ddd9",
+"type": "персона",
+"name": "General Mark",
+"aliases": [
+"General Mark"
+],
+"country": null,
+"items": 2,
+"first_seen": "2026-11-18T15:08:10Z",
+"last_seen": "2026-11-24T11:03:32Z"
 },
 {
 "id": "ent_60971c6d5d585451",
@@ -13315,6 +13588,18 @@
 "items": 2,
 "first_seen": "2026-11-12T13:36:50Z",
 "last_seen": "2026-11-12T13:36:50Z"
+},
+{
+"id": "ent_d9a901c0bfcef0c0",
+"type": "персона",
+"name": "Lieutenant General",
+"aliases": [
+"Lieutenant General"
+],
+"country": null,
+"items": 2,
+"first_seen": "2026-11-16T19:08:18Z",
+"last_seen": "2026-11-24T11:03:32Z"
 },
 {
 "id": "ent_ee72315220b70877",
@@ -13473,16 +13758,16 @@
 "last_seen": "2026-11-15T08:19:57Z"
 },
 {
-"id": "ent_66a4f920a56ca00f",
+"id": "ent_e5563f051da7aa7a",
 "type": "персона",
-"name": "Sanae Takaichi",
+"name": "Shinjiro Koizumi",
 "aliases": [
-"Sanae Takaichi"
+"Shinjiro Koizumi"
 ],
 "country": null,
 "items": 2,
-"first_seen": "2026-11-19T23:01:23Z",
-"last_seen": "2026-11-23T15:01:35Z"
+"first_seen": "2026-11-17T19:01:42Z",
+"last_seen": "2026-11-24T11:15:09Z"
 },
 {
 "id": "ent_d0da6aac2829624c",
@@ -13749,18 +14034,6 @@
 "last_seen": "2026-11-16T11:34:22Z"
 },
 {
-"id": "ent_e6931202c90f826b",
-"type": "персона",
-"name": "Міхаелем Классоном",
-"aliases": [
-"Міхаелем Классоном"
-],
-"country": null,
-"items": 2,
-"first_seen": "2026-11-22T15:02:29Z",
-"last_seen": "2026-11-24T05:14:29Z"
-},
-{
 "id": "ent_c266fbbb8f35d51f",
 "type": "персона",
 "name": "Новак  На",
@@ -13809,6 +14082,18 @@
 "last_seen": "2026-11-15T08:25:32Z"
 },
 {
+"id": "ent_b9d1238aa3a8f506",
+"type": "персона",
+"name": "России Владимиру",
+"aliases": [
+"России Владимиру"
+],
+"country": null,
+"items": 2,
+"first_seen": "2026-11-15T08:25:30Z",
+"last_seen": "2026-11-24T11:03:22Z"
+},
+{
 "id": "ent_420c7f32cc45f9b5",
 "type": "персона",
 "name": "России Дмитрий",
@@ -13819,6 +14104,18 @@
 "items": 2,
 "first_seen": "2026-11-23T15:10:29Z",
 "last_seen": "2026-11-23T19:09:02Z"
+},
+{
+"id": "ent_ba75e1769da02e30",
+"type": "персона",
+"name": "Соединенных Штатов",
+"aliases": [
+"Соединенных Штатов"
+],
+"country": null,
+"items": 2,
+"first_seen": "2026-11-17T13:13:51Z",
+"last_seen": "2026-11-24T13:01:29Z"
 },
 {
 "id": "ent_6eb8331dd817202d",
@@ -13879,18 +14176,6 @@
 "items": 2,
 "first_seen": "2026-11-12T13:36:18Z",
 "last_seen": "2026-11-20T21:00:21Z"
-},
-{
-"id": "ent_635b0315be395d30",
-"type": "программа",
-"name": "Project Convergence-Capstone",
-"aliases": [
-"Project Convergence-Capstone"
-],
-"country": null,
-"items": 2,
-"first_seen": "2026-11-12T15:15:43Z",
-"last_seen": "2026-11-12T15:17:01Z"
 },
 {
 "id": "ent_9e84e10bb84b7b25",
@@ -15007,6 +15292,18 @@
 "last_seen": "2026-11-20T05:31:38Z"
 },
 {
+"id": "ent_9983f9897f6b293f",
+"type": "изделие",
+"name": "American B-1",
+"aliases": [
+"American B-1"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:01:36Z",
+"last_seen": "2026-11-24T13:01:36Z"
+},
+{
 "id": "ent_ff345c6bd6da4dd8",
 "type": "изделие",
 "name": "American E-3",
@@ -15377,6 +15674,18 @@
 "items": 1,
 "first_seen": "2026-11-15T08:21:07Z",
 "last_seen": "2026-11-15T08:21:07Z"
+},
+{
+"id": "ent_1be7d261ac6fbb01",
+"type": "изделие",
+"name": "Around 20",
+"aliases": [
+"Around 20"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:15:01Z",
+"last_seen": "2026-11-24T11:15:01Z"
 },
 {
 "id": "ent_48573df54fef19c6",
@@ -15895,18 +16204,6 @@
 "last_seen": "2026-11-15T08:20:56Z"
 },
 {
-"id": "ent_00dc416c543d9ae1",
-"type": "изделие",
-"name": "Baza 57",
-"aliases": [
-"Baza 57"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-22T21:04:05Z",
-"last_seen": "2026-11-22T21:04:05Z"
-},
-{
 "id": "ent_c0c406d11bed378c",
 "type": "изделие",
 "name": "BeastFPV 3",
@@ -16193,6 +16490,18 @@
 "items": 1,
 "first_seen": "2026-11-20T19:00:16Z",
 "last_seen": "2026-11-20T19:00:16Z"
+},
+{
+"id": "ent_07a90c264baf9644",
+"type": "изделие",
+"name": "Billion PAC-3",
+"aliases": [
+"Billion PAC-3"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:01:21Z",
+"last_seen": "2026-11-24T13:01:21Z"
 },
 {
 "id": "ent_80a092191d6e8542",
@@ -17179,6 +17488,18 @@
 "last_seen": "2026-11-17T23:01:33Z"
 },
 {
+"id": "ent_7da62abbc301a73f",
+"type": "изделие",
+"name": "Combat Sent 24",
+"aliases": [
+"Combat Sent 24"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:03:37Z",
+"last_seen": "2026-11-24T11:03:37Z"
+},
+{
 "id": "ent_32f2cb2a85c0e9ea",
 "type": "изделие",
 "name": "Communication Specialist 2nd",
@@ -17429,6 +17750,18 @@
 "items": 1,
 "first_seen": "2026-11-16T19:13:21Z",
 "last_seen": "2026-11-16T19:13:21Z"
+},
+{
+"id": "ent_c9537161a8a37427",
+"type": "изделие",
+"name": "Continental CD-300",
+"aliases": [
+"Continental CD-300"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:03:02Z",
+"last_seen": "2026-11-24T13:03:02Z"
 },
 {
 "id": "ent_fc6f12d14544bcde",
@@ -17995,6 +18328,18 @@
 "last_seen": "2026-11-13T17:26:01Z"
 },
 {
+"id": "ent_d1b1cf3321eba864",
+"type": "изделие",
+"name": "Delta Logged 3",
+"aliases": [
+"Delta Logged 3"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:00:17Z",
+"last_seen": "2026-11-24T13:00:17Z"
+},
+{
 "id": "ent_fda9b9c3342bb347",
 "type": "изделие",
 "name": "DEMAR-145",
@@ -18269,6 +18614,18 @@
 "items": 1,
 "first_seen": "2026-11-15T08:23:29Z",
 "last_seen": "2026-11-15T08:23:29Z"
+},
+{
+"id": "ent_3296d029ffe3383e",
+"type": "изделие",
+"name": "District Amendment Z-26",
+"aliases": [
+"District Amendment Z-26"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:00:15Z",
+"last_seen": "2026-11-24T13:00:15Z"
 },
 {
 "id": "ent_7e22605a70c5dd86",
@@ -18557,6 +18914,18 @@
 "items": 1,
 "first_seen": "2026-11-20T09:14:14Z",
 "last_seen": "2026-11-20T09:14:14Z"
+},
+{
+"id": "ent_4482c82c94d5345e",
+"type": "изделие",
+"name": "Dronele Geran-4",
+"aliases": [
+"Dronele Geran-4"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:14:59Z",
+"last_seen": "2026-11-24T11:14:59Z"
 },
 {
 "id": "ent_715fa0a902194b3b",
@@ -19049,6 +19418,18 @@
 "items": 1,
 "first_seen": "2026-11-19T03:08:02Z",
 "last_seen": "2026-11-19T03:08:02Z"
+},
+{
+"id": "ent_7388b38111449931",
+"type": "изделие",
+"name": "Essential Income 11",
+"aliases": [
+"Essential Income 11"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:00:15Z",
+"last_seen": "2026-11-24T13:00:15Z"
 },
 {
 "id": "ent_883862a8026b67f3",
@@ -19603,6 +19984,30 @@
 "last_seen": "2026-11-15T08:20:11Z"
 },
 {
+"id": "ent_b1ef4db4884af3ea",
+"type": "изделие",
+"name": "Finding 2",
+"aliases": [
+"Finding 2"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:00:15Z",
+"last_seen": "2026-11-24T13:00:15Z"
+},
+{
+"id": "ent_3ceb1130071e6b22",
+"type": "изделие",
+"name": "Finding 3",
+"aliases": [
+"Finding 3"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:00:15Z",
+"last_seen": "2026-11-24T13:00:15Z"
+},
+{
 "id": "ent_faaeda7ff9d07ee5",
 "type": "изделие",
 "name": "Finland-First-F-35As",
@@ -20117,6 +20522,18 @@
 "items": 1,
 "first_seen": "2026-11-12T15:16:22Z",
 "last_seen": "2026-11-12T15:16:22Z"
+},
+{
+"id": "ent_9fa0e5ac379e5e38",
+"type": "изделие",
+"name": "French CAESAR 155",
+"aliases": [
+"French CAESAR 155"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:02:55Z",
+"last_seen": "2026-11-24T11:02:55Z"
 },
 {
 "id": "ent_9a7572c672dc9b39",
@@ -20933,18 +21350,6 @@
 "items": 1,
 "first_seen": "2026-11-12T15:16:24Z",
 "last_seen": "2026-11-12T15:16:24Z"
-},
-{
-"id": "ent_27f9747e503a601b",
-"type": "изделие",
-"name": "Gulfstream S102B",
-"aliases": [
-"Gulfstream S102B"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-17T05:32:03Z",
-"last_seen": "2026-11-17T05:32:03Z"
 },
 {
 "id": "ent_9b298d854360f96f",
@@ -22267,6 +22672,18 @@
 "last_seen": "2026-11-15T08:21:23Z"
 },
 {
+"id": "ent_389d1f0bdbc046a4",
+"type": "изделие",
+"name": "Kaliber 7",
+"aliases": [
+"Kaliber 7"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:02:57Z",
+"last_seen": "2026-11-24T11:02:57Z"
+},
+{
 "id": "ent_16b31b062b49708b",
 "type": "изделие",
 "name": "KALKAN 200",
@@ -22855,6 +23272,18 @@
 "last_seen": "2026-11-12T13:37:03Z"
 },
 {
+"id": "ent_5b49798217ba95b0",
+"type": "изделие",
+"name": "Less 13",
+"aliases": [
+"Less 13"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:01:36Z",
+"last_seen": "2026-11-24T13:01:36Z"
+},
+{
 "id": "ent_3bc6c1a3cc10ba74",
 "type": "изделие",
 "name": "Lexar Professional 1066x",
@@ -23167,6 +23596,18 @@
 "last_seen": "2026-11-15T08:22:54Z"
 },
 {
+"id": "ent_cb7c1f3d074b8838",
+"type": "изделие",
+"name": "Lynx KF41",
+"aliases": [
+"Lynx KF41"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:01:25Z",
+"last_seen": "2026-11-24T13:01:25Z"
+},
+{
 "id": "ent_6c0cb393663075d7",
 "type": "изделие",
 "name": "Lynx M20S",
@@ -23202,18 +23643,6 @@
 "items": 1,
 "first_seen": "2026-11-20T13:01:49Z",
 "last_seen": "2026-11-20T13:01:49Z"
-},
-{
-"id": "ent_00e559c4a88ca264",
-"type": "изделие",
-"name": "M777",
-"aliases": [
-"M777"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-12T15:15:32Z",
-"last_seen": "2026-11-12T15:15:32Z"
 },
 {
 "id": "ent_1ad9c5f6ac63cc8f",
@@ -23430,6 +23859,18 @@
 "items": 1,
 "first_seen": "2026-11-20T19:03:29Z",
 "last_seen": "2026-11-20T19:03:29Z"
+},
+{
+"id": "ent_f9a1c2bab66c5905",
+"type": "изделие",
+"name": "Maschinengewehr M2",
+"aliases": [
+"Maschinengewehr M2"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:02:57Z",
+"last_seen": "2026-11-24T11:02:57Z"
 },
 {
 "id": "ent_4e19f0baed0a53e8",
@@ -24224,18 +24665,6 @@
 "last_seen": "2026-11-15T08:25:08Z"
 },
 {
-"id": "ent_f2a8a758f09aee83",
-"type": "изделие",
-"name": "National Guard F-16",
-"aliases": [
-"National Guard F-16"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-19T19:01:24Z",
-"last_seen": "2026-11-19T19:01:24Z"
-},
-{
 "id": "ent_b6ba13b73c5a58e2",
 "type": "изделие",
 "name": "National Vandalized C-130",
@@ -24378,6 +24807,18 @@
 "items": 1,
 "first_seen": "2026-11-17T15:01:51Z",
 "last_seen": "2026-11-17T15:01:51Z"
+},
+{
+"id": "ent_2fb9b34505336b81",
+"type": "изделие",
+"name": "Netherlands Prepares F-35",
+"aliases": [
+"Netherlands Prepares F-35"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:01:33Z",
+"last_seen": "2026-11-24T13:01:33Z"
 },
 {
 "id": "ent_886318d3677549b0",
@@ -24872,6 +25313,18 @@
 "last_seen": "2026-11-12T13:36:19Z"
 },
 {
+"id": "ent_279ece2a970bbaac",
+"type": "изделие",
+"name": "Pad 6",
+"aliases": [
+"Pad 6"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:00:15Z",
+"last_seen": "2026-11-24T13:00:15Z"
+},
+{
 "id": "ent_1e007dd83ed7a1ad",
 "type": "изделие",
 "name": "PALJBA 1",
@@ -24942,18 +25395,6 @@
 "items": 1,
 "first_seen": "2026-11-17T13:13:51Z",
 "last_seen": "2026-11-17T13:13:51Z"
-},
-{
-"id": "ent_d5d497e73970ca94",
-"type": "изделие",
-"name": "Patriot PAC-3",
-"aliases": [
-"Patriot PAC-3"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-16T11:36:36Z",
-"last_seen": "2026-11-16T11:36:36Z"
 },
 {
 "id": "ent_7fecbd6ae8e26758",
@@ -25062,18 +25503,6 @@
 "items": 1,
 "first_seen": "2026-11-15T08:25:35Z",
 "last_seen": "2026-11-15T08:25:35Z"
-},
-{
-"id": "ent_a6fb53f7c46bc334",
-"type": "изделие",
-"name": "Pelican 2",
-"aliases": [
-"Pelican 2"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-15T08:23:42Z",
-"last_seen": "2026-11-15T08:23:42Z"
 },
 {
 "id": "ent_44f4c86178ce23ea",
@@ -25530,6 +25959,18 @@
 "items": 1,
 "first_seen": "2026-11-22T09:00:16Z",
 "last_seen": "2026-11-22T09:00:16Z"
+},
+{
+"id": "ent_d01e092298272caf",
+"type": "изделие",
+"name": "Polish F-16s",
+"aliases": [
+"Polish F-16s"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:03:32Z",
+"last_seen": "2026-11-24T11:03:32Z"
 },
 {
 "id": "ent_3b52804295c06f9c",
@@ -26192,6 +26633,18 @@
 "last_seen": "2026-11-15T08:19:51Z"
 },
 {
+"id": "ent_d3cfcbf56992e0c3",
+"type": "изделие",
+"name": "Recognition The CFL-120",
+"aliases": [
+"Recognition The CFL-120"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:15:13Z",
+"last_seen": "2026-11-24T11:15:13Z"
+},
+{
 "id": "ent_d67fb667aa9e92f8",
 "type": "изделие",
 "name": "Reconnaissance Aircraft XM915",
@@ -26372,6 +26825,18 @@
 "last_seen": "2026-11-23T15:01:30Z"
 },
 {
+"id": "ent_615108a6d0b217ff",
+"type": "изделие",
+"name": "Review Puts 72",
+"aliases": [
+"Review Puts 72"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:01:31Z",
+"last_seen": "2026-11-24T13:01:31Z"
+},
+{
 "id": "ent_cf3f0b362266855b",
 "type": "изделие",
 "name": "REX MK3",
@@ -26466,18 +26931,6 @@
 "items": 1,
 "first_seen": "2026-11-15T08:21:02Z",
 "last_seen": "2026-11-15T08:21:02Z"
-},
-{
-"id": "ent_f1e51ee14150c33b",
-"type": "изделие",
-"name": "RMF 24",
-"aliases": [
-"RMF 24"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-23T11:02:55Z",
-"last_seen": "2026-11-23T11:02:55Z"
 },
 {
 "id": "ent_8c5bb46e33520c2b",
@@ -26660,6 +27113,18 @@
 "last_seen": "2026-11-15T08:22:01Z"
 },
 {
+"id": "ent_130ec67367488f9b",
+"type": "изделие",
+"name": "RRA-Munition 7",
+"aliases": [
+"RRA-Munition 7"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:02:57Z",
+"last_seen": "2026-11-24T11:02:57Z"
+},
+{
 "id": "ent_c4e880f0217814db",
 "type": "изделие",
 "name": "RSI ESAD-L1",
@@ -26744,6 +27209,18 @@
 "last_seen": "2026-11-23T15:03:28Z"
 },
 {
+"id": "ent_e2c1e02e605c6762",
+"type": "изделие",
+"name": "Rund 700",
+"aliases": [
+"Rund 700"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:04:58Z",
+"last_seen": "2026-11-24T11:04:58Z"
+},
+{
 "id": "ent_32721a48f9d8f5de",
 "type": "изделие",
 "name": "Runs 45",
@@ -26804,18 +27281,6 @@
 "last_seen": "2026-11-24T05:04:03Z"
 },
 {
-"id": "ent_c91088d26303c660",
-"type": "изделие",
-"name": "Russian Geran-5",
-"aliases": [
-"Russian Geran-5"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-12T13:36:04Z",
-"last_seen": "2026-11-12T13:36:04Z"
-},
-{
 "id": "ent_4485d732ff575c99",
 "type": "изделие",
 "name": "Russian IL-38",
@@ -26826,6 +27291,18 @@
 "items": 1,
 "first_seen": "2026-11-17T19:01:42Z",
 "last_seen": "2026-11-17T19:01:42Z"
+},
+{
+"id": "ent_abe31a5a14a945ae",
+"type": "изделие",
+"name": "Russian RM-48U",
+"aliases": [
+"Russian RM-48U"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:08:19Z",
+"last_seen": "2026-11-24T13:08:19Z"
 },
 {
 "id": "ent_bcc8a225073478bc",
@@ -26948,18 +27425,6 @@
 "last_seen": "2026-11-19T19:04:20Z"
 },
 {
-"id": "ent_5e72d73e4e215a81",
-"type": "изделие",
-"name": "Satan 2",
-"aliases": [
-"Satan 2"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-23T19:09:03Z",
-"last_seen": "2026-11-23T19:09:03Z"
-},
-{
 "id": "ent_23a4c7dea3a688da",
 "type": "изделие",
 "name": "SAVER-1",
@@ -27080,6 +27545,18 @@
 "last_seen": "2026-11-17T21:01:33Z"
 },
 {
+"id": "ent_718a0e4dbfe6ad20",
+"type": "изделие",
+"name": "SENIX Flew 10",
+"aliases": [
+"SENIX Flew 10"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:00:15Z",
+"last_seen": "2026-11-24T13:00:15Z"
+},
+{
 "id": "ent_8e90f78e47f0b5e3",
 "type": "изделие",
 "name": "SENSYS MagDrone R4",
@@ -27198,6 +27675,18 @@
 "items": 1,
 "first_seen": "2026-11-23T21:00:17Z",
 "last_seen": "2026-11-23T21:00:17Z"
+},
+{
+"id": "ent_fe439619b60abb21",
+"type": "изделие",
+"name": "Sheet Lists 6",
+"aliases": [
+"Sheet Lists 6"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:00:15Z",
+"last_seen": "2026-11-24T13:00:15Z"
 },
 {
 "id": "ent_a7b994af823c7883",
@@ -27704,6 +28193,18 @@
 "last_seen": "2026-11-12T15:16:22Z"
 },
 {
+"id": "ent_f8acc0969dbdcc9a",
+"type": "изделие",
+"name": "Sparta-2",
+"aliases": [
+"Sparta-2"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:15:12Z",
+"last_seen": "2026-11-24T11:15:12Z"
+},
+{
 "id": "ent_23cf51f6d6d22960",
 "type": "изделие",
 "name": "Special Order 5",
@@ -28206,6 +28707,18 @@
 "items": 1,
 "first_seen": "2026-11-17T10:21:02Z",
 "last_seen": "2026-11-17T10:21:02Z"
+},
+{
+"id": "ent_d99ab2765ca3a9bb",
+"type": "изделие",
+"name": "Swedish JAS 39",
+"aliases": [
+"Swedish JAS 39"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:02:54Z",
+"last_seen": "2026-11-24T11:02:54Z"
 },
 {
 "id": "ent_3d898e0313a18b92",
@@ -29037,6 +29550,18 @@
 "last_seen": "2026-11-12T15:16:22Z"
 },
 {
+"id": "ent_37cf666654e7fe44",
+"type": "изделие",
+"name": "Two Polish F-16s",
+"aliases": [
+"Two Polish F-16s"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:03:32Z",
+"last_seen": "2026-11-24T11:03:32Z"
+},
+{
 "id": "ent_23f093973266b0cb",
 "type": "изделие",
 "name": "Two Spanish NH90",
@@ -29047,6 +29572,18 @@
 "items": 1,
 "first_seen": "2026-11-12T15:16:22Z",
 "last_seen": "2026-11-12T15:16:22Z"
+},
+{
+"id": "ent_109f339300869e63",
+"type": "изделие",
+"name": "Typische 12",
+"aliases": [
+"Typische 12"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:02:57Z",
+"last_seen": "2026-11-24T11:02:57Z"
 },
 {
 "id": "ent_1f9c53eac06bd9bb",
@@ -31461,6 +31998,18 @@
 "last_seen": "2026-11-15T08:25:46Z"
 },
 {
+"id": "ent_15b0ebe83b9f0f5f",
+"type": "изделие",
+"name": "Т-64",
+"aliases": [
+"Т-64"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:02:42Z",
+"last_seen": "2026-11-24T11:02:42Z"
+},
+{
 "id": "ent_39ab28cb2391ef9f",
 "type": "изделие",
 "name": "Терминатора-2",
@@ -32902,18 +33451,6 @@
 "last_seen": "2026-11-19T15:01:26Z"
 },
 {
-"id": "ent_98a348c4dec59706",
-"type": "компания",
-"name": "CTS Corporation",
-"aliases": [
-"CTS Corporation"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-12T13:36:17Z",
-"last_seen": "2026-11-12T13:36:17Z"
-},
-{
 "id": "ent_2b77d5acb7ee3156",
 "type": "компания",
 "name": "Culver Aerospace",
@@ -32924,6 +33461,18 @@
 "items": 1,
 "first_seen": "2026-11-15T08:22:27Z",
 "last_seen": "2026-11-15T08:22:27Z"
+},
+{
+"id": "ent_f78ae2a53965caec",
+"type": "компания",
+"name": "Czech CSG Group",
+"aliases": [
+"Czech CSG Group"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:15:13Z",
+"last_seen": "2026-11-24T11:15:13Z"
 },
 {
 "id": "ent_2b24f2a0949eb3ee",
@@ -33008,6 +33557,18 @@
 "items": 1,
 "first_seen": "2026-11-15T16:11:27Z",
 "last_seen": "2026-11-15T16:11:27Z"
+},
+{
+"id": "ent_8a06fa1a42e0b65e",
+"type": "компания",
+"name": "Deputy Defence",
+"aliases": [
+"Deputy Defence"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:08:20Z",
+"last_seen": "2026-11-24T13:08:20Z"
 },
 {
 "id": "ent_a745f55038a8caba",
@@ -33214,16 +33775,16 @@
 "last_seen": "2026-11-21T09:01:23Z"
 },
 {
-"id": "ent_6d26415c59f5bf1e",
+"id": "ent_a7d72fd9eaf1a883",
 "type": "компания",
-"name": "Dynauton Systems",
+"name": "Dynamatic Technologies",
 "aliases": [
-"Dynauton Systems"
+"Dynamatic Technologies"
 ],
 "country": null,
 "items": 1,
-"first_seen": "2026-11-16T15:01:49Z",
-"last_seen": "2026-11-16T15:01:49Z"
+"first_seen": "2026-11-24T13:03:02Z",
+"last_seen": "2026-11-24T13:03:02Z"
 },
 {
 "id": "ent_e577ed75059e9b87",
@@ -33850,6 +34411,18 @@
 "last_seen": "2026-11-15T08:25:43Z"
 },
 {
+"id": "ent_50ab05d7b09ba4d8",
+"type": "компания",
+"name": "Harting Technology Group",
+"aliases": [
+"Harting Technology Group"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:08:19Z",
+"last_seen": "2026-11-24T13:08:19Z"
+},
+{
 "id": "ent_656bd89ba2e33fc8",
 "type": "компания",
 "name": "Heart Aerospace",
@@ -34052,6 +34625,18 @@
 "items": 1,
 "first_seen": "2026-11-19T21:00:07Z",
 "last_seen": "2026-11-19T21:00:07Z"
+},
+{
+"id": "ent_1c5d652f3bfd9974",
+"type": "компания",
+"name": "Infineon Technologies",
+"aliases": [
+"Infineon Technologies"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:08:19Z",
+"last_seen": "2026-11-24T13:08:19Z"
 },
 {
 "id": "ent_037dea43c92b349b",
@@ -34352,6 +34937,18 @@
 "items": 1,
 "first_seen": "2026-11-16T15:02:08Z",
 "last_seen": "2026-11-16T15:02:08Z"
+},
+{
+"id": "ent_a9543b2a780da739",
+"type": "компания",
+"name": "Korea Air Defence",
+"aliases": [
+"Korea Air Defence"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:15:02Z",
+"last_seen": "2026-11-24T11:15:02Z"
 },
 {
 "id": "ent_ac919897c95fcf60",
@@ -35373,30 +35970,6 @@
 "items": 1,
 "first_seen": "2026-11-22T11:01:41Z",
 "last_seen": "2026-11-22T11:01:41Z"
-},
-{
-"id": "ent_494f8c3416b4d7f1",
-"type": "компания",
-"name": "Polish Defence",
-"aliases": [
-"Polish Defence"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-24T05:14:30Z",
-"last_seen": "2026-11-24T05:14:30Z"
-},
-{
-"id": "ent_90666665f26639b8",
-"type": "компания",
-"name": "Polish Defense",
-"aliases": [
-"Polish Defense"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-20T15:08:36Z",
-"last_seen": "2026-11-20T15:08:36Z"
 },
 {
 "id": "ent_0922e14a3de9eea8",
@@ -36589,6 +37162,18 @@
 "last_seen": "2026-11-15T08:19:31Z"
 },
 {
+"id": "ent_b061eb9a5728d2f4",
+"type": "компания",
+"name": "Updated Defense",
+"aliases": [
+"Updated Defense"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:15:09Z",
+"last_seen": "2026-11-24T11:15:09Z"
+},
+{
 "id": "ent_bc164226b18502a6",
 "type": "компания",
 "name": "US-amerikanischen Konzerns RTX Corporation",
@@ -36611,6 +37196,18 @@
 "items": 1,
 "first_seen": "2026-11-18T11:30:55Z",
 "last_seen": "2026-11-18T11:30:55Z"
+},
+{
+"id": "ent_f47e220a05f9d7dc",
+"type": "компания",
+"name": "US Defense",
+"aliases": [
+"US Defense"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:03:38Z",
+"last_seen": "2026-11-24T11:03:38Z"
 },
 {
 "id": "ent_38dbd5ae93552b47",
@@ -36767,6 +37364,18 @@
 "items": 1,
 "first_seen": "2026-11-22T19:03:46Z",
 "last_seen": "2026-11-22T19:03:46Z"
+},
+{
+"id": "ent_10575059974c31ae",
+"type": "компания",
+"name": "Warplanes Inch Toward Air Defense",
+"aliases": [
+"Warplanes Inch Toward Air Defense"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:03:38Z",
+"last_seen": "2026-11-24T11:03:38Z"
 },
 {
 "id": "ent_dede568d85825c4d",
@@ -37784,6 +38393,19 @@
 "last_seen": "2026-11-15T08:20:52Z"
 },
 {
+"id": "ent_e762a7fbfa5f5e75",
+"type": "компания",
+"name": "Русские краски",
+"aliases": [
+"компании «Русские краски»",
+"Русские краски"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:03:33Z",
+"last_seen": "2026-11-24T11:03:33Z"
+},
+{
 "id": "ent_ea1f7027080e7d3c",
 "type": "компания",
 "name": "Руссо-Балтъ",
@@ -38272,6 +38894,18 @@
 "last_seen": "2026-11-23T23:01:29Z"
 },
 {
+"id": "ent_98977e7b00cfa542",
+"type": "персона",
+"name": "Aero Sentinel",
+"aliases": [
+"Aero Sentinel"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:00:15Z",
+"last_seen": "2026-11-24T13:00:15Z"
+},
+{
 "id": "ent_530c873d863a1075",
 "type": "персона",
 "name": "Ahmet Akyol",
@@ -38392,6 +39026,18 @@
 "last_seen": "2026-11-17T23:01:33Z"
 },
 {
+"id": "ent_09ce3d2a3680dbfd",
+"type": "персона",
+"name": "Allison Hart",
+"aliases": [
+"Allison Hart"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:03:32Z",
+"last_seen": "2026-11-24T11:03:32Z"
+},
+{
 "id": "ent_cb56ab8b15d39661",
 "type": "персона",
 "name": "Ana Paula",
@@ -38474,6 +39120,18 @@
 "items": 1,
 "first_seen": "2026-11-12T13:36:05Z",
 "last_seen": "2026-11-12T13:36:05Z"
+},
+{
+"id": "ent_d0be444c74c68453",
+"type": "персона",
+"name": "Angus Bean",
+"aliases": [
+"Angus Bean"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:00:10Z",
+"last_seen": "2026-11-24T13:00:10Z"
 },
 {
 "id": "ent_0f6899808c082d42",
@@ -38582,18 +39240,6 @@
 "items": 1,
 "first_seen": "2026-11-22T13:01:32Z",
 "last_seen": "2026-11-22T13:01:32Z"
-},
-{
-"id": "ent_bc0ee67b570d510f",
-"type": "персона",
-"name": "Benjamin Netanyahu",
-"aliases": [
-"Benjamin Netanyahu"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-21T21:03:25Z",
-"last_seen": "2026-11-21T21:03:25Z"
 },
 {
 "id": "ent_fa7095bc49e926f4",
@@ -39148,18 +39794,6 @@
 "last_seen": "2026-11-18T23:01:30Z"
 },
 {
-"id": "ent_cf950b5003545c2f",
-"type": "персона",
-"name": "Dan Driscoll",
-"aliases": [
-"Dan Driscoll"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-21T13:00:17Z",
-"last_seen": "2026-11-21T13:00:17Z"
-},
-{
 "id": "ent_9264e1f2273ac614",
 "type": "персона",
 "name": "Dan Ruder",
@@ -39268,6 +39902,18 @@
 "last_seen": "2026-11-15T13:12:52Z"
 },
 {
+"id": "ent_3a4036894e761615",
+"type": "персона",
+"name": "David Deptula",
+"aliases": [
+"David Deptula"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:02:47Z",
+"last_seen": "2026-11-24T11:02:47Z"
+},
+{
 "id": "ent_80ffa56c8cf13c03",
 "type": "персона",
 "name": "David Kline",
@@ -39278,6 +39924,18 @@
 "items": 1,
 "first_seen": "2026-11-13T12:44:30Z",
 "last_seen": "2026-11-13T12:44:30Z"
+},
+{
+"id": "ent_0a4c2aa534ba498f",
+"type": "персона",
+"name": "David Roberts",
+"aliases": [
+"David Roberts"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:01:44Z",
+"last_seen": "2026-11-24T13:01:44Z"
 },
 {
 "id": "ent_b400d667d194e2be",
@@ -39698,18 +40356,6 @@
 "items": 1,
 "first_seen": "2026-11-16T16:32:13Z",
 "last_seen": "2026-11-16T16:32:13Z"
-},
-{
-"id": "ent_37889e4a6168ddd9",
-"type": "персона",
-"name": "General Mark",
-"aliases": [
-"General Mark"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-18T15:08:10Z",
-"last_seen": "2026-11-18T15:08:10Z"
 },
 {
 "id": "ent_7ca6d4b76a7e0600",
@@ -40168,6 +40814,18 @@
 "last_seen": "2026-11-14T08:12:33Z"
 },
 {
+"id": "ent_007500f8f37714cc",
+"type": "персона",
+"name": "Jim Taiclet",
+"aliases": [
+"Jim Taiclet"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:01:21Z",
+"last_seen": "2026-11-24T13:01:21Z"
+},
+{
 "id": "ent_830d0c3f8b5e2bdc",
 "type": "персона",
 "name": "Joakim Alhbin",
@@ -40348,6 +41006,18 @@
 "last_seen": "2026-11-17T23:01:33Z"
 },
 {
+"id": "ent_ec55b0552b9bacb5",
+"type": "персона",
+"name": "Julian Fieres",
+"aliases": [
+"Julian Fieres"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:08:19Z",
+"last_seen": "2026-11-24T13:08:19Z"
+},
+{
 "id": "ent_4ae166ae547968ad",
 "type": "персона",
 "name": "Kanishka Narayan",
@@ -40382,6 +41052,18 @@
 "items": 1,
 "first_seen": "2026-11-23T19:03:04Z",
 "last_seen": "2026-11-23T19:03:04Z"
+},
+{
+"id": "ent_db3b1707b7ffc0a3",
+"type": "персона",
+"name": "Keitaro Ohno",
+"aliases": [
+"Keitaro Ohno"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:15:09Z",
+"last_seen": "2026-11-24T11:15:09Z"
 },
 {
 "id": "ent_49737c072b20fa24",
@@ -40526,18 +41208,6 @@
 "items": 1,
 "first_seen": "2026-11-12T13:36:27Z",
 "last_seen": "2026-11-12T13:36:27Z"
-},
-{
-"id": "ent_d9a901c0bfcef0c0",
-"type": "персона",
-"name": "Lieutenant General",
-"aliases": [
-"Lieutenant General"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-16T19:08:18Z",
-"last_seen": "2026-11-16T19:08:18Z"
 },
 {
 "id": "ent_34c0f89de6c0bbee",
@@ -41476,6 +42146,18 @@
 "last_seen": "2026-11-16T23:02:07Z"
 },
 {
+"id": "ent_789976fde5f38913",
+"type": "персона",
+"name": "Robinson OBE",
+"aliases": [
+"Robinson OBE"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:01:44Z",
+"last_seen": "2026-11-24T13:01:44Z"
+},
+{
 "id": "ent_076448e3a6cf3cc5",
 "type": "персона",
 "name": "Rodrigo Torres",
@@ -41752,18 +42434,6 @@
 "last_seen": "2026-11-15T08:19:34Z"
 },
 {
-"id": "ent_e5563f051da7aa7a",
-"type": "персона",
-"name": "Shinjiro Koizumi",
-"aliases": [
-"Shinjiro Koizumi"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-17T19:01:42Z",
-"last_seen": "2026-11-17T19:01:42Z"
-},
-{
 "id": "ent_22de78a3511dca42",
 "type": "персона",
 "name": "Shu Chowdhury",
@@ -41942,6 +42612,18 @@
 "items": 1,
 "first_seen": "2026-11-23T11:14:21Z",
 "last_seen": "2026-11-23T11:14:21Z"
+},
+{
+"id": "ent_1ffebcfeea9c53b8",
+"type": "персона",
+"name": "Supreme Allied",
+"aliases": [
+"Supreme Allied"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:03:32Z",
+"last_seen": "2026-11-24T11:03:32Z"
 },
 {
 "id": "ent_048caf18d9dadc41",
@@ -42376,6 +43058,18 @@
 "last_seen": "2026-11-12T13:37:08Z"
 },
 {
+"id": "ent_cc7a7368e97b4f41",
+"type": "персона",
+"name": "Yevheniy Khmara",
+"aliases": [
+"Yevheniy Khmara"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:00:36Z",
+"last_seen": "2026-11-24T11:00:36Z"
+},
+{
 "id": "ent_119c7e3f1fdd9ea9",
 "type": "персона",
 "name": "Yurii Ihnat",
@@ -42518,6 +43212,18 @@
 "items": 1,
 "first_seen": "2026-11-15T08:22:40Z",
 "last_seen": "2026-11-15T08:22:40Z"
+},
+{
+"id": "ent_4f7b9a0b67af1c19",
+"type": "персона",
+"name": "Александра Лизюкова",
+"aliases": [
+"Александра Лизюкова"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T11:02:49Z",
+"last_seen": "2026-11-24T11:02:49Z"
 },
 {
 "id": "ent_c64207906532af9f",
@@ -43300,6 +44006,18 @@
 "last_seen": "2026-11-23T19:09:02Z"
 },
 {
+"id": "ent_a9bc3f6383b82555",
+"type": "персона",
+"name": "Латвии Андрис",
+"aliases": [
+"Латвии Андрис"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:07:05Z",
+"last_seen": "2026-11-24T13:07:05Z"
+},
+{
 "id": "ent_a4d31b31b1985813",
 "type": "персона",
 "name": "Латвии Андриса",
@@ -43816,18 +44534,6 @@
 "last_seen": "2026-11-19T19:09:39Z"
 },
 {
-"id": "ent_b9d1238aa3a8f506",
-"type": "персона",
-"name": "России Владимиру",
-"aliases": [
-"России Владимиру"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-15T08:25:30Z",
-"last_seen": "2026-11-15T08:25:30Z"
-},
-{
 "id": "ent_91b2058fff87e4fe",
 "type": "персона",
 "name": "Ростеха Сергей",
@@ -43946,18 +44652,6 @@
 "items": 1,
 "first_seen": "2026-11-19T05:30:31Z",
 "last_seen": "2026-11-19T05:30:31Z"
-},
-{
-"id": "ent_ba75e1769da02e30",
-"type": "персона",
-"name": "Соединенных Штатов",
-"aliases": [
-"Соединенных Штатов"
-],
-"country": null,
-"items": 1,
-"first_seen": "2026-11-17T13:13:51Z",
-"last_seen": "2026-11-17T13:13:51Z"
 },
 {
 "id": "ent_03d6448cf063a34a",
@@ -44565,6 +45259,18 @@
 "last_seen": "2026-11-12T13:36:04Z"
 },
 {
+"id": "ent_45c930b18a892a3f",
+"type": "программа",
+"name": "Programme Director",
+"aliases": [
+"Programme Director"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:01:43Z",
+"last_seen": "2026-11-24T13:01:43Z"
+},
+{
 "id": "ent_8b34dec1b63b6744",
 "type": "программа",
 "name": "Project LLC",
@@ -44611,6 +45317,18 @@
 "items": 1,
 "first_seen": "2026-11-22T13:01:40Z",
 "last_seen": "2026-11-22T13:01:40Z"
+},
+{
+"id": "ent_7e5435adf42fae79",
+"type": "программа",
+"name": "Project Citadel",
+"aliases": [
+"Project Citadel"
+],
+"country": null,
+"items": 1,
+"first_seen": "2026-11-24T13:01:43Z",
+"last_seen": "2026-11-24T13:01:43Z"
 },
 {
 "id": "ent_fb893484d49eab41",

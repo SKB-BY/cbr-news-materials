@@ -88,6 +88,29 @@ def build(roots):
                               g="реестр", basis=l.get("basis") or "", url=l["source"], date="", n=1))
 
     # 3) связи контура между узлами (REG_CONTOUR.rels, оба конца — узлы), с Окрасом связи
+    # t197u волна 3: у связи — коды ОИ 5×5 (текущие), сферы, число разных доменов-источников и даты по материалам-основаниям
+    rcu = {}
+    for v in (rc.get("items") or {}).values():
+        if isinstance(v, list) and len(v) > 7 and v[2]:
+            rcu[v[2]] = v
+
+    def ev_meta(ev):
+        oi, sp, dom, ds = set(), set(), set(), []
+        for x in ev:
+            it = rcu.get(x[0])
+            if it:
+                c = it[6] or it[5]
+                if c:
+                    oi.add(c)
+                for q in it[7] or []:
+                    if q and q[0]:
+                        sp.add(q[0])
+            m = re.match(r"https?://(?:www\.)?([^/]+)", x[0] or "")
+            if m:
+                dom.add(m.group(1).lower())
+            if x[1]:
+                ds.append(str(x[1])[:10])
+        return dict(oi=sorted(oi), sp=sorted(sp), nd=len(dom), d0=min(ds) if ds else "", d1=max(ds) if ds else "")
     for i, r in enumerate(rc.get("rels") or []):
         if r.get("a") in nodes and r.get("b") in nodes:
             ev = [[e[0], e[1], e[2]] for e in (r.get("ev") or [])[:5]]
@@ -95,7 +118,7 @@ def build(roots):
                 continue
             edges.append(dict(id="ctr:%d" % i, s=r["a"], t=r["b"], type=r.get("t") or "", g="контур",
                               basis="цитаты из материалов (контур)", url=ev[0][0], date=r.get("d") or "",
-                              n=r.get("n") or len(ev), s2=r.get("s2"), s1=r.get("s1"), ev=ev))
+                              n=r.get("n") or len(ev), s2=r.get("s2"), s1=r.get("s1"), ev=ev, **ev_meta(r.get("ev") or [])))
 
     # 4) DARPA: все программы — узлы; программа→DARPA по darpa_url; программа→организация по evidence_url
     progs = list(csv.DictReader(open(find(roots, "darpa-programs/data/darpa_programs.csv"), encoding="utf-8")))

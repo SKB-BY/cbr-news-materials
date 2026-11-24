@@ -42,6 +42,11 @@ h1{font-size:20px;margin:6px 0} h2{font-size:15px;margin:18px 0 6px}
 .io-sp.on{filter:none;background:transparent;user-select:text;-webkit-user-select:text;cursor:auto}
 .cbr-copy{max-width:1180px;margin:24px auto 30px;padding:10px 18px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
 a{color:var(--accent,#5aa9ff)}
+.tl3b{display:inline-block;padding:0 6px;border-radius:2px;font-size:11.5px;font-weight:600;margin-right:4px}
+.tl3b.active{background:#1f7a3a;color:#fff} .tl3b.fading{background:#b7791f;color:#000} .tl3b.closed{background:#59636e;color:#fff}
+.tl3m{font-size:12.5px;margin:3px 0} .tl3m a{margin-right:10px}
+.axis.evt .pt{transition:left .2s}
+#sph,#cty{max-width:240px}
 </style>
 </head>
 <body>
@@ -60,6 +65,7 @@ a{color:var(--accent,#5aa9ff)}
     <a href="../../data/mention_gap.html">Разрыв упоминаний</a>
     <a href="../../SOURCES.html">Источники сбора</a>
     <a href="../../darpa-programs/">Программы DARPA</a>
+    <a href="../../#search">Поиск</a>
   </nav>
   <span class="cbr-asof" id="cbr-asof"><i></i></span>
 </header>
@@ -72,11 +78,18 @@ a{color:var(--accent,#5aa9ff)}
   <input type="search" id="q" placeholder="Поиск по заголовку, источнику, ключу…">
   <label><input type="checkbox" id="onlych"> только со сменой кода ОИ 5×5</label>
   <label>период: <select id="per"><option value="">всё</option><option value="7">7 суток</option><option value="30">30 суток</option><option value="90">90 суток</option></select></label>
+  <label>сортировка: <select id="srt"><option value="upd">по последнему материалу</option><option value="start">по началу</option><option value="life">по длительности</option><option value="nmat">по числу материалов</option><option value="nch">по числу смен кода ОИ</option><option value="ttr">по времени до отклика</option><option value="drift">по дрейфу окраса</option></select></label>
+  <label>статус: <select id="stf"><option value="">любой</option><option value="active">активен</option><option value="fading">затухает</option><option value="closed">закрыт</option></select></label>
+  <label class="tl3-iid">отклик: <select id="rsp"><option value="">любой</option><option value="1">есть</option><option value="0">нет</option></select></label>
+  <label>сфера: <select id="sph"><option value="">все</option></select></label>
+  <label class="tl3-iid">страна: <select id="cty"><option value="">все</option></select></label>
+  <label>шкала: <select id="scl"><option value="lin">линейная (время)</option><option value="evt">событийная (по порядку)</option></select></label>
   <span id="cnt" class="m"></span>
 </div>
 <div id="exp"></div>
 <details class="cbr-help-inline" id="cbr-legend"><summary>Справка: окрас, субъективность, ОИ 5×5</summary></details>
 <p class="m">Шкала сюжета: кружок — материал (цвет — код ОИ 5×5 на дату публикации, рамка — Окрас), ромб — смена кода ОИ 5×5 (цвет — новый код), квадрат — отклик. Наведите на значок ОИ, окраса или субъективности — появится разъяснение текущего значения.</p>
+<p class="m" id="tl3rule">Статус сюжета (правило GREEN 24.11.2026): <span class="tl3b closed">закрыт</span> — появился материал с кодом ОИ 5×5 …4 или …5 (слух / недостоверно) <b>или</b> 7 суток нет новых материалов — что наступит раньше; <span class="tl3b active">активен</span> — последний материал не старше 48 ч; <span class="tl3b fading">затухает</span> — от 48 ч до 7 суток. Время до отклика — от начала сюжета до отклика (ИИД-100). Дрейф окраса — Окрас первого и последнего материала с оценкой. Событийная шкала — точки по порядку, без учёта промежутков времени. Расчёт на момент открытия страницы, Europe/Minsk.</p>
 <div id="list"></div>
 <div id="more"></div>
 </main>
@@ -134,12 +147,81 @@ function more(){ const part=cur.slice(shown, shown+40); shown+=part.length; $("l
 document.addEventListener("click",e=>{ const p=e.target.closest&&e.target.closest(".pt"); if(!p) return; const li=p.closest(".story").querySelectorAll(".ev li")[+p.dataset.i]; if(li){ li.classList.add("hl"); li.scrollIntoView({block:"nearest",behavior:"smooth"}); setTimeout(()=>li.classList.remove("hl"),1800); } });
 $("t-iid").onclick=()=>{ tab="iid"; $("t-iid").classList.add("on"); $("t-news").classList.remove("on"); render(); };
 $("t-news").onclick=()=>{ tab="news"; $("t-news").classList.add("on"); $("t-iid").classList.remove("on"); render(); };
-["q","onlych","per"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",render));
+["q","onlych","per"].forEach(id=>$(id).addEventListener(id==="q"?"input":"change",()=>render()));
 // выгрузка: события показанных сюжетов; сюжеты и материалы «только для расчёта ИИД-100» не выгружаются
 const TF=["story","kind","t","event","src","url","title","oi","oi0","oi1","oi1at","okr","okr_score","subj","via"];
 function rows(){ const out=[]; cur.forEach(s=>s.events.forEach(e=>out.push({story:s.id, kind:s.kind, t:e.t, event:e.kind, src:e.src, url:e.url, title:e.title, oi:e.oi||"", oi0:e.oi0||"", oi1:e.oi1||"", oi1at:e.oi1at||"",
   okr:e.okr==null?"":e.okr, okr_score:e.okr_score==null?"":e.okr_score, subj:e.subj==null?"":e.subj, via:e.via, iid_only:!!(s.iid_only||e.iid_only)}))); return out; }
 function meta(){ return EX.meta("Таймлайн сюжетов", tab==="iid"?"сюжеты ИИД-100 по фильтру":"сюжеты Новостной карты по фильтру", {tab, query:$("q").value.trim(), only_changed:$("onlych").checked, period_days:$("per").value}, {timeline_version:m.version, iid_computed_at:m.iid_computed_at}); }
+// ===== t197u волна 3: сортировки, статус сюжета (правило 1), время до отклика, дрейф окраса, шкала, переходы, фильтр из ИИД-100 =====
+const H3=36e5, D3=864e5;
+const msMinsk=ms=>dmy(new Date(ms+3*H3).toISOString().slice(0,16).replace("T"," "));
+function dur(ms){ if(ms==null||isNaN(ms)) return "—"; const h=ms/H3; return h<48?(Math.round(h*10)/10).toString().replace(".",",")+" ч":(Math.round(h/24*10)/10).toString().replace(".",",")+" сут"; }
+function info(s){ if(s._i) return s._i; const now=Date.now();
+  const mats=s.events.filter(e=>e.kind!=="oi_change"), ts=mats.map(e=>Date.parse(e.t)).filter(x=>!isNaN(x));
+  const first=ts.length?Math.min(...ts):NaN, last=ts.length?Math.max(...ts):NaN;
+  let tr=Infinity, trc="";
+  s.events.forEach(e=>{ const t=Date.parse(e.t);
+    const c0=e.kind==="oi_change"?"":(e.oi0||e.oi||""); if(c0.length===2&&"45".includes(c0[1])&&!isNaN(t)&&t<tr){ tr=t; trc=c0; }
+    if(e.oi1&&e.oi1.length===2&&"45".includes(e.oi1[1])){ const t1=e.kind==="oi_change"?t:Date.parse(e.oi1at||""); if(!isNaN(t1)&&t1<tr){ tr=t1; trc=e.oi1; } } });
+  const quiet=isNaN(last)?Infinity:last+7*D3, close=Math.min(tr,quiet);
+  let st="fading", why="";
+  if(close<=now){ st="closed"; why= tr<=quiet ? `материал с кодом ОИ ${trc} (${msMinsk(tr)})` : `7 суток без новых материалов (последний — ${msMinsk(last)})`; }
+  else if(!isNaN(last)&&now-last<=48*H3) st="active";
+  const rs=s.events.find(e=>e.kind==="response"), t0=Date.parse(s.t0); const base=isNaN(t0)?first:t0;
+  const ttr=rs&&!isNaN(Date.parse(rs.t))&&!isNaN(base)?Math.max(0,Date.parse(rs.t)-base):null;
+  const ok=mats.filter(e=>e.okr!=null&&!isNaN(Date.parse(e.t))).sort((a,b)=>Date.parse(a.t)-Date.parse(b.t));
+  const drift=ok.length>=2?[ok[0].okr, ok[ok.length-1].okr]:null;
+  const nch=s.events.filter(e=>e.kind==="oi_change").length+(s.kind==="iid"?s.events.filter(e=>e.oi1).length:0);
+  return s._i={st, why, first, last, ttr, drift, nch, nm:mats.length, hasResp:!!rs}; }
+const STN={active:"активен", fading:"затухает", closed:"закрыт"};
+// варианты сфер и стран
+(function(){ const sp=new Set(), ct=new Set(); T.iid.forEach(s=>{ if(s.sphere) sp.add(s.sphere); (s.countries||[]).forEach(c=>ct.add(c)); }); T.news.forEach(s=>(s.sp||[]).forEach(x=>sp.add(x)));
+  $("sph").insertAdjacentHTML("beforeend",[...sp].sort().map(x=>`<option>${esc(x)}</option>`).join("")); $("cty").insertAdjacentHTML("beforeend",[...ct].sort().map(x=>`<option>${esc(x)}</option>`).join("")); })();
+const _visible0=visible;
+visible=function(s){ if(!_visible0(s)) return false; const i=info(s);
+  const f=$("stf").value; if(f&&i.st!==f) return false;
+  const sp=$("sph").value; if(sp&&!(s.sphere===sp||(s.sp||[]).includes(sp))) return false;
+  if(tab==="iid"){ const c=$("cty").value; if(c&&!(s.countries||[]).includes(c)) return false;
+    const r=$("rsp").value; if(r==="1"&&!i.hasResp) return false; if(r==="0"&&i.hasResp) return false; }
+  return true; };
+function sortKey(s){ const i=info(s), k=$("srt").value;
+  if(k==="start") return isNaN(i.first)?-Infinity:i.first; if(k==="life") return (i.last-i.first)||0; if(k==="nmat") return i.nm; if(k==="nch") return i.nch;
+  if(k==="ttr") return i.ttr==null?-Infinity:-i.ttr; if(k==="drift") return i.drift?Math.abs(i.drift[1]-i.drift[0]):-1; return isNaN(i.last)?-Infinity:i.last; }
+render=function(){ document.querySelectorAll(".tl3-iid").forEach(x=>x.style.display=tab==="iid"?"":"none");
+  cur=(tab==="iid"?T.iid:T.news).filter(visible); const k={}; cur.forEach(s=>k[s.id]=sortKey(s)); cur.sort((a,b)=>(k[b.id]-k[a.id])||((info(b).last||0)-(info(a).last||0)));
+  shown=0; $("list").innerHTML=""; const c={active:0,fading:0,closed:0}; cur.forEach(s=>c[info(s).st]++);
+  $("cnt").textContent=`сюжетов: ${cur.length} (активных ${c.active}, затухают ${c.fading}, закрыто ${c.closed})`; more(); syncHash(); };
+const _axis0=axis;
+axis=function(s){ if($("scl").value!=="evt") return _axis0(s);
+  const ev=s.events.map((e,i)=>[e,i]).filter(([e])=>!isNaN(Date.parse(e.t))); if(!ev.length) return ""; const n=ev.length;
+  return `<div class="axis evt"><span class="ax-l">1-е событие · ${esc(dmy(ev[0][0].t))}</span><span class="ax-r">${n}-е · ${esc(dmy(ev[n-1][0].t))}</span>`+
+    ev.map(([e,i],j)=>{ const c=PAL[e.kind==="oi_change"?e.oi1:(e.oi||e.oi0)]; const ok=e.okr!=null?SCOL[String(e.okr)]:"var(--bg)";
+      return `<span class="pt${e.kind==="oi_change"?" ch":e.kind==="response"?" rs":""}" data-i="${i}" style="left:${(4+92*(n>1?j/(n-1):0.5)).toFixed(2)}%;background:${c?c[0]:"#888"};border-color:${ok}" title="${esc(dmy(e.t))} · ${esc(e.oi1||e.oi||e.oi0||"")} · ${esc(e.via)}"></span>`; }).join("")+`</div>`; };
+function mapQ(s){ const k=(s.key_names||[]).find(x=>x&&x.length>2); if(k) return k.toLowerCase();
+  if(s.iid_only) return ""; return (s.title||"").toLowerCase().replace(/[«»"“”„.,:;!?()]/g," ").split(/\s+/).filter(w=>w.length>3).slice(0,3).join(" "); }
+const _story0=storyHtml;
+storyHtml=function(s){ const h=_story0(s), i=info(s);
+  const okn=v=>(v>0?"+":"")+String(v).replace("-","−");
+  let m=`<div class="tl3m"><span class="tl3b ${i.st}">${STN[i.st]}</span>${i.why?`<span class="m">${esc(i.why)}</span> · `:""}<span class="m">длительность ${esc(dur(i.last-i.first))} · материалов ${i.nm}${i.nch?` · смен кода ОИ ${i.nch}`:""}</span>`;
+  if(s.kind==="iid") m+=` · <span class="m">${i.hasResp?`отклик через ${esc(dur(i.ttr))}`:"отклика нет"}</span>`;
+  if(i.drift){ const d=i.drift[1]-i.drift[0]; m+=` · <span class="m">окрас ${okn(i.drift[0])} → ${okn(i.drift[1])} (${d<0?"нагнетание":d>0?"смягчение":"без изменений"})</span>`; }
+  const L=[]; const q=mapQ(s);
+  if(q){ const f={q}; if(!isNaN(i.first)){ f.d1=new Date(i.first+3*H3-D3).toISOString().slice(0,10); f.d2=new Date(i.last+3*H3+D3).toISOString().slice(0,10); }
+    L.push(`<a href="../../news-map/#f=${encodeURIComponent(JSON.stringify(f))}">на Новостной карте</a>`); }
+  (s.keys||[]).filter(k=>k.startsWith("O:reg:")).slice(0,3).forEach((k,j)=>L.push(`<a href="../../graph/#node=${encodeURIComponent(k.slice(6))}">в графе: ${esc((s.key_names||[])[s.keys.indexOf(k)]||k.slice(6))}</a>`));
+  if(s.kind==="iid") L.push(`<a href="../">ИИД-100</a>`);
+  m+=`<br>${L.join("")}</div>`;
+  return h.replace(/(<\/h3>)/, "$1"+m); };
+// фильтры из адреса: #country=…&sphere=…&q=…&tab=news (провал из матрицы ИИД-100)
+let _hashLock=false;
+function syncHash(){ if(_hashLock) return; const p=new URLSearchParams(); if(tab!=="iid") p.set("tab",tab); if($("cty").value&&tab==="iid") p.set("country",$("cty").value); if($("sph").value) p.set("sphere",$("sph").value);
+  if($("stf").value) p.set("status",$("stf").value); const q=$("q").value.trim(); if(q) p.set("q",q); const h=p.toString(); try{ history.replaceState(null,"",location.pathname+location.search+(h?"#"+h:"")); }catch(e){} }
+(function(){ const raw=(location.hash||"").replace(/^#/,"")||(location.search||"").replace(/^\?/,""); if(!raw) return; const p=new URLSearchParams(raw); _hashLock=true;
+  const setSel=(id,v)=>{ if(!v) return; const el=$(id); if(![...el.options].some(o=>o.value===v)) el.insertAdjacentHTML("beforeend",`<option>${esc(v)}</option>`); el.value=v; };
+  if(p.get("tab")==="news"){ tab="news"; $("t-news").classList.add("on"); $("t-iid").classList.remove("on"); }
+  setSel("cty",p.get("country")); setSel("sph",p.get("sphere")); if(p.get("status")) $("stf").value=p.get("status"); if(p.get("q")) $("q").value=p.get("q"); _hashLock=false; })();
+["srt","stf","rsp","sph","cty","scl"].forEach(id=>$(id).addEventListener("change",render));
 if(EX) EX.panel($("exp"), "Выгрузка показанных сюжетов:", [["CSV", ()=>EX.csv("kontur_timeline", TF, rows(), meta())], ["JSON", ()=>EX.json("kontur_timeline", {events:rows()}, meta())]],
   "Сюжеты и материалы «только для расчёта ИИД-100» в выгрузку не попадают. В шапке — срез, время выгрузки и © 2026 GREEN-CBR.");
 render();
