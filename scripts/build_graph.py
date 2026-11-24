@@ -195,7 +195,8 @@ def build(roots):
         a, b = ("person:" + r["from"], on) if fa.get("type") == "персона" else (on, "person:" + r["to"])
         edges.append(dict(id="per:" + r["id"], s=a, t=b, type=r.get("type") or "", g="контур",
                           basis="цитаты из материалов (контур)", url=ev[0][0], date=r.get("event_date") or "",
-                          n=r.get("evidence_count") or len(ev), s2=s.get("score_pm2"), s1=s.get("score_pm1"), ev=ev))
+                          n=r.get("evidence_count") or len(ev), s2=s.get("score_pm2"), s1=s.get("score_pm1"), ev=ev,
+                          **ev_meta(ev)))  # t197u-w3: oi/sp/nd/d0/d1 и у связей персон
 
     # 6) заготовка «названы в одном материале» — выключена
     if COMENTION_ENABLED:  # pragma: no cover

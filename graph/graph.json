@@ -3,7 +3,7 @@
 "version": "t171u-graph-1",
 "links_version": "t167u-links-2",
 "oi_as_of": "2026-11-24T17:03:07+03:00",
-"built_at": "2026-11-24T17:16:36+03:00",
+"built_at": "2026-11-24T17:31:11+03:00",
 "copyright": "© 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR",
 "rule": "t167u: связь только при реальной связи (основание с URL); совместные упоминания не включены",
 "counts": {
@@ -54685,7 +54685,17 @@
 "2026-11-17 13:43",
 "Germany has pledged $300 million to buy US weaponry for Ukraine through NATO’s Prioritized Ukraine Requirements List (PURL), German Defense Minister Boris Pistorius said on Tuesday."
 ]
-]
+],
+"oi": [
+"В2"
+],
+"sp": [
+"БПЛА",
+"системы ПВО и РВСН"
+],
+"nd": 5,
+"d0": "2026-11-17",
+"d1": "2026-11-24"
 },
 {
 "id": "per:rel_92960be3fd9513cb",
@@ -54725,7 +54735,19 @@
 "2026-11-09 09:00",
 "” Defence Secretary Wes Streeting said the investment would put autonomous technology in sailors’ hands to help protect Britain and its NATO allies."
 ]
-]
+],
+"oi": [
+"Б1",
+"Б2",
+"В1"
+],
+"sp": [
+"БПЛА",
+"системы ПВО и РВСН"
+],
+"nd": 4,
+"d0": "2026-11-09",
+"d1": "2026-11-19"
 },
 {
 "id": "per:rel_8f7b49f450779540",
@@ -54765,7 +54787,20 @@
 "2026-11-13 03:09",
 "The same day, UK Defence Secretary Wes Streeting piloted a UFORCE <strong>MV7</strong> from the aircraft carrier HMS Prince of Wales in Oslo while the boat sailed more than 1,500 miles (2,400 kilometers) away, near Portugal."
 ]
-]
+],
+"oi": [
+"Б1",
+"Б2",
+"В1"
+],
+"sp": [
+"БПЛА",
+"системы ПВО и РВСН",
+"средства связи и коммуникаций"
+],
+"nd": 5,
+"d0": "2026-11-13",
+"d1": "2026-11-23"
 },
 {
 "id": "per:rel_78016c356543d94a",
@@ -54800,7 +54835,17 @@
 "2026-11-08 23:55",
 "webp\" alt=\"Operator in an orange high-visibility shirt holding a Skydio Controller 2 with its sun hood open, showing a map and drone video on the screen\" /></p> <p>Skydio’s Controller 2, a new handheld controller for its X10, X10D and R10 d"
 ]
-]
+],
+"oi": [
+"Б2",
+"Д1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-08",
+"d1": "2026-11-18"
 },
 {
 "id": "per:rel_a4ec376e3a40da75",
@@ -54835,7 +54880,18 @@
 "2026-11-17 15:44",
 "Swedish Defense Minister Pål Jonson, British Defence Secretary Wes Streeting and Ukrainian Defense Minister Yevhenii Khmara signed a letter of […"
 ]
-]
+],
+"oi": [
+"Б1",
+"В2"
+],
+"sp": [
+"БПЛА",
+"авиация"
+],
+"nd": 4,
+"d0": "2026-11-17",
+"d1": "2026-11-24"
 },
 {
 "id": "per:rel_d5ef07e076ee5fa0",
@@ -54870,7 +54926,17 @@
 "2026-11-17 15:44",
 "Swedish Defense Minister Pål Jonson, British Defence Secretary Wes Streeting and Ukrainian Defense Minister Yevhenii Khmara signed a letter of […"
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА",
+"авиация"
+],
+"nd": 4,
+"d0": "2026-11-17",
+"d1": "2026-11-24"
 },
 {
 "id": "per:rel_25d8bf6ebe7bee26",
@@ -54900,7 +54966,18 @@
 "2026-09-30 08:29",
 "The initiative comes weeks after Fedorov announced that he was starting a new defense company, with Palantir CEO Alex Karp as its first investor ."
 ]
-]
+],
+"oi": [
+"Б2",
+"Д2"
+],
+"sp": [
+"БПЛА",
+"программное обеспечение специального назначения"
+],
+"nd": 2,
+"d0": "2026-09-30",
+"d1": "2026-11-13"
 },
 {
 "id": "per:rel_d2da7b7cc8061ce9",
@@ -54930,7 +55007,17 @@
 "2026-11-10 00:27",
 "CEO Eben Frankenberg will report directly to Shield AI CEO Gary Steele and keep responsibility for Echodyne’s products and its customers."
 ]
-]
+],
+"oi": [
+"Б1",
+"В1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 3,
+"d0": "2026-11-10",
+"d1": "2026-11-15"
 },
 {
 "id": "per:rel_b89c6656a257979e",
@@ -54960,7 +55047,17 @@
 "2026-11-02 22:54",
 "At least one AeroVironment LOCUST laser counter-drone system is part of the array of anti-air defenses that have popped up around President Donald Trump’s Mar-a-Lago estate in Palm Beach, Florida, in recent weeks."
 ]
-]
+],
+"oi": [
+"Б1",
+"Д1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 3,
+"d0": "2026-11-02",
+"d1": "2026-11-08"
 },
 {
 "id": "per:rel_5832e273e6c238ea",
@@ -54990,7 +55087,20 @@
 "2026-10-14 22:06",
 "Defense Secretary Pete Hegseth addressed AUSA attendees at the Project Agincourt panel on Wednesday, sharing that the Pentagon is requesting roughly $50 billion in reconciliation funding to support the push to scale autonomous and robotic s"
 ]
-]
+],
+"oi": [
+"Б2",
+"В1",
+"Д2"
+],
+"sp": [
+"БПЛА",
+"программное обеспечение специального назначения",
+"системы ПВО и РВСН"
+],
+"nd": 3,
+"d0": "2026-10-14",
+"d1": "2026-11-18"
 },
 {
 "id": "per:rel_3d12f6183620f8b4",
@@ -55020,7 +55130,17 @@
 "2026-11-10 22:42",
 "| Source: Northrop Grumman Talon aimed to find the right balance between capability and cost, with Tom Jones, president of Northrop’s aeronautics systems division, saying the result was a design that is both cheaper and more capable."
 ]
-]
+],
+"oi": [
+"В1",
+"Д1"
+],
+"sp": [
+"авиация"
+],
+"nd": 2,
+"d0": "2026-11-10",
+"d1": "2026-11-13"
 },
 {
 "id": "per:rel_48e709e8fabcb811",
@@ -55050,7 +55170,18 @@
 "2026-11-16 18:00",
 "“I’ve yet to find anything that can pull together as much of a diverse set of data and allow us the ability to make sense of that data as flexibly,” NATO’s top commander, US Air Force General Alexus Grynkewich, told Reuters this summer."
 ]
-]
+],
+"oi": [
+"В1",
+"В5"
+],
+"sp": [
+"БПЛА",
+"программное обеспечение специального назначения"
+],
+"nd": 3,
+"d0": "2026-11-16",
+"d1": "2026-11-24"
 },
 {
 "id": "per:rel_96a6d691c9e648d9",
@@ -55075,7 +55206,17 @@
 "2026-11-11 20:22",
 "“EchoShield contributes a precise, data-rich airspace picture,” said Louise Heywood, head of strategy for BAE Systems Digital Intelligence & Land."
 ]
-]
+],
+"oi": [
+"Б1",
+"В1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 2,
+"d0": "2026-11-11",
+"d1": "2026-11-15"
 },
 {
 "id": "per:rel_1320c5a0ca9f27ee",
@@ -55100,7 +55241,17 @@
 "2026-11-11 12:37",
 "The K3 Scout can take different payloads in the same bay, said Mal Crease, chief executive and founder of Kraken Technology Group."
 ]
-]
+],
+"oi": [
+"Б1",
+"В1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 2,
+"d0": "2026-11-11",
+"d1": "2026-11-15"
 },
 {
 "id": "per:rel_2ef9f709fbde7513",
@@ -55125,7 +55276,17 @@
 "2026-11-09 10:25",
 "Speaking ahead of this week’s Atlantic Future Forum conference in Oslo, Lisa Edvardsen Haugan, CEO of Kongsberg Maritime, said: “Atlantic security is an absolute priority, and we believe that the Arctic Hunter USV offers a robust and practi"
 ]
-]
+],
+"oi": [
+"В2",
+"Д1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 2,
+"d0": "2026-11-09",
+"d1": "2026-11-15"
 },
 {
 "id": "per:rel_34182952eea15b35",
@@ -55150,7 +55311,16 @@
 "2026-11-13 15:21",
 "unrivaled deterrence,” said Tom Jones, corporate vice president and president of Northrop Grumman Aeronautics Systems."
 ]
-]
+],
+"oi": [
+"В1"
+],
+"sp": [
+"авиация"
+],
+"nd": 2,
+"d0": "2026-11-13",
+"d1": "2026-11-13"
 },
 {
 "id": "per:rel_24d285d0c3f0404f",
@@ -55175,7 +55345,12 @@
 "2025-10-09 00:00",
 "/ News / CNBC Arabia Showcases Microavia’s Drone-in-a-Box Innovation in the UAE CNBC Arabia Showcases Microavia’s Drone-in-a-Box Innovation in the UAE Enrique Plaza Baez, CEO of Microavia, speaks with CNBC Arabia at the autonomous drone-in-"
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2025-10-09",
+"d1": "2025-11-06"
 },
 {
 "id": "per:rel_76b18c1dde70bca8",
@@ -55200,7 +55375,12 @@
 "2024-02-28 00:00",
 "/ News / Microavia Unveils the Strategic Importance of Drones for Security Microavia Unveils the Strategic Importance of Drones for Security Enrique Plaza, CEO of Microavia, illuminated the Family Office Forum in Dubai 2024 with a compellin"
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2024-02-28",
+"d1": "2025-10-09"
 },
 {
 "id": "per:rel_514788a409332765",
@@ -55225,7 +55405,17 @@
 "2026-11-16 16:58",
 "Ukrainian President Volodymyr Zelenskyy recently said that SpaceX told the Ukrainian Defence Ministry that it has not imposed any restrictions on Starshield operations and that the problem is technical in nature."
 ]
-]
+],
+"oi": [
+"Б2",
+"Б3"
+],
+"sp": [
+"средства связи и коммуникаций"
+],
+"nd": 2,
+"d0": "2026-11-16",
+"d1": "2026-11-19"
 },
 {
 "id": "per:rel_fb88b145a8d9a585",
@@ -55250,7 +55440,17 @@
 "2026-11-17 13:43",
 "Germany has pledged $300 million to buy US weaponry for Ukraine through NATO’s Prioritized Ukraine Requirements List (PURL), German Defense Minister Boris Pistorius said on Tuesday."
 ]
-]
+],
+"oi": [
+"В1",
+"В2"
+],
+"sp": [
+"системы ПВО и РВСН"
+],
+"nd": 2,
+"d0": "2026-11-17",
+"d1": "2026-11-18"
 },
 {
 "id": "per:rel_66ee93a2bb252933",
@@ -55275,7 +55475,17 @@
 "2026-11-17 15:44",
 "Swedish Defense Minister Pål Jonson, British Defence Secretary Wes Streeting and Ukrainian Defense Minister Yevhenii Khmara signed a letter of […"
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА",
+"авиация"
+],
+"nd": 2,
+"d0": "2026-11-17",
+"d1": "2026-11-22"
 },
 {
 "id": "per:rel_afb6ffa627550edd",
@@ -55300,7 +55510,18 @@
 "2026-11-17 16:51",
 "UK Defense Secretary Wes Streeting announced on Tuesday, Nov."
 ]
-]
+],
+"oi": [
+"Б1",
+"В1"
+],
+"sp": [
+"БПЛА",
+"системы ПВО и РВСН"
+],
+"nd": 1,
+"d0": "2026-11-17",
+"d1": "2026-11-22"
 },
 {
 "id": "per:rel_7b66c54ec53db7c4",
@@ -55325,7 +55546,18 @@
 "2026-11-17 20:19",
 "“By integrating these proven capabilities, we’re delivering an effective, scalable counter-drone solution that warfighters are using today,” said Dave Fine, Northrop Grumman’s vice president for armament systems."
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА",
+"бронетехника",
+"вооружение"
+],
+"nd": 2,
+"d0": "2026-11-17",
+"d1": "2026-11-23"
 },
 {
 "id": "per:rel_6c25960affba6281",
@@ -55350,7 +55582,17 @@
 "2026-11-17 17:13",
 "Source: European Pravda correspondent in Brussels, citing Ukrainian President Volodymyr Zelenskyy during his online address at the 37th meeting of the Ukraine Defence Contact Group in the Ramstein format, taking place at NATO Headquarters o"
 ]
-]
+],
+"oi": [
+"Б1",
+"В2"
+],
+"sp": [
+"авиация"
+],
+"nd": 2,
+"d0": "2026-11-17",
+"d1": "2026-11-18"
 },
 {
 "id": "per:rel_f920e314479750d3",
@@ -55375,7 +55617,16 @@
 "2026-11-18 07:10",
 "Ukrainian Defence Minister Yevhenii Khmara described protecting Ukraine's skies as the country's top priority this winter."
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"авиация"
+],
+"nd": 1,
+"d0": "2026-11-18",
+"d1": "2026-11-24"
 },
 {
 "id": "per:rel_2089db0c37853742",
@@ -55400,7 +55651,18 @@
 "2026-11-18 11:18",
 "UK Defence Secretary Wes Streeting announced the package while co-chairing the 37th meeting of the Ukraine Defence Contact Group at NATO headquarters in Brussels."
 ]
-]
+],
+"oi": [
+"Б1",
+"В1"
+],
+"sp": [
+"БПЛА",
+"системы ПВО и РВСН"
+],
+"nd": 2,
+"d0": "2026-11-18",
+"d1": "2026-11-18"
 },
 {
 "id": "per:rel_6f3fc8b64f360212",
@@ -55425,7 +55687,17 @@
 "2026-11-18 12:00",
 "Wes Streeting, the Defence Secretary, announced the package as he co-chaired the 37th meeting of the Ukraine Defence Contact Group at NATO Headquarters in Brussels with German Defence Minister Boris Pistorius."
 ]
-]
+],
+"oi": [
+"В1"
+],
+"sp": [
+"БПЛА",
+"системы ПВО и РВСН"
+],
+"nd": 2,
+"d0": "2026-11-18",
+"d1": "2026-11-22"
 },
 {
 "id": "per:rel_9f760cd6962f1488",
@@ -55450,7 +55722,16 @@
 "2026-11-18 13:17",
 "Politico reported that the Portuguese foreign ministry sharply criticised NATO Secretary General Mark Rutte after he said that Lisbon views the threat from Russia as distant and not particularly significant."
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"авиация"
+],
+"nd": 2,
+"d0": "2026-11-18",
+"d1": "2026-11-24"
 },
 {
 "id": "per:rel_bfd50dcce7eed559",
@@ -55475,7 +55756,18 @@
 "2026-11-18 18:09",
 "Speaking at the European Union Foreign Affairs Council in Brussels on 17 November, Ukrainian Defence Minister Evgeniy Khmara said unmanned systems would account for more than half of the country’s weapons requirements next year."
 ]
-]
+],
+"oi": [
+"Б1",
+"Б2"
+],
+"sp": [
+"БПЛА",
+"программное обеспечение специального назначения"
+],
+"nd": 2,
+"d0": "2026-11-18",
+"d1": "2026-11-22"
 },
 {
 "id": "per:rel_5d99697b025e0e5c",
@@ -55500,7 +55792,16 @@
 "2026-11-19 13:21",
 "Defense Minister Yevhenii Khmara made the announcements Tuesday at a press conference after the 37th meeting of the Ukraine Defense Contact Group at NATO headquarters in Brussels."
 ]
-]
+],
+"oi": [
+"В2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 2,
+"d0": "2026-11-19",
+"d1": "2026-11-19"
 },
 {
 "id": "per:rel_d980e66bbbce19f8",
@@ -55525,7 +55826,16 @@
 "2026-11-19 13:21",
 "Defense Minister Yevhenii Khmara made the announcements Tuesday at a press conference after the 37th meeting of the Ukraine Defense Contact Group at NATO headquarters in Brussels."
 ]
-]
+],
+"oi": [
+"В2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 2,
+"d0": "2026-11-19",
+"d1": "2026-11-19"
 },
 {
 "id": "per:rel_b53768c0cb8c1390",
@@ -55550,7 +55860,17 @@
 "2026-11-19 13:15",
 "Sean Jackson, vice president of the F-35 Development Program at Lockheed Martin, described the trials as a critical milestone for the aircraft and the ship."
 ]
-]
+],
+"oi": [
+"Б1",
+"В1"
+],
+"sp": [
+"авиация"
+],
+"nd": 2,
+"d0": "2026-11-19",
+"d1": "2026-11-23"
 },
 {
 "id": "per:rel_1d7d8cb6973ae1e6",
@@ -55575,7 +55895,16 @@
 "2026-11-19 00:00",
 "Ami Rojkes Dombe | 19/11/2026 In photo: Czech Prime Minister Andrej Babiš and IAI CEO Guy Bar Lev."
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"системы ПВО и РВСН"
+],
+"nd": 2,
+"d0": "2026-11-19",
+"d1": "2026-11-19"
 },
 {
 "id": "per:rel_ce0ff6868f143694",
@@ -55600,7 +55929,18 @@
 "2026-11-20 09:12",
 "“Van Halteren Technologies has been a trusted partner of choice for decades, and this MoU reflects our deep commitment to and trust in the Dutch defense industry,” said Markus Schmidt, Senior Vice President Customer Support & Service at KND"
 ]
-]
+],
+"oi": [
+"В1",
+"В2"
+],
+"sp": [
+"БПЛА",
+"бронетехника"
+],
+"nd": 2,
+"d0": "2026-11-20",
+"d1": "2026-11-20"
 },
 {
 "id": "per:rel_da9413d6176d2f8f",
@@ -55625,7 +55965,18 @@
 "2026-11-20 09:12",
 "“Van Halteren Technologies has been a trusted partner of choice for decades, and this MoU reflects our deep commitment to and trust in the Dutch defense industry,” said Markus Schmidt, Senior Vice President Customer Support & Service at KND"
 ]
-]
+],
+"oi": [
+"В1",
+"В2"
+],
+"sp": [
+"БПЛА",
+"бронетехника"
+],
+"nd": 2,
+"d0": "2026-11-20",
+"d1": "2026-11-20"
 },
 {
 "id": "per:rel_26e6db4954a25236",
@@ -55650,7 +56001,18 @@
 "2026-11-20 09:12",
 "“Van Halteren Technologies has been a trusted partner of choice for decades, and this MoU reflects our deep commitment to and trust in the Dutch defense industry,” said Markus Schmidt, Senior Vice President Customer Support & Service at KND"
 ]
-]
+],
+"oi": [
+"В1",
+"В2"
+],
+"sp": [
+"БПЛА",
+"бронетехника"
+],
+"nd": 2,
+"d0": "2026-11-20",
+"d1": "2026-11-20"
 },
 {
 "id": "per:rel_7e52144c13ef9189",
@@ -55675,7 +56037,16 @@
 "2026-11-22 11:12",
 "UK Defence Secretary Wes Streeting and Ukrainian Defence Minister Evgeniy Khmara signed the agreements during Streeting’s visit to Kyiv."
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 2,
+"d0": "2026-11-22",
+"d1": "2026-11-24"
 },
 {
 "id": "per:rel_d2f8ce088574ecdf",
@@ -55700,7 +56071,12 @@
 "2026-11-24 08:01",
 "Ukrainian Defense Minister Yevhenii Khmara and German Defense Minister Boris Pistorius signed an implementation agreement on a new joint defense production project in Berlin."
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 2,
+"d0": "2026-11-24",
+"d1": "2026-11-24"
 },
 {
 "id": "per:rel_9f34500c3840a91d",
@@ -55725,7 +56101,12 @@
 "2026-11-24 08:01",
 "Ukrainian Defense Minister Yevhenii Khmara and German Defense Minister Boris Pistorius signed an implementation agreement on a new joint defense production project in Berlin."
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 2,
+"d0": "2026-11-24",
+"d1": "2026-11-24"
 },
 {
 "id": "per:rel_82232e2e3be63398",
@@ -55745,7 +56126,17 @@
 "2026-11-11 09:59",
 "“Training must evolve as fast as the battlefield,” said Joakim Alhbin, head of Saab’s Training and Simulation business unit."
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА",
+"бронетехника"
+],
+"nd": 1,
+"d0": "2026-11-11",
+"d1": "2026-11-11"
 },
 {
 "id": "per:rel_5a20e101b1fa5c8c",
@@ -55765,7 +56156,16 @@
 "2026-11-11 03:05",
 "Skydio CEO Adam Bry Says Skydio Will Outsell DJI in the US This Year"
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-11",
+"d1": "2026-11-11"
 },
 {
 "id": "per:rel_23fb4f17e20380a9",
@@ -55785,7 +56185,16 @@
 "2026-11-10 09:27",
 "“Atlantic security is an absolute priority, and we believe that the Arctic Hunter USV offers a robust and practical response to the growing need for additional submarine detection capability,” said Lisa Edvardsen Haugan, chief executive of "
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-10",
+"d1": "2026-11-10"
 },
 {
 "id": "per:rel_53744c866fc6eb76",
@@ -55805,7 +56214,16 @@
 "2026-11-10 00:39",
 "Kratos’ President and CEO Eric DeMarco shared the new cost figures, as well as other new details about the Valkyrie program, during a recent quarterly earnings call."
 ]
-]
+],
+"oi": [
+"Д1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-10",
+"d1": "2026-11-10"
 },
 {
 "id": "per:rel_4bf28a25e29286bd",
@@ -55825,7 +56243,16 @@
 "2026-11-10 00:27",
 "CEO Eben Frankenberg will report directly to Shield AI CEO Gary Steele and keep responsibility for Echodyne’s products and its customers."
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-10",
+"d1": "2026-11-10"
 },
 {
 "id": "per:rel_8cb58826bf9bbf36",
@@ -55845,7 +56272,16 @@
 "2026-11-10 00:27",
 "CEO Eben Frankenberg will report directly to Shield AI CEO Gary Steele and keep responsibility for Echodyne’s products and its customers."
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-10",
+"d1": "2026-11-10"
 },
 {
 "id": "per:rel_7b2ecf2ae9cfcf4b",
@@ -55865,7 +56301,16 @@
 "2026-11-10 00:27",
 "CEO Eben Frankenberg will report directly to Shield AI CEO Gary Steele and keep responsibility for Echodyne’s products and its customers."
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-10",
+"d1": "2026-11-10"
 },
 {
 "id": "per:rel_7ab2cc437ef711c2",
@@ -55885,7 +56330,16 @@
 "2026-11-09 17:57",
 "“British and European sovereign territory is being tested every day, from shadow fleet tankers in the English Channel to suspicious activity around the cables we all rely on,” said Johannes Schaback, STARK’s chief technology officer."
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-09",
+"d1": "2026-11-09"
 },
 {
 "id": "per:rel_e85f6919cf39e64a",
@@ -55905,7 +56359,16 @@
 "2026-11-09 09:00",
 "“The Capability Accelerator has been established to help the National Armaments Group get new technologies into the hands of our sailors faster, reducing the time between identifying an operational need and delivering a capability that make"
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-09",
+"d1": "2026-11-09"
 },
 {
 "id": "per:rel_c70a571eee35d7dc",
@@ -55925,7 +56388,16 @@
 "2026-11-05 15:33",
 "“The development of unmanned and autonomous capabilities is one of the key elements of technology cooperation within the strategic partnership,” said Mikko Leino, executive vice president of Defence and Weapon Systems at Patria."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-05",
+"d1": "2026-11-05"
 },
 {
 "id": "per:rel_9b34b1ffbe4e5008",
@@ -55945,7 +56417,17 @@
 "2026-10-26 14:53",
 "The offering, which goes by the name of Contra, is in testing for now but is expected to reach market readiness in the second half of 2027, Helsing CEO Gundbert Scherf told reporters during a product presentation."
 ]
-]
+],
+"oi": [
+"Д2"
+],
+"sp": [
+"БПЛА",
+"системы ПВО и РВСН"
+],
+"nd": 1,
+"d0": "2026-10-26",
+"d1": "2026-10-26"
 },
 {
 "id": "per:rel_c9d25419b5196766",
@@ -55965,7 +56447,16 @@
 "2026-10-23 05:51",
 "Как сообщил бригадный генерал Стивен Карпентер, командующий многопрофильным командованием «Европа», в случае начала боевых действий Пентагон намерен одновременно запустить на вражескую территорию сотни, а возможно, и тысячи таких аппаратов"
 ]
-]
+],
+"oi": [
+"В4"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-10-23",
+"d1": "2026-10-23"
 },
 {
 "id": "per:rel_0624c35d12cf2e64",
@@ -55985,7 +56476,16 @@
 "2026-10-20 07:08",
 "Начальник штаба ВВС Италии генерал Антонио Консерва подтвердил, что ВВС Италии начали процесс закупки трех разведывательно-ударных беспилотных авиационных комплексов Astore Levante у компании LBA Systems - совместного предприятия итальянско"
 ]
-]
+],
+"oi": [
+"В4"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-10-20",
+"d1": "2026-10-20"
 },
 {
 "id": "per:rel_4b80df313666dff8",
@@ -56005,7 +56505,16 @@
 "2026-10-20 07:08",
 "Начальник штаба ВВС Италии генерал Антонио Консерва подтвердил, что ВВС Италии начали процесс закупки трех разведывательно-ударных беспилотных авиационных комплексов Astore Levante у компании LBA Systems - совместного предприятия итальянско"
 ]
-]
+],
+"oi": [
+"В4"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-10-20",
+"d1": "2026-10-20"
 },
 {
 "id": "per:rel_aaa92a9f09c77481",
@@ -56025,7 +56534,16 @@
 "2026-10-20 07:08",
 "Начальник штаба ВВС Италии генерал Антонио Консерва подтвердил, что ВВС Италии начали процесс закупки трех разведывательно-ударных беспилотных авиационных комплексов Astore Levante у компании LBA Systems - совместного предприятия итальянско"
 ]
-]
+],
+"oi": [
+"В4"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-10-20",
+"d1": "2026-10-20"
 },
 {
 "id": "per:rel_4b067c957afdcb88",
@@ -56045,7 +56563,16 @@
 "2026-10-13 13:00",
 "“The Ranger R10-3DX gives operators an affordable, compact, and highly capable radar solution that delivers the early warning and tracking performance needed to counter evolving drone threats,” Rob Tarantino, senior vice president of Survei"
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-10-13",
+"d1": "2026-10-13"
 },
 {
 "id": "per:rel_41224ce25e081afd",
@@ -56065,7 +56592,16 @@
 "2026-10-07 12:35",
 "“Identifying Nagpur as a potential location for an assembly facility is an important step in building a robust, long-term aerospace ecosystem in the country,” said Bosco da Costa Junior, president and CEO of Embraer Defense & Security, in a"
 ]
-]
+],
+"oi": [
+"Д2"
+],
+"sp": [
+"авиация"
+],
+"nd": 1,
+"d0": "2026-10-07",
+"d1": "2026-10-07"
 },
 {
 "id": "per:rel_ae949f90a9e26e7c",
@@ -56085,7 +56621,16 @@
 "2026-10-07 12:35",
 "“Identifying Nagpur as a potential location for an assembly facility is an important step in building a robust, long-term aerospace ecosystem in the country,” said Bosco da Costa Junior, president and CEO of Embraer Defense & Security, in a"
 ]
-]
+],
+"oi": [
+"Д2"
+],
+"sp": [
+"авиация"
+],
+"nd": 1,
+"d0": "2026-10-07",
+"d1": "2026-10-07"
 },
 {
 "id": "per:rel_e5b8ca69304fda9a",
@@ -56105,7 +56650,16 @@
 "2026-10-09 19:45",
 "The aerospace giant intends to invest hundreds of millions of dollars of its own cash in the missile alone, alongside additional investments in its seeker and solid rocket motor, said Tim Cahill, president of Lockheed’s missiles and fire co"
 ]
-]
+],
+"oi": [
+"Д2"
+],
+"sp": [
+"системы ПВО и РВСН"
+],
+"nd": 1,
+"d0": "2026-10-09",
+"d1": "2026-10-09"
 },
 {
 "id": "per:rel_8d8217d77dacceda",
@@ -56125,7 +56679,16 @@
 "2026-11-10 15:30",
 "UK Defence Minister Luke Pollard was questioned on Nov."
 ]
-]
+],
+"oi": [
+"Д2"
+],
+"sp": [
+"авиация"
+],
+"nd": 1,
+"d0": "2026-11-10",
+"d1": "2026-11-10"
 },
 {
 "id": "per:rel_d375a991e5cabd83",
@@ -56145,7 +56708,16 @@
 "2026-11-06 00:13",
 "Callen-Lenz CEO Matt Foster said previously that over 1,000 units have been produced, and the drone has been fielded for land-based trials by British Army units in Estonia."
 ]
-]
+],
+"oi": [
+"Д1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-06",
+"d1": "2026-11-06"
 },
 {
 "id": "per:rel_ad19352f3d4ca3a3",
@@ -56165,7 +56737,16 @@
 "2026-11-10 16:08",
 "” ​ Phil Siveter, CEO of Thales UK photo courtesy Thales The post Thales joins forces with Kongsberg Maritime to support the Royal Navy’s future Type 92 anti-submarine Uncrewed Surface Vessel appeared first on EDR Magazine ."
 ]
-]
+],
+"oi": [
+"Д1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-10",
+"d1": "2026-11-10"
 },
 {
 "id": "per:rel_e34d267e30391d18",
@@ -56185,7 +56766,16 @@
 "2026-11-10 16:08",
 "” ​ Phil Siveter, CEO of Thales UK photo courtesy Thales The post Thales joins forces with Kongsberg Maritime to support the Royal Navy’s future Type 92 anti-submarine Uncrewed Surface Vessel appeared first on EDR Magazine ."
 ]
-]
+],
+"oi": [
+"Д1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-10",
+"d1": "2026-11-10"
 },
 {
 "id": "per:rel_ad5c1ef03fd56966",
@@ -56205,7 +56795,16 @@
 "2026-11-10 14:29",
 "“This award moves the DRS DAIRCM System into low-rate initial production and expands our ability to provide critical integrated aircraft survivability capabilities to our military customers,” said John Baylouny, president and chief executiv"
 ]
-]
+],
+"oi": [
+"Д1"
+],
+"sp": [
+"авиация"
+],
+"nd": 1,
+"d0": "2026-11-10",
+"d1": "2026-11-10"
 },
 {
 "id": "per:rel_153cdabf22268070",
@@ -56225,7 +56824,16 @@
 "2026-11-10 13:15",
 "Marcin Kovalevskij, founder and CEO of Valkyrie Dynamics, said: “Our mission is to make mass-scale air defence more affordable and expendable."
 ]
-]
+],
+"oi": [
+"Д1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-10",
+"d1": "2026-11-10"
 },
 {
 "id": "per:rel_b6bcf0163a3b692f",
@@ -56245,7 +56853,17 @@
 "2026-11-12 14:00",
 "Ukrainian President Volodmyr Zelensky says that SpaceX’s Starlink satellite communications service has once again imposed speed limitations on Ukrainian drones controlled through the Starshield military grade version of the service, nearly "
 ]
-]
+],
+"oi": [
+"Д2"
+],
+"sp": [
+"БПЛА",
+"средства связи и коммуникаций"
+],
+"nd": 1,
+"d0": "2026-11-12",
+"d1": "2026-11-12"
 },
 {
 "id": "per:rel_2b1ca37bf7c6be71",
@@ -56265,7 +56883,16 @@
 "2026-11-10 13:00",
 "The KC-390’s proven performance, reliability, and cost efficiency make it an ideal choice for nations seeking to enhance their operational capabilities,” said Bosco Da Costa Junior, President & CEO of Embraer Defense & Security."
 ]
-]
+],
+"oi": [
+"Д2"
+],
+"sp": [
+"авиация"
+],
+"nd": 1,
+"d0": "2026-11-10",
+"d1": "2026-11-10"
 },
 {
 "id": "per:rel_6694ddc609e1f583",
@@ -56285,7 +56912,16 @@
 "2026-11-10 13:00",
 "The KC-390’s proven performance, reliability, and cost efficiency make it an ideal choice for nations seeking to enhance their operational capabilities,” said Bosco Da Costa Junior, President & CEO of Embraer Defense & Security."
 ]
-]
+],
+"oi": [
+"Д2"
+],
+"sp": [
+"авиация"
+],
+"nd": 1,
+"d0": "2026-11-10",
+"d1": "2026-11-10"
 },
 {
 "id": "per:rel_6ee4d44038239018",
@@ -56305,7 +56941,17 @@
 "2026-10-28 23:36",
 "С эфиопской стороны в церемонии участвовал премьер-министр Эфиопии Абый Ахмед с супругой, и главнокомандующий ВВС Эфиопии генерал-лейтенант Йильма Мэрдасса, а с российской – генеральный директор АО «Рособоронэкспорт» Александр Михеев."
 ]
-]
+],
+"oi": [
+"Д2"
+],
+"sp": [
+"авиация",
+"системы ПВО и РВСН"
+],
+"nd": 1,
+"d0": "2026-10-28",
+"d1": "2026-10-28"
 },
 {
 "id": "per:rel_754e08ebe670fc24",
@@ -56325,7 +56971,16 @@
 "2026-11-12 14:17",
 "Oliver North, founder and chief executive of North Defence Group, said on social media on Thursday that he […"
 ]
-]
+],
+"oi": [
+"Д2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-12",
+"d1": "2026-11-12"
 },
 {
 "id": "per:rel_0e8df6e9920115c0",
@@ -56345,7 +57000,16 @@
 "2026-11-11 14:35",
 "British Defence Minister Luke Pollard took the controls of STARK’s Vanta 12, a 12-meter (39-foot) uncrewed boat armed with Sea Venom anti-ship missiles, during a demonstration in Oslo this week, according to a company release sent to The De"
 ]
-]
+],
+"oi": [
+"Д1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-11",
+"d1": "2026-11-11"
 },
 {
 "id": "per:rel_ce16a9a887930338",
@@ -56365,7 +57029,16 @@
 "2026-11-11 14:35",
 "British Defence Minister Luke Pollard took the controls of STARK’s Vanta 12, a 12-meter (39-foot) uncrewed boat armed with Sea Venom anti-ship missiles, during a demonstration in Oslo this week, according to a company release sent to The De"
 ]
-]
+],
+"oi": [
+"Д1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-11",
+"d1": "2026-11-11"
 },
 {
 "id": "per:rel_c58cd4dbdc6c123a",
@@ -56385,7 +57058,16 @@
 "2026-11-13 13:00",
 "Army representatives at the acceptance ceremony for the 100,000th GMLRS rocket delivered (Lockheed Martin) “Today’s production milestones reinforce how Lockheed Martin is delivering with urgency, investing in our supply chain and ensuring A"
 ]
-]
+],
+"oi": [
+"В1"
+],
+"sp": [
+"артиллерийские системы"
+],
+"nd": 1,
+"d0": "2026-11-13",
+"d1": "2026-11-13"
 },
 {
 "id": "per:rel_fbc9a90773faeefc",
@@ -56405,7 +57087,16 @@
 "2026-11-13 14:16",
 "1 million) has been allocated, was formalized on Thursday by British Defense Secretary Wes Streeting and his Norwegian counterpart, Tore O."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-13",
+"d1": "2026-11-13"
 },
 {
 "id": "per:rel_7525d6190f3ee854",
@@ -56425,7 +57116,16 @@
 "2026-11-13 11:15",
 "The agreement follows Bulgarian Defence Minister Dimitar Stoyanov’s comments to parliament on 14 October regarding membership of NATO’s C-UAS initiative and a series of maritime drone strikes off Bulgaria’s coast."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-13",
+"d1": "2026-11-13"
 },
 {
 "id": "per:rel_1a712e3d9ad24730",
@@ -56445,7 +57145,16 @@
 "2026-11-13 11:15",
 "The agreement follows Bulgarian Defence Minister Dimitar Stoyanov’s comments to parliament on 14 October regarding membership of NATO’s C-UAS initiative and a series of maritime drone strikes off Bulgaria’s coast."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-13",
+"d1": "2026-11-13"
 },
 {
 "id": "per:rel_7c31c47f2d2f13a0",
@@ -56465,7 +57174,16 @@
 "2026-11-13 03:09",
 "</p><p>Retired US Army General Christopher Cavoli, NATO’s Supreme Allied Commander Europe until July 2025 and now a partner at Valor, joins the UFORCE board."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-13",
+"d1": "2026-11-13"
 },
 {
 "id": "per:rel_29d5b9330d3d2121",
@@ -56485,7 +57203,16 @@
 "2026-11-13 03:09",
 "</p><p>Retired US Army General Christopher Cavoli, NATO’s Supreme Allied Commander Europe until July 2025 and now a partner at Valor, joins the UFORCE board."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-13",
+"d1": "2026-11-13"
 },
 {
 "id": "per:rel_5ad6e6843ecb3e28",
@@ -56505,7 +57232,16 @@
 "2026-11-13 03:09",
 "</p> <h2 id=\"valor-a-us-ukraine-fund-and-a-former-nato-commander-tie-uforce-to-washington\">Valor, a US-Ukraine Fund and a Former NATO Commander Tie UFORCE to Washington</h2> <p>Valor Equity Pa"
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-13",
+"d1": "2026-11-13"
 },
 {
 "id": "per:rel_c08b073b2fbecca0",
@@ -56525,7 +57261,17 @@
 "2026-11-13 02:04",
 "webp\" alt=\"Rear view of a dark delta-wing jet drone with glowing engine exhaust flying above a cloud layer at sunset, still from SBU footage released September 19, 2026\" /></p> <p>Ukrainian President Volodymyr Zelensky said Thursday, Novemb"
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА",
+"средства связи и коммуникаций"
+],
+"nd": 1,
+"d0": "2026-11-13",
+"d1": "2026-11-13"
 },
 {
 "id": "per:rel_95552299994c8950",
@@ -56545,7 +57291,17 @@
 "2026-11-13 02:04",
 "webp\" alt=\"Rear view of a dark delta-wing jet drone with glowing engine exhaust flying above a cloud layer at sunset, still from SBU footage released September 19, 2026\" /></p> <p>Ukrainian President Volodymyr Zelensky said Thursday, Novemb"
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА",
+"средства связи и коммуникаций"
+],
+"nd": 1,
+"d0": "2026-11-13",
+"d1": "2026-11-13"
 },
 {
 "id": "per:rel_310de8c9ca397f82",
@@ -56565,7 +57321,17 @@
 "2026-11-13 02:04",
 "President Donald Trump denied ordering it, and Defense Secretary Pete Hegseth said in October that the Pentagon had issued no directive."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА",
+"средства связи и коммуникаций"
+],
+"nd": 1,
+"d0": "2026-11-13",
+"d1": "2026-11-13"
 },
 {
 "id": "per:rel_e6324b72617775bd",
@@ -56585,7 +57351,17 @@
 "2026-11-13 02:04",
 "President Donald Trump denied ordering it, and Defense Secretary Pete Hegseth said in October that the Pentagon had issued no directive."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА",
+"средства связи и коммуникаций"
+],
+"nd": 1,
+"d0": "2026-11-13",
+"d1": "2026-11-13"
 },
 {
 "id": "per:rel_bcf88e0d8206ed4f",
@@ -56605,7 +57381,17 @@
 "2026-11-13 02:04",
 "President Donald Trump denied ordering it, and Defense Secretary Pete Hegseth said in October that the Pentagon had issued no directive."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА",
+"средства связи и коммуникаций"
+],
+"nd": 1,
+"d0": "2026-11-13",
+"d1": "2026-11-13"
 },
 {
 "id": "per:rel_e389cc6f226481ec",
@@ -56625,7 +57411,17 @@
 "2026-09-15 15:35",
 "“The presence of Italian aircraft here is the clear demonstration of the value of the Atlantic alliance for Italy and what it means to be an ally,” he said after meeting crews with Lithuanian Defense Minister Robertas Kaunas."
 ]
-]
+],
+"oi": [
+"Д2"
+],
+"sp": [
+"БПЛА",
+"авиация"
+],
+"nd": 1,
+"d0": "2026-09-15",
+"d1": "2026-09-15"
 },
 {
 "id": "per:rel_37275e819ba75f28",
@@ -56645,7 +57441,16 @@
 "2026-07-09 07:15",
 "Пресс-секретарь Президента Дмитрий Песков прокомментировал информацию, что подобная активность «напрямую связана с ухудшением положения ВСУ на линии боевого соприкосновения»."
 ]
-]
+],
+"oi": [
+"В2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-07-09",
+"d1": "2026-07-09"
 },
 {
 "id": "per:rel_414cd078050fd19b",
@@ -56665,7 +57470,17 @@
 "2026-04-30 04:34",
 "«Благодаря партнерству с Sikorsky мы обеспечиваем проверенную производительность и надежность платформы R66 в сфере беспилотной логистики, — заявил Дэвид Смит, президент и генеральный директор Robinson Helicopter Company."
 ]
-]
+],
+"oi": [
+"В2"
+],
+"sp": [
+"БПЛА",
+"авиация"
+],
+"nd": 1,
+"d0": "2026-04-30",
+"d1": "2026-04-30"
 },
 {
 "id": "per:rel_5459648f7df89e22",
@@ -56685,7 +57500,16 @@
 "2026-04-23 05:36",
 "Это лишь один из примеров нашего стремления инвестировать в перспективные разработки, чтобы предоставлять актуальные решения в кратчайшие сроки и по доступной цене», — заявила Стефани Хилл, президент подразделения Lockheed Martin Rotary и M"
 ]
-]
+],
+"oi": [
+"В2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-04-23",
+"d1": "2026-04-23"
 },
 {
 "id": "per:rel_2dd0af0226afe9b4",
@@ -56705,7 +57529,16 @@
 "2026-03-23 06:58",
 "«Наш фокус - на операционном исполнении и коммерческой жизнеспособности, - заявил Грег Колачитти, операционный директор Volatus Aerospace."
 ]
-]
+],
+"oi": [
+"В2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-03-23",
+"d1": "2026-03-23"
 },
 {
 "id": "per:rel_e0f8b380bfd536d3",
@@ -56725,7 +57558,16 @@
 "2026-02-12 07:47",
 "Сообщают, что вице-президент США Джеймс Ди Вэнс на пресс-конференции по итогам переговоров в Ереване с премьер-министром Армении Николом Пашиняном заявил о продаже Армении партии известных разведывательных БЛА Shield AI MQ-35A V-BAT на сумм"
 ]
-]
+],
+"oi": [
+"В2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-02-12",
+"d1": "2026-02-12"
 },
 {
 "id": "per:rel_871b73216a700d52",
@@ -56745,7 +57587,16 @@
 "2026-11-15 14:00",
 "Simon Gillett, chief executive of Balaena, and Lisa Edvardsen Haugan, chief executive of Kongsberg Maritime, signed the agreement at Kongsberg Maritime’s offices in Norway on Wednesday."
 ]
-]
+],
+"oi": [
+"В2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-15",
+"d1": "2026-11-15"
 },
 {
 "id": "per:rel_b5b30f6d5b9b6219",
@@ -56765,7 +57616,16 @@
 "2026-11-15 18:37",
 "“Aselsan’s EJDERHA has become the world’s first system to successfully neutralize 51 drones with a single push of a button, without firing a missile or using any ammunition,” said Ahmet Akyol, Aselsan’s president and chief executive."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-15",
+"d1": "2026-11-15"
 },
 {
 "id": "per:rel_b9f47046c241c539",
@@ -56785,7 +57645,12 @@
 "",
 "With this whole-of-government approach, the Department of War is rapidly fielding cutting-edge capabilities to safeguard our Southern Border and harden critical military installations,” said War Secretary Pete Hegseth ."
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "",
+"d1": ""
 },
 {
 "id": "per:rel_90c27642e1391304",
@@ -56805,7 +57670,16 @@
 "2026-11-16 08:07",
 "“Together, we have taken an important step towards realising our shared vision of providing a sovereign, EU-manufactured capability in the NATO Class III UAV category for strategic surveillance, including the detection of low-flying targets"
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-16",
+"d1": "2026-11-16"
 },
 {
 "id": "per:rel_9e2ccb06f9e3c4a9",
@@ -56825,7 +57699,16 @@
 "2026-11-16 08:07",
 "“Together, we have taken an important step towards realising our shared vision of providing a sovereign, EU-manufactured capability in the NATO Class III UAV category for strategic surveillance, including the detection of low-flying targets"
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-16",
+"d1": "2026-11-16"
 },
 {
 "id": "per:rel_cc89ff5775d9cd9b",
@@ -56845,7 +57728,17 @@
 "2026-11-16 11:09",
 "Previous incidents have affected flights carrying senior European officials, including UK Defense Secretary John Healey in May 2026 and European Commission President Ursula von der Leyen in August 2025."
 ]
-]
+],
+"oi": [
+"В2"
+],
+"sp": [
+"БПЛА",
+"авиация"
+],
+"nd": 1,
+"d0": "2026-11-16",
+"d1": "2026-11-16"
 },
 {
 "id": "per:rel_743335bbb7bbbef0",
@@ -56865,7 +57758,12 @@
 "2024-01-26 00:00",
 "Highlights from the air shows of UMEX and SimTEX 2024 at Sweihan Hills, attended by His Excellency Sheikh Sultan bin Tahnoon Al Nahyan, Chairman of the Board of Directors of the National Pride Office, Major General Saeed Rashid Al Shehhi, C"
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2024-01-26",
+"d1": "2024-01-26"
 },
 {
 "id": "per:rel_6c78aa0e6207ae2c",
@@ -56885,7 +57783,12 @@
 "2024-01-26 00:00",
 "Highlights from the air shows of UMEX and SimTEX 2024 at Sweihan Hills, attended by His Excellency Sheikh Sultan bin Tahnoon Al Nahyan, Chairman of the Board of Directors of the National Pride Office, Major General Saeed Rashid Al Shehhi, C"
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2024-01-26",
+"d1": "2024-01-26"
 },
 {
 "id": "per:rel_f94c49d056d7f728",
@@ -56905,7 +57808,16 @@
 "2026-11-16 18:00",
 "“I’ve yet to find anything that can pull together as much of a diverse set of data and allow us the ability to make sense of that data as flexibly,” NATO’s top commander, US Air Force General Alexus Grynkewich, told Reuters this summer."
 ]
-]
+],
+"oi": [
+"В1"
+],
+"sp": [
+"программное обеспечение специального назначения"
+],
+"nd": 1,
+"d0": "2026-11-16",
+"d1": "2026-11-16"
 },
 {
 "id": "per:rel_fe9c33b88969310a",
@@ -56925,7 +57837,16 @@
 "2026-11-16 16:58",
 "Ukrainian President Volodymyr Zelenskyy recently said that SpaceX told the Ukrainian Defence Ministry that it has not imposed any restrictions on Starshield operations and that the problem is technical in nature."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"средства связи и коммуникаций"
+],
+"nd": 1,
+"d0": "2026-11-16",
+"d1": "2026-11-16"
 },
 {
 "id": "per:rel_4e5058e9f2c1b96f",
@@ -56945,7 +57866,17 @@
 "2026-11-16 21:33",
 "webp\" alt=\"Flat white Starshield satellite terminal on a black hard case beside a tan Humvee draped in camouflage netting on gravel ground\" /></p> <p>Ukrainian President Volodymyr Zelensky said Sunday, November 15, that Russian Shaheds are "
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА",
+"средства связи и коммуникаций"
+],
+"nd": 1,
+"d0": "2026-11-16",
+"d1": "2026-11-16"
 },
 {
 "id": "per:rel_383da5a0df6b37f7",
@@ -56965,7 +57896,17 @@
 "2026-11-16 21:33",
 "webp\" alt=\"Flat white Starshield satellite terminal on a black hard case beside a tan Humvee draped in camouflage netting on gravel ground\" /></p> <p>Ukrainian President Volodymyr Zelensky said Sunday, November 15, that Russian Shaheds are "
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА",
+"средства связи и коммуникаций"
+],
+"nd": 1,
+"d0": "2026-11-16",
+"d1": "2026-11-16"
 },
 {
 "id": "per:rel_2a32b2635d09acca",
@@ -56985,7 +57926,16 @@
 "2026-11-17 00:59",
 "DJI’s lawyers at Cooley, among them former US Solicitor General Elizabeth Prelogar, maintain that the court has jurisdiction and could decide the merits now."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-17",
+"d1": "2026-11-17"
 },
 {
 "id": "per:rel_215e0063763961c3",
@@ -57005,7 +57955,12 @@
 "2026-06-19 04:19",
 "The memorandum was signed by RSI Europe co-founder and CEO Tomas Milašauskas and The Fourth Law Director of UAS Unit Yaroslav Tkachuk."
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2026-06-19",
+"d1": "2026-06-19"
 },
 {
 "id": "per:rel_f7e543b705ba98fa",
@@ -57025,7 +57980,12 @@
 "2026-06-19 04:19",
 "The memorandum was signed by RSI Europe co-founder and CEO Tomas Milašauskas and The Fourth Law Director of UAS Unit Yaroslav Tkachuk."
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2026-06-19",
+"d1": "2026-06-19"
 },
 {
 "id": "per:rel_2ebca956fcb7c886",
@@ -57045,7 +58005,16 @@
 "2026-11-17 14:16",
 "Ran Gozali, CEO of Uvision."
 ]
-]
+],
+"oi": [
+"В1"
+],
+"sp": [
+"авиация"
+],
+"nd": 1,
+"d0": "2026-11-17",
+"d1": "2026-11-17"
 },
 {
 "id": "per:rel_c59aca7bd43f7164",
@@ -57065,7 +58034,16 @@
 "2026-11-17 14:00",
 "Citing Defense Minister Martin Herem, the high speed aircraft were seen as the most effective way to shoot them down."
 ]
-]
+],
+"oi": [
+"В1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-17",
+"d1": "2026-11-17"
 },
 {
 "id": "per:rel_41f5c3bbc77af469",
@@ -57085,7 +58063,16 @@
 "2026-11-17 15:44",
 "Swedish Defense Minister Pål Jonson, British Defence Secretary Wes Streeting and Ukrainian Defense Minister Yevhenii Khmara signed a letter of […"
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"авиация"
+],
+"nd": 1,
+"d0": "2026-11-17",
+"d1": "2026-11-17"
 },
 {
 "id": "per:rel_cacb1b74ec28b11f",
@@ -57105,7 +58092,16 @@
 "2026-11-17 15:44",
 "Swedish Defense Minister Pål Jonson, British Defence Secretary Wes Streeting and Ukrainian Defense Minister Yevhenii Khmara signed a letter of […"
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"авиация"
+],
+"nd": 1,
+"d0": "2026-11-17",
+"d1": "2026-11-17"
 },
 {
 "id": "per:rel_261d1e8a0991fad9",
@@ -57125,7 +58121,16 @@
 "2026-11-17 15:44",
 "Swedish Defense Minister Pål Jonson, British Defence Secretary Wes Streeting and Ukrainian Defense Minister Yevhenii Khmara signed a letter of […"
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"авиация"
+],
+"nd": 1,
+"d0": "2026-11-17",
+"d1": "2026-11-17"
 },
 {
 "id": "per:rel_71f96c564702841b",
@@ -57145,7 +58150,16 @@
 "2026-11-17 16:01",
 "The Netherlands, Norway, the European Union and Finland have pledged €70 million ($77 million ) to support humanitarian demining in Ukraine, Prime Minister Serhii Koretskiy said on Tuesday."
 ]
-]
+],
+"oi": [
+"В4"
+],
+"sp": [
+"вооружение"
+],
+"nd": 1,
+"d0": "2026-11-17",
+"d1": "2026-11-17"
 },
 {
 "id": "per:rel_9ec4c273c54f1d78",
@@ -57165,7 +58179,16 @@
 "2026-11-17 20:35",
 "Navy’s call to produce and field modern strike capabilities from a maritime platform,” said Kevin Schoonover, executive vice president for missiles at Hanwha Defense USA."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-17",
+"d1": "2026-11-17"
 },
 {
 "id": "per:rel_5c27ad0a779eea70",
@@ -57185,7 +58208,16 @@
 "2026-11-17 20:35",
 "Navy’s call to produce and field modern strike capabilities from a maritime platform,” said Kevin Schoonover, executive vice president for missiles at Hanwha Defense USA."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-17",
+"d1": "2026-11-17"
 },
 {
 "id": "per:rel_a82c5bc61a3a304f",
@@ -57205,7 +58237,16 @@
 "2026-11-17 17:13",
 "Source: European Pravda correspondent in Brussels, citing Ukrainian President Volodymyr Zelenskyy during his online address at the 37th meeting of the Ukraine Defence Contact Group in the Ramstein format, taking place at NATO Headquarters o"
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"авиация"
+],
+"nd": 1,
+"d0": "2026-11-17",
+"d1": "2026-11-17"
 },
 {
 "id": "per:rel_9ee7e84dec4f0892",
@@ -57225,7 +58266,16 @@
 "2026-11-18 11:29",
 "Mitch McDonald, Red Cat’s Divisional CEO of UAS Operations, told me in August that Japan had become the second-largest customer for <strong>Hellcat</strong>, the export version of Black Widow."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-18",
+"d1": "2026-11-18"
 },
 {
 "id": "per:rel_586a7e746deec0d8",
@@ -57245,7 +58295,16 @@
 "2026-11-18 12:00",
 "Wes Streeting, the Defence Secretary, announced the package as he co-chaired the 37th meeting of the Ukraine Defence Contact Group at NATO Headquarters in Brussels with German Defence Minister Boris Pistorius."
 ]
-]
+],
+"oi": [
+"В1"
+],
+"sp": [
+"системы ПВО и РВСН"
+],
+"nd": 1,
+"d0": "2026-11-18",
+"d1": "2026-11-18"
 },
 {
 "id": "per:rel_51eaf75aa4195f7c",
@@ -57265,7 +58324,16 @@
 "2026-11-18 12:00",
 "Wes Streeting, the Defence Secretary, announced the package as he co-chaired the 37th meeting of the Ukraine Defence Contact Group at NATO Headquarters in Brussels with German Defence Minister Boris Pistorius."
 ]
-]
+],
+"oi": [
+"В1"
+],
+"sp": [
+"системы ПВО и РВСН"
+],
+"nd": 1,
+"d0": "2026-11-18",
+"d1": "2026-11-18"
 },
 {
 "id": "per:rel_a7c95b50a54b1767",
@@ -57285,7 +58353,16 @@
 "2026-11-18 12:48",
 "Defense Secretary Pete Hegseth at the PAC‑3 seeker factory in Huntsville, Alabama (Credit: Boeing) The Pentagon wants to increase PAC-3 MSE output as quickly as possible after months of heavy interceptor consumption and growing demand from "
 ]
-]
+],
+"oi": [
+"В1"
+],
+"sp": [
+"системы ПВО и РВСН"
+],
+"nd": 1,
+"d0": "2026-11-18",
+"d1": "2026-11-18"
 },
 {
 "id": "per:rel_93a1914e6ad8660c",
@@ -57305,7 +58382,16 @@
 "2026-11-18 15:34",
 "While increasing its footprint in unmanned systems, going subsea, Elbit Systems does not forget the other side of the coin, how to counter them, as Ariel, Senior Vice President Naval EW, ISR A/C and SIGMABIT Business Line explained."
 ]
-]
+],
+"oi": [
+"В2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-18",
+"d1": "2026-11-18"
 },
 {
 "id": "per:rel_7c140bffd2314160",
@@ -57325,7 +58411,16 @@
 "2026-11-18 00:00",
 "Alex Fink, president of Swarmer and CEO of its U."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-18",
+"d1": "2026-11-18"
 },
 {
 "id": "per:rel_13270dc3def785e5",
@@ -57345,7 +58440,14 @@
 "2026-11-18 19:35",
 "🔥Армения не собирается присоединяться к НАТО, заявил премьер-министр Никол Пашинян"
 ]
-]
+],
+"oi": [
+"В1"
+],
+"sp": [],
+"nd": 1,
+"d0": "2026-11-18",
+"d1": "2026-11-18"
 },
 {
 "id": "per:rel_207ea1eed3ca8244",
@@ -57365,7 +58467,16 @@
 "2026-11-19 06:47",
 "“This exercise has deepened our understanding of the Romanian Armed Forces’ operational needs and demonstrated how our technologies can support them,” said Lino Lim, chief executive of Hanwha Aerospace Romania."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-19",
+"d1": "2026-11-19"
 },
 {
 "id": "per:rel_e84f893c8b0a831b",
@@ -57385,7 +58496,17 @@
 "2026-11-18 18:09",
 "Speaking at the European Union Foreign Affairs Council in Brussels on 17 November, Ukrainian Defence Minister Evgeniy Khmara said unmanned systems would account for more than half of the country’s weapons requirements next year."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА",
+"программное обеспечение специального назначения"
+],
+"nd": 1,
+"d0": "2026-11-18",
+"d1": "2026-11-18"
 },
 {
 "id": "per:rel_28d6dfc054b95c7b",
@@ -57405,7 +58526,17 @@
 "2026-11-18 18:09",
 "The agreement, signed by Khmara and Danish Defence Minister Jeppe Bruus, provides for joint AI development, the exchange of expertise and cooperation between the two countries’ defence industries."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА",
+"программное обеспечение специального назначения"
+],
+"nd": 1,
+"d0": "2026-11-18",
+"d1": "2026-11-18"
 },
 {
 "id": "per:rel_4288d69780a0d27a",
@@ -57425,7 +58556,16 @@
 "2026-11-19 13:50",
 "Mnif will be based at MARSS’s office in Nice, France, and report to EOS CEO and Managing Director Andreas Schwer."
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-19",
+"d1": "2026-11-19"
 },
 {
 "id": "per:rel_4c514780c7aeb02e",
@@ -57445,7 +58585,16 @@
 "2026-11-19 13:28",
 "By combining our technological expertise and industrial capabilities, we believe we can further strengthen our partnership and open new opportunities for cooperation in other areas of mutual interest,” said Michal Baláž, CEO of MSM Land Sys"
 ]
-]
+],
+"oi": [
+"В1"
+],
+"sp": [
+"бронетехника"
+],
+"nd": 1,
+"d0": "2026-11-19",
+"d1": "2026-11-19"
 },
 {
 "id": "per:rel_acb5a79c398945be",
@@ -57465,7 +58614,16 @@
 "2026-11-19 00:00",
 "Ami Rojkes Dombe | 19/11/2026 In photo: Czech Prime Minister Andrej Babiš and IAI CEO Guy Bar Lev."
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"системы ПВО и РВСН"
+],
+"nd": 1,
+"d0": "2026-11-19",
+"d1": "2026-11-19"
 },
 {
 "id": "per:rel_1e01622d6de18379",
@@ -57485,7 +58643,16 @@
 "2026-11-19 15:14",
 "“This signing marks an intensification of the collaboration between Rheinmetall and the Netherlands Ministry of Defense as strategic partners,” said Dutch Secretary of State for Arms Procurement and Personnel Derk Boswijk."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-19",
+"d1": "2026-11-19"
 },
 {
 "id": "per:rel_63c197a1972ab655",
@@ -57505,7 +58672,16 @@
 "2026-11-19 14:26",
 "Rebellion Industries, led by founder and CEO Shu Chowdhury, develops technology for detecting and responding to threats against critical infrastructure."
 ]
-]
+],
+"oi": [
+"В1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-19",
+"d1": "2026-11-19"
 },
 {
 "id": "per:rel_f76ad4c9e20736c7",
@@ -57525,7 +58701,16 @@
 "2026-11-20 05:33",
 "“The additional commitment represents a further step to strengthen Ukraine’s domestic defence-industrial base and build long-term capacity to support Ukrainian-developed unmanned systems,” said Matthias Lehna, vice president at Quantum Syst"
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-20",
+"d1": "2026-11-20"
 },
 {
 "id": "per:rel_e5b08a1353db7962",
@@ -57545,7 +58730,16 @@
 "2026-11-20 09:23",
 "“Leonardo DRS is continuing to expand its role in the munitions seeker market through recent wins that leverage both cooled and uncooled solutions at the detector, sensor and subsystem levels,” said Jerry Hathaway, senior vice president and"
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"системы ПВО и РВСН"
+],
+"nd": 1,
+"d0": "2026-11-20",
+"d1": "2026-11-20"
 },
 {
 "id": "per:rel_7609feae7641c26b",
@@ -57565,7 +58759,16 @@
 "2026-11-20 09:23",
 "“Leonardo DRS is continuing to expand its role in the munitions seeker market through recent wins that leverage both cooled and uncooled solutions at the detector, sensor and subsystem levels,” said Jerry Hathaway, senior vice president and"
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"системы ПВО и РВСН"
+],
+"nd": 1,
+"d0": "2026-11-20",
+"d1": "2026-11-20"
 },
 {
 "id": "per:rel_ed03bb859afac2b7",
@@ -57585,7 +58788,16 @@
 "2026-11-20 09:12",
 "“Van Halteren Technologies has been a trusted partner of choice for decades, and this MoU reflects our deep commitment to and trust in the Dutch defense industry,” said Markus Schmidt, Senior Vice President Customer Support & Service at KND"
 ]
-]
+],
+"oi": [
+"В2"
+],
+"sp": [
+"бронетехника"
+],
+"nd": 1,
+"d0": "2026-11-20",
+"d1": "2026-11-20"
 },
 {
 "id": "per:rel_45a36ea887b391f8",
@@ -57605,7 +58817,16 @@
 "2026-11-20 09:12",
 "“Van Halteren Technologies has been a trusted partner of choice for decades, and this MoU reflects our deep commitment to and trust in the Dutch defense industry,” said Markus Schmidt, Senior Vice President Customer Support & Service at KND"
 ]
-]
+],
+"oi": [
+"В2"
+],
+"sp": [
+"бронетехника"
+],
+"nd": 1,
+"d0": "2026-11-20",
+"d1": "2026-11-20"
 },
 {
 "id": "per:rel_3834f99266590d10",
@@ -57625,7 +58846,16 @@
 "2026-11-20 09:12",
 "“Van Halteren Technologies has been a trusted partner of choice for decades, and this MoU reflects our deep commitment to and trust in the Dutch defense industry,” said Markus Schmidt, Senior Vice President Customer Support & Service at KND"
 ]
-]
+],
+"oi": [
+"В2"
+],
+"sp": [
+"бронетехника"
+],
+"nd": 1,
+"d0": "2026-11-20",
+"d1": "2026-11-20"
 },
 {
 "id": "per:rel_c7af4ea4b5a6cd22",
@@ -57645,7 +58875,16 @@
 "2026-11-20 09:53",
 "Ukrainian Foreign Minister Andriy Sybiha commented on the violation of Polish and NATO airspace resulting from a large-scale Russian attack on Ukraine, and expressed solidarity with Poland and the Polish people."
 ]
-]
+],
+"oi": [
+"В2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-20",
+"d1": "2026-11-20"
 },
 {
 "id": "per:rel_fa154220eed7a2ae",
@@ -57665,7 +58904,16 @@
 "2026-11-22 07:24",
 "Signed by Ukrainian Defense Minister Yevhenii Khmara and UK Defense Secretary Wes Streeting, the talks also covered accelerating deliveries of LMM air defense missiles from British stockpiles and modernizing Ukrainian long-range missiles, a"
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-22",
+"d1": "2026-11-22"
 },
 {
 "id": "per:rel_2a29f7d495e15e5f",
@@ -57685,7 +58933,16 @@
 "2026-11-22 07:24",
 "Signed by Ukrainian Defense Minister Yevhenii Khmara and UK Defense Secretary Wes Streeting, the talks also covered accelerating deliveries of LMM air defense missiles from British stockpiles and modernizing Ukrainian long-range missiles, a"
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-22",
+"d1": "2026-11-22"
 },
 {
 "id": "per:rel_fececa25b197f667",
@@ -57705,7 +58962,16 @@
 "2026-11-22 07:24",
 "Signed by Ukrainian Defense Minister Yevhenii Khmara and UK Defense Secretary Wes Streeting, the talks also covered accelerating deliveries of LMM air defense missiles from British stockpiles and modernizing Ukrainian long-range missiles, a"
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-22",
+"d1": "2026-11-22"
 },
 {
 "id": "per:rel_eb0e3199cfb83e64",
@@ -57725,7 +58991,16 @@
 "2026-11-22 09:08",
 "Finnish Defence Minister Antti Hakkanen said the helicopter may have been involved in rescue or monitoring operations connected to the damaged vessel."
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-22",
+"d1": "2026-11-22"
 },
 {
 "id": "per:rel_b02df9bdc473441e",
@@ -57745,7 +59020,16 @@
 "2026-11-22 11:12",
 "UK Defence Secretary Wes Streeting and Ukrainian Defence Minister Evgeniy Khmara signed the agreements during Streeting’s visit to Kyiv."
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-22",
+"d1": "2026-11-22"
 },
 {
 "id": "per:rel_0e9fdb06964b125a",
@@ -57765,7 +59049,16 @@
 "2026-11-22 12:12",
 "Ben MacDonald, co-founder and vice president of business development at Renegade UxS Inc."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-22",
+"d1": "2026-11-22"
 },
 {
 "id": "per:rel_7b8009f4a5a3b8b0",
@@ -57785,7 +59078,17 @@
 "2026-11-22 00:00",
 "Aviv Shapira, co-founder and CEO of XTEND AI Robotics, noted that the company intends to contribute to the U."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА",
+"средства связи и коммуникаций"
+],
+"nd": 1,
+"d0": "2026-11-22",
+"d1": "2026-11-22"
 },
 {
 "id": "per:rel_632a0b9d326fab83",
@@ -57805,7 +59108,14 @@
 "2026-11-23 07:06",
 "Ле Пен: Вступление НАТО в войну на Украине спровоцирует Третью мировую Кандидат в президенты Франции Марин Ле Пен заявила, что по украинскому кризису возможны лишь три сценария развития событий: прямое участие НАТО, что повлечет за собой гл"
 ]
-]
+],
+"oi": [
+"В2"
+],
+"sp": [],
+"nd": 1,
+"d0": "2026-11-23",
+"d1": "2026-11-23"
 },
 {
 "id": "per:rel_f7a60b3ad281bb2b",
@@ -57825,7 +59135,17 @@
 "2026-11-23 11:04",
 "Canada has a chance to build that generation here,” said Eliot Pence, founder and CEO of Dominion Dynamics."
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА",
+"авиация"
+],
+"nd": 1,
+"d0": "2026-11-23",
+"d1": "2026-11-23"
 },
 {
 "id": "per:rel_18f72b76f7270ea2",
@@ -57845,7 +59165,16 @@
 "2026-11-23 09:16",
 "The meeting came five days after Khmara, Swedish Minister for Defense Pål Jonson and UK Defence Secretary Wes Streeting signed a letter of intent in Brussels on November 17, 2026, on the sidelines of the 37 th Ukraine Defence Contact Group "
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"авиация"
+],
+"nd": 1,
+"d0": "2026-11-23",
+"d1": "2026-11-23"
 },
 {
 "id": "per:rel_6d7251ee5c6c95e0",
@@ -57865,7 +59194,16 @@
 "2026-11-23 09:16",
 "The meeting came five days after Khmara, Swedish Minister for Defense Pål Jonson and UK Defence Secretary Wes Streeting signed a letter of intent in Brussels on November 17, 2026, on the sidelines of the 37 th Ukraine Defence Contact Group "
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"авиация"
+],
+"nd": 1,
+"d0": "2026-11-23",
+"d1": "2026-11-23"
 },
 {
 "id": "per:rel_5d15d3294e5f89b7",
@@ -57885,7 +59223,16 @@
 "2026-11-23 16:41",
 "Как сообщало EADaily, ранее пресс-секретарь президента России Дмитрий Песков воздержался от комментариев по поводу атаки безэкипажных катеров в порту Бенгази, переадресовав вопросы в Министерство обороны РФ, а МИД Албании официально отверг "
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-23",
+"d1": "2026-11-23"
 },
 {
 "id": "per:rel_1ab2df72f89e5afa",
@@ -57905,7 +59252,16 @@
 "2026-11-23 00:00",
 "Nordic Air Defence President Carl Rosander emphasized that defenders cannot afford to continue firing costly missiles at every drone attack, adding that Europe needs effective interceptors that can be mass-produced to counter escalating aer"
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"системы ПВО и РВСН"
+],
+"nd": 1,
+"d0": "2026-11-23",
+"d1": "2026-11-23"
 },
 {
 "id": "per:rel_c4fe175a52243891",
@@ -57925,7 +59281,16 @@
 "2026-11-23 20:49",
 "Russia keeps adapting its attack systems, so we work closely with Ukrainian brigades to adjust our systems accordingly,” said Sven Kruck, Co-CEO of Quantum Systems."
 ]
-]
+],
+"oi": [
+"Б1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-23",
+"d1": "2026-11-23"
 },
 {
 "id": "per:rel_f24178d1bf878183",
@@ -57945,7 +59310,16 @@
 "2026-11-23 21:26",
 "President Donald Trump on Monday said he is putting a pause on the U."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"вооружение"
+],
+"nd": 1,
+"d0": "2026-11-23",
+"d1": "2026-11-23"
 },
 {
 "id": "per:rel_c36db4cb73ea6294",
@@ -57965,7 +59339,14 @@
 "2026-11-23 23:00",
 "” Eric Huber, Vice-President Surface Radars, Thales."
 ]
-]
+],
+"oi": [
+"Б2"
+],
+"sp": [],
+"nd": 1,
+"d0": "2026-11-23",
+"d1": "2026-11-23"
 },
 {
 "id": "per:rel_e39013c5bae385ce",
@@ -57985,7 +59366,12 @@
 "2026-11-24 06:40",
 "Ukrainian Defence Minister Yevheniy Khmara and British Defence Minister Wes Streeting signed project agreements on the joint production of Ukrainian middle strike and deep strike drones."
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2026-11-24",
+"d1": "2026-11-24"
 },
 {
 "id": "per:rel_eaa40664e3649017",
@@ -58005,7 +59391,12 @@
 "2026-11-24 06:40",
 "Ukrainian Defence Minister Yevheniy Khmara and British Defence Minister Wes Streeting signed project agreements on the joint production of Ukrainian middle strike and deep strike drones."
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2026-11-24",
+"d1": "2026-11-24"
 },
 {
 "id": "per:rel_62984f51eb033dca",
@@ -58025,7 +59416,12 @@
 "2026-11-24 10:19",
 "In a statement , NATO spokesperson Allison Hart said Supreme Allied Commander Europe (SACEUR) General Alexus Grynkewich had authorized the deployment and was considering sending additional assets as part of an ongoing review of the alliance"
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2026-11-24",
+"d1": "2026-11-24"
 },
 {
 "id": "per:rel_cfc90a3369532df2",
@@ -58045,7 +59441,12 @@
 "2026-11-24 10:19",
 "In a statement , NATO spokesperson Allison Hart said Supreme Allied Commander Europe (SACEUR) General Alexus Grynkewich had authorized the deployment and was considering sending additional assets as part of an ongoing review of the alliance"
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2026-11-24",
+"d1": "2026-11-24"
 },
 {
 "id": "per:rel_e3529cd752d23ec8",
@@ -58065,7 +59466,12 @@
 "2026-11-24 11:23",
 "In August we reported that US Army Secretary Dan Driscoll told the Senate in May that <a href=\"https://dronexl."
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2026-11-24",
+"d1": "2026-11-24"
 },
 {
 "id": "per:rel_ea4f3ce614f0504d",
@@ -58085,7 +59491,12 @@
 "2026-11-24 11:23",
 "Christian Freuding said in a Bundeswehr podcast in early October, as the army’s inspector, that Delta uses AI agents to match, group and package reconnaissance for the commander, the German defense site <a href=\"https://www."
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2026-11-24",
+"d1": "2026-11-24"
 },
 {
 "id": "per:rel_038bc29039e9194d",
@@ -58105,7 +59516,12 @@
 "2026-11-24 11:23",
 "Christian Freuding said in a Bundeswehr podcast in early October, as the army’s inspector, that Delta uses AI agents to match, group and package reconnaissance for the commander, the German defense site <a href=\"https://www."
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2026-11-24",
+"d1": "2026-11-24"
 },
 {
 "id": "per:rel_a75e558593146954",
@@ -58125,7 +59541,12 @@
 "2026-11-24 13:00",
 "Lockheed Martin CEO Jim Taiclet said the company had placed an order with Northrop Grumman for propulsion and other missile components in mid-October."
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2026-11-24",
+"d1": "2026-11-24"
 },
 {
 "id": "per:rel_f321446b8a665465",
@@ -58145,7 +59566,12 @@
 "2026-11-24 13:00",
 "Lockheed Martin CEO Jim Taiclet said the company had placed an order with Northrop Grumman for propulsion and other missile components in mid-October."
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2026-11-24",
+"d1": "2026-11-24"
 },
 {
 "id": "per:rel_60d3717cd95b824a",
@@ -58165,7 +59591,12 @@
 "2026-11-24 12:10",
 "“Ultimately, this is about giving soldiers better information earlier and faster, while reducing the risks they face,” David Roberts, CEO of ARX Robotics UK, said."
 ]
-]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2026-11-24",
+"d1": "2026-11-24"
 }
 ]
 }
