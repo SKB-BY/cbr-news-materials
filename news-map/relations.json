@@ -5,32 +5,32 @@
 "to": "ent_76aae9f116d88191",
 "type": "применение",
 "event_date": null,
-"evidence_count": 369,
+"evidence_count": 376,
 "evidence": [
 {
-"url": "https://ria.ru/20261124/spetsoperatsiya-2133527431.html",
-"published_at": "2026-11-24T02:58:24Z",
-"quote": "Бойцы \"Севера\" сбили БПЛА самолетного типа и два дрона ВСУ из автоматов"
+"url": "https://belvpo.com/rossijskij-voennyj-sbil-dron-vsu-kaskoj-pri-osvobozhdenii-shilovki-v-dnr",
+"published_at": "2026-11-24T05:30:16Z",
+"quote": "Российский военный сбил дрон ВСУ каской при освобождении Шиловки в ДНР"
 },
 {
-"url": "https://tass.ru/armiya-i-opk/28347763",
-"published_at": "2026-11-24T02:56:10Z",
-"quote": "\"БАРС-Курск\" уничтожил в приграничье три дрона ВСУ"
+"url": "https://ria.ru/20261124/belgorod-2133537826.html",
+"published_at": "2026-11-24T05:02:48Z",
+"quote": "Стрелок уничтожил около 30 дронов ВСУ в белгородском приграничье"
 },
 {
-"url": "https://belvpo.com/voennye-severa-unichtozhayut-drony-vsu-v-sumskoj-oblasti",
-"published_at": "2026-11-24T02:49:42Z",
-"quote": "Военные «Севера» уничтожают дроны ВСУ в Сумской области"
+"url": "https://tass.ru/armiya-i-opk/28348001",
+"published_at": "2026-11-24T04:33:59Z",
+"quote": "В группировке \"Север\" сообщили о поражении более 100 дронов \"Баба-яга\" ВСУ"
 },
 {
-"url": "https://ria.ru/20261124/spetsoperatsiya-2133526475.html",
-"published_at": "2026-11-24T02:45:58Z",
-"quote": "Военные \"Севера\" уничтожают дроны ВСУ в Сумской области"
+"url": "https://tass.ru/armiya-i-opk/28347909",
+"published_at": "2026-11-24T04:01:52Z",
+"quote": "Боец Сват: \"Север\" уничтожил более 15 пунктов управления БПЛА ВСУ на Харьковщине"
 },
 {
-"url": "https://tass.ru/armiya-i-opk/28347749",
-"published_at": "2026-11-24T02:36:27Z",
-"quote": "В группировке \"Север\" сообщили о поражении более 30 дронов ВСУ"
+"url": "https://tass.ru/armiya-i-opk/28347847",
+"published_at": "2026-11-24T03:32:10Z",
+"quote": "В группировке \"Север\" сообщили об уничтожении около 50 дронов ВСУ за неделю"
 }
 ],
 "sentiment": {
@@ -45,8 +45,13 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 103,
+"evidence_count": 104,
 "evidence": [
+{
+"url": "https://belvpo.com/rossijskij-voennyj-sbil-dron-vsu-kaskoj-pri-osvobozhdenii-shilovki-v-dnr",
+"published_at": "2026-11-24T05:30:16Z",
+"quote": "Российский военный сбил дрон ВСУ каской при освобождении Шиловки в ДНР"
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28347699",
 "published_at": "2026-11-24T02:02:26Z",
@@ -66,11 +71,6 @@
 "url": "https://focus.ua/voennye-novosti/775677-prioritety-ssha-v-otnoshenii-ukrainy-pochemu-ogranicheniya-na-starshield-ne-snyali",
 "published_at": "2026-11-23T09:51:05Z",
 "quote": "Вместо ударов вглубь РФ — оборона фронта и \"мидстрайки\": в США определили новые приоритеты для ВСУ"
-},
-{
-"url": "https://tass.ru/armiya-i-opk/28345401",
-"published_at": "2026-11-23T08:55:21Z",
-"quote": "ВС РФ поразили места производства и хранения беспилотников для ВСУ"
 }
 ],
 "sentiment": {
@@ -205,8 +205,13 @@
 "to": "ent_28fea1c77915c37a",
 "type": "применение",
 "event_date": null,
-"evidence_count": 30,
+"evidence_count": 31,
 "evidence": [
+{
+"url": "https://rg.ru/2026/11/24/sobianin-20-bespilotnikov-letevshih-na-moskvu-unichtozheny-silami-pvo-minoborony.html",
+"published_at": "2026-11-24T03:58:07Z",
+"quote": "20 БПЛА - сначала 9, затем еще 11, сбили силы ПВО Минобороны РФ на подлете к Москве."
+},
 {
 "url": "https://tvzvezda.ru/news/20261124255-y79Ag.html",
 "published_at": "2026-11-24T02:09:16Z",
@@ -226,11 +231,6 @@
 "url": "https://tvzvezda.ru/news/202611231529-L05EP.html",
 "published_at": "2026-11-23T13:11:43Z",
 "quote": "Минобороны России сообщило об уничтожении укреплений украинского опорного пункта в зоне проведения специальной военной операции."
-},
-{
-"url": "https://tvzvezda.ru/news/2026112324-DmuSy.html",
-"published_at": "2026-11-23T02:00:00Z",
-"quote": "Ранее Минобороны РФ опубликовало видео уничтожения бойцами ВС РФ украинской радиолокационной станции «Пеликан» в зоне проведения спецоперации."
 }
 ],
 "sentiment": {
@@ -245,8 +245,13 @@
 "to": "ent_0a0009fc82d3fadc",
 "type": "применение",
 "event_date": null,
-"evidence_count": 29,
+"evidence_count": 30,
 "evidence": [
+{
+"url": "https://tass.ru/armiya-i-opk/28347909",
+"published_at": "2026-11-24T04:01:52Z",
+"quote": "Боец Сват: \"Север\" уничтожил более 15 пунктов управления БПЛА ВСУ на Харьковщине"
+},
 {
 "url": "https://tass.ru/armiya-i-opk/28344695",
 "published_at": "2026-11-23T05:41:11Z",
@@ -266,11 +271,6 @@
 "url": "https://ria.ru/20261123/spetsoperatsiya-2133322757.html",
 "published_at": "2026-11-23T04:34:05Z",
 "quote": "Операторы FPV-дронов уничтожают пехоту ВСУ на Харьковском направлении"
-},
-{
-"url": "https://ria.ru/20261123/spetsoperatsiya-2133321459.html",
-"published_at": "2026-11-23T04:14:27Z",
-"quote": "Артиллеристы уничтожили семь пунктов управления БПЛА ВСУ под Харьковом"
 }
 ],
 "sentiment": {
@@ -1280,6 +1280,46 @@
 }
 },
 {
+"id": "rel_45e8ee5eb18d7389",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_934031688aa80182",
+"type": "применение",
+"event_date": null,
+"evidence_count": 7,
+"evidence": [
+{
+"url": "https://ria.ru/20261124/belgorod-2133537826.html",
+"published_at": "2026-11-24T05:02:48Z",
+"quote": "Стрелок уничтожил около 30 дронов ВСУ в белгородском приграничье"
+},
+{
+"url": "https://ria.ru/20261123/shuvaev-2133335563.html",
+"published_at": "2026-11-23T06:21:43Z",
+"quote": "Силы ПВО сбили почти 180 дронов ВСУ над Белгородской областью за сутки"
+},
+{
+"url": "https://tass.ru/proisshestviya/28342075",
+"published_at": "2026-11-21T08:08:57Z",
+"quote": "В Белгородской области при ударе дрона ВСУ по машине пострадал мужчина"
+},
+{
+"url": "https://tass.ru/proisshestviya/28328067",
+"published_at": "2026-11-17T19:48:45Z",
+"quote": "В Белгородской области из-за удара дрона ВСУ по машине погиб человек"
+},
+{
+"url": "https://tass.ru/proisshestviya/28321835",
+"published_at": "2026-11-16T11:04:42Z",
+"quote": "В Белгороде при ударе беспилотника ВСУ пострадали два человека"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
 "id": "rel_06ad2a70453c15a6",
 "from": "ent_ed88ced226e6c399",
 "to": "ent_b677547c4bb180c5",
@@ -1637,46 +1677,6 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
-}
-},
-{
-"id": "rel_45e8ee5eb18d7389",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_934031688aa80182",
-"type": "применение",
-"event_date": null,
-"evidence_count": 6,
-"evidence": [
-{
-"url": "https://ria.ru/20261123/shuvaev-2133335563.html",
-"published_at": "2026-11-23T06:21:43Z",
-"quote": "Силы ПВО сбили почти 180 дронов ВСУ над Белгородской областью за сутки"
-},
-{
-"url": "https://tass.ru/proisshestviya/28342075",
-"published_at": "2026-11-21T08:08:57Z",
-"quote": "В Белгородской области при ударе дрона ВСУ по машине пострадал мужчина"
-},
-{
-"url": "https://tass.ru/proisshestviya/28328067",
-"published_at": "2026-11-17T19:48:45Z",
-"quote": "В Белгородской области из-за удара дрона ВСУ по машине погиб человек"
-},
-{
-"url": "https://tass.ru/proisshestviya/28321835",
-"published_at": "2026-11-16T11:04:42Z",
-"quote": "В Белгороде при ударе беспилотника ВСУ пострадали два человека"
-},
-{
-"url": "https://ria.ru/20261116/belgorodskaya-oblast-2131792901.html",
-"published_at": "2026-11-16T07:10:01Z",
-"quote": "В Белгородской области при ударе дрона ВСУ пострадал мужчина"
-}
-],
-"sentiment": {
-"score_pm1": -0.4,
-"score_pm2": -1,
-"label": "умеренно негативный"
 }
 },
 {
@@ -2200,6 +2200,46 @@
 }
 },
 {
+"id": "rel_8f7b49f450779540",
+"from": "ent_d2e22355d8368901",
+"to": "ent_fb9d115f2c2a9a7b",
+"type": "должность",
+"event_date": null,
+"evidence_count": 5,
+"evidence": [
+{
+"url": "https://pravda.com.ua/eng/news/2026/11/23/8064270",
+"published_at": "2026-11-23T16:34:00Z",
+"quote": "UK Defence Secretary Wes Streeting has said that disruptions to the Starlink and Starshield satellite systems in Ukraine require a clear explanation, as they have seriously undermined the trust of allies."
+},
+{
+"url": "https://defence-industry.eu/uk-ministry-of-defence-says-ukrainian-designed-strike-drones-will-be-manufactured-in-britain-under-new-agreements",
+"published_at": "2026-11-22T11:12:32Z",
+"quote": "UK Defence Secretary Wes Streeting and Ukrainian Defence Minister Evgeniy Khmara signed the agreements during Streeting’s visit to Kyiv."
+},
+{
+"url": "https://inews.co.uk/news/russian-cargo-ship-fire-baltic-sea-finland-4921835",
+"published_at": "2026-11-21T14:20:20Z",
+"quote": "addToArray( { \"pos\": \"mpu_tablet_l3\" } ); } Ukraine’s allies need to more to stop ‘cold-blooded killer’ Putin During a visit to Kyiv, UK Defence Secretary Wes Streeting called on Ukraine’s allies to do more in response to Vladimir Putin’s a"
+},
+{
+"url": "https://unmannedairspace.info/latest-news-and-information/uk-to-supply-ukraine-with-more-than-1000-air-defence-missiles-to-counter-russian-drones",
+"published_at": "2026-11-18T11:18:32Z",
+"quote": "UK Defence Secretary Wes Streeting announced the package while co-chairing the 37th meeting of the Ukraine Defence Contact Group at NATO headquarters in Brussels."
+},
+{
+"url": "https://dronexl.co/2026/11/12/uforce-700-million-6-billion-uk-us-government-funds",
+"published_at": "2026-11-13T03:09:00Z",
+"quote": "The same day, UK Defence Secretary Wes Streeting piloted a UFORCE <strong>MV7</strong> from the aircraft carrier HMS Prince of Wales in Oslo while the boat sailed more than 1,500 miles (2,400 kilometers) away, near Portugal."
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_ed70178a7bef62e3",
 "from": "ent_f2dcf230404a0bff",
 "to": "ent_76aae9f116d88191",
@@ -2670,6 +2710,41 @@
 }
 },
 {
+"id": "rel_1c93e1197d8901e4",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_43252652072753d2",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 4,
+"evidence": [
+{
+"url": "https://pravda.com.ua/eng/news/2026/11/23/8064278",
+"published_at": "2026-11-23T17:10:00Z",
+"quote": "NATO airborne early warning aircraft have been deployed to help protect Polish airspace following an incident involving Russian Kh-101 missiles."
+},
+{
+"url": "https://vpk.name/news/1172945_polsha_ochen_hochet_poluchit_pravo_primenyat_yadernye_bomby_v_sluchae_voiny.html",
+"published_at": "2026-11-18T21:00:01Z",
+"quote": "Польша намерена получить доступ к ядерным миссиям НАТО, не размещая ядерного оружия на своей территории."
+},
+{
+"url": "https://c4isrnet.com/unmanned/2026/10/30/open-the-hives-why-france-is-turning-tank-gunners-into-fpv-pilots",
+"published_at": "2026-10-30T17:57:49Z",
+"quote": "France deployed a drone-combat unit to Romania for the first time in recent weeks as part of Mission Aigle, the French-led mission to strengthen NATO’s eastern flank, and will deploy a second unit to Poland for an exercise next month, de Mo"
+},
+{
+"url": "https://defensenews.com/global/europe/2026/10/30/open-the-hives-why-france-is-turning-tank-gunners-into-fpv-pilots",
+"published_at": "2026-10-30T17:57:48Z",
+"quote": "France deployed a drone-combat unit to Romania for the first time in recent weeks as part of Mission Aigle, the French-led mission to strengthen NATO’s eastern flank, and will deploy a second unit to Poland for an exercise next month, de Mo"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_b7f2148d65f69bbb",
 "from": "ent_fa323d4f8a738909",
 "to": "ent_b677547c4bb180c5",
@@ -2805,41 +2880,6 @@
 ],
 "sentiment": {
 "score_pm1": 0.1,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
-"id": "rel_8f7b49f450779540",
-"from": "ent_d2e22355d8368901",
-"to": "ent_fb9d115f2c2a9a7b",
-"type": "должность",
-"event_date": null,
-"evidence_count": 4,
-"evidence": [
-{
-"url": "https://defence-industry.eu/uk-ministry-of-defence-says-ukrainian-designed-strike-drones-will-be-manufactured-in-britain-under-new-agreements",
-"published_at": "2026-11-22T11:12:32Z",
-"quote": "UK Defence Secretary Wes Streeting and Ukrainian Defence Minister Evgeniy Khmara signed the agreements during Streeting’s visit to Kyiv."
-},
-{
-"url": "https://inews.co.uk/news/russian-cargo-ship-fire-baltic-sea-finland-4921835",
-"published_at": "2026-11-21T14:20:20Z",
-"quote": "addToArray( { \"pos\": \"mpu_tablet_l3\" } ); } Ukraine’s allies need to more to stop ‘cold-blooded killer’ Putin During a visit to Kyiv, UK Defence Secretary Wes Streeting called on Ukraine’s allies to do more in response to Vladimir Putin’s a"
-},
-{
-"url": "https://unmannedairspace.info/latest-news-and-information/uk-to-supply-ukraine-with-more-than-1000-air-defence-missiles-to-counter-russian-drones",
-"published_at": "2026-11-18T11:18:32Z",
-"quote": "UK Defence Secretary Wes Streeting announced the package while co-chairing the 37th meeting of the Ukraine Defence Contact Group at NATO headquarters in Brussels."
-},
-{
-"url": "https://dronexl.co/2026/11/12/uforce-700-million-6-billion-uk-us-government-funds",
-"published_at": "2026-11-13T03:09:00Z",
-"quote": "The same day, UK Defence Secretary Wes Streeting piloted a UFORCE <strong>MV7</strong> from the aircraft carrier HMS Prince of Wales in Oslo while the boat sailed more than 1,500 miles (2,400 kilometers) away, near Portugal."
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
 }
@@ -3517,36 +3557,6 @@
 "score_pm1": -0.2,
 "score_pm2": -1,
 "label": "умеренно негативный"
-}
-},
-{
-"id": "rel_1c93e1197d8901e4",
-"from": "ent_cd3c86a3a1af0b40",
-"to": "ent_43252652072753d2",
-"type": "дислокация",
-"event_date": null,
-"evidence_count": 3,
-"evidence": [
-{
-"url": "https://vpk.name/news/1172945_polsha_ochen_hochet_poluchit_pravo_primenyat_yadernye_bomby_v_sluchae_voiny.html",
-"published_at": "2026-11-18T21:00:01Z",
-"quote": "Польша намерена получить доступ к ядерным миссиям НАТО, не размещая ядерного оружия на своей территории."
-},
-{
-"url": "https://c4isrnet.com/unmanned/2026/10/30/open-the-hives-why-france-is-turning-tank-gunners-into-fpv-pilots",
-"published_at": "2026-10-30T17:57:49Z",
-"quote": "France deployed a drone-combat unit to Romania for the first time in recent weeks as part of Mission Aigle, the French-led mission to strengthen NATO’s eastern flank, and will deploy a second unit to Poland for an exercise next month, de Mo"
-},
-{
-"url": "https://defensenews.com/global/europe/2026/10/30/open-the-hives-why-france-is-turning-tank-gunners-into-fpv-pilots",
-"published_at": "2026-10-30T17:57:48Z",
-"quote": "France deployed a drone-combat unit to Romania for the first time in recent weeks as part of Mission Aigle, the French-led mission to strengthen NATO’s eastern flank, and will deploy a second unit to Poland for an exercise next month, de Mo"
-}
-],
-"sentiment": {
-"score_pm1": 0.0,
-"score_pm2": 0,
-"label": "нейтральный"
 }
 },
 {
@@ -4270,6 +4280,36 @@
 }
 },
 {
+"id": "rel_6197333c7f4159f6",
+"from": "ent_cd3c86a3a1af0b40",
+"to": "ent_28fea1c77915c37a",
+"type": "дислокация",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://pravda.com.ua/eng/news/2026/11/23/8064278",
+"published_at": "2026-11-23T17:10:00Z",
+"quote": "NATO airborne early warning aircraft have been deployed to help protect Polish airspace following an incident involving Russian Kh-101 missiles."
+},
+{
+"url": "https://theaviationist.com/2026/11/22/belgian-f16s-baltic-rockets",
+"published_at": "2026-11-22T03:36:25Z",
+"quote": "Russia’s extensive use of attack drones like the Geran-2 (also known as the Shahed 136) against Ukraine, as well as its accused use of a number of types of drones to harass NATO member states , means that NATO aircraft deployed on to the Ba"
+},
+{
+"url": "https://t.me/uav_tech/35485",
+"published_at": "2026-03-10T20:35:32Z",
+"quote": "Размещение радара раннего предупреждения в Катаре, позволяло наблюдать за всей европейской частью и югом России, обеспечивая дополнительные 2-3 минуты для оповещения европейских союзников о запуске российских баллистических ракет по командн"
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный"
+}
+},
+{
 "id": "rel_67cc8a381cd544e4",
 "from": "ent_276f84cd7d3f6204",
 "to": "ent_88b9583e076cfd82",
@@ -4411,6 +4451,36 @@
 "url": "https://defence-blog.com/sweden-and-uk-team-up-to-arm-ukrianian-gripen-jets",
 "published_at": "2026-11-17T15:44:13Z",
 "quote": "Swedish Defense Minister Pål Jonson, British Defence Secretary Wes Streeting and Ukrainian Defense Minister Yevhenii Khmara signed a letter of […"
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_20a7bbcb945b055a",
+"from": "ent_ed88ced226e6c399",
+"to": "ent_bd84f4b50b17b685",
+"type": "применение",
+"event_date": null,
+"evidence_count": 3,
+"evidence": [
+{
+"url": "https://belvpo.com/rossijskij-voennyj-sbil-dron-vsu-kaskoj-pri-osvobozhdenii-shilovki-v-dnr",
+"published_at": "2026-11-24T05:30:16Z",
+"quote": "ru Чтобы оперативно получать информацию, подписывайтесь на наш телеграм БелВПО Сообщение Российский военный сбил дрон ВСУ каской при освобождении Шиловки в ДНР появились сначала на БЕЛОРУССКОЕ ВОЕННО-ПОЛИТИЧЕСКОЕ ОБОЗРЕНИЕ ."
+},
+{
+"url": "https://belvpo.com/voennye-severa-unichtozhayut-drony-vsu-v-sumskoj-oblasti",
+"published_at": "2026-11-24T02:49:42Z",
+"quote": "ru Чтобы оперативно получать информацию, подписывайтесь на наш телеграм БелВПО Сообщение Военные «Севера» уничтожают дроны ВСУ в Сумской области появились сначала на БЕЛОРУССКОЕ ВОЕННО-ПОЛИТИЧЕСКОЕ ОБОЗРЕНИЕ ."
+},
+{
+"url": "https://belvpo.com/v-pentagone-vyskazalis-ob-udarah-vsu-vglub-rossii",
+"published_at": "2026-11-17T18:37:10Z",
+"quote": "ru Чтобы оперативно получать информацию, подписывайтесь на наш телеграм БелВПО Сообщение В Пентагоне высказались об ударах ВСУ вглубь России появились сначала на БЕЛОРУССКОЕ ВОЕННО-ПОЛИТИЧЕСКОЕ ОБОЗРЕНИЕ ."
 }
 ],
 "sentiment": {
@@ -6765,31 +6835,6 @@
 }
 },
 {
-"id": "rel_6197333c7f4159f6",
-"from": "ent_cd3c86a3a1af0b40",
-"to": "ent_28fea1c77915c37a",
-"type": "дислокация",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://theaviationist.com/2026/11/22/belgian-f16s-baltic-rockets",
-"published_at": "2026-11-22T03:36:25Z",
-"quote": "Russia’s extensive use of attack drones like the Geran-2 (also known as the Shahed 136) against Ukraine, as well as its accused use of a number of types of drones to harass NATO member states , means that NATO aircraft deployed on to the Ba"
-},
-{
-"url": "https://t.me/uav_tech/35485",
-"published_at": "2026-03-10T20:35:32Z",
-"quote": "Размещение радара раннего предупреждения в Катаре, позволяло наблюдать за всей европейской частью и югом России, обеспечивая дополнительные 2-3 минуты для оповещения европейских союзников о запуске российских баллистических ракет по командн"
-}
-],
-"sentiment": {
-"score_pm1": -0.1,
-"score_pm2": 0,
-"label": "нейтральный"
-}
-},
-{
 "id": "rel_3140d9d5f102c541",
 "from": "ent_4ad1ffa14b3997a7",
 "to": "ent_422593a4ae9bc429",
@@ -7762,31 +7807,6 @@
 "score_pm1": 0.0,
 "score_pm2": 0,
 "label": "нейтральный"
-}
-},
-{
-"id": "rel_20a7bbcb945b055a",
-"from": "ent_ed88ced226e6c399",
-"to": "ent_bd84f4b50b17b685",
-"type": "применение",
-"event_date": null,
-"evidence_count": 2,
-"evidence": [
-{
-"url": "https://belvpo.com/voennye-severa-unichtozhayut-drony-vsu-v-sumskoj-oblasti",
-"published_at": "2026-11-24T02:49:42Z",
-"quote": "ru Чтобы оперативно получать информацию, подписывайтесь на наш телеграм БелВПО Сообщение Военные «Севера» уничтожают дроны ВСУ в Сумской области появились сначала на БЕЛОРУССКОЕ ВОЕННО-ПОЛИТИЧЕСКОЕ ОБОЗРЕНИЕ ."
-},
-{
-"url": "https://belvpo.com/v-pentagone-vyskazalis-ob-udarah-vsu-vglub-rossii",
-"published_at": "2026-11-17T18:37:10Z",
-"quote": "ru Чтобы оперативно получать информацию, подписывайтесь на наш телеграм БелВПО Сообщение В Пентагоне высказались об ударах ВСУ вглубь России появились сначала на БЕЛОРУССКОЕ ВОЕННО-ПОЛИТИЧЕСКОЕ ОБОЗРЕНИЕ ."
-}
-],
-"sentiment": {
-"score_pm1": -0.3,
-"score_pm2": -1,
-"label": "умеренно негативный"
 }
 },
 {
@@ -34755,6 +34775,26 @@
 ],
 "sentiment": {
 "score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный"
+}
+},
+{
+"id": "rel_e345dbbb5a276d69",
+"from": "ent_8ee0f29003b59043",
+"to": "ent_c32678e4a0ae4599",
+"type": "применение",
+"event_date": null,
+"evidence_count": 1,
+"evidence": [
+{
+"url": "https://kyivindependent.com/exclusive-freshly-made-european-american-components-found-in-russian-drones-attacking-ukraine",
+"published_at": "2026-11-24T05:00:31Z",
+"quote": "In mid-August, a Russian Geran-4 jet-powered attack drone was shot down over Kyiv Oblast."
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
 "score_pm2": -1,
 "label": "умеренно негативный"
 }

@@ -2,12 +2,12 @@
 "meta": {
 "version": "t171u-graph-1",
 "links_version": "t167u-links-2",
-"oi_as_of": "2026-11-24T07:00:25+03:00",
-"built_at": "2026-11-24T07:14:14+03:00",
+"oi_as_of": "2026-11-24T09:59:53+03:00",
+"built_at": "2026-11-24T10:39:48+03:00",
 "copyright": "© 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR",
 "rule": "t167u: связь только при реальной связи (основание с URL); совместные упоминания не включены",
 "counts": {
-"nodes": 2307,
+"nodes": 2308,
 "edges": 2199,
 "persons": 93,
 "darpa_programs": 779
@@ -992,7 +992,7 @@
 "kind": "company",
 "country": "Эстония",
 "src": "реестр",
-"n": 24,
+"n": 25,
 "url": "https://www.threod.com/",
 "role": "беспилотные авиационные системы, оптико-электронные системы и пусковые установки (по сайту компании)",
 "reg": true,
@@ -1208,7 +1208,7 @@
 "kind": "company",
 "country": "Германия",
 "src": "реестр",
-"n": 155,
+"n": 156,
 "url": "https://quantum-systems.com/",
 "role": "разведывательные БЛА (Vector)",
 "reg": true,
@@ -1496,7 +1496,7 @@
 "kind": "company",
 "country": "Турция",
 "src": "реестр",
-"n": 27,
+"n": 28,
 "url": "https://www.stm.com.tr/en",
 "role": "барражирующие боеприпасы и ударные БЛА (Kargu, Alpagu)",
 "reg": true,
@@ -1676,7 +1676,7 @@
 "kind": "company",
 "country": "Беларусь",
 "src": "реестр",
-"n": 4,
+"n": 5,
 "url": "",
 "role": "",
 "reg": false,
@@ -7023,6 +7023,18 @@
 "deg": 0
 },
 {
+"id": "c:ent_494f8c3416b4d7f1",
+"label": "Polish Defence",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 0
+},
+{
 "id": "c:ent_90666665f26639b8",
 "label": "Polish Defense",
 "kind": "company",
@@ -7172,7 +7184,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 4,
+"n": 5,
 "url": "",
 "role": "",
 "reg": false,
@@ -7880,7 +7892,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 65,
+"n": 66,
 "url": "",
 "role": "",
 "reg": false,
@@ -8468,7 +8480,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 41,
+"n": 42,
 "url": "",
 "role": "",
 "reg": false,
@@ -10844,7 +10856,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 206,
+"n": 208,
 "url": "",
 "role": "",
 "reg": false,
@@ -10856,7 +10868,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 847,
+"n": 878,
 "url": "",
 "role": "",
 "reg": false,
@@ -10868,7 +10880,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 27,
+"n": 29,
 "url": "",
 "role": "",
 "reg": false,
@@ -10916,7 +10928,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 214,
+"n": 219,
 "url": "",
 "role": "",
 "reg": false,
@@ -10928,7 +10940,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 68,
+"n": 70,
 "url": "",
 "role": "",
 "reg": false,
@@ -10940,7 +10952,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 552,
+"n": 559,
 "url": "",
 "role": "",
 "reg": false,
@@ -10964,7 +10976,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 225,
+"n": 226,
 "url": "",
 "role": "",
 "reg": false,
@@ -13100,7 +13112,7 @@
 "kind": "company",
 "country": "Германия",
 "src": "реестр",
-"n": 13,
+"n": 14,
 "url": "https://www.tytan-technologies.com/",
 "role": "ПВО: дроны-перехватчики (Hyperion)",
 "reg": true,
@@ -27367,7 +27379,7 @@
 "kind": "person",
 "country": "",
 "src": "контур (персона)",
-"n": 19,
+"n": 20,
 "url": "",
 "role": "",
 "reg": false,
@@ -27427,7 +27439,7 @@
 "kind": "person",
 "country": "",
 "src": "контур (персона)",
-"n": 20,
+"n": 21,
 "url": "",
 "role": "",
 "reg": false,
@@ -27535,7 +27547,7 @@
 "kind": "person",
 "country": "",
 "src": "контур (персона)",
-"n": 29,
+"n": 30,
 "url": "",
 "role": "",
 "reg": false,
@@ -29642,7 +29654,7 @@
 ]
 },
 {
-"id": "ctr:51",
+"id": "ctr:52",
 "s": "by-volatavto",
 "t": "c:ent_860f7b8707ef4321",
 "type": "поставка",
@@ -29682,7 +29694,7 @@
 ]
 },
 {
-"id": "ctr:53",
+"id": "ctr:54",
 "s": "nspa",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "контракт",
@@ -29717,7 +29729,7 @@
 ]
 },
 {
-"id": "ctr:74",
+"id": "ctr:75",
 "s": "c:ent_ed88ced226e6c399",
 "t": "c:ent_e66a2be7fe38d473",
 "type": "поставка",
@@ -29747,7 +29759,7 @@
 ]
 },
 {
-"id": "ctr:115",
+"id": "ctr:117",
 "s": "lockheed",
 "t": "c:ent_801f9ef8848ff36b",
 "type": "контракт",
@@ -29772,7 +29784,7 @@
 ]
 },
 {
-"id": "ctr:118",
+"id": "ctr:120",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_c4d02534cbe847ba",
 "type": "контракт",
@@ -29797,7 +29809,7 @@
 ]
 },
 {
-"id": "ctr:125",
+"id": "ctr:127",
 "s": "elbit",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "контракт",
@@ -29822,7 +29834,7 @@
 ]
 },
 {
-"id": "ctr:133",
+"id": "ctr:135",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_c4d02534cbe847ba",
 "type": "опровержение",
@@ -29847,7 +29859,7 @@
 ]
 },
 {
-"id": "ctr:135",
+"id": "ctr:137",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_470885ea93d65177",
 "type": "контракт",
@@ -29872,7 +29884,7 @@
 ]
 },
 {
-"id": "ctr:143",
+"id": "ctr:145",
 "s": "rheinmetall",
 "t": "c:ent_7af60e51312772aa",
 "type": "поставка",
@@ -29897,7 +29909,7 @@
 ]
 },
 {
-"id": "ctr:145",
+"id": "ctr:147",
 "s": "aerovironment",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "контракт",
@@ -29922,7 +29934,7 @@
 ]
 },
 {
-"id": "ctr:156",
+"id": "ctr:158",
 "s": "dji",
 "t": "autel",
 "type": "подтверждение",
@@ -29947,7 +29959,7 @@
 ]
 },
 {
-"id": "ctr:170",
+"id": "ctr:171",
 "s": "helsing",
 "t": "c:ent_7af60e51312772aa",
 "type": "поставка",
@@ -29972,7 +29984,7 @@
 ]
 },
 {
-"id": "ctr:175",
+"id": "ctr:176",
 "s": "c:ent_858ba2a76617df8c",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "участие в программе",
@@ -52834,6 +52846,46 @@
 ]
 },
 {
+"id": "per:rel_8f7b49f450779540",
+"s": "person:ent_d2e22355d8368901",
+"t": "c:ent_fb9d115f2c2a9a7b",
+"type": "должность",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://pravda.com.ua/eng/news/2026/11/23/8064270",
+"date": "",
+"n": 5,
+"s2": 0,
+"s1": 0.0,
+"ev": [
+[
+"https://pravda.com.ua/eng/news/2026/11/23/8064270",
+"2026-11-23 16:34",
+"UK Defence Secretary Wes Streeting has said that disruptions to the Starlink and Starshield satellite systems in Ukraine require a clear explanation, as they have seriously undermined the trust of allies."
+],
+[
+"https://defence-industry.eu/uk-ministry-of-defence-says-ukrainian-designed-strike-drones-will-be-manufactured-in-britain-under-new-agreements",
+"2026-11-22 11:12",
+"UK Defence Secretary Wes Streeting and Ukrainian Defence Minister Evgeniy Khmara signed the agreements during Streeting’s visit to Kyiv."
+],
+[
+"https://inews.co.uk/news/russian-cargo-ship-fire-baltic-sea-finland-4921835",
+"2026-11-21 14:20",
+"addToArray( { \"pos\": \"mpu_tablet_l3\" } ); } Ukraine’s allies need to more to stop ‘cold-blooded killer’ Putin During a visit to Kyiv, UK Defence Secretary Wes Streeting called on Ukraine’s allies to do more in response to Vladimir Putin’s a"
+],
+[
+"https://unmannedairspace.info/latest-news-and-information/uk-to-supply-ukraine-with-more-than-1000-air-defence-missiles-to-counter-russian-drones",
+"2026-11-18 11:18",
+"UK Defence Secretary Wes Streeting announced the package while co-chairing the 37th meeting of the Ukraine Defence Contact Group at NATO headquarters in Brussels."
+],
+[
+"https://dronexl.co/2026/11/12/uforce-700-million-6-billion-uk-us-government-funds",
+"2026-11-13 03:09",
+"The same day, UK Defence Secretary Wes Streeting piloted a UFORCE <strong>MV7</strong> from the aircraft carrier HMS Prince of Wales in Oslo while the boat sailed more than 1,500 miles (2,400 kilometers) away, near Portugal."
+]
+]
+},
+{
 "id": "per:rel_78016c356543d94a",
 "s": "person:ent_3d66be6936f89f7f",
 "t": "skydio",
@@ -52900,41 +52952,6 @@
 "https://defensenews.com/global/europe/2026/10/30/from-tanks-to-space-norway-and-germany-forge-ahead-with-hansa-defense-pact",
 "2026-10-30 15:58",
 "German Defense Minister Boris Pistorius said the aircraft would operate from Norwegian and Icelandic air bases for this mission, Defense News previously reported ."
-]
-]
-},
-{
-"id": "per:rel_8f7b49f450779540",
-"s": "person:ent_d2e22355d8368901",
-"t": "c:ent_fb9d115f2c2a9a7b",
-"type": "должность",
-"g": "контур",
-"basis": "цитаты из материалов (контур)",
-"url": "https://defence-industry.eu/uk-ministry-of-defence-says-ukrainian-designed-strike-drones-will-be-manufactured-in-britain-under-new-agreements",
-"date": "",
-"n": 4,
-"s2": 0,
-"s1": 0.0,
-"ev": [
-[
-"https://defence-industry.eu/uk-ministry-of-defence-says-ukrainian-designed-strike-drones-will-be-manufactured-in-britain-under-new-agreements",
-"2026-11-22 11:12",
-"UK Defence Secretary Wes Streeting and Ukrainian Defence Minister Evgeniy Khmara signed the agreements during Streeting’s visit to Kyiv."
-],
-[
-"https://inews.co.uk/news/russian-cargo-ship-fire-baltic-sea-finland-4921835",
-"2026-11-21 14:20",
-"addToArray( { \"pos\": \"mpu_tablet_l3\" } ); } Ukraine’s allies need to more to stop ‘cold-blooded killer’ Putin During a visit to Kyiv, UK Defence Secretary Wes Streeting called on Ukraine’s allies to do more in response to Vladimir Putin’s a"
-],
-[
-"https://unmannedairspace.info/latest-news-and-information/uk-to-supply-ukraine-with-more-than-1000-air-defence-missiles-to-counter-russian-drones",
-"2026-11-18 11:18",
-"UK Defence Secretary Wes Streeting announced the package while co-chairing the 37th meeting of the Ukraine Defence Contact Group at NATO headquarters in Brussels."
-],
-[
-"https://dronexl.co/2026/11/12/uforce-700-million-6-billion-uk-us-government-funds",
-"2026-11-13 03:09",
-"The same day, UK Defence Secretary Wes Streeting piloted a UFORCE <strong>MV7</strong> from the aircraft carrier HMS Prince of Wales in Oslo while the boat sailed more than 1,500 miles (2,400 kilometers) away, near Portugal."
 ]
 ]
 },
