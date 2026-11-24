@@ -34,7 +34,7 @@ START = "2026-01-01"
 MSK = timezone(timedelta(hours=3))  # Europe/Minsk, без перехода на летнее время
 LIFT_TYPES = {"тот_же_факт", "подтверждение", "ссылка"}
 CLUSTER_TYPES = LIFT_TYPES | {"перепечатка"}
-TOPIC = {"drones": "Дроны", "countermeasures": "Противодействие", "navigation": "Навигация"}
+TOPIC = {"drones": "Дроны", "detection": "Обнаружение", "countermeasures": "Противодействие", "navigation": "Навигация"}
 CATEGORY = {"military": "военные", "FPV": "FPV", "commercial": "коммерческие", "industrial": "промышленные"}
 VEHICLE = {"air": "воздух", "ground": "земля", "water": "вода"}
 

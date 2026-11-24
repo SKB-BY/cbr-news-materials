@@ -110,6 +110,12 @@
   .ecard h3 { margin:0 0 2px; font-size:14px; } .ecard .rel { border-top:1px solid var(--line); padding:4px 0; }
   .ecard .q { color:var(--muted); font-size:11.5px; }
   .legend-s { font-size:11px; color:var(--muted); margin:2px 0 6px; }
+  /* t197u: счётчик найденного и полный сброс фильтров */
+  .nm-found { display:flex; align-items:center; gap:8px; flex-wrap:wrap; font-size:12px; color:var(--muted); margin:6px 0 2px; }
+  .nm-found b { color:var(--text); font-family:var(--mono); }
+  .nm-found.empty #nmfound-t { color:var(--warn); }
+  #nmreset { font:600 10.5px/20px var(--mono); text-transform:uppercase; letter-spacing:.06em; padding:0 8px; background:var(--panel-2); color:var(--text); border:1px solid var(--line-2); border-radius:2px; cursor:pointer; }
+  #nmreset:hover { border-color:var(--accent); }
   .ent-pt { width:12px; height:12px; background:var(--accent); border:2px solid #fff; transform:rotate(45deg); box-shadow:0 0 8px var(--accent); }
 </style>
 </head>
@@ -119,7 +125,8 @@
   <nav class="cbr-nav">
     <a href="../%D0%90%D0%9A%D0%A2%D0%A3%D0%90%D0%9B%D0%AC%D0%9D%D0%AB%D0%99_%D0%9E%D0%A2%D0%A7%D0%81%D0%A2.html">Актуальный отчёт</a>
     <a href="../iid/">ИИД-100</a>
-    <a class="on" href="./">Новостная карта</a>
+    <a href="../iid/timeline/">Таймлайн сюжетов</a>
+    <a class="on" href="../news-map/">Новостная карта</a>
     <a href="../map/">Карта реестра</a>
     <a href="../graph/">Граф связей</a>
     <a href="../companies.csv">Реестр сил и компаний</a>
@@ -138,6 +145,7 @@
       <div id="hint" class="hint">Наведите на область — если есть сведения, они появятся списком</div>
       <div class="legend-s">Окрас: <span class="s-chip" style="background:var(--s-m2)">−2</span> резко негативный <span class="s-chip" style="background:var(--s-m1)">−1</span> умеренно негативный <span class="s-chip" style="background:var(--s-0)">0</span> нейтральный <span class="s-chip" style="background:var(--s-p1)">+1</span> умеренно позитивный <span class="s-chip" style="background:var(--s-p2)">+2</span> резко позитивный</div>
       <input type="search" id="q" placeholder="Поиск по заголовку или источнику…">
+      <div class="nm-found" id="nmfound"><span id="nmfound-t">—</span> <button type="button" id="nmreset" title="Снять все фильтры, поиск, выбор места и сущности">Сбросить всё</button></div>
       <details id="flt"><summary>Фильтры: сфера, сущность, связь, окрас, субъективность, маркеры рисков, ОИ 5×5, период, категория, раздел, места</summary>
       <h2>Сфера и подфильтр</h2>
       <div class="sph-l" id="sphf"></div>
@@ -252,7 +260,10 @@ d2.onchange=()=>{ st.d2=d2.value||maxD; pr.querySelectorAll("button").forEach(x=
 const sb=document.getElementById("stat");
 ["новость","утверждение","слух"].forEach(k=>{ const l=document.createElement("label"); l.className="row"; l.style.margin="0 6px 0 0";
   l.innerHTML=`<input type="checkbox" checked> ${k}`; l.firstChild.onchange=e=>{ st.stat[k]=e.target.checked; update(); }; sb.appendChild(l); });
-function fillSel(id, key, label){ const s=document.getElementById(id); const vals=[...new Set(stories.map(x=>x.head[key]).filter(Boolean))].sort();
+const TOPIC_ORDER=["Дроны","Обнаружение","Противодействие","Навигация"];
+function fillSel(id, key, label){ const s=document.getElementById(id); let vals=[...new Set(stories.map(x=>x.head[key]).filter(Boolean))];
+  if(id==="topic"){ const pref=TOPIC_ORDER.filter(v=>vals.includes(v)); const rest=vals.filter(v=>!TOPIC_ORDER.includes(v)).sort(); vals=pref.concat(rest); }
+  else vals.sort();
   s.innerHTML=`<option value="">${label}: все</option>`+vals.map(v=>`<option>${esc(v)}</option>`).join(""); s.onchange=()=>{ st[key]=s.value; update(); }; }
 fillSel("topic","topic","тема"); fillSel("cat","cat","категория"); fillSel("sec","sec","раздел");
 document.getElementById("onlylift").onchange=e=>{ st.onlylift=e.target.checked; update(); };
@@ -329,6 +340,30 @@ function visible(s){ const x=s.head;
   if(st.q.length>1 && !s.txt.includes(st.q)) return false;
   return contourOk(s); }
 
+// t197u: «Найдено: X сведений в Y областях (из Z)» и «Сбросить всё»
+function nmFound(){ const box=document.getElementById("nmfound"); if(!box) return;
+  const nI=vis.reduce((a,s)=>a+s.items.length,0), nP=Object.keys(per).length;
+  box.classList.toggle("empty", !vis.length);
+  document.getElementById("nmfound-t").innerHTML = vis.length
+    ? `Найдено: <b>${vis.length}</b> сведений (материалов <b>${nI}</b>) в <b>${nP}</b> областях — из ${stories.length} сведений`
+    : `Найдено: <b>0</b> из ${stories.length} сведений — фильтры исключают всё; нажмите «Сбросить всё»`; }
+function resetAll(){
+  st.sph.clear(); sphf.querySelectorAll("input").forEach(i=>i.checked=false);
+  st.etype=""; et.value=""; eqv=""; document.getElementById("eq").value=""; st.ent=null; if(entLayer){ map.removeLayer(entLayer); entLayer=null; } entList();
+  st.rtype=""; rt.value=""; st.rmin=1; document.getElementById("rmin").value="1";
+  Object.keys(st.sent).forEach(k=>st.sent[k]=true); sentf.querySelectorAll(".s").forEach(x=>x.classList.remove("off"));
+  st.subj=""; document.getElementById("subj").value="";
+  st.risk.clear(); rf.querySelectorAll("input").forEach(i=>i.checked=false);
+  st.q=""; document.getElementById("q").value="";
+  st.d1=minD; st.d2=maxD; d1.value=minD; d2.value=maxD; pr.querySelectorAll("button").forEach((x,k)=>x.className=k===3?"on":"");
+  Object.keys(st.stat).forEach(k=>st.stat[k]=true); sb.querySelectorAll("input").forEach(i=>i.checked=true);
+  ["topic","cat","sec"].forEach(k=>{ st[k]=""; document.getElementById(k).value=""; });
+  st.onlylift=false; st.onlycur=false; document.getElementById("onlylift").checked=false; document.getElementById("onlycur").checked=false;
+  Object.keys(st.codes).forEach(c=>st.codes[c]=true); mx.querySelectorAll("td.c").forEach(td=>td.classList.remove("off"));
+  st.paint="cur"; document.getElementById("paint").value="cur";
+  st.pin=null; st.place=null; update(); }
+document.getElementById("nmreset").onclick=resetAll;
+
 // карта
 const map=L.map("map",{attributionControl:true, zoomControl:false, worldCopyJump:true, minZoom:2, maxZoom:12});
 L.control.zoom({position:"topleft"}).addTo(map); L.control.scale({position:"bottomleft", imperial:false}).addTo(map);
@@ -364,6 +399,7 @@ function restyle(){
 function update(){
   vis=stories.filter(visible).sort(cmp); per={};
   vis.forEach(s=>s.places.forEach(p=>(per[p]=per[p]||[]).push(s)));
+  nmFound();
   const pl=document.getElementById("places"); pl.innerHTML="";
   document.getElementById("places-h").textContent="Места с сведениями при текущем фильтре (нажмите — список и приближение)";
   layers.filter(a=>per[a.i]).sort((a,b)=>ORDER[a.prec]-ORDER[b.prec]||a.name.localeCompare(b.name,"ru")).forEach(a=>{ const li=document.createElement("li"); const s=pick(per[a.i]);
