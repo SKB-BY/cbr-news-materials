@@ -1,12 +1,12 @@
 # Упомянуто в новостях, но отсутствует в реестре — рабочий список
 
-Построен по живой базе на 25.11.2026 14:17 Europe/Minsk.
+Построен по живой базе на 25.11.2026 20:05 Europe/Minsk.
 
 Рабочий список кандидатов, **не проверенная перепись**. Названия извлечены регулярными выражениями из заголовков и вводных абзацев новостей и сравнены с реестром `companies.csv` (названия, псевдонимы, шаблоны упоминаний). Среди кандидатов есть ложные срабатывания (продукты, ведомства, общие слова). В реестр ничего автоматически не добавляется: строка вносится только после открытия официального сайта и источника.
 
 Российские компании в реестр не вносятся (решение 11.11.2026: «Удали все российские компании»); российские названия в этом списке — только упоминания в ленте, не кандидаты в реестр.
 
-Порог: кандидат встретился минимум в 2 материалах. Кандидатов: 172. Таблица целиком — [mention_gap.csv](mention_gap.csv) (CSV, UTF-8).
+Порог: кандидат встретился минимум в 2 материалах. Кандидатов: 175. Таблица целиком — [mention_gap.csv](mention_gap.csv) (CSV, UTF-8).
 
 Отсеиваются до лимита (t197u): российские организации (ниже отдельной таблицей), мероприятия и форматы (выставки, форумы, контактные группы), общие термины, обрывки заголовков и издания-источники (название совпадает с доменом своих примеров). Близкие написания одной организации склеены, склеенные формы — в колонке «Кандидат» после «=».
 
@@ -91,6 +91,7 @@
 | Israel Weapon Industries | 2 | [🦾 ARBEL — израильская система борьбы с дронами от компании Israel Weapon Industries (IWI)](https://t.me/drone_expert_news/5644); [Israel Weapon Industries & Artillerie Inrichtingen Armaments to cooperate on local manufacturing in the Netherlands](https://edrmagazine.eu/israel-weapon-industries-artillerie-inrichtingen-armaments-to-cooperate-on-local-manufacturing-in-the-netherlands) |
 | Volatus Aerospace | 2 | [Volatus Has A Mirabel Factory. A UK Firm Makes Its First 100 Drones](https://dronexl.co/2026/11/16/volatus-canada-drone-contract-first-100-uk-company); [Volatus Aerospace signs contract for scheduled drone cargo service in North America](https://unmannedairspace.info/uncategorized/volatus-aerospace-signs-contract-for-scheduled-drone-cargo-service-in-north-america) |
 | Baltic Air Defence | 2 | [Italian NATO jet downs drone in Lithuania, minister says it probably came from Russia](https://c4isrnet.com/unmanned/2026/09/15/italian-nato-jet-downs-drone-in-lithuania-minister-says-it-probably-came-from-russia); [Belgian F-16s Are Defending the Baltic With Counter-Drone Guided Rockets](https://theaviationist.com/2026/11/22/belgian-f16s-baltic-rockets) |
+| HII Unmanned Systems = HII Awarded Largest International Unmanned | 2 | [Royal Navy picks HII for mine hunting drone fleet](https://ukdefencejournal.org.uk/royal-navy-picks-hii-for-mine-hunting-drone-fleet); [HII Awarded Largest International Unmanned Systems Contract in Company History by UK Ministry of Defence](https://euro-sd.com/2026/11/news/exclusive-news/54834/hii-remus-620) |
 | LMT Defence | 2 | [LMT Defence and Thales Italia join forces to advance counter-drone technologies](https://suasnews.com/2026/11/lmt-defence-and-thales-italia-join-forces-to-advance-counter-drone-technologies); [LMT Defence, Thales Italia to explore mobile networks for drone detection](https://army-technology.com/news/lmt-defence-thales-italia-drones) |
 | Oshkosh Defense | 2 | [🔥🇨🇳 Китай наносит новый удар по американскому ВПК](https://t.me/uav_tech/36495); [🇺🇸 Беспилотные грузоперевозки. БАС самолетного типа. Модели сотрудничества. США](https://t.me/proUAV/2062) |
 | Persistent Systems | 2 | [📝Спутник в кармане📝](https://t.me/uav_tech/36356); [Connecting the Coalition: Persistent Systems Helps Bring CJADC2 to Life](https://armadainternational.com/2026/11/connecting-the-coalition-persistent-systems-helps-bring-cjadc2-to-life) |
@@ -170,6 +171,7 @@
 | Romanian Defense | 2 | [Three commercial ships struck by drones near Romania's Black Sea coast over two days](https://kyivindependent.com/three-commercial-ships-struck-by-drones-near-romanias-black-sea-coast-over-two-days); [Russia issued flight ban ahead of Romanian F-16 strike on Black Sea drone](https://aerotime.aero/articles/romanian-f16-sea-drone-russian-flight-ban-black-sea) |
 | Ronald Reagan Ballistic Missile Defense | 2 | [Air Force Fires Minuteman III ICBM in Test Launch](https://airandspaceforces.com/air-force-global-strike-test-launch-minuteman-icbm); [America conducts another nuclear missile launch test](https://ukdefencejournal.org.uk/america-conducts-another-nuclear-missile-launch-test) |
 | Rotron Aerospace | 2 | [Одним из вариантов воздействия на аэродромную инфраструктуру РФ на Украине считается зарубежный беспилотник вертикального старта Rotron Defe](https://t.me/uav_tech/36512); [What does the UK’s donation of long-range strike drones do for Ukraine?](https://calibredefence.co.uk/uk-long-range-strike-drones-ukraine-brakestop) |
+| Shadow Flytech LLC | 2 | [Germany Pays €34 Million To Build Ukraine's 6.6-Pound Babka Drone](https://dronexl.co/2026/11/24/germany-34-million-babka-reconnaissance-drone-wingcopter-taf-industries); [Berlin przeznaczy 34 mln euro na produkcję ukraińskich dronów BABKA. Powstaną w Niemczech](https://portalobronny.se.pl/przemysl-zbrojeniowy/berlin-przeznaczy-34-mln-euro-na-produkcje-ukrainskich-dronow-babka-powstana-w-niemczech-aa-yuBd-nVzc-NPTK.html) |
 | SNCF | 2 | [Europe weighs giving utilities, infrastructure companies more powers to bring down drones](https://defensenews.com/global/europe/2026/10/21/europe-weighs-giving-utilities-infrastructure-companies-more-powers-to-bring-down-drones); [Europe weighs giving utilities, infrastructure companies more powers to bring down drones](https://c4isrnet.com/unmanned/2026/10/21/europe-weighs-giving-utilities-infrastructure-companies-more-powers-to-bring-down-drones) |
 | Sustainment LLC | 2 | [🇺🇸🔓США пытаются повысить защиту от дронов сухопутных войск](https://t.me/uav_tech/36874); [🇺🇸🔓США пытаются повысить защиту от дронов сухопутных войск](https://t.me/germesfpv/2945) |
 | Texas Tech | 2 | [U.S. Department of War picks Nokia Federal to test how 5G and 6G can detect and track drones](https://defence-industry.eu/u-s-department-of-war-picks-nokia-federal-to-test-how-5g-and-6g-can-detect-and-track-drones); [Nokia Federal to support US 5G/6G drone detection project](https://unmannedairspace.info/counter-uas-systems-and-policies/nokia-federal-to-support-us-5g-6g-drone-detection-project) |
@@ -183,6 +185,7 @@
 | Wing Aviation | 2 | [Wing Patent Highlights the Role of Packaging in Scaling Drone Delivery](https://dronelife.com/2026/11/23/wing-drone-delivery-patent-packaging-design); [📈 Тренды. Беспилотная доставка](https://t.me/proUAV/2067) |
 | Авиационные технологии и комплексы | 2 | [🚁 В Калужской области построят российско-белорусский завод по производству агродронов](https://t.me/uav_tech/37311); [🇧🇾🇷🇺Белорусы построят в России завод агродронов](https://t.me/Drones_Belarus/297) |
 | Дрон Солюшнс | 2 | [🇷🇺 Сахалинская область. Применение БАС. Медицина. Дрон-доставка. Россия](https://t.me/proUAV/1994); [В Сахалинской области впервые беспилотник выполнил не тестовую, а реальную доставку медицинских грузов.](https://t.me/uav_tech/36735) |
+| Роснефти | 2 | [В России Новошахтинский НПЗ полностью остановил работу после атаки украинских дронов — Delo.ua](https://delo.ua/ru/news/v-rossii-novosaxtinskii-npz-polnostyu-ostanovil-rabotu-posle-ataki-ukrainskix-dronov-476930); [База носителей "Кинжалов" и НПЗ в 10 раз под ударом: в Минобороны подтвердили новую атаку по РФ](https://focus.ua/voennye-novosti/776019-udary-po-npz-rosnefti-i-aerodromu-minoborony-podtverdilo-ataku-na-obekty-rf) |
 | Файер Поинт | 2 | [❗️ Сегодня ночью Вооруженными Силами Российской Федерации нанесен массированный удар высокоточным оружием наземного и воздушного базирования](https://t.me/mod_russia/69077); [❗️ Сегодня ночью Вооруженными Силами Российской Федерации нанесен массированный удар высокоточным оружием наземного, морского и воздушного б](https://t.me/mod_russia/69183) |
 
 ## Российские организации — не кандидаты (26)
@@ -218,7 +221,7 @@
 | Рособоронэкспорт | 2 | [Рособоронэкспорт выводит на мировой рынок новый барражирующий боеприпас большой дальности](https://t.me/uav_tech/36995); [Эфиопия приобрела истребители Су-35 и зенитные ракетные системы С-400](https://bmpd.livejournal.com/5012800.html) |
 | ТЭМЗ | 2 | [Первый серийный беспилотник с отечественным ДВС внесен в реестр Минпромторга](https://t.me/uav_tech/37036); [🦾 «Геоскан 701» с двигателем «Т-40» включён в реестр Минпромторга.](https://t.me/drone_expert_news/5546) |
 
-<details markdown="1"><summary>Отсеяно стоп-листом: 28</summary>
+<details markdown="1"><summary>Отсеяно стоп-листом: 29</summary>
 
 | Название | Причина | Материалов |
 |---|---|---:|
@@ -234,10 +237,11 @@
 | British Army’s AI | обрывок заголовка | 2 |
 | Defence News Turkish Defence | обрывок заголовка | 2 |
 | Finland's Defence | обрывок заголовка | 2 |
+| HII’s Unmanned Systems | обрывок заголовка | 2 |
 | Mexico The Federal Aviation | обрывок заголовка | 2 |
 | News The European Defence | обрывок заголовка | 2 |
 | Nokia’s AI | обрывок заголовка | 2 |
-| Overt Defense | издание-источник | 16 |
+| Overt Defense | издание-источник | 17 |
 | Naval Technology | издание-источник | 2 |
 | Missile Defense | общий термин | 10 |
 | European Union Aviation | общий термин | 8 |
