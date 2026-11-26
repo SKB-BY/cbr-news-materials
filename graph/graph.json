@@ -2,14 +2,14 @@
 "meta": {
 "version": "t171u-graph-1",
 "links_version": "t167u-links-2",
-"oi_as_of": "2026-11-26T09:39:36+03:00",
-"built_at": "2026-11-26T11:11:35+03:00",
+"oi_as_of": "2026-11-26T12:16:08+03:00",
+"built_at": "2026-11-26T12:31:41+03:00",
 "copyright": "© 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR",
 "rule": "t167u: связь только при реальной связи (основание с URL); совместные упоминания не включены",
 "counts": {
-"nodes": 2370,
-"edges": 2246,
-"persons": 107,
+"nodes": 2374,
+"edges": 2251,
+"persons": 108,
 "darpa_programs": 779
 }
 },
@@ -132,7 +132,7 @@
 "url": "https://www.onr.navy.mil/",
 "role": "наука и технологии ВМС и КМП",
 "reg": true,
-"deg": 0
+"deg": 1
 },
 {
 "id": "sco",
@@ -624,7 +624,7 @@
 "url": "https://www.lockheedmartin.com/",
 "role": "прайм: авиация, ПВО/ПРО, C-UAS, космос",
 "reg": true,
-"deg": 48
+"deg": 49
 },
 {
 "id": "mercury",
@@ -696,7 +696,7 @@
 "url": "https://www.rtx.com/",
 "role": "прайм: ПВО, C-UAS (Coyote), сенсоры",
 "reg": true,
-"deg": 32
+"deg": 33
 },
 {
 "id": "redcat",
@@ -756,7 +756,7 @@
 "url": "https://www.flir.com/",
 "role": "тепловизоры, малые БЛА (Black Hornet)",
 "reg": true,
-"deg": 2
+"deg": 3
 },
 {
 "id": "arx",
@@ -840,7 +840,7 @@
 "url": "https://www.exail.com/",
 "role": "инерциальная навигация (FOG), морские дроны",
 "reg": true,
-"deg": 0
+"deg": 1
 },
 {
 "id": "helsing",
@@ -6483,6 +6483,18 @@
 "deg": 0
 },
 {
+"id": "c:ent_712ba4b7b0671ca1",
+"label": "Medium-Range Air Defense",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 0,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 1
+},
+{
 "id": "c:ent_7f61b06b19232817",
 "label": "Memo Made Group",
 "kind": "company",
@@ -6597,6 +6609,18 @@
 "country": "",
 "src": "контур",
 "n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 1
+},
+{
+"id": "c:ent_386741acb9c31483",
+"label": "MRADR Systems",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 0,
 "url": "",
 "role": "",
 "reg": false,
@@ -9051,6 +9075,18 @@
 "deg": 0
 },
 {
+"id": "c:ent_6481fd441dc3fdb8",
+"label": "Unveil Mobile Counter-Drone Defense",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 0,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 0
+},
+{
 "id": "c:ent_55bb52b014563e9a",
 "label": "Unveils Blue Dome Air Defense",
 "kind": "company",
@@ -11340,7 +11376,7 @@
 "url": "",
 "role": "",
 "reg": false,
-"deg": 0
+"deg": 1
 },
 {
 "id": "c:ent_e66a2be7fe38d473",
@@ -12000,7 +12036,7 @@
 "url": "",
 "role": "",
 "reg": false,
-"deg": 0
+"deg": 1
 },
 {
 "id": "c:ent_635b0315be395d30",
@@ -27967,7 +28003,7 @@
 "kind": "person",
 "country": "",
 "src": "контур (персона)",
-"n": 28,
+"n": 30,
 "url": "",
 "role": "",
 "reg": false,
@@ -28171,7 +28207,7 @@
 "kind": "person",
 "country": "",
 "src": "контур (персона)",
-"n": 3,
+"n": 4,
 "url": "",
 "role": "",
 "reg": false,
@@ -29224,6 +29260,18 @@
 {
 "id": "person:ent_02111a6172d413b9",
 "label": "Sabrina Barnes",
+"kind": "person",
+"country": "",
+"src": "контур (персона)",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 1
+},
+{
+"id": "person:ent_33c0e3adf0d86685",
+"label": "Юрий Грехов",
 "kind": "person",
 "country": "",
 "src": "контур (персона)",
@@ -30409,7 +30457,7 @@
 "d1": "2026-11-25"
 },
 {
-"id": "ctr:64",
+"id": "ctr:65",
 "s": "by-volatavto",
 "t": "c:ent_860f7b8707ef4321",
 "type": "поставка",
@@ -30457,7 +30505,7 @@
 "d1": "2026-11-23"
 },
 {
-"id": "ctr:66",
+"id": "ctr:67",
 "s": "nspa",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "контракт",
@@ -30587,7 +30635,7 @@
 "d1": "2026-11-25"
 },
 {
-"id": "ctr:141",
+"id": "ctr:142",
 "s": "lockheed",
 "t": "c:ent_801f9ef8848ff36b",
 "type": "контракт",
@@ -30623,7 +30671,7 @@
 "d1": "2026-11-09"
 },
 {
-"id": "ctr:144",
+"id": "ctr:145",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_c4d02534cbe847ba",
 "type": "контракт",
@@ -30660,7 +30708,7 @@
 "d1": "2026-11-12"
 },
 {
-"id": "ctr:151",
+"id": "ctr:152",
 "s": "elbit",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "контракт",
@@ -30695,7 +30743,7 @@
 "d1": "2026-11-13"
 },
 {
-"id": "ctr:159",
+"id": "ctr:160",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_c4d02534cbe847ba",
 "type": "опровержение",
@@ -30765,7 +30813,7 @@
 "d1": "2026-08-15"
 },
 {
-"id": "ctr:169",
+"id": "ctr:171",
 "s": "aerovironment",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "контракт",
@@ -30800,7 +30848,7 @@
 "d1": "2026-07-31"
 },
 {
-"id": "ctr:176",
+"id": "ctr:178",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_ed88ced226e6c399",
 "type": "поставка",
@@ -30835,7 +30883,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:183",
+"id": "ctr:185",
 "s": "dji",
 "t": "autel",
 "type": "подтверждение",
@@ -30870,7 +30918,7 @@
 "d1": "2026-04-03"
 },
 {
-"id": "ctr:194",
+"id": "ctr:196",
 "s": "helsing",
 "t": "c:ent_7af60e51312772aa",
 "type": "поставка",
@@ -30906,7 +30954,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:196",
+"id": "ctr:198",
 "s": "lockheed",
 "t": "northrop",
 "type": "контракт",
@@ -30941,7 +30989,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:199",
+"id": "ctr:201",
 "s": "c:ent_858ba2a76617df8c",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "участие в программе",
@@ -30975,7 +31023,7 @@
 "d1": "2026-11-17"
 },
 {
-"id": "ctr:227",
+"id": "ctr:229",
 "s": "c:ent_bfe1a5bf0e0a39b9",
 "t": "c:ent_8512fc7d42de40f2",
 "type": "контракт",
@@ -31010,7 +31058,7 @@
 "d1": "2026-11-20"
 },
 {
-"id": "ctr:228",
+"id": "ctr:230",
 "s": "c:ent_bfe1a5bf0e0a39b9",
 "t": "c:ent_28f1954643a07bcb",
 "type": "контракт",
@@ -31045,7 +31093,7 @@
 "d1": "2026-11-20"
 },
 {
-"id": "ctr:229",
+"id": "ctr:231",
 "s": "boeing",
 "t": "c:ent_7902a5283b8ea891",
 "type": "контракт",
@@ -31081,7 +31129,7 @@
 "d1": "2026-11-25"
 },
 {
-"id": "ctr:238",
+"id": "ctr:240",
 "s": "bae",
 "t": "leonardo",
 "type": "контракт",
@@ -31117,7 +31165,7 @@
 "d1": "2026-11-25"
 },
 {
-"id": "ctr:248",
+"id": "ctr:250",
 "s": "shieldai",
 "t": "nspa",
 "type": "контракт",
@@ -31151,7 +31199,7 @@
 "d1": "2026-11-23"
 },
 {
-"id": "ctr:249",
+"id": "ctr:251",
 "s": "shieldai",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "контракт",
@@ -31185,7 +31233,7 @@
 "d1": "2026-11-23"
 },
 {
-"id": "ctr:266",
+"id": "ctr:268",
 "s": "dji",
 "t": "c:ent_7af60e51312772aa",
 "type": "контракт",
@@ -31214,7 +31262,7 @@
 "d1": "2026-11-11"
 },
 {
-"id": "ctr:270",
+"id": "ctr:272",
 "s": "dji",
 "t": "c:ent_9356a3211e4bbc88",
 "type": "контракт",
@@ -31243,7 +31291,7 @@
 "d1": "2026-11-11"
 },
 {
-"id": "ctr:271",
+"id": "ctr:273",
 "s": "c:ent_7af60e51312772aa",
 "t": "c:ent_9356a3211e4bbc88",
 "type": "контракт",
@@ -31272,7 +31320,7 @@
 "d1": "2026-11-11"
 },
 {
-"id": "ctr:280",
+"id": "ctr:282",
 "s": "l3harris",
 "t": "leidos",
 "type": "контракт",
@@ -31302,69 +31350,9 @@
 "d1": "2026-11-11"
 },
 {
-"id": "ctr:281",
-"s": "l3harris",
-"t": "leonardo",
-"type": "контракт",
-"g": "контур",
-"basis": "цитаты из материалов (контур)",
-"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
-"date": "",
-"n": 1,
-"s2": 1,
-"s1": 0.3,
-"ev": [
-[
-"https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
-"2026-11-11 02:43",
-"” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
-]
-],
-"oi": [
-"Д2"
-],
-"sp": [
-"БПЛА",
-"бронетехника"
-],
-"nd": 1,
-"d0": "2026-11-11",
-"d1": "2026-11-11"
-},
-{
-"id": "ctr:282",
-"s": "l3harris",
-"t": "c:ent_d33305be0f474b61",
-"type": "контракт",
-"g": "контур",
-"basis": "цитаты из материалов (контур)",
-"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
-"date": "",
-"n": 1,
-"s2": 1,
-"s1": 0.3,
-"ev": [
-[
-"https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
-"2026-11-11 02:43",
-"” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
-]
-],
-"oi": [
-"Д2"
-],
-"sp": [
-"БПЛА",
-"бронетехника"
-],
-"nd": 1,
-"d0": "2026-11-11",
-"d1": "2026-11-11"
-},
-{
 "id": "ctr:283",
 "s": "l3harris",
-"t": "c:ent_b9f675a508d4b13c",
+"t": "leonardo",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -31393,8 +31381,8 @@
 },
 {
 "id": "ctr:284",
-"s": "leidos",
-"t": "leonardo",
+"s": "l3harris",
+"t": "c:ent_d33305be0f474b61",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -31423,8 +31411,8 @@
 },
 {
 "id": "ctr:285",
-"s": "leidos",
-"t": "c:ent_d33305be0f474b61",
+"s": "l3harris",
+"t": "c:ent_b9f675a508d4b13c",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -31454,7 +31442,7 @@
 {
 "id": "ctr:286",
 "s": "leidos",
-"t": "c:ent_b9f675a508d4b13c",
+"t": "leonardo",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -31483,7 +31471,7 @@
 },
 {
 "id": "ctr:287",
-"s": "leonardo",
+"s": "leidos",
 "t": "c:ent_d33305be0f474b61",
 "type": "контракт",
 "g": "контур",
@@ -31513,7 +31501,7 @@
 },
 {
 "id": "ctr:288",
-"s": "leonardo",
+"s": "leidos",
 "t": "c:ent_b9f675a508d4b13c",
 "type": "контракт",
 "g": "контур",
@@ -31543,6 +31531,66 @@
 },
 {
 "id": "ctr:289",
+"s": "leonardo",
+"t": "c:ent_d33305be0f474b61",
+"type": "контракт",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"date": "",
+"n": 1,
+"s2": 1,
+"s1": 0.3,
+"ev": [
+[
+"https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"2026-11-11 02:43",
+"” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
+]
+],
+"oi": [
+"Д2"
+],
+"sp": [
+"БПЛА",
+"бронетехника"
+],
+"nd": 1,
+"d0": "2026-11-11",
+"d1": "2026-11-11"
+},
+{
+"id": "ctr:290",
+"s": "leonardo",
+"t": "c:ent_b9f675a508d4b13c",
+"type": "контракт",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"date": "",
+"n": 1,
+"s2": 1,
+"s1": 0.3,
+"ev": [
+[
+"https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"2026-11-11 02:43",
+"” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
+]
+],
+"oi": [
+"Д2"
+],
+"sp": [
+"БПЛА",
+"бронетехника"
+],
+"nd": 1,
+"d0": "2026-11-11",
+"d1": "2026-11-11"
+},
+{
+"id": "ctr:291",
 "s": "c:ent_d33305be0f474b61",
 "t": "c:ent_b9f675a508d4b13c",
 "type": "контракт",
@@ -31572,7 +31620,7 @@
 "d1": "2026-11-11"
 },
 {
-"id": "ctr:293",
+"id": "ctr:295",
 "s": "rtx",
 "t": "kongsberg",
 "type": "принадлежность",
@@ -31603,7 +31651,7 @@
 "d1": "2026-11-10"
 },
 {
-"id": "ctr:296",
+"id": "ctr:298",
 "s": "c:ent_cd3c86a3a1af0b40",
 "t": "c:ent_766676b165f94672",
 "type": "принадлежность",
@@ -31632,7 +31680,7 @@
 "d1": "2026-11-10"
 },
 {
-"id": "ctr:299",
+"id": "ctr:301",
 "s": "ga-asi",
 "t": "anduril",
 "type": "контракт",
@@ -31661,7 +31709,7 @@
 "d1": "2026-11-10"
 },
 {
-"id": "ctr:306",
+"id": "ctr:308",
 "s": "c:ent_f7a9f659b73e4140",
 "t": "shahed",
 "type": "санкции",
@@ -31690,7 +31738,7 @@
 "d1": "2026-11-09"
 },
 {
-"id": "ctr:311",
+"id": "ctr:313",
 "s": "c:ent_0c7791d169d924d7",
 "t": "c:ent_ed88ced226e6c399",
 "type": "поставка",
@@ -31720,7 +31768,7 @@
 "d1": "2026-11-06"
 },
 {
-"id": "ctr:328",
+"id": "ctr:330",
 "s": "leonardo",
 "t": "baykar",
 "type": "подтверждение",
@@ -31749,7 +31797,7 @@
 "d1": "2026-10-20"
 },
 {
-"id": "ctr:329",
+"id": "ctr:331",
 "s": "leonardo",
 "t": "c:ent_d9bfb74312e4d072",
 "type": "подтверждение",
@@ -31778,7 +31826,7 @@
 "d1": "2026-10-20"
 },
 {
-"id": "ctr:332",
+"id": "ctr:334",
 "s": "baykar",
 "t": "c:ent_d9bfb74312e4d072",
 "type": "подтверждение",
@@ -31807,7 +31855,7 @@
 "d1": "2026-10-20"
 },
 {
-"id": "ctr:340",
+"id": "ctr:342",
 "s": "rtx",
 "t": "c:ent_fa323d4f8a738909",
 "type": "контракт",
@@ -31836,7 +31884,7 @@
 "d1": "2026-10-14"
 },
 {
-"id": "ctr:347",
+"id": "ctr:349",
 "s": "boeing",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "участие в программе",
@@ -31865,7 +31913,7 @@
 "d1": "2026-10-06"
 },
 {
-"id": "ctr:348",
+"id": "ctr:350",
 "s": "aerovironment",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "участие в программе",
@@ -31894,7 +31942,7 @@
 "d1": "2026-10-06"
 },
 {
-"id": "ctr:349",
+"id": "ctr:351",
 "s": "epirus",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "участие в программе",
@@ -31923,7 +31971,7 @@
 "d1": "2026-10-06"
 },
 {
-"id": "ctr:358",
+"id": "ctr:360",
 "s": "palantir",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -31952,7 +32000,7 @@
 "d1": "2026-09-25"
 },
 {
-"id": "ctr:360",
+"id": "ctr:362",
 "s": "c:ent_89f73c39ec19ab56",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -31981,7 +32029,7 @@
 "d1": "2026-09-25"
 },
 {
-"id": "ctr:384",
+"id": "ctr:386",
 "s": "c:ent_ed78412afb1afa65",
 "t": "c:ent_2a8c6aa1b2cdb6ad",
 "type": "принадлежность",
@@ -32010,7 +32058,7 @@
 "d1": "2026-11-04"
 },
 {
-"id": "ctr:385",
+"id": "ctr:387",
 "s": "c:ent_ed78412afb1afa65",
 "t": "c:ent_4d325a4683a443c7",
 "type": "контракт",
@@ -32039,7 +32087,7 @@
 "d1": "2026-11-04"
 },
 {
-"id": "ctr:391",
+"id": "ctr:393",
 "s": "rtx",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -32068,7 +32116,7 @@
 "d1": "2026-11-10"
 },
 {
-"id": "ctr:392",
+"id": "ctr:394",
 "s": "kongsberg",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -32097,7 +32145,7 @@
 "d1": "2026-11-10"
 },
 {
-"id": "ctr:409",
+"id": "ctr:411",
 "s": "lockheed",
 "t": "c:ent_3a4f8a243d6bec16",
 "type": "контракт",
@@ -32126,7 +32174,7 @@
 "d1": "2026-10-06"
 },
 {
-"id": "ctr:411",
+"id": "ctr:413",
 "s": "boeing",
 "t": "c:ent_c9797c9635450715",
 "type": "контракт",
@@ -32155,7 +32203,7 @@
 "d1": "2026-10-05"
 },
 {
-"id": "ctr:416",
+"id": "ctr:418",
 "s": "lockheed",
 "t": "c:ent_7902a5283b8ea891",
 "type": "контракт",
@@ -32184,7 +32232,7 @@
 "d1": "2026-09-21"
 },
 {
-"id": "ctr:442",
+"id": "ctr:444",
 "s": "northrop",
 "t": "c:ent_7902a5283b8ea891",
 "type": "подтверждение",
@@ -32213,7 +32261,7 @@
 "d1": "2026-11-13"
 },
 {
-"id": "ctr:460",
+"id": "ctr:462",
 "s": "leidos",
 "t": "bae",
 "type": "контракт",
@@ -32242,7 +32290,7 @@
 "d1": "2026-11-14"
 },
 {
-"id": "ctr:483",
+"id": "ctr:485",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "контракт",
@@ -32271,7 +32319,7 @@
 "d1": "2026-11-12"
 },
 {
-"id": "ctr:494",
+"id": "ctr:496",
 "s": "c:ent_ed88ced226e6c399",
 "t": "c:ent_7af60e51312772aa",
 "type": "подтверждение",
@@ -32300,7 +32348,7 @@
 "d1": "2026-09-19"
 },
 {
-"id": "ctr:498",
+"id": "ctr:500",
 "s": "c:ent_cd3c86a3a1af0b40",
 "t": "c:ent_819600c55241241c",
 "type": "принадлежность",
@@ -32330,7 +32378,7 @@
 "d1": "2026-09-15"
 },
 {
-"id": "ctr:502",
+"id": "ctr:504",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_8badfe3d72e8864a",
 "type": "контракт",
@@ -32359,7 +32407,7 @@
 "d1": "2026-09-13"
 },
 {
-"id": "ctr:504",
+"id": "ctr:506",
 "s": "teledyne-flir",
 "t": "c:ent_2abb6a5383b94ad4",
 "type": "принадлежность",
@@ -32388,7 +32436,7 @@
 "d1": "2026-09-12"
 },
 {
-"id": "ctr:510",
+"id": "ctr:512",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_7902a5283b8ea891",
 "type": "контракт",
@@ -32417,7 +32465,7 @@
 "d1": "2026-09-01"
 },
 {
-"id": "ctr:522",
+"id": "ctr:524",
 "s": "brave1",
 "t": "c:ent_03a53622e9dcb143",
 "type": "контракт",
@@ -36135,7 +36183,7 @@
 ]
 ],
 "oi": [
-"Б2"
+"Б1"
 ],
 "sp": [
 "БПЛА"
@@ -36164,7 +36212,7 @@
 ]
 ],
 "oi": [
-"Б2"
+"Б1"
 ],
 "sp": [
 "БПЛА"
@@ -36193,7 +36241,7 @@
 ]
 ],
 "oi": [
-"Б2"
+"Б1"
 ],
 "sp": [
 "БПЛА"
@@ -36452,6 +36500,106 @@
 "nd": 1,
 "d0": "2026-11-25",
 "d1": "2026-11-25"
+},
+{
+"id": "ctr:1245",
+"s": "teledyne-flir",
+"t": "exail",
+"type": "контракт",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://ukdefencejournal.org.uk/royal-navy-mine-hunting-drone-deal-is-hiis-biggest-abroad",
+"date": "",
+"n": 1,
+"s2": 1,
+"s1": 0.5,
+"ev": [
+[
+"https://ukdefencejournal.org.uk/royal-navy-mine-hunting-drone-deal-is-hiis-biggest-abroad",
+"2026-11-26 11:45",
+"TKMS Atlas UK, Teledyne Gavia and Exail Robotics were unsuccessful, and the contract was due to start on 25 November."
+]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2026-11-26",
+"d1": "2026-11-26"
+},
+{
+"id": "ctr:1251",
+"s": "lockheed",
+"t": "rtx",
+"type": "контракт",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://israeldefense.co.il/en/node/73290",
+"date": "",
+"n": 1,
+"s2": 1,
+"s1": 0.5,
+"ev": [
+[
+"https://israeldefense.co.il/en/node/73290",
+"2026-11-26 03:00",
+"Army Contracting Command has launched a formal competition seeking to add a third manufacturer alongside Lockheed Martin and RTX's Raytheon under the Next Generation Short Range Interceptor (NGSRI) program, which is designed to replace the "
+]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2026-11-26",
+"d1": "2026-11-26"
+},
+{
+"id": "ctr:1255",
+"s": "c:ent_386741acb9c31483",
+"t": "c:ent_712ba4b7b0671ca1",
+"type": "контракт",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://israeldefense.co.il/en/node/73258",
+"date": "",
+"n": 1,
+"s2": 1,
+"s1": 0.5,
+"ev": [
+[
+"https://israeldefense.co.il/en/node/73258",
+"2026-11-26 03:00",
+"8M Deal for 14 MRADR Systems The contract brings total orders to 24 of a planned 40 medium-range air defense radar systems designed to protect distributed forces in the Pacific."
+]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2026-11-26",
+"d1": "2026-11-26"
+},
+{
+"id": "ctr:1256",
+"s": "onr",
+"t": "c:ent_fb893484d49eab41",
+"type": "разработка",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://israeldefense.co.il/en/node/73258",
+"date": "",
+"n": 1,
+"s2": 0,
+"s1": 0.0,
+"ev": [
+[
+"https://israeldefense.co.il/en/node/73258",
+"2026-11-26 03:00",
+"The radar originated from the MELPS experimental program developed under the Office of Naval Research's MuDRaCE program, with a prototype previously showcased during Project Convergence 2022 near San Diego."
+]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2026-11-26",
+"d1": "2026-11-26"
 },
 {
 "id": "dprog:arpanet",
@@ -61317,6 +61465,31 @@
 "nd": 1,
 "d0": "2026-11-25",
 "d1": "2026-11-25"
+},
+{
+"id": "per:rel_bc9ccac8eec3f899",
+"s": "person:ent_33c0e3adf0d86685",
+"t": "c:ent_82d695889d3fa2fa",
+"type": "должность",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://t.me/news_UAV/6016",
+"date": "",
+"n": 1,
+"s2": -2,
+"s1": -0.7,
+"ev": [
+[
+"https://t.me/news_UAV/6016",
+"2026-11-26 08:46",
+"‼️В Москве арестован заместитель главкома ВКС Юрий Грехов‼️ Заместитель главнокомандующего Воздушно-космическими силами (ВКС) по вооружению генерал-полковник Юрий Грехов отправлен под арест."
+]
+],
+"oi": [],
+"sp": [],
+"nd": 1,
+"d0": "2026-11-26",
+"d1": "2026-11-26"
 }
 ]
 }
