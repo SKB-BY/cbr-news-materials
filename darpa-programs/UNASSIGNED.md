@@ -2,6 +2,7 @@
 
 Кандидаты на новую программу (правило — `ADD_PROGRAM.md`). Программа не назначается без названия в тексте.
 
+- 2026-11-25 [USAF: Αυτόνομα όπλα αέρος-αέρος για την αντιμετώπιση μαζικών επιθέσεων με drones και πυραύλους cruise](https://flight.com.gr/usaf-autonomous-air-to-air-weapons-to-counter-massive-attacks-by-drones-and-cruise-missiles/?utm_source=rss&utm_medium=rss&utm_campaign=usaf-autonomous-air-to-air-weapons-to-counter-massive-attacks-by-drones-and-cruise-missiles) — live
 - 2026-11-23 [A race for lifesaving battlefield drones / Defense News Weekly Full Episode 11.24.26](https://c4isrnet.com/videos/2026/11/23/a-race-for-lifesaving-battlefield-drones-defense-news-weekly-full-episode-11-24-26) — live
 - 2026-11-23 [A race for lifesaving battlefield drones / Defense News Weekly Full Episode 11.24.26](https://militarytimes.com/video/2026/11/23/a-race-for-lifesaving-battlefield-drones-defense-news-weekly-full-episode-11-24-26) — live
 - 2026-11-23 [A race for lifesaving battlefield drones / Defense News Weekly Full Episode 11.24.26](https://defensenews.com/video/2026/11/23/a-race-for-lifesaving-battlefield-drones-defense-news-weekly-full-episode-11-24-26) — live
