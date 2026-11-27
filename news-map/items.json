@@ -324489,5 +324489,5738 @@
 "subjectivity": 0.1,
 "risk_tags": []
 }
+},
+{
+"dedupe_hash": "c2a6460ed651f6bd00f6e45c96c14f0a63b44bb4d5144f1a0f1275bbb8dfe6d3",
+"url": "https://t.me/uav_tech/37590",
+"published_at": "2026-11-26T17:32:22Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.4,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d2873bc79d72e8da1d0a6394ce228c7ec1c940191d093c2953a0f153f10e9a7d",
+"url": "https://defence-industry.eu/u-s-and-israel-evaluate-about-20-counter-drone-systems-in-joint-black-sands-trials",
+"published_at": "2026-11-26T16:13:13Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6e83dacbfad7b5e720c591a05a74080a726ed24666f800c91b7807a207100c6b",
+"url": "https://dronexl.co/2026/11/26/pentagon-osc-15-billion-hadrian-loan-trump-jr-drone-deals",
+"published_at": "2026-11-26T15:59:00Z",
+"event_date": "2026-08-06",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.4,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b64dacce4cef0aaddbdc2943a075e2e91e648586be2e665d6dec1e5237cf9608",
+"url": "https://dronexl.co/2026/11/26/everdrone-avincis-flarm-air-ambulance-helicopter-stockholm",
+"published_at": "2026-11-26T15:53:00Z",
+"event_date": "2026-09-11",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": [
+"Legal"
+]
+}
+},
+{
+"dedupe_hash": "5964950531b18b7ff68655db5d6469dd97b8c7e6b6a2e1c88ca700b30dec6889",
+"url": "https://aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait?traffic_source=rss",
+"published_at": "2026-11-26T16:32:31Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "92053a1c33268cf7035f18623da37597f19247e81e2a9f898873c23625e55155",
+"url": "https://dronexl.co/2026/11/26/poland-nato-shoot-down-russian-missiles-drones-over-ukraine",
+"published_at": "2026-11-26T15:46:00Z",
+"event_date": "2026-11-24",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.8,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": [
+"Legal"
+]
+}
+},
+{
+"dedupe_hash": "7112d61bf18944cd9cf37580c179116eaf87a4cae366abbe3e90db0fe5e38312",
+"url": "https://aljazeera.com/video/newsfeed/2026/11/26/two-dead-after-iranian-drone-attack-on-kuwait?traffic_source=rss",
+"published_at": "2026-11-26T15:55:15Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "425fea34db3c8c09822dd04002e06cfa00f8cdec076b9ab70ee309b74495bd67",
+"url": "https://dronexl.co/2026/11/26/drone-inspects-power-poles-no-coordinates-map-yolov8-rtk",
+"published_at": "2026-11-26T15:40:00Z",
+"event_date": "2025-12-11",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "586c9e851225ea86fd87bb9ced731a74d0493cc5cef0cca94b025874297d44b9",
+"url": "https://dronexl.co/2026/11/26/pentagon-diu-500-million-extended-range-strike-drones",
+"published_at": "2026-11-26T15:34:00Z",
+"event_date": "2025-12-07",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.1,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "614162db4f1b4acb3392a9b74db6038778c5194ec3f5a109b485ff7650e6c14d",
+"url": "https://dronexl.co/2026/11/26/ten-eu-countries-drone-strategy-20-percent-u-space-council",
+"published_at": "2026-11-26T15:28:00Z",
+"event_date": "2026-11-24",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d4984b89614879c30b1bf929c752cfcc68a029667091293f5ec35b013787c81e",
+"url": "https://dronexl.co/2026/11/26/whoi-science-review-drone-photos-wildlife-fat-muscle",
+"published_at": "2026-11-26T15:22:00Z",
+"event_date": "2026-11-26",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "1e518017c8d3ab40546c33bbb359712ede3f8fafe4e190e3e524a9f461260f53",
+"url": "https://dronexl.co/2026/11/26/japan-bear-drones-robots-ai-cameras-environment-ministry-trials",
+"published_at": "2026-11-26T15:15:00Z",
+"event_date": "2026-03",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "0d1b2f1fde012d0ca2309acb038f98c6dab6e13e8c9ac851e90eedd1d9f8580a",
+"url": "https://dronexl.co/2026/11/26/turkish-drone-bomb-somali-family-ghost-strike-bayraktar-tb2",
+"published_at": "2026-11-26T15:09:00Z",
+"event_date": "2026-11-25",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.8,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "68887109640fdea17d210c7a624852c405d5d609b15cf65baa096229dd4810a1",
+"url": "https://dronexl.co/2026/11/26/israel-defense-exports-startups-deca-iai-rafael-elbit-85-percent",
+"published_at": "2026-11-26T15:00:00Z",
+"event_date": "2025-09",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": [
+"Regulatory"
+]
+}
+},
+{
+"dedupe_hash": "6d8eb4ef47eba128a6400d144dbb503596142a4f25e73377c91f090201eca9db",
+"url": "https://airforce-technology.com/news/us-ukraine-f-16",
+"published_at": "2026-11-26T13:18:27Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b2e774c736532e77a4a4791a45fdb44933e461f2796625e8ab43969ae6e6c7c6",
+"url": "https://dronexl.co/2026/11/26/michigan-skyports-great-lakes-freighter-drone-deliveries-512168-grant",
+"published_at": "2026-11-26T14:54:00Z",
+"event_date": "2025-05",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.4,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "5129392b6107c73d3c65517f9f4346248a1c0ca16d1b5e6ff95074301d10933c",
+"url": "https://t.me/news_UAV/6020",
+"published_at": "2026-11-26T16:33:04Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ad9773d97589f076370a5d17379b6f96e2ca042e3c14cb7ff5b1ca1cb2d2d834",
+"url": "https://tass.ru/mezhdunarodnaya-panorama/28359739",
+"published_at": "2026-11-26T18:12:09Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "e5d924e62561de9504006e1979820ab311cd30d501187ae9b102c813225a505e",
+"url": "https://theaviationist.com/2026/11/26/usaf-contracts-final-kc-46-lot-of-original-production-deal",
+"published_at": "2026-11-26T16:39:40Z",
+"event_date": "2026-11-24",
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b1bb8669e7bfd30722953cf48ec0096a77098055c5c1dd1dc750eec0fa18120e",
+"url": "https://tass.ru/proisshestviya/28359771",
+"published_at": "2026-11-26T18:11:47Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "550cd4aa107272eb3d95fcf40bda851f40a2bd095c5c5524c86756667289b746",
+"url": "https://topwar.ru/294224-fljesh-zajavil-o-sbitom-lazerom-reaktivnom-bpla-no-est-tehnicheskie-nestykovki.html",
+"published_at": "2026-11-26T16:02:22Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "f6e3ca062165de73c67422e1a0a6025de826057bb86885b88ebc23e4b2b36d86",
+"url": "https://defence-ua.com/news/skilki_koshtuje_kupiti_dlja_gripen_raketi_iris_t_na_prikladi_chehiji_jaka_otrimala_dovoli_visokij_tsinnik-24857.html",
+"published_at": "2026-11-26T16:58:27Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "87d9daee06b4a5f49df0ee465e01ffd1b2942f5532d1b9d408930cfb5b1a563b",
+"url": "https://armyinform.com.ua/2026/11/26/glushymo-mopedy-v-nebi-piloty-signum-znyshhyly-dva-shahedy-ta-shhe-desyat-rosijskyh-droniv",
+"published_at": "2026-11-26T18:52:18Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "eb183f562cbeb5df6f50b8e8584eb9b907bb8145a56f3508824bdbd437f090be",
+"url": "https://tass.ru/armiya-i-opk/28359589",
+"published_at": "2026-11-26T17:16:33Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "f9bdd4b19d478ccee35491cce4526b051fb3801d26d99815414d2f7a7546ea05",
+"url": "https://armyinform.com.ua/2026/11/26/pryvatna-sto-zamist-ppo-komandyra-vijskovoyi-chastyny-pidozryuyut-u-zlovzhyvanni-sluzhbovym-stanovyshhem",
+"published_at": "2026-11-26T18:31:39Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": [
+"Legal"
+]
+}
+},
+{
+"dedupe_hash": "7fad15243314ca0ce60a949adbb383f0fe5969b4c5efc434691501de4d090f0e",
+"url": "https://tass.ru/politika/28359587",
+"published_at": "2026-11-26T17:15:03Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.3,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "9283686f828d41f20ab0518cee655cd002b7df3b34275f4e4a7c823ca2c9e787",
+"url": "https://armyinform.com.ua/2026/11/26/minus-motoczykl-i-vorozhi-ukryttya-f-35-vidpraczyuvaly-po-okupantah-na-zaporizkomu-napryamku",
+"published_at": "2026-11-26T18:08:46Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+},
+{
+"sphere": "армейские джипы",
+"subfilter": "мотоциклы"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "da5a4ecc5881dee5d1242ac242b0168e71cf2e876fe8faa8b46dc83a7169f084",
+"url": "https://armyinform.com.ua/2026/11/26/hto-taki-spottery-j-do-chogo-tut-reaktyvni-shahedy-u-1020-j-brygadi-pokazaly-robotu-droniv-perehoplyuvachiv",
+"published_at": "2026-11-26T17:57:48Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "2494f34b098490074f802c908f290eec0638b80846b4ffb50af4b5ac55bd0b06",
+"url": "https://t.me/vrv_radar/110749",
+"published_at": "2026-11-26T17:28:06Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.3,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "f41003947bea53adf29a1148c2c4f884a4cc7e27892d6fd044c68aa5388d081b",
+"url": "https://armyrecognition.com/news/army-news/2026/u-s-marines-conduct-helicopter-raid-exercise-to-boost-long-range-air-assault-readiness",
+"published_at": "2026-11-26T18:06:41Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "3044e677824339029b9df7b63b3d37328456a3f4b14c690880913c6f1d384d52",
+"url": "https://defence24.pl/sily-zbrojne/finlandia-kupuje-nowe-cv90-kontrakt-na-kilka-miliardow-euro",
+"published_at": "2026-11-26T16:20:02Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "бронетехника",
+"subfilter": "БМП"
+}
+],
+"sentiment": {
+"score_pm1": 0.6,
+"score_pm2": 2,
+"label": "резко позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "e45123be14f5e821c86a3c3e7f04923d7fdfbce152ff1e02768f215aaf85c98f",
+"url": "https://defence24.com/armed-forces/more-f-35s-in-poland-important-training-begins",
+"published_at": "2026-11-26T17:00:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b8fbd1e45dfabf98745b319a66c460baae7c25ed333baf9d015d24c5eb34f1aa",
+"url": "https://opex360.com/2026/11/26/les-forces-francaises-ont-recu-leurs-premiers-drones-intercepteurs-gobi-zephyr",
+"published_at": "2026-11-26T18:15:33Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "632547fa233dde99235c4a328164fa9e57336b0f6d94047ca53d67e20d87eec9",
+"url": "https://hartpunkt.de/flugabwehrsysteme-skyranger-30-kommen-kampfwertgesteigert-in-die-bundeswehr",
+"published_at": "2026-11-26T17:31:57Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "cb1e6ccdf107a65c13b7720c532bacdab17a681ce508fee8484df211836191b6",
+"url": "https://ukdefencejournal.org.uk/offset-rules-not-yet-decided-for-sa80-rifle-replacement",
+"published_at": "2026-11-26T18:00:16Z",
+"event_date": "2026-10-23",
+"spheres": [
+{
+"sphere": "вооружение",
+"subfilter": "легкое"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "87b787f5d25b9094c686c294ac7ded715b133e3a234ad25cab984330f0451882",
+"url": "https://soldat-und-technik.de/2026/11/streitkraefte/50899/d-roboter-drohne",
+"published_at": "2026-11-26T16:36:21Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.4,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "951a8620fefba5622bafdfcdd51ba7307d03ce6278ea117231781fd729bd0b72",
+"url": "https://bastion-karpenko.ru/%d1%81%d0%b0%d0%bc%d0%be%d1%85%d0%be%d0%b4%d0%bd%d0%be%d0%b5-%d0%b0%d1%80%d1%82%d0%b8%d0%bb%d0%bb%d0%b5%d1%80%d0%b8%d0%b9%d1%81%d0%ba%d0%be%d0%b5-%d0%be%d1%80%d1%83%d0%b4%d0%b8%d0%b5-2%d1%8135",
+"published_at": "2026-11-26T18:36:47Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "артиллерийские системы",
+"subfilter": null
+},
+{
+"sphere": "бронетехника",
+"subfilter": "САУ и ПТ САУ"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.2,
+"risk_tags": [
+"Financial"
+]
+}
+},
+{
+"dedupe_hash": "e44255882857c7d082d4e8f18a42d4b4012c22c1f856f905c7a5c57b76fbbc8f",
+"url": "https://naval-technology.com/news/pratt-whitney-f135-engines-2",
+"published_at": "2026-11-26T16:21:14Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "fa54eaf2d3ad0fe2ee55c77ce4715fc5eadde4478bb57bf922066ad8c493b1a3",
+"url": "https://zbiam.pl/dwa-kolejne-f-35a-husarz-wyladowaly-w-lasku",
+"published_at": "2026-11-26T15:00:55Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "5ded8e43aa6bb2dd9fdb41e0e2e2496de97691289c42ddc4f93d1c03cfb92322",
+"url": "https://defensa.com/espana/espana-blinda-eurofighter-10-000-millones-creditos-para-toda",
+"published_at": "2026-11-26T13:00:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.7,
+"score_pm2": 2,
+"label": "резко позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "5a57c96b107127b3f50a5f29382b8e7d3172d2e695d1e07945008969a0b0adbe",
+"url": "https://shephardmedia.com/news/landwarfareintl/november-land-forces-roundup-uncrewed-systems-and-air-defence-highlighted-as-conflicts-continue",
+"published_at": "2026-11-26T16:54:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "710f148d5128c255015e9c38c1f717540e7fbd1166211b4fb80a78e1f675e872",
+"url": "https://aerotime.aero/articles/italian-rheinmetall-technicians-killed-in-kuwaiti-drone-explosion",
+"published_at": "2026-11-26T15:26:55Z",
+"event_date": "2026-11-26",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.9,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": [
+"Legal",
+"Reputational"
+]
+}
+},
+{
+"dedupe_hash": "b9e0bbbcc2f067678533f86544cd7b95528a1a203d7e17a3759796411eb1edc9",
+"url": "https://rodina-history.ru/2026/11/26/vertolet-sel-na-tramvaj-unikalnoe-proisshestvie-v-kazani.html",
+"published_at": "2026-11-26T18:47:08Z",
+"event_date": "2026-11-26",
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "713dd0952063b8e964a32972e18d23ba690d20f95906012724d07e85860df84a",
+"url": "https://rg.ru/2026/11/26/minoborony-soobshchilo-o-perehvate-34-dronov-nad-rossiej.html",
+"published_at": "2026-11-26T17:31:03Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "cec42dce48dd9d36bf37ad918adabd6414f2bbf03b99a15b636fe86a3ad8e949",
+"url": "https://sharghdaily.com/fa/tiny/news-1144965",
+"published_at": "2026-11-26T18:14:07Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "25a276ea765dcb86b2cbc3ffd3f437ca8e48a04c82328c59cb51c963aa7b4559",
+"url": "https://sharghdaily.com/fa/tiny/news-1144961",
+"published_at": "2026-11-26T17:55:54Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "a720a968a0779233a1b5cb26870bd0e038a60aa885c2d3a00b1b48ef8bdfa357",
+"url": "https://mashreghnews.ir/news/1855439/%D8%B9%D8%B1%D8%A7%D9%82%DA%86%DB%8C-%D8%A7%D8%AF%D8%B9%D8%A7%DB%8C-%D9%85%D8%B7%D8%B1%D8%AD-%D8%B4%D8%AF%D9%87-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D8%AD%D9%85%D9%84%D9%87-%D9%BE%D9%87%D9%BE%D8%A7%D8%AF%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A8%D9%87-%DA%A9%D9%88%DB%8C%D8%AA-%D8%B1%D8%A7-%D9%82%D8%A7%D8%B7%D8%B9%D8%A7%D9%86%D9%87",
+"published_at": "2026-11-26T17:59:34Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.3,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "49399ba9f191d436b68486c96fd0d256cc84b74cc9901e6f6d521a3100669dc0",
+"url": "https://hamshahrionline.ir/news/1089777/%D9%BE%D8%B4%D8%AA-%D9%BE%D8%B1%D8%AF%D9%87-%D8%A7%D8%AF%D8%B9%D8%A7%DB%8C-%D8%AD%D9%85%D9%84%D9%87-%D9%BE%D9%87%D9%BE%D8%A7%D8%AF%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A8%D9%87-%DA%A9%D9%88%DB%8C%D8%AA-%DB%8C%DA%A9-%D9%85%D9%86%D8%A8%D8%B9-%D8%A7%D9%85%D9%86%DB%8C%D8%AA%DB%8C-%D8%A7%DB%8C%D9%86",
+"published_at": "2026-11-26T18:23:26Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c83954679fe30fd8f8ef158e8798a7c2781b3013ee70f6e088a9a83c7ddad6c5",
+"url": "https://hamshahrionline.ir/news/1089776/%D9%88%D8%A7%DA%A9%D9%86%D8%B4-%D8%B9%D8%B1%D8%A7%D9%82%DA%86%DB%8C-%D8%A8%D9%87-%D8%A7%D8%AF%D8%B9%D8%A7%DB%8C-%D8%AD%D9%85%D9%84%D9%87-%D9%BE%D9%87%D9%BE%D8%A7%D8%AF%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A8%D9%87-%DA%A9%D9%88%DB%8C%D8%AA-%D8%AA%D9%85%D8%A7%D8%B3-%D8%AA%D9%84%D9%81%D9%86%DB%8C",
+"published_at": "2026-11-26T18:10:18Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "0e148c6b93f8ff63b605abd1ee960edb9895be5c4f36234513062eed5ce9f1dc",
+"url": "https://balkanweb.com/sulmi-me-drone-qe-vrau-dy-italiane-ne-kuvajt-irani-mohon-pergjegjesine-dhe-ngre-dyshime-per-nje-operacion-te-inskenuar",
+"published_at": "2026-11-26T18:04:10Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6eb5c2cf1a9866f4bfeaa8863d05dd4913c970c450ce8818a91f57c96e34a4a9",
+"url": "https://lalibre.be/international/moyen-orient/2026/11/26/koweit-deux-italiens-tues-dans-une-attaque-de-drones-attribuee-a-liran-HENMEFIAA5HVBPS7Z44MAIRILI",
+"published_at": "2026-11-26T17:04:40Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.8,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "0a9b832e9eb7bdb28238408878b22530471823de4f474216c6fec2838e80e1b9",
+"url": "https://plovdiv24.bg/novini/mejdunarodni/Sluzhiteli-na-Rainmetal-sa-ubiti-pri-ataka-s-dronove-v-Kuveit-3062685",
+"published_at": "2026-11-26T18:09:43Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.7,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7d9633f332ef2955e375ccf7faab0fb3c9266a06f52eeb428c18809d57c25236",
+"url": "https://spiegel.de/wirtschaft/unternehmen/rheinmetall-mitarbeiter-in-kuwait-durch-drohnenangriff-getoetet-a-c745dda3-d0ef-41cf-825e-3ee0e047e575",
+"published_at": "2026-11-26T15:31:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.7,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "f6f1369bd162269e705b758ca46fd2302220bcdf7e6fa3bb0b5ed5aa8f531a86",
+"url": "https://cyprusnews.eu/onlycy/stis-floges-diylistirio-petrelaiou-sti-rosia-meta-apo-oukraniki-epithesi-me-drones",
+"published_at": "2026-11-26T15:48:15Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "473f78c00bc61f367c5d0a27f2a4d08e9153141d3cc393b31df927dd854940d0",
+"url": "https://orf.at/stories/3449362",
+"published_at": "2026-11-26T16:17:41Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "87b03a9a60251d9a8af1a5948ebf37b1a04a94580cc5d17efa44b2395d2c7136",
+"url": "https://lavanguardia.com/internacional/20261126/11694181/dos-trabajadores-italianos-mueren-ataque-irani-drones-sobre-kuwait.html",
+"published_at": "2026-11-26T14:54:06Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.3,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "bc1d1ca8abaa26e84868fb5b8726943a0c24f170675e1528c35484540a52c8d8",
+"url": "https://elcorreo.com/internacional/oriente-proximo/kuwait-acusa-iran-ataque-drones-deja-dos-20261126182604-ntrc.html",
+"published_at": "2026-11-26T17:26:05Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.7,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "997969c72e64f1dcfad65d22a2d737dacc66a9fad0637f003871ab03657d14e7",
+"url": "https://elcorreo.com/gente-estilo/asalto-casa-principes-gales-dos-detenidos-albaneses-20261126175627-nt.html",
+"published_at": "2026-11-26T16:56:28Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "0bfee9300b42ab54334aa99cad2bcb6cf944a5b8f2204ec257c49b83445879ac",
+"url": "https://flight.com.gr/russian-wounded-stranded-on-frontline-drone-war/?utm_source=rss&utm_medium=rss&utm_campaign=russian-wounded-stranded-on-frontline-drone-war",
+"published_at": "2026-11-26T17:20:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.9,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "f6167c9a348faae5b02448261059e8d8ae2ef4e81333126a12791f8205ca8268",
+"url": "https://net.hr/danas/svijet/ukrajinci-hvataju-dronove-novim-oruzjem-chipa-f75994a6-e897-11f1-96ed-9600040c8f8e",
+"published_at": "2026-11-26T17:53:36Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "12dfba98a6e0c3a9ba5edb29d87538abe0dcc197e85c1f4bbd14ede535329da4",
+"url": "https://dailymail.com/news/article-16324715/Kim-Jong-halts-military-aid-Putin-Kremlin-comments-South-Korea.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+"published_at": "2026-11-26T17:01:12Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "8741914b940a3ca6f240f0404b35e09b83699628d63223619ff6e925622709e8",
+"url": "https://novilist.hr/novosti/svijet/dvoje-talijana-poginulo-u-kuvajtu-nadzirali-protuzracnu-obranu-pogodili-ih-iranski-dronovi",
+"published_at": "2026-11-26T18:44:32Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.8,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "91e74d0095850e653cd9bb9c83a261a61b3e1021a420cdc22418b2fff1d511d0",
+"url": "https://tportal.hr/vijesti/clanak/dvoje-talijana-poginulo-u-napadu-dronom-u-kuvajtu-iran-nijece-umijesanost-20261126",
+"published_at": "2026-11-26T18:41:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.8,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d7ef3b95c72a299be2afccfed38eaaf6516da3b4a39cf5cf160a683227380ffd",
+"url": "https://vz.lt/verslo-aplinka/2026/11/26/dienos-akcentai-lietuvos-gynybos-pramones-nusivylimas-ir-es-lyderiu-susitarimas-del-ecb-vadovo-593323",
+"published_at": "2026-11-26T17:00:56Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "26c7c1e55a2cfda633076a23d68a138f1f23c22b39f2c46da294376dbd66d444",
+"url": "https://vijesti.me/svijet/evropa/838343/kamioni-u-plamenu-i-dronovi-iznad-glava-rusi-koji-rizikuju-zivote-na-putu-do-krima",
+"published_at": "2026-11-26T18:29:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "9262cb041b9d9c78b1be3d4793a4fd05cc9c1a4d74e3024925e6b67cbf9fb78c",
+"url": "https://dv.is/433/2026/11/26/ingvar-jonsson-er-latinn-greindist-med-krabbamein-i-vor",
+"published_at": "2026-11-26T17:06:16Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d25f613e680911d8429d29c8b90f74c095ee0bfeb0ec4409164997a8efad8b7e",
+"url": "https://t.me/milinfolive/183853",
+"published_at": "2026-11-26T16:53:36Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "43acfeb93df9f37cdb09f878e84f735fa7b4cad4cbb4a095f3a65f435ed36723",
+"url": "https://vijesti.me/svijet/globus/838338/dvojica-italijana-poginulau-napadu-dronovima-italija-i-kuvajt-optuzili-iran-teheran-negira-umijesanost",
+"published_at": "2026-11-26T18:11:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "3a1747b4efde28ade1f2c2b0fa457aad85c9eee9c0676c7f9d5257057894bfbf",
+"url": "https://vecer.mk/svet/iran-so-dronovi-go-napadna-kuvajt-zaginaa-dvajtsa-italijantsi-53ad077a-cabe-4bd4-9eec-68a2ad70aa5c",
+"published_at": "2026-11-26T16:30:12Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.7,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "efa4e67db41484830993bbdf8b8b9ba289ab56492485f19dbf3e161cb0db1c45",
+"url": "https://a1on.mk/world/pavel-go-povika-nato-so-sila-da-odgovori-na-rusija-treba-da-se-soboruvaat-dronovite-i-raketite",
+"published_at": "2026-11-26T17:10:12Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d78550b9643df56a7edd8cc757c077dfd738c6fa67d9819d284f3acd2635d9c4",
+"url": "https://lenta.ru/news/2026/11/26/unichtozhayuschaya-drony-tsitadel-stala-mobilnoy",
+"published_at": "2026-11-26T16:05:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "8d652f4b10bc99234d61f855e0bec4395f6ea6b1180c4774103c477a12482853",
+"url": "https://ria.ru/20261126/opasnost-2134243594.html",
+"published_at": "2026-11-26T18:51:20Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "476eb63829d398a62a6d960137abc6c3fbc5380bc416f58c03172b71c5cdeafe",
+"url": "https://ria.ru/20261126/vsu-2134229774.html",
+"published_at": "2026-11-26T17:23:41Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "10a9d3f93321a04ebbc47d984c11f404f8f1a9d399388eb9a08f11364d2bad1f",
+"url": "https://ria.ru/20261126/polsha-2134229521.html",
+"published_at": "2026-11-26T17:21:24Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "0ee587297ab93d2ebffc1b6bb9ab14e4c2a0151aa91dc77e2a5d7dbf720504f6",
+"url": "https://ria.ru/20261126/bespilotniki-2134229410.html",
+"published_at": "2026-11-26T17:20:08Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b110b116022ff57ba006f3ef6a561462c79ab93a31b6deefda47512aee46e077",
+"url": "https://romaniatv.net/nou-mesaj-ro-alert-in-judetul-tulcea-posibila-incursiune-de-drone_9944086.html",
+"published_at": "2026-11-26T17:03:21Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "909bfe84d42949882364d4259c42a79e67e9c93530d5830af64bed0695480ccf",
+"url": "https://latimes.com/business/story/2026-11-26/walmart-delivery-drones-are-set-to-touch-down-in-los-angeles",
+"published_at": "2026-11-26T11:00:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "fec5086a24a38da96bc0b3c0632a2c8168f7a60c735d2a99c15650be8cfecbaf",
+"url": "https://digi24.ro/stiri/actualitate/nou-mesaj-ro-alert-in-judetul-tulcea-posibila-incursiune-a-unor-drone-4054687",
+"published_at": "2026-11-26T18:01:16Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "9dcaf20cb10861fc915e5a4c127b6920c832b7eb582629437d57221dfc3c66e8",
+"url": "https://aa.com.tr/tr/bilim-teknoloji/polonya-turkiye-ile-savunma-sanayisi-isbirligini-gelistirmek-istiyor/4139520",
+"published_at": "2026-11-26T17:16:44Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "eb22242becabe48b6397cd3b45eecb42851bff2e8876da864f419fd1b8bf5afa",
+"url": "https://mediafax.ro/social/alerta-aeriana-in-nordul-judetului-tulcea-mesaj-ro-alert-privind-o-posibila-incursiune-de-drone-reactia-mapn-23850236",
+"published_at": "2026-11-26T17:03:07Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "e21b213c4f96d685cc3f24fe947dc0b131bf7edb8f3a5cd9209342b82ad204f5",
+"url": "https://stiripesurse.ro/iranul-se-dezice-de-atacul-cu-drone-din-kuweit-soldat-cu-doi-italieni-morti-o-incercare-de-a-accentua-instabilitatea-in-zona_3940220",
+"published_at": "2026-11-26T18:11:56Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.7,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "3f0927800f4f7007b80cdeec8d6c50fb67f67c3ad055123dadead68c3bd9f275",
+"url": "https://aa.com.tr/tr/dunya/rusyadaki-slavyansk-petrol-rafinerisi-iha-saldirisinda-agir-hasar-gordu/4139357",
+"published_at": "2026-11-26T16:10:42Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "694df96072a83cb5f0e3e5aada913fcfe4e6a365ac468c12ee162736ad788812",
+"url": "https://realitatea.net/stiri/extern/doi-italieni-care-lucrau-pentru-rheinmetall-au-murit-intr-un-atac-cu-drone-iraniene-in-kuweit-pu2ulv",
+"published_at": "2026-11-26T17:24:46Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "befa1cc9aad616627a10b5005b86fa6b3af1c62c039963e667f7e5eca29f950f",
+"url": "https://stiripesurse.ro/doi-italieni-au-fost-ucisi-intr-un-atac-iranian-cu-drone-in-kuweit_3940175",
+"published_at": "2026-11-26T16:06:53Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.7,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "399d26a3e85bc0bbf439a3d3ad5e67e523ea7bddb05bf2029ddaadd27d3232af",
+"url": "https://realitatea.net/stiri/locale/mesaj-ro-alert-in-nordul-judetului-tulcea-populatia-avertizata-asupra-riscului-de-incursiune-a-dronelor-vdn6cj",
+"published_at": "2026-11-26T17:16:29Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "89fa0750d8dc27852ec54a36cbf6fa6a14210f404d2e94e44b6a73b18ab9a73f",
+"url": "https://ekonomi.haber7.com/ekonomi/haber/3680106-bakan-bayraktar-duyurdu-turkiye-afrikada-enerji-ortakligi-kurdu",
+"published_at": "2026-11-26T15:23:00Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.7,
+"score_pm2": 2,
+"label": "резко позитивный",
+"subjectivity": 0.3,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "9b5facaba6c79c4101c29f308ab5261c37823339dae1308ade79da57b7ba7efc",
+"url": "https://t.me/mod_russia/69346",
+"published_at": "2026-11-26T17:19:40Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.3,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7364f5feee9eab5d66aaa8eb4646813705a96818c29fcaff9ecbf9ec2ea611d3",
+"url": "https://adevarul.ro/stiri-externe/europa/ucraina-a-doborat-o-drona-ruseasca-folosind-o-arma-2574786.html",
+"published_at": "2026-11-26T17:15:13Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "fb9a522859011a847e8644e779d37f09636822ccf0f14467b6cae6bf1bc13bb0",
+"url": "https://haber7.com/dunya/haber/3680076-kuveytte-kritik-tesise-iha-saldirisi-romadan-aciklama-2-italyan-hayatini-kaybetti",
+"published_at": "2026-11-26T13:50:00Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": -0.9,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b600f5f0beaca480e41b71448eb2edbcbb6899ed8483f40d0fb64f84fb0059ad",
+"url": "https://yenisafak.com/galeri/hayat/tokatin-goz-seklindeki-adali-golu-gorenleri-hayran-birakiyor-4876873",
+"published_at": "2026-11-26T15:25:24Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "4bf625d783ae6f86a97d149826bef55e3782138e55292a358b207c9acc895d63",
+"url": "https://t.me/DIUkraine/10032",
+"published_at": "2026-11-26T18:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "753884b5cec401f8c16b71b778d3b8e67ed8f35736bb2b3b5224c0395e30b57b",
+"url": "https://t.me/vpkgovby/6180",
+"published_at": "2026-11-26T16:59:01Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7ce893d46088892d765817980e904ffb224ac313ce6373ec479baf72d801d322",
+"url": "https://t.me/agatby/2606",
+"published_at": "2026-11-26T16:59:40Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "00a02163b36171d5f7eb82f538bfc0a3888440ad8ffb1efee4e7c3794878253d",
+"url": "https://t.me/belta_telegramm/405496",
+"published_at": "2026-11-26T18:09:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "45880898b4a2affc39791eb437a387c5cc09a7f2b5a375c1272cbd7a7867ca3b",
+"url": "https://t.me/VOLATAVTO/2159",
+"published_at": "2026-11-26T17:50:41Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "522b876981557c3c85d8e95782898d16e1260ac47bf04dc0cabd5fed985408db",
+"url": "https://t.me/kb_radar/1070",
+"published_at": "2026-11-26T18:56:53Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7ef47a326804f9f59914862fd5ac7d4579831a14f9ee5c8d6d2a8c292c28858e",
+"url": "https://t.me/zavod_2566/1865",
+"published_at": "2026-11-26T16:59:48Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "2b2f97f194926c1605218f87e0509e23b11d6046fddaee7b71e41508fda9846c",
+"url": "https://t.me/bsvt_by/1006",
+"published_at": "2026-11-26T16:35:37Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d4000e07ea0cdf820d1dc12394eb925e2e8747e48bef796057fd8f6cbd987296",
+"url": "https://t.me/alevkurp/1760",
+"published_at": "2026-11-26T17:01:43Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "e5c5fd30b94bc533202f7f6f9581b11b2bb4a7de33669a41bb40ef08ca2903bf",
+"url": "https://t.me/belta_telegramm/405481",
+"published_at": "2026-11-26T16:40:41Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "вооружение",
+"subfilter": "легкое"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.3,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "28e9a9b0c5f0f79ffae3342c46f80d0edf524c2eead682db339c3dae48d39885",
+"url": "https://t.me/newsby_btrc/210586",
+"published_at": "2026-11-26T16:17:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "средства связи и коммуникаций",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": [
+"Regulatory"
+]
+}
+},
+{
+"dedupe_hash": "65e11b8a95dc8d45136c230b2a56aa2f94e3f90a34da78d76ca46bf66734501e",
+"url": "https://t.me/newsby_btrc/210589",
+"published_at": "2026-11-26T16:44:51Z",
+"event_date": "2026-11-26",
+"spheres": [
+{
+"sphere": "вооружение",
+"subfilter": "легкое"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.4,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "f6d6a8fa20eeaae8982aedaf7e279f73ad67f3e454204441eb41c0145c25ab85",
+"url": "https://t.me/sbbytoday_by/203074",
+"published_at": "2026-11-26T17:01:45Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "вооружение",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "78cbe737bbf4be697e73ccc65884c060c936401a4ecf16125afc9f34be2dbafd",
+"url": "https://t.me/sbbytoday_by/203077",
+"published_at": "2026-11-26T17:32:11Z",
+"event_date": "2026-11-26",
+"spheres": [
+{
+"sphere": "вооружение",
+"subfilter": "легкое"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "4d361e6032293e138949f4f1cab1776f77bfa9674b1286fe4a1dc95e5d9e46d6",
+"url": "https://unian.net/war/udar-po-odesse-v-rezultate-ataki-reaktivnyh-dronov-pogib-muzhchina-novosti-odessy-13572330.html",
+"published_at": "2026-11-26T14:03:53Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.9,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": [
+"Legal"
+]
+}
+},
+{
+"dedupe_hash": "ae93e5c417e7bc190a26ed274bd2367f7aec7a2a93054a016aa588e919d99feb",
+"url": "https://unian.net/war/okkupanty-otvlekayut-ukrainskie-drony-lozhnymi-celyami-ekspert-obyasnil-pochemu-eto-nenadolgo-13572276.html",
+"published_at": "2026-11-26T13:30:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "9ae0c8dfbd8a893315bd342daa109edb67815c7ec7effaafb4687355e3d871dd",
+"url": "https://unian.net/war/ukrainskie-neptuny-udarili-po-rossiyskomu-aerodromu-marinovka-genshtab-13572264.html",
+"published_at": "2026-11-26T13:11:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.9,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": [
+"Regulatory"
+]
+}
+},
+{
+"dedupe_hash": "29be7cdf6bd950966d052d3cde44e323073c5df168958953ec150a3c094a48b0",
+"url": "https://unian.net/war/porazhenie-samoletov-na-aerodrome-savasleyka-oslabit-aviaciyu-rf-ekspert-obyasnil-pochemu-13572156.html",
+"published_at": "2026-11-26T12:19:55Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.8,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "35396369cca821040ba3e9d571100d28f1907e1911f0e8b5a5b4449bbcbf80a0",
+"url": "https://unian.net/war/rossiya-gotovit-novuyu-massirovannuyu-ataku-prezident-nazval-celi-13572054.html",
+"published_at": "2026-11-26T11:40:00Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": -0.9,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": [
+"Regulatory"
+]
+}
+},
+{
+"dedupe_hash": "efc1794bfd58ee156bf678edb684270dbc92d1e6680059d8f76e32e5d8db68c3",
+"url": "https://pmo.ee/8590916",
+"published_at": "2026-11-26T17:56:23Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "cce35379e16410388cf215992b5fcff805df2178ebd70654053646b55e14c08f",
+"url": "https://brave1.gov.ua/news/1020-brigade-high-speed-interceptors-shaheds",
+"published_at": "2026-11-26T09:00:00Z",
+"event_date": "2026-11-26",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b8780a95d5fcfec5cf803c78d850eedea41dd5ff406f20c48a2ca35788addf6e",
+"url": "https://delfi.lv/46713439/arzemes/120144108/ukraina-ar-lazera-ieroci-pirmo-reizi-notriekts-okupantu-reaktivais-drons",
+"published_at": "2026-11-26T12:01:50Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7aaaf7de33ff50293b65fc8f664cbd01fe4e7dad2a66762f331ce0af2536fe2d",
+"url": "https://delo.si/novice/svet/ob-napadu-iranskih-dronov-na-kuvajt-umrla-italijanska-civilista",
+"published_at": "2026-11-26T15:17:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.8,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ecc0b1c5cdce4dc42051c4dba6e0adbbac202f910e14e2dcd55d250e24f27f0e",
+"url": "https://reportdifesa.it/kuwait-attacco-con-droni-iraniani-morti-due-tecnici-italiani-della-rheinmetall",
+"published_at": "2026-11-26T15:22:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.8,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d21999ea8c24fa1bf36267c18de52d691b4bfe525645a26b91e38b45bdd35ab4",
+"url": "https://turdef.com/article/brazil-displays-c-uas-system-using-airburst-rockets",
+"published_at": "2026-11-26T20:49:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "01b2177d5a8af8485472d4fe4f59473960e2570bede239173d6d56f6e96d4dc5",
+"url": "https://israeldefense.co.il/en/node/73317",
+"published_at": "2026-11-26T00:00:00Z",
+"event_date": "2026-11",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "бронетехника",
+"subfilter": "танки"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "dfd805b6aacb46a1d2748db2d05823d2251c3e95896634dd810c5955336bbc01",
+"url": "https://mixnews.lv/v-mire/2026/11/26/kuveyt-perehvatil-iranskie-drony-chetyre-cheloveka-raneny-mezhdunarodnye-reysy-menyayut-marshruty",
+"published_at": "2026-11-26T14:30:21Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "687c45a5a073332fad33facca66a71dc0b52dbd397e5e5f29098becff21605da",
+"url": "https://t.me/germesfpv/3074",
+"published_at": "2026-11-26T19:09:20Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.3,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ddc809017f63b1a84f9c295ba2ef3ba7df52138a5116b30262166d1fb26d0be4",
+"url": "https://armyinform.com.ua/2026/11/26/vorog-opanovuye-novi-tehnologiyi-verbuvannya-czpd-poperedyv-pro-novu-taktyku-rosijskyh-speczsluzhb",
+"published_at": "2026-11-26T19:15:05Z",
+"event_date": "2026-11-26",
+"spheres": [
+{
+"sphere": "тактика и стратегия",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "33d0a7a12ecb728192cce7595990ee160cf3060f81c0d20dd4ece3fac4143c7d",
+"url": "https://ria.ru/20261126/arktika-2134250538.html",
+"published_at": "2026-11-26T19:48:38Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "99b3a319190b761a00dff6a87294f6795bac60f835e8e30f67f97f0598ee6525",
+"url": "https://zona-militar.com/2026/11/26/el-ejercito-argentino-recibira-sus-dos-primeros-helicopteros-black-hawk-el-proximo-18-de-diciembre",
+"published_at": "2026-11-26T20:15:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "f1fa7030967974dc19988f80ce93479a5acb1bfbfb7391a88b61fdf1635f42f8",
+"url": "https://zona-militar.com/2026/11/26/con-misiles-agm-88b-harm-taiwan-muestra-a-sus-cazas-f-16am-preparados-para-misiones-de-supresion-de-defensas-aereas",
+"published_at": "2026-11-26T14:00:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b6113802d2fc72e075214b49d0e00f51d4554f1cf788e88452b65afa7c6b1282",
+"url": "https://warfiles.ru/274277-zapreschen-k-vyletu-pochemu-ssha-prjachut-nevidimku-f-22-ot-nastojaschego-boja.html",
+"published_at": "2026-11-26T19:56:06Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6359b40341b606fda1e5df7e18e8ee668d3ba40a2cd8e97e7dabd74f3ba738ed",
+"url": "https://kyivpost.com/post/91331",
+"published_at": "2026-11-26T19:03:10Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.7,
+"score_pm2": 2,
+"label": "резко позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "36176b57278f9bef2a360684368f074ac57b028df6828032fcd37c1edd9457ca",
+"url": "https://sharghdaily.com/fa/tiny/news-1144988",
+"published_at": "2026-11-26T20:25:18Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "609d5a6dab4a7bfb4c68f8f7e0a7d8a021d571ba35252745bd09ed7d86d423c9",
+"url": "https://nachrichten.at/wirtschaft/ruestung-zulieferer-verlagert-auftragsfertigung-in-die-slowakei;art15,4237466",
+"published_at": "2026-11-26T19:31:58Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "bd0bb1d8337f15666d6fcd64283dd983a33650933b0f97e50c535bb98d58bbf4",
+"url": "https://kleinezeitung.at/artikel/41495934/ruestungsdeal-warum-pankl-300-neue-jobs-nicht-hierzulande-schafft",
+"published_at": "2026-11-26T19:24:10Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "3b53e13c42dbf7b96a22f06dc36bf316ad2eac69232a06506889ea9731995b0b",
+"url": "https://fakti.bg/world/1104909-rusia-dronove-sa-atakuvali-zavod-nevinnomiski-azot",
+"published_at": "2026-11-26T19:33:34Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.8,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d32a3ecdd6b29a2e4aa79ec459865e422572cac401f245d5fd798241be208a9e",
+"url": "https://haberkibris.com/polonya-turkiye-ile-savunma-sanayisi-isbirligini-gelistirmek-istiyor-1946-2026-11-26.html",
+"published_at": "2026-11-26T17:44:00Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "1efffbdc1415970f0dc608da680ca28c4ae35d685c1717271cf82e1588701d5d",
+"url": "https://ft.com/content/e5f3128d-5f8b-416c-90d1-2549175cb091?syn-25a6b1a6=1",
+"published_at": "2026-11-26T20:23:24Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.7,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "2c605aa50f2f0af752e7ff4ae011ee7c6a10e6289581440b3e937b5b24df296a",
+"url": "https://flight.com.gr/black-sands-counter-drone/?utm_source=rss&utm_medium=rss&utm_campaign=black-sands-counter-drone",
+"published_at": "2026-11-26T19:30:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "897ec7be71d72ab62fcc7b4d05b8c0f76af0d3bf05f1d74e1e306d626c3ea1ca",
+"url": "https://onalert.gr/eksoplismoi/f-35-akomi-dyo-stealth-maxitika-parelave-i-polonia-ksekinise-i-ekpaideysi-tou-texnikou-prosopikou/836378",
+"published_at": "2026-11-26T19:29:08Z",
+"event_date": "2026-11-26",
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "09c6cb45a4252e5235c14f83d903c3145546b13ec2c70ed30ed51e7e6a3d83a4",
+"url": "https://ansa.it/sito/notizie/mondo/2026/11/26/due-tecnici-italiani-della-rheinmetall-morti-in-un-attacco-in-kuwait_060489c8-4e35-4f04-9c6a-ade4a80acda4.html",
+"published_at": "2026-11-26T19:59:44Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "e35c8ea966b4672c418bf6d1030d7907b74bee5852c857da669b6766a5dacb58",
+"url": "https://protv.md/ucraina/atac-masiv-cu-rachete-si-drone-asupra-ucrainei-explozii-la-kiev-cladiri-avariate-si-doi-morti-la-harikov-dupa-lovirea-unui-bloc-video---2772921.html",
+"published_at": "2026-11-26T19:22:21Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.8,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "60ed68b6e62dfa7a51baade83d2ec6da9dbd92cd24e09c6b865e91e9b70957bc",
+"url": "https://ria.ru/20261126/vsu-2134246875.html",
+"published_at": "2026-11-26T19:17:03Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "72e96f58bc31861ab2f58781d834738e6a5fa291b874ce0a778ffeab83eae59b",
+"url": "https://defenseromania.ro/industrie-de-apararedrona-interceptoare-a-germanilor-de-la-quantum-systems-a-atins-record-mondial-de-viteza-tehnologia-vizeaza-dronele-cu-reactie-de-tip-geran-652614.html",
+"published_at": "2026-11-26T19:13:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.7,
+"score_pm2": 2,
+"label": "резко позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7e65f153c6d7d8bb93c2663d2e4eb7afde607196a1efeb33d096ab04411ecb63",
+"url": "https://aa.com.tr/tr/bilim-teknoloji/kosovada-t3-vakfi-destegiyle-iha-inovasyon-merkezi-acilmasi-planlaniyor/4139633",
+"published_at": "2026-11-26T19:37:36Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "cd7c8c6f2aaf1de597c6de21397d7384e7c9eb19589f6050293a16a84f882440",
+"url": "https://t.me/serhii_flash/7886",
+"published_at": "2026-11-26T20:51:15Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "4b2e0d4d4963b21f4400fddf078718bec7a6ae5fae6de1ae055c25ea18565750",
+"url": "https://t.me/texBPLA/4218",
+"published_at": "2026-11-26T19:45:24Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.5,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "95764df89946e8b6decb73d35d8b67a14db4d0522c36f4fcac56ba3ddfd01056",
+"url": "https://t.me/nm_dnr/16248",
+"published_at": "2026-11-26T13:03:18Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.3,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "fa3b912855ff367c5e00ac8e2425a33ec885c4a20c1238ed4b20c3f33ed47925",
+"url": "https://t.me/newsby_btrc/210599",
+"published_at": "2026-11-26T19:23:01Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c3f8009a329f911499ea8f86d969f66e6eb5bcb2345d692b458e442a8f9ee9be",
+"url": "https://t.me/sbbytoday_by/203089",
+"published_at": "2026-11-26T19:48:41Z",
+"event_date": "2026-11-26",
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.2,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "5f9548dc0156a018d024637de04ed7f1c257318b91ec8c228411179f46da09af",
+"url": "https://ilfattoquotidiano.it/2026/11/26/attacco-droni-kuwait-italiani-morti-notizie-2/8585050",
+"published_at": "2026-11-26T20:11:53Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.7,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ad3550f08750b60f3ef816f3681a9095d735620a5621c4958c09b22994569e4e",
+"url": "https://israeldefense.co.il/en/node/73305",
+"published_at": "2026-11-26T00:00:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "feeb9016b5a86f25010db661f0e74e10da689b8ace3c8074bd4376d11c8f726f",
+"url": "https://vpk.name/news/1174983_gosdep_ssha_odobril_predostavlenie_uslug_po_obsluzhivaniyu_istrebitelei_f-16_vs_ukrainy__dsca.html",
+"published_at": "2026-11-26T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "62603912e76167a80e6485837a5c660a8c843806342c36392bc9cabe1b498378",
+"url": "https://tass.ru/proisshestviya/28360031",
+"published_at": "2026-11-26T21:12:53Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "9000a56d92e94f0a10c22988e85ee878c7062b617389eef2932c24163ae79d3a",
+"url": "https://vpk.name/news/1175088_kiev_zaprosil_u_italii_spisyvaemye_istrebiteli_f-2000a.html",
+"published_at": "2026-11-26T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7b55bde75181ee80a5f227631b286ebe4a1b33bcfc88bea41fc6135235d54278",
+"url": "https://vpk.name/news/1174953_v_frg_budut_proizvodit_ukrainskie_razvedyvatelnye_drony.html",
+"published_at": "2026-11-26T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "1075f24b69273a86449aafce809e2d6e1eb80b93129986b60c56273dece32d78",
+"url": "https://vpk.name/news/1175039_nemeckii_dron_quantum_systems_ustanovil_rekord_skorosti_727_kmch.html",
+"published_at": "2026-11-26T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.7,
+"score_pm2": 2,
+"label": "резко позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ab1014d9c0c9d0e0b8080d83bd05867c24c64cd272e48e3289edb1c327d7c7cf",
+"url": "https://vpk.name/news/1175008_filippiny_planiruyut_pokupku_v_ssha_vertoletov_ch-47_chinook.html",
+"published_at": "2026-11-26T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "68fa6b61833e71d8c9ecb5fca820c6bcc79248524867748c7b49cdd657919e4f",
+"url": "https://vpk.name/news/1174969_horosho_zabytoe_staroe_planiruetsya_narastit_vypusk_prozhektorov_auro_dlya_pvo.html",
+"published_at": "2026-11-26T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b686330a5be3f8812432c1cc724891912d7beea465f9a52c86855640abfc575d",
+"url": "https://vpk.name/news/1175068_citadel_na_puti_vrazheskih_dronov.html",
+"published_at": "2026-11-26T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "3433f5a6a5dc969afce0a4d23c1e36be0ae5dac0062bcfe86948474c25e75098",
+"url": "https://vpk.name/news/1175115_flesh_zayavil_o_sbitom_lazerom_reaktivnom_bpla_no_est_tehnicheskie_nestykovki.html",
+"published_at": "2026-11-26T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "3e38f562341f20b444cd1fa54303109a8d2e531833cdcd5f6a1f0a1db7e06a36",
+"url": "https://vpk.name/news/1174921_chelovek_i_amfibiya_v_rossii_zavershilis_ispytaniya_novogo_armeiskogo_vezdehoda.html",
+"published_at": "2026-11-26T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "армейские джипы",
+"subfilter": "вездеходы"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "57c51b6e6761c3c6197995cdab978e4abafe96e29e7e1f75f73ff5136e01bc78",
+"url": "https://vpk.name/news/1175085_utilizaciya_prodolzhaetsya_vsu_poteryali_sotni_amerikanskih_bronemashin_humvee.html",
+"published_at": "2026-11-26T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "армейские джипы",
+"subfilter": null
+},
+{
+"sphere": "бронетехника",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.3,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c075d3bd39618c2190fb5ab1c65038f3b4f537e92066b288594c722c456d1858",
+"url": "https://vpk.name/news/1175082_ekspert_zayavil_o_neprigodnosti_francuzskoi_bronetehniki_dlya_boev_na_ukraine.html",
+"published_at": "2026-11-26T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "бронетехника",
+"subfilter": "танки"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "5d10b70294d52fd0903a7ce7c6d8b2d522fb361bab7e2e468b763c3ab7d35068",
+"url": "https://vpk.name/news/1175086_v_kitae_modernizirovali_t-72_osnastiv_ego_novoi_zashitoi_i_pricelami.html",
+"published_at": "2026-11-26T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "бронетехника",
+"subfilter": "танки"
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "87ed9936b10f611fc7750a89375e637922dde5df02bcc19d97c20f89dbb61d9a",
+"url": "https://vpk.name/news/1175009_hensoldt_postavit_niderlandam_i_germanii_kompleksy_reb_knifefish_dlya_bbm_piranya-5.html",
+"published_at": "2026-11-26T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "e2f48205c913bd2f60a5f1ba4e9a6d1ec147fe633bf6d0b1f9653f515aca34d1",
+"url": "https://vpk.name/news/1175064_kalashnikov_vypolnil_kontrakt_na_granatomety_gp-34.html",
+"published_at": "2026-11-26T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "вооружение",
+"subfilter": "гранатометы"
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "04893761e2279fb7a24a3340672bec9ed092a1e4f7a06abdfe7efa852963d500",
+"url": "https://vpk.name/news/1174963_pentagon_razrabatyvaet_sistemy_iskusstvennogo_intellekta_dlya_bronetehniki_i_bezekipazhnyh_morskih_platform.html",
+"published_at": "2026-11-26T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "бронетехника",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "94db1cf49adc8d915be3e369bf29cc92e95a865baeb3f7dffe2a2457b721a071",
+"url": "https://vpk.name/news/1174986_npc_ushkuinik_sozdal_bezekipazhnyi_kater-katamaran_cerber_s_12_antidronami.html",
+"published_at": "2026-11-26T21:00:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "077e4fe64cd16a0527b0952aa8d3c2e58c2a47af560ad8a8b7650b1f13eb385c",
+"url": "https://zona-militar.com/2026/11/26/el-ejercito-argentino-proyecta-contar-con-sus-primeros-sistemas-de-artilleria-atmos-durante-la-primer-mitad-de-2027",
+"published_at": "2026-11-26T21:10:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "артиллерийские системы",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "46525b82cd59a36cdf7f52e85f91762427dd594060e1164e82aba1701560c07c",
+"url": "https://zona-militar.com/2026/11/26/uno-de-los-patrulleros-britanicos-que-operan-en-malvinas-seria-equipado-con-nuevos-helicopteros-no-tripulados",
+"published_at": "2026-11-26T21:00:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "4925033ecee2bd2c9d82c3ab4ce493628d7b4041ac2d1f40b91e60b380a345a7",
+"url": "https://dailymail.com/news/article-16325015/Ukraine-shoots-Russian-drone-laser-world-first.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+"published_at": "2026-11-26T21:29:14Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7464527d9cde30bbea22e001cca1ff8ff871a351c53556d55c29e8da447f0506",
+"url": "https://analisidifesa.it/2026/11/attacco-con-droni-in-kuwait-morti-due-italiani-tecnici-di-rhenmetall-italia",
+"published_at": "2026-11-26T21:28:46Z",
+"event_date": "2026-11-17",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.7,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "9ea54404056c3d11a6e2067eb0251cd31f204e9ff9b2e378a24c2f2d49f681a3",
+"url": "https://t.me/milinfolive/183866",
+"published_at": "2026-11-26T21:39:58Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "cc79bcc7f7563be1a07ce694a3c46ac11d3406ddd2b1b98cfeb0ebe5d59607bb",
+"url": "https://focus.ua/voennye-novosti/776146-istrebiteli-dlya-ukrainy-gosdep-odobril-prodazhu-ukraine-oborudovaniya-dlya-obsluzhivaniya-f-16",
+"published_at": "2026-11-26T11:22:26Z",
+"event_date": "2026-11-26",
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c16d030e03fbe70dd705350cfb975ce07b33ba41830ca6201f13ba5c405f36a4",
+"url": "https://lrt.lt/en/news-in-english/19/3125143/lithuanian-accused-of-spying-for-russia-gathering-intelligence-on-ukraine-aid",
+"published_at": "2026-11-25T09:31:00Z",
+"event_date": "2021-08",
+"spheres": [
+{
+"sphere": "вооружение",
+"subfilter": "гранаты"
+}
+],
+"sentiment": {
+"score_pm1": -0.7,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.2,
+"risk_tags": [
+"Legal"
+]
+}
+},
+{
+"dedupe_hash": "03e3a945aef4efa90c45a0b54dffaf09902b13b7a07eef4f006353872a9fe680",
+"url": "https://topwar.ru/294111-postavki-istrebitelej-su-27sk-su-30mkk-su-30mk2-i-su-35sk-v-kitaj-ih-sluzhba-v-vvs-i-vms-noak.html",
+"published_at": "2026-11-27T00:06:13Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "9f82c04cc7e93183fac16019f8942389bef79a95eb1e167b5466781bafc2c17f",
+"url": "https://topwar.ru/294167-zrk-desna-ukrainskie-rakety-i-norvezhskoe-upravlenie.html",
+"published_at": "2026-11-27T00:05:36Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7086698f70feb2d5caaf457e8ef00c5d799ab9133248bd02739a1f2539b97ae8",
+"url": "https://topwar.ru/293907-chto-ostalos-ot-tanka-posle-snjatija-bashni.html",
+"published_at": "2026-11-27T00:05:26Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "бронетехника",
+"subfilter": "танки"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7323bce1773dde58702c5e511da8915e63c3a29aada1403f25c605cbef50227e",
+"url": "https://tass.ru/proisshestviya/28360259",
+"published_at": "2026-11-27T00:49:24Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "8d45a16804acb2c6a101fdc00d7679cc8568d3301368292498f79aeab897b271",
+"url": "https://ria.ru/20261127/opasnost-2134266495.html",
+"published_at": "2026-11-27T00:29:46Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "f41934dda95126f818709454fbf1c2bf37c09730ecf367f8ecde4fff9a9e6913",
+"url": "https://tass.ru/proisshestviya/28360231",
+"published_at": "2026-11-27T00:26:13Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.3,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "4a2070c4158cb543502d3c0d694e9ae12f6c69fdd433b15cc66f292ac40f2e67",
+"url": "https://tass.ru/armiya-i-opk/28360197",
+"published_at": "2026-11-27T00:02:11Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "бронетехника",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "70fe098c7b600b4dc086cbf9969d6bc7081ce36cf7b5f67d92854090499b5ffa",
+"url": "https://rg.ru/2026/11/27/letevshij-iz-edinburga-v-london-samolet-easyjet-podal-avarijnyj-signal.html",
+"published_at": "2026-11-27T00:45:09Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b0d59bfcd10774009ac0af9ac4c26771dc0985f52d6239ea63202227a745f334",
+"url": "https://hamshahrionline.ir/news/1089796/%D9%81%D9%88%D8%B1%DB%8C-%D8%AA%D8%B1%D8%A7%D9%85%D9%BE-%D8%A7%D8%B2-%D8%A7%D9%85%D8%B1%D9%88%D8%B2-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D9%88%D9%84%DB%8C%D8%AF-%D9%BE%D9%87%D9%BE%D8%A7%D8%AF-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D9%86%DB%8C%D8%B2-%D9%87%D8%AF%D9%81-%D9%82%D8%B1%D8%A7%D8%B1",
+"published_at": "2026-11-27T00:09:46Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "e5619823555be7a8049bc0ef4ea45676162de35e712fc3b45d4771d5c2816c4c",
+"url": "https://foxnews.com/world/iran-accuses-zelenskyy-false-flag-kuwait-drone-strike-op-get-trumps-attention",
+"published_at": "2026-11-26T23:19:59Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.8,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "5efb68929fd77865daecf35a93bf47a8d2a4b8d5ebe357c73280fbfedf19cf90",
+"url": "https://aa.com.tr/tr/dunya/arap-koalisyonu-husilerin-suudi-arabistanin-guney-bolgesine-firlattigi-iha-imha-edildi/4139861",
+"published_at": "2026-11-26T23:53:38Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "0bdafbea7b08115f69e4c21782ebd261dc2da0b39981db35aef1a66e2cc9c4b4",
+"url": "https://tass.ru/armiya-i-opk/28360423",
+"published_at": "2026-11-27T02:46:21Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "925bb648aa03fe3ea88e322059ac841fb6eaee16d9f965ceda9061c10c3049f4",
+"url": "https://tass.ru/proisshestviya/28360417",
+"published_at": "2026-11-27T02:45:04Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "4fdbcc43a9b4ac35ea50db7b63d8203ecd8449d6eab15785120d48cc330e0fbc",
+"url": "https://tass.ru/armiya-i-opk/28360411",
+"published_at": "2026-11-27T02:36:31Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "a4f2d6f2373c30220c2e02ae9a14792bd50b696b8e2c14430d7e49a550eaec62",
+"url": "https://tass.ru/proisshestviya/28360385",
+"published_at": "2026-11-27T02:12:02Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ff0a44e4a72e2e061b2205183bb78d60a101bf53bd9d0c657c19c26e030e1878",
+"url": "https://tass.ru/armiya-i-opk/28360371",
+"published_at": "2026-11-27T02:05:36Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "06d2b1488d51c6839c827353c7021c723f8adcde47e3114ab3cea0a243f50d0d",
+"url": "https://tass.ru/armiya-i-opk/28360365",
+"published_at": "2026-11-27T02:04:14Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "артиллерийские системы",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "63d109460312a40a9f8c78790fa233f0068347e997b5169fcdf6cce963408ab0",
+"url": "https://kyivindependent.com/starshield-restrictions-still-hampering-ukraines-drone-defenses-zelensky-tells-bbc",
+"published_at": "2026-11-27T01:17:50Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+},
+{
+"sphere": "средства связи и коммуникаций",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "a0d7672f32be471ff1651b14fe276480ab60e7c4fe30c6bf5099e89efa57444e",
+"url": "https://tass.ru/armiya-i-opk/28360351",
+"published_at": "2026-11-27T02:02:40Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "f440f0095a651c163dedaca0326ddb9f589ca7f7c42212eae5506e21585a9704",
+"url": "https://ria.ru/20261127/spetsoperatsiya-2134272659.html",
+"published_at": "2026-11-27T02:50:49Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7c872789f0fc0e20753971d2166453fa6c3e9d9f676fa2a30158a7443fcaf101",
+"url": "https://tass.ru/proisshestviya/28360317",
+"published_at": "2026-11-27T01:31:13Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "702ea8d472e401fc97249815cab7c685cb1dc0183d33e2dfed36c63e481dff78",
+"url": "https://ria.ru/20261127/bpla-2134272538.html",
+"published_at": "2026-11-27T02:49:24Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "8b423f77e02dae69783bb0457c74382ec1c547cccdeaa8697f4d771ccd26f3ea",
+"url": "https://tass.ru/proisshestviya/28360299",
+"published_at": "2026-11-27T01:19:09Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "5cf6b4df057f27b8f968006ec88d4071cf540dd0b0dee46d3a8687ef548bb6ab",
+"url": "https://ria.ru/20261127/spetsoperatsiya-2134271985.html",
+"published_at": "2026-11-27T02:41:29Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d6b5347e45ae430d85fc896cb6c6aa55c589ba729e612db2027fd3671c3eaaf4",
+"url": "https://tass.ru/politika/28360277",
+"published_at": "2026-11-27T01:01:26Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.7,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "5bb014cad2ad37109ad15cc21043490d59eea23114636ca01679ba24c7604367",
+"url": "https://ria.ru/20261127/bpla-2134271387.html",
+"published_at": "2026-11-27T02:15:30Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "3d1f059dd84a773a2a71d740d8e7a38a098912770c086b54f61b07ad51ae3509",
+"url": "https://ria.ru/20261127/spetsoperatsiya-2134271250.html",
+"published_at": "2026-11-27T02:09:26Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "41580b73a6f0c70382c18c35f7b2e48a6a1852bf052f99dfdcd8d5ea43c51ba0",
+"url": "https://ria.ru/20261127/spetsoperatsiya-2134270802.html",
+"published_at": "2026-11-27T02:06:11Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "81d59681ecddac7e6abcc7730dc2615f98a0b82e6bf602a64e75ca885624fad3",
+"url": "https://ria.ru/20261127/spetsoperatsiya-2134270658.html",
+"published_at": "2026-11-27T02:04:03Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c776be346e87add4541a4a696c21ecbfa61e912421c584b0990903ff223a4535",
+"url": "https://ria.ru/20261127/spetsoperatsiya-2134270532.html",
+"published_at": "2026-11-27T02:02:20Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "бронетехника",
+"subfilter": "САУ и ПТ САУ"
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "a34afe68ae91e0d16f11664cb6d6494faca0b12c5dd8f5ccd7a26dc777590301",
+"url": "https://defensa.com/defensa-naval/ministerio-defensa-britanico-adjudica-hii-contrato-142-millones",
+"published_at": "2026-11-27T02:20:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "62c1895b0a88bc06361f59a12797a34e6d38f0952253be7cc0fbd0a221baf79a",
+"url": "https://tvzvezda.ru/news/20261127249-m3YHJ.html",
+"published_at": "2026-11-27T02:00:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "артиллерийские системы",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "df79650867b9a22846de0b4ef10d39c26ae53652ac39e15d750213d8d3f0b205",
+"url": "https://rg.ru/2026/11/27/reg-szfo/krupnyj-pozhar-nachalsia-v-sankt-peterburge-na-fone-obiavlennoj-opasnosti-bpla.html",
+"published_at": "2026-11-27T02:00:14Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "9759f3ebeba5de5b7073f224c0708915c06368fdfd797ff154c2a1f27002bd9c",
+"url": "https://rg.ru/2026/11/27/reg-szfo/nad-territoriej-lenoblasti-sbili-chetyre-bpla.html",
+"published_at": "2026-11-27T01:59:03Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "9aa55fdcf945a8060ee3f879279bb402065a07cb173cc535fe9cc796bc42e26f",
+"url": "https://rg.ru/2026/11/27/reg-cfo/v-tulskoj-oblasti-gde-obiavlena-opasnost-ataki-bpla-sbili-chetyre-drona.html",
+"published_at": "2026-11-27T01:26:02Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "048f96faee92858c154552ca07b1d68a6b071c7f833abd31fad64b43f51cea9e",
+"url": "https://rg.ru/2026/11/27/reg-szfo/v-vozdushnom-prostranstve-lenoblasti-obiavili-opasnost-bpla.html",
+"published_at": "2026-11-27T01:01:04Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "5963d468bdbef16e266d9d892ceb61d5dd8cf643c03b7313d3889f9e62a8c5cf",
+"url": "https://fakti.bg/world/1104989-ukraina-ukrepva-pvo-voennia-registar-i-armiata",
+"published_at": "2026-11-27T02:56:36Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "0c3d4802939b6af13f0a420ef365c8d98ffa9f204e92cc5969c818448ec57cee",
+"url": "https://fakti.bg/world/1104975-obaviha-zaplaha-ot-ataka-s-dronove-v-sankt-peterburg",
+"published_at": "2026-11-27T02:04:46Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "84e109493fb23e9845376d4c2f90313c44ff6004b21f3020c9d8b29ee70fa0aa",
+"url": "https://expansion.com/empresas/2026/11/27/seat-alia-indra-lanzar-desembarco-sector-defensa.html",
+"published_at": "2026-11-27T00:19:34Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "00ba6145e19d3c3a3d00463cec37d7c3938304aa35ee62ebbce0d1462032b14f",
+"url": "https://lenta.ru/news/2026/11/27/v-litve-ispugalis-postroyki-tsentra-bpla",
+"published_at": "2026-11-27T02:08:15Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "189ce49bab5c638691c22fbcae1c577d08de65f8e1679148478266e7179e5e94",
+"url": "https://lenta.ru/news/2026/11/27/vsu-atakovali-dronami-leningradskuyu-oblast",
+"published_at": "2026-11-27T01:31:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "184b95ad6271a10305e7a6273e2293305f340fd79980f8166d9e605c213733be",
+"url": "https://lenta.ru/news/2026/11/27/rossiyskiy-region-podvergsya-atake-dronov",
+"published_at": "2026-11-27T01:10:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "76d019dc1b44c41abcabab9c167c0ae1f68bfb90033cf1b6d77ddbfb6a66c6eb",
+"url": "https://ria.ru/20261127/litva-2134269388.html",
+"published_at": "2026-11-27T01:25:34Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "3053c797ee79c9e946c1ba9d0ad5d7dadb350e2eac547234109a449cc4ca1223",
+"url": "https://ria.ru/20261127/bpla-2134269161.html",
+"published_at": "2026-11-27T01:22:40Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c7cdb4954e13241a72dbc8910075451927d65f356de3c6d715c9f29e2c44c78e",
+"url": "https://eadaily.com/ru/news/2026/11/27/sily-pvo-sbili-chetyre-drona-nad-leningradskoy-oblastyu",
+"published_at": "2026-11-27T05:00:00Z",
+"event_date": "2026-11-27",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "46a8d7188adce697fef38d12fee258c8cb60ef7506bda67657b2834dacf5b643",
+"url": "https://eadaily.com/ru/news/2026/11/27/sily-pvo-sbili-chetyre-drona-v-tulskoy-oblasti",
+"published_at": "2026-11-27T04:45:00Z",
+"event_date": "2026-11-27",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "67ab1ea62bbeb82966b9e886425ec99f1d0f1db293505dab0ded7ef21e5f8c25",
+"url": "https://eadaily.com/ru/news/2026/11/27/bespilotnaya-opasnost-obyavlena-v-leningradskoy-oblasti",
+"published_at": "2026-11-27T04:30:00Z",
+"event_date": "2026-11-27",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "622065b543ac0cd52f554bc2d9743844c66028f308754f6f41d535ec19a9fc5f",
+"url": "https://t.me/news_UAV/6022",
+"published_at": "2026-11-27T04:18:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "bf6bbdd49fc1c69a17fdd8b681d0ef6f95b30157ed00dd0f6a2a6b0fcfffd27c",
+"url": "https://tass.ru/proisshestviya/28360665",
+"published_at": "2026-11-27T04:57:19Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "a915ad5ef04076fba421f5e8cc2bf10618544ef31d4d35f3cfa4367e7c739762",
+"url": "https://armyinform.com.ua/2026/11/27/mobilnist-autodrive-ta-10-perehoplyuvachiv-u-ssha-stvoryly-novu-systemu-protydiyi-dronam",
+"published_at": "2026-11-27T04:08:46Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c95ce470cbea1e809813514fa97c46a4f317945cb52ad115cd5ca0d3358709c0",
+"url": "https://tass.ru/proisshestviya/28360653",
+"published_at": "2026-11-27T04:48:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d1d7ba956c5a15ac4bb8401b5a1a0a6a35112b2a6f303c0db4bc94c301cd3276",
+"url": "https://tass.ru/proisshestviya/28360651",
+"published_at": "2026-11-27T04:44:39Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ddca9a8b26fc159134eb0c3f7312b9881e7568c402aa6aea6f610b20ffb69e58",
+"url": "https://tass.ru/armiya-i-opk/28360641",
+"published_at": "2026-11-27T04:37:31Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "f2ac7f3c7ebed56ced8774d1c90a57e0545a6121691d89196c4ef6a4ae727df3",
+"url": "https://tass.ru/armiya-i-opk/28360631",
+"published_at": "2026-11-27T04:31:22Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "31e50fdbf652bfb8028c7a043c706e5366f17796bd964ca7d0a489acc642c7fb",
+"url": "https://tass.ru/ekonomika/28360549",
+"published_at": "2026-11-27T04:06:26Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c60b64200918b1e27b94340f48e271fd88d8d6b3041257c14341248d277e40b8",
+"url": "https://tass.ru/proisshestviya/28360543",
+"published_at": "2026-11-27T03:56:24Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c6d684f7b8308c6e792ee6ab2392838b832624243ad63149c01fd5f4292c084f",
+"url": "https://kyivindependent.com/explosions-reported-at-power-plant-synthetic-rubber-factory-in-russias-tula-oblast-following-drone-attack",
+"published_at": "2026-11-27T04:03:16Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "1c8cc090d1f36da8a495126b4fff571d20979682305dbd2de5642cad93f39d4c",
+"url": "https://tass.ru/armiya-i-opk/28360513",
+"published_at": "2026-11-27T03:31:50Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "beeab34bd2ad6def15e01bbc1b871d2172a6f58009d3bc608f488ec0c6632b1d",
+"url": "https://ria.ru/20261127/bpla-2134279597.html",
+"published_at": "2026-11-27T04:52:45Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "89038045d79d0f8eb017f23bbbb31b1d98068322a966258e812a2f64809acae3",
+"url": "https://tass.ru/armiya-i-opk/28360457",
+"published_at": "2026-11-27T03:13:05Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "3b295a89c4da0600f31659dec710f8181595e8d05a26a01cff227fef51666b1a",
+"url": "https://ria.ru/20261127/bespilotnik-2134278800.html",
+"published_at": "2026-11-27T04:42:31Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "f6f378274fca13d52d3dadc9aaa3ec29d63a09a01243b02480c342f53e2730c1",
+"url": "https://tass.ru/armiya-i-opk/28360447",
+"published_at": "2026-11-27T03:01:18Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b3809017dd92441c5e38c33d9a1071cabb4a2278a8c9ee85b32505c6496be8fc",
+"url": "https://ria.ru/20261127/spetsoperatsiya-2134277579.html",
+"published_at": "2026-11-27T04:32:33Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "2476e0d2d0035867b6d55b33b8de67e8f89513ea529ca3629de3c5ac55072e7b",
+"url": "https://ria.ru/20261127/bpla-2134276840.html",
+"published_at": "2026-11-27T04:19:16Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "68011de5e4d3c1b81e0e0a44ca3589ae48381dbf91db150d4fa19bab86e10cfc",
+"url": "https://asianmilitaryreview.com/2026/11/philippines-lines-up-for-chinook-helicopters-foc",
+"published_at": "2026-11-27T04:38:19Z",
+"event_date": "2026-11-26",
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "1a734a6a74c58ab18cbe61937974f3a6d1c433ef6a9c36ac0d7ff5393b181208",
+"url": "https://rg.ru/2026/11/27/stala-izvestna-prichina-avarijnoj-posadki-samoleta-v-edinburge.html",
+"published_at": "2026-11-27T04:56:03Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ce8ec4567b67dac6198b703be31d7c7b96fcd0b5c2762188cd182cf69c4f685f",
+"url": "https://rg.ru/2026/11/27/reg-szfo/chislo-sbityh-bpla-nad-lenoblastiu-dostiglo-44.html",
+"published_at": "2026-11-27T04:37:12Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7e670a5d74706cc4ceaa5b0d78f5b89471c64e88a18cd86c12b5111c187166bb",
+"url": "https://rg.ru/2026/11/27/reg-szfo/v-lenoblasti-prodolzhaetsia-otrazhenie-ataki-bpla-sbito-30-dronov.html",
+"published_at": "2026-11-27T03:28:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "420afc1d71de7952e1ae97d2e73c29fd2e3e699babc3588f42a0d8015747978a",
+"url": "https://t.me/operativnoZSU/227088",
+"published_at": "2026-11-27T04:12:07Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "4156b6fafaf3031b1950bf3aa70a0a5849b7b920509f8ba1d85f28e6270bdf40",
+"url": "https://fakti.bg/world/1105012-dronove-udariha-zavod-za-komponenti-za-raketno-gorivo-v-rusia",
+"published_at": "2026-11-27T04:33:57Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "50685b815e2d5887b82484b195ea7687a2f0c486f7ce24ef38c227a68c579898",
+"url": "https://fakti.bg/world/1104975-svaliha-30-drona-nad-leningradska-oblast",
+"published_at": "2026-11-27T03:55:51Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "2767e1842020d8a9797f5533a0b2d5bb3c8d7ae4d677f4bedb2acf5234982331",
+"url": "https://lenta.ru/news/2026/11/27/long-lenoblast-long",
+"published_at": "2026-11-27T04:02:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "41f10495d639e049f6ac057e9620a5c3728c338dd1c1bfc08bb6513f31db5165",
+"url": "https://lenta.ru/news/2026/11/27/chislo-sbityh-nad-lenoblastyu-bespilotnikov-rezko-vyroslo",
+"published_at": "2026-11-27T03:36:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6e2c3d05f093348d709d826afe61edc78a386625295157dc9a9bd6e53688f25e",
+"url": "https://ria.ru/20261127/bpla-2134280017.html",
+"published_at": "2026-11-27T05:01:49Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "bbe39b4e85821af45481265636640973857a410e83e09a9d928b306bb4edb788",
+"url": "https://ria.ru/20261127/samolet--2134274733.html",
+"published_at": "2026-11-27T03:45:23Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "94eaef0d14f3fd0f9bff7c41f542da97812a3a73389600cc548027dc05a13560",
+"url": "https://ria.ru/20261127/bpla-2134273584.html",
+"published_at": "2026-11-27T03:18:26Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "e0be04c477d0f682692a8ad275473aea9911851a5beb2e7f1f219ae4dbb7a984",
+"url": "https://digi24.ro/stiri/externe/cum-l-a-ajutat-trump-pe-putin-sa-castige-mai-mult-din-petrol-in-ciuda-sanctiunilor-si-atacurilor-cu-drone-ucrainene-kyiv-independent-4054189",
+"published_at": "2026-11-27T05:00:57Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "23395d5ffa27758f1e9353035df4d8c87ad008cc9e4df959b25a42b8d2cbf712",
+"url": "https://ria.ru/20261127/spetsoperatsiya-2134273281.html",
+"published_at": "2026-11-27T03:03:08Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d6745845d5e30ee148b0ff68d5242334e7627bc6add3cac720d72893ebe23580",
+"url": "https://stiripesurse.ro/rusia-drone-geran-componente-occidentale-sanctiuni_3940293",
+"published_at": "2026-11-27T04:40:11Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "8864fe6afbc6ded03d6a06d2ea318befb52ccf67e59a014b18d2aabdb952a2b7",
+"url": "https://adevarul.ro/stiri-externe/europa/rusia-pierde-avantajul-pe-un-front-neasteptat-2574611.html",
+"published_at": "2026-11-27T04:20:25Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.1,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "10d3ebf6ce4d37b810bb5f08fa01977adabe4ccaaecfb4a5e4394a39c7d326aa",
+"url": "https://adevarul.ro/securitate-si-aparare/rusii-folosesc-piese-de-frigidere-din-occident-2574203.html",
+"published_at": "2026-11-27T04:00:25Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "00cb20877ab723f637e5f23e84f567a60a5950914ee0c2ae4b442aa9412e4d0e",
+"url": "https://gov.kz/memleket/entities/qriim/press/news/details/1337847?lang=ru",
+"published_at": "2026-11-27T08:16:41Z",
+"event_date": "2026-11-19",
+"spheres": [],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "04c8df5f150c5b035dad73c213049c98c06911c90f2d2e2f3a39cf8fdd7f1cfe",
+"url": "https://t.me/GenPr/16318",
+"published_at": "2026-11-27T05:00:08Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": [
+"Legal"
+]
+}
+},
+{
+"dedupe_hash": "50f33b679bc7c599f175e66891b3dbf44fe462661e1b58ef40270d0cd5e65e72",
+"url": "https://t.me/belta_telegramm/405524",
+"published_at": "2026-11-27T04:00:23Z",
+"event_date": "2026-11-26",
+"spheres": [],
+"sentiment": {
+"score_pm1": -0.7,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.2,
+"risk_tags": [
+"Financial"
+]
+}
+},
+{
+"dedupe_hash": "03febc7c4b612944f2bda68a0a1c22302962033343331b307d6165cf0c34327e",
+"url": "https://pmo.ee/8590996",
+"published_at": "2026-11-27T04:51:46Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b2d696c93a62ea6229f6c47bb093310c32a25cb61f884073480ac669b9c41a4f",
+"url": "https://eadaily.com/ru/news/2026/11/27/sily-pvo-sbili-30-dronov-nad-leningradskoy-oblastyu",
+"published_at": "2026-11-27T06:45:00Z",
+"event_date": "2026-11-27",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "49e2c338805efdd7386cab20fc8a469d0658d442587101533fa298710b5dd65b",
+"url": "https://eadaily.com/ru/news/2026/11/27/sily-pvo-sbili-18-dronov-nad-leningradskoy-oblastyu",
+"published_at": "2026-11-27T06:15:00Z",
+"event_date": "2026-11-27",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ee539783255b0136025aaf87793671d9b2dbe5541dda7207befe5e0f5626b2d8",
+"url": "https://eadaily.com/ru/news/2026/11/27/sily-pvo-sbili-desyat-dronov-nad-leningradskoy-oblastyu",
+"published_at": "2026-11-27T06:00:00Z",
+"event_date": "2026-11-27",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "e0b31f04d83f89fdce3958a0827e798914281102e7d85c95bd7565c07a048f19",
+"url": "https://uasvision.com/2026/11/27/worlds-largest-unmanned-cargo-aircraft-makes-maiden-flight-in-china",
+"published_at": "2026-11-27T06:15:49Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "70aec2da73c0b45903d48a9e01c755a06379d31b3ab37859d0d2af6b3276c65d",
+"url": "https://belta.by/economics/view/obschij-rynok-truda-razvitie-bespilotnyh-sistem-chto-na-povestke-zasedanija-ekonomicheskogo-soveta-sng-812855-2026",
+"published_at": "2026-11-27T09:21:48Z",
+"event_date": "2026-11-27",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": [
+"Financial"
+]
+}
+},
+{
+"dedupe_hash": "450f3642533f810bc8b2d5498ae5649712bbebaa879809f93137d57b66e7f686",
+"url": "https://topwar.ru/294246-rossijskij-kompleks-rjeb-izdelie-135-proshel-ispytanija-v-prigraniche.html",
+"published_at": "2026-11-27T05:27:44Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "6a325b8881317d9af7fb6dfac92467da9141b698049f002093fb09d65f77a2a7",
+"url": "https://defence-ua.com/news/indija_i_turkmenistan_majut_tsikavij_i_ridkisnij_variant_300_mm_smerch_na_shasi_tatra_jaka_jih_istorija-24858.html",
+"published_at": "2026-11-27T05:48:10Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "артиллерийские системы",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.3,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7e306b8af02141ee61635a02c2ddfecc34f0a8ba80551c443fd1d9d12204bcf7",
+"url": "https://tass.ru/proisshestviya/28360879",
+"published_at": "2026-11-27T06:01:46Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "da1b7f206a43e9ef48231d31d28e00accedc7a270112fcfc80c847853008b372",
+"url": "https://tass.ru/proisshestviya/28360859",
+"published_at": "2026-11-27T05:59:46Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7abe1dd306aad3baf78912985afadf30f5532bb4ca9dee69da9ee1c3a4234957",
+"url": "https://t.me/vrv_radar/110914",
+"published_at": "2026-11-27T05:45:10Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.3,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "3096d1006eb78fd8148ecd794a2aa615ac09fe90e3b0aae5a13859b1baf62940",
+"url": "https://tass.ru/armiya-i-opk/28360817",
+"published_at": "2026-11-27T05:40:16Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ac892218c10c55bb632d9176c6ca8508c22fe66cd14fc636be9560c2423f9ee0",
+"url": "https://t.me/vrv_radar/110918",
+"published_at": "2026-11-27T05:51:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "af85f21e0bac508313c6625960dbed556e85b4920750a352580b9da7398202c7",
+"url": "https://tass.ru/proisshestviya/28360763",
+"published_at": "2026-11-27T05:25:21Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "087fa6c24375a9b1c1c06dc643c6c0f2515fa2d59d21beebcd85d76ab2476faf",
+"url": "https://tass.ru/armiya-i-opk/28360751",
+"published_at": "2026-11-27T05:22:36Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "cdfdd70fdab6530b16b61915407003932ce2f35704e303d0af6b5755b861e185",
+"url": "https://tass.ru/armiya-i-opk/28360695",
+"published_at": "2026-11-27T05:06:20Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b28f0d5438d0faf041b8a0bc6ea6c297d84c5c805a489c01288f35286366bdbd",
+"url": "https://armyinform.com.ua/2026/11/27/syly-oborony-perehopyly-za-nich-110-vorozhyh-bpla",
+"published_at": "2026-11-27T06:24:17Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "4a447f4c7d5f0d87abe40c1c3f401e91ef44927563cae7f9608a306f68a2b35e",
+"url": "https://armyinform.com.ua/2026/11/27/vorog-vtratyv-za-dobu-2262-vijskovyh-dva-tanky-ta-dvi-rszv-genshtab-zsu",
+"published_at": "2026-11-27T05:07:51Z",
+"event_date": "2026-11-27",
+"spheres": [
+{
+"sphere": "бронетехника",
+"subfilter": "танки"
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "84e7239fd3fe0ee6aab30efcef938c0c14c627032fdba8f0ea92f430e2a285dd",
+"url": "https://ria.ru/20261127/samolet-2134289955.html",
+"published_at": "2026-11-27T06:22:39Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "2f324221e9e9182cee4f3789ae9b1eeef3e86c4ee744a20483a46f9d37de734f",
+"url": "https://ria.ru/20261127/estonija-2134287253.html",
+"published_at": "2026-11-27T06:12:18Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.3,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "3ca41c50dc0d126dddf32ede16d84a0f924bf3e98871f122d4f703d331597c05",
+"url": "https://ria.ru/20261127/bespilotniki-2134286274.html",
+"published_at": "2026-11-27T06:05:18Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "авиация",
+"subfilter": null
+},
+{
+"sphere": "бронетехника",
+"subfilter": "танки"
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "07816a08d27eef0e7dedc2220fe39967cd8a80e941cfa7f33cf6caabe19a2894",
+"url": "https://ria.ru/20261127/bespilotniki-2134286031.html",
+"published_at": "2026-11-27T06:03:57Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "0ed9a0d1ab8dfb232a8fc3d1cf3b194235da9004305b636a86c2a81c58a4f8e1",
+"url": "https://ria.ru/20261127/drony-2134285583.html",
+"published_at": "2026-11-27T06:01:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "a2563210af729a69cae731551e30db15c0f17255ffdf5b8922414be94dc328f9",
+"url": "https://ria.ru/20261127/sankt-peterburg-2134284963.html",
+"published_at": "2026-11-27T05:52:01Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "f80071117a02ec9072a27a4e84f46d5fa8fbcfcdbbaf82ed7217e0e93e8f2994",
+"url": "https://ria.ru/20261127/pvo-2134284128.html",
+"published_at": "2026-11-27T05:41:04Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "8660d37018342a5e5923abc68a6ba234c8de18f687c537b479b05acbbedae9b9",
+"url": "https://defence24.pl/sily-zbrojne/drony-i-amunicja-krazaca-zmieniaja-pola-walki-nato-niemcy-testuja-je-na-litwie-sojusznicy-wdrazaja",
+"published_at": "2026-11-27T06:00:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "5d09051af75a2f038fc59dff2a371319fc27cd58aa3adebcc65328ba9cd0f772",
+"url": "https://ukdefencejournal.org.uk/ukraine-says-it-hit-five-russian-jets-at-major-air-base",
+"published_at": "2026-11-27T06:00:18Z",
+"event_date": "2026-11-24",
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "578a7f4c1ec5428ac0a4e7ba9d1da358b3e0b73efe8080ec5cff90fb406087ae",
+"url": "https://zona-militar.com/2026/11/27/corea-del-norte-pauso-la-entrega-de-misiles-balisticos-y-municion-a-rusia-segun-los-servicios-de-inteligencia-de-ucrania",
+"published_at": "2026-11-27T06:00:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "вооружение",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.5,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "7ec77b2032315268b70c020ac1416690d321faaa6eb3fa9a4e61c6d3e1e40148",
+"url": "https://zona-militar.com/2026/11/27/misiles-aim-9-sidewinder-y-amraam-la-combinacion-que-emplean-los-f-a-18-hornet-de-los-marines-para-combatir-drones",
+"published_at": "2026-11-27T05:00:00Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d48b1a285eba6c3031a698093ee683e561f8e5db9ec39f356260a2b4861dad07",
+"url": "https://kyivpost.com/post/91355",
+"published_at": "2026-11-27T06:08:14Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.4,
+"score_pm2": 1,
+"label": "умеренно позитивный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "fc1dfc2e8978f967ef39136d36bf99d8fa8e88735c64648129f6c379389c9470",
+"url": "https://rg.ru/2026/11/27/sily-pvo-sbili-za-noch-318-ukrainskih-bespilotnikov-nad-11-regionami-rossii.html",
+"published_at": "2026-11-27T05:53:02Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "0a980f39e9d325860b0e7012cbae567233bcf1c731e1afc1d4889992c55e751c",
+"url": "https://rg.ru/2026/11/27/reg-szfo/chto-izvestno-ob-atake-ukrainskih-bpla-na-lenoblast-27-noiabria.html",
+"published_at": "2026-11-27T05:29:10Z",
+"event_date": "2026-11-27",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "44175975952994d70cbeeb231df191291cff802e4be1dfb840938d596483639f",
+"url": "https://rg.ru/2026/11/27/reg-dfo/chukotku-pokazhut-passazhiram-v-samoletah-rossiia.html",
+"published_at": "2026-11-27T05:15:22Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "авиация",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "99428aa2185c8130d3e9512f2eed10e210c7ac2e784b4c51538f8cc6e1cf068a",
+"url": "https://rg.ru/2026/11/27/reg-ufo/v-novorossijske-tri-cheloveka-postradali-izza-padeniia-oblomkov-bpla.html",
+"published_at": "2026-11-27T05:02:02Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c65fe9635a028633efb227beef76c158a64c21ca780e78cf0b07b3d7e26e9f0a",
+"url": "https://mashreghnews.ir/news/1855467/%D8%AA%DA%A9%D8%B0%DB%8C%D8%A8-%D9%86%D9%82%D8%B4-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%AF%D8%B1-%D8%AD%D9%85%D9%84%D9%87-%D9%BE%D9%87%D9%BE%D8%A7%D8%AF%DB%8C-%DA%A9%D9%88%DB%8C%D8%AA-%D8%B1%D9%88%D8%A7%DB%8C%D8%AA-%DB%8C%DA%A9-%D9%85%D9%86%D8%A8%D8%B9-%D8%A7%D9%85%D9%86%DB%8C%D8%AA%DB%8C-%D8%A7%D8%B2",
+"published_at": "2026-11-27T05:40:33Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "c3718415c1e723addfe4c8cd7c339e6b023e6378cf60c06696351e7d32093ce9",
+"url": "https://news.by/news/v_mire/tegeran-zayavil-o-provokatsii-posle-gibeli-italyanskikh-spetsialistov-v-kuveyte",
+"published_at": "2026-11-27T06:18:24Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "333a94e81ea356eb78ceac4c5c79ab5a37471c670f193bab6f9e3af3038039b8",
+"url": "https://t.me/operativnoZSU/227094",
+"published_at": "2026-11-27T05:04:43Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.5,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "8d1f7bb949fcfeb22a21c777d1a5e603a825ece171ecba3b6100941fcf2b2e8b",
+"url": "https://t.me/operativnoZSU/227096",
+"published_at": "2026-11-27T05:48:20Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.4,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "ce27adfa129b25825aaeeb0b448f9db7d5f5d495cd929566cae1a4e0f197b6c1",
+"url": "https://t.me/operativnoZSU/227098",
+"published_at": "2026-11-27T05:56:22Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "b75091e996cb7043e80d37bd29ca2186f4a4c8cf97133c864503be0142070607",
+"url": "https://t.me/operativnoZSU/227102",
+"published_at": "2026-11-27T06:06:13Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "2574e082225656f2f866ebbcf68c73d4c865b716539478ecc8504623250782fb",
+"url": "https://t.me/zavod_2566/1868",
+"published_at": "2026-11-27T06:03:51Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "9babfb3af602e6b35fc442b8fcde271f50f468d38e25e2135a4d4caf51a43674",
+"url": "https://t.me/GKB_Luch/5448",
+"published_at": "2026-11-27T05:33:02Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": 0.0,
+"score_pm2": 0,
+"label": "нейтральный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "d275f20313486149a106695b8fe1d62a848e8849b9f236814592c7467ce23158",
+"url": "https://t.me/mod_russia/69356",
+"published_at": "2026-11-27T05:41:11Z",
+"event_date": null,
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.2,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.3,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "067d876ca12ff80e8402c52ef244189a21652bc67dd1fb0dcf1e5f79e5662798",
+"url": "https://t.me/newsby_btrc/210610",
+"published_at": "2026-11-27T05:33:01Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.2,
+"risk_tags": [
+"Financial"
+]
+}
+},
+{
+"dedupe_hash": "8c238a06bc01236d8e8e8ecb73e15d173f33af883da06d5a9252924fceddfe05",
+"url": "https://t.me/newsby_btrc/210613",
+"published_at": "2026-11-27T06:26:01Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.1,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "bf71928c6db07e8d32b91621fa87bd945023c0d39ef3ffc881f28feda543d689",
+"url": "https://t.me/sbbytoday_by/203097",
+"published_at": "2026-11-27T05:43:58Z",
+"event_date": null,
+"spheres": [],
+"sentiment": {
+"score_pm1": -0.6,
+"score_pm2": -2,
+"label": "резко негативный",
+"subjectivity": 0.2,
+"risk_tags": [
+"Regulatory"
+]
+}
+},
+{
+"dedupe_hash": "7593d8e400b3d0480bc5d563f69abdb4887d16caec105030abf96f592d77b6db",
+"url": "https://t.me/sbbytoday_by/203099",
+"published_at": "2026-11-27T06:10:58Z",
+"event_date": "2026-11-27",
+"spheres": [],
+"sentiment": {
+"score_pm1": -0.3,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.3,
+"risk_tags": []
+}
+},
+{
+"dedupe_hash": "bf87e7d1f927ecda2b62218c92d810714219da16fd9913cd247565be2e40b715",
+"url": "https://focus.ua/voennye-novosti/776234-ataka-na-sankt-peterburg-27-noyabrya-drony-zakrytie-aeroporta-pulkovo",
+"published_at": "2026-11-27T05:31:46Z",
+"event_date": "2026-11-27",
+"spheres": [
+{
+"sphere": "БПЛА",
+"subfilter": null
+},
+{
+"sphere": "авиация",
+"subfilter": null
+},
+{
+"sphere": "системы ПВО и РВСН",
+"subfilter": null
+}
+],
+"sentiment": {
+"score_pm1": -0.5,
+"score_pm2": -1,
+"label": "умеренно негативный",
+"subjectivity": 0.2,
+"risk_tags": []
+}
 }
 ]
