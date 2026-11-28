@@ -2,13 +2,13 @@
 "meta": {
 "version": "t171u-graph-1",
 "links_version": "t167u-links-2",
-"oi_as_of": "2026-11-28T09:39:41+03:00",
-"built_at": "2026-11-28T10:44:05+03:00",
+"oi_as_of": "2026-11-28T19:12:09+03:00",
+"built_at": "2026-11-28T20:14:26+03:00",
 "copyright": "© 2026 GREEN-CBR. Все права защищены. Разработчик — GREEN-CBR",
 "rule": "t167u: связь только при реальной связи (основание с URL); совместные упоминания не включены",
 "counts": {
-"nodes": 2450,
-"edges": 2275,
+"nodes": 2453,
+"edges": 2276,
 "persons": 114,
 "darpa_programs": 779
 }
@@ -188,7 +188,7 @@
 "kind": "agency",
 "country": "Украина",
 "src": "реестр",
-"n": 117,
+"n": 119,
 "url": "https://brave1.gov.ua/en/",
 "role": "кластер оборонных технологий: гранты и испытания. С 17.07.2025 — платформа Test in Ukraine: иностранные производители испытывают технологии в Украине сами или передают продукт Brave1 для испытаний с отчётом (по Минцифры); первым иностранным участником названа Diehl (НРК, полигон 3-й штурмовой бригады). Структура (t49u, проверено 12.11.2026): презентован 26.04.2023 в Киеве; государственная инициатива, реализуемая Фондом развития инноваций; решения о грантах — большинством голосов наблюдательного совета Фонда (МО Украины, 06.11.2026). 19.10.2026 Brave1 сообщил об уходе CEO Андрея Гриценюка (CEO с 05.2025); Виктор Руденко — и.о. директора Фонда, COO Ирина Заболотная ведёт кластер в переходный период. Страница About на 12.11.2026 ещё называет Гриценюка CEO (не обновлена). Программы с партнёрами: UNITE – Brave NATO, BraveTech EU, EU4UA Defence Tech, Brave Norway, Brave France, Brave Germany, Brave Lithuania, Brave Netherlands (МО Украины, 06.11.2026)",
 "reg": true,
@@ -380,7 +380,7 @@
 "kind": "company",
 "country": "США",
 "src": "реестр",
-"n": 215,
+"n": 217,
 "url": "https://www.avinc.com/",
 "role": "малые БЛА, барражирующие боеприпасы (Switchblade)",
 "reg": true,
@@ -440,7 +440,7 @@
 "kind": "company",
 "country": "США",
 "src": "реестр",
-"n": 259,
+"n": 261,
 "url": "https://www.boeing.com/defense",
 "role": "прайм: авиация, БЛА (MQ-25)",
 "reg": true,
@@ -524,7 +524,7 @@
 "kind": "company",
 "country": "США",
 "src": "реестр",
-"n": 32,
+"n": 33,
 "url": "https://fortemtech.com/",
 "role": "C-UAS: радары, перехватчик DroneHunter",
 "reg": true,
@@ -620,11 +620,11 @@
 "kind": "company",
 "country": "США",
 "src": "реестр",
-"n": 274,
+"n": 275,
 "url": "https://www.lockheedmartin.com/",
 "role": "прайм: авиация, ПВО/ПРО, C-UAS, космос",
 "reg": true,
-"deg": 51
+"deg": 52
 },
 {
 "id": "mercury",
@@ -740,7 +740,7 @@
 "kind": "company",
 "country": "США/Украина",
 "src": "реестр",
-"n": 11,
+"n": 12,
 "url": "https://investors.swarmer.com/",
 "role": "ПО автономии и роевого управления беспилотниками (по сайту: HQ — Остин, Техас; операции и команды в Украине, Польше, Эстонии). Series A $15 млн (09.2025; Broadband Capital Investments, R-G.AI, D3 Ventures, Green Flag Ventures, Radius Capital, Network VC). IPO: 13.03.2026 — цена размещения 3 000 000 акций по $5,00; торги на Nasdaq Capital Market с 17.03.2026, тикер SWMR (релиз компании; проспект 424B4 от 16.03.2026). Swarmer, Inc. зарегистрирована в штате Делавэр 15.05.2023; неисполнительный председатель совета — Erik Prince (424B4). По сайту: ПО позволяет «one operator to manage hundreds of autonomous systems»; первое боевое применение — 04.2024. В списке Resilience Media «100 Startups to Watch in 2026» (по Минцифры)",
 "reg": true,
@@ -788,7 +788,7 @@
 "kind": "company",
 "country": "Франция/Германия/Испания",
 "src": "реестр",
-"n": 267,
+"n": 269,
 "url": "https://www.airbus.com/en/products-services/defence",
 "role": "прайм: авиация, БЛА, космос",
 "reg": true,
@@ -800,7 +800,7 @@
 "kind": "company",
 "country": "Великобритания",
 "src": "реестр",
-"n": 201,
+"n": 204,
 "url": "https://www.baesystems.com/",
 "role": "прайм; БЛА (в т.ч. через Callen-Lenz), РЭБ",
 "reg": true,
@@ -872,7 +872,7 @@
 "kind": "company",
 "country": "Испания",
 "src": "реестр",
-"n": 49,
+"n": 50,
 "url": "https://www.indracompany.com/",
 "role": "радары, РЭБ, C-UAS",
 "reg": true,
@@ -884,7 +884,7 @@
 "kind": "company",
 "country": "Франция/Германия",
 "src": "реестр",
-"n": 47,
+"n": 49,
 "url": "https://www.knds.com/",
 "role": "бронетехника, артиллерия",
 "reg": true,
@@ -932,7 +932,7 @@
 "kind": "company",
 "country": "Италия",
 "src": "реестр",
-"n": 191,
+"n": 193,
 "url": "https://www.leonardo.com/",
 "role": "прайм: авиация, электроника, БЛА",
 "reg": true,
@@ -956,7 +956,7 @@
 "kind": "company",
 "country": "Франция/Великобритания/Италия/Германия",
 "src": "реестр",
-"n": 103,
+"n": 104,
 "url": "https://www.mbda-systems.com/",
 "role": "ракеты, ПВО, C-UAS",
 "reg": true,
@@ -1208,7 +1208,7 @@
 "kind": "company",
 "country": "Германия",
 "src": "реестр",
-"n": 171,
+"n": 174,
 "url": "https://quantum-systems.com/",
 "role": "разведывательные БЛА (Vector)",
 "reg": true,
@@ -1220,7 +1220,7 @@
 "kind": "company",
 "country": "Германия",
 "src": "реестр",
-"n": 224,
+"n": 230,
 "url": "https://www.rheinmetall.com/",
 "role": "прайм: ПВО (Skynex), C-UAS, БЛА, боеприпасы; в Украине — СП Rheinmetall Ukrainian Defense Industry LLC (51% через Rheinmetall Landsysteme GmbH)",
 "reg": true,
@@ -1328,7 +1328,7 @@
 "kind": "company",
 "country": "Франция",
 "src": "реестр",
-"n": 221,
+"n": 222,
 "url": "https://www.thalesgroup.com/",
 "role": "прайм: радары, C-UAS, связь, навигация",
 "reg": true,
@@ -1364,7 +1364,7 @@
 "kind": "company",
 "country": "Польша",
 "src": "реестр",
-"n": 64,
+"n": 65,
 "url": "https://www.wbgroup.pl/en/",
 "role": "БЛА и барражирующие боеприпасы (FlyEye, Warmate и линейки группы)",
 "reg": true,
@@ -1388,7 +1388,7 @@
 "kind": "company",
 "country": "Турция",
 "src": "реестр",
-"n": 106,
+"n": 109,
 "url": "https://www.aselsan.com/en",
 "role": "электроника ВПК: РЭБ, БЛА, C-UAS",
 "reg": true,
@@ -1412,7 +1412,7 @@
 "kind": "company",
 "country": "Турция",
 "src": "реестр",
-"n": 511,
+"n": 518,
 "url": "https://baykartech.com/",
 "role": "ударные БЛА (Bayraktar TB2, Akıncı)",
 "reg": true,
@@ -1424,7 +1424,7 @@
 "kind": "company",
 "country": "Китай",
 "src": "реестр",
-"n": 3785,
+"n": 3790,
 "url": "https://www.dji.com/",
 "role": "гражданские БЛА (массово применяются в армиях)",
 "reg": true,
@@ -1436,7 +1436,7 @@
 "kind": "company",
 "country": "Израиль",
 "src": "реестр",
-"n": 130,
+"n": 131,
 "url": "https://elbitsystems.com/",
 "role": "БЛА, РЭБ, C-UAS",
 "reg": true,
@@ -1520,7 +1520,7 @@
 "kind": "company",
 "country": "Турция",
 "src": "реестр",
-"n": 61,
+"n": 62,
 "url": "https://www.tusas.com/",
 "role": "авиация, БЛА (Anka)",
 "reg": true,
@@ -2612,7 +2612,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 1,
+"n": 2,
 "url": "",
 "role": "",
 "reg": false,
@@ -3020,7 +3020,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 1,
+"n": 2,
 "url": "",
 "role": "",
 "reg": false,
@@ -3341,6 +3341,18 @@
 {
 "id": "c:ent_3dea2c55570273c0",
 "label": "Beyond Defense",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 0
+},
+{
+"id": "c:ent_ea7b28c71ef5ef86",
+"label": "Billion Defense",
 "kind": "company",
 "country": "",
 "src": "контур",
@@ -3817,6 +3829,18 @@
 "role": "",
 "reg": false,
 "deg": 0
+},
+{
+"id": "c:ent_54d50937673e6f36",
+"label": "Contracts Ranging From Sonar Systems",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 1
 },
 {
 "id": "c:ent_8ff0140320ac838b",
@@ -4724,7 +4748,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 2,
+"n": 3,
 "url": "",
 "role": "",
 "reg": false,
@@ -5960,7 +5984,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 3,
+"n": 4,
 "url": "",
 "role": "",
 "reg": false,
@@ -8852,7 +8876,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 76,
+"n": 80,
 "url": "",
 "role": "",
 "reg": false,
@@ -9536,7 +9560,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 77,
+"n": 78,
 "url": "",
 "role": "",
 "reg": false,
@@ -9608,7 +9632,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 8,
+"n": 9,
 "url": "",
 "role": "",
 "reg": false,
@@ -9749,6 +9773,18 @@
 {
 "id": "c:ent_12e9110987f6643a",
 "label": "US-based Imperium Defense Group",
+"kind": "company",
+"country": "",
+"src": "контур",
+"n": 1,
+"url": "",
+"role": "",
+"reg": false,
+"deg": 0
+},
+{
+"id": "c:ent_3849c9fd852e8829",
+"label": "US Counter-Drone Systems",
 "kind": "company",
 "country": "",
 "src": "контур",
@@ -11072,7 +11108,7 @@
 "kind": "company",
 "country": "",
 "src": "контур",
-"n": 1,
+"n": 2,
 "url": "",
 "role": "",
 "reg": false,
@@ -12056,7 +12092,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 181,
+"n": 187,
 "url": "",
 "role": "",
 "reg": false,
@@ -12068,7 +12104,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 192,
+"n": 195,
 "url": "",
 "role": "",
 "reg": false,
@@ -12092,7 +12128,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 86,
+"n": 87,
 "url": "",
 "role": "",
 "reg": false,
@@ -12116,7 +12152,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 264,
+"n": 266,
 "url": "",
 "role": "",
 "reg": false,
@@ -12128,7 +12164,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 1197,
+"n": 1226,
 "url": "",
 "role": "",
 "reg": false,
@@ -12152,7 +12188,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 73,
+"n": 76,
 "url": "",
 "role": "",
 "reg": false,
@@ -12188,7 +12224,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 294,
+"n": 301,
 "url": "",
 "role": "",
 "reg": false,
@@ -12212,7 +12248,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 742,
+"n": 750,
 "url": "",
 "role": "",
 "reg": false,
@@ -12236,7 +12272,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 294,
+"n": 300,
 "url": "",
 "role": "",
 "reg": false,
@@ -12260,7 +12296,7 @@
 "kind": "agency",
 "country": "",
 "src": "контур",
-"n": 93,
+"n": 94,
 "url": "",
 "role": "",
 "reg": false,
@@ -14036,7 +14072,7 @@
 "kind": "company",
 "country": "Украина",
 "src": "реестр",
-"n": 9,
+"n": 10,
 "url": "https://wildhornets.com/",
 "role": "боевые FPV-дроны (по сайту: основана весной 2023 г.; создано зарегистрированное ООО). Продукция на сайте: 10-дюймовые FPV-камикадзе и бомбардировщики, перехватчики разведывательных и ударных БЛА, перехватчик STING («designed to destroy Russian kamikaze UAVs such as Shahed, Geran, Lancet, as well as reconnaissance drones»), платформа Queen Hornet, цифровые наземные станции; по FAQ — собственные аккумуляторы («our own high-performing batteries»)",
 "reg": true,
@@ -14408,7 +14444,7 @@
 "kind": "company",
 "country": "Германия",
 "src": "реестр",
-"n": 60,
+"n": 62,
 "url": "https://wingcopter.com/",
 "role": "немецкий разработчик и производитель электрических беспилотных систем (доставка, съёмка; подразделение Wingcopter Security & Defence). 13.02.2026 — меморандум с TAF Industries о намерении создать СП для производства разведывательных БЛА TAF в Германии (по сайтам Wingcopter и TAF)",
 "reg": true,
@@ -14516,7 +14552,7 @@
 "kind": "company",
 "country": "Франция",
 "src": "реестр",
-"n": 20,
+"n": 21,
 "url": "https://www.dassault-aviation.com/",
 "role": "авиация: боевые самолёты Rafale",
 "reg": true,
@@ -15104,7 +15140,7 @@
 "kind": "external",
 "country": "Украина",
 "src": "реестр",
-"n": 32,
+"n": 33,
 "url": "",
 "role": "",
 "reg": false,
@@ -28903,7 +28939,7 @@
 "kind": "person",
 "country": "",
 "src": "контур (персона)",
-"n": 28,
+"n": 29,
 "url": "",
 "role": "",
 "reg": false,
@@ -29035,7 +29071,7 @@
 "kind": "person",
 "country": "",
 "src": "контур (персона)",
-"n": 36,
+"n": 37,
 "url": "",
 "role": "",
 "reg": false,
@@ -31324,12 +31360,17 @@
 "type": "судебный спор",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
-"url": "https://t.me/mod_russia/69397",
+"url": "https://t.me/mod_russia/69409",
 "date": "",
-"n": 23,
+"n": 24,
 "s2": -1,
 "s1": -0.3,
 "ev": [
+[
+"https://t.me/mod_russia/69409",
+"2026-11-28 17:38",
+"❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по объектам энергетической инфраструктуры и морским судам, задействованным в интересах ВСУ."
+],
 [
 "https://t.me/mod_russia/69397",
 "2026-11-28 08:53",
@@ -31349,11 +31390,6 @@
 "https://t.me/mod_russia/69323",
 "2026-11-25 17:37",
 "❗️ Сегодня днем Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по объектам энергетики и логистической инфраструктуре, а также морским судам, задействованным в интересах ВСУ."
-],
-[
-"https://t.me/mod_russia/69315",
-"2026-11-25 08:12",
-"❗️ Сегодня ночью Вооруженными Силами Российской Федерации нанесены удары беспилотными летательными аппаратами по объектам транспортной инфраструктуры и военной промышленности, а также морским судам, задействованным в интересах ВСУ."
 ]
 ],
 "oi": [
@@ -31462,7 +31498,7 @@
 "d1": "2026-11-23"
 },
 {
-"id": "ctr:76",
+"id": "ctr:77",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_470885ea93d65177",
 "type": "контракт",
@@ -31509,7 +31545,7 @@
 "d1": "2026-11-26"
 },
 {
-"id": "ctr:88",
+"id": "ctr:89",
 "s": "boeing",
 "t": "c:ent_7902a5283b8ea891",
 "type": "контракт",
@@ -31556,7 +31592,7 @@
 "d1": "2026-11-27"
 },
 {
-"id": "ctr:96",
+"id": "ctr:97",
 "s": "c:ent_ed88ced226e6c399",
 "t": "c:ent_e66a2be7fe38d473",
 "type": "поставка",
@@ -31598,7 +31634,7 @@
 "d1": "2026-11-21"
 },
 {
-"id": "ctr:137",
+"id": "ctr:138",
 "s": "boeing",
 "t": "c:ent_7902a5283b8ea891",
 "type": "поставка",
@@ -31639,7 +31675,7 @@
 "d1": "2026-11-27"
 },
 {
-"id": "ctr:153",
+"id": "ctr:154",
 "s": "lockheed",
 "t": "c:ent_801f9ef8848ff36b",
 "type": "контракт",
@@ -31675,7 +31711,7 @@
 "d1": "2026-11-09"
 },
 {
-"id": "ctr:157",
+"id": "ctr:158",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_c4d02534cbe847ba",
 "type": "контракт",
@@ -31712,7 +31748,7 @@
 "d1": "2026-11-12"
 },
 {
-"id": "ctr:164",
+"id": "ctr:165",
 "s": "elbit",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "контракт",
@@ -31747,7 +31783,7 @@
 "d1": "2026-11-13"
 },
 {
-"id": "ctr:172",
+"id": "ctr:173",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_c4d02534cbe847ba",
 "type": "опровержение",
@@ -31782,7 +31818,7 @@
 "d1": "2026-11-16"
 },
 {
-"id": "ctr:179",
+"id": "ctr:180",
 "s": "rheinmetall",
 "t": "c:ent_7af60e51312772aa",
 "type": "поставка",
@@ -31817,7 +31853,7 @@
 "d1": "2026-08-15"
 },
 {
-"id": "ctr:183",
+"id": "ctr:184",
 "s": "aerovironment",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "контракт",
@@ -31852,7 +31888,7 @@
 "d1": "2026-07-31"
 },
 {
-"id": "ctr:190",
+"id": "ctr:191",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_ed88ced226e6c399",
 "type": "поставка",
@@ -31887,7 +31923,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:197",
+"id": "ctr:198",
 "s": "dji",
 "t": "autel",
 "type": "подтверждение",
@@ -32235,7 +32271,7 @@
 "d1": "2026-11-23"
 },
 {
-"id": "ctr:287",
+"id": "ctr:288",
 "s": "bae",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "контракт",
@@ -32270,7 +32306,7 @@
 "d1": "2026-11-27"
 },
 {
-"id": "ctr:291",
+"id": "ctr:292",
 "s": "dji",
 "t": "c:ent_7af60e51312772aa",
 "type": "контракт",
@@ -32299,7 +32335,7 @@
 "d1": "2026-11-11"
 },
 {
-"id": "ctr:295",
+"id": "ctr:296",
 "s": "dji",
 "t": "c:ent_9356a3211e4bbc88",
 "type": "контракт",
@@ -32328,7 +32364,7 @@
 "d1": "2026-11-11"
 },
 {
-"id": "ctr:296",
+"id": "ctr:297",
 "s": "c:ent_7af60e51312772aa",
 "t": "c:ent_9356a3211e4bbc88",
 "type": "контракт",
@@ -32357,7 +32393,7 @@
 "d1": "2026-11-11"
 },
 {
-"id": "ctr:305",
+"id": "ctr:306",
 "s": "l3harris",
 "t": "leidos",
 "type": "контракт",
@@ -32387,39 +32423,9 @@
 "d1": "2026-11-11"
 },
 {
-"id": "ctr:306",
-"s": "l3harris",
-"t": "leonardo",
-"type": "контракт",
-"g": "контур",
-"basis": "цитаты из материалов (контур)",
-"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
-"date": "",
-"n": 1,
-"s2": 1,
-"s1": 0.3,
-"ev": [
-[
-"https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
-"2026-11-11 02:43",
-"” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
-]
-],
-"oi": [
-"Д2"
-],
-"sp": [
-"БПЛА",
-"бронетехника"
-],
-"nd": 1,
-"d0": "2026-11-11",
-"d1": "2026-11-11"
-},
-{
 "id": "ctr:307",
 "s": "l3harris",
-"t": "c:ent_d33305be0f474b61",
+"t": "leonardo",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -32449,7 +32455,7 @@
 {
 "id": "ctr:308",
 "s": "l3harris",
-"t": "c:ent_b9f675a508d4b13c",
+"t": "c:ent_d33305be0f474b61",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -32478,8 +32484,8 @@
 },
 {
 "id": "ctr:309",
-"s": "leidos",
-"t": "leonardo",
+"s": "l3harris",
+"t": "c:ent_b9f675a508d4b13c",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -32509,7 +32515,7 @@
 {
 "id": "ctr:310",
 "s": "leidos",
-"t": "c:ent_d33305be0f474b61",
+"t": "leonardo",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -32539,7 +32545,7 @@
 {
 "id": "ctr:311",
 "s": "leidos",
-"t": "c:ent_b9f675a508d4b13c",
+"t": "c:ent_d33305be0f474b61",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -32568,8 +32574,8 @@
 },
 {
 "id": "ctr:312",
-"s": "leonardo",
-"t": "c:ent_d33305be0f474b61",
+"s": "leidos",
+"t": "c:ent_b9f675a508d4b13c",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -32599,7 +32605,7 @@
 {
 "id": "ctr:313",
 "s": "leonardo",
-"t": "c:ent_b9f675a508d4b13c",
+"t": "c:ent_d33305be0f474b61",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -32628,6 +32634,36 @@
 },
 {
 "id": "ctr:314",
+"s": "leonardo",
+"t": "c:ent_b9f675a508d4b13c",
+"type": "контракт",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"date": "",
+"n": 1,
+"s2": 1,
+"s1": 0.3,
+"ev": [
+[
+"https://twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+"2026-11-11 02:43",
+"” Several defense contractors – L3Harris , Leidos , Leonardo DRS , MDH Strategic Services , Moog , MSI Defense Solutions , SAIC , and the Sierra Nevada Corporation (SNC), to name a few – have already publicly shown relevant designs."
+]
+],
+"oi": [
+"Д2"
+],
+"sp": [
+"БПЛА",
+"бронетехника"
+],
+"nd": 1,
+"d0": "2026-11-11",
+"d1": "2026-11-11"
+},
+{
+"id": "ctr:315",
 "s": "c:ent_d33305be0f474b61",
 "t": "c:ent_b9f675a508d4b13c",
 "type": "контракт",
@@ -32657,7 +32693,7 @@
 "d1": "2026-11-11"
 },
 {
-"id": "ctr:318",
+"id": "ctr:319",
 "s": "rtx",
 "t": "kongsberg",
 "type": "принадлежность",
@@ -32688,7 +32724,7 @@
 "d1": "2026-11-10"
 },
 {
-"id": "ctr:321",
+"id": "ctr:322",
 "s": "c:ent_cd3c86a3a1af0b40",
 "t": "c:ent_766676b165f94672",
 "type": "принадлежность",
@@ -32717,7 +32753,7 @@
 "d1": "2026-11-10"
 },
 {
-"id": "ctr:324",
+"id": "ctr:325",
 "s": "ga-asi",
 "t": "anduril",
 "type": "контракт",
@@ -32746,7 +32782,7 @@
 "d1": "2026-11-10"
 },
 {
-"id": "ctr:331",
+"id": "ctr:332",
 "s": "c:ent_f7a9f659b73e4140",
 "t": "shahed",
 "type": "санкции",
@@ -32775,7 +32811,7 @@
 "d1": "2026-11-09"
 },
 {
-"id": "ctr:336",
+"id": "ctr:337",
 "s": "c:ent_0c7791d169d924d7",
 "t": "c:ent_ed88ced226e6c399",
 "type": "поставка",
@@ -32805,7 +32841,7 @@
 "d1": "2026-11-06"
 },
 {
-"id": "ctr:353",
+"id": "ctr:354",
 "s": "leonardo",
 "t": "baykar",
 "type": "подтверждение",
@@ -32834,7 +32870,7 @@
 "d1": "2026-10-20"
 },
 {
-"id": "ctr:354",
+"id": "ctr:355",
 "s": "leonardo",
 "t": "c:ent_d9bfb74312e4d072",
 "type": "подтверждение",
@@ -32863,7 +32899,7 @@
 "d1": "2026-10-20"
 },
 {
-"id": "ctr:357",
+"id": "ctr:358",
 "s": "baykar",
 "t": "c:ent_d9bfb74312e4d072",
 "type": "подтверждение",
@@ -32892,7 +32928,7 @@
 "d1": "2026-10-20"
 },
 {
-"id": "ctr:365",
+"id": "ctr:366",
 "s": "rtx",
 "t": "c:ent_fa323d4f8a738909",
 "type": "контракт",
@@ -32921,37 +32957,8 @@
 "d1": "2026-10-14"
 },
 {
-"id": "ctr:372",
-"s": "boeing",
-"t": "c:ent_9645ce799b9cf1d7",
-"type": "участие в программе",
-"g": "контур",
-"basis": "цитаты из материалов (контур)",
-"url": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program",
-"date": "",
-"n": 1,
-"s2": 0,
-"s1": 0.0,
-"ev": [
-[
-"https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program",
-"2026-10-06 00:51",
-"AeroVironment, Epirus, Kord and Boeing were selected for JIATF-401’s pilot program."
-]
-],
-"oi": [
-"Б2"
-],
-"sp": [
-"БПЛА"
-],
-"nd": 1,
-"d0": "2026-10-06",
-"d1": "2026-10-06"
-},
-{
 "id": "ctr:373",
-"s": "aerovironment",
+"s": "boeing",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "участие в программе",
 "g": "контур",
@@ -32980,6 +32987,35 @@
 },
 {
 "id": "ctr:374",
+"s": "aerovironment",
+"t": "c:ent_9645ce799b9cf1d7",
+"type": "участие в программе",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program",
+"date": "",
+"n": 1,
+"s2": 0,
+"s1": 0.0,
+"ev": [
+[
+"https://breakingdefense.com/2026/10/pentagon-picks-4-vendors-for-counter-drone-directed-energy-pilot-program",
+"2026-10-06 00:51",
+"AeroVironment, Epirus, Kord and Boeing were selected for JIATF-401’s pilot program."
+]
+],
+"oi": [
+"Б2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-10-06",
+"d1": "2026-10-06"
+},
+{
+"id": "ctr:375",
 "s": "epirus",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "участие в программе",
@@ -33008,7 +33044,7 @@
 "d1": "2026-10-06"
 },
 {
-"id": "ctr:383",
+"id": "ctr:384",
 "s": "palantir",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -33037,7 +33073,7 @@
 "d1": "2026-09-25"
 },
 {
-"id": "ctr:385",
+"id": "ctr:386",
 "s": "c:ent_89f73c39ec19ab56",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -33066,7 +33102,7 @@
 "d1": "2026-09-25"
 },
 {
-"id": "ctr:408",
+"id": "ctr:409",
 "s": "c:ent_ed78412afb1afa65",
 "t": "c:ent_2a8c6aa1b2cdb6ad",
 "type": "принадлежность",
@@ -33095,7 +33131,7 @@
 "d1": "2026-11-04"
 },
 {
-"id": "ctr:409",
+"id": "ctr:410",
 "s": "c:ent_ed78412afb1afa65",
 "t": "c:ent_4d325a4683a443c7",
 "type": "контракт",
@@ -33124,7 +33160,7 @@
 "d1": "2026-11-04"
 },
 {
-"id": "ctr:415",
+"id": "ctr:416",
 "s": "rtx",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -33153,7 +33189,7 @@
 "d1": "2026-11-10"
 },
 {
-"id": "ctr:416",
+"id": "ctr:417",
 "s": "kongsberg",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -33182,7 +33218,7 @@
 "d1": "2026-11-10"
 },
 {
-"id": "ctr:433",
+"id": "ctr:434",
 "s": "lockheed",
 "t": "c:ent_3a4f8a243d6bec16",
 "type": "контракт",
@@ -33211,7 +33247,7 @@
 "d1": "2026-10-06"
 },
 {
-"id": "ctr:435",
+"id": "ctr:436",
 "s": "boeing",
 "t": "c:ent_c9797c9635450715",
 "type": "контракт",
@@ -33240,7 +33276,7 @@
 "d1": "2026-10-05"
 },
 {
-"id": "ctr:440",
+"id": "ctr:441",
 "s": "lockheed",
 "t": "c:ent_7902a5283b8ea891",
 "type": "контракт",
@@ -33269,7 +33305,7 @@
 "d1": "2026-09-21"
 },
 {
-"id": "ctr:466",
+"id": "ctr:467",
 "s": "northrop",
 "t": "c:ent_7902a5283b8ea891",
 "type": "подтверждение",
@@ -33298,7 +33334,7 @@
 "d1": "2026-11-13"
 },
 {
-"id": "ctr:484",
+"id": "ctr:485",
 "s": "leidos",
 "t": "bae",
 "type": "контракт",
@@ -33327,7 +33363,7 @@
 "d1": "2026-11-14"
 },
 {
-"id": "ctr:507",
+"id": "ctr:508",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "контракт",
@@ -33356,7 +33392,7 @@
 "d1": "2026-11-12"
 },
 {
-"id": "ctr:517",
+"id": "ctr:518",
 "s": "c:ent_ed88ced226e6c399",
 "t": "c:ent_7af60e51312772aa",
 "type": "подтверждение",
@@ -33385,7 +33421,7 @@
 "d1": "2026-09-19"
 },
 {
-"id": "ctr:521",
+"id": "ctr:522",
 "s": "c:ent_cd3c86a3a1af0b40",
 "t": "c:ent_819600c55241241c",
 "type": "принадлежность",
@@ -33415,7 +33451,7 @@
 "d1": "2026-09-15"
 },
 {
-"id": "ctr:525",
+"id": "ctr:526",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_8badfe3d72e8864a",
 "type": "контракт",
@@ -33444,7 +33480,7 @@
 "d1": "2026-09-13"
 },
 {
-"id": "ctr:527",
+"id": "ctr:528",
 "s": "teledyne-flir",
 "t": "c:ent_2abb6a5383b94ad4",
 "type": "принадлежность",
@@ -33473,7 +33509,7 @@
 "d1": "2026-09-12"
 },
 {
-"id": "ctr:533",
+"id": "ctr:534",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_7902a5283b8ea891",
 "type": "контракт",
@@ -33502,7 +33538,7 @@
 "d1": "2026-09-01"
 },
 {
-"id": "ctr:545",
+"id": "ctr:546",
 "s": "brave1",
 "t": "c:ent_03a53622e9dcb143",
 "type": "контракт",
@@ -33531,7 +33567,7 @@
 "d1": "2026-08-15"
 },
 {
-"id": "ctr:551",
+"id": "ctr:552",
 "s": "kratos",
 "t": "c:ent_36bf4065a839253e",
 "type": "контракт",
@@ -33561,7 +33597,7 @@
 "d1": "2026-07-29"
 },
 {
-"id": "ctr:583",
+"id": "ctr:584",
 "s": "c:ent_0c7791d169d924d7",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "санкции",
@@ -33590,7 +33626,7 @@
 "d1": "2026-06-24"
 },
 {
-"id": "ctr:586",
+"id": "ctr:587",
 "s": "c:ent_ed88ced226e6c399",
 "t": "c:ent_a02f859093a4e63a",
 "type": "поставка",
@@ -33619,7 +33655,7 @@
 "d1": "2026-06-15"
 },
 {
-"id": "ctr:588",
+"id": "ctr:589",
 "s": "c:ent_e66a2be7fe38d473",
 "t": "c:ent_a02f859093a4e63a",
 "type": "поставка",
@@ -33648,7 +33684,7 @@
 "d1": "2026-06-15"
 },
 {
-"id": "ctr:593",
+"id": "ctr:594",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_f4e5cdf90f9d5be9",
 "type": "контракт",
@@ -33677,7 +33713,7 @@
 "d1": "2026-06-06"
 },
 {
-"id": "ctr:604",
+"id": "ctr:605",
 "s": "c:ent_e66a2be7fe38d473",
 "t": "c:ent_f7a9f659b73e4140",
 "type": "подтверждение",
@@ -33706,7 +33742,7 @@
 "d1": "2026-05-22"
 },
 {
-"id": "ctr:612",
+"id": "ctr:613",
 "s": "rheinmetall",
 "t": "c:ent_7af60e51312772aa",
 "type": "контракт",
@@ -33735,7 +33771,7 @@
 "d1": "2026-05-05"
 },
 {
-"id": "ctr:613",
+"id": "ctr:614",
 "s": "lockheed",
 "t": "c:ent_858ae74c4b9cafc3",
 "type": "контракт",
@@ -33765,7 +33801,7 @@
 "d1": "2026-04-30"
 },
 {
-"id": "ctr:615",
+"id": "ctr:616",
 "s": "c:ent_858ae74c4b9cafc3",
 "t": "c:ent_801f9ef8848ff36b",
 "type": "контракт",
@@ -33795,7 +33831,7 @@
 "d1": "2026-04-30"
 },
 {
-"id": "ctr:620",
+"id": "ctr:621",
 "s": "airbus-ds",
 "t": "c:ent_c9797c9635450715",
 "type": "поставка",
@@ -33825,7 +33861,7 @@
 "d1": "2026-04-27"
 },
 {
-"id": "ctr:627",
+"id": "ctr:628",
 "s": "elbit",
 "t": "c:ent_25c2298a7dbeaf0d",
 "type": "принадлежность",
@@ -33855,7 +33891,7 @@
 "d1": "2026-04-24"
 },
 {
-"id": "ctr:630",
+"id": "ctr:631",
 "s": "anduril",
 "t": "c:ent_c9797c9635450715",
 "type": "судебный спор",
@@ -33884,37 +33920,8 @@
 "d1": "2026-04-22"
 },
 {
-"id": "ctr:631",
-"s": "anduril",
-"t": "c:ent_c29cc83181a40db6",
-"type": "судебный спор",
-"g": "контур",
-"basis": "цитаты из материалов (контур)",
-"url": "https://t.me/news_UAV/4991",
-"date": "",
-"n": 1,
-"s2": 0,
-"s1": -0.2,
-"ev": [
-[
-"https://t.me/news_UAV/4991",
-"2026-04-22 08:34",
-"Компании Anduril Industries и Kraken Technology Group объявили о партнерстве в области разработки и производства беспилотных надводных судов для ВМС США и их союзников"
-]
-],
-"oi": [
-"В1"
-],
-"sp": [
-"БПЛА"
-],
-"nd": 1,
-"d0": "2026-04-22",
-"d1": "2026-04-22"
-},
-{
 "id": "ctr:632",
-"s": "c:ent_c9797c9635450715",
+"s": "anduril",
 "t": "c:ent_c29cc83181a40db6",
 "type": "судебный спор",
 "g": "контур",
@@ -33943,6 +33950,35 @@
 },
 {
 "id": "ctr:633",
+"s": "c:ent_c9797c9635450715",
+"t": "c:ent_c29cc83181a40db6",
+"type": "судебный спор",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://t.me/news_UAV/4991",
+"date": "",
+"n": 1,
+"s2": 0,
+"s1": -0.2,
+"ev": [
+[
+"https://t.me/news_UAV/4991",
+"2026-04-22 08:34",
+"Компании Anduril Industries и Kraken Technology Group объявили о партнерстве в области разработки и производства беспилотных надводных судов для ВМС США и их союзников"
+]
+],
+"oi": [
+"В1"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-04-22",
+"d1": "2026-04-22"
+},
+{
+"id": "ctr:634",
 "s": "anduril",
 "t": "c:ent_c9797c9635450715",
 "type": "поставка",
@@ -33971,7 +34007,7 @@
 "d1": "2026-04-22"
 },
 {
-"id": "ctr:636",
+"id": "ctr:637",
 "s": "c:ent_0b8c3ab9e846ccf4",
 "t": "c:ent_f8e8299b001c3ff1",
 "type": "принадлежность",
@@ -34000,7 +34036,7 @@
 "d1": "2026-04-16"
 },
 {
-"id": "ctr:637",
+"id": "ctr:638",
 "s": "c:ent_72167ac7999f6b9e",
 "t": "c:ent_ed88ced226e6c399",
 "type": "поставка",
@@ -34029,7 +34065,7 @@
 "d1": "2026-04-15"
 },
 {
-"id": "ctr:655",
+"id": "ctr:656",
 "s": "helsing",
 "t": "c:ent_ed88ced226e6c399",
 "type": "поставка",
@@ -34059,7 +34095,7 @@
 "d1": "2026-03-12"
 },
 {
-"id": "ctr:662",
+"id": "ctr:663",
 "s": "eda",
 "t": "airbus-ds",
 "type": "принадлежность",
@@ -34089,7 +34125,7 @@
 "d1": "2026-03-06"
 },
 {
-"id": "ctr:672",
+"id": "ctr:673",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_c4d02534cbe847ba",
 "type": "принадлежность",
@@ -34118,7 +34154,7 @@
 "d1": "2026-02-17"
 },
 {
-"id": "ctr:678",
+"id": "ctr:679",
 "s": "brave1",
 "t": "c:ent_f85d81c079dddcf9",
 "type": "разработка",
@@ -34147,7 +34183,7 @@
 "d1": "2026-02-03"
 },
 {
-"id": "ctr:693",
+"id": "ctr:694",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "replicator",
 "type": "контракт",
@@ -34176,7 +34212,7 @@
 "d1": "2026-01-16"
 },
 {
-"id": "ctr:699",
+"id": "ctr:700",
 "s": "dji",
 "t": "autel",
 "type": "контракт",
@@ -34205,7 +34241,7 @@
 "d1": "2026-01-11"
 },
 {
-"id": "ctr:701",
+"id": "ctr:702",
 "s": "c:ent_45d3c16a384ac094",
 "t": "c:ent_cdf13596f9c1d48f",
 "type": "принадлежность",
@@ -34234,7 +34270,7 @@
 "d1": "2026-01-07"
 },
 {
-"id": "ctr:711",
+"id": "ctr:712",
 "s": "tekever",
 "t": "c:ent_5f6783ae9ec5d78b",
 "type": "контракт",
@@ -34263,7 +34299,7 @@
 "d1": "2026-11-15"
 },
 {
-"id": "ctr:718",
+"id": "ctr:719",
 "s": "northrop",
 "t": "c:ent_7902a5283b8ea891",
 "type": "контракт",
@@ -34292,7 +34328,7 @@
 "d1": "2026-11-15"
 },
 {
-"id": "ctr:726",
+"id": "ctr:727",
 "s": "bae",
 "t": "echodyne",
 "type": "контракт",
@@ -34321,7 +34357,7 @@
 "d1": "2026-11-16"
 },
 {
-"id": "ctr:727",
+"id": "ctr:728",
 "s": "bae",
 "t": "echodyne",
 "type": "подтверждение",
@@ -34350,7 +34386,7 @@
 "d1": "2026-11-16"
 },
 {
-"id": "ctr:739",
+"id": "ctr:740",
 "s": "boeing",
 "t": "embraer",
 "type": "контракт",
@@ -34379,7 +34415,7 @@
 "d1": "2026-11-16"
 },
 {
-"id": "ctr:743",
+"id": "ctr:744",
 "s": "c:ent_801f9ef8848ff36b",
 "t": "c:ent_4a617641aad56d85",
 "type": "принадлежность",
@@ -34408,7 +34444,7 @@
 "d1": "2026-11-16"
 },
 {
-"id": "ctr:764",
+"id": "ctr:765",
 "s": "lockheed",
 "t": "aerovironment",
 "type": "принадлежность",
@@ -34437,38 +34473,9 @@
 "d1": "2026-11-16"
 },
 {
-"id": "ctr:765",
-"s": "lockheed",
-"t": "acs",
-"type": "принадлежность",
-"g": "контур",
-"basis": "цитаты из материалов (контур)",
-"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
-"date": "",
-"n": 1,
-"s2": 0,
-"s1": 0.0,
-"ev": [
-[
-"https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
-"2026-11-16 20:58",
-"According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
-]
-],
-"oi": [
-"В2"
-],
-"sp": [
-"БПЛА"
-],
-"nd": 1,
-"d0": "2026-11-16",
-"d1": "2026-11-16"
-},
-{
 "id": "ctr:766",
 "s": "lockheed",
-"t": "c:ent_b0bba4c8f275ffd0",
+"t": "acs",
 "type": "принадлежность",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -34497,7 +34504,7 @@
 {
 "id": "ctr:767",
 "s": "lockheed",
-"t": "c:ent_1b51d8528a19c285",
+"t": "c:ent_b0bba4c8f275ffd0",
 "type": "принадлежность",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -34526,7 +34533,7 @@
 {
 "id": "ctr:768",
 "s": "lockheed",
-"t": "c:ent_0a42b13c39536e51",
+"t": "c:ent_1b51d8528a19c285",
 "type": "принадлежность",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -34555,7 +34562,7 @@
 {
 "id": "ctr:769",
 "s": "lockheed",
-"t": "c:ent_5c9f10c24f38507c",
+"t": "c:ent_0a42b13c39536e51",
 "type": "принадлежность",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -34583,8 +34590,8 @@
 },
 {
 "id": "ctr:770",
-"s": "aerovironment",
-"t": "acs",
+"s": "lockheed",
+"t": "c:ent_5c9f10c24f38507c",
 "type": "принадлежность",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -34613,7 +34620,7 @@
 {
 "id": "ctr:771",
 "s": "aerovironment",
-"t": "c:ent_b0bba4c8f275ffd0",
+"t": "acs",
 "type": "принадлежность",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -34642,7 +34649,7 @@
 {
 "id": "ctr:772",
 "s": "aerovironment",
-"t": "c:ent_1b51d8528a19c285",
+"t": "c:ent_b0bba4c8f275ffd0",
 "type": "принадлежность",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -34671,7 +34678,7 @@
 {
 "id": "ctr:773",
 "s": "aerovironment",
-"t": "c:ent_0a42b13c39536e51",
+"t": "c:ent_1b51d8528a19c285",
 "type": "принадлежность",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -34700,7 +34707,7 @@
 {
 "id": "ctr:774",
 "s": "aerovironment",
-"t": "c:ent_5c9f10c24f38507c",
+"t": "c:ent_0a42b13c39536e51",
 "type": "принадлежность",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -34728,8 +34735,8 @@
 },
 {
 "id": "ctr:775",
-"s": "acs",
-"t": "c:ent_b0bba4c8f275ffd0",
+"s": "aerovironment",
+"t": "c:ent_5c9f10c24f38507c",
 "type": "принадлежность",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -34758,7 +34765,7 @@
 {
 "id": "ctr:776",
 "s": "acs",
-"t": "c:ent_1b51d8528a19c285",
+"t": "c:ent_b0bba4c8f275ffd0",
 "type": "принадлежность",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -34787,7 +34794,7 @@
 {
 "id": "ctr:777",
 "s": "acs",
-"t": "c:ent_0a42b13c39536e51",
+"t": "c:ent_1b51d8528a19c285",
 "type": "принадлежность",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -34816,7 +34823,7 @@
 {
 "id": "ctr:778",
 "s": "acs",
-"t": "c:ent_5c9f10c24f38507c",
+"t": "c:ent_0a42b13c39536e51",
 "type": "принадлежность",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -34844,8 +34851,8 @@
 },
 {
 "id": "ctr:779",
-"s": "c:ent_b0bba4c8f275ffd0",
-"t": "c:ent_1b51d8528a19c285",
+"s": "acs",
+"t": "c:ent_5c9f10c24f38507c",
 "type": "принадлежность",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -34874,7 +34881,7 @@
 {
 "id": "ctr:780",
 "s": "c:ent_b0bba4c8f275ffd0",
-"t": "c:ent_0a42b13c39536e51",
+"t": "c:ent_1b51d8528a19c285",
 "type": "принадлежность",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -34903,7 +34910,7 @@
 {
 "id": "ctr:781",
 "s": "c:ent_b0bba4c8f275ffd0",
-"t": "c:ent_5c9f10c24f38507c",
+"t": "c:ent_0a42b13c39536e51",
 "type": "принадлежность",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -34931,8 +34938,8 @@
 },
 {
 "id": "ctr:782",
-"s": "c:ent_1b51d8528a19c285",
-"t": "c:ent_0a42b13c39536e51",
+"s": "c:ent_b0bba4c8f275ffd0",
+"t": "c:ent_5c9f10c24f38507c",
 "type": "принадлежность",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -34961,7 +34968,7 @@
 {
 "id": "ctr:783",
 "s": "c:ent_1b51d8528a19c285",
-"t": "c:ent_5c9f10c24f38507c",
+"t": "c:ent_0a42b13c39536e51",
 "type": "принадлежность",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -34989,6 +34996,35 @@
 },
 {
 "id": "ctr:784",
+"s": "c:ent_1b51d8528a19c285",
+"t": "c:ent_5c9f10c24f38507c",
+"type": "принадлежность",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"date": "",
+"n": 1,
+"s2": 0,
+"s1": 0.0,
+"ev": [
+[
+"https://defensescoop.com/2026/11/16/counter-drone-high-energy-laser-shoot-off",
+"2026-11-16 20:58",
+"According to a Pentagon press release issued Monday, the companies and systems tapped to participate in the phase 2 directed energy “shoot-off” against live targets include Allen Control Systems’ Bullfrog HEL, Aurelius Systems’ Archimedes, "
+]
+],
+"oi": [
+"В2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-16",
+"d1": "2026-11-16"
+},
+{
+"id": "ctr:785",
 "s": "c:ent_0a42b13c39536e51",
 "t": "c:ent_5c9f10c24f38507c",
 "type": "принадлежность",
@@ -35017,7 +35053,7 @@
 "d1": "2026-11-16"
 },
 {
-"id": "ctr:799",
+"id": "ctr:800",
 "s": "elbit",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -35046,7 +35082,7 @@
 "d1": "2026-11-17"
 },
 {
-"id": "ctr:801",
+"id": "ctr:802",
 "s": "safran",
 "t": "mbda",
 "type": "контракт",
@@ -35076,7 +35112,7 @@
 "d1": "2026-11-17"
 },
 {
-"id": "ctr:803",
+"id": "ctr:804",
 "s": "c:ent_fa323d4f8a738909",
 "t": "c:ent_b2b169b36c0f8f49",
 "type": "контракт",
@@ -35105,7 +35141,7 @@
 "d1": "2026-11-11"
 },
 {
-"id": "ctr:808",
+"id": "ctr:809",
 "s": "c:ent_f7a9f659b73e4140",
 "t": "c:ent_a02f859093a4e63a",
 "type": "поставка",
@@ -35134,7 +35170,7 @@
 "d1": "2026-11-17"
 },
 {
-"id": "ctr:823",
+"id": "ctr:824",
 "s": "brave1",
 "t": "c:ent_b232eefe72a1cd09",
 "type": "контракт",
@@ -35163,7 +35199,7 @@
 "d1": "2026-11-16"
 },
 {
-"id": "ctr:824",
+"id": "ctr:825",
 "s": "threod",
 "t": "c:ent_4382237214ff7a25",
 "type": "контракт",
@@ -35192,7 +35228,7 @@
 "d1": "2026-11-15"
 },
 {
-"id": "ctr:825",
+"id": "ctr:826",
 "s": "threod",
 "t": "threod",
 "type": "контракт",
@@ -35221,7 +35257,7 @@
 "d1": "2026-11-15"
 },
 {
-"id": "ctr:826",
+"id": "ctr:827",
 "s": "c:ent_4382237214ff7a25",
 "t": "threod",
 "type": "контракт",
@@ -35250,7 +35286,7 @@
 "d1": "2026-11-15"
 },
 {
-"id": "ctr:830",
+"id": "ctr:831",
 "s": "uvision",
 "t": "c:ent_fa323d4f8a738909",
 "type": "поставка",
@@ -35279,7 +35315,7 @@
 "d1": "2026-11-17"
 },
 {
-"id": "ctr:835",
+"id": "ctr:836",
 "s": "airbus-ds",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "принадлежность",
@@ -35308,7 +35344,7 @@
 "d1": "2026-11-17"
 },
 {
-"id": "ctr:860",
+"id": "ctr:861",
 "s": "c:ent_bfe1a5bf0e0a39b9",
 "t": "c:ent_f3d3d600ae9493a3",
 "type": "принадлежность",
@@ -35337,7 +35373,7 @@
 "d1": "2026-11-17"
 },
 {
-"id": "ctr:861",
+"id": "ctr:862",
 "s": "northrop",
 "t": "c:ent_3ccdd1377cf91b5a",
 "type": "принадлежность",
@@ -35368,7 +35404,7 @@
 "d1": "2026-11-17"
 },
 {
-"id": "ctr:873",
+"id": "ctr:874",
 "s": "wb-group",
 "t": "c:ent_47b0c61b21394ed8",
 "type": "принадлежность",
@@ -35398,7 +35434,7 @@
 "d1": "2026-11-18"
 },
 {
-"id": "ctr:888",
+"id": "ctr:889",
 "s": "anduril",
 "t": "c:ent_7902a5283b8ea891",
 "type": "контракт",
@@ -35428,7 +35464,7 @@
 "d1": "2026-11-18"
 },
 {
-"id": "ctr:898",
+"id": "ctr:899",
 "s": "diana",
 "t": "nif",
 "type": "контракт",
@@ -35457,38 +35493,9 @@
 "d1": "2026-11-18"
 },
 {
-"id": "ctr:899",
-"s": "diana",
-"t": "c:ent_cd3c86a3a1af0b40",
-"type": "контракт",
-"g": "контур",
-"basis": "цитаты из материалов (контур)",
-"url": "https://ukdefencejournal.org.uk/nato-counter-drone-marketplace-offers-24-hour-contracts",
-"date": "",
-"n": 1,
-"s2": 1,
-"s1": 0.3,
-"ev": [
-[
-"https://ukdefencejournal.org.uk/nato-counter-drone-marketplace-offers-24-hour-contracts",
-"2026-11-18 17:15",
-"” NATO responded by setting up DIANA, the Defence Innovation Accelerator for the North Atlantic, to help dual-use firms enter the defence market, and 24 allies then created the NATO Innovation Fund to back companies that might not win a con"
-]
-],
-"oi": [
-"В2"
-],
-"sp": [
-"БПЛА"
-],
-"nd": 1,
-"d0": "2026-11-18",
-"d1": "2026-11-18"
-},
-{
 "id": "ctr:900",
 "s": "diana",
-"t": "diana",
+"t": "c:ent_cd3c86a3a1af0b40",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -35516,8 +35523,8 @@
 },
 {
 "id": "ctr:901",
-"s": "nif",
-"t": "c:ent_cd3c86a3a1af0b40",
+"s": "diana",
+"t": "diana",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -35546,7 +35553,7 @@
 {
 "id": "ctr:902",
 "s": "nif",
-"t": "diana",
+"t": "c:ent_cd3c86a3a1af0b40",
 "type": "контракт",
 "g": "контур",
 "basis": "цитаты из материалов (контур)",
@@ -35574,7 +35581,7 @@
 },
 {
 "id": "ctr:903",
-"s": "c:ent_cd3c86a3a1af0b40",
+"s": "nif",
 "t": "diana",
 "type": "контракт",
 "g": "контур",
@@ -35604,6 +35611,35 @@
 {
 "id": "ctr:904",
 "s": "c:ent_cd3c86a3a1af0b40",
+"t": "diana",
+"type": "контракт",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://ukdefencejournal.org.uk/nato-counter-drone-marketplace-offers-24-hour-contracts",
+"date": "",
+"n": 1,
+"s2": 1,
+"s1": 0.3,
+"ev": [
+[
+"https://ukdefencejournal.org.uk/nato-counter-drone-marketplace-offers-24-hour-contracts",
+"2026-11-18 17:15",
+"” NATO responded by setting up DIANA, the Defence Innovation Accelerator for the North Atlantic, to help dual-use firms enter the defence market, and 24 allies then created the NATO Innovation Fund to back companies that might not win a con"
+]
+],
+"oi": [
+"В2"
+],
+"sp": [
+"БПЛА"
+],
+"nd": 1,
+"d0": "2026-11-18",
+"d1": "2026-11-18"
+},
+{
+"id": "ctr:905",
+"s": "c:ent_cd3c86a3a1af0b40",
 "t": "c:ent_fb9d115f2c2a9a7b",
 "type": "контракт",
 "g": "контур",
@@ -35631,7 +35667,7 @@
 "d1": "2026-11-18"
 },
 {
-"id": "ctr:910",
+"id": "ctr:911",
 "s": "lockheed",
 "t": "c:ent_fa323d4f8a738909",
 "type": "контракт",
@@ -35660,7 +35696,7 @@
 "d1": "2026-11-18"
 },
 {
-"id": "ctr:915",
+"id": "ctr:916",
 "s": "elbit",
 "t": "c:ent_3464f349579b9835",
 "type": "контракт",
@@ -35689,7 +35725,7 @@
 "d1": "2026-11-18"
 },
 {
-"id": "ctr:918",
+"id": "ctr:919",
 "s": "redcat",
 "t": "redcat",
 "type": "контракт",
@@ -35718,7 +35754,7 @@
 "d1": "2026-11-18"
 },
 {
-"id": "ctr:922",
+"id": "ctr:923",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_e02038d40eff00ac",
 "type": "контракт",
@@ -35747,7 +35783,7 @@
 "d1": "2026-11-18"
 },
 {
-"id": "ctr:935",
+"id": "ctr:936",
 "s": "c:ent_907c97c4addb9c0d",
 "t": "c:ent_470885ea93d65177",
 "type": "контракт",
@@ -35776,7 +35812,7 @@
 "d1": "2026-11-19"
 },
 {
-"id": "ctr:941",
+"id": "ctr:942",
 "s": "gd",
 "t": "c:ent_5eb968743a6f989d",
 "type": "контракт",
@@ -35805,7 +35841,7 @@
 "d1": "2026-11-19"
 },
 {
-"id": "ctr:943",
+"id": "ctr:944",
 "s": "elbit",
 "t": "c:ent_ee691ed5488dc7b5",
 "type": "контракт",
@@ -35834,7 +35870,7 @@
 "d1": "2026-11-19"
 },
 {
-"id": "ctr:944",
+"id": "ctr:945",
 "s": "elbit",
 "t": "c:ent_7af60e51312772aa",
 "type": "поставка",
@@ -35863,7 +35899,7 @@
 "d1": "2026-11-19"
 },
 {
-"id": "ctr:951",
+"id": "ctr:952",
 "s": "leidos",
 "t": "c:ent_fe9967ff6ef777da",
 "type": "контракт",
@@ -35892,7 +35928,7 @@
 "d1": "2026-11-19"
 },
 {
-"id": "ctr:967",
+"id": "ctr:968",
 "s": "c:ent_8512fc7d42de40f2",
 "t": "c:ent_28f1954643a07bcb",
 "type": "контракт",
@@ -35921,7 +35957,7 @@
 "d1": "2026-11-19"
 },
 {
-"id": "ctr:969",
+"id": "ctr:970",
 "s": "boeing",
 "t": "c:ent_bfe1a5bf0e0a39b9",
 "type": "контракт",
@@ -35950,7 +35986,7 @@
 "d1": "2026-11-19"
 },
 {
-"id": "ctr:970",
+"id": "ctr:971",
 "s": "boeing",
 "t": "c:ent_8512fc7d42de40f2",
 "type": "контракт",
@@ -35979,7 +36015,7 @@
 "d1": "2026-11-19"
 },
 {
-"id": "ctr:971",
+"id": "ctr:972",
 "s": "boeing",
 "t": "c:ent_28f1954643a07bcb",
 "type": "контракт",
@@ -36008,7 +36044,7 @@
 "d1": "2026-11-19"
 },
 {
-"id": "ctr:980",
+"id": "ctr:981",
 "s": "c:ent_28f1954643a07bcb",
 "t": "c:ent_8512fc7d42de40f2",
 "type": "контракт",
@@ -36037,7 +36073,7 @@
 "d1": "2026-11-20"
 },
 {
-"id": "ctr:997",
+"id": "ctr:998",
 "s": "saab",
 "t": "c:ent_0922e14a3de9eea8",
 "type": "принадлежность",
@@ -36067,7 +36103,7 @@
 "d1": "2026-11-20"
 },
 {
-"id": "ctr:1000",
+"id": "ctr:1001",
 "s": "tno",
 "t": "c:ent_7419b8d2ea33c1c7",
 "type": "принадлежность",
@@ -36096,7 +36132,7 @@
 "d1": "2026-11-20"
 },
 {
-"id": "ctr:1001",
+"id": "ctr:1002",
 "s": "tno",
 "t": "c:ent_0fe3005d2c48a27e",
 "type": "принадлежность",
@@ -36125,7 +36161,7 @@
 "d1": "2026-11-20"
 },
 {
-"id": "ctr:1002",
+"id": "ctr:1003",
 "s": "c:ent_7419b8d2ea33c1c7",
 "t": "c:ent_0fe3005d2c48a27e",
 "type": "принадлежность",
@@ -36154,7 +36190,7 @@
 "d1": "2026-11-20"
 },
 {
-"id": "ctr:1007",
+"id": "ctr:1008",
 "s": "honeywell",
 "t": "c:ent_f14a1efc77353ea8",
 "type": "принадлежность",
@@ -36183,7 +36219,7 @@
 "d1": "2026-11-20"
 },
 {
-"id": "ctr:1011",
+"id": "ctr:1012",
 "s": "quantum",
 "t": "c:ent_598710190a3df67b",
 "type": "контракт",
@@ -36212,7 +36248,7 @@
 "d1": "2026-11-20"
 },
 {
-"id": "ctr:1012",
+"id": "ctr:1013",
 "s": "dji",
 "t": "brinc",
 "type": "судебный спор",
@@ -36241,7 +36277,7 @@
 "d1": "2026-11-20"
 },
 {
-"id": "ctr:1013",
+"id": "ctr:1014",
 "s": "c:ent_4e682acf234cef87",
 "t": "c:ent_1d50112f158aabe4",
 "type": "разработка",
@@ -36270,7 +36306,7 @@
 "d1": "2026-11-20"
 },
 {
-"id": "ctr:1019",
+"id": "ctr:1020",
 "s": "skydio",
 "t": "dedrone",
 "type": "контракт",
@@ -36299,7 +36335,7 @@
 "d1": "2026-11-21"
 },
 {
-"id": "ctr:1022",
+"id": "ctr:1023",
 "s": "diana",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -36328,7 +36364,7 @@
 "d1": "2026-11-21"
 },
 {
-"id": "ctr:1023",
+"id": "ctr:1024",
 "s": "c:ent_fb9d115f2c2a9a7b",
 "t": "diana",
 "type": "поставка",
@@ -36357,7 +36393,7 @@
 "d1": "2026-11-21"
 },
 {
-"id": "ctr:1024",
+"id": "ctr:1025",
 "s": "c:ent_fb9d115f2c2a9a7b",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -36386,7 +36422,7 @@
 "d1": "2026-11-21"
 },
 {
-"id": "ctr:1029",
+"id": "ctr:1030",
 "s": "lockheed",
 "t": "c:ent_b0bba4c8f275ffd0",
 "type": "контракт",
@@ -36415,7 +36451,7 @@
 "d1": "2026-11-21"
 },
 {
-"id": "ctr:1048",
+"id": "ctr:1049",
 "s": "c:ent_fb9d115f2c2a9a7b",
 "t": "c:ent_5ebc7c9135270823",
 "type": "разработка",
@@ -36444,7 +36480,7 @@
 "d1": "2026-11-22"
 },
 {
-"id": "ctr:1062",
+"id": "ctr:1063",
 "s": "c:ent_fb9d115f2c2a9a7b",
 "t": "c:ent_ed88ced226e6c399",
 "type": "поставка",
@@ -36473,7 +36509,7 @@
 "d1": "2026-11-23"
 },
 {
-"id": "ctr:1065",
+"id": "ctr:1066",
 "s": "c:ent_7902a5283b8ea891",
 "t": "c:ent_7e0b986a7fca01ab",
 "type": "контракт",
@@ -36502,7 +36538,7 @@
 "d1": "2026-11-23"
 },
 {
-"id": "ctr:1066",
+"id": "ctr:1067",
 "s": "c:ent_b9f675a508d4b13c",
 "t": "c:ent_30faed40c11a902c",
 "type": "контракт",
@@ -36531,7 +36567,7 @@
 "d1": "2026-11-23"
 },
 {
-"id": "ctr:1069",
+"id": "ctr:1070",
 "s": "bae",
 "t": "leonardo",
 "type": "контракт",
@@ -36560,7 +36596,7 @@
 "d1": "2026-11-23"
 },
 {
-"id": "ctr:1070",
+"id": "ctr:1071",
 "s": "lockheed",
 "t": "bae",
 "type": "контракт",
@@ -36589,7 +36625,7 @@
 "d1": "2026-11-23"
 },
 {
-"id": "ctr:1073",
+"id": "ctr:1074",
 "s": "leidos",
 "t": "c:ent_858ae74c4b9cafc3",
 "type": "поставка",
@@ -36619,7 +36655,7 @@
 "d1": "2026-11-23"
 },
 {
-"id": "ctr:1080",
+"id": "ctr:1081",
 "s": "dassault-aviation",
 "t": "dga",
 "type": "поставка",
@@ -36648,7 +36684,7 @@
 "d1": "2026-11-23"
 },
 {
-"id": "ctr:1087",
+"id": "ctr:1088",
 "s": "saab",
 "t": "c:ent_a8e13935e5bd7250",
 "type": "контракт",
@@ -36677,7 +36713,7 @@
 "d1": "2026-11-23"
 },
 {
-"id": "ctr:1097",
+"id": "ctr:1098",
 "s": "quantum",
 "t": "c:ent_7af60e51312772aa",
 "type": "контракт",
@@ -36707,7 +36743,7 @@
 "d1": "2026-11-23"
 },
 {
-"id": "ctr:1098",
+"id": "ctr:1099",
 "s": "c:ent_cd3c86a3a1af0b40",
 "t": "c:ent_8fb86f78250fd022",
 "type": "санкции",
@@ -36736,7 +36772,7 @@
 "d1": "2026-11-23"
 },
 {
-"id": "ctr:1099",
+"id": "ctr:1100",
 "s": "by-volatavto",
 "t": "goskomvoenprom",
 "type": "поставка",
@@ -36763,7 +36799,7 @@
 "d1": "2026-11-23"
 },
 {
-"id": "ctr:1100",
+"id": "ctr:1101",
 "s": "goskomvoenprom",
 "t": "c:ent_860f7b8707ef4321",
 "type": "поставка",
@@ -36790,7 +36826,7 @@
 "d1": "2026-11-23"
 },
 {
-"id": "ctr:1103",
+"id": "ctr:1104",
 "s": "stark",
 "t": "c:ent_7af60e51312772aa",
 "type": "поставка",
@@ -36819,7 +36855,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:1105",
+"id": "ctr:1106",
 "s": "dji",
 "t": "c:ent_b0bba4c8f275ffd0",
 "type": "судебный спор",
@@ -36848,7 +36884,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:1106",
+"id": "ctr:1107",
 "s": "dji",
 "t": "c:ent_b0bba4c8f275ffd0",
 "type": "принадлежность",
@@ -36877,7 +36913,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:1109",
+"id": "ctr:1110",
 "s": "rheinmetall",
 "t": "c:ent_ed88ced226e6c399",
 "type": "подтверждение",
@@ -36907,7 +36943,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:1116",
+"id": "ctr:1117",
 "s": "saab",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "принадлежность",
@@ -36936,7 +36972,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:1140",
+"id": "ctr:1141",
 "s": "thales",
 "t": "c:ent_fb9d115f2c2a9a7b",
 "type": "контракт",
@@ -36966,7 +37002,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:1144",
+"id": "ctr:1145",
 "s": "boeing",
 "t": "airbus-ds",
 "type": "контракт",
@@ -36995,7 +37031,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:1156",
+"id": "ctr:1157",
 "s": "aselsan",
 "t": "c:ent_afc7a411ea213acd",
 "type": "контракт",
@@ -37024,7 +37060,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:1158",
+"id": "ctr:1159",
 "s": "helsing",
 "t": "stark",
 "type": "контракт",
@@ -37054,7 +37090,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:1159",
+"id": "ctr:1160",
 "s": "helsing",
 "t": "c:ent_7af60e51312772aa",
 "type": "контракт",
@@ -37084,7 +37120,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:1160",
+"id": "ctr:1161",
 "s": "stark",
 "t": "c:ent_7af60e51312772aa",
 "type": "контракт",
@@ -37114,7 +37150,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:1164",
+"id": "ctr:1165",
 "s": "c:ent_c67459bab0d7b89b",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -37143,7 +37179,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:1167",
+"id": "ctr:1168",
 "s": "c:ent_cd3c86a3a1af0b40",
 "t": "c:ent_ed88ced226e6c399",
 "type": "поставка",
@@ -37172,7 +37208,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:1169",
+"id": "ctr:1170",
 "s": "mbda",
 "t": "saab",
 "type": "контракт",
@@ -37201,7 +37237,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:1170",
+"id": "ctr:1171",
 "s": "mbda",
 "t": "c:ent_e34347f234325897",
 "type": "контракт",
@@ -37230,7 +37266,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:1171",
+"id": "ctr:1172",
 "s": "saab",
 "t": "c:ent_e34347f234325897",
 "type": "контракт",
@@ -37259,7 +37295,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:1178",
+"id": "ctr:1179",
 "s": "lockheed",
 "t": "c:ent_e3ee3bc165b26374",
 "type": "контракт",
@@ -37288,7 +37324,7 @@
 "d1": "2026-11-24"
 },
 {
-"id": "ctr:1189",
+"id": "ctr:1190",
 "s": "mbda",
 "t": "c:ent_62876239c707a976",
 "type": "контракт",
@@ -37317,7 +37353,7 @@
 "d1": "2026-11-25"
 },
 {
-"id": "ctr:1197",
+"id": "ctr:1198",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_70c30390ecc200db",
 "type": "контракт",
@@ -37347,7 +37383,7 @@
 "d1": "2026-11-25"
 },
 {
-"id": "ctr:1198",
+"id": "ctr:1199",
 "s": "c:ent_70c30390ecc200db",
 "t": "c:ent_470885ea93d65177",
 "type": "контракт",
@@ -37377,7 +37413,7 @@
 "d1": "2026-11-25"
 },
 {
-"id": "ctr:1203",
+"id": "ctr:1204",
 "s": "saab",
 "t": "elbit",
 "type": "контракт",
@@ -37406,7 +37442,7 @@
 "d1": "2026-11-25"
 },
 {
-"id": "ctr:1217",
+"id": "ctr:1218",
 "s": "c:ent_6386f8cb17429c14",
 "t": "c:ent_fb9d115f2c2a9a7b",
 "type": "контракт",
@@ -37435,7 +37471,7 @@
 "d1": "2026-11-25"
 },
 {
-"id": "ctr:1226",
+"id": "ctr:1227",
 "s": "saab",
 "t": "c:ent_cd3c86a3a1af0b40",
 "type": "поставка",
@@ -37464,7 +37500,7 @@
 "d1": "2026-11-25"
 },
 {
-"id": "ctr:1236",
+"id": "ctr:1237",
 "s": "c:ent_cd3c86a3a1af0b40",
 "t": "c:ent_7af60e51312772aa",
 "type": "подтверждение",
@@ -37494,7 +37530,7 @@
 "d1": "2026-11-25"
 },
 {
-"id": "ctr:1250",
+"id": "ctr:1251",
 "s": "teledyne-flir",
 "t": "exail",
 "type": "контракт",
@@ -37523,7 +37559,7 @@
 "d1": "2026-11-26"
 },
 {
-"id": "ctr:1256",
+"id": "ctr:1257",
 "s": "lockheed",
 "t": "rtx",
 "type": "контракт",
@@ -37553,7 +37589,7 @@
 "d1": "2026-11-26"
 },
 {
-"id": "ctr:1260",
+"id": "ctr:1261",
 "s": "c:ent_386741acb9c31483",
 "t": "c:ent_712ba4b7b0671ca1",
 "type": "контракт",
@@ -37582,7 +37618,7 @@
 "d1": "2026-11-26"
 },
 {
-"id": "ctr:1261",
+"id": "ctr:1262",
 "s": "onr",
 "t": "c:ent_fb893484d49eab41",
 "type": "разработка",
@@ -37611,7 +37647,7 @@
 "d1": "2026-11-26"
 },
 {
-"id": "ctr:1263",
+"id": "ctr:1264",
 "s": "c:ent_b0bba4c8f275ffd0",
 "t": "c:ent_6590a9a919800f9a",
 "type": "контракт",
@@ -37640,7 +37676,7 @@
 "d1": "2026-11-26"
 },
 {
-"id": "ctr:1266",
+"id": "ctr:1267",
 "s": "brave1",
 "t": "c:ent_86dfe0c39144d73f",
 "type": "принадлежность",
@@ -37669,7 +37705,7 @@
 "d1": "2026-11-26"
 },
 {
-"id": "ctr:1268",
+"id": "ctr:1269",
 "s": "onr",
 "t": "c:ent_9645ce799b9cf1d7",
 "type": "разработка",
@@ -37698,7 +37734,7 @@
 "d1": "2026-11-26"
 },
 {
-"id": "ctr:1269",
+"id": "ctr:1270",
 "s": "aerovironment",
 "t": "c:ent_fa323d4f8a738909",
 "type": "контракт",
@@ -38046,6 +38082,35 @@
 "nd": 1,
 "d0": "2026-11-27",
 "d1": "2026-11-27"
+},
+{
+"id": "ctr:1340",
+"s": "lockheed",
+"t": "c:ent_54d50937673e6f36",
+"type": "контракт",
+"g": "контур",
+"basis": "цитаты из материалов (контур)",
+"url": "https://parsers.vc/news/261128-lockheed-martin-secures-mass-defense",
+"date": "",
+"n": 1,
+"s2": 1,
+"s1": 0.3,
+"ev": [
+[
+"https://parsers.vc/news/261128-lockheed-martin-secures-mass-defense",
+"2026-11-28 15:42",
+"Lockheed Martin Secures Mass Defense Contracts Ranging From Sonar Systems To F-35 Fleets"
+]
+],
+"oi": [
+"В2"
+],
+"sp": [
+"авиация"
+],
+"nd": 1,
+"d0": "2026-11-28",
+"d1": "2026-11-28"
 },
 {
 "id": "dprog:arpanet",
